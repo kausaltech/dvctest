@@ -1,0 +1,5 @@
+[core]
+    remote = kausal-s3
+['remote "kausal-s3"']
+    url = s3://datasets
+    endpointurl = https://s3.kausal.tech
