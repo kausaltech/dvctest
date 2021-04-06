@@ -1,0 +1,4 @@
+outs:
+- md5: 0c7267ae4d4904cf40bc24ecc4b5cff9
+  size: 712
+  path: hginseutu_va_ve01_vaestoennuste_pks.parquet
