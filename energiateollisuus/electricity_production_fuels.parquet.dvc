@@ -1,0 +1,4 @@
+outs:
+- md5: bdc19a5b63045dbde1749fa16bbd456c
+  size: 41331
+  path: electricity_production_fuels.parquet
