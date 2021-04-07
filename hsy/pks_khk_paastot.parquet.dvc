@@ -1,0 +1,4 @@
+outs:
+- md5: a6995aabd51ff20a62eb7eaa06f96012
+  size: 78821
+  path: pks_khk_paastot.parquet
