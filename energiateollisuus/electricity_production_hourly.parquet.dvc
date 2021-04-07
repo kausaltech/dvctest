@@ -1,4 +1,4 @@
 outs:
-- md5: 70fa54633beda286afb13733ddc5f190
-  size: 8262437
+- md5: fef2c5878dae91796d8b67c1916d55e9
+  size: 10229418
   path: electricity_production_hourly.parquet
