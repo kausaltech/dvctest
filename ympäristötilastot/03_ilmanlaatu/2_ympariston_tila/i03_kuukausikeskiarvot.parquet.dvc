@@ -1,0 +1,4 @@
+outs:
+- md5: 4f9c26c8134664a7b8876e00887632ef
+  size: 113352
+  path: i03_kuukausikeskiarvot.parquet
