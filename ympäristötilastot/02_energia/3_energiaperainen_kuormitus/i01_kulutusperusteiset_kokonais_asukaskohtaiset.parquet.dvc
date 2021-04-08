@@ -1,0 +1,4 @@
+outs:
+- md5: f7af3c0daacd4544689aaa0db6219896
+  size: 31180
+  path: i01_kulutusperusteiset_kokonais_asukaskohtaiset.parquet
