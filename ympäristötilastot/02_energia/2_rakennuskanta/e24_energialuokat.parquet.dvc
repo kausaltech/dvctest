@@ -1,0 +1,4 @@
+outs:
+- md5: d0f4f2a27391fcf183adda3402f0cf15
+  size: 17194
+  path: e24_energialuokat.parquet
