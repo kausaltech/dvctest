@@ -1,0 +1,4 @@
+outs:
+- md5: 6a34bd62e4094cd49d36d5dc2ed2087d
+  size: 5381
+  path: e30_6_pack_energiankulutus.parquet
