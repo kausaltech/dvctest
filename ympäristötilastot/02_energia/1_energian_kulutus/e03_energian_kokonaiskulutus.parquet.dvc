@@ -1,0 +1,4 @@
+outs:
+- md5: 33525aa296dd9f6194bc17eb13d5d6c0
+  size: 26178
+  path: e03_energian_kokonaiskulutus.parquet
