@@ -1,0 +1,4 @@
+outs:
+- md5: 458d8e9e95f4dee09364bb1fcb67f779
+  size: 5400
+  path: e15_helen_kaukolampo_jaahdytys.parquet
