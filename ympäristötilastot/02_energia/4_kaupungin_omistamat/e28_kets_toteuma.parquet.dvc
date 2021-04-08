@@ -1,0 +1,4 @@
+outs:
+- md5: c494d06ac5dbe5b5fc8ae2a0971c33e5
+  size: 5302
+  path: e28_kets_toteuma.parquet
