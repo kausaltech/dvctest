@@ -1,0 +1,4 @@
+outs:
+- md5: a560e88f9526ffc2d607fe08228cac5c
+  size: 8302
+  path: e20_helen_kaukolampo_vuosikymmenet.parquet
