@@ -1,0 +1,4 @@
+outs:
+- md5: 9c9659f3a313dbb62bbe10140dc0e68c
+  size: 9022
+  path: e7_energiantuotanto_paastot.parquet
