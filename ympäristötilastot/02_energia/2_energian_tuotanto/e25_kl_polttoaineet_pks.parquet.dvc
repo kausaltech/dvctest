@@ -1,0 +1,4 @@
+outs:
+- md5: c863f27d0247aa7e569e3b102920ad03
+  size: 18833
+  path: e25_kl_polttoaineet_pks.parquet
