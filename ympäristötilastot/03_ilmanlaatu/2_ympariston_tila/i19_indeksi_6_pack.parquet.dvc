@@ -1,0 +1,4 @@
+outs:
+- md5: 7e31ddb69acefcbfa110226fdebca6f3
+  size: 3959
+  path: i19_indeksi_6_pack.parquet
