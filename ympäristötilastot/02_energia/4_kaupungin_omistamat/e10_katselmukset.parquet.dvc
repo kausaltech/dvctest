@@ -1,0 +1,4 @@
+outs:
+- md5: 3e3c0fe540e7755c1fb38e48cb043d7b
+  size: 6825
+  path: e10_katselmukset.parquet
