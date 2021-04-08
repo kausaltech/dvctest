@@ -1,0 +1,4 @@
+outs:
+- md5: 9a6f479960d92aa2db95b73ad65c3388
+  size: 25597
+  path: e21_kaup_rakennus_tyypeittain.parquet
