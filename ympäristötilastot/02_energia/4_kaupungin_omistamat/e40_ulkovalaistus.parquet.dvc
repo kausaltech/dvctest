@@ -1,0 +1,4 @@
+outs:
+- md5: e5dce35ad1adf9550833e155ecfae62c
+  size: 4634
+  path: e40_ulkovalaistus.parquet
