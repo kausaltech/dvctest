@@ -1,0 +1,4 @@
+outs:
+- md5: 70d01ca52aba4ac9a56c718a6272682f
+  size: 10384
+  path: e2_kaupungin_rakenn_sahko_lampo.parquet
