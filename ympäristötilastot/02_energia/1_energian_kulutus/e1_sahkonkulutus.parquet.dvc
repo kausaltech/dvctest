@@ -1,0 +1,4 @@
+outs:
+- md5: c3a0f07372b5669f547e34770eb3fe83
+  size: 10909
+  path: e1_sahkonkulutus.parquet
