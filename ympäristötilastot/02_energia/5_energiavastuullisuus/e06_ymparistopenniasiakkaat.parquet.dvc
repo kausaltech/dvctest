@@ -1,0 +1,4 @@
+outs:
+- md5: bc8efc029d7fa6c1ca20a85f15956cb5
+  size: 5365
+  path: e06_ymparistopenniasiakkaat.parquet
