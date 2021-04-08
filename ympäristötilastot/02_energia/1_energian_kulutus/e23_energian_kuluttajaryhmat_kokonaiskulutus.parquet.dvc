@@ -1,0 +1,4 @@
+outs:
+- md5: 68896d9d40611352ec3726e1ed6f8d3a
+  size: 16370
+  path: e23_energian_kuluttajaryhmat_kokonaiskulutus.parquet
