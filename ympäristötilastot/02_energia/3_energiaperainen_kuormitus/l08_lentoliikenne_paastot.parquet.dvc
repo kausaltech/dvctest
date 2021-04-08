@@ -1,0 +1,4 @@
+outs:
+- md5: e519da9719b65ec7ac6d75661c553c6f
+  size: 6551
+  path: l08_lentoliikenne_paastot.parquet
