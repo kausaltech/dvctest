@@ -1,0 +1,4 @@
+outs:
+- md5: 3d40efe2b85437cc864aa38e9cf6ed9e
+  size: 19026
+  path: e12_helsingin_kaukolammon_sahkonkulutus.parquet
