@@ -1,0 +1,4 @@
+outs:
+- md5: 8b59006875afef14a534711fa5e0a5d3
+  size: 38710
+  path: i01_ilmanlaatuindeksi.parquet
