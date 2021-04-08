@@ -1,0 +1,4 @@
+outs:
+- md5: f287975790db38fe6b0d1b8a40d4854e
+  size: 6891
+  path: e48_pks_energianeuvonta.parquet
