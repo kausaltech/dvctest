@@ -1,0 +1,4 @@
+outs:
+- md5: 6a6fa0a7cfb39073af80c394079e108f
+  size: 18866
+  path: e13_helen_vantaa_kaukolammon_sahkonhankinta.parquet
