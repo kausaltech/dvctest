@@ -1,0 +1,4 @@
+outs:
+- md5: f14575ef9548915f781ae90b9c4a4575
+  size: 7906
+  path: e2_palvelurakennukset_sahko_lampo.parquet
