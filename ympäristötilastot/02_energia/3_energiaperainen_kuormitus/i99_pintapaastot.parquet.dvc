@@ -1,0 +1,4 @@
+outs:
+- md5: 27ae22f24b2e8c474dc5a54547d1cfd7
+  size: 15701
+  path: i99_pintapaastot.parquet
