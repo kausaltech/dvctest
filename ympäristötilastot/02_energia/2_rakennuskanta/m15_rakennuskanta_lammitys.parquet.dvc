@@ -1,0 +1,4 @@
+outs:
+- md5: a9efedb2437b59a8a2280e80496e792a
+  size: 35452
+  path: m15_rakennuskanta_lammitys.parquet
