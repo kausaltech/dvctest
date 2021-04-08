@@ -1,0 +1,4 @@
+outs:
+- md5: f6bb745d709cadfa11e3fc7f6ac767bf
+  size: 4011
+  path: i04_bioindikaattorit.parquet
