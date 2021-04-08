@@ -1,0 +1,4 @@
+outs:
+- md5: 1c2a2294194bfc46112346d5193f9188
+  size: 7773
+  path: j8_kaatopaikat_energiantuotanto.parquet
