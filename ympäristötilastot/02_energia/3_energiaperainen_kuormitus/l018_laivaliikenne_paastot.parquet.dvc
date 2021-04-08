@@ -1,0 +1,4 @@
+outs:
+- md5: be2b1dfbf027b5c3ef037b265c881af4
+  size: 9919
+  path: l018_laivaliikenne_paastot.parquet
