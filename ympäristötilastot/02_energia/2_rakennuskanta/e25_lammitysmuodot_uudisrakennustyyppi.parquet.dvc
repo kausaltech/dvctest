@@ -1,0 +1,4 @@
+outs:
+- md5: 8a9f2a836d3be0e71f2c69777414996a
+  size: 118168
+  path: e25_lammitysmuodot_uudisrakennustyyppi.parquet
