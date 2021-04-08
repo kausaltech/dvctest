@@ -1,0 +1,4 @@
+outs:
+- md5: a960c4965e7136ad0c1627b114d8b37b
+  size: 6698
+  path: e33_kaukolampo_6_pack.parquet
