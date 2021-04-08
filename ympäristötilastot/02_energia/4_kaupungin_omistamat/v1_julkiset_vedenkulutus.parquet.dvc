@@ -1,0 +1,4 @@
+outs:
+- md5: 2e2d20834c3c76028cff5fd126412c2f
+  size: 5185
+  path: v1_julkiset_vedenkulutus.parquet
