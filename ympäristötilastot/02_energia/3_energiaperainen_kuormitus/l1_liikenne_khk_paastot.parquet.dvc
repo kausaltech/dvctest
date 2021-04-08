@@ -1,0 +1,4 @@
+outs:
+- md5: 57b67735c4d34363b6656c9bad0895bd
+  size: 38619
+  path: l1_liikenne_khk_paastot.parquet
