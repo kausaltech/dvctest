@@ -1,0 +1,4 @@
+outs:
+- md5: 72503ebb9d9caba462e59ad6d128a3c3
+  size: 10534
+  path: l015_tieliikenteen_paastot.parquet
