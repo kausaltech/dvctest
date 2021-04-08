@@ -1,0 +1,4 @@
+outs:
+- md5: 4a8c30c65cf69e1520772d286425e69f
+  size: 22101
+  path: i02_vuosikeskiarvot.parquet
