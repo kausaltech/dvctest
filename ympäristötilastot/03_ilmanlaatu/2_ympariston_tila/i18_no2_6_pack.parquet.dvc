@@ -1,0 +1,4 @@
+outs:
+- md5: 5ae6af4012c3856a68cc4933c3fbbbbd
+  size: 4438
+  path: i18_no2_6_pack.parquet
