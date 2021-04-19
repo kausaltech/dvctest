@@ -1,0 +1,4 @@
+outs:
+- md5: 569597f53f117328cfe11e187b35c49c
+  size: 23189
+  path: diff.parquet
