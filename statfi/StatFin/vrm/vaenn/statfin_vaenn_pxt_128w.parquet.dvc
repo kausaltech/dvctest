@@ -1,0 +1,4 @@
+outs:
+- md5: f6661fab4e307da9e8c42802ca11b0a0
+  size: 221567
+  path: statfin_vaenn_pxt_128w.parquet
