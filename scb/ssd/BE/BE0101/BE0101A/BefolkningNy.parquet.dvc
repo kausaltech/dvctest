@@ -1,0 +1,4 @@
+outs:
+- md5: a2ee0577baa056d08f26f9253c0b28a0
+  size: 5383
+  path: BefolkningNy.parquet
