@@ -1,0 +1,4 @@
+outs:
+- md5: 05022cf333792c06eebb72b850a96b70
+  size: 3079710
+  path: emissions_by_municipality.parquet
