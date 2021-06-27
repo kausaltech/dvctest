@@ -1,4 +1,4 @@
 outs:
-- md5: e4a4e80033e9887c2777fe1c77db699e
+- md5: e72de793bb1e68f4730b742733b2af00
   size: 28503
   path: bau.parquet
