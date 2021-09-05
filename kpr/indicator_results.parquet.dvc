@@ -1,0 +1,4 @@
+outs:
+- md5: 0bad3bd2ae9117ce451e09132c296f11
+  size: 48083
+  path: indicator_results.parquet
