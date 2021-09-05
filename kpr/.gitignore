@@ -2,3 +2,4 @@
 /emission_statistics.parquet
 /adjustments.parquet
 /indicator_results.parquet
+/instruments_and_measures.parquet

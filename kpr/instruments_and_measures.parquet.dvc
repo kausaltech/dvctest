@@ -1,0 +1,4 @@
+outs:
+- md5: d6d6e0d7ff9822556d99b82e275660fc
+  size: 225828
+  path: instruments_and_measures.parquet
