@@ -1,0 +1,4 @@
+outs:
+- md5: 432a8f3e450c2f7b4dcbc03524adfb1d
+  size: 18153
+  path: emission_sectors.parquet
