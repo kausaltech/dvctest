@@ -1,0 +1,4 @@
+outs:
+- md5: f4b53805b5fdf36728ce3a4dea634dfd
+  size: 10546
+  path: emission_statistics.parquet
