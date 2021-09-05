@@ -1,0 +1,4 @@
+outs:
+- md5: 731927c0b8cec469704c6aa6588c6c21
+  size: 46671
+  path: adjustments.parquet
