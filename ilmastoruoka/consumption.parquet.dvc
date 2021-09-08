@@ -1,0 +1,4 @@
+outs:
+- md5: 40797055043b38afb898a58e48d37cb0
+  size: 13582
+  path: consumption.parquet
