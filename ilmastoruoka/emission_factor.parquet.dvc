@@ -1,0 +1,4 @@
+outs:
+- md5: d643f6acd288484f62477b4367748282
+  size: 13698
+  path: emission_factor.parquet

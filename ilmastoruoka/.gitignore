@@ -1,2 +1,3 @@
-/consumption.parquet
 /emissions.parquet
+/consumption.parquet
+/emission_factor.parquet
