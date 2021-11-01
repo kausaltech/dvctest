@@ -1,0 +1,9 @@
+outs:
+- md5: bf2e470a77d853166c1183dbdca32acf
+  size: 34404
+  path: electricity_consumption_by_municipality.parquet
+meta:
+  units:
+    HousingAndAgriculture: gigawatt_hour
+    Industry: gigawatt_hour
+    ServiceAndConstruction: gigawatt_hour

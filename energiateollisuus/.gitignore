@@ -2,3 +2,4 @@
 /district_heating_production.parquet
 /electricity_production_hourly.parquet
 /electricity_production_fuels.parquet
+/electricity_consumption_by_municipality.parquet
