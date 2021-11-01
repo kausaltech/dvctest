@@ -1,4 +1,18 @@
 outs:
-- md5: 05022cf333792c06eebb72b850a96b70
-  size: 3079710
+- md5: d57865aa3b982927d379bcce70bbfc0a
+  size: 3079726
   path: emissions_by_municipality.parquet
+meta:
+  units:
+    CO: metric_ton
+    HC: metric_ton
+    NOx: metric_ton
+    PM: metric_ton
+    CH4: metric_ton
+    N2O: metric_ton
+    SO2: metric_ton
+    CO2: metric_ton
+    CO2e: metric_ton
+    FuelConsumption: metric_ton
+    Energy: terajoule
+    Mileage: kilometer
