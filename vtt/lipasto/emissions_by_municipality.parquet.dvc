@@ -1,5 +1,5 @@
 outs:
-- md5: b86ad7387768164b16a0204a66e37a9c
+- md5: 64c082ca1fface32e0282093c9f11781
   size: 3048626
   path: emissions_by_municipality.parquet
 meta:
@@ -15,4 +15,4 @@ meta:
     CO2e: metric_ton
     FuelConsumption: metric_ton
     Energy: terajoule
-    Mileage: kilometer
+    Mileage: gigameter
