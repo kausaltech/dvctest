@@ -1,0 +1,9 @@
+outs:
+- md5: ae1e25f1214378cbfdd10580eada6778
+  size: 3793
+  path: air_pollution.parquet
+meta:
+  references:
+    general: Humbert et al. 2011 https://doi.org/10.1021/es103563z http://en.opasnet.org/w/Intake_fractions_of_PM#Data
+  units:
+    Value: ppm
