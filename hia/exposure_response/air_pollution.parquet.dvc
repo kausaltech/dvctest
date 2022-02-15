@@ -23,7 +23,7 @@ meta:
     PM10 chronic bronchitis:
       general: http://fi.opasnet.org/fi/Kiltova
       function: log(1.08)/10 HRAPIE
-      default_incicende: PAQ2018
+      default_incidence: PAQ2018
       case_burden: http://fi.opasnet.org/fi/Kiltova#PAQ2018
       case_cost: Holland et al., 2014
   units:
