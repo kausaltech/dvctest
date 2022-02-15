@@ -1,0 +1,16 @@
+outs:
+- md5: 451072de5ab1f9c0de430552ba3f95b6
+  size: 5805
+  path: toxic_equivalency_factors.parquet
+meta:
+  references:
+    general: http://en.opasnet.org/w/Toxic_equivalency_factor http://en.opasnet.org/w/Toxic_equivalency_factor_references
+    WHO2005: 'Martin Van den Berg, Linda S. Birnbaum, Michael Denison, Mike De Vito,
+      William Farland, Mark Feeley, Heidelore Fiedler, Helen Hakansson, Annika Hanberg,
+      Laurie Haws, Martin Rose, Stephen Safe, Dieter Schrenk, Chiharu Tohyama, Angelika
+      Tritscher, Jouko Tuomisto, Mats Tysklind, Nigel Walker, and Richard E. Peterson:
+      The 2005 World Health Organization Reevaluation of Human and Mammalian Toxic
+      Equivalency Factors for Dioxins and Dioxin-Like Compounds. Toxicological Sciences
+      93(2), 223–241 (2006) doi:10.1093/toxsci/kfl055.'
+  units:
+    Value: TEF
