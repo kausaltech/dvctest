@@ -1,0 +1,18 @@
+outs:
+- md5: 500fd603162ecf81d5b1291ed8ad668f
+  size: 9134
+  path: noise.parquet
+meta:
+  references:
+    general: http://fi.opasnet.org/fi/Liikenteen_terveysvaikutukset. For exposure
+      data, see e.g. https://cdr.eionet.europa.eu/fi/eu/noise/df8/2017/envwjdfiq
+    function: 'All exposure-response functions: WHO & JRC 2011 (values scaled from
+      % to fraction). https://apps.who.int/iris/handle/10665/326424'
+    case_burden: disability weight 0.02, duration 1 year
+  units:
+    period: a / incident
+    param_exposure: Lden dB
+    param_poly1: (Lden dB)**-1
+    param_poly2: (Lden dB)**-2
+    param_poly3: (Lden dB)**-3
+    case_burden: DALY / case
