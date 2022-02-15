@@ -1,0 +1,35 @@
+outs:
+- md5: 17ebacb54fea3eecaf0c8e9914a2ff89
+  size: 8512
+  path: air_pollution.parquet
+meta:
+  references:
+    PM2_5 mortality:
+      general: http://en.opasnet.org/w/ERF_of_outdoor_air_pollution
+      function: log(1.08)/10 Chen & Hoek, 2020
+      default_-incidence: https://stat.fi/til/ksyyt/2020/ksyyt_2020_2021-12-10_tau_001_fi.html
+      case_burden: De Leeuw & Horàlek 2016/5 http://fi.opasnet.org/fi/Kiltova#PAQ2018
+    PM2_5 work_days_lost:
+      general: http://fi.opasnet.org/fi/Kiltova
+      function: log(1.046)/10 HRAPIE
+      incidence: PAQ2018
+      case_burden: 0.099 DW * 0.00274 a, Heimtsa & Intarese http://fi.opasnet.org/fi/Kiltova#PAQ2018
+      case_cost: Holland et al., 2014
+    NOx mortality:
+      general: For NO2 atm.  http://fi.opasnet.org/fi/Kiltova, Atkinson et al., 2017
+      function: log(1.02)/10
+      default_incidence: Same as PM2.5 https://stat.fi/til/ksyyt/2020/ksyyt_2020_2021-12-10_tau_001_fi.html
+      case_burden: Same as PM2.5 De Leeuw & Horàlek 2016/5 http://fi.opasnet.org/fi/Kiltova#PAQ2018
+    PM10 chronic bronchitis:
+      general: http://fi.opasnet.org/fi/Kiltova
+      function: log(1.08)/10 HRAPIE
+      default_incicende: PAQ2018
+      case_burden: http://fi.opasnet.org/fi/Kiltova#PAQ2018
+      case_cost: Holland et al., 2014
+  units:
+    period: year / incident
+    param_inv_inhalation: m**3 / ug
+    param_inhalation: ug / m**3
+    default_incidence: cases / personyear
+    case_burden: DALY / case
+    case_cost: EUR / case
