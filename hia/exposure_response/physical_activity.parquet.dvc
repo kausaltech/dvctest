@@ -1,31 +1,31 @@
 outs:
-- md5: 09a9e628abc505ffab632c39ff8ba5b0
-  size: 8310
+- md5: 7e396be130ed44f3e692713a55c66104
+  size: 8375
   path: physical_activity.parquet
 meta:
   references:
-    general: http://fi.opasnet.org/fi/Liikenteen_terveysvaikutukset Lehtomäki, H.,
+    General: http://fi.opasnet.org/fi/Liikenteen_terveysvaikutukset Lehtomäki, H.,
       Karvosenoja, N., Paunu, V-V., Korhonen, A., Hänninen, O., Tuomisto, J., Karppinen,
       A., Kukkonen, J. & Tainio, M. 2021. Liikenteen terveysvaikutukset Suomessa ja
       suurimmissa kaupungeissa. Suomen ympäristökeskuksen raportteja 16/2021. http://hdl.handle.net/10138/329273
-    velocity: Kelly ym. 2014
-    metabolic_equivalent: Kahlmeier, S., Götschi, T., Cavill, N., Castro Fernandez,
+    Velocity: Kelly ym. 2014
+    Metabolic_equivalent: Kahlmeier, S., Götschi, T., Cavill, N., Castro Fernandez,
       A., Brand, C., Rojas Rueda, D., Woodcock, J., Kelly, P., Lieb, C., Oja, P.,
       Foster, C., Rutter, H., & Racioppi, F. 2017. Health economic assessment tool
       (HEAT) for walking and for cy- cling. Methods and user guide on physical activity,
       air pollution, injuries and carbon impact assessments. World Health Organization.
       Denmark, Copenhagen. https://www.euro.who.int/__data/assets/pdf_file/0010/352963/Heat.pdf
-    weekly_activity: 'Cambridgen yliopisto 2020, Woodcock, J., Tainio, M., Cheshire,
+    Weekly_activity: 'Cambridgen yliopisto 2020, Woodcock, J., Tainio, M., Cheshire,
       J., O’Brien, O. & Goodman, A. 2014. Health effects of the London bicycle sharing
       system: health impact modelling study. The BMJ 348:g425.'
-    er_function: Kelly, P., Kahlmeier, S., Götschi, T. et al. Systematic review and
+    Er_function: Kelly, P., Kahlmeier, S., Götschi, T. et al. Systematic review and
       meta-analysis of reduction in all-cause mortality from walking and cycling and
       shape of dose response relationship. Int J Behav Nutr Phys Act 11, 132 (2014).
       https://doi.org/10.1186/s12966-014-0132-x
     param_inv_exposure: log(0.9)/(11.25 METh/week)
   units:
-    velocity: km / h
-    metabolic_equivalent: METh / h
-    weekly_activity: day / week
-    period: a / incident
+    Velocity: km / h
+    Metabolic_equivalent: METh / h
+    Weekly_activity: day / week
+    Period: a / incident
     param_inv_exposure: week / METh
