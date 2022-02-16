@@ -1,0 +1,39 @@
+outs:
+- md5: cd50431482a48c5cca0b28046143860b
+  size: 10249
+  path: food.parquet
+meta:
+  references:
+    dioxin cancer:
+      General: http://en.opasnet.org/w/ERF_of_dioxin
+      Er_function: U.S.EPA 2004. https://cfpub.epa.gov/ncea/risk/recordisplay.cfm?deid=87843
+      Default_incidence: https://stat.fi/til/ksyyt/2020/ksyyt_2020_2021-12-10_tau_001_fi.html
+      Case_burden: http://en.opasnet.org/w/Goherr_assessment#Model_parameters
+    dioxin tolerable_weekly_intake:
+      General: http://en.opasnet.org/w/ERF_of_dioxin
+      Er_function: EFSA dioxin recommendation 2018
+      Default_incidence: nominal; everyone is exposed
+      Case_burden: http://en.opasnet.org/w/Goherr_assessment#Model_parameters
+    omega3 chd_mortality:
+      General: http://en.opasnet.org/w/ERF_of_omega-3_fatty_acids
+      Er_function: Cohen et al 2005 http://www.ncbi.nlm.nih.gov/pubmed/16242602
+      Default_incidence: https://stat.fi/til/ksyyt/2020/ksyyt_2020_2021-12-10_tau_001_fi.html
+      Case_burden: http://fi.opasnet.org/fi/Goherr_assessment#Model_parameters
+    omega3 breast_cancer:
+      General: http://en.opasnet.org/w/ERF_of_omega-3_fatty_acids
+      Er_function: log(0.95)/(0.1 g/d)
+      Default_incidence: https://syoparekisteri.fi/tilastot/tautitilastot/?_inputs_&value_type="inc.rate"&submit=2&tabset_panel="2"&value_theme="theme_inc"&tabu="inc_ts1"&table_cells_selected=[]&language="fi"&in.subset.sites=["0L","24L"]&in.subset.sex="-1L"&in.subset.area="-1L"&table_view="v2"&table_rows_selected=null&table_columns_selected=null&
+      Case_burden: http://en.opasnet.org/w/Goherr_assessment#Model_parameters
+    vitamin_D deficiency:
+      Period: sunlight prevents deficiency during summer
+      Er_function: http://en.opasnet.org/w/ERFs_of_vitamins
+      Case_burden: http://en.opasnet.org/w/Goherr_assessment#Model_parameters
+  units:
+    param_inv_exposure: d·kg/pg
+    param_exposure: pg/d/kg
+    param2_exposure: pg/kg/week
+    param_ingestion: mg/d
+    param2_ingestion: µg/d
+    param_inv_ingestion: g/d
+    Default_incidence: case/a
+    Case_burden: DALY/case
