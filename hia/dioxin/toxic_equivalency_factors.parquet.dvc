@@ -4,7 +4,7 @@ outs:
   path: toxic_equivalency_factors.parquet
 meta:
   references:
-    general: http://en.opasnet.org/w/Toxic_equivalency_factor http://en.opasnet.org/w/Toxic_equivalency_factor_references
+    General: http://en.opasnet.org/w/Toxic_equivalency_factor http://en.opasnet.org/w/Toxic_equivalency_factor_references
     WHO2005: 'Martin Van den Berg, Linda S. Birnbaum, Michael Denison, Mike De Vito,
       William Farland, Mark Feeley, Heidelore Fiedler, Helen Hakansson, Annika Hanberg,
       Laurie Haws, Martin Rose, Stephen Safe, Dieter Schrenk, Chiharu Tohyama, Angelika
