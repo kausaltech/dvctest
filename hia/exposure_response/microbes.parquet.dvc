@@ -1,14 +1,14 @@
 outs:
-- md5: dd7d63b367fedf66bca8131fa0140945
-  size: 8649
+- md5: 07ce446e47cdd444587dba9c698653ab
+  size: 8721
   path: microbes.parquet
 meta:
   references:
-    general: http://en.opasnet.org/w/Water_guide
-    function: http://en.opasnet.org/w/ERF_of_waterborne_microbes
+    General: http://en.opasnet.org/w/Water_guide
+    Er_function: http://en.opasnet.org/w/ERF_of_waterborne_microbes
   units:
-    period: days / incident
-    case_burden: DALY / case
+    Period: days / incident
+    Case_burden: DALY / case
     param_ingestion: microbes / day
     param_ingestion2: microbes / day
     param_inv_ingestion: day / microbes
