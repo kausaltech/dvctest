@@ -1,0 +1,4 @@
+outs:
+- md5: 26a45c5434ae62cccbc98fc02a809469
+  size: 4854359
+  path: statfin_vaerak_pxt_11re.parquet
