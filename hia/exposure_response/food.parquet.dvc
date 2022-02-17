@@ -1,6 +1,6 @@
 outs:
-- md5: 1304b6d676783524c0682f6a17072dc8
-  size: 9465
+- md5: 2772539daa3eb7a6ecb9f284540160be
+  size: 10062
   path: food.parquet
 meta:
   references:
