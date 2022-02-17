@@ -1,6 +1,6 @@
 outs:
-- md5: ca29cfb74a606f3082dacf4f473c453e
-  size: 8584
+- md5: f80b43f80667f6da50d548316e3cab33
+  size: 7911
   path: air_pollution.parquet
 meta:
   references:
@@ -28,8 +28,8 @@ meta:
       Case_cost: Holland et al., 2014
   units:
     Period: year / incident
-    param_inv_inhalation: m**3 / ug
-    param_inhalation: ug / m**3
+    inhalation_m1: m**3 / ug
+    inhalation_p1: ug / m**3
     Default_incidence: cases / personyear
     Case_burden: DALY / case
     Case_cost: EUR / case
