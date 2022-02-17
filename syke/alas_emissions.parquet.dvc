@@ -1,9 +1,9 @@
 outs:
-- md5: 286610f1b4209902e76e9f13f245616e
-  size: 4200283
+- md5: bcb33c6ded507f77d5b4901171d44585
+  size: 4200295
   path: alas_emissions.parquet
 meta:
   units:
-    ktCO2e: gigagram
-    ktCO2e_tuuli: gigagram
-    energiankulutus: gigawatt_hour
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year
