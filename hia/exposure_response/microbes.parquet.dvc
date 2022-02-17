@@ -1,5 +1,5 @@
 outs:
-- md5: 07ce446e47cdd444587dba9c698653ab
+- md5: 70a8450267f66f2bf8d9b7d728badf20
   size: 8721
   path: microbes.parquet
 meta:
@@ -10,5 +10,5 @@ meta:
     Period: days / incident
     Case_burden: DALY / case
     param_ingestion: microbes / day
-    param_ingestion2: microbes / day
+    param2_ingestion: microbes / day
     param_inv_ingestion: day / microbes
