@@ -1,6 +1,6 @@
 outs:
-- md5: 27c0eb81f01b5e2c2be90834942586ea
-  size: 9206
+- md5: bbf7d5c2d4cc08442934c054658ba363
+  size: 8516
   path: noise.parquet
 meta:
   references:
@@ -11,8 +11,8 @@ meta:
     Case_burden: disability weight 0.02, duration 1 year
   units:
     Period: a / incident
-    param_exposure: Lden dB
-    param_poly1: (Lden dB)**-1
-    param_poly2: (Lden dB)**-2
-    param_poly3: (Lden dB)**-3
+    noise_p1: Lden
+    noise_m1: (Lden)**-1
+    noise_m2: (Lden)**-2
+    noise_m3: (Lden)**-3
     Case_burden: DALY / case
