@@ -1,6 +1,6 @@
 outs:
-- md5: cd50431482a48c5cca0b28046143860b
-  size: 10249
+- md5: 1304b6d676783524c0682f6a17072dc8
+  size: 9465
   path: food.parquet
 meta:
   references:
@@ -29,11 +29,11 @@ meta:
       Er_function: http://en.opasnet.org/w/ERFs_of_vitamins
       Case_burden: http://en.opasnet.org/w/Goherr_assessment#Model_parameters
   units:
-    param_inv_exposure: d·kg/pg
-    param_exposure: pg/d/kg
-    param2_exposure: pg/kg/week
-    param_ingestion: mg/d
-    param2_ingestion: µg/d
-    param_inv_ingestion: g/d
+    exposure_m1: d·kg/pg
+    exposure_p1: pg/d/kg
+    exposure_p1_2: pg/kg/week
+    ingestion_p1: mg/d
+    ingestion_p1_2: µg/d
+    ingestion_m1: d/g
     Default_incidence: case/a
     Case_burden: DALY/case
