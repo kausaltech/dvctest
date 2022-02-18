@@ -6,6 +6,7 @@ meta:
   references:
     General: http://en.opasnet.org/w/Water_guide
     Er_function: http://en.opasnet.org/w/ERF_of_waterborne_microbes
+    Case_burden: nominal value for gastroenteritis. Excludes complications http://en.opasnet.org/w/Case_burden_of_waterborne_microbes
   units:
     Period: days / incident
     Case_burden: DALY / case
