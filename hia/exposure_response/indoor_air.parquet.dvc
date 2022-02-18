@@ -1,0 +1,12 @@
+outs:
+- md5: 616763a0117c6f71e908c5aba8618d5c
+  size: 6270
+  path: indoor_air.parquet
+meta:
+  references:
+    General: http://en.opasnet.org/w/ERF_for_long-term_indoor_exposure_to_radon_and_lung_cancerhttp://en.opasnet.org/w/ERFs_of_environmental_pollutants
+    Er_function: log(1.0016) Darby 2005 http://www.bmj.com/cgi/content/full/330/7485/223
+  units:
+    Period: a
+    inhalationBq_m1: m³/Bq
+    inhalationBq_p1: Bq/m³
