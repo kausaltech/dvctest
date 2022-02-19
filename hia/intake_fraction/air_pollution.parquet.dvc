@@ -1,9 +1,10 @@
 outs:
-- md5: d763af0b67d4cd43f3db26f3baaa3a9b
-  size: 3887
+- md5: 4b5f96c987f136612dceee259485e071
+  size: 3934
   path: air_pollution.parquet
 meta:
   references:
     General: Humbert et al. 2011 https://doi.org/10.1021/es103563z http://en.opasnet.org/w/Intake_fractions_of_PM#Data
+    Emission_height: The values for SO2, NOx, and NH3 apply to all emission heights.
   units:
     Value: ppm
