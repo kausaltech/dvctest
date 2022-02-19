@@ -1,6 +1,6 @@
 outs:
-- md5: 9539e2b0ac1169934e17b95eb2a02f29
-  size: 9064
+- md5: 5ac54f2b94eb0e8b0e7b1b4eb818b7b0
+  size: 9732
   path: noise.parquet
 meta:
   references:
@@ -8,6 +8,7 @@ meta:
       data, see e.g. https://cdr.eionet.europa.eu/fi/eu/noise/df8/2017/envwjdfiq
     Er_function: 'All exposure-response functions: WHO & JRC 2011 (values scaled from
       % to fraction). https://apps.who.int/iris/handle/10665/326424'
+    Incidence: Nominal value that matches period and case burden
     Case_burden: disability weight 0.02, duration 1 year
   units:
     Period: a / incident
@@ -15,4 +16,5 @@ meta:
     noise_m1: (Lden)**-1
     noise_m2: (Lden)**-2
     noise_m3: (Lden)**-3
+    Incidence: cases / a
     Case_burden: DALY / case
