@@ -1,5 +1,5 @@
 outs:
-- md5: 23ef2287581d6903c8ed1abc9baa5eed
+- md5: fe66091f2c1d757e4dd8c305cdf1c526
   size: 3768
   path: default.parquet
 meta:
@@ -19,14 +19,17 @@ meta:
     vitamin_D deficiency:
       Case_burden: http://en.opasnet.org/w/Goherr_assessment#Model_parameters
     PM2_5 mortality:
-      Incidence: 18496 cases / (5533793 personyears) https://stat.fi/til/ksyyt/2020/ksyyt_2020_2021-12-10_tau_001_fi.html
+      Incidence: http://fi.opasnet.org/fi/Kiltova#PAQ2018
       Case_burden: De Leeuw & Horàlek 2016/5 http://fi.opasnet.org/fi/Kiltova#PAQ2018
     PM2_5 work_days_lost:
+      Incidence: http://fi.opasnet.org/fi/Kiltova#PAQ2018
       Case_burden: 0.099 DW * 0.00274 a, Heimtsa & Intarese http://fi.opasnet.org/fi/Kiltova#PAQ2018
       Case_cost: Holland et al., 2014
     NOx mortality:
+      Incidence: http://fi.opasnet.org/fi/Kiltova#PAQ2018
       Case_burden: Same as PM2.5 De Leeuw & Horàlek 2016/5 http://fi.opasnet.org/fi/Kiltova#PAQ2018
     PM10 chronic_bronchitis:
+      Incidence: 'HRAPIE: SAPALDIA http://fi.opasnet.org/fi/Kiltova#PAQ2018'
       Case_burden: http://fi.opasnet.org/fi/Kiltova#PAQ2018
       Case_cost: Holland et al., 2014
   units:
