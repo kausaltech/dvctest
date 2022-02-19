@@ -25,6 +25,7 @@ meta:
       Er_function: http://en.opasnet.org/w/ERFs_of_vitamins
       Case_burden: http://en.opasnet.org/w/Goherr_assessment#Model_parameters
   units:
+    Period: a/case
     exposure_m1: d·kg/pg
     exposure_p1: pg/d/kg
     exposure_p1_2: pg/kg/week
