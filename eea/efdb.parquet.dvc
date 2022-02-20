@@ -1,0 +1,22 @@
+outs:
+- md5: 7c7463d830e1fa6216b64bc93cf960cd
+  size: 166223
+  path: efdb.parquet
+meta:
+  notes:
+    General: 'The full EFDB dataset contains 13209 entries, of which 2841 are road
+      transport data: 152 fuel consumptions and 2689 emission factors. Of the emission
+      factors, 202 were given per kg fuel used and 348 had units g/vehicle/d (NMVOC
+      from fuel evaporation); these 550 entries were excluded. This left us with 19
+      emission factors about road abrasion and tyre and break ware, and 2120 emission
+      factors about tailpipe emissions, i.e. 2139 emission factors that are in this
+      dataset. All are in units g/km.'
+    Typical vehicles:
+      Personal gasoline car: Petrol Medium - Euro 5 – EC 715/2007
+      Personal diesel car: Diesel Medium - Euro 5 – EC 715/2007
+      Bus: Urban Buses Standard - Euro V - 2008
+      Motorbikes and mopeds: 4-stroke 250 - 750 cm³ - Conventional
+      Heavy-duty vehicles: Diesel 16 - 32 t - Euro IV - 2005
+      Light-duty vehicles: Diesel - Euro 5 – EC 715/2007
+  references:
+    General: EMEP/EEA air pollutant emission inventory guidebook 2019. http://efdb.apps.eea.europa.eu/
