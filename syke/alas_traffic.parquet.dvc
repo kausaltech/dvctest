@@ -1,0 +1,19 @@
+outs:
+- md5: cbb7be24eecce51b7f871e21ebbbf72d
+  size: 8384226
+  path: alas_traffic.parquet
+meta:
+  references:
+    General: Data comes from the ALas model developed by the Finnish Environment Institute.
+      Data loaded in January 2022. https://hiilineutraalisuomi.fi/fi-FI/Paastot_ja_indikaattorit/Kuntien_ja_alueiden_kasvihuonekaasupaastot
+  notes:
+    General: This data contains road transportation data only. It is a part of data
+      /syke/alas_emissions but has more details.
+    Emissions: Emissions are kilotonnes CO2-equivalent.
+  units:
+    Emissions: kilotonnes
+    Energy_consumption: GWh
+    Mileage: Gm
+    Emission_factor_e: g / Wh
+    Emission_factor_m: g / m
+    Mileage_factor: Wh / m
