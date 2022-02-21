@@ -1,14 +1,14 @@
 outs:
-- md5: 8ade740ad5166d8afc66a54129d7d018
+- md5: 331c7b42fa4ba4c9f441c3b9999e098e
   size: 7741
   path: air_pollution.parquet
 meta:
   references:
-    PM2_5 mortality:
+    PM2.5 mortality:
       General: http://en.opasnet.org/w/ERF_of_outdoor_air_pollution
       Er_function: log(1.08)/10 Chen & Hoek, 2020
       Case_burden: De Leeuw & Horàlek 2016/5 http://fi.opasnet.org/fi/Kiltova#PAQ2018
-    PM2_5 work_days_lost:
+    PM2.5 work_days_lost:
       General: http://fi.opasnet.org/fi/Kiltova
       Er_function: log(1.046)/10 HRAPIE
       Case_burden: 0.099 DW * 0.00274 a, Heimtsa & Intarese http://fi.opasnet.org/fi/Kiltova#PAQ2018
