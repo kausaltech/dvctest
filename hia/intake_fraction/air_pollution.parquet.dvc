@@ -1,5 +1,5 @@
 outs:
-- md5: 4b5f96c987f136612dceee259485e071
+- md5: 74fb8e4623b3adaf9e03c3b02e866bb2
   size: 3934
   path: air_pollution.parquet
 meta:
