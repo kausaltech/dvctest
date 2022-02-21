@@ -1,5 +1,5 @@
 outs:
-- md5: fe66091f2c1d757e4dd8c305cdf1c526
+- md5: 1b9af2f2399f666ad9f4e5b630ab070d
   size: 3768
   path: default.parquet
 meta:
@@ -18,10 +18,10 @@ meta:
       Case_burden: http://en.opasnet.org/w/Goherr_assessment#Model_parameters
     vitamin_D deficiency:
       Case_burden: http://en.opasnet.org/w/Goherr_assessment#Model_parameters
-    PM2_5 mortality:
+    PM2.5 mortality:
       Incidence: http://fi.opasnet.org/fi/Kiltova#PAQ2018
       Case_burden: De Leeuw & Horàlek 2016/5 http://fi.opasnet.org/fi/Kiltova#PAQ2018
-    PM2_5 work_days_lost:
+    PM2.5 work_days_lost:
       Incidence: http://fi.opasnet.org/fi/Kiltova#PAQ2018
       Case_burden: 0.099 DW * 0.00274 a, Heimtsa & Intarese http://fi.opasnet.org/fi/Kiltova#PAQ2018
       Case_cost: Holland et al., 2014
