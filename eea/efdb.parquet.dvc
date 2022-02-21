@@ -1,6 +1,6 @@
 outs:
-- md5: 7c7463d830e1fa6216b64bc93cf960cd
-  size: 166223
+- md5: 748e021ed93bc75fc8420f0b4c05735f
+  size: 166436
   path: efdb.parquet
 meta:
   notes:
@@ -20,3 +20,7 @@ meta:
       Light-duty vehicles: Diesel - Euro 5 – EC 715/2007
   references:
     General: EMEP/EEA air pollutant emission inventory guidebook 2019. http://efdb.apps.eea.europa.eu/
+  units:
+    Value: g / km
+    CI_lower: g / km
+    CI_upper: g / km
