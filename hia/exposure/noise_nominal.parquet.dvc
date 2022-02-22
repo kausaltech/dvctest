@@ -1,0 +1,11 @@
+outs:
+- md5: ed11d35a5e676caa547e589cdaf4586c
+  size: 2377
+  path: noise_nominal.parquet
+meta:
+  notes: These are nominal exposures of different noise level groups. The actual exposure
+    is given as fraction of population (frexposed) that belongs to each group. Note
+    that the unit is Lden although this is used for Lnight exposures as well. The
+    actual noise exposure unit must be derived from the context.
+  units:
+    Value: Lden
