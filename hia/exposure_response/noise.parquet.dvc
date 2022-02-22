@@ -3,6 +3,11 @@ outs:
   size: 9732
   path: noise.parquet
 meta:
+  notes:
+    Population: 'Actual sum of the cities studied is 2085055 but here we assume that
+      noise exposure only occurs in the cities listed, and smaller municipalities
+      are free from transport noise. Thus, for Finland, we use the year 2020 value
+      for population in Finland: 5530000.'
   references:
     General: http://fi.opasnet.org/fi/Liikenteen_terveysvaikutukset. For exposure
       data, see e.g. https://cdr.eionet.europa.eu/fi/eu/noise/df8/2017/envwjdfiq
