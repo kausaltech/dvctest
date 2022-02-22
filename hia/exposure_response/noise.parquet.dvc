@@ -16,5 +16,5 @@ meta:
     noise_m1: (Lden)**-1
     noise_m2: (Lden)**-2
     noise_m3: (Lden)**-3
-    Incidence: cases / a
+    Incidence: cases / personyear
     Case_burden: DALY / case
