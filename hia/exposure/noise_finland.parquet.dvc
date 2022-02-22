@@ -1,0 +1,10 @@
+outs:
+- md5: 0a84935d12a084092453b0188731023a
+  size: 13802
+  path: noise_finland.parquet
+meta:
+  references:
+    General: http://fi.opasnet.org/fi/Liikenteen_terveysvaikutukset Lehtomäki, H.,
+      Karvosenoja, N., Paunu, V-V., Korhonen, A., Hänninen, O., Tuomisto, J., Karppinen,
+      A., Kukkonen, J. & Tainio, M. 2021. Liikenteen terveysvaikutukset Suomessa ja
+      suurimmissa kaupungeissa. Suomen ympäristökeskuksen raportteja 16/2021. http://hdl.handle.net/10138/329273
