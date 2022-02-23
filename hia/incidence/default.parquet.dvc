@@ -1,6 +1,6 @@
 outs:
-- md5: 815ea8c1e04379662d1c9541a9e00fee
-  size: 3927
+- md5: 49f1b3df38238789ba3b15aafcb06f4d
+  size: 3913
   path: default.parquet
 meta:
   references:
