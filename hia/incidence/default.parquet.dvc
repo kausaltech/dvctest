@@ -1,6 +1,6 @@
 outs:
-- md5: 64362c85914a8c1c761351197fa89160
-  size: 3768
+- md5: 815ea8c1e04379662d1c9541a9e00fee
+  size: 3927
   path: default.parquet
 meta:
   references:
@@ -32,5 +32,7 @@ meta:
       Incidence: 'HRAPIE: SAPALDIA http://fi.opasnet.org/fi/Kiltova#PAQ2018'
       Case_burden: http://fi.opasnet.org/fi/Kiltova#PAQ2018
       Case_cost: Holland et al., 2014
+    Microbes:
+      General: Nominal value 1 case per personyear
   units:
     Incidence: case/personyear
