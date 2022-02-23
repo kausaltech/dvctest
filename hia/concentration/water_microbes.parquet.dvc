@@ -1,0 +1,9 @@
+outs:
+- md5: 604c7a903d1681c5ceef6cf9ae94630e
+  size: 3904
+  path: water_microbes.parquet
+meta:
+  references:
+    General: http://en.opasnet.org/w/Water_guide
+  units:
+    Value: microbes/l
