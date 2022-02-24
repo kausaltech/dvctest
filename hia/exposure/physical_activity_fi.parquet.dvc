@@ -1,6 +1,6 @@
 outs:
-- md5: e0c15d2cf2db38284c1263035d012a82
-  size: 4676
+- md5: 0661bfa326f104ca5c346db170d19d02
+  size: 3845
   path: physical_activity_fi.parquet
 meta:
   references:
@@ -10,5 +10,4 @@ meta:
     General: The values are about the average situation in Finland in 2016 for different
       age groups.
   units:
-    Walking distance: km/d
-    Cycling distance: km/d
+    Distance: km/d
