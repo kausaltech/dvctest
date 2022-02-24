@@ -1,0 +1,14 @@
+outs:
+- md5: e0c15d2cf2db38284c1263035d012a82
+  size: 4676
+  path: physical_activity_fi.parquet
+meta:
+  references:
+    General: Liikennevirasto. 2018. Henkilöliikennetutkimus 2016. Liikennevirasto,
+      Liikenne ja maankäyttö. Helsinki 2018. Liikenneviraston tilastoja 1/2018. https://julkaisut.vayla.fi/pdf8/lti_2018-01_henkiloliikennetutkimus_2016_web.pdf
+  notes:
+    General: The values are about the average situation in Finland in 2016 for different
+      age groups.
+  units:
+    Walking distance: km/d
+    Cycling distance: km/d
