@@ -1,6 +1,6 @@
 outs:
-- md5: b7560eae4b0f914ee7fc27b6a32195df
-  size: 8994
+- md5: 1f0de0cc97d1bf6d7dc494e991e61c10
+  size: 9676
   path: physical_activity.parquet
 meta:
   references:
@@ -22,10 +22,13 @@ meta:
       meta-analysis of reduction in all-cause mortality from walking and cycling and
       shape of dose response relationship. Int J Behav Nutr Phys Act 11, 132 (2014).
       https://doi.org/10.1186/s12966-014-0132-x
+    Case_burden: Total YLL / total deaths in Finland according to Lehtomäki et al,
+      2021.
     exercise_m1: log(0.9)/(11.25 METh/week)
   units:
     Velocity: km / h
     Metabolic_equivalent: METh / h
     Weekly_activity: day / week
+    Case_burden: DALY / case
     Period: a / incident
     exercise_m1: week / METh
