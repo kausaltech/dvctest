@@ -1,6 +1,6 @@
 outs:
-- md5: 1f0de0cc97d1bf6d7dc494e991e61c10
-  size: 9676
+- md5: b4e6bdfec5350e686477c74eddeace70
+  size: 10351
   path: physical_activity.parquet
 meta:
   references:
@@ -24,7 +24,8 @@ meta:
       https://doi.org/10.1186/s12966-014-0132-x
     Case_burden: Total YLL / total deaths in Finland according to Lehtomäki et al,
       2021.
-    exercise_m1: log(0.9)/(11.25 METh/week)
+    exercise_m1: 'beta: log(0.9)/(11.25 METh/week)'
+    exercise_p0: 'rrmin: 0.6, the smallest relative risk plausible'
   units:
     Velocity: km / h
     Metabolic_equivalent: METh / h
@@ -32,3 +33,4 @@ meta:
     Case_burden: DALY / case
     Period: a / incident
     exercise_m1: week / METh
+    exercise_p1: METh / week
