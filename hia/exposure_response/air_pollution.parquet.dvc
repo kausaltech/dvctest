@@ -1,6 +1,6 @@
 outs:
-- md5: 331c7b42fa4ba4c9f441c3b9999e098e
-  size: 7741
+- md5: 43db32d14501dc4773efff582efe24fe
+  size: 8445
   path: air_pollution.parquet
 meta:
   references:
@@ -22,6 +22,8 @@ meta:
       Er_function: log(1.08)/10 HRAPIE
       Case_burden: http://fi.opasnet.org/fi/Kiltova#PAQ2018
       Case_cost: Holland et al., 2014
+  notes:
+    inhalation_p0: Assuming no protective effect even below threshold.
   units:
     Period: year / incident
     inhalation_m1: m**3 / ug
