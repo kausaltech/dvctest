@@ -1,6 +1,6 @@
 outs:
-- md5: bcb33c6ded507f77d5b4901171d44585
-  size: 4200295
+- md5: 4d59f8fed9daf14d83a47ba79ddfbe86
+  size: 3987522
   path: alas_emissions.parquet
 meta:
   units:
