@@ -1,4 +1,8 @@
 outs:
-- md5: 0ae5bd99a9b0e0c2b58c37ffe13cbc6e
-  size: 57647
+- md5: f114b6e085127715ab5b21482de69229
+  size: 86480
   path: pks_khk_paastot.parquet
+meta:
+  units:
+    Päästöt: gigagram / year
+    Energiankulutus: gigawatt_hour / year
