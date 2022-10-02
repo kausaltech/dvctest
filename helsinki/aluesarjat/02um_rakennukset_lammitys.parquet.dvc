@@ -1,0 +1,4 @@
+outs:
+- md5: 811fe260a5a46aec607b4b978e06d6bc
+  size: 337116
+  path: 02um_rakennukset_lammitys.parquet
