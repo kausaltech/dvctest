@@ -1,6 +1,6 @@
 outs:
-- md5: 64c082ca1fface32e0282093c9f11781
-  size: 3048626
+- md5: c3ae689023e6e6f2113f8e00beb3e589
+  size: 3809688
   path: emissions_by_municipality.parquet
 meta:
   units:
