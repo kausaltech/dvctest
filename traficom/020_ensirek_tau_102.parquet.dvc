@@ -1,0 +1,4 @@
+outs:
+- md5: 199d7d6f38769c7c4e9a12aa1d84c8bd
+  size: 1515722
+  path: 020_ensirek_tau_102.parquet
