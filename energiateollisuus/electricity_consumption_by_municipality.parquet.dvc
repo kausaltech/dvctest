@@ -1,6 +1,6 @@
 outs:
-- md5: 183cd0543e433e6176027e2e75760bd0
-  size: 36059
+- md5: f1896d9e51f9cc5777035151bbbdc31d
+  size: 37689
   path: electricity_consumption_by_municipality.parquet
 meta:
   units:
