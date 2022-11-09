@@ -1,4 +1,4 @@
 outs:
-- md5: 7d6b6f2080ac4d504aa5e3a96fcdfeb0
-  size: 70681
+- md5: 66dfb4a99738349a0e41ece86d300a57
+  size: 78565
   path: district_heating_production.parquet
