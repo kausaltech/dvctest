@@ -1,4 +1,4 @@
 outs:
-- md5: 85ef9bd279e83317802bf38fe2e22816
-  size: 82083
+- md5: 2ac7852433c4e4a6a32ae7ed91e84a5c
+  size: 102769
   path: district_heating_fuel.parquet
