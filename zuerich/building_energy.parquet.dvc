@@ -1,0 +1,4 @@
+outs:
+- md5: ac1445a9642452f93872fcdb8db297ff
+  size: 5407
+  path: building_energy.parquet
