@@ -7,3 +7,4 @@
     url = https://s3.kausal.tech/datasets
 ['remote "kausal-s3-private"']
     url = s3://datasets-private
+    endpointurl = https://s3.kausal.tech
