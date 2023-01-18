@@ -1,0 +1,7 @@
+outs:
+- md5: a52810a3cb9958cd438b3be9116a59b7
+  size: 3884
+  path: electricity_emission_factor.parquet
+meta:
+  units:
+    emission_factor: gram / kilowatt_hour
