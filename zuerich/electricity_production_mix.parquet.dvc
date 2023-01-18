@@ -1,0 +1,7 @@
+outs:
+- md5: 1bd4061ac428e01acdb150f048371a28
+  size: 4585
+  path: electricity_production_mix.parquet
+meta:
+  units:
+    share: percent
