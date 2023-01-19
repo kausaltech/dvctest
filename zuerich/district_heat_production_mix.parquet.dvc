@@ -1,0 +1,7 @@
+outs:
+- md5: 90e8475abe67dd58518425927af2d5ae
+  size: 4202
+  path: district_heat_production_mix.parquet
+meta:
+  units:
+    share: percent
