@@ -1,0 +1,7 @@
+outs:
+- md5: 6891bc7a0aa847107683c53a8c4a6115
+  size: 3874
+  path: buildings_energy_emission_factor.parquet
+meta:
+  units:
+    emission_factor: gram / kilowatt_hour

@@ -3,3 +3,4 @@
 /electricity_emission_factor.parquet
 /electricity_production_mix.parquet
 /district_heat_production_mix.parquet
+/buildings_energy_emission_factor.parquet
