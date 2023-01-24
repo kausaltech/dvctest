@@ -1,6 +1,6 @@
 outs:
-- md5: 6891bc7a0aa847107683c53a8c4a6115
-  size: 3874
+- md5: d79f159dd38c147d3fd49e87b8bb0de0
+  size: 3779
   path: buildings_energy_emission_factor.parquet
 meta:
   units:
