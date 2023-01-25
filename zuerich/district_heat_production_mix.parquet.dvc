@@ -1,6 +1,6 @@
 outs:
-- md5: 90e8475abe67dd58518425927af2d5ae
-  size: 4202
+- md5: 3cb8439a0d482c315102f429c6413e57
+  size: 4103
   path: district_heat_production_mix.parquet
 meta:
   units:
