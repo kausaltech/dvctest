@@ -1,6 +1,6 @@
 outs:
-- md5: ac1445a9642452f93872fcdb8db297ff
-  size: 5407
+- md5: 947ef9274835bf0f46c3b9db0755dd19
+  size: 5312
   path: building_energy.parquet
 meta:
   units:
