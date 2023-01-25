@@ -1,6 +1,6 @@
 outs:
-- md5: a52810a3cb9958cd438b3be9116a59b7
-  size: 3884
+- md5: 32363a9fb8814ea0b480fdfdc331364f
+  size: 3789
   path: electricity_emission_factor.parquet
 meta:
   units:
