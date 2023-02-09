@@ -5,3 +5,4 @@
 /district_heat_production_mix.parquet
 /test.parquet
 /district_heat_emission_factors.parquet
+/vehicle_mileage.parquet

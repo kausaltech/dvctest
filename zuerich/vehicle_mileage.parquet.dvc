@@ -1,0 +1,7 @@
+outs:
+- md5: dfeb86860acbf861e7ae1e3dc396b00d
+  size: 4289
+  path: vehicle_mileage.parquet
+meta:
+  units:
+    mileage: km/a
