@@ -1,6 +1,6 @@
 outs:
-- md5: 806ec4d4abc288cacb0c96e4ab6f801e
-  size: 6572
+- md5: c89a7f8e8a65588193538dc4fa187ada
+  size: 6540
   path: fuel_consumption_factor.parquet
 meta:
   units:
