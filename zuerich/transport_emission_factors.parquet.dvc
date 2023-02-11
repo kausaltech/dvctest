@@ -1,0 +1,7 @@
+outs:
+- md5: a7d92ca2b43b90e7c37251740b11916c
+  size: 5220
+  path: transport_emission_factors.parquet
+meta:
+  units:
+    emission_factor: kg/km
