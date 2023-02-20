@@ -1,0 +1,7 @@
+outs:
+- md5: 2ed6f14732903790014e1787cd5512b3
+  size: 3593
+  path: road_traffic_energy_consumption.parquet
+meta:
+  units:
+    energy: GWh/a
