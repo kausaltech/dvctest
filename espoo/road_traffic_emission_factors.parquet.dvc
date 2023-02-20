@@ -1,0 +1,7 @@
+outs:
+- md5: 45716cdf50fe1bfcbc9cf0180df73235
+  size: 3802
+  path: road_traffic_emission_factors.parquet
+meta:
+  units:
+    emission_factor: g/kWh
