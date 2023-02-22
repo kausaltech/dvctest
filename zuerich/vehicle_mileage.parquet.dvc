@@ -1,6 +1,6 @@
 outs:
-- md5: dfeb86860acbf861e7ae1e3dc396b00d
-  size: 4289
+- md5: 182bddfddedaad8d58c091e32bedf009
+  size: 4194
   path: vehicle_mileage.parquet
 meta:
   units:
