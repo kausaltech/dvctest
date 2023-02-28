@@ -6,5 +6,6 @@
 /test.parquet
 /district_heat_emission_factors.parquet
 /fuel_consumption_factor.parquet
-/transport_emission_factors.parquet
 /vehicle_mileage.parquet
+/transport_emission_factors.parquet
+/externally_supplied_electricity.parquet

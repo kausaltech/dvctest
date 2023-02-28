@@ -1,0 +1,15 @@
+outs:
+- md5: b0a54aacc55bec8f2ba9ddbcad89eb84
+  size: 2298
+  path: externally_supplied_electricity.parquet
+meta:
+  name:
+    de-CH: Fremdbelieferte Konsumstellen
+    en: Externally supplied electricity
+  identifier: externally_supplied_electricity
+  metrics:
+  - id: energy
+    label:
+      de-CH: Energy
+  units:
+    energy: GWh/a
