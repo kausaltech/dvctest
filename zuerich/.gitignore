@@ -10,3 +10,4 @@
 /transport_emission_factors.parquet
 /externally_supplied_electricity.parquet
 /subsidized_electricity_production_mix.parquet
+/general_electricity_production_mix.parquet
