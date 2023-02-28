@@ -1,0 +1,15 @@
+outs:
+- md5: a022ceb076161abb2339a7b79e55ab58
+  size: 3362
+  path: subsidized_electricity_production_mix.parquet
+meta:
+  name:
+    de-CH: Strommix geförderter Strom ewz Stadt Zürich
+    en: Subsidized electricity production mix
+  identifier: subsidized_electricity_production_mix
+  metrics:
+  - id: share
+    label:
+      de-CH: Share
+  units:
+    share: '%'
