@@ -1,7 +1,15 @@
 outs:
-- md5: 7053bf0a764486b1a5f5ffcd406ed8c8
-  size: 8375
+- md5: 800ccface6b9336e0622b7a126692516
+  size: 8530
   path: transport_emission_factors.parquet
 meta:
+  name:
+    de-CH: Treibhausgasemissions-Koeffizienten Verkehr
+    en: Emission factors for transport
+  identifier: transport_emission_factors
+  metrics:
+  - id: emission_factor
+    label:
+      de-CH: ''
   units:
     emission_factor: kg/km
