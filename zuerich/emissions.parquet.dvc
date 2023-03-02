@@ -1,0 +1,14 @@
+outs:
+- md5: 32656dd9d066d8f9e00273833822727b
+  size: 3978
+  path: emissions.parquet
+meta:
+  name:
+    de-CH: Emissions
+  identifier: emissions
+  metrics:
+  - id: emissions
+    label:
+      de-CH: Emissions
+  units:
+    emissions: kt/a

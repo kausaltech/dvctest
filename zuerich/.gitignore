@@ -11,3 +11,4 @@
 /subsidized_electricity_production_mix.parquet
 /general_electricity_production_mix.parquet
 /transport_emission_factors.parquet
+/emissions.parquet
