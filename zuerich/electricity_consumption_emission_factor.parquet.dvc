@@ -1,0 +1,15 @@
+outs:
+- md5: 61c7d2c75399c61f99e1184096b3d6bd
+  size: 4301
+  path: electricity_consumption_emission_factor.parquet
+meta:
+  name:
+    de-CH: Treibhausgasfaktoren Strom
+    en: Electricity consumption emission factor
+  identifier: electricity_consumption_emission_factor
+  metrics:
+  - id: emission_factor
+    label:
+      de-CH: Emission factor
+  units:
+    emission_factor: g/kWh

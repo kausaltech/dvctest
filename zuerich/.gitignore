@@ -13,3 +13,4 @@
 /transport_emission_factors.parquet
 /emissions.parquet
 /buildings_energy_consumption_emission_factor_revised.parquet
+/electricity_consumption_emission_factor.parquet
