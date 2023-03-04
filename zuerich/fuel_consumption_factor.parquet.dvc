@@ -1,8 +1,22 @@
 outs:
-- md5: c89a7f8e8a65588193538dc4fa187ada
-  size: 6540
+- md5: 18b8b3b6e04d3064bfa4b22e01e35f42
+  size: 6374
   path: fuel_consumption_factor.parquet
 meta:
+  name:
+    de-CH: Verkehr Kraftstofffaktor
+    en: Fuel consumption factor
+  identifier: fuel_consumption_factor
+  metrics:
+  - id: fuel
+    label:
+      de-CH: Fuel consumption
+  - id: electricity
+    label:
+      de-CH: Electricity consumption
+  - id: energy
+    label:
+      de-CH: Energy
   units:
     fuel: kg/km
     electricity: kWh/km
