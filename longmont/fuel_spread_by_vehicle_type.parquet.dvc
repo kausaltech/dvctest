@@ -1,0 +1,14 @@
+outs:
+- md5: 84f65e71f84fb9145c0500aab4d24bcf
+  size: 3798
+  path: fuel_spread_by_vehicle_type.parquet
+meta:
+  name:
+    en: Fuel spread by vehicle type
+  identifier: fuel_spread_by_vehicle_type
+  metrics:
+  - id: fraction
+    label:
+      en: fraction
+  units:
+    fraction: '%'
