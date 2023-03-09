@@ -1,0 +1,14 @@
+outs:
+- md5: 02274ff3b86e9020162e2013928a86e6
+  size: 3582
+  path: stationary_electricity_use.parquet
+meta:
+  name:
+    en: Stationary electricity use
+  identifier: stationary_electricity_use
+  metrics:
+  - id: electricity
+    label:
+      en: electricity
+  units:
+    electricity: kWh/a
