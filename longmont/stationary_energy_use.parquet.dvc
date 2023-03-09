@@ -1,0 +1,22 @@
+outs:
+- md5: 5250bcf37aab4c4d92e697b4ab62947e
+  size: 5555
+  path: stationary_energy_use.parquet
+meta:
+  name:
+    en: Stationary energy use
+  identifier: stationary_energy_use
+  metrics:
+  - id: electricity
+    label:
+      en: Electricity
+  - id: gas
+    label:
+      en: Gas
+  - id: fuel
+    label:
+      en: Fuel
+  units:
+    electricity: kWh
+    gas: th
+    fuel: gal
