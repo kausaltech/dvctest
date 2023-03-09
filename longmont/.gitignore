@@ -2,3 +2,4 @@
 /stationary_energy_use.parquet
 /stationary_electricity_use.parquet
 /electricity_emission_factor.parquet
+/greenhouse_gas_emissions.parquet
