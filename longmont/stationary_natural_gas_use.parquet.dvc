@@ -11,4 +11,4 @@ meta:
     label:
       en: Energy
   units:
-    energy: th/a
+    energy: thm/a
