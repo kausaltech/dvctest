@@ -1,6 +1,6 @@
 outs:
-- md5: f3428fb89ff58f36dfbf6bc9d07e1bf1
-  size: 2834
+- md5: 7a34845fac8b87a3024fc70efd5e71a6
+  size: 3498
   path: stationary_wood_consumption.parquet
 meta:
   name:
@@ -11,4 +11,4 @@ meta:
     label:
       en: Energy
   units:
-    energy: MBtu
+    energy: MMBtu/a

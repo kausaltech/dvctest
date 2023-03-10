@@ -2,10 +2,10 @@
 /stationary_energy_use.parquet
 /stationary_electricity_use.parquet
 /electricity_emission_factor.parquet
-/stationary_fuel_use.parquet
-/stationary_wood_consumption.parquet
 /emission_factor_natural_gas.parquet
-/emission_factor_fuels.parquet
-/emission_factor_wood.parquet
 /stationary_natural_gas_use.parquet
 /greenhouse_gas_emissions.parquet
+/stationary_fuel_use.parquet
+/emission_factor_fuels.parquet
+/emission_factor_wood.parquet
+/stationary_wood_consumption.parquet
