@@ -9,6 +9,6 @@ meta:
   metrics:
   - id: emission_factor
     label:
-      en: Emission factor
+      en: Emission Factor
   units:
-    emission_factor: t/th
+    emission_factor: t/thm
