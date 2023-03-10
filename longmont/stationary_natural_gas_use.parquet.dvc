@@ -1,0 +1,14 @@
+outs:
+- md5: c1d213dce08b24c15bc65da3f93b2a4a
+  size: 3566
+  path: stationary_natural_gas_use.parquet
+meta:
+  name:
+    en: Stationary natural gas use
+  identifier: stationary_natural_gas_use
+  metrics:
+  - id: energy
+    label:
+      en: Energy
+  units:
+    energy: th
