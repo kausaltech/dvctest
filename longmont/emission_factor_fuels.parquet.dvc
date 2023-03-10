@@ -1,0 +1,14 @@
+outs:
+- md5: 399463860bbff1e5620fd6156dfc2cfb
+  size: 3714
+  path: emission_factor_fuels.parquet
+meta:
+  name:
+    en: Emission factor fuels
+  identifier: emission_factor_fuels
+  metrics:
+  - id: emission_factor
+    label:
+      en: Emission factor
+  units:
+    emission_factor: t/gal

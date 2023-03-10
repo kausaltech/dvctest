@@ -7,3 +7,4 @@
 /stationary_natural_gas_use.parquet
 /stationary_wood_consumption.parquet
 /emission_factor_natural_gas.parquet
+/emission_factor_fuels.parquet
