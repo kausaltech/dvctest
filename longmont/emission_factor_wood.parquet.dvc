@@ -1,0 +1,14 @@
+outs:
+- md5: 866ef2f75e190eed2429f337f6ec2acb
+  size: 3649
+  path: emission_factor_wood.parquet
+meta:
+  name:
+    en: Emission factor wood
+  identifier: emission_factor_wood
+  metrics:
+  - id: emission_factor
+    label:
+      en: Emission factor
+  units:
+    emission_factor: kg/MBtu
