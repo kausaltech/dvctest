@@ -1,0 +1,14 @@
+outs:
+- md5: e4aed17ef56329696a24f1691ad7e3b6
+  size: 3562
+  path: stationary_fuel_use.parquet
+meta:
+  name:
+    en: Stationary fuel use
+  identifier: stationary_fuel_use
+  metrics:
+  - id: energy
+    label:
+      en: Energy
+  units:
+    energy: gal/a
