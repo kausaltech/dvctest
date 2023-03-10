@@ -9,3 +9,4 @@
 /stationary_wood_consumption.parquet
 /emission_factor_natural_gas.parquet
 /stationary_natural_gas_use.parquet
+/transmission_and_distribution_loss.parquet

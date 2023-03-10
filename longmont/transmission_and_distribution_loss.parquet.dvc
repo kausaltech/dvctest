@@ -1,0 +1,14 @@
+outs:
+- md5: a2a2f21b0871a9bb91f6eca7a88e03b5
+  size: 3560
+  path: transmission_and_distribution_loss.parquet
+meta:
+  name:
+    en: Transmission and distribution loss
+  identifier: transmission_and_distribution_loss
+  metrics:
+  - id: fraction
+    label:
+      en: Fraction
+  units:
+    fraction: '%'
