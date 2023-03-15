@@ -1,0 +1,14 @@
+outs:
+- md5: 45f4ebb478645471dd8b6379d4a975d8
+  size: 2894
+  path: fuel_consumption_by_vehicle_type.parquet
+meta:
+  name:
+    en: Fuel consumption by vehicle type
+  identifier: fuel_consumption_by_vehicle_type
+  metrics:
+  - id: mileage
+    label:
+      en: mileage
+  units:
+    mileage: mi/gal
