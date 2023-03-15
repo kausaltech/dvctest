@@ -1,6 +1,6 @@
 outs:
-- md5: 399463860bbff1e5620fd6156dfc2cfb
-  size: 3714
+- md5: 4e748db71358fee90e170ac3ab0017f6
+  size: 3858
   path: emission_factor_fuels.parquet
 meta:
   name:
@@ -11,4 +11,4 @@ meta:
     label:
       en: Emission factor
   units:
-    emission_factor: t/gal
+    emission_factor: kg/gal

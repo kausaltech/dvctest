@@ -4,10 +4,10 @@
 /electricity_emission_factor.parquet
 /greenhouse_gas_emissions.parquet
 /stationary_fuel_use.parquet
-/emission_factor_fuels.parquet
 /emission_factor_wood.parquet
 /stationary_wood_consumption.parquet
 /emission_factor_natural_gas.parquet
 /stationary_natural_gas_use.parquet
 /transmission_and_distribution_loss.parquet
 /greenhouse_gas_emissions_by_sector.parquet
+/emission_factor_fuels.parquet
