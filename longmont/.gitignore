@@ -12,3 +12,4 @@
 /greenhouse_gas_emissions_by_sector.parquet
 /emission_factor_fuels.parquet
 /fuel_consumption_by_vehicle_type.parquet
+/mileage_factor_by_vehicle_type.parquet
