@@ -1,0 +1,14 @@
+outs:
+- md5: ec9f93683b8296525794b309f06d5a23
+  size: 4525
+  path: greenhouse_gas_emissions_by_subsector.parquet
+meta:
+  name:
+    en: Greenhouse gas emissions by subsector
+  identifier: greenhouse_gas_emissions_by_subsector
+  metrics:
+  - id: emissions
+    label:
+      en: emissions
+  units:
+    emissions: t/a
