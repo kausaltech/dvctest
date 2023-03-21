@@ -16,3 +16,4 @@
 /district_heat_emission_factor.parquet
 /fuel_consumption_factor.parquet
 /waste_incineration.parquet
+/waste_incineration_emission_factors.parquet
