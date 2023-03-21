@@ -1,0 +1,22 @@
+outs:
+- md5: 83f8cbf561168a2e6df62d75f5c76dac
+  size: 5190
+  path: waste_incineration.parquet
+meta:
+  name:
+    de-CH: Waste incineration
+  identifier: waste_incineration
+  metrics:
+  - id: amount_of_waste
+    label:
+      de-CH: Amount of waste
+  - id: share_of_fossil_co2
+    label:
+      de-CH: Share of fossil CO2
+  - id: share_of_ccs
+    label:
+      de-CH: Share of CCS
+  units:
+    amount_of_waste: t/a
+    share_of_fossil_co2: '%'
+    share_of_ccs: '%'
