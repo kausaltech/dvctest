@@ -1,0 +1,7 @@
+outs:
+- md5: 3a7a850e3fb165af29409432be7e582b
+  size: 3408
+  path: district_heat_emission_factors.parquet
+meta:
+  units:
+    emission_factor: g/kWh
