@@ -1,0 +1,18 @@
+outs:
+- md5: 7081b8f9319ca343c49383b15b5b2109
+  size: 3648
+  path: building_energy_factor.parquet
+meta:
+  name:
+    en: Building energy factor
+  identifier: building_energy_factor
+  metrics:
+  - id: electricity
+    label:
+      en: electricity
+  - id: natural_gas
+    label:
+      en: natural gas
+  units:
+    electricity: kWh/a/ft²
+    natural_gas: thm/a/ft²
