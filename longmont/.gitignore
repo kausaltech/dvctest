@@ -15,3 +15,4 @@
 /greenhouse_gas_emissions_by_subsector.parquet
 /fuel_consumption_by_vehicle_type.parquet
 /building_energy_factor.parquet
+/building_foor_area.parquet
