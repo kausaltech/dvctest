@@ -1,0 +1,14 @@
+outs:
+- md5: 3427648a6ed6c396732df14c09d1d7d3
+  size: 2937
+  path: building_electricity_consumption_factor.parquet
+meta:
+  name:
+    en: Building electricity consumption factor
+  identifier: building_electricity_consumption_factor
+  metrics:
+  - id: electricity
+    label:
+      en: Electricity
+  units:
+    electricity: kWh/a/ft²

@@ -16,3 +16,4 @@
 /fuel_consumption_by_vehicle_type.parquet
 /building_energy_factor.parquet
 /building_foor_area.parquet
+/building_electricity_consumption_factor.parquet
