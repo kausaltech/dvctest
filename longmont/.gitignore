@@ -17,3 +17,4 @@
 /building_energy_factor.parquet
 /building_foor_area.parquet
 /building_electricity_consumption_factor.parquet
+/building_natural_gas_consumption_factor.parquet
