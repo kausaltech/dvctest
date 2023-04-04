@@ -1,7 +1,15 @@
 outs:
-- md5: 947ef9274835bf0f46c3b9db0755dd19
-  size: 5312
+- md5: 1f43d1b31ca8a3a180c9f5d2ed1e2ae9
+  size: 5225
   path: building_energy.parquet
 meta:
+  name:
+    de-CH: Endenergieverbrauch Gebäude
+    en: Building end energy consumption
+  identifier: building_energy
+  metrics:
+  - id: energy
+    label:
+      de-CH: Energy
   units:
-    energy: gigawatt_hour / year
+    energy: GWh/a
