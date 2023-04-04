@@ -6,7 +6,6 @@
 /district_heat_emission_factors.parquet
 /vehicle_mileage.parquet
 /subsidized_electricity_production_mix.parquet
-/general_electricity_production_mix.parquet
 /transport_emission_factors.parquet
 /emissions.parquet
 /buildings_energy_consumption_emission_factor_revised.parquet
@@ -17,3 +16,4 @@
 /population.parquet
 /building_energy.parquet
 /externally_supplied_electricity.parquet
+/general_electricity_production_mix.parquet
