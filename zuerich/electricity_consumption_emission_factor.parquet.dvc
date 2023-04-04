@@ -1,6 +1,6 @@
 outs:
-- md5: cc4521836be0df2d8b7e717434b26310
-  size: 4228
+- md5: 82eba914aae7f58ec739f534d89e458f
+  size: 4460
   path: electricity_consumption_emission_factor.parquet
 meta:
   name:
