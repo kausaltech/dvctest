@@ -11,4 +11,4 @@ meta:
     label:
       de-CH: Energy per area
   units:
-    energy_per_area: kWh/m²
+    energy_per_area: kWh/m²/a
