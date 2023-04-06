@@ -17,3 +17,4 @@
 /district_heat_emission_factor.parquet
 /building_energy.parquet
 /district_heat_production_mix.parquet
+/building_electricity_need.parquet
