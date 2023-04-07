@@ -19,3 +19,4 @@
 /district_heat_production_mix.parquet
 /building_electricity_need.parquet
 /number_of_jobs.parquet
+/building_floor_area.parquet
