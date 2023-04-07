@@ -1,0 +1,15 @@
+outs:
+- md5: 08cc44b4bab0f7f96af131154c66b17b
+  size: 2416
+  path: number_of_jobs.parquet
+meta:
+  name:
+    de-CH: Anzahl Beschäftigte
+    en: Number of jobs
+  identifier: number_of_jobs
+  metrics:
+  - id: number
+    label:
+      de-CH: Number
+  units:
+    number: pieces
