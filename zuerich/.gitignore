@@ -3,7 +3,6 @@
 /electricity_production_mix.parquet
 /test.parquet
 /district_heat_emission_factors.parquet
-/emissions.parquet
 /buildings_energy_consumption_emission_factor_revised.parquet
 /waste_incineration.parquet
 /population.parquet
@@ -22,3 +21,4 @@
 /transport_emission_factors.parquet
 /fuel_consumption_factor.parquet
 /non_road_machinery_fuel_consumption.parquet
+/emissions.parquet
