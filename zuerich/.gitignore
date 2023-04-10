@@ -23,3 +23,4 @@
 /non_road_machinery_fuel_consumption.parquet
 /emissions.parquet
 /transport_electricity_consumption.parquet
+/sewage_sludge_processing.parquet
