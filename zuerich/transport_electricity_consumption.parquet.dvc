@@ -1,0 +1,14 @@
+outs:
+- md5: 72e6a20913a345dd5cb3074cea8a8ff4
+  size: 4002
+  path: transport_electricity_consumption.parquet
+meta:
+  name:
+    de-CH: Emissions
+  identifier: emissions
+  metrics:
+  - id: emissions
+    label:
+      de-CH: Emissions
+  units:
+    emissions: kt/a
