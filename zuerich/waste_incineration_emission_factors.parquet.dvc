@@ -5,10 +5,12 @@ outs:
 meta:
   name:
     de-CH: Waste incineration emission factors
+    en: Waste incineration emission factors
   identifier: waste_incineration_emission_factors
   metrics:
   - id: emission_factor
     label:
       de-CH: Emission factor
+      en: Emission factor
   units:
     emission_factor: t/t

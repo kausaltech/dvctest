@@ -5,17 +5,21 @@ outs:
 meta:
   name:
     de-CH: Waste incineration
+    en: Waste incineration
   identifier: waste_incineration
   metrics:
   - id: amount_of_waste
     label:
       de-CH: Amount of waste
+      en: Amount of waste
   - id: share_of_fossil_co2
     label:
       de-CH: Share of fossil CO2
+      en: Share of fossil CO2
   - id: share_of_ccs
     label:
       de-CH: Share of CCS
+      en: Share of CCS
   units:
     amount_of_waste: t/a
     share_of_fossil_co2: '%'
