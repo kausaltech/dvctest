@@ -1,6 +1,6 @@
 outs:
-- md5: cb41d57d044c7f102bc14ed3619baec1
-  size: 2994
+- md5: 4102d803be29c6c68cfd2c3147c7ec55
+  size: 3185
   path: building_natural_gas_consumption_factor.parquet
 meta:
   name:
@@ -11,4 +11,4 @@ meta:
     label:
       en: Natural gas
   units:
-    natural_gas: thm/a/ft²
+    natural_gas: thm/ft²
