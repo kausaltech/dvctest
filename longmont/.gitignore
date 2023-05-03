@@ -6,7 +6,6 @@
 /stationary_fuel_use.parquet
 /emission_factor_wood.parquet
 /emission_factor_natural_gas.parquet
-/stationary_natural_gas_use.parquet
 /transmission_and_distribution_loss.parquet
 /greenhouse_gas_emissions_by_sector.parquet
 /emission_factor_fuels.parquet
@@ -18,3 +17,4 @@
 /building_electricity_consumption_factor.parquet
 /building_natural_gas_consumption_factor.parquet
 /stationary_wood_consumption.parquet
+/stationary_natural_gas_use.parquet
