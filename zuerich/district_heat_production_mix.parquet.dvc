@@ -1,15 +1,7 @@
 outs:
-- md5: 1193383a32acefb9d90c92a08358a2f9
-  size: 3967
+- md5: 3cb8439a0d482c315102f429c6413e57
+  size: 4103
   path: district_heat_production_mix.parquet
 meta:
-  name:
-    de-CH: Fernwärmeverbrauchsmix
-    en: District heat consumption mix
-  identifier: district_heat_production_mix
-  metrics:
-  - id: share
-    label:
-      de-CH: ''
   units:
-    share: '%'
+    share: percent

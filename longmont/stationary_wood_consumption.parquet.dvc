@@ -1,6 +1,6 @@
 outs:
-- md5: 7a34845fac8b87a3024fc70efd5e71a6
-  size: 3498
+- md5: 030d5e6786591185c5ecd6f6f29a5f44
+  size: 2971
   path: stationary_wood_consumption.parquet
 meta:
   name:

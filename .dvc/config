@@ -8,4 +8,3 @@
 ['remote "kausal-s3-private"']
     url = s3://datasets-private
     endpointurl = https://s3.kausal.tech
-    # profile = dvc-kausal-s3-private

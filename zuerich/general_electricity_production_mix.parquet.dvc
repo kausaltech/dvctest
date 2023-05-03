@@ -1,6 +1,6 @@
 outs:
-- md5: 00cf2a350631e312a242421af9031bd1
-  size: 4073
+- md5: d71a1868f13442b563c69bb26baee91c
+  size: 4026
   path: general_electricity_production_mix.parquet
 meta:
   name:

@@ -1,15 +1,7 @@
 outs:
-- md5: b3f100883017e4981bfbbb7190517f0d
-  size: 4505
+- md5: 182bddfddedaad8d58c091e32bedf009
+  size: 4194
   path: vehicle_mileage.parquet
 meta:
-  name:
-    de-CH: Fahrleistung
-    en: Vehicle mileage
-  identifier: vehicle_mileage
-  metrics:
-  - id: mileage
-    label:
-      de-CH: ''
   units:
-    mileage: vkm/a
+    mileage: km/a
