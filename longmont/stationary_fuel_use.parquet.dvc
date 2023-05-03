@@ -1,6 +1,6 @@
 outs:
-- md5: e4aed17ef56329696a24f1691ad7e3b6
-  size: 3562
+- md5: 527319044dd76fd94cf0ece524394b98
+  size: 3779
   path: stationary_fuel_use.parquet
 meta:
   name:
