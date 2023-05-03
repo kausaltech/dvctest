@@ -1,6 +1,6 @@
 outs:
-- md5: 3427648a6ed6c396732df14c09d1d7d3
-  size: 2937
+- md5: e30a494ecb5547de1a5ed874d7983522
+  size: 3128
   path: building_electricity_consumption_factor.parquet
 meta:
   name:
