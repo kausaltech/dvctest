@@ -12,10 +12,10 @@
 /mileage_factor_by_vehicle_type.parquet
 /greenhouse_gas_emissions_by_subsector.parquet
 /fuel_consumption_by_vehicle_type.parquet
-/building_energy_factor.parquet
 /building_foor_area.parquet
 /building_electricity_consumption_factor.parquet
 /building_natural_gas_consumption_factor.parquet
 /stationary_wood_consumption.parquet
 /stationary_natural_gas_use.parquet
 /building_floor_area.parquet
+/building_energy_factor.parquet

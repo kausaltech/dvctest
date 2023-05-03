@@ -1,6 +1,6 @@
 outs:
-- md5: 7081b8f9319ca343c49383b15b5b2109
-  size: 3648
+- md5: c156f603cb84710a6430aa660cf76535
+  size: 3897
   path: building_energy_factor.parquet
 meta:
   name:
