@@ -1,0 +1,14 @@
+outs:
+- md5: 48d0c6ee662f96b924976bd8cbe62911
+  size: 3169
+  path: building_floor_area.parquet
+meta:
+  name:
+    en: Building floor area
+  identifier: building_floor_area
+  metrics:
+  - id: floor_area
+    label:
+      en: floor area
+  units:
+    floor_area: ft²
