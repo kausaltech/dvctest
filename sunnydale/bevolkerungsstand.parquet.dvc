@@ -1,0 +1,14 @@
+outs:
+- md5: 3d9162224723a749aa6b9e6c1e3ddf61
+  size: 2379
+  path: bevolkerungsstand.parquet
+meta:
+  name:
+    en: Bevölkerungsstand
+  identifier: bevolkerungsstand
+  metrics:
+  - id: bevalkerungsstand
+    label:
+      en: Bevälkerungsstand
+  units:
+    bevalkerungsstand: cap
