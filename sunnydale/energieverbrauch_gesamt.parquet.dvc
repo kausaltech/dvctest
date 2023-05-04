@@ -1,0 +1,14 @@
+outs:
+- md5: a125dfb681d1a3eeb0f1088bcefbb23d
+  size: 3426
+  path: energieverbrauch_gesamt.parquet
+meta:
+  name:
+    en: Energieverbrauch (Gesamt)
+  identifier: energieverbrauch_gesamt
+  metrics:
+  - id: energie
+    label:
+      en: Energie
+  units:
+    energie: MWh/a
