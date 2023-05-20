@@ -1,6 +1,6 @@
 outs:
-- md5: 48d0c6ee662f96b924976bd8cbe62911
-  size: 3169
+- md5: 75830505b1697c26913a604cba0a5e25
+  size: 3173
   path: building_floor_area.parquet
 meta:
   name:

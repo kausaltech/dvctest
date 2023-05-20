@@ -13,10 +13,10 @@
 /fuel_consumption_by_vehicle_type.parquet
 /building_foor_area.parquet
 /stationary_natural_gas_use.parquet
-/building_floor_area.parquet
 /building_energy_factor.parquet
 /building_electricity_consumption_factor.parquet
 /building_natural_gas_consumption_factor.parquet
 /stationary_fuel_use.parquet
 /stationary_wood_consumption.parquet
 /building_energy_use_intensity_eui.parquet
+/building_floor_area.parquet
