@@ -1,0 +1,18 @@
+outs:
+- md5: 4415dd3a9bf66166dbf0b7d1d5b4f276
+  size: 3892
+  path: building_energy_use_intensity.parquet
+meta:
+  name:
+    en: Building energy use intensity EUI
+  identifier: building_energy_use_intensity_eui
+  metrics:
+  - id: electricity
+    label:
+      en: electricity
+  - id: natural_gas
+    label:
+      en: natural gas
+  units:
+    electricity: kWh/a/ft²
+    natural_gas: thm/a/ft²
