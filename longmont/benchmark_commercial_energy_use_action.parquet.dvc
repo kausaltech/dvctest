@@ -1,0 +1,22 @@
+outs:
+- md5: 24bd3ac4b0aa3ecca597543c70af372e
+  size: 4641
+  path: benchmark_commercial_energy_use_action.parquet
+meta:
+  name:
+    en: Benchmark commercial energy use action
+  identifier: benchmark_commercial_energy_use_action
+  metrics:
+  - id: compliant
+    label:
+      en: compliant
+  - id: triggered
+    label:
+      en: triggered
+  - id: improvement
+    label:
+      en: improvement
+  units:
+    compliant: '%'
+    triggered: '%'
+    improvement: '%'
