@@ -21,3 +21,4 @@
 /building_floor_area.parquet
 /building_energy_use_intensity.parquet
 /building_energy_use_intensity_eui.parquet
+/commercial_square_footage_over_20000_sf.parquet

@@ -1,0 +1,14 @@
+outs:
+- md5: 9702f60238f2617d1eb11b4b23d9e681
+  size: 2268
+  path: commercial_square_footage_over_20000_sf.parquet
+meta:
+  name:
+    en: Commercial square footage over 20000 SF
+  identifier: commercial_square_footage_over_20000_sf
+  metrics:
+  - id: floor_area
+    label:
+      en: floor_area
+  units:
+    floor_area: ft²
