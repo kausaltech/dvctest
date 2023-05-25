@@ -1,6 +1,6 @@
 outs:
-- md5: d38f8bd15812f88b7ca417e6c87212c3
-  size: 3740
+- md5: 21bb231d90f205e4deb0c9b32ae77dad
+  size: 3709
   path: fuel_consumption_by_vehicle_type.parquet
 meta:
   name:

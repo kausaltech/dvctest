@@ -10,7 +10,6 @@
 /emission_factor_fuels.parquet
 /mileage_factor_by_vehicle_type.parquet
 /greenhouse_gas_emissions_by_subsector.parquet
-/fuel_consumption_by_vehicle_type.parquet
 /building_foor_area.parquet
 /stationary_natural_gas_use.parquet
 /building_energy_factor.parquet
@@ -24,3 +23,4 @@
 /commercial_square_footage_over_20000_sf.parquet
 /benchmark_commercial_energy_use_action.parquet
 /improvements_beyond_building_code.parquet
+/fuel_consumption_by_vehicle_type.parquet
