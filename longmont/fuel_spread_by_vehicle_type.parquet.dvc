@@ -1,6 +1,6 @@
 outs:
-- md5: 84f65e71f84fb9145c0500aab4d24bcf
-  size: 3798
+- md5: c886a22bf94d5e68ca8e0d36064f6dcd
+  size: 3790
   path: fuel_spread_by_vehicle_type.parquet
 meta:
   name:
