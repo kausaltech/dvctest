@@ -1,0 +1,14 @@
+outs:
+- md5: 5badee3dc320fa881a280e13a327f2de
+  size: 2226
+  path: registered_electric_vehicles.parquet
+meta:
+  name:
+    en: Registered electric vehicles
+  identifier: registered_electric_vehicles
+  metrics:
+  - id: number
+    label:
+      en: number
+  units:
+    number: pieces
