@@ -25,3 +25,4 @@
 /fuel_consumption_by_vehicle_type.parquet
 /fuel_spread_by_vehicle_type.parquet
 /vehicle_miles_traveled.parquet
+/miles_per_gallon.parquet
