@@ -1,0 +1,14 @@
+outs:
+- md5: 16a59ca48accda76007d8baddf509d2b
+  size: 2203
+  path: annual_vehicle_miles_per_vehicle.parquet
+meta:
+  name:
+    en: Annual vehicle miles per vehicle
+  identifier: annual_vehicle_miles_per_vehicle
+  metrics:
+  - id: vmt
+    label:
+      en: vmt
+  units:
+    vmt: mi/a/pieces
