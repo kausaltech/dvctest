@@ -24,3 +24,4 @@
 /improvements_beyond_building_code.parquet
 /fuel_consumption_by_vehicle_type.parquet
 /fuel_spread_by_vehicle_type.parquet
+/vehicle_miles_traveled.parquet

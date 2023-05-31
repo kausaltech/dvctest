@@ -1,0 +1,14 @@
+outs:
+- md5: dbd89449901734c4b5ab186d3652f0ed
+  size: 3065
+  path: vehicle_miles_traveled.parquet
+meta:
+  name:
+    en: Passenger car miles traveled VMT
+  identifier: vehicle_miles_traveled_vmt
+  metrics:
+  - id: vmt
+    label:
+      en: vmt
+  units:
+    vmt: mi/a
