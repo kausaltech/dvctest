@@ -1,0 +1,14 @@
+outs:
+- md5: d5ebf8a218cf029b3c905e89c858180a
+  size: 2317
+  path: electric_vehicle_efficiency.parquet
+meta:
+  name:
+    en: Electric vehicle efficiency
+  identifier: electric_vehicle_efficiency
+  metrics:
+  - id: consumption_factor
+    label:
+      en: consumption factor
+  units:
+    consumption_factor: mi/kWh

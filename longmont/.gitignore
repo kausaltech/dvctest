@@ -28,3 +28,4 @@
 /miles_per_gallon.parquet
 /annual_vehicle_miles_per_vehicle.parquet
 /registered_electric_vehicles.parquet
+/electric_vehicle_efficiency.parquet
