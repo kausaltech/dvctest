@@ -1,6 +1,6 @@
 outs:
-- md5: dbd89449901734c4b5ab186d3652f0ed
-  size: 3065
+- md5: a4429f297fee33a9da106f2513bc0dc1
+  size: 3077
   path: vehicle_miles_traveled.parquet
 meta:
   name:
