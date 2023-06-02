@@ -1,6 +1,6 @@
 outs:
-- md5: 4e748db71358fee90e170ac3ab0017f6
-  size: 3858
+- md5: 07d1b91ae217bc8a40f50b4b29d14798
+  size: 3923
   path: emission_factor_fuels.parquet
 meta:
   name:
