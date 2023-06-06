@@ -1,0 +1,14 @@
+outs:
+- md5: ba3dc1cc19a9d44095059a6423aa848a
+  size: 2862
+  path: amount_of_waste.parquet
+meta:
+  name:
+    en: Amount of waste
+  identifier: amount_of_waste
+  metrics:
+  - id: mass
+    label:
+      en: mass
+  units:
+    mass: ton

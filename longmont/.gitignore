@@ -29,3 +29,4 @@
 /registered_electric_vehicles.parquet
 /electric_vehicle_efficiency.parquet
 /emission_factor_fuels.parquet
+/amount_of_waste.parquet
