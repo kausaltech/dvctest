@@ -11,4 +11,4 @@ meta:
     label:
       en: mass
   units:
-    mass: ton/a
+    mass: ton/a/cap
