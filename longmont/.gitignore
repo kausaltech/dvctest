@@ -25,8 +25,8 @@
 /fuel_spread_by_vehicle_type.parquet
 /vehicle_miles_traveled.parquet
 /miles_per_gallon.parquet
-/annual_vehicle_miles_per_vehicle.parquet
 /electric_vehicle_efficiency.parquet
 /emission_factor_fuels.parquet
 /amount_of_waste.parquet
 /registered_electric_vehicles.parquet
+/annual_vehicle_miles_per_vehicle.parquet
