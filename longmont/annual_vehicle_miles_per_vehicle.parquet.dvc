@@ -11,4 +11,4 @@ meta:
     label:
       en: vmt
   units:
-    vmt: VMT/a/v
+    vmt: mi/a/v
