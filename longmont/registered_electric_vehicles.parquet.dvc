@@ -1,6 +1,6 @@
 outs:
-- md5: 5badee3dc320fa881a280e13a327f2de
-  size: 2226
+- md5: f88028ad4f113a1d09354dfd5cbb9f51
+  size: 2231
   path: registered_electric_vehicles.parquet
 meta:
   name:
