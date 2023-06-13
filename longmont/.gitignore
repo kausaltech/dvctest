@@ -31,3 +31,4 @@
 /annual_vehicle_miles_per_vehicle.parquet
 /vehicle_charging_shares.parquet
 /commercial_square_footage_over_20000_sf.parquet
+/energy_use_intensity_with_building_code_action.parquet
