@@ -1,0 +1,14 @@
+outs:
+- md5: 36ef1e3f01e87627bc94be0a504186c7
+  size: 5314
+  path: energy_use_intensity_with_building_actions.parquet
+meta:
+  name:
+    en: Energy use intensity with building code action
+  identifier: energy_use_intensity_with_building_code_action
+  metrics:
+  - id: fraction
+    label:
+      en: fraction
+  units:
+    fraction: '%'
