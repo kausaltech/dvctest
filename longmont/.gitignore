@@ -1,6 +1,5 @@
 /stationary_energy_use.parquet
 /stationary_electricity_use.parquet
-/electricity_emission_factor.parquet
 /greenhouse_gas_emissions.parquet
 /emission_factor_wood.parquet
 /emission_factor_natural_gas.parquet
@@ -33,3 +32,4 @@
 /commercial_square_footage_over_20000_sf.parquet
 /energy_use_intensity_with_building_code_action.parquet
 /energy_use_intensity_with_building_actions.parquet
+/electricity_emission_factor.parquet
