@@ -1,6 +1,6 @@
 outs:
-- md5: f114b6e085127715ab5b21482de69229
-  size: 86480
+- md5: a5e9d0afb1d00752a5f59acab3e9568a
+  size: 90281
   path: pks_khk_paastot.parquet
 meta:
   units:
