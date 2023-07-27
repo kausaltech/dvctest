@@ -5,7 +5,6 @@
 /district_heat_emission_factors.parquet
 /buildings_energy_consumption_emission_factor_revised.parquet
 /waste_incineration.parquet
-/population.parquet
 /externally_supplied_electricity.parquet
 /general_electricity_production_mix.parquet
 /subsidized_electricity_production_mix.parquet
@@ -24,3 +23,4 @@
 /emissions.parquet
 /transport_electricity_consumption.parquet
 /sewage_sludge_processing.parquet
+/population.parquet
