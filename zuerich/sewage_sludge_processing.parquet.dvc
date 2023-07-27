@@ -1,0 +1,14 @@
+outs:
+- md5: c1cd7788e88771d6b1907dc7fa3dd500
+  size: 2996
+  path: sewage_sludge_processing.parquet
+meta:
+  name:
+    de-CH: Klaerschlammverwertung
+  identifier: sewage_sludge_processing
+  metrics:
+  - id: emissions
+    label:
+      de-CH: Emissions
+  units:
+    emissions: kg/a
