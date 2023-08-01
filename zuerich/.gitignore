@@ -15,7 +15,6 @@
 /building_electricity_need.parquet
 /building_floor_area.parquet
 /transport_occupancy_factor.parquet
-/vehicle_mileage.parquet
 /transport_emission_factors.parquet
 /fuel_consumption_factor.parquet
 /non_road_machinery_fuel_consumption.parquet
@@ -24,3 +23,4 @@
 /sewage_sludge_processing.parquet
 /number_of_jobs.parquet
 /population.parquet
+/vehicle_mileage.parquet
