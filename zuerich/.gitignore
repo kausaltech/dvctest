@@ -4,7 +4,6 @@
 /test.parquet
 /district_heat_emission_factors.parquet
 /buildings_energy_consumption_emission_factor_revised.parquet
-/waste_incineration.parquet
 /externally_supplied_electricity.parquet
 /general_electricity_production_mix.parquet
 /subsidized_electricity_production_mix.parquet
@@ -24,3 +23,4 @@
 /vehicle_mileage.parquet
 /fuel_consumption_factor.parquet
 /transport_emission_factors.parquet
+/waste_incineration.parquet
