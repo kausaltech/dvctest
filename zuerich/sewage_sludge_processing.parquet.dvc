@@ -1,6 +1,7 @@
 outs:
-- md5: c1cd7788e88771d6b1907dc7fa3dd500
-  size: 2996
+- md5: f4dac2bc6bcbb59841e19062428dda9e
+  size: 3355
+  hash: md5
   path: sewage_sludge_processing.parquet
 meta:
   name:

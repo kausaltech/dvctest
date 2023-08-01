@@ -17,7 +17,6 @@
 /non_road_machinery_fuel_consumption.parquet
 /emissions.parquet
 /transport_electricity_consumption.parquet
-/sewage_sludge_processing.parquet
 /number_of_jobs.parquet
 /population.parquet
 /vehicle_mileage.parquet
@@ -25,3 +24,4 @@
 /transport_emission_factors.parquet
 /waste_incineration.parquet
 /waste_incineration_emission_factors.parquet
+/sewage_sludge_processing.parquet
