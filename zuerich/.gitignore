@@ -26,3 +26,4 @@
 /waste_incineration_emission_factors.parquet
 /sewage_sludge_processing.parquet
 /vehicle_electrification_goals.parquet
+/vehicle_fuel_efficiency_improvement.parquet
