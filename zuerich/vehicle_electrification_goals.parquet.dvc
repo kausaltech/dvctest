@@ -1,6 +1,6 @@
 outs:
-- md5: 06cf05ab97a91873ff186e05afdb8c4a
-  size: 3614
+- md5: 8c48ecbc73a84098365c6b73007605a7
+  size: 3804
   hash: md5
   path: vehicle_electrification_goals.parquet
 meta:
