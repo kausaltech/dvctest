@@ -19,7 +19,6 @@
 /number_of_jobs.parquet
 /population.parquet
 /vehicle_mileage.parquet
-/fuel_consumption_factor.parquet
 /transport_emission_factors.parquet
 /waste_incineration.parquet
 /waste_incineration_emission_factors.parquet
@@ -27,3 +26,4 @@
 /vehicle_fuel_efficiency_improvement.parquet
 /vehicle_electrification_goals.parquet
 /transport_occupancy_factor.parquet
+/fuel_consumption_factor.parquet
