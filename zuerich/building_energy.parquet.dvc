@@ -1,6 +1,7 @@
 outs:
-- md5: 1f43d1b31ca8a3a180c9f5d2ed1e2ae9
-  size: 5225
+- md5: 33a519925a547f0a38f2a5bc21339b80
+  size: 5355
+  hash: md5
   path: building_energy.parquet
 meta:
   name:
