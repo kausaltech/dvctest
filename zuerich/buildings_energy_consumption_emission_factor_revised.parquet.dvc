@@ -1,11 +1,12 @@
 outs:
-- md5: 11faa1002b1b2f16bde54db607ba4e69
-  size: 4009
+- md5: 29a03dcf3f92d2adb933c0ab5d904a8d
+  size: 4222
+  hash: md5
   path: buildings_energy_consumption_emission_factor_revised.parquet
 meta:
   name:
     de-CH: Buildings energy consumption emission factor
-  identifier: buildings_energy_consumption_emission_factor
+  identifier: buildings_energy_consumption_emission_factor_revised
   metrics:
   - id: emission_factor
     label:

@@ -3,7 +3,6 @@
 /electricity_production_mix.parquet
 /test.parquet
 /district_heat_emission_factors.parquet
-/buildings_energy_consumption_emission_factor_revised.parquet
 /externally_supplied_electricity.parquet
 /general_electricity_production_mix.parquet
 /subsidized_electricity_production_mix.parquet
@@ -27,3 +26,4 @@
 /transport_occupancy_factor.parquet
 /vehicle_electrification_goals.parquet
 /building_energy.parquet
+/buildings_energy_consumption_emission_factor_revised.parquet
