@@ -1,0 +1,15 @@
+outs:
+- md5: 882b62c6fec80cadab0ab8a090838596
+  size: 3096
+  hash: md5
+  path: heating_system_efficiency.parquet
+meta:
+  name:
+    de-CH: Heating system efficiency
+  identifier: heating_system_efficiency
+  metrics:
+  - id: efficiency
+    label:
+      de-CH: Efficiency
+  units:
+    efficiency: '%'
