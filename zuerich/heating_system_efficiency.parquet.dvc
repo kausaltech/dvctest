@@ -11,5 +11,3 @@ meta:
   - id: efficiency
     label:
       de-CH: Efficiency
-  units:
-    efficiency: '%'
