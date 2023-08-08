@@ -23,7 +23,6 @@
 /transport_occupancy_factor.parquet
 /vehicle_electrification_goals.parquet
 /building_energy.parquet
-/buildings_energy_consumption_emission_factor_revised.parquet
 /district_heat_production_mix.parquet
 /heating_system_efficiency.parquet
 /other_building_emission_source_fuel_use.parquet
@@ -31,3 +30,4 @@
 /non_road_machinery_fuel_consumption.parquet
 /non_road_machinery_emission_factors.parquet
 /emissions.parquet
+/buildings_energy_consumption_emission_factor_revised.parquet
