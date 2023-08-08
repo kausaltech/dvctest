@@ -31,3 +31,4 @@
 /non_road_machinery_emission_factors.parquet
 /emissions.parquet
 /buildings_energy_consumption_emission_factor_revised.parquet
+/wastewater_treatment_catchment_population.parquet
