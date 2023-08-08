@@ -10,7 +10,6 @@
 /district_heat_emission_factor.parquet
 /building_electricity_need.parquet
 /building_floor_area.parquet
-/non_road_machinery_fuel_consumption.parquet
 /emissions.parquet
 /transport_electricity_consumption.parquet
 /number_of_jobs.parquet
@@ -30,3 +29,4 @@
 /heating_system_efficiency.parquet
 /other_building_emission_source_fuel_use.parquet
 /other_building_emission_source_emission_factors.parquet
+/non_road_machinery_fuel_consumption.parquet
