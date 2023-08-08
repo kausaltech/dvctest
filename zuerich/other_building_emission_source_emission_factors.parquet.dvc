@@ -1,0 +1,15 @@
+outs:
+- md5: cdbdc0fa7406ae25363862f8a2879594
+  size: 4941
+  hash: md5
+  path: other_building_emission_source_emission_factors.parquet
+meta:
+  name:
+    de-CH: Other building emission source emission factors
+  identifier: other_building_emission_source_emission_factors
+  metrics:
+  - id: emission_factor
+    label:
+      de-CH: Emission factor
+  units:
+    emission_factor: kg/MJ
