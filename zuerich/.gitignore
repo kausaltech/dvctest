@@ -30,3 +30,4 @@
 /other_building_emission_source_fuel_use.parquet
 /other_building_emission_source_emission_factors.parquet
 /non_road_machinery_fuel_consumption.parquet
+/non_road_machinery_emission_factors.parquet

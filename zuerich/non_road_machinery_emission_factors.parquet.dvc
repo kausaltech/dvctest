@@ -1,0 +1,15 @@
+outs:
+- md5: b211a8d46316293379d88ea0a89821b2
+  size: 4768
+  hash: md5
+  path: non_road_machinery_emission_factors.parquet
+meta:
+  name:
+    de-CH: Non-road machinery emission factors
+  identifier: non_road_machinery_emission_factors
+  metrics:
+  - id: emission_factor
+    label:
+      de-CH: Emission factor
+  units:
+    emission_factor: ''
