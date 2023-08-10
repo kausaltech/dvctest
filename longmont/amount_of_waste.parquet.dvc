@@ -1,6 +1,7 @@
 outs:
-- md5: ba3dc1cc19a9d44095059a6423aa848a
-  size: 2862
+- md5: 0ca08a251f86553284dbea95b48562b5
+  size: 2879
+  hash: md5
   path: amount_of_waste.parquet
 meta:
   name:

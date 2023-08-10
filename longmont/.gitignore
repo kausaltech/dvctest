@@ -25,7 +25,6 @@
 /miles_per_gallon.parquet
 /electric_vehicle_efficiency.parquet
 /emission_factor_fuels.parquet
-/amount_of_waste.parquet
 /registered_electric_vehicles.parquet
 /annual_vehicle_miles_per_vehicle.parquet
 /vehicle_charging_shares.parquet
@@ -33,3 +32,4 @@
 /energy_use_intensity_with_building_code_action.parquet
 /energy_use_intensity_with_building_actions.parquet
 /electricity_emission_factor.parquet
+/amount_of_waste.parquet
