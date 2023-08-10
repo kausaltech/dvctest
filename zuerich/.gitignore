@@ -22,7 +22,6 @@
 /transport_emission_factors.parquet
 /transport_occupancy_factor.parquet
 /vehicle_electrification_goals.parquet
-/building_energy.parquet
 /district_heat_production_mix.parquet
 /heating_system_efficiency.parquet
 /other_building_emission_source_fuel_use.parquet
@@ -34,3 +33,4 @@
 /wastewater_treatment_catchment_population.parquet
 /wastewater_treatment_emission_factors.parquet
 /vehicle_tank_respiration_emissions.parquet
+/building_energy.parquet
