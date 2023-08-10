@@ -1,7 +1,6 @@
 outs:
 - md5: d02df6849f9a001c7d06a7de42270ee2
   size: 3022
-  hash: md5
   path: vehicle_tank_respiration_emissions.parquet
 meta:
   name:

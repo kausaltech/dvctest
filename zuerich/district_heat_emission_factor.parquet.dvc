@@ -1,7 +1,6 @@
 outs:
 - md5: c05899afa18c449577a01a255228eedf
   size: 5198
-  hash: md5
   path: district_heat_emission_factor.parquet
 meta:
   name:

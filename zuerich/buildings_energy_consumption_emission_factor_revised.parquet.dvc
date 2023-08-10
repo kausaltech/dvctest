@@ -1,7 +1,6 @@
 outs:
 - md5: f78d34285dd251ebfc2d92703fe4a549
   size: 4367
-  hash: md5
   path: buildings_energy_consumption_emission_factor_revised.parquet
 meta:
   name:

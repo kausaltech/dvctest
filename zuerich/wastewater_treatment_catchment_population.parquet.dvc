@@ -1,7 +1,6 @@
 outs:
 - md5: ed7b2ddd03ac55b116d1f00e1f1407a5
   size: 2576
-  hash: md5
   path: wastewater_treatment_catchment_population.parquet
 meta:
   name:

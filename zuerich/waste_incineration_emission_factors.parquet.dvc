@@ -1,7 +1,6 @@
 outs:
 - md5: 92eacc63310e139c4e17205146788765
   size: 3484
-  hash: md5
   path: waste_incineration_emission_factors.parquet
 meta:
   name:

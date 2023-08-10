@@ -1,7 +1,6 @@
 outs:
 - md5: b9d8fe0d3662d7b44f71ba08091fd529
   size: 4269
-  hash: md5
   path: emissions.parquet
 meta:
   name:
