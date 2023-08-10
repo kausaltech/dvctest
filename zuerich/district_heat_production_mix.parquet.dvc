@@ -1,6 +1,6 @@
 outs:
-- md5: a47539a2512961bc0d9d77849abbc0e8
-  size: 3684
+- md5: 39b0c3973c8fdcf5adf0f119e773f074
+  size: 3741
   hash: md5
   path: district_heat_production_mix.parquet
 meta:
