@@ -34,3 +34,4 @@
 /district_heat_production_mix.parquet
 /buildings_energy_consumption_emission_factor_revised.parquet
 /district_heat_emission_factor.parquet
+/district_heat_production_mix_goals.parquet
