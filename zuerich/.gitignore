@@ -26,7 +26,6 @@
 /other_building_emission_source_emission_factors.parquet
 /non_road_machinery_fuel_consumption.parquet
 /non_road_machinery_emission_factors.parquet
-/emissions.parquet
 /wastewater_treatment_catchment_population.parquet
 /wastewater_treatment_emission_factors.parquet
 /vehicle_tank_respiration_emissions.parquet
@@ -35,3 +34,4 @@
 /buildings_energy_consumption_emission_factor_revised.parquet
 /district_heat_emission_factor.parquet
 /district_heat_production_mix_goals.parquet
+/emissions.parquet
