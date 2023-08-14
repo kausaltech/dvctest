@@ -1,6 +1,7 @@
 outs:
 - md5: c0064a1ccd8e96fd3a86b453ccf54820
   size: 4842
+  hash: md5
   path: buildings_primary_energy_factors.parquet
 meta:
   name:
