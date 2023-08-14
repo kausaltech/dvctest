@@ -1,6 +1,7 @@
 outs:
 - md5: 5912e48ab082cc4c91a7d36b933fcfeb
   size: 3110
+  hash: md5
   path: heating_system_efficiency.parquet
 meta:
   name:

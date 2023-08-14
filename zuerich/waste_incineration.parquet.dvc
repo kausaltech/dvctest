@@ -1,6 +1,7 @@
 outs:
 - md5: e799c900f90df49e58ac83266da30855
   size: 5347
+  hash: md5
   path: waste_incineration.parquet
 meta:
   name:

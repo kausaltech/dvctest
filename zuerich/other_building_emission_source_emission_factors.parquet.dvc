@@ -1,6 +1,7 @@
 outs:
 - md5: acc00fc58672ef3c8d655dbbd973cd50
   size: 5000
+  hash: md5
   path: other_building_emission_source_emission_factors.parquet
 meta:
   name:

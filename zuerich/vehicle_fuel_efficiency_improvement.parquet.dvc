@@ -1,6 +1,7 @@
 outs:
 - md5: 09d653760da6c5ef811bd06056a42dd3
   size: 3536
+  hash: md5
   path: vehicle_fuel_efficiency_improvement.parquet
 meta:
   name:

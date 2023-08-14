@@ -1,6 +1,7 @@
 outs:
 - md5: 31b2eb7d0c9439dfd046cd81b4b203b2
   size: 3048
+  hash: md5
   path: transport_occupancy_factor.parquet
 meta:
   name:

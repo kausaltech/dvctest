@@ -1,6 +1,7 @@
 outs:
 - md5: 9ab2b3e0fa54a5884000681c9f401e76
   size: 3474
+  hash: md5
   path: wastewater_treatment_emission_factors.parquet
 meta:
   name:
