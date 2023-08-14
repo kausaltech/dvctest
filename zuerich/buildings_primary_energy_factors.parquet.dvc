@@ -1,0 +1,15 @@
+outs:
+- md5: c0064a1ccd8e96fd3a86b453ccf54820
+  size: 4842
+  hash: md5
+  path: buildings_primary_energy_factors.parquet
+meta:
+  name:
+    de-CH: Buildings primary energy factors
+  identifier: buildings_primary_energy_factors
+  metrics:
+  - id: energy_factor
+    label:
+      de-CH: Energy factor
+  units:
+    energy_factor: ''
