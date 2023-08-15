@@ -1,6 +1,7 @@
 outs:
-- md5: b79f7438919f3e91d705029bbf053e85
-  size: 3415
+- md5: e2229be0bad36a62d2b85e015fc2122b
+  size: 3433
+  hash: md5
   path: subsidized_electricity_production_mix.parquet
 meta:
   name:
