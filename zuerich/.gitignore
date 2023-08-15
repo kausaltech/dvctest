@@ -38,3 +38,4 @@
 /general_electricity_production_mix.parquet
 /subsidized_electricity_production_mix.parquet
 /externally_supplied_electricity.parquet
+/transport_electricity_production_mix.parquet
