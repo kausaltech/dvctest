@@ -3,7 +3,6 @@
 /electricity_production_mix.parquet
 /test.parquet
 /district_heat_emission_factors.parquet
-/externally_supplied_electricity.parquet
 /electricity_consumption_emission_factor.parquet
 /building_electricity_need.parquet
 /building_floor_area.parquet
@@ -38,3 +37,4 @@
 /buildings_primary_energy_factors.parquet
 /general_electricity_production_mix.parquet
 /subsidized_electricity_production_mix.parquet
+/externally_supplied_electricity.parquet
