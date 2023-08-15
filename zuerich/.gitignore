@@ -37,3 +37,4 @@
 /emissions.parquet
 /buildings_primary_energy_factors.parquet
 /electricity_primary_energy_factors.parquet
+/district_heating_primary_energy_factors.parquet

@@ -1,0 +1,15 @@
+outs:
+- md5: 7513584a798f65f1544bfb1729451ffb
+  size: 4640
+  hash: md5
+  path: district_heating_primary_energy_factors.parquet
+meta:
+  name:
+    de-CH: District Heating Primary Energy Factors
+  identifier: district_heating_primary_energy_factors
+  metrics:
+  - id: energy_factor
+    label:
+      de-CH: Energy Factor
+  units:
+    energy_factor: ''
