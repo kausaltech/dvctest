@@ -1,0 +1,15 @@
+outs:
+- md5: 4512e45879bf8cb2e0151eebef6fbb02
+  size: 4354
+  hash: md5
+  path: electricity_primary_energy_factors.parquet
+meta:
+  name:
+    de-CH: Electricity Primary Energy Factors
+  identifier: electricity_primary_energy_factors
+  metrics:
+  - id: energy_factor
+    label:
+      de-CH: Energy Factor
+  units:
+    energy_factor: ''

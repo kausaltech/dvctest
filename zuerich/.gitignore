@@ -36,3 +36,4 @@
 /district_heat_production_mix_goals.parquet
 /emissions.parquet
 /buildings_primary_energy_factors.parquet
+/electricity_primary_energy_factors.parquet
