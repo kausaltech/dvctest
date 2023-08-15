@@ -1,0 +1,15 @@
+outs:
+- md5: a0879e8c754c46e571576bac267d092e
+  size: 3562
+  hash: md5
+  path: subsidized_transport_electricity_production_mix.parquet
+meta:
+  name:
+    de-CH: Subsidized Transport Electricity Production Mix
+  identifier: subsidized_transport_electricity_production_mix
+  metrics:
+  - id: share
+    label:
+      de-CH: Share
+  units:
+    share: '%'
