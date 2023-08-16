@@ -1,6 +1,6 @@
 outs:
-- md5: 5dff21516ac7a6c60f9891064fce6373
-  size: 2343
+- md5: 10bf8d9d4cbeb5fe2348213a2c1f76e6
+  size: 2240
   hash: md5
   path: transport_externally_supplied_electricity.parquet
 meta:
