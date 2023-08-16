@@ -1,0 +1,15 @@
+outs:
+- md5: 5dff21516ac7a6c60f9891064fce6373
+  size: 2343
+  hash: md5
+  path: transport_externally_supplied_electricity.parquet
+meta:
+  name:
+    de-CH: Transport Externally Supplied Electricity
+  identifier: transport_externally_supplied_electricity
+  metrics:
+  - id: energy
+    label:
+      de-CH: Energy
+  units:
+    energy: GWh/a
