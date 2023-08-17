@@ -42,3 +42,4 @@
 /subsidized_transport_electricity_production_mix.parquet
 /transport_externally_supplied_electricity.parquet
 /transport_electricity_production_energy_factor.parquet
+/fuel_energy_density.parquet

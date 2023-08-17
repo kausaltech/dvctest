@@ -1,0 +1,15 @@
+outs:
+- md5: fafa38aa054fa5e9b7934fbd166e37a6
+  size: 4275
+  hash: md5
+  path: fuel_energy_density.parquet
+meta:
+  name:
+    de-CH: Fuel Energy Density
+  identifier: fuel_energy_density
+  metrics:
+  - id: energy_density
+    label:
+      de-CH: Energy Density
+  units:
+    energy_density: MJ/kg
