@@ -43,3 +43,4 @@
 /transport_externally_supplied_electricity.parquet
 /transport_electricity_production_energy_factor.parquet
 /fuel_energy_density.parquet
+/transport_fuel_primary_energy_factors.parquet

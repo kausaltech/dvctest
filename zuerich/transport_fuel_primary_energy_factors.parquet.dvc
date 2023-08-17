@@ -1,0 +1,15 @@
+outs:
+- md5: 0a0e19c1d26de8ca716eeb437fb1ce96
+  size: 4101
+  hash: md5
+  path: transport_fuel_primary_energy_factors.parquet
+meta:
+  name:
+    de-CH: Transport Fuel Primary Energy Factors
+  identifier: transport_fuel_primary_energy_factors
+  metrics:
+  - id: energy_factor
+    label:
+      de-CH: Energy Factor
+  units:
+    energy_factor: ''
