@@ -1,0 +1,15 @@
+outs:
+- md5: 191873e6215ce09d858b1db12331b452
+  size: 3989
+  hash: md5
+  path: stationary_electricity_consumption.parquet
+meta:
+  name:
+    en: Stationary Electricity Consumption
+  identifier: stationary_electricity_consumption
+  metrics:
+  - id: energy
+    label:
+      en: Energy
+  units:
+    energy: kWh
