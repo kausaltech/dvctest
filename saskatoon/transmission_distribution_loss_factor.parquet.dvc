@@ -1,0 +1,15 @@
+outs:
+- md5: 9f70d63da731fe6cb66154b02aa37fac
+  size: 2933
+  hash: md5
+  path: transmission_distribution_loss_factor.parquet
+meta:
+  name:
+    en: Transmission Distribution Loss Factor
+  identifier: transmission_distribution_loss_factor
+  metrics:
+  - id: fraction
+    label:
+      en: Fraction
+  units:
+    fraction: ''
