@@ -1,0 +1,15 @@
+outs:
+- md5: d70c4aa479aaad843a65ec75efddaa02
+  size: 3095
+  hash: md5
+  path: electricity_emission_factor.parquet
+meta:
+  name:
+    en: Electricity Emission Factor
+  identifier: electricity_emission_factor
+  metrics:
+  - id: factor
+    label:
+      en: Factor
+  units:
+    factor: t/kWh
