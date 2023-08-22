@@ -1,0 +1,15 @@
+outs:
+- md5: 5671d27a981c128c82c36ba6803335d5
+  size: 3212
+  hash: md5
+  path: stationary_natural_gas_consumption.parquet
+meta:
+  name:
+    en: Stationary Natural Gas Consumption
+  identifier: stationary_natural_gas_consumption
+  metrics:
+  - id: volume
+    label:
+      en: Volume
+  units:
+    volume: m³
