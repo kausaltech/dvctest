@@ -1,0 +1,15 @@
+outs:
+- md5: 2fb4a837dfad6b943ddc01a2fc86d119
+  size: 3113
+  hash: md5
+  path: greenhouse_gas_emissions_by_sector.parquet
+meta:
+  name:
+    en: Greenhouse Gas Emissions by Sector
+  identifier: greenhouse_gas_emissions_by_sector
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t

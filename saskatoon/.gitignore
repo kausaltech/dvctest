@@ -1,3 +1,4 @@
 /transmission_distribution_loss_factor.parquet
 /stationary_electricity_consumption.parquet
 /electricity_emission_factor.parquet
+/greenhouse_gas_emissions_by_sector.parquet
