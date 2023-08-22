@@ -1,0 +1,15 @@
+outs:
+- md5: add06034f0d93990e6ebdac37da0bddc
+  size: 4042
+  hash: md5
+  path: fuel_emission_factor.parquet
+meta:
+  name:
+    en: Fuel Emission Factor
+  identifier: fuel_emission_factor
+  metrics:
+  - id: factor
+    label:
+      en: Factor
+  units:
+    factor: t/l
