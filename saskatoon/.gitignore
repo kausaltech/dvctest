@@ -3,3 +3,4 @@
 /electricity_emission_factor.parquet
 /greenhouse_gas_emissions_by_sector.parquet
 /stationary_natural_gas_consumption.parquet
+/natural_gas_emission_factor.parquet

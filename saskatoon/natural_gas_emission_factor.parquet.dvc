@@ -1,0 +1,15 @@
+outs:
+- md5: fb8d5aab8c17a297125de1735620723e
+  size: 2995
+  hash: md5
+  path: natural_gas_emission_factor.parquet
+meta:
+  name:
+    en: Natural Gas Emission Factor
+  identifier: natural_gas_emission_factor
+  metrics:
+  - id: factor
+    label:
+      en: Factor
+  units:
+    factor: t/m³
