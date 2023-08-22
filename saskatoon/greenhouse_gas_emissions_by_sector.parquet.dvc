@@ -1,6 +1,6 @@
 outs:
-- md5: 2fb4a837dfad6b943ddc01a2fc86d119
-  size: 3113
+- md5: 22ece21f751c149c4fb043ccc7d0ae35
+  size: 3365
   hash: md5
   path: greenhouse_gas_emissions_by_sector.parquet
 meta:
