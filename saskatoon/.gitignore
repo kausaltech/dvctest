@@ -5,3 +5,4 @@
 /stationary_natural_gas_consumption.parquet
 /natural_gas_emission_factor.parquet
 /fuel_emission_factor.parquet
+/stationary_propane_consumption.parquet

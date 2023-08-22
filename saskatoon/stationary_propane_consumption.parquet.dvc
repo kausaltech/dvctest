@@ -1,0 +1,15 @@
+outs:
+- md5: d40d6563de4a9ef89700fc1f54d46d55
+  size: 3973
+  hash: md5
+  path: stationary_propane_consumption.parquet
+meta:
+  name:
+    en: Stationary Propane Consumption
+  identifier: stationary_propane_consumption
+  metrics:
+  - id: volume
+    label:
+      en: Volume
+  units:
+    volume: l
