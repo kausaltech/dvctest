@@ -1,18 +1,15 @@
 outs:
-- md5: 15bfb6e5708fccdd165ce88112de1b1f
-  size: 4306
+- md5: 670a6ac84168ab14cbed8a084bf8a08c
+  size: 5304
+  hash: md5
   path: energy_use_intensity_with_building_code_action.parquet
 meta:
   name:
     en: Energy use intensity with building code action
   identifier: energy_use_intensity_with_building_code_action
   metrics:
-  - id: electricity
+  - id: fraction
     label:
-      en: electricity
-  - id: natural_gas
-    label:
-      en: natural gas
+      en: fraction
   units:
-    electricity: kWh/a/ft²
-    natural_gas: thm/a/ft²
+    fraction: '%'
