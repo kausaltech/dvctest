@@ -1,0 +1,15 @@
+outs:
+- md5: a8c263a1e4ab82cc47f5f8b359dd1410
+  size: 5226
+  hash: md5
+  path: transport_fuel_consumption.parquet
+meta:
+  name:
+    en: Transport Fuel Consumption
+  identifier: transport_fuel_consumption
+  metrics:
+  - id: energy
+    label:
+      en: Energy
+  units:
+    energy: l/a
