@@ -33,3 +33,4 @@
 /energy_use_intensity_with_building_actions.parquet
 /electricity_emission_factor.parquet
 /amount_of_waste.parquet
+/building_square_footage.parquet

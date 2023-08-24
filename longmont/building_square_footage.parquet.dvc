@@ -1,0 +1,15 @@
+outs:
+- md5: a08149b965c8968255db3e89491b935c
+  size: 3569
+  hash: md5
+  path: building_square_footage.parquet
+meta:
+  name:
+    en: Building square footage
+  identifier: building_square_footage
+  metrics:
+  - id: floor_area
+    label:
+      en: floor area
+  units:
+    floor_area: ft²
