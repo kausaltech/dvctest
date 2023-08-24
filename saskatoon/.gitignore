@@ -8,3 +8,4 @@
 /stationary_electricity_consumption.parquet
 /transport_fuel_consumption.parquet
 /livestock_count.parquet
+/livestock_emission_factor.parquet

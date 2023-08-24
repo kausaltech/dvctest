@@ -1,0 +1,15 @@
+outs:
+- md5: c29ee7188b67ac3460f83411e32bcd3d
+  size: 3806
+  hash: md5
+  path: livestock_emission_factor.parquet
+meta:
+  name:
+    en: Livestock Emission Factor
+  identifier: livestock_emission_factor
+  metrics:
+  - id: factor
+    label:
+      en: Factor
+  units:
+    factor: t/cap
