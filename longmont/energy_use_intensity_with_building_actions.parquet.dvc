@@ -1,6 +1,6 @@
 outs:
-- md5: 2789fc046285f0518a5104dd1e50a461
-  size: 6296
+- md5: c0905bc094b6372297c03796ce6a7ad1
+  size: 6226
   hash: md5
   path: energy_use_intensity_with_building_actions.parquet
 meta:
