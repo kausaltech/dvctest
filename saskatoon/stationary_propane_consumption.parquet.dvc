@@ -1,5 +1,5 @@
 outs:
-- md5: d40d6563de4a9ef89700fc1f54d46d55
+- md5: ca38abae967ab1ff082bd0eac2e083cd
   size: 3973
   hash: md5
   path: stationary_propane_consumption.parquet
@@ -12,4 +12,4 @@ meta:
     label:
       en: Volume
   units:
-    volume: l
+    volume: l/a
