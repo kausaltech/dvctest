@@ -1,6 +1,6 @@
 outs:
-- md5: a08149b965c8968255db3e89491b935c
-  size: 3569
+- md5: 927a4172bd1f44c60c7a3f91cbb390c1
+  size: 3584
   hash: md5
   path: building_square_footage.parquet
 meta:
