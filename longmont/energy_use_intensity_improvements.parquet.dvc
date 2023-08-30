@@ -1,0 +1,19 @@
+outs:
+- md5: 21ea38a45bfdf693fd103586e024622f
+  size: 6185
+  hash: md5
+  path: energy_use_intensity_improvements.parquet
+meta:
+  name:
+    en: energy use intensity improvements
+  identifier: energy_use_intensity_improvements
+  metrics:
+  - id: electricity
+    label:
+      en: electricity
+  - id: natural_gas
+    label:
+      en: natural gas
+  units:
+    electricity: kWh/a/ft²
+    natural_gas: thm/a/ft²
