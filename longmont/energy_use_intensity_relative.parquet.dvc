@@ -1,0 +1,15 @@
+outs:
+- md5: 94fe33693ff633a04fdb99e808fbfd49
+  size: 4969
+  hash: md5
+  path: energy_use_intensity_relative.parquet
+meta:
+  name:
+    en: Energy use intensity relative
+  identifier: energy_use_intensity_relative
+  metrics:
+  - id: fraction
+    label:
+      en: fraction
+  units:
+    fraction: '%'
