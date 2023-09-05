@@ -16,7 +16,6 @@
 /stationary_wood_consumption.parquet
 /building_floor_area.parquet
 /building_energy_use_intensity.parquet
-/building_energy_use_intensity_eui.parquet
 /benchmark_commercial_energy_use_action.parquet
 /improvements_beyond_building_code.parquet
 /fuel_consumption_by_vehicle_type.parquet
@@ -36,3 +35,4 @@
 /building_square_footage.parquet
 /energy_use_intensity_improvements.parquet
 /energy_use_intensity_relative.parquet
+/building_energy_use_intensity_eui.parquet
