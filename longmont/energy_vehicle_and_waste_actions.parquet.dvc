@@ -1,0 +1,51 @@
+outs:
+- md5: aeef4ba8f4eb44bf46bf520548147f81
+  size: 11165
+  hash: md5
+  path: energy_vehicle_and_waste_actions.parquet
+meta:
+  name:
+    en: Energy, vehicle and waste actions
+  identifier: energy_vehicle_and_waste_actions
+  metrics:
+  - id: efficiency_works_program
+    label:
+      en: efficiency works program
+  - id: replace_natural_gas_residential
+    label:
+      en: replace natural gas residential
+  - id: replace_natural_gas_commercial
+    label:
+      en: replace natural gas commercial
+  - id: longmont_power_renewables
+    label:
+      en: longmont power renewables
+  - id: vehicle_incentives
+    label:
+      en: vehicle incentives
+  - id: last_mile_connections
+    label:
+      en: last mile connections
+  - id: increase_waste_diversion
+    label:
+      en: increase waste diversion
+  - id: mpg_trend
+    label:
+      en: mpg trend
+  - id: vmt_per_vehicle_trend
+    label:
+      en: vmt per vehicle trend
+  - id: electric_vehicle_efficiency_trend
+    label:
+      en: electric vehicle efficiency trend
+  units:
+    efficiency_works_program: '%'
+    replace_natural_gas_residential: kthm/a
+    replace_natural_gas_commercial: kthm/a
+    longmont_power_renewables: t/MWh
+    vehicle_incentives: v
+    last_mile_connections: '%'
+    increase_waste_diversion: '%'
+    mpg_trend: mi/gal
+    vmt_per_vehicle_trend: mi/a/v
+    electric_vehicle_efficiency_trend: kWh/mi
