@@ -1,6 +1,6 @@
 outs:
-- md5: 307af8cdc8079c29e275abcc1e940df9
-  size: 2405
+- md5: bf2ad30fcc1f12fbce41435ed6ef139e
+  size: 2414
   hash: md5
   path: efficiency_works_program.parquet
 meta:
