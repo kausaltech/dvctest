@@ -12,4 +12,4 @@ meta:
     label:
       en: Number
   units:
-    number: cap
+    number: cap/a
