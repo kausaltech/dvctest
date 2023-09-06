@@ -1,0 +1,15 @@
+outs:
+- md5: 307af8cdc8079c29e275abcc1e940df9
+  size: 2405
+  hash: md5
+  path: efficiency_works_program.parquet
+meta:
+  name:
+    en: Efficiency works program
+  identifier: efficiency_works_program
+  metrics:
+  - id: fraction
+    label:
+      en: fraction
+  units:
+    fraction: '%'
