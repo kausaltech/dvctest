@@ -12,4 +12,4 @@ meta:
     label:
       en: Energy
   units:
-    energy: kWh
+    energy: kWh/a
