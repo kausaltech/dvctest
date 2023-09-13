@@ -12,4 +12,4 @@ meta:
     label:
       de-CH: Energy
   units:
-    energy: GWh/cap
+    energy: GWh/a/cap
