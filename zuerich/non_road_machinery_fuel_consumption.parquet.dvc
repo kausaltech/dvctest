@@ -1,6 +1,6 @@
 outs:
-- md5: 692708cb52f1e92bb92c77d11cd5ff25
-  size: 4150
+- md5: b7fb41027a9a914b0b8778c5c1d77169
+  size: 4147
   hash: md5
   path: non_road_machinery_fuel_consumption.parquet
 meta:
