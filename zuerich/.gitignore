@@ -44,3 +44,4 @@
 /fuel_energy_density.parquet
 /transport_fuel_primary_energy_factors.parquet
 /other_building_emission_source_emission_factors.parquet
+/biogas_processing_emissions.parquet
