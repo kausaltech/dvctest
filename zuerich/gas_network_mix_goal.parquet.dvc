@@ -1,0 +1,15 @@
+outs:
+- md5: 34be71861c4c84d86a42e3d69be3c88a
+  size: 2999
+  hash: md5
+  path: gas_network_mix_goal.parquet
+meta:
+  name:
+    de-CH: Gas network mix goal
+  identifier: gas_network_mix_goal
+  metrics:
+  - id: share
+    label:
+      de-CH: Share
+  units:
+    share: '%'

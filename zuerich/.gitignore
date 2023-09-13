@@ -45,3 +45,4 @@
 /other_building_emission_source_emission_factors.parquet
 /biogas_processing_emissions.parquet
 /vehicle_mileage.parquet
+/gas_network_mix_goal.parquet
