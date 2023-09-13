@@ -28,7 +28,6 @@
 /annual_vehicle_miles_per_vehicle.parquet
 /vehicle_charging_shares.parquet
 /commercial_square_footage_over_20000_sf.parquet
-/electricity_emission_factor.parquet
 /amount_of_waste.parquet
 /energy_use_intensity_with_building_code_action.parquet
 /energy_use_intensity_with_building_actions.parquet
@@ -39,3 +38,4 @@
 /stationary_energy_consumption.parquet
 /energy_vehicle_and_waste_actions.parquet
 /efficiency_works_program.parquet
+/electricity_emission_factor.parquet
