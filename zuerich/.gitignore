@@ -13,7 +13,6 @@
 /waste_incineration_emission_factors.parquet
 /sewage_sludge_processing.parquet
 /vehicle_fuel_efficiency_improvement.parquet
-/fuel_consumption_factor.parquet
 /transport_emission_factors.parquet
 /transport_occupancy_factor.parquet
 /vehicle_electrification_goals.parquet
@@ -46,3 +45,4 @@
 /biogas_processing_emissions.parquet
 /vehicle_mileage.parquet
 /gas_network_mix_goal.parquet
+/fuel_consumption_factor.parquet
