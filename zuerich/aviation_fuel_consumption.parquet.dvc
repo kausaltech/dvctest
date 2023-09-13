@@ -1,0 +1,15 @@
+outs:
+- md5: 17c01d8f988dfe159a4fd43b8b198f38
+  size: 3068
+  hash: md5
+  path: aviation_fuel_consumption.parquet
+meta:
+  name:
+    de-CH: Aviation Fuel Consumption
+  identifier: aviation_fuel_consumption
+  metrics:
+  - id: energy
+    label:
+      de-CH: Energy
+  units:
+    energy: GWh/cap
