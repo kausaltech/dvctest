@@ -9,7 +9,6 @@
 /transport_electricity_consumption.parquet
 /number_of_jobs.parquet
 /population.parquet
-/vehicle_mileage.parquet
 /waste_incineration.parquet
 /waste_incineration_emission_factors.parquet
 /sewage_sludge_processing.parquet
@@ -45,3 +44,4 @@
 /transport_fuel_primary_energy_factors.parquet
 /other_building_emission_source_emission_factors.parquet
 /biogas_processing_emissions.parquet
+/vehicle_mileage.parquet
