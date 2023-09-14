@@ -1,6 +1,6 @@
 outs:
-- md5: 17c01d8f988dfe159a4fd43b8b198f38
-  size: 3068
+- md5: 0e57512c055016d71bae5037b41a5b3d
+  size: 3072
   hash: md5
   path: aviation_fuel_consumption.parquet
 meta:
