@@ -1,0 +1,15 @@
+outs:
+- md5: df3fec4fa21e33b19297e206a693c274
+  size: 3713
+  hash: md5
+  path: aviation_emission_factor.parquet
+meta:
+  name:
+    de-CH: Aviation Emission Factor
+  identifier: aviation_emission_factor
+  metrics:
+  - id: factor
+    label:
+      de-CH: Factor
+  units:
+    factor: t/GWh
