@@ -1,0 +1,15 @@
+outs:
+- md5: c32f488af9ad05987c91bbc0607a70f5
+  size: 2429
+  hash: md5
+  path: population.parquet
+meta:
+  name:
+    en: Population
+  identifier: population
+  metrics:
+  - id: population
+    label:
+      en: Population
+  units:
+    population: cap
