@@ -1,0 +1,15 @@
+outs:
+- md5: bd63043f27e4fa7234521ac7566fc104
+  size: 3021
+  hash: md5
+  path: greenhouse_gas_emissions.parquet
+meta:
+  name:
+    en: Greenhouse Gas Emissions
+  identifier: greenhouse_gas_emissions
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t/a
