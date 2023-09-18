@@ -2,3 +2,4 @@
 /greenhouse_gas_emissions.parquet
 /stationary_emissions.parquet
 /transportation_emissions.parquet
+/stationary_energy_consumption.parquet
