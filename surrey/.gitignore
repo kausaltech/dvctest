@@ -6,3 +6,4 @@
 /energy_emission_factors.parquet
 /stationary_emission_factors.parquet
 /transportation_emission_factors.parquet
+/fugitive_emission_factors.parquet

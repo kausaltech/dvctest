@@ -1,0 +1,15 @@
+outs:
+- md5: 06154f6557cd2c825396cd1825fa858f
+  size: 2177
+  hash: md5
+  path: fugitive_emission_factors.parquet
+meta:
+  name:
+    en: Fugitive Emission Factors
+  identifier: fugitive_emission_factors
+  metrics:
+  - id: factor
+    label:
+      en: Factor
+  units:
+    factor: kg/kWh
