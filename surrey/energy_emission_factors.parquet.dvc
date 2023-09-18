@@ -1,0 +1,15 @@
+outs:
+- md5: dcdd01e8b28693b98931b21f26ebcc02
+  size: 2945
+  hash: md5
+  path: energy_emission_factors.parquet
+meta:
+  name:
+    en: Energy Emission Factors
+  identifier: energy_emission_factors
+  metrics:
+  - id: factor
+    label:
+      en: Factor
+  units:
+    factor: kg/kWh
