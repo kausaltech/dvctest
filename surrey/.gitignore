@@ -5,3 +5,4 @@
 /stationary_energy_consumption.parquet
 /energy_emission_factors.parquet
 /stationary_emission_factors.parquet
+/transportation_emission_factors.parquet

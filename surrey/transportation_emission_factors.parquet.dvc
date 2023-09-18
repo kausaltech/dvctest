@@ -1,0 +1,15 @@
+outs:
+- md5: 082f298fcff11fbe464f9a2e6d683cf0
+  size: 2862
+  hash: md5
+  path: transportation_emission_factors.parquet
+meta:
+  name:
+    en: Transportation Emission Factors
+  identifier: transportation_emission_factors
+  metrics:
+  - id: factor
+    label:
+      en: Factor
+  units:
+    factor: kg/a/cap
