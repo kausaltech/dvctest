@@ -1,0 +1,15 @@
+outs:
+- md5: 195ca0b6e3dc6108609793e618560072
+  size: 3043
+  hash: md5
+  path: stationary_emission_factors.parquet
+meta:
+  name:
+    en: Stationary Emission Factors
+  identifier: stationary_emission_factors
+  metrics:
+  - id: factor
+    label:
+      en: Factor
+  units:
+    factor: kg/a/cap
