@@ -1,6 +1,6 @@
 outs:
-- md5: 799777de45ef8b325c06b712ab433c61
-  size: 3022
+- md5: 80bb758c4fb514509d91800b0a8604b4
+  size: 2946
   hash: md5
   path: transportation_emissions.parquet
 meta:
