@@ -3,7 +3,7 @@
 /energy_emission_factors.parquet
 /stationary_emission_factors.parquet
 /fugitive_emission_factors.parquet
-/stationary_emissions.parquet
 /transportation_emissions.parquet
 /transportation_emission_factors.parquet
 /greenhouse_gas_emissions.parquet
+/stationary_emissions.parquet
