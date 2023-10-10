@@ -1,6 +1,6 @@
 outs:
-- md5: 8f2fbd8f383413b3b702e693ea39f817
-  size: 3078
+- md5: 613f6f800c33cd959daaf78c46026d3a
+  size: 3087
   hash: md5
   path: stationary_emission_factors.parquet
 meta:
