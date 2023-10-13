@@ -1,0 +1,15 @@
+outs:
+- md5: 3aff4faf402c403e5ec42ad987bc0a53
+  size: 3028
+  hash: md5
+  path: hp_consumer_electricity_emissions.parquet
+meta:
+  name:
+    fi: 'HP: Kulutussähkön päästöt'
+  identifier: hp_consumer_electricity_emissions
+  metrics:
+  - id: amount
+    label:
+      fi: amount
+  units:
+    amount: pieces
