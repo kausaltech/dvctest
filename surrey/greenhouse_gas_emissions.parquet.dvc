@@ -1,6 +1,6 @@
 outs:
-- md5: 5c71f099f0ef8f9b865810c3fda0a606
-  size: 3049
+- md5: 8a5451d342599b6201faec07f90c8912
+  size: 3143
   hash: md5
   path: greenhouse_gas_emissions.parquet
 meta:
