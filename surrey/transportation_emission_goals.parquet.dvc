@@ -1,0 +1,15 @@
+outs:
+- md5: bbe9cf952a6b294b68c4b73982e33dee
+  size: 5315
+  hash: md5
+  path: transportation_emission_goals.parquet
+meta:
+  name:
+    en: Transportation Emission Goals
+  identifier: transportation_emission_goals
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t/a
