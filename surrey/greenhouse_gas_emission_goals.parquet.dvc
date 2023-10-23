@@ -1,0 +1,15 @@
+outs:
+- md5: c24f30e6a5885a03ada1324d408d50c4
+  size: 6652
+  hash: md5
+  path: greenhouse_gas_emission_goals.parquet
+meta:
+  name:
+    en: Greenhouse Gas Emission Goals
+  identifier: greenhouse_gas_emission_goals
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t/a
