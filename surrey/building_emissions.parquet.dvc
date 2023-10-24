@@ -1,0 +1,15 @@
+outs:
+- md5: 69885b91b104af488ba546fbb9a33419
+  size: 3045
+  hash: md5
+  path: building_emissions.parquet
+meta:
+  name:
+    en: Building Emissions
+  identifier: building_emissions
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t/a
