@@ -2,6 +2,7 @@ outs:
 - md5: bba8fff4d0f5a8c48d7ae5ed92a7fbec
   size: 3927
   path: building_floor_area.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Geschossfläche nach Nutzungsart

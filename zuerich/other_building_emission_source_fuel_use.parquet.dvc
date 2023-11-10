@@ -3,6 +3,7 @@ outs:
   size: 4151
   hash: md5
   path: other_building_emission_source_fuel_use.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Other building emission source fuel use

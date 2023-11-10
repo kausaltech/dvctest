@@ -2,6 +2,7 @@ outs:
 - md5: 32363a9fb8814ea0b480fdfdc331364f
   size: 3789
   path: electricity_emission_factor.parquet
+  remote: kausal-s3-private
 meta:
   units:
     emission_factor: gram / kilowatt_hour

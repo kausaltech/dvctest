@@ -3,6 +3,7 @@ outs:
   size: 5142
   hash: md5
   path: other_building_emission_source_emission_factors.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Other building emission source emission factors

@@ -3,6 +3,7 @@ outs:
   size: 3713
   hash: md5
   path: aviation_emission_factor.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Aviation Emission Factor

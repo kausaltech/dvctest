@@ -3,6 +3,7 @@ outs:
   size: 8524
   hash: md5
   path: transport_emission_factors.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Treibhausgasemissions-Koeffizienten Verkehr

@@ -3,6 +3,7 @@ outs:
   size: 3484
   hash: md5
   path: waste_incineration_emission_factors.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Waste incineration emission factors

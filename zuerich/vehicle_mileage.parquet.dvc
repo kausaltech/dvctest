@@ -3,6 +3,7 @@ outs:
   size: 4421
   hash: md5
   path: vehicle_mileage.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Fahrleistung

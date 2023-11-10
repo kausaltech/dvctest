@@ -3,6 +3,7 @@ outs:
   size: 3474
   hash: md5
   path: wastewater_treatment_emission_factors.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Wastewater treatment emission factors

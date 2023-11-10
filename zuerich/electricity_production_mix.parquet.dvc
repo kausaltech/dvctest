@@ -2,6 +2,7 @@ outs:
 - md5: 654540e685af1a51506ee897dbda23f9
   size: 4662
   path: electricity_production_mix.parquet
+  remote: kausal-s3-private
 meta:
   units:
     share: percent

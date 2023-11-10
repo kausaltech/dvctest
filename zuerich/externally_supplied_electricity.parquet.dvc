@@ -3,6 +3,7 @@ outs:
   size: 2319
   hash: md5
   path: externally_supplied_electricity.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Fremdbelieferte Konsumstellen

@@ -3,6 +3,7 @@ outs:
   size: 2240
   hash: md5
   path: transport_externally_supplied_electricity.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Transport Externally Supplied Electricity

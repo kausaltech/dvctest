@@ -3,6 +3,7 @@ outs:
   size: 4260
   hash: md5
   path: buildings_primary_energy_factors.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Buildings primary energy factors

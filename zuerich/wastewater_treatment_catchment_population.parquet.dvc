@@ -3,6 +3,7 @@ outs:
   size: 2576
   hash: md5
   path: wastewater_treatment_catchment_population.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Wastewater treatment catchment population

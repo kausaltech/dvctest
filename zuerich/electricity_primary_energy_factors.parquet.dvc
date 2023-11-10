@@ -3,6 +3,7 @@ outs:
   size: 4354
   hash: md5
   path: electricity_primary_energy_factors.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Electricity Primary Energy Factors

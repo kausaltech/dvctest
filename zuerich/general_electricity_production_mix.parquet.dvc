@@ -3,6 +3,7 @@ outs:
   size: 4087
   hash: md5
   path: general_electricity_production_mix.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Strommix ewz Stadt Zürich, ohne fremdbelieferte Konsumstellen

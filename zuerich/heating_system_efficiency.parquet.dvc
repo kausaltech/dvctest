@@ -3,6 +3,7 @@ outs:
   size: 3110
   hash: md5
   path: heating_system_efficiency.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Heating system efficiency

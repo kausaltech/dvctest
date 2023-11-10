@@ -3,6 +3,7 @@ outs:
   size: 6883
   hash: md5
   path: fuel_consumption_factor.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Verkehr Kraftstofffaktor

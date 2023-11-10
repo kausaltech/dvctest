@@ -3,6 +3,7 @@ outs:
   size: 4147
   hash: md5
   path: non_road_machinery_fuel_consumption.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Kraftstoffverbrauch Non-Road Maschinen

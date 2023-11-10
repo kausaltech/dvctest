@@ -3,6 +3,7 @@ outs:
   size: 4101
   hash: md5
   path: transport_fuel_primary_energy_factors.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Transport Fuel Primary Energy Factors

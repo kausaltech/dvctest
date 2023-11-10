@@ -3,6 +3,7 @@ outs:
   size: 3048
   hash: md5
   path: transport_occupancy_factor.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Verkehrsbelegungsfaktor

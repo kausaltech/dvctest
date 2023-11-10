@@ -3,6 +3,7 @@ outs:
   size: 5198
   hash: md5
   path: district_heat_emission_factor.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Treibhausgasfaktoren Fernwärme

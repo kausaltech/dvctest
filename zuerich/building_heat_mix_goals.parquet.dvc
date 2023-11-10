@@ -3,6 +3,7 @@ outs:
   size: 3084
   hash: md5
   path: building_heat_mix_goals.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Building Heat Mix Goals

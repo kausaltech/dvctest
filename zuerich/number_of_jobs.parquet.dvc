@@ -3,6 +3,7 @@ outs:
   size: 2508
   hash: md5
   path: number_of_jobs.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Anzahl Beschäftigte

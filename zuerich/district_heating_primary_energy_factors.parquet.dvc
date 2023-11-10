@@ -3,6 +3,7 @@ outs:
   size: 4640
   hash: md5
   path: district_heating_primary_energy_factors.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: District Heating Primary Energy Factors

@@ -3,6 +3,7 @@ outs:
   size: 5347
   hash: md5
   path: waste_incineration.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Waste incineration

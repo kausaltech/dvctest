@@ -2,6 +2,7 @@ outs:
 - md5: 72e6a20913a345dd5cb3074cea8a8ff4
   size: 4002
   path: transport_electricity_consumption.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Emissions

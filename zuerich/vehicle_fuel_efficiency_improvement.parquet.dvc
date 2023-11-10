@@ -3,6 +3,7 @@ outs:
   size: 3536
   hash: md5
   path: vehicle_fuel_efficiency_improvement.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Vehicle fuel efficiency improvement

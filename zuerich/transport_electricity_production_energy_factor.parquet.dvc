@@ -3,6 +3,7 @@ outs:
   size: 4354
   hash: md5
   path: transport_electricity_production_energy_factor.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Transport Electricity Production Energy Factor

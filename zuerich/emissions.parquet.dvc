@@ -3,6 +3,7 @@ outs:
   size: 4611
   hash: md5
   path: emissions.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Emissions

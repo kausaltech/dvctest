@@ -3,6 +3,7 @@ outs:
   size: 3998
   hash: md5
   path: vehicle_electrification_goals.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Vehicle electrification goals

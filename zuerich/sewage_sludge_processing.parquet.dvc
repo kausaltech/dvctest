@@ -3,6 +3,7 @@ outs:
   size: 3334
   hash: md5
   path: sewage_sludge_processing.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Klaerschlammverwertung

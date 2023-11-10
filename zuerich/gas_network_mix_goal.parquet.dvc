@@ -3,6 +3,7 @@ outs:
   size: 2999
   hash: md5
   path: gas_network_mix_goal.parquet
+  remote: kausal-s3-private
 meta:
   name:
     de-CH: Gas network mix goal
