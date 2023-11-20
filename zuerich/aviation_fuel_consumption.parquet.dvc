@@ -1,9 +1,8 @@
 outs:
-- md5: 0e57512c055016d71bae5037b41a5b3d
-  size: 3072
+- md5: a2fc0311f7f498d16718842d61a6286d
+  size: 3180
   hash: md5
   path: aviation_fuel_consumption.parquet
-  remote: kausal-s3-private
 meta:
   name:
     de-CH: Aviation Fuel Consumption
