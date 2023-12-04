@@ -1,0 +1,15 @@
+outs:
+- md5: 304ca56511495252b61decf2e43e92f6
+  size: 3146
+  hash: md5
+  path: transport_emission_factors_2kw.parquet
+meta:
+  name:
+    de-CH: Transport Emission Factors 2kW
+  identifier: transport_emission_factors_2kw
+  metrics:
+  - id: emission_factor
+    label:
+      de-CH: Emission Factor
+  units:
+    emission_factor: g/kWh
