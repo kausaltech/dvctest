@@ -1,0 +1,15 @@
+outs:
+- md5: 5076562d1b5291d45c423dc0617eea62
+  size: 3291
+  hash: md5
+  path: waste_reduction_goals.parquet
+meta:
+  name:
+    fi: Waste reduction goals
+  identifier: waste_reduction_goals
+  metrics:
+  - id: relative_value
+    label:
+      fi: relative value
+  units:
+    relative_value: '%'
