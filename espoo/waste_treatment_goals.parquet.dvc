@@ -1,6 +1,6 @@
 outs:
-- md5: 5daf5f296a523511e8782a06ebe409fb
-  size: 3214
+- md5: 9444e7bd0b35ede2aade57c0a7d0ea49
+  size: 3239
   hash: md5
   path: waste_treatment_goals.parquet
 meta:
