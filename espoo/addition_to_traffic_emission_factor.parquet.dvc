@@ -1,0 +1,15 @@
+outs:
+- md5: 7f5e3f0d83282ec09bfd490cb97d5206
+  size: 2987
+  hash: md5
+  path: addition_to_traffic_emission_factor.parquet
+meta:
+  name:
+    fi: Addition to traffic emission factor
+  identifier: addition_to_traffic_emission_factor
+  metrics:
+  - id: emission_factor
+    label:
+      fi: emission factor
+  units:
+    emission_factor: g/kWh
