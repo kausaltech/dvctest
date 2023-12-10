@@ -1,0 +1,15 @@
+outs:
+- md5: 73020fead910493c74e3676d0673d69b
+  size: 3430
+  hash: md5
+  path: traffic_emission_factor_goals.parquet
+meta:
+  name:
+    fi: Traffic emission factor goals
+  identifier: traffic_emission_factor_goals
+  metrics:
+  - id: emission_factor
+    label:
+      fi: emission factor
+  units:
+    emission_factor: g/kWh
