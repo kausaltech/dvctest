@@ -1,0 +1,15 @@
+outs:
+- md5: 807bb4482ce7f90962a702b39a1498a1
+  size: 3284
+  hash: md5
+  path: traffic_energy_forecast.parquet
+meta:
+  name:
+    fi: Traffic energy goals
+  identifier: traffic_energy_goals
+  metrics:
+  - id: energy
+    label:
+      fi: energy
+  units:
+    energy: GWh/a
