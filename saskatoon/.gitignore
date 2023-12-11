@@ -9,3 +9,4 @@
 /stationary_natural_gas_consumption.parquet
 /greenhouse_gas_emissions_by_sector.parquet
 /livestock_count.parquet
+/forecasted_emissions.parquet
