@@ -1,0 +1,15 @@
+outs:
+- md5: 019c74efec2eff0dbc20bbedee8184ce
+  size: 68727
+  hash: md5
+  path: action_emission_reductions.parquet
+meta:
+  name:
+    en: Action Emission Reductions
+  identifier: action_emission_reductions
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: kt/a
