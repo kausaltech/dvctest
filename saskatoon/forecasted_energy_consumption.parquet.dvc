@@ -1,0 +1,15 @@
+outs:
+- md5: 1e93e70e5ea0de7aa66779e82b72a0e7
+  size: 7945
+  hash: md5
+  path: forecasted_energy_consumption.parquet
+meta:
+  name:
+    en: Forecasted Energy Consumption
+  identifier: forecasted_energy_consumption
+  metrics:
+  - id: energy
+    label:
+      en: Energy
+  units:
+    energy: GJ/a
