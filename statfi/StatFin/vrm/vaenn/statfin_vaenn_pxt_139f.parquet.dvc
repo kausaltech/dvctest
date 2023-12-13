@@ -1,5 +1,5 @@
 outs:
-- md5: 080a547b762ec12ef81923aedc434068
-  size: 4814634
+- md5: 42de0ae0c775ba949d31542894aaeb42
+  size: 1931009
   hash: md5
   path: statfin_vaenn_pxt_139f.parquet
