@@ -1,0 +1,15 @@
+outs:
+- md5: 86e4c7e18393558418853f7d6f3e1bcf
+  size: 21197
+  hash: md5
+  path: action_energy_reductions.parquet
+meta:
+  name:
+    en: Action Energy Reductions
+  identifier: action_energy_reductions
+  metrics:
+  - id: energy
+    label:
+      en: Energy
+  units:
+    energy: GJ/a

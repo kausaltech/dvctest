@@ -12,3 +12,4 @@
 /forecasted_emissions.parquet
 /forecasted_energy_consumption.parquet
 /action_emission_reductions.parquet
+/action_energy_reductions.parquet
