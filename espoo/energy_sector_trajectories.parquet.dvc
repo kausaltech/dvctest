@@ -27,5 +27,5 @@ meta:
     electricity_emission_factor: t/GWh
     district_heat_emission_factor: t/GWh
     fuel_oil_emission_factor: t/GWh
-    industry_and_machinery_emissions: kt
-    electricity_consumption: GWh
+    industry_and_machinery_emissions: kt/a
+    electricity_consumption: GWh/a
