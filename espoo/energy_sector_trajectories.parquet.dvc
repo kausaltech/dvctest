@@ -1,0 +1,31 @@
+outs:
+- md5: 163bc3cf7e1d2b5e0eb53dcccb927a4d
+  size: 7475
+  hash: md5
+  path: energy_sector_trajectories.parquet
+meta:
+  name:
+    fi: Energy sector trajectories
+  identifier: energy_sector_trajectories
+  metrics:
+  - id: electricity_emission_factor
+    label:
+      fi: Electricity emission factor
+  - id: district_heat_emission_factor
+    label:
+      fi: District heat emission factor
+  - id: fuel_oil_emission_factor
+    label:
+      fi: Fuel oil emission factor
+  - id: industry_and_machinery_emissions
+    label:
+      fi: Industry and machinery emissions
+  - id: electricity_consumption
+    label:
+      fi: Electricity consumption
+  units:
+    electricity_emission_factor: t/GWh
+    district_heat_emission_factor: t/GWh
+    fuel_oil_emission_factor: t/GWh
+    industry_and_machinery_emissions: kt
+    electricity_consumption: GWh
