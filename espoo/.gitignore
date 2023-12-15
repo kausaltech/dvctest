@@ -7,3 +7,4 @@
 /traffic_emission_factor_goals.parquet
 /traffic_energy_forecast.parquet
 /energy_sector_trajectories.parquet
+/emission_estimates_by_sitowise.parquet
