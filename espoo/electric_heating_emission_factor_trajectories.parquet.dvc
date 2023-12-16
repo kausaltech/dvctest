@@ -1,0 +1,15 @@
+outs:
+- md5: 467a38a31c0ffc688caa6a607c9a2516
+  size: 3873
+  hash: md5
+  path: electric_heating_emission_factor_trajectories.parquet
+meta:
+  name:
+    fi: Electricity heating emission factor trajectories
+  identifier: electricity_heating_emission_factor_trajectories
+  metrics:
+  - id: emission_factor
+    label:
+      fi: emission factor
+  units:
+    emission_factor: g/kWh
