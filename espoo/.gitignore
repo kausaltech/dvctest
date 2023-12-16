@@ -8,3 +8,4 @@
 /traffic_energy_forecast.parquet
 /energy_sector_trajectories.parquet
 /emission_estimates_by_sitowise.parquet
+/emission_heating_emission_factor_trajectory.parquet
