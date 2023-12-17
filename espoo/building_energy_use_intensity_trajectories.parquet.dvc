@@ -1,0 +1,15 @@
+outs:
+- md5: 8bf09d3583a0210bed5a57e1b917ba41
+  size: 3428
+  hash: md5
+  path: building_energy_use_intensity_trajectories.parquet
+meta:
+  name:
+    fi: Building energy use intensity trajectories
+  identifier: building_energy_use_intensity_trajectories
+  metrics:
+  - id: energy_use_intensity
+    label:
+      fi: energy use intensity
+  units:
+    energy_use_intensity: kWh/a/m²

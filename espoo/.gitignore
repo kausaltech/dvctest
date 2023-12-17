@@ -10,3 +10,4 @@
 /emission_estimates_by_sitowise.parquet
 /emission_heating_emission_factor_trajectory.parquet
 /electric_heating_emission_factor_trajectories.parquet
+/building_energy_use_intensity_trajectories.parquet
