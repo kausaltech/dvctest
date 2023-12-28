@@ -1,0 +1,15 @@
+outs:
+- md5: 4d5426b8ca1e6985462de5e05c0da064
+  size: 3223
+  hash: md5
+  path: net_income_from_state_forests.parquet
+meta:
+  name:
+    fi: Net income from state forests
+  identifier: net_income_from_state_forests
+  metrics:
+  - id: euro_amount
+    label:
+      fi: euro amount
+  units:
+    euro_amount: MEUR/a
