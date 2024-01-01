@@ -1,0 +1,15 @@
+outs:
+- md5: a6f79d453b06e111a00b90f2c5226502
+  size: 3939
+  hash: md5
+  path: consumer_electricity_emission_trajectory.parquet
+meta:
+  name:
+    fi: Consumer electricity emission trajectory
+  identifier: consumer_electricity_emission_trajectory
+  metrics:
+  - id: emissions
+    label:
+      fi: emissions
+  units:
+    emissions: kt/a
