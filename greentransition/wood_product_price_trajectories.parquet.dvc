@@ -1,0 +1,15 @@
+outs:
+- md5: 6848afde69db3644bda1051d46062c34
+  size: 3008
+  hash: md5
+  path: wood_product_price_trajectories.parquet
+meta:
+  name:
+    fi: Wood product price trajectories
+  identifier: wood_product_price_trajectories
+  metrics:
+  - id: price
+    label:
+      fi: Price
+  units:
+    price: EUR/t
