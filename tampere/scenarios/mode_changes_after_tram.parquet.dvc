@@ -1,0 +1,15 @@
+outs:
+- md5: 1022f444bfbd5d2fb291b4da14c4cb43
+  size: 3735
+  hash: md5
+  path: mode_changes_after_tram.parquet
+meta:
+  name:
+    fi: Mode changes after tram
+  identifier: mode_changes_after_tram
+  metrics:
+  - id: vehicle_mileage
+    label:
+      fi: vehicle mileage
+  units:
+    vehicle_mileage: Mvkm
