@@ -12,4 +12,4 @@ meta:
     label:
       fi: vehicle mileage
   units:
-    vehicle_mileage: Mvkm
+    vehicle_mileage: Mvkm/a
