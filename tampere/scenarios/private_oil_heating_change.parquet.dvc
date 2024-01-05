@@ -1,0 +1,15 @@
+outs:
+- md5: 0b4834049fe8b7fc6a15c5a58c7ad5cd
+  size: 3205
+  hash: md5
+  path: private_oil_heating_change.parquet
+meta:
+  name:
+    fi: Private oil heating change
+  identifier: private_oil_heating_change
+  metrics:
+  - id: energy
+    label:
+      fi: energy
+  units:
+    energy: GWh/a
