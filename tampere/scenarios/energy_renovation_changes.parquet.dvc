@@ -1,0 +1,15 @@
+outs:
+- md5: 0b13247a96bdc735148525994fabaf63
+  size: 3310
+  hash: md5
+  path: energy_renovation_changes.parquet
+meta:
+  name:
+    fi: Energy renovation changes
+  identifier: energy_renovation_changes
+  metrics:
+  - id: energy
+    label:
+      fi: energy
+  units:
+    energy: GWh/a
