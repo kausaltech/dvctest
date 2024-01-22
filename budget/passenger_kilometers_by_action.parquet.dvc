@@ -1,0 +1,15 @@
+outs:
+- md5: 063d35423aed50947d2f47895be029dc
+  size: 4377
+  hash: md5
+  path: passenger_kilometers_by_action.parquet
+meta:
+  name:
+    en: Passenger kilometers by action
+  identifier: passenger_kilometers_by_action
+  metrics:
+  - id: mileage
+    label:
+      en: Mileage
+  units:
+    mileage: pkm/d
