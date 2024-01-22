@@ -1,0 +1,15 @@
+outs:
+- md5: e9009eb0a8ba70d203894c8551c0bc8c
+  size: 3847
+  hash: md5
+  path: outcome_stakeholder_matrix.parquet
+meta:
+  name:
+    en: Outcome stakeholder matrix
+  identifier: outcome_stakeholder_matrix
+  metrics:
+  - id: fraction
+    label:
+      en: fraction
+  units:
+    fraction: ''
