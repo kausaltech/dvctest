@@ -1,0 +1,15 @@
+outs:
+- md5: ace91da4a6d20a32e27d427e26aa5f5d
+  size: 4553
+  hash: md5
+  path: unit_prices_of_transportation.parquet
+meta:
+  name:
+    en: Unit prices of transportation
+  identifier: unit_prices_of_transportation
+  metrics:
+  - id: unit_price
+    label:
+      en: Unit price
+  units:
+    unit_price: EUR/pkm
