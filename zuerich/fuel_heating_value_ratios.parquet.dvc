@@ -1,0 +1,15 @@
+outs:
+- md5: 159f8c1559796da1e2c8e25b28cf090b
+  size: 3144
+  hash: md5
+  path: fuel_heating_value_ratios.parquet
+meta:
+  name:
+    de-CH: Fuel Heating Value Ratios
+  identifier: fuel_heating_value_ratios
+  metrics:
+  - id: factor
+    label:
+      de-CH: Factor
+  units:
+    factor: '%'
