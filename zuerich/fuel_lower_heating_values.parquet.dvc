@@ -1,0 +1,15 @@
+outs:
+- md5: e60303a72f2d2212a7842dac155b1bc6
+  size: 3216
+  hash: md5
+  path: fuel_lower_heating_values.parquet
+meta:
+  name:
+    de-CH: Fuel Lower Heating Values
+  identifier: fuel_lower_heating_values
+  metrics:
+  - id: energy_density
+    label:
+      de-CH: Energy Density
+  units:
+    energy_density: MJ/kg
