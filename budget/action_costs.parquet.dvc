@@ -1,0 +1,19 @@
+outs:
+- md5: 37e3229847b87e04b05497ff835afe3f
+  size: 3575
+  hash: md5
+  path: action_costs.parquet
+meta:
+  name:
+    en: Action costs
+  identifier: action_costs
+  metrics:
+  - id: currency
+    label:
+      en: currency
+  - id: number
+    label:
+      en: number
+  units:
+    currency: kEUR/a
+    number: pieces/a
