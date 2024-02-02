@@ -16,4 +16,4 @@ meta:
       en: number
   units:
     currency: kEUR/a
-    number: pieces/a
+    number: pieces
