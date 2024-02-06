@@ -1,17 +1,5 @@
 outs:
-- md5: 3360ad3a659c2db9dd2e66fde6f9966b
-  size: 7972
+- md5: 563da79444aca10a13f3e8814f8e5893
+  size: 8023
   hash: md5
   path: saskatoon.parquet
-meta:
-  units:
-    Sector: dimensionless
-    Scope: dimensionless
-    Quantity: dimensionless
-    Unit: dimensionless
-    Energy Carrier: dimensionless
-    GHG: dimensionless
-    Company: dimensionless
-    Vehicle Type: dimensionless
-    Value: dimensionless
-    Year: dimensionless
