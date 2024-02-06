@@ -1,5 +1,5 @@
 outs:
-- md5: 563da79444aca10a13f3e8814f8e5893
-  size: 8023
+- md5: 078398bdb62f9f53f252a03cb7386e78
+  size: 8041
   hash: md5
   path: saskatoon.parquet
