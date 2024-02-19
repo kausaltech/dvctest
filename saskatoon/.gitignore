@@ -10,6 +10,6 @@
 /greenhouse_gas_emissions_by_sector.parquet
 /livestock_count.parquet
 /forecasted_energy_consumption.parquet
-/action_energy_reductions.parquet
 /forecasted_emissions.parquet
 /action_emission_reductions.parquet
+/action_energy_reductions.parquet
