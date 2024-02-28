@@ -1,6 +1,6 @@
 outs:
-- md5: aeef4ba8f4eb44bf46bf520548147f81
-  size: 11165
+- md5: 5e21195aecf1f9de258cdd9523b255dc
+  size: 11152
   hash: md5
   path: energy_vehicle_and_waste_actions.parquet
 meta:
