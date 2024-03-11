@@ -1,0 +1,15 @@
+outs:
+- md5: 4b99db7c96c83a9b4ef5bd238b19573b
+  size: 3357
+  hash: md5
+  path: forecasted_costs.parquet
+meta:
+  name:
+    en: Forecasted Costs
+  identifier: forecasted_costs
+  metrics:
+  - id: currency
+    label:
+      en: Currency
+  units:
+    currency: CAD/a
