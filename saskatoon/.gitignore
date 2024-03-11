@@ -13,3 +13,4 @@
 /forecasted_emissions.parquet
 /action_emission_reductions.parquet
 /action_energy_reductions.parquet
+/action_cost_reductions.parquet

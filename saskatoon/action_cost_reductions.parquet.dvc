@@ -1,0 +1,15 @@
+outs:
+- md5: 91ea9498655d9038323de0b2554b4c7a
+  size: 60039
+  hash: md5
+  path: action_cost_reductions.parquet
+meta:
+  name:
+    en: Action Cost Reductions
+  identifier: action_cost_reductions
+  metrics:
+  - id: currency
+    label:
+      en: Currency
+  units:
+    currency: CAD/a
