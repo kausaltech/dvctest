@@ -1,0 +1,5 @@
+outs:
+- md5: c83d29c8738d32bf3a840e59cfa47b86
+  size: 10635
+  hash: md5
+  path: hollywood.parquet
