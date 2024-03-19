@@ -1,0 +1,10 @@
+outs:
+- md5: 56e35e98e1f1249b7e3b36393d7ab180
+  size: 186516
+  hash: md5
+  path: action_reductions.parquet
+meta:
+  units:
+    currency: CAD/a
+    emissions: kt/a
+    energy: GJ/a
