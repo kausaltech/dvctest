@@ -1,0 +1,23 @@
+outs:
+- md5: 43c196ac6109f02e2acb83cafd080a82
+  size: 6230
+  hash: md5
+  path: potsdam_master_plan_actions.parquet
+meta:
+  name:
+    fi: Potsdam master plan actions
+  identifier: potsdam_master_plan_actions
+  metrics:
+  - id: energy_consumption
+    label:
+      fi: Energy consumption
+  - id: emissions
+    label:
+      fi: Emissions
+  - id: emission_factor
+    label:
+      fi: Emission factor
+  units:
+    energy_consumption: MWh/a
+    emissions: t/a
+    emission_factor: t/MWh
