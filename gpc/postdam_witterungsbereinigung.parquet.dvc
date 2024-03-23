@@ -1,0 +1,15 @@
+outs:
+- md5: 0110ac1f58a5125364f72aed32658bc1
+  size: 3576
+  hash: md5
+  path: postdam_witterungsbereinigung.parquet
+meta:
+  name:
+    de: Potsdam Witterungsbereinigung3
+  identifier: potsdam_witterungsbereinigung3
+  metrics:
+  - id: factor
+    label:
+      de: factor
+  units:
+    factor: ''
