@@ -1,0 +1,5 @@
+outs:
+- md5: 015e5334c28e6af6c1138af52e5d72f5
+  size: 3594
+  hash: md5
+  path: potsdam_witterungsbereinigung.parquet
