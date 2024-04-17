@@ -1,0 +1,5 @@
+outs:
+- md5: b848f3e29e72630a0366025d89d72f54
+  size: 6960
+  hash: md5
+  path: demonstration_simple_actions.parquet
