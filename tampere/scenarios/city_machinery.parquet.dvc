@@ -1,0 +1,10 @@
+outs:
+- md5: 865086e15e94604eb9eac44182d51864
+  size: 4466
+  hash: md5
+  path: city_machinery.parquet
+meta:
+  units:
+    Emission factor: g/l
+    Fuel consumption: l/a
+    Emissions: kt/a
