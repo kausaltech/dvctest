@@ -1,10 +1,23 @@
 outs:
-- md5: 865086e15e94604eb9eac44182d51864
-  size: 4466
+- md5: 2400638be1ac532f0ca5b839e20b7ae4
+  size: 4399
   hash: md5
   path: city_machinery.parquet
 meta:
+  name:
+    fi: City machinery
+  identifier: city_machinery
+  metrics:
+  - id: emissions
+    label:
+      fi: Emissions
+  - id: activity
+    label:
+      fi: Activity
+  - id: emission_factor
+    label:
+      fi: Emission factor
   units:
-    Emission factor: g/l
-    Fuel consumption: l/a
-    Emissions: kt/a
+    emissions: kt/a
+    activity: l/a
+    emission_factor: g/l
