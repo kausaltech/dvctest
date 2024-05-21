@@ -1,5 +1,5 @@
 outs:
-- md5: e866ab9da7ede7a74a631c60080c31f4
-  size: 8874
+- md5: cccbc00d5fa95d155e04d5b661bd1992
+  size: 8061
   hash: md5
   path: potsdam_master_plan_actions.parquet
