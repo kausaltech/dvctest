@@ -1,5 +1,5 @@
 outs:
-- md5: 2400638be1ac532f0ca5b839e20b7ae4
+- md5: 42b091fed8d0e14b457d8ed6cd6c893d
   size: 4399
   hash: md5
   path: city_machinery.parquet
