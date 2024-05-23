@@ -1,5 +1,5 @@
 outs:
-- md5: eb92d47f06b6b8ded941006ba5691434
-  size: 11007
+- md5: 52a87f5e2a064f1f0b1d2185c0c86ca9
+  size: 8894
   hash: md5
   path: transport.parquet
