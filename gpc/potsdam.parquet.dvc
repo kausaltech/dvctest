@@ -1,5 +1,5 @@
 outs:
-- md5: 89486636c5077070188b1f3af2c101a2
-  size: 9654
+- md5: 6e351ca1ef8ee895c3f22498b410a8bf
+  size: 10472
   hash: md5
   path: potsdam.parquet
