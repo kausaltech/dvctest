@@ -1,0 +1,5 @@
+outs:
+- md5: 10968235ce0b5413a62b15ada383c6e3
+  size: 13288
+  hash: md5
+  path: assumptions.parquet
