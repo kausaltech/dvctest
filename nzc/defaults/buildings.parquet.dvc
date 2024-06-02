@@ -1,5 +1,5 @@
 outs:
-- md5: 94c0a9da9c34c67b2cb168fbef6ba845
-  size: 12924
+- md5: 6a739d865faf84d83e5c2b21e7d1ecd1
+  size: 13464
   hash: md5
   path: buildings.parquet
