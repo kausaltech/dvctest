@@ -1,0 +1,5 @@
+outs:
+- md5: bc9d27ec5973aa6b748f13af302f0dec
+  size: 12592
+  hash: md5
+  path: actions.parquet
