@@ -1,0 +1,5 @@
+outs:
+- md5: 07c50429e65ffad7ef99f40dcfeb40f7
+  size: 9631
+  hash: md5
+  path: stakeholders.parquet
