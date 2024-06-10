@@ -1,5 +1,5 @@
 outs:
-- md5: 74cd2f574306222ec2d14b728d71e015
-  size: 8036
+- md5: 3c0f35847d0a182b946615a505045a7d
+  size: 6985
   hash: md5
   path: default_incidence.parquet
