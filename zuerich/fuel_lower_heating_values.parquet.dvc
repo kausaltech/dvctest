@@ -1,5 +1,5 @@
 outs:
-- md5: e60303a72f2d2212a7842dac155b1bc6
+- md5: 7daaca485642e2b96ad3c09c35b6961f
   size: 3216
   hash: md5
   path: fuel_lower_heating_values.parquet
