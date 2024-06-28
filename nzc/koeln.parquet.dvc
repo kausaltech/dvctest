@@ -1,0 +1,5 @@
+outs:
+- md5: 515511c05193c020a28ec44e30bcf045
+  size: 7682
+  hash: md5
+  path: koeln.parquet
