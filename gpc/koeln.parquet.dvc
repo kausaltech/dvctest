@@ -1,5 +1,5 @@
 outs:
-- md5: 34eb38b4a5a1ffc1313c0c451b9313e2
-  size: 7748
+- md5: 5acfbf60f2e6cf6d05ed11a0bfcdf502
+  size: 7741
   hash: md5
   path: koeln.parquet
