@@ -1,0 +1,5 @@
+outs:
+- md5: cfd9829bf0bd4cc6b5f7b8b059b48c00
+  size: 6348
+  hash: md5
+  path: bytom.parquet.parquet
