@@ -1,0 +1,5 @@
+outs:
+- md5: e699fafd50c8af828162da103d73af3b
+  size: 30824
+  hash: md5
+  path: defaults_uuid.parquet
