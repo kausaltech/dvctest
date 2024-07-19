@@ -1,0 +1,5 @@
+outs:
+- md5: f399ddce2150da7f38c15c99bba40efe
+  size: 6420
+  hash: md5
+  path: surrey_simplified.parquet
