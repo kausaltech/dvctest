@@ -8,7 +8,6 @@
 /building_floor_area.parquet
 /transport_electricity_consumption.parquet
 /number_of_jobs.parquet
-/population.parquet
 /waste_incineration.parquet
 /waste_incineration_emission_factors.parquet
 /sewage_sludge_processing.parquet
@@ -52,3 +51,4 @@
 /transport_emission_factors_2kw.parquet
 /fuel_lower_heating_values.parquet
 /fuel_heating_value_ratios.parquet
+/population.parquet

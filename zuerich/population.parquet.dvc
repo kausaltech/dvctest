@@ -1,9 +1,8 @@
 outs:
-- md5: 837af627bc94cb85cb11d9dc17ba0a30
+- md5: befd2e8819f0fa848429887f104c82cb
   size: 2765
   hash: md5
   path: population.parquet
-  remote: kausal-s3-private
 meta:
   name:
     de-CH: Einwohner/innen
