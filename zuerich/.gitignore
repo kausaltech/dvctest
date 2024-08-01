@@ -25,7 +25,6 @@
 /buildings_energy_consumption_emission_factor_revised.parquet
 /district_heat_emission_factor.parquet
 /district_heat_production_mix_goals.parquet
-/emissions.parquet
 /electricity_primary_energy_factors.parquet
 /district_heating_primary_energy_factors.parquet
 /buildings_primary_energy_factors.parquet
@@ -52,3 +51,4 @@
 /fuel_lower_heating_values.parquet
 /fuel_heating_value_ratios.parquet
 /population.parquet
+/emissions.parquet
