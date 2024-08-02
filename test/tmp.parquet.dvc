@@ -1,0 +1,16 @@
+outs:
+- md5: badad2cfc512d8741fea41a7a86412d9
+  size: 2796
+  hash: md5
+  path: tmp.parquet
+meta:
+  name:
+    de-CH: Einwohner/innen
+    en: Population
+  identifier: test_dataset
+  metrics:
+  - id: population
+    label:
+      de-CH: Population
+  units:
+    population: cap
