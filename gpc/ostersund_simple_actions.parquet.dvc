@@ -1,0 +1,5 @@
+outs:
+- md5: 30feaa5ecc9738019e5e683435640bfd
+  size: 7073
+  hash: md5
+  path: ostersund_simple_actions.parquet
