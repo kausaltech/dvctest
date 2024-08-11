@@ -1,0 +1,5 @@
+outs:
+- md5: 8727801879a411b5aa6e1f2d9adf2d20
+  size: 5895
+  hash: md5
+  path: lappeenranta_heat.parquet
