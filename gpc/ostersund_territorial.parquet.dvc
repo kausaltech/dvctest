@@ -1,0 +1,5 @@
+outs:
+- md5: 12e99844271e9bea578ed15b61a4f111
+  size: 13721
+  hash: md5
+  path: ostersund_territorial.parquet
