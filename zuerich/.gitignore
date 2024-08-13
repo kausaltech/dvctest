@@ -41,7 +41,6 @@
 /gas_network_mix_goal.parquet
 /fuel_consumption_factor.parquet
 /other_building_emission_source_emission_factors.parquet
-/non_road_machinery_fuel_consumption.parquet
 /transport_emission_factors.parquet
 /building_heat_mix_goals.parquet
 /aviation_fuel_consumption.parquet
@@ -52,3 +51,4 @@
 /population.parquet
 /emissions.parquet
 /vehicle_mileage.parquet
+/non_road_machinery_fuel_consumption.parquet
