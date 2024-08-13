@@ -1,9 +1,8 @@
 outs:
-- md5: 87b61f789375ebd1ab422fbfcd9b889b
-  size: 6883
+- md5: 19b1cf6d00cfe16943a24865b011b5d9
+  size: 7231
   hash: md5
   path: fuel_consumption_factor.parquet
-  remote: kausal-s3-private
 meta:
   name:
     de-CH: Verkehr Kraftstofffaktor
