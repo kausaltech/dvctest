@@ -1,6 +1,6 @@
 outs:
-- md5: a419719042a1f7824f83057e66692a85
-  size: 3154
+- md5: 9598d5fcb38366f6d4ecfd4277bc5b5c
+  size: 3164
   hash: md5
   path: aviation_mileage.parquet
 meta:
@@ -8,8 +8,8 @@ meta:
     de-CH: Aviation Mileage
   identifier: aviation_mileage
   metrics:
-  - id: vehicle_mileage
+  - id: passenger_mileage
     label:
-      de-CH: Vehicle Mileage
+      de-CH: Passenger Mileage
   units:
-    vehicle_mileage: vkm/cap/a
+    passenger_mileage: pkm/cap/a
