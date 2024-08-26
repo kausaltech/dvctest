@@ -52,3 +52,4 @@
 /non_road_machinery_fuel_consumption.parquet
 /transport_emission_factors.parquet
 /fuel_consumption_factor.parquet
+/aviation_mileage.parquet
