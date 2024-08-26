@@ -1,0 +1,15 @@
+outs:
+- md5: 200f150a6281088cb2dc0330b3ad3605
+  size: 3164
+  hash: md5
+  path: aviation_emission_factors.parquet
+meta:
+  name:
+    de-CH: Aviation Emission Factors
+  identifier: aviation_emission_factors
+  metrics:
+  - id: emission_factor
+    label:
+      de-CH: Emission Factor
+  units:
+    emission_factor: g/pkm
