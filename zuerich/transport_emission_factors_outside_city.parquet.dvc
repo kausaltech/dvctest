@@ -1,0 +1,15 @@
+outs:
+- md5: 5a9ab47c3b7f4d4b23538a7a713f0d8f
+  size: 4176
+  hash: md5
+  path: transport_emission_factors_outside_city.parquet
+meta:
+  name:
+    de-CH: Transport Emission Factors Outside City
+  identifier: transport_emission_factors_outside_city
+  metrics:
+  - id: emission_factor
+    label:
+      de-CH: Emission Factor
+  units:
+    emission_factor: g/pkm
