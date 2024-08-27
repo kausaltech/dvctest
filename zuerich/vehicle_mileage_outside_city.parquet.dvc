@@ -1,0 +1,15 @@
+outs:
+- md5: cd5556741e32d9623913b4fa7b3e2d2b
+  size: 4240
+  hash: md5
+  path: vehicle_mileage_outside_city.parquet
+meta:
+  name:
+    de-CH: Vehicle Mileage Outside City
+  identifier: vehicle_mileage_outside_city
+  metrics:
+  - id: passenger_mileage
+    label:
+      de-CH: Passenger Mileage
+  units:
+    passenger_mileage: pkm/cap/a
