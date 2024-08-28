@@ -1,6 +1,6 @@
 outs:
-- md5: cd5556741e32d9623913b4fa7b3e2d2b
-  size: 4240
+- md5: b8c3df964b5494b6ef92abbc93d83f2b
+  size: 4961
   hash: md5
   path: vehicle_mileage_outside_city.parquet
 meta:

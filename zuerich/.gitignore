@@ -53,6 +53,6 @@
 /transport_emission_factors.parquet
 /fuel_consumption_factor.parquet
 /aviation_emission_factors.parquet
-/vehicle_mileage_outside_city.parquet
 /transport_emission_factors_outside_city.parquet
 /aviation_mileage.parquet
+/vehicle_mileage_outside_city.parquet
