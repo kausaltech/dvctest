@@ -52,7 +52,7 @@
 /non_road_machinery_fuel_consumption.parquet
 /transport_emission_factors.parquet
 /fuel_consumption_factor.parquet
-/aviation_mileage.parquet
 /aviation_emission_factors.parquet
 /vehicle_mileage_outside_city.parquet
 /transport_emission_factors_outside_city.parquet
+/aviation_mileage.parquet
