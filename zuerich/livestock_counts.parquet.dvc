@@ -1,0 +1,15 @@
+outs:
+- md5: b43da5782b69ab72a73879e385cb5bda
+  size: 3180
+  hash: md5
+  path: livestock_counts.parquet
+meta:
+  name:
+    de-CH: Livestock Counts
+  identifier: livestock_counts
+  metrics:
+  - id: number
+    label:
+      de-CH: Number
+  units:
+    number: cap

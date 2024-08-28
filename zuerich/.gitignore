@@ -57,3 +57,4 @@
 /aviation_mileage.parquet
 /vehicle_mileage_outside_city.parquet
 /livestock_emission_factors.parquet
+/livestock_counts.parquet
