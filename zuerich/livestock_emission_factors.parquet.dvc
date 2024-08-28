@@ -1,0 +1,15 @@
+outs:
+- md5: ec574d01cbb2e0a7f430b25562e1a02c
+  size: 4253
+  hash: md5
+  path: livestock_emission_factors.parquet
+meta:
+  name:
+    de-CH: Livestock Emission Factors
+  identifier: livestock_emission_factors
+  metrics:
+  - id: emission_factor
+    label:
+      de-CH: Emission Factor
+  units:
+    emission_factor: kg/cap
