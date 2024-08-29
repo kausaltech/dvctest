@@ -12,4 +12,4 @@ meta:
     label:
       de-CH: Emission Factor
   units:
-    emission_factor: kg/cap
+    emission_factor: kg/cap/a
