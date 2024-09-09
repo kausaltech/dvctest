@@ -1,0 +1,5 @@
+outs:
+- md5: 756cfcd77168ff72a76700e1a39dc42d
+  size: 7254
+  hash: md5
+  path: lappeenranta_active_mobility.parquet
