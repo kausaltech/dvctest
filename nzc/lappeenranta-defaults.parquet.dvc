@@ -1,0 +1,5 @@
+outs:
+- md5: 0b5cae8b649240fd68511dd1dff85230
+  size: 79593
+  hash: md5
+  path: lappeenranta-defaults.parquet
