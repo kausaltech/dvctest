@@ -1,5 +1,5 @@
 outs:
-- md5: cd2f15054ac5e95266ca38af94c25b76
-  size: 43697
+- md5: 93751821ecbd335a8e4ccd92cab16447
+  size: 43663
   hash: md5
   path: defaults.parquet
