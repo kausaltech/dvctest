@@ -1,0 +1,5 @@
+outs:
+- md5: 341543901559fcbcd5ffaf6910cd1fd3
+  size: 6846
+  hash: md5
+  path: norderstedt.parquet
