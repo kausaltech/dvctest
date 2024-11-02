@@ -1,0 +1,5 @@
+outs:
+- md5: 484e999419a94eb314aaeae3c243894b
+  size: 6343
+  hash: md5
+  path: forestry_fi.parquet
