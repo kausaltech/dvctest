@@ -1,0 +1,5 @@
+outs:
+- md5: 721cdc63b35a49061822fcb2ad2c0ba0
+  size: 190307
+  hash: md5
+  path: annual-co2-emissions-by-region.parquet
