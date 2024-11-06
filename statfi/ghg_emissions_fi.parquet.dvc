@@ -1,0 +1,5 @@
+outs:
+- md5: e6bbcf3d6c0230715abdfc9ec5cdfb09
+  size: 38372
+  hash: md5
+  path: ghg_emissions_fi.parquet
