@@ -58,3 +58,4 @@
 /vehicle_mileage_outside_city.parquet
 /livestock_counts.parquet
 /livestock_emission_factors.parquet
+/food_and_other_consumption_emissions.parquet

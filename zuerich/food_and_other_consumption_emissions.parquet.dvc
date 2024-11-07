@@ -1,0 +1,15 @@
+outs:
+- md5: 850a1b53aa00983fce95e51906d5e923
+  size: 4987
+  hash: md5
+  path: food_and_other_consumption_emissions.parquet
+meta:
+  name:
+    de-CH: Food and Other Consumption Emissions
+  identifier: food_and_other_consumption_emissions
+  metrics:
+  - id: emissions
+    label:
+      de-CH: Emissions
+  units:
+    emissions: t/cap/a
