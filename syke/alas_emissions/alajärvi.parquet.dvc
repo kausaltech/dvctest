@@ -1,0 +1,12 @@
+outs:
+- md5: 34b908a96007762c97e314cd378a0be9
+  size: 40595
+  hash: md5
+  path: alajärvi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

@@ -1,0 +1,12 @@
+outs:
+- md5: 00590a3773d1dee8e542d514f15e466c
+  size: 39118
+  hash: md5
+  path: kangasniemi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

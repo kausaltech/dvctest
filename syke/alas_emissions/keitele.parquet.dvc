@@ -1,0 +1,12 @@
+outs:
+- md5: 7efb2ee44b854edf59d15b94fd31a1d7
+  size: 40360
+  hash: md5
+  path: keitele.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

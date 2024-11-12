@@ -1,0 +1,12 @@
+outs:
+- md5: 16b374a38ef2ace3e1413add04b7ca48
+  size: 39573
+  hash: md5
+  path: pello.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

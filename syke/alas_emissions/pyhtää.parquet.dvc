@@ -1,0 +1,12 @@
+outs:
+- md5: 18969faffe935f3925f73da8ef791373
+  size: 40360
+  hash: md5
+  path: pyhtää.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

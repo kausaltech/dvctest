@@ -1,0 +1,12 @@
+outs:
+- md5: d22eb2d9b5bace395bbb1ddd215bddf8
+  size: 38567
+  hash: md5
+  path: kärsämäki.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

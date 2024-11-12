@@ -1,0 +1,12 @@
+outs:
+- md5: 6c9d529d8f5c5ad5a1ff433b117f86bd
+  size: 37457
+  hash: md5
+  path: maarianhamina.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

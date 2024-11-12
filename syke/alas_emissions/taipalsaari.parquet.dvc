@@ -1,0 +1,12 @@
+outs:
+- md5: 264952cc8c467c781fa6bee8573ad6af
+  size: 39219
+  hash: md5
+  path: taipalsaari.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

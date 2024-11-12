@@ -1,0 +1,12 @@
+outs:
+- md5: eca9e57ff7eb15cc00f47aaa486d14f8
+  size: 38538
+  hash: md5
+  path: enonkoski.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

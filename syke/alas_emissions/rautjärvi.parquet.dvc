@@ -1,0 +1,12 @@
+outs:
+- md5: 04d225118d1ec848173debff2b78ef9a
+  size: 41078
+  hash: md5
+  path: rautjärvi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

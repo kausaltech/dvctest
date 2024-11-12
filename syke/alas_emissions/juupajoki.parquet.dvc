@@ -1,0 +1,12 @@
+outs:
+- md5: 13d6d3f43e35780893e02bb5260cb87e
+  size: 38468
+  hash: md5
+  path: juupajoki.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

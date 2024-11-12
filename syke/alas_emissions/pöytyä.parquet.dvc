@@ -1,0 +1,12 @@
+outs:
+- md5: f915d255f9c51c1bb969ed5bb8de43b7
+  size: 39478
+  hash: md5
+  path: pöytyä.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

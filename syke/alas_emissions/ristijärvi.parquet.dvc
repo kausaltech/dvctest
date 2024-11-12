@@ -1,0 +1,12 @@
+outs:
+- md5: 4cf4b0e8dbde374c3604b0ddb2719386
+  size: 37866
+  hash: md5
+  path: ristijärvi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

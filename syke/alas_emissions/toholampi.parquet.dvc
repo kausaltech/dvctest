@@ -1,0 +1,12 @@
+outs:
+- md5: fd30ad4df1d969ce5e5529d706a511b8
+  size: 37882
+  hash: md5
+  path: toholampi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

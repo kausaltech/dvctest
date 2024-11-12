@@ -1,0 +1,12 @@
+outs:
+- md5: baa685453afbe585bb424e5ad99b6554
+  size: 39442
+  hash: md5
+  path: posio.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

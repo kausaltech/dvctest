@@ -1,0 +1,12 @@
+outs:
+- md5: f7c70f717e00449119e65e2a30a10a37
+  size: 37468
+  hash: md5
+  path: hirvensalmi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

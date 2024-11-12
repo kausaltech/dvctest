@@ -1,0 +1,12 @@
+outs:
+- md5: 5976001878997c35820203fea993d8dc
+  size: 41179
+  hash: md5
+  path: kangasala.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

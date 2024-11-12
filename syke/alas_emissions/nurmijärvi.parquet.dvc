@@ -1,0 +1,12 @@
+outs:
+- md5: 52c1334a9300b4f7aa6aa08e55870677
+  size: 41558
+  hash: md5
+  path: nurmijärvi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

@@ -1,0 +1,12 @@
+outs:
+- md5: f27143b2821bf80f23bee517c826e41b
+  size: 39148
+  hash: md5
+  path: jomala.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

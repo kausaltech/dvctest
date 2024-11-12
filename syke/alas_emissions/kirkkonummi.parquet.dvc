@@ -1,0 +1,12 @@
+outs:
+- md5: 36f662a06cabd80599371ee8f27195c1
+  size: 44438
+  hash: md5
+  path: kirkkonummi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

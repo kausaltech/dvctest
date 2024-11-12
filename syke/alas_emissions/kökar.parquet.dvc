@@ -1,0 +1,12 @@
+outs:
+- md5: 719b70bc33bb5b56cfb1529d8337ac3d
+  size: 33793
+  hash: md5
+  path: kökar.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

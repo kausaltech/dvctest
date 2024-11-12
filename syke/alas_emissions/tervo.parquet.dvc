@@ -1,0 +1,12 @@
+outs:
+- md5: 44945f80c37a8d68ba5cdae684c81a20
+  size: 38212
+  hash: md5
+  path: tervo.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

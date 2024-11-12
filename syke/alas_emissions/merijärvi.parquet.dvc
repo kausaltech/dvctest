@@ -1,0 +1,12 @@
+outs:
+- md5: 976fc5878af6da086db4db0e6ab11762
+  size: 36703
+  hash: md5
+  path: merijärvi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

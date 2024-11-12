@@ -1,0 +1,12 @@
+outs:
+- md5: db3924ac8639f4bf483260213faf6e67
+  size: 39657
+  hash: md5
+  path: polvijärvi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

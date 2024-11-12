@@ -1,0 +1,12 @@
+outs:
+- md5: 87ecccf2a9089f549779f986b9ad201a
+  size: 36110
+  hash: md5
+  path: myrskylä.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

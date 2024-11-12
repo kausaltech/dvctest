@@ -1,0 +1,12 @@
+outs:
+- md5: 23838d522d683bbb4d8286c5b522590b
+  size: 41697
+  hash: md5
+  path: inkoo.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

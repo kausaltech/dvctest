@@ -1,0 +1,12 @@
+outs:
+- md5: 29a36193fbbfee47cf92e2097e62c75a
+  size: 38161
+  hash: md5
+  path: taivassalo.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

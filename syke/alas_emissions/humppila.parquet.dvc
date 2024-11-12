@@ -1,0 +1,12 @@
+outs:
+- md5: 4fc2ca71df0e5fd168d1b8044f48beef
+  size: 38670
+  hash: md5
+  path: humppila.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

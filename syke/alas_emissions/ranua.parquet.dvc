@@ -1,0 +1,12 @@
+outs:
+- md5: e4f45d8646dad9fc0f879a15df1055cf
+  size: 38719
+  hash: md5
+  path: ranua.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

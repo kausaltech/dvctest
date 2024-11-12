@@ -1,0 +1,12 @@
+outs:
+- md5: d38338d7ceec79157814db4310d8f95f
+  size: 37992
+  hash: md5
+  path: kaavi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

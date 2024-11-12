@@ -1,0 +1,12 @@
+outs:
+- md5: 5a8e678af62773b478df1206d38aa0ae
+  size: 35821
+  hash: md5
+  path: savukoski.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

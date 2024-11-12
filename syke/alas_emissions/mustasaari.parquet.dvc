@@ -1,0 +1,12 @@
+outs:
+- md5: 251feb0df8380f94c1699491d649cacc
+  size: 41304
+  hash: md5
+  path: mustasaari.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

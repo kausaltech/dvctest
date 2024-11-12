@@ -1,0 +1,12 @@
+outs:
+- md5: ce7e43ab92979eda7f0c544122cafd06
+  size: 43007
+  hash: md5
+  path: kuusamo.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

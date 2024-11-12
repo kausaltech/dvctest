@@ -1,0 +1,12 @@
+outs:
+- md5: 09b911602a381a2e63ed2a3ef1e5fb18
+  size: 44574
+  hash: md5
+  path: imatra.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

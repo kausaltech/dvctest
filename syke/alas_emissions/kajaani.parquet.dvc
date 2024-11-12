@@ -1,0 +1,12 @@
+outs:
+- md5: d6a2cf17e0cbd968d152f8ac6309aad2
+  size: 45188
+  hash: md5
+  path: kajaani.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

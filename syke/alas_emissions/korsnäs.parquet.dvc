@@ -1,0 +1,12 @@
+outs:
+- md5: 6f19b1497a302c9dc550264c7eaa6654
+  size: 38703
+  hash: md5
+  path: korsnäs.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

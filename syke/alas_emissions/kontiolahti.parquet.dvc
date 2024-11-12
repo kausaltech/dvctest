@@ -1,0 +1,12 @@
+outs:
+- md5: f65428cb533ee521a36bb49b9e8efdcc
+  size: 40322
+  hash: md5
+  path: kontiolahti.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

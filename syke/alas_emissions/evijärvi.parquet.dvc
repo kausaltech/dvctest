@@ -1,0 +1,12 @@
+outs:
+- md5: 6ff291503c8d9e3ed33fcf200d858394
+  size: 38706
+  hash: md5
+  path: evijärvi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

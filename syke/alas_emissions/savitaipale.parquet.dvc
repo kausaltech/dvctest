@@ -1,0 +1,12 @@
+outs:
+- md5: 18473fc6ca82be5ea5bd430555291557
+  size: 39241
+  hash: md5
+  path: savitaipale.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

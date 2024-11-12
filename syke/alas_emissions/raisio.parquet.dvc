@@ -1,0 +1,12 @@
+outs:
+- md5: 08d7d800fb608e398821a129145c0e60
+  size: 42721
+  hash: md5
+  path: raisio.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

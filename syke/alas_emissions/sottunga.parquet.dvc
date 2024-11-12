@@ -1,0 +1,12 @@
+outs:
+- md5: 40c77c9f5744c0086ae0f7fa7fa0df22
+  size: 31920
+  hash: md5
+  path: sottunga.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

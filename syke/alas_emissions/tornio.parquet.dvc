@@ -1,0 +1,12 @@
+outs:
+- md5: b0f75087ac1c43272e4381dea142c68c
+  size: 45181
+  hash: md5
+  path: tornio.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

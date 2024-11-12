@@ -1,0 +1,12 @@
+outs:
+- md5: 8b53e8fde58799b641ef9811b4e7dda7
+  size: 36309
+  hash: md5
+  path: lemland.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

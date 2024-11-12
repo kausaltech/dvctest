@@ -1,0 +1,12 @@
+outs:
+- md5: 79d844070b5b0b96261f44b970eae274
+  size: 39161
+  hash: md5
+  path: ylitornio.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

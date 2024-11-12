@@ -1,0 +1,12 @@
+outs:
+- md5: 31c8087f09e7641b090c76246034c58d
+  size: 38372
+  hash: md5
+  path: enontekiö.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

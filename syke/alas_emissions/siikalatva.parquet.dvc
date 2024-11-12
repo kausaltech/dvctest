@@ -1,0 +1,12 @@
+outs:
+- md5: 293fce78cd85277246f7089a49cc8c9a
+  size: 39410
+  hash: md5
+  path: siikalatva.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

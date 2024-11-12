@@ -1,0 +1,12 @@
+outs:
+- md5: 8a4d1ada39cf85918ec6df22ba08ea49
+  size: 40563
+  hash: md5
+  path: iitti.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

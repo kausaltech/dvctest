@@ -1,0 +1,12 @@
+outs:
+- md5: 9b281cb5e636b7108aaaeefb6b3d886a
+  size: 39683
+  hash: md5
+  path: vaala.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

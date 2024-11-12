@@ -1,0 +1,12 @@
+outs:
+- md5: 37f99b52b16bf2f156ed216c5c94549b
+  size: 46027
+  hash: md5
+  path: seinäjoki.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

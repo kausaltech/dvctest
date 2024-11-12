@@ -1,0 +1,12 @@
+outs:
+- md5: 758eda71a15496e692216c5c3b569be7
+  size: 44006
+  hash: md5
+  path: vantaa.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

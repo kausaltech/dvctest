@@ -1,0 +1,12 @@
+outs:
+- md5: 8f0d922cb7c79c42bdbaeb50cff9a33b
+  size: 38813
+  hash: md5
+  path: ruokolahti.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

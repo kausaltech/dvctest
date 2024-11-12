@@ -1,0 +1,12 @@
+outs:
+- md5: 5f127f4054949d1ab1df989a17950eb3
+  size: 40247
+  hash: md5
+  path: maalahti.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

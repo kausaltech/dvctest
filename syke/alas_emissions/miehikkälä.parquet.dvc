@@ -1,0 +1,12 @@
+outs:
+- md5: 8753aba161a05cae38b9e8f2b919b8ba
+  size: 37129
+  hash: md5
+  path: miehikkälä.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

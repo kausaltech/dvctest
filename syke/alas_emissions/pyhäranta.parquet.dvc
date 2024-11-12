@@ -1,0 +1,12 @@
+outs:
+- md5: 266069f5c353ae797876f80fcbe97639
+  size: 36831
+  hash: md5
+  path: pyhäranta.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

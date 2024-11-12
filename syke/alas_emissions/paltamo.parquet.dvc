@@ -1,0 +1,12 @@
+outs:
+- md5: d1e122a8ae16bde0912e9183f9ef2e07
+  size: 40349
+  hash: md5
+  path: paltamo.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

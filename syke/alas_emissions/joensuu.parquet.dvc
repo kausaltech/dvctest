@@ -1,0 +1,12 @@
+outs:
+- md5: f5f545e281236506395c0ac930463ad3
+  size: 45921
+  hash: md5
+  path: joensuu.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

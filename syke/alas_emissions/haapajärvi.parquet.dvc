@@ -1,0 +1,12 @@
+outs:
+- md5: 79a22335670a6e59a241a39c6c9a9fb1
+  size: 41259
+  hash: md5
+  path: haapajärvi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

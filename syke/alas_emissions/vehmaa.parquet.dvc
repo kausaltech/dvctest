@@ -1,0 +1,12 @@
+outs:
+- md5: 6918b96d8289ee475a05c1564d75aff6
+  size: 38205
+  hash: md5
+  path: vehmaa.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

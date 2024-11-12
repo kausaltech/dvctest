@@ -1,0 +1,12 @@
+outs:
+- md5: 0d23923f6d3edbc9c1008a687b31968d
+  size: 41827
+  hash: md5
+  path: orivesi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

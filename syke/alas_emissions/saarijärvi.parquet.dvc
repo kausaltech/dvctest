@@ -1,0 +1,12 @@
+outs:
+- md5: 19c13f4167ea71708e68b660afecf8eb
+  size: 40385
+  hash: md5
+  path: saarijärvi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

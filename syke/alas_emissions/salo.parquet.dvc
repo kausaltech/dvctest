@@ -1,0 +1,12 @@
+outs:
+- md5: 9def48bd5f8e0765d6f7aa8b05b20856
+  size: 45886
+  hash: md5
+  path: salo.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

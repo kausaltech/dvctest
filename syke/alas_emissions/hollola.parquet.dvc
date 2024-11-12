@@ -1,0 +1,12 @@
+outs:
+- md5: 49855dec60ebc94fd80caac61b588d45
+  size: 43111
+  hash: md5
+  path: hollola.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

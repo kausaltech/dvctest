@@ -1,0 +1,12 @@
+outs:
+- md5: 804ee783970935891e86125a3a9679d1
+  size: 38850
+  hash: md5
+  path: nakkila.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

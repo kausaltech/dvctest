@@ -1,0 +1,12 @@
+outs:
+- md5: abd0b5430789b715f57298a6e7145924
+  size: 40344
+  hash: md5
+  path: leppävirta.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

@@ -1,0 +1,12 @@
+outs:
+- md5: 62e21f145e81ebc23f931d8ace0f690e
+  size: 39965
+  hash: md5
+  path: masku.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

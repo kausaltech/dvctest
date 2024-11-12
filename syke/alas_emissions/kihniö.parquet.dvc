@@ -1,0 +1,12 @@
+outs:
+- md5: cd37909e5fcde2e990c094a91713352f
+  size: 37974
+  hash: md5
+  path: kihniö.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

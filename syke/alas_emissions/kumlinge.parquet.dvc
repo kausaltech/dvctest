@@ -1,0 +1,12 @@
+outs:
+- md5: 1563e5956fe249a41b50f50d52658d33
+  size: 35850
+  hash: md5
+  path: kumlinge.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

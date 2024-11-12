@@ -1,0 +1,12 @@
+outs:
+- md5: c0e2a7993690c1bb6679fcd017907ce4
+  size: 36680
+  hash: md5
+  path: lumparland.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

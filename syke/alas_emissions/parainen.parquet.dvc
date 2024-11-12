@@ -1,0 +1,12 @@
+outs:
+- md5: 0c41975b075859346728db459d9bf43a
+  size: 42932
+  hash: md5
+  path: parainen.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

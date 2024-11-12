@@ -1,0 +1,12 @@
+outs:
+- md5: 627248c49c29d2b4c317e253f1c23d58
+  size: 43587
+  hash: md5
+  path: heinola.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

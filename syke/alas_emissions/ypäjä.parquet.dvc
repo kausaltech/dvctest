@@ -1,0 +1,12 @@
+outs:
+- md5: 69460659888de75f8a39d63631c42c62
+  size: 38765
+  hash: md5
+  path: ypäjä.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

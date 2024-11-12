@@ -1,0 +1,12 @@
+outs:
+- md5: 17d15535dbad90252ffa6605c0fb3829
+  size: 39924
+  hash: md5
+  path: ilomantsi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

@@ -1,0 +1,12 @@
+outs:
+- md5: 2be2c0c174e2f0bb7345c7bd403036ed
+  size: 38789
+  hash: md5
+  path: liminka.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

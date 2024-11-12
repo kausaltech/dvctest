@@ -1,0 +1,12 @@
+outs:
+- md5: 13468af8174206c17a976ddbcec5dc0e
+  size: 38671
+  hash: md5
+  path: veteli.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

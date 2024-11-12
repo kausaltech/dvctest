@@ -1,0 +1,12 @@
+outs:
+- md5: 17d41ba5cfdbd0b21f96cc6fd56d0def
+  size: 38559
+  hash: md5
+  path: toivakka.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

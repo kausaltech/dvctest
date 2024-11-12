@@ -1,0 +1,12 @@
+outs:
+- md5: 969bfdea33f2157239ce0f4c07265d08
+  size: 38521
+  hash: md5
+  path: kustavi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

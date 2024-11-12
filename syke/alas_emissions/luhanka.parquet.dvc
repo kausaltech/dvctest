@@ -1,0 +1,12 @@
+outs:
+- md5: e2c2becaa21a56f9622bd0d483fc1e11
+  size: 36760
+  hash: md5
+  path: luhanka.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

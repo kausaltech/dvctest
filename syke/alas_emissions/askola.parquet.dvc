@@ -1,0 +1,12 @@
+outs:
+- md5: 634416fb5a4043f0143513711abee1a6
+  size: 37929
+  hash: md5
+  path: askola.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

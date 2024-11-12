@@ -1,0 +1,12 @@
+outs:
+- md5: 46423a92ae56561bd71c8c45e44928cb
+  size: 38202
+  hash: md5
+  path: isokyrö.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

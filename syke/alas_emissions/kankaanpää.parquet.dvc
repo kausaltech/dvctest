@@ -1,0 +1,12 @@
+outs:
+- md5: 35b123ad03782b0b358dae2200091e61
+  size: 40940
+  hash: md5
+  path: kankaanpää.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

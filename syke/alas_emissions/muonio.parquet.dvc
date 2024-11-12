@@ -1,0 +1,12 @@
+outs:
+- md5: cae7dee337bca0d4fb83a055c15134b8
+  size: 39492
+  hash: md5
+  path: muonio.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

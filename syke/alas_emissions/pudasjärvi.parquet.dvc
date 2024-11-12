@@ -1,0 +1,12 @@
+outs:
+- md5: 8179d1217bff5342492f042f993f231f
+  size: 40494
+  hash: md5
+  path: pudasjärvi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

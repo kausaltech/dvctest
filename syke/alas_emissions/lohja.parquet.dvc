@@ -1,0 +1,12 @@
+outs:
+- md5: 3445a738422e8c8284f0bc2b45ebab74
+  size: 44925
+  hash: md5
+  path: lohja.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

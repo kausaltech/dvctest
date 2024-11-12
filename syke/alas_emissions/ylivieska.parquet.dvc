@@ -1,0 +1,12 @@
+outs:
+- md5: 712bc77f87508393afc58a7db8641263
+  size: 43665
+  hash: md5
+  path: ylivieska.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

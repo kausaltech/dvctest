@@ -1,0 +1,12 @@
+outs:
+- md5: 6a47e8bee39804031387f67804c24e2d
+  size: 38332
+  hash: md5
+  path: hyrynsalmi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

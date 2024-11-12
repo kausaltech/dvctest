@@ -1,0 +1,12 @@
+outs:
+- md5: dd289482d24c5dfd08cae17b3846c643
+  size: 42173
+  hash: md5
+  path: hämeenkyrö.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

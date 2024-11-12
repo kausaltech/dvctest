@@ -1,0 +1,12 @@
+outs:
+- md5: e01daa6dd9ae259b480a2c6f9d7af374
+  size: 34401
+  hash: md5
+  path: föglö.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

@@ -1,0 +1,12 @@
+outs:
+- md5: 43a7b14796e1de885452a43c6f1c8c82
+  size: 39145
+  hash: md5
+  path: puumala.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

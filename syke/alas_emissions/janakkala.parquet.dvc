@@ -1,0 +1,12 @@
+outs:
+- md5: 5e4a472cdd6cac59d3b1016f119e8102
+  size: 43445
+  hash: md5
+  path: janakkala.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

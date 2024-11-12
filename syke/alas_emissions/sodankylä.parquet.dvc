@@ -1,0 +1,12 @@
+outs:
+- md5: c045849b2596c3db1faf0877fe940d20
+  size: 40676
+  hash: md5
+  path: sodankylä.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

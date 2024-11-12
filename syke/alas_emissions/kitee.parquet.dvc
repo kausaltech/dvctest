@@ -1,0 +1,12 @@
+outs:
+- md5: 25669ed9cefe2d872e881509e9b55bf3
+  size: 42927
+  hash: md5
+  path: kitee.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

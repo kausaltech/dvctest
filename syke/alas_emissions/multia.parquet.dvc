@@ -1,0 +1,12 @@
+outs:
+- md5: 25f813ee0c3f717a3e776bb62a30dd11
+  size: 37990
+  hash: md5
+  path: multia.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

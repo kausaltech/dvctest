@@ -1,0 +1,12 @@
+outs:
+- md5: 0f42bc202ca2b92245feed4a9524dc0e
+  size: 38269
+  hash: md5
+  path: konnevesi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

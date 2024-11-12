@@ -1,0 +1,12 @@
+outs:
+- md5: 0132c4d3152de50ca4bbeef7cfe02db0
+  size: 38636
+  hash: md5
+  path: petäjävesi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

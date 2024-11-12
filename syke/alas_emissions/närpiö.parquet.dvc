@@ -1,0 +1,12 @@
+outs:
+- md5: 3ced56db20ea2fa7ce1d99bab8f28f29
+  size: 41734
+  hash: md5
+  path: närpiö.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

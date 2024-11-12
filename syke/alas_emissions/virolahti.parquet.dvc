@@ -1,0 +1,12 @@
+outs:
+- md5: 28f53974b9be365169b334345cf8956a
+  size: 38667
+  hash: md5
+  path: virolahti.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

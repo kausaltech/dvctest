@@ -1,0 +1,12 @@
+outs:
+- md5: 9738ecacfc40aa8e35f74e5956d56fd4
+  size: 43871
+  hash: md5
+  path: kalajoki.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

@@ -1,0 +1,12 @@
+outs:
+- md5: 7f7085891ee52de2e1ed0ac9a28de78a
+  size: 39221
+  hash: md5
+  path: jokioinen.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

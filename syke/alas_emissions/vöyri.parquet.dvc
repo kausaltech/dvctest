@@ -1,0 +1,12 @@
+outs:
+- md5: 36c7f47daac832809e907ace3f24daa8
+  size: 41092
+  hash: md5
+  path: vöyri.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

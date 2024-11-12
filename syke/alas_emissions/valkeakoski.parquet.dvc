@@ -1,0 +1,12 @@
+outs:
+- md5: 52d68337fd6732eb1d5fa9f01f07a3fb
+  size: 43013
+  hash: md5
+  path: valkeakoski.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

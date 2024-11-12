@@ -1,0 +1,12 @@
+outs:
+- md5: 9728ff668878bb79c6091ef4a5829b9b
+  size: 39450
+  hash: md5
+  path: mynämäki.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

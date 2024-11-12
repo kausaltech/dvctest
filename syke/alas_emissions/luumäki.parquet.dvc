@@ -1,0 +1,12 @@
+outs:
+- md5: ad138420527344c4be0bc65faee54604
+  size: 41486
+  hash: md5
+  path: luumäki.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

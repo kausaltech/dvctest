@@ -1,0 +1,12 @@
+outs:
+- md5: 0e08ee9ca04d7fd2f74b3163c72c4923
+  size: 44087
+  hash: md5
+  path: rovaniemi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

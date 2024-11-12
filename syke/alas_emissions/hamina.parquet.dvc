@@ -1,0 +1,12 @@
+outs:
+- md5: c61b5b7959d7d6490c9bb099d84e01e7
+  size: 44063
+  hash: md5
+  path: hamina.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

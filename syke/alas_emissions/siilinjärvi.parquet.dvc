@@ -1,0 +1,12 @@
+outs:
+- md5: 6920a7172092f8eb7559113cdafaba63
+  size: 43058
+  hash: md5
+  path: siilinjärvi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

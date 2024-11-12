@@ -1,0 +1,12 @@
+outs:
+- md5: 509863af2cac3b31b0f0385d7f274327
+  size: 42532
+  hash: md5
+  path: kauhava.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

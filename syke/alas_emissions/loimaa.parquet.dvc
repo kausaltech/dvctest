@@ -1,0 +1,12 @@
+outs:
+- md5: bbcedf81fdb0564b984876c0807effa4
+  size: 41992
+  hash: md5
+  path: loimaa.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

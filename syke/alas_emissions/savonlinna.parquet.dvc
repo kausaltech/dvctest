@@ -1,0 +1,12 @@
+outs:
+- md5: 0b30a8b91de9c0e64127b5b8c63576b8
+  size: 43854
+  hash: md5
+  path: savonlinna.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

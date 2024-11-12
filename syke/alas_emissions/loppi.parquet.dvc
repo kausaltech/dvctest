@@ -1,0 +1,12 @@
+outs:
+- md5: 22e48529659fec3d96abb1d675dc2420
+  size: 39094
+  hash: md5
+  path: loppi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

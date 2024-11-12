@@ -1,0 +1,12 @@
+outs:
+- md5: c15ce5e87af134ee31b6e476cc4b0101
+  size: 38042
+  hash: md5
+  path: sauvo.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

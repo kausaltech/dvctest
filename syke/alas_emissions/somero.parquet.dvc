@@ -1,0 +1,12 @@
+outs:
+- md5: f5462e8c088135f70947654a83c112bf
+  size: 40301
+  hash: md5
+  path: somero.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

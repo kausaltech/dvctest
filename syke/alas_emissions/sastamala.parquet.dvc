@@ -1,0 +1,12 @@
+outs:
+- md5: 7d5720545ab988f4621c7cdd80666c79
+  size: 42692
+  hash: md5
+  path: sastamala.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

@@ -1,0 +1,12 @@
+outs:
+- md5: 10cdac52c51a8f0a6c2414ae8117d20a
+  size: 44013
+  hash: md5
+  path: hyvinkää.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

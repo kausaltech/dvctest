@@ -1,0 +1,12 @@
+outs:
+- md5: 8e4a61b1b185a78cdd92b60a3cfdcfe8
+  size: 35106
+  hash: md5
+  path: geta.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

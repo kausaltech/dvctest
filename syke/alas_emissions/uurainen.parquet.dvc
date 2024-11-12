@@ -1,0 +1,12 @@
+outs:
+- md5: acee2b8e202da0d5f8e62af414e6777b
+  size: 38134
+  hash: md5
+  path: uurainen.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

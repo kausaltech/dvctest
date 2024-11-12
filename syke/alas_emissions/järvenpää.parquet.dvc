@@ -1,0 +1,12 @@
+outs:
+- md5: 2e6d3abef5e7d7b1afb1756f09f10a9a
+  size: 41254
+  hash: md5
+  path: järvenpää.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

@@ -1,0 +1,12 @@
+outs:
+- md5: 1be4c031636ff07f2431196dd9ddc3d5
+  size: 39318
+  hash: md5
+  path: karstula.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

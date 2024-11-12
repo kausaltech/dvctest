@@ -1,0 +1,12 @@
+outs:
+- md5: b44b3d0a22542e01d7ba1f9def67fa6e
+  size: 41220
+  hash: md5
+  path: uusikaarlepyy.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

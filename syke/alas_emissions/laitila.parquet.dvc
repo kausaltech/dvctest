@@ -1,0 +1,12 @@
+outs:
+- md5: a0b0e3a2d01f2027c0a3f2d6334e07cf
+  size: 41386
+  hash: md5
+  path: laitila.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

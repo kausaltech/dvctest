@@ -1,0 +1,12 @@
+outs:
+- md5: 190fb06ccfca8e4ad9bdd4e50d9043f3
+  size: 42014
+  hash: md5
+  path: kokemäki.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

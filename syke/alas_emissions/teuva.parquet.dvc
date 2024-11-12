@@ -1,0 +1,12 @@
+outs:
+- md5: ede8ae339926dba7ce33ab21b229d165
+  size: 39435
+  hash: md5
+  path: teuva.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

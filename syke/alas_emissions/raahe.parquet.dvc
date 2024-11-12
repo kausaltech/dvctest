@@ -1,0 +1,12 @@
+outs:
+- md5: 33ba589471c9002049e593fd64d03d4c
+  size: 45869
+  hash: md5
+  path: raahe.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

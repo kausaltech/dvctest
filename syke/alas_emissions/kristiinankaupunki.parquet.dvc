@@ -1,0 +1,12 @@
+outs:
+- md5: fd3b938ba08dc46fcbe5a05fc3eb0557
+  size: 41188
+  hash: md5
+  path: kristiinankaupunki.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

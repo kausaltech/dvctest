@@ -1,0 +1,12 @@
+outs:
+- md5: bfc1694522619b26f23e0a43bfd73f1b
+  size: 43821
+  hash: md5
+  path: nokia.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

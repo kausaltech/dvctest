@@ -1,0 +1,12 @@
+outs:
+- md5: 8e4f0f4db01b5354f77c88e7f0efbe20
+  size: 40347
+  hash: md5
+  path: nivala.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

@@ -1,0 +1,12 @@
+outs:
+- md5: 70d6b532655eb9679620bda77b60c446
+  size: 46079
+  hash: md5
+  path: jyväskylä.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

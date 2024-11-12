@@ -1,0 +1,12 @@
+outs:
+- md5: 96397face2c3c15dec492cb0304618d6
+  size: 42483
+  hash: md5
+  path: sipoo.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

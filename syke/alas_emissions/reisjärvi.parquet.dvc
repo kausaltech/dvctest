@@ -1,0 +1,12 @@
+outs:
+- md5: bf65af2e9f48b9f82e91a674338d6e0c
+  size: 38596
+  hash: md5
+  path: reisjärvi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

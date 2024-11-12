@@ -1,0 +1,12 @@
+outs:
+- md5: 00477168b15cab4f603fe62c5d74f689
+  size: 38013
+  hash: md5
+  path: lemi.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

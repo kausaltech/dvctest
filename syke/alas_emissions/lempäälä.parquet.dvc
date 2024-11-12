@@ -1,0 +1,12 @@
+outs:
+- md5: 199a0b1e95fd372635f859ae5eb66bbf
+  size: 41601
+  hash: md5
+  path: lempäälä.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

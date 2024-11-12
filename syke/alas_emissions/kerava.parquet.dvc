@@ -1,0 +1,12 @@
+outs:
+- md5: b6e0c41fe2a243c6ce3cf17212e92217
+  size: 41619
+  hash: md5
+  path: kerava.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

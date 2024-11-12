@@ -1,0 +1,12 @@
+outs:
+- md5: d7840cbddcefd748d86372864225cc9a
+  size: 46394
+  hash: md5
+  path: helsinki.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

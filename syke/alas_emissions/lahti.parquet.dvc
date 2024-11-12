@@ -1,0 +1,12 @@
+outs:
+- md5: b8566fcbcf5635ef6009b2d91f000466
+  size: 45012
+  hash: md5
+  path: lahti.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool

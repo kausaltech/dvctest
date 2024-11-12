@@ -1,0 +1,12 @@
+outs:
+- md5: 7ca1f60e9157c8c89cf96b116557ac07
+  size: 41085
+  hash: md5
+  path: ulvila.parquet
+meta:
+  units:
+    ktCO2e: Gg/a
+    ktCO2e_tuuli: Gg/a
+    energiankulutus (GWh): GWh/a
+    hinku-laskenta: bool
+    päästökauppa: bool
