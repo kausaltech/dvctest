@@ -1,0 +1,15 @@
+outs:
+- md5: 5feeddd7305e8328c7f90d66c63b5037
+  size: 6291
+  hash: md5
+  path: new_vehicle_emission_factors.parquet
+meta:
+  name:
+    de-CH: New Vehicle Emission Factors
+  identifier: new_vehicle_emission_factors
+  metrics:
+  - id: emission_factor
+    label:
+      de-CH: Emission Factor
+  units:
+    emission_factor: kg/count
