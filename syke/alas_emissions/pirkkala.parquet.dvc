@@ -1,6 +1,6 @@
 outs:
-- md5: 98914ab4bda6094a8cb7d3c25f1025e9
-  size: 41402
+- md5: 4c88f57ba950eb5e3f7cb005ea68891d
+  size: 41517
   hash: md5
   path: pirkkala.parquet
 meta:

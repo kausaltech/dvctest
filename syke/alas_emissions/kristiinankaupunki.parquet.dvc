@@ -1,6 +1,6 @@
 outs:
-- md5: 52d1a74849056c4c4026b4c5d49fe74f
-  size: 41285
+- md5: 130477fe18cd6a01d4ce0f158a68f9af
+  size: 41400
   hash: md5
   path: kristiinankaupunki.parquet
 meta:

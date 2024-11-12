@@ -1,6 +1,6 @@
 outs:
-- md5: ab35c4e771c33dd89fc601fe1c0c6dff
-  size: 41394
+- md5: f4a6f370a86863627345757807473f4f
+  size: 41509
   hash: md5
   path: parkano.parquet
 meta:

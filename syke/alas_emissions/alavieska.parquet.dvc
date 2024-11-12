@@ -1,6 +1,6 @@
 outs:
-- md5: 007e647e1978a57dceac6937cf29e906
-  size: 38188
+- md5: 363de68902567b932b18ce4a7a104ca2
+  size: 38303
   hash: md5
   path: alavieska.parquet
 meta:

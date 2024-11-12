@@ -1,6 +1,6 @@
 outs:
-- md5: 0637312b7d36df94c1b19a387f7ebd53
-  size: 39780
+- md5: 3f817e36eefc03a40abf6b4107d2c00a
+  size: 39895
   hash: md5
   path: vaala.parquet
 meta:

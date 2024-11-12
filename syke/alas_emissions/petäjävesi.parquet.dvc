@@ -1,6 +1,6 @@
 outs:
-- md5: 5e2525ef8f8feabd5aa9b901e3be39fd
-  size: 38733
+- md5: 3496e3caf09a19fa47bebc645ca974b0
+  size: 38848
   hash: md5
   path: petäjävesi.parquet
 meta:

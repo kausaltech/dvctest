@@ -1,6 +1,6 @@
 outs:
-- md5: a5a82426b0b138944d18874342a8351c
-  size: 41179
+- md5: b6d90f1c191e84615f534e234116ac02
+  size: 41294
   hash: md5
   path: lapinlahti.parquet
 meta:

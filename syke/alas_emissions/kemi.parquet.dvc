@@ -1,6 +1,6 @@
 outs:
-- md5: 1d32150fb4859d5bf5193fe32aacf1f7
-  size: 43643
+- md5: c9e7de0c4c8fe2ead4c52f273165d345
+  size: 43758
   hash: md5
   path: kemi.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: a71a179f0cabb9343cc6655480b54a8f
-  size: 40457
+- md5: bb23b9ce4335a2708a120f6919a989f8
+  size: 40572
   hash: md5
   path: keitele.parquet
 meta:

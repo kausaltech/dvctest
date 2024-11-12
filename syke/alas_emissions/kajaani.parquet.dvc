@@ -1,6 +1,6 @@
 outs:
-- md5: ebf393cc45efd013e701abf23f931290
-  size: 45285
+- md5: fadf2c33a80fba30a9f594eaa1a60ba7
+  size: 45400
   hash: md5
   path: kajaani.parquet
 meta:

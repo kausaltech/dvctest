@@ -1,6 +1,6 @@
 outs:
-- md5: bb8cc772b3e9bc175448f0767145ab5d
-  size: 42089
+- md5: c88e329558c7c76f0f7a7fd3c7df4cf9
+  size: 42204
   hash: md5
   path: loimaa.parquet
 meta:

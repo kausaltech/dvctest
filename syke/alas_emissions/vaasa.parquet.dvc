@@ -1,6 +1,6 @@
 outs:
-- md5: 5747b29275478c5231e2bc2843f188db
-  size: 45652
+- md5: 2fc20a559ef5cf2ea1aa8860b8e9f6ed
+  size: 45767
   hash: md5
   path: vaasa.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: 055a21e0f4579e3d201a769d8e590713
-  size: 38922
+- md5: cfa426d9cdbb0c984e798fd0602b0ac5
+  size: 39037
   hash: md5
   path: kaustinen.parquet
 meta:

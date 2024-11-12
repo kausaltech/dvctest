@@ -1,6 +1,6 @@
 outs:
-- md5: 0f0b6eabc6ee028f9bc6f69126b8ea5f
-  size: 35918
+- md5: 920a661c238ea0c3d8d5a24708d3fd84
+  size: 36033
   hash: md5
   path: savukoski.parquet
 meta:

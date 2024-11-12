@@ -1,6 +1,6 @@
 outs:
-- md5: 1be417fa3f00a4e12f74f2c3b70c00b2
-  size: 43772
+- md5: 7f111a8469153cf7c553c4051462f274
+  size: 43887
   hash: md5
   path: mänttä-vilppula.parquet
 meta:

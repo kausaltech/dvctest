@@ -1,6 +1,6 @@
 outs:
-- md5: 7e5246ec5f75ec2e9117caeca6e23bcd
-  size: 46864
+- md5: e06d8bb7f8a3596a2bd71482d6251cad
+  size: 46978
   hash: md5
   path: lappeenranta.parquet
 meta:

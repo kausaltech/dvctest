@@ -1,6 +1,6 @@
 outs:
-- md5: 9d6d5867f1876d6caf8cc647890f0fdb
-  size: 38947
+- md5: d789fa90ef68ddf257201b6b3607ccc3
+  size: 39062
   hash: md5
   path: nakkila.parquet
 meta:

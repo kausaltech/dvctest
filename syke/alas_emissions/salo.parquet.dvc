@@ -1,6 +1,6 @@
 outs:
-- md5: aa65f87e50fc9659f314d9193b60f32d
-  size: 45983
+- md5: c3a9eec93cbaef8eb03dda54aad6a5fc
+  size: 46098
   hash: md5
   path: salo.parquet
 meta:

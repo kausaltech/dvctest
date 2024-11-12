@@ -1,6 +1,6 @@
 outs:
-- md5: bbe5564bd6ac5886dfa9cfe44fac10d8
-  size: 41774
+- md5: f6b9fc90ec60133c3d800ef4cf048632
+  size: 41889
   hash: md5
   path: keuruu.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: 49d897b5fefd917e419d4dac960d8c70
-  size: 42111
+- md5: 6b41afe2d410d67d525c19ee6764d1d6
+  size: 42226
   hash: md5
   path: kokemäki.parquet
 meta:

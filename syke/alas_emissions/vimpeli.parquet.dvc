@@ -1,6 +1,6 @@
 outs:
-- md5: 55760361f14ddfe2d6700426cb4365bc
-  size: 38949
+- md5: b417b8e89917f80eb0d2d59219b91592
+  size: 39064
   hash: md5
   path: vimpeli.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: e5028cac6d6707570dcfcee6aef4c4fa
-  size: 39215
+- md5: 2ea9ea49dfb89b3b57e3b2400976ff20
+  size: 39330
   hash: md5
   path: kangasniemi.parquet
 meta:

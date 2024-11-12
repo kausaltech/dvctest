@@ -1,6 +1,6 @@
 outs:
-- md5: ede567638c7f6d81b974821a81d8565a
-  size: 38768
+- md5: 933d9e5fad3dd963b8d3985c0787af5a
+  size: 38883
   hash: md5
   path: veteli.parquet
 meta:

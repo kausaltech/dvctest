@@ -1,6 +1,6 @@
 outs:
-- md5: 66bd5b69bc71797d814c185de9a56aa5
-  size: 38087
+- md5: 9c1c6f80ebef5406e1a66324d10080e5
+  size: 38202
   hash: md5
   path: multia.parquet
 meta:

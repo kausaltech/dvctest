@@ -1,6 +1,6 @@
 outs:
-- md5: 894b68b2ea44dbc9b5e49467794eb0c5
-  size: 43918
+- md5: 15aec4992767e6afe66fc1eaf2d8f125
+  size: 44033
   hash: md5
   path: nokia.parquet
 meta:

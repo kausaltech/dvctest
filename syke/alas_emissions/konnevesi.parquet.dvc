@@ -1,6 +1,6 @@
 outs:
-- md5: da215785d4038eacb08a058e8ce90f96
-  size: 38366
+- md5: ed9885fa50ae06c6a1343347e2a389fd
+  size: 38481
   hash: md5
   path: konnevesi.parquet
 meta:

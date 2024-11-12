@@ -1,6 +1,6 @@
 outs:
-- md5: bffbe92adf0832f1adbc17681a4e3db4
-  size: 41691
+- md5: 05795abca0a08e19dbe27a154d7e0c70
+  size: 41806
   hash: md5
   path: laukaa.parquet
 meta:

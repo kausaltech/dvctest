@@ -1,6 +1,6 @@
 outs:
-- md5: f300840c63df6091256b0ff76f9ba319
-  size: 38764
+- md5: 40bc1d63f4f79f436cf6a307cbfa88e4
+  size: 38879
   hash: md5
   path: virolahti.parquet
 meta:

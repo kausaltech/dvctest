@@ -1,6 +1,6 @@
 outs:
-- md5: 8ad6d588311d9852a2351f4bb75cdebf
-  size: 44255
+- md5: 5245c9901102b140796ef3d3d9da8b85
+  size: 44370
   hash: md5
   path: rauma.parquet
 meta:

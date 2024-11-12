@@ -1,6 +1,6 @@
 outs:
-- md5: ca3940109b8741520868ad90b31e7f2c
-  size: 40166
+- md5: bd6acf6a61db32b2406fc2de4b45ab3e
+  size: 40281
   hash: md5
   path: sonkajärvi.parquet
 meta:

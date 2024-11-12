@@ -1,6 +1,6 @@
 outs:
-- md5: b7fbeef780b2e6a80aa2eedff6f7d8c0
-  size: 46869
+- md5: 1fb7c725e6eae3f3d434866ec7c3cf52
+  size: 46983
   hash: md5
   path: kuopio.parquet
 meta:

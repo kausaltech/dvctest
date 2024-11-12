@@ -1,6 +1,6 @@
 outs:
-- md5: 3e082f1aef4a58090547c73436e9ba47
-  size: 42933
+- md5: ed9ce2057469b275a732718ea092a5bb
+  size: 43048
   hash: md5
   path: riihimäki.parquet
 meta:

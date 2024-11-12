@@ -1,6 +1,6 @@
 outs:
-- md5: 52741b6959f16a572603b35c99a092d7
-  size: 34803
+- md5: 8dee198bf31e01f5f04db63d3b07710b
+  size: 34918
   hash: md5
   path: kauniainen.parquet
 meta:

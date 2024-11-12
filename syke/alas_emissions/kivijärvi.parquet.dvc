@@ -1,6 +1,6 @@
 outs:
-- md5: 863daa719643dc489e7605f0d5e99df5
-  size: 37599
+- md5: 7aa29303f0352eea642d518fa9efed18
+  size: 37714
   hash: md5
   path: kivijärvi.parquet
 meta:

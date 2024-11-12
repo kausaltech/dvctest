@@ -1,6 +1,6 @@
 outs:
-- md5: ef108884cfee198a08ac892070286bed
-  size: 41276
+- md5: 74bf27be198d0c1486ec6400ee814cf1
+  size: 41391
   hash: md5
   path: kangasala.parquet
 meta:

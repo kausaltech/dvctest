@@ -1,6 +1,6 @@
 outs:
-- md5: 3b16b2ae322d1539952d887b4dd1040e
-  size: 37604
+- md5: 0bcf277fd7a8cab3c674d7e51887a03e
+  size: 37719
   hash: md5
   path: lestijärvi.parquet
 meta:

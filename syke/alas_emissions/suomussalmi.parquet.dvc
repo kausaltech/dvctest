@@ -1,6 +1,6 @@
 outs:
-- md5: f6998afefdba04ef2a6de9838b04553c
-  size: 41016
+- md5: 14453666458c22bcf4fad35750d3d648
+  size: 41131
   hash: md5
   path: suomussalmi.parquet
 meta:

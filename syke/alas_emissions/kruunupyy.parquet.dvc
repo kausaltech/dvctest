@@ -1,6 +1,6 @@
 outs:
-- md5: 19593b9fe88a557be241643dbe921ee1
-  size: 39505
+- md5: f0417ec14819baac5250ec7776e82925
+  size: 39620
   hash: md5
   path: kruunupyy.parquet
 meta:

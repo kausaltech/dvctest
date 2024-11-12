@@ -1,6 +1,6 @@
 outs:
-- md5: 10470f0f8247c1f1dba8fc811e35a93e
-  size: 39608
+- md5: 08ec658593c8bb3d43c5a1c3daf39e5b
+  size: 39723
   hash: md5
   path: rantasalmi.parquet
 meta:

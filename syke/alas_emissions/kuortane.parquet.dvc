@@ -1,6 +1,6 @@
 outs:
-- md5: 881e173c0a1dc8782a115c9c2069aecc
-  size: 39029
+- md5: d86066d6c2a54d9925d8b66ea749ea1f
+  size: 39144
   hash: md5
   path: kuortane.parquet
 meta:

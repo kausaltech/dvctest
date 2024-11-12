@@ -1,6 +1,6 @@
 outs:
-- md5: 23e6fdac344b843a39c42dc7e6d31a31
-  size: 38364
+- md5: 671f8b2a113838d5e703791dd8729d32
+  size: 38479
   hash: md5
   path: puolanka.parquet
 meta:

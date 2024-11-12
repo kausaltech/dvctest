@@ -1,6 +1,6 @@
 outs:
-- md5: 4c44cab5104764bc966bc257993110cd
-  size: 37444
+- md5: 00489489ba98005603450c3e8eb4c470
+  size: 37559
   hash: md5
   path: lumijoki.parquet
 meta:

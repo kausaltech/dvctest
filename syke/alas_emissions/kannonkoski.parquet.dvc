@@ -1,6 +1,6 @@
 outs:
-- md5: 9ca2da168cdeaf2b684ee3e3225643e1
-  size: 38192
+- md5: f28a5274408f4bff384600bc3a6eeb79
+  size: 38307
   hash: md5
   path: kannonkoski.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: 48a8a9315e7a83f2a5eabea4789cba70
-  size: 39507
+- md5: b51c60dd6df8d6967902251c9e7c7364
+  size: 39622
   hash: md5
   path: siikalatva.parquet
 meta:

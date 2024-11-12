@@ -1,6 +1,6 @@
 outs:
-- md5: 29ed3a3a746f118224d9653590ae65f9
-  size: 37675
+- md5: 8f45df961bc82b93c18f3686ac2433fe
+  size: 37790
   hash: md5
   path: vesilahti.parquet
 meta:

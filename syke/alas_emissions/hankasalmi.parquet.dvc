@@ -1,6 +1,6 @@
 outs:
-- md5: fdb2cbfa5f6cf5049e8a83391b3e7d6b
-  size: 40970
+- md5: ea16a148d5632369bfe401d4745a64d5
+  size: 41085
   hash: md5
   path: hankasalmi.parquet
 meta:

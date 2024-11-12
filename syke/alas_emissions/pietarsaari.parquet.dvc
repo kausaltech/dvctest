@@ -1,6 +1,6 @@
 outs:
-- md5: 6cc43750afd42ebe5eb8770ca2513e55
-  size: 42970
+- md5: e401b3301f9be3984f270a8a89b5cef5
+  size: 43085
   hash: md5
   path: pietarsaari.parquet
 meta:

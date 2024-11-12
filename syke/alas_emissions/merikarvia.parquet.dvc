@@ -1,6 +1,6 @@
 outs:
-- md5: 9386677d534cbd7cbbf8c9deec80c944
-  size: 39801
+- md5: 95d7acef4da5a16db4191682d21e97e9
+  size: 39916
   hash: md5
   path: merikarvia.parquet
 meta:

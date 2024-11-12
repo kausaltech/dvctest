@@ -1,6 +1,6 @@
 outs:
-- md5: b3003aadac042bd272ecf14c213e7a53
-  size: 42818
+- md5: 0edc49ada34264799cb239f10238d6e4
+  size: 42933
   hash: md5
   path: raisio.parquet
 meta:

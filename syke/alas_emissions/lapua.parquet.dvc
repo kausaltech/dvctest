@@ -1,6 +1,6 @@
 outs:
-- md5: 662ed8e037462d64fc1622801ec2e73a
-  size: 42109
+- md5: 89f66542916dfee62be1ce721b6d2842
+  size: 42224
   hash: md5
   path: lapua.parquet
 meta:

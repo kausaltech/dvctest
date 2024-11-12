@@ -1,6 +1,6 @@
 outs:
-- md5: e447640535e3d1b10cf2e8ceee2f3213
-  size: 43154
+- md5: da7b456f8c4f8513fdbeace1b032201b
+  size: 43269
   hash: md5
   path: kaarina.parquet
 meta:

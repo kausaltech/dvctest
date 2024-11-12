@@ -1,6 +1,6 @@
 outs:
-- md5: fde17c9b743694643f8aca0b795f60a5
-  size: 39173
+- md5: 656c5ec9b7434c21d4c52ae242f5ab94
+  size: 39288
   hash: md5
   path: sysmä.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: fb083c9cc9051ec14054d0a55016f5dc
-  size: 43968
+- md5: c9e2702c7f0dbdf4a2f285759fd24141
+  size: 44083
   hash: md5
   path: kalajoki.parquet
 meta:

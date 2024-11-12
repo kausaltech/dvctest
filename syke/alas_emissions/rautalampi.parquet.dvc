@@ -1,6 +1,6 @@
 outs:
-- md5: 047200ec869e07c35463b5c652be07fb
-  size: 39018
+- md5: 3f509c3c7a43042e7af90b3f063fd0e9
+  size: 39133
   hash: md5
   path: rautalampi.parquet
 meta:

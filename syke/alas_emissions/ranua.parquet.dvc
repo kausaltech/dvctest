@@ -1,6 +1,6 @@
 outs:
-- md5: 5ec8e4ca28e37e138a154c4e78fb3be9
-  size: 38816
+- md5: c43d4284474174003df9c7261ea362a4
+  size: 38931
   hash: md5
   path: ranua.parquet
 meta:

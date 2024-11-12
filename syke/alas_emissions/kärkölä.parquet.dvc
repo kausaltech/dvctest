@@ -1,6 +1,6 @@
 outs:
-- md5: 201a13b13bc41bd6e9a47d37b02fccc2
-  size: 39358
+- md5: aa532422235093610b15dc96b46d0b75
+  size: 39473
   hash: md5
   path: kärkölä.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: 5752bf92ac1af6b557d1979f46233fa6
-  size: 38565
+- md5: 9973f65828cf8f2fd7bc280119492a25
+  size: 38680
   hash: md5
   path: juupajoki.parquet
 meta:

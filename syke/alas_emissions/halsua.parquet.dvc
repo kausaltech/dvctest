@@ -1,6 +1,6 @@
 outs:
-- md5: 450b1999b1106fb0e1cd99f9f47a4b2e
-  size: 37299
+- md5: bfb90862de61ad69c515c8a96a6f942a
+  size: 37414
   hash: md5
   path: halsua.parquet
 meta:

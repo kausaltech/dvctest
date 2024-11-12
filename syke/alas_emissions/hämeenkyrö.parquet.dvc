@@ -1,6 +1,6 @@
 outs:
-- md5: 0fc95e5cd29f7b5022ae9311c6e2b726
-  size: 42270
+- md5: 82075e96f05177adb13710424be4890e
+  size: 42385
   hash: md5
   path: hämeenkyrö.parquet
 meta:

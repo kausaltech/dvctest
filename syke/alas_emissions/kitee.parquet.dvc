@@ -1,6 +1,6 @@
 outs:
-- md5: c8ffb7dbeedac8f40587097555c692e7
-  size: 43024
+- md5: f0e6df8bf88906f2df10e03c24327ea6
+  size: 43139
   hash: md5
   path: kitee.parquet
 meta:

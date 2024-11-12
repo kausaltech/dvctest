@@ -1,6 +1,6 @@
 outs:
-- md5: ec57ed93580f7c55671c2c2cbe369f25
-  size: 38089
+- md5: 4c48563dd56a59e16c1269ff0fae7c1b
+  size: 38204
   hash: md5
   path: kaavi.parquet
 meta:

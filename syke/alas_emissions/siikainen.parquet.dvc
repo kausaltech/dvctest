@@ -1,6 +1,6 @@
 outs:
-- md5: 018d46802f527ce7da31a9f8c841e2ad
-  size: 37860
+- md5: 34ede8f7d5eec377248df5c7e386b3fc
+  size: 37975
   hash: md5
   path: siikainen.parquet
 meta:

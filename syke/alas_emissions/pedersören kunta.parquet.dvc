@@ -1,6 +1,6 @@
 outs:
-- md5: 491dac6b30c6abd1137f74360d5aaea4
-  size: 41147
+- md5: 85eb05732c49ff31d6c4672a3dede21d
+  size: 41262
   hash: md5
   path: pedersören kunta.parquet
 meta:

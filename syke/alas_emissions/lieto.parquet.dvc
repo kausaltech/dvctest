@@ -1,6 +1,6 @@
 outs:
-- md5: 80f14b56a971a1950b04f2f80aa7660c
-  size: 41143
+- md5: f2d4e38092a0c9204be1c1b18b8f4b1f
+  size: 41258
   hash: md5
   path: lieto.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: 305d8131b98f6681fde4528a3fa8e0c3
-  size: 38862
+- md5: d56930de4671a60b9953cd3cd6233b5c
+  size: 38977
   hash: md5
   path: ypäjä.parquet
 meta:

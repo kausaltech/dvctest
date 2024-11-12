@@ -1,6 +1,6 @@
 outs:
-- md5: e490a5a5ffe93644801acfd297d9a269
-  size: 42337
+- md5: 42a09d93842ac542346a50b4248c5974
+  size: 42452
   hash: md5
   path: siikajoki.parquet
 meta:

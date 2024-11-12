@@ -1,6 +1,6 @@
 outs:
-- md5: a35165722e8285c390c798ff864e9fde
-  size: 39532
+- md5: 82ae8f1db37a37b40e891b7d6ec5e2c3
+  size: 39647
   hash: md5
   path: teuva.parquet
 meta:

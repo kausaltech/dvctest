@@ -1,6 +1,6 @@
 outs:
-- md5: ca78f5cf74007c3f790a21f712600536
-  size: 39220
+- md5: 90035433e12877f429089d3d071d310b
+  size: 39335
   hash: md5
   path: urjala.parquet
 meta:

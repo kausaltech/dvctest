@@ -1,6 +1,6 @@
 outs:
-- md5: 8324abcc21c5b679678f32a89347ce71
-  size: 44671
+- md5: e7840710aa71becb1d8acb819ae6186e
+  size: 44786
   hash: md5
   path: imatra.parquet
 meta:

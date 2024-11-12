@@ -1,6 +1,6 @@
 outs:
-- md5: b140b936077f347634bb739381d936eb
-  size: 41668
+- md5: ad5a33bb5c7b060f54445dc76da320fe
+  size: 41783
   hash: md5
   path: eurajoki.parquet
 meta:

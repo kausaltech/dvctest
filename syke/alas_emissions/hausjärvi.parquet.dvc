@@ -1,6 +1,6 @@
 outs:
-- md5: c7064bd34a365b1e2e4f7565bc9da13a
-  size: 40382
+- md5: 182412c4f7dd226d5f193cb64ef29948
+  size: 40497
   hash: md5
   path: hausjärvi.parquet
 meta:

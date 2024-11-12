@@ -1,6 +1,6 @@
 outs:
-- md5: fd012cbfc3fac63c848b4db7025170d6
-  size: 45086
+- md5: 5ad6efaea10f464e5bc84317c6d2c825
+  size: 45201
   hash: md5
   path: kotka.parquet
 meta:

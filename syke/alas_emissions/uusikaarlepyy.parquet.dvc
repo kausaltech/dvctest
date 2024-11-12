@@ -1,6 +1,6 @@
 outs:
-- md5: 93c58660d227b847ea211a5cd24e93a2
-  size: 41317
+- md5: 898246bd4df65968dec378f486f021d1
+  size: 41432
   hash: md5
   path: uusikaarlepyy.parquet
 meta:

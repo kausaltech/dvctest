@@ -1,6 +1,6 @@
 outs:
-- md5: ed6c2fbe90156c49f566874098a5255d
-  size: 40163
+- md5: 8cf970e3c3f15ce5d4c23f4cc72a6a95
+  size: 40278
   hash: md5
   path: tervola.parquet
 meta:

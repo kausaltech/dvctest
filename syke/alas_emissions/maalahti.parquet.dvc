@@ -1,6 +1,6 @@
 outs:
-- md5: aab447d4c41b05bafd07c4b7a304824d
-  size: 40344
+- md5: 4af34b06a9cd7cc98c90376c663b88b6
+  size: 40459
   hash: md5
   path: maalahti.parquet
 meta:

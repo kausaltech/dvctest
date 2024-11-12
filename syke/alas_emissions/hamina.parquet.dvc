@@ -1,6 +1,6 @@
 outs:
-- md5: 6d4947a7ae7edae11ed5fe8a95d5aab4
-  size: 44160
+- md5: 1d370b2ccbf0df0ca3dc6b4647f3bd0a
+  size: 44275
   hash: md5
   path: hamina.parquet
 meta:

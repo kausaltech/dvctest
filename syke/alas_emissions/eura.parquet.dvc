@@ -1,6 +1,6 @@
 outs:
-- md5: 6397a4f37b61562fdafecb0c88e5268d
-  size: 42960
+- md5: 024de952e0718793275c945ed65de33d
+  size: 43075
   hash: md5
   path: eura.parquet
 meta:

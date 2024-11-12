@@ -1,6 +1,6 @@
 outs:
-- md5: 79548252020ddaf3ef5d8e714c93023e
-  size: 38618
+- md5: bef5c404f16355c15315d55093aefa5c
+  size: 38733
   hash: md5
   path: kustavi.parquet
 meta:

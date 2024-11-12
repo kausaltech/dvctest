@@ -1,6 +1,6 @@
 outs:
-- md5: aa4b76e956cbd47c5ff5811a51e57813
-  size: 39338
+- md5: 48ba75fc865bf508c680e21ccc50fc16
+  size: 39453
   hash: md5
   path: savitaipale.parquet
 meta:

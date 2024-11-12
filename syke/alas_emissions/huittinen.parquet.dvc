@@ -1,6 +1,6 @@
 outs:
-- md5: 97477bbd2903f995c5f2e9a522c1cded
-  size: 40596
+- md5: b08baa41f97d02015465293e4fee4bb2
+  size: 40711
   hash: md5
   path: huittinen.parquet
 meta:

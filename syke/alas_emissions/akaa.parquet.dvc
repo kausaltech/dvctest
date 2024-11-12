@@ -1,6 +1,6 @@
 outs:
-- md5: 8e63be9b4dfc535ea8dc366316d4d6fc
-  size: 42330
+- md5: 3b6c2bac304674a3eaa175a73df4fac8
+  size: 42445
   hash: md5
   path: akaa.parquet
 meta:

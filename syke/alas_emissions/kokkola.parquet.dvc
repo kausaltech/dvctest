@@ -1,6 +1,6 @@
 outs:
-- md5: e1b9b265484189ac4aeac80b8bbc442d
-  size: 46869
+- md5: cd956dcd3709713b303a7919e8e47422
+  size: 46984
   hash: md5
   path: kokkola.parquet
 meta:

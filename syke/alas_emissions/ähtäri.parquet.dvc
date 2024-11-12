@@ -1,6 +1,6 @@
 outs:
-- md5: bfcc6bceab7cb397b27a4778e4b17156
-  size: 39649
+- md5: e08eb93a328bd1941db586f15fffc8c8
+  size: 39764
   hash: md5
   path: ähtäri.parquet
 meta:

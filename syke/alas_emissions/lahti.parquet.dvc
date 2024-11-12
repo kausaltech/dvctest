@@ -1,6 +1,6 @@
 outs:
-- md5: 11e624e63562e80aa4084885bd1c468b
-  size: 45109
+- md5: 603cf92f2863d1f6eefb456b88732f35
+  size: 45224
   hash: md5
   path: lahti.parquet
 meta:

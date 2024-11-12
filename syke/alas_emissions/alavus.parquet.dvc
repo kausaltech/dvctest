@@ -1,6 +1,6 @@
 outs:
-- md5: 76a130fe465bb81756436085acf396ed
-  size: 41668
+- md5: 841742e193416c447981718574c19bcf
+  size: 41783
   hash: md5
   path: alavus.parquet
 meta:

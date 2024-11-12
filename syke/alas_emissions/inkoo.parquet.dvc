@@ -1,6 +1,6 @@
 outs:
-- md5: 4c2271e6feaf27a05d5befc4575cd3b3
-  size: 41794
+- md5: de1ceb6fc073540376b9d7fa8a1b4920
+  size: 41909
   hash: md5
   path: inkoo.parquet
 meta:

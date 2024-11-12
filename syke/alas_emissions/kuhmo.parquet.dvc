@@ -1,6 +1,6 @@
 outs:
-- md5: 64a629969d738f432b7ba654e581f8f3
-  size: 40794
+- md5: 5fb0303802a4ad87fb2ab51e3890968b
+  size: 40909
   hash: md5
   path: kuhmo.parquet
 meta:

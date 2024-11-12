@@ -1,6 +1,6 @@
 outs:
-- md5: d68caaf4bd82b06b9ecae45445eac126
-  size: 39415
+- md5: 3f956e3806ef14e0b7af627e94aaa5eb
+  size: 39530
   hash: md5
   path: karstula.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: bc3de34a3bb7499dc79b258fdcf03954
-  size: 38905
+- md5: e7f393de08a94c0238cb3627b8008dd9
+  size: 39020
   hash: md5
   path: hailuoto.parquet
 meta:

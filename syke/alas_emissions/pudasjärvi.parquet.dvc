@@ -1,6 +1,6 @@
 outs:
-- md5: 56cfa7c6abe670b0f78fd54cbf96827c
-  size: 40591
+- md5: 3e47a68c329fe84906d91a2bf48334c2
+  size: 40706
   hash: md5
   path: pudasjärvi.parquet
 meta:

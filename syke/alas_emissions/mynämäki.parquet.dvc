@@ -1,6 +1,6 @@
 outs:
-- md5: 28ae4420413b5f9b550af6d2cf71a872
-  size: 39547
+- md5: 0f74ebe01d2c32364df97ac9a278e9eb
+  size: 39662
   hash: md5
   path: mynämäki.parquet
 meta:

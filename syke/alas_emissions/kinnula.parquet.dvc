@@ -1,6 +1,6 @@
 outs:
-- md5: 21b316e2df4c3a39593bb59be35ec850
-  size: 37538
+- md5: e55374a3b112837041c6031de792fe3a
+  size: 37653
   hash: md5
   path: kinnula.parquet
 meta:

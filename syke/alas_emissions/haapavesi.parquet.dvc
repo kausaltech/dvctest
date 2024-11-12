@@ -1,6 +1,6 @@
 outs:
-- md5: 4f22eb76ec08dbdb9ce2e29da8927331
-  size: 40701
+- md5: 0ee78ae9e76c94ce812a9f1a4155c0d7
+  size: 40816
   hash: md5
   path: haapavesi.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: f352618e63dc594fcac1276136b41f4c
-  size: 41175
+- md5: a1a5bdfe1a87740d25cd156031f871f2
+  size: 41290
   hash: md5
   path: rautjärvi.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: deb8f4f30e96336c8bcdc444224f93a5
-  size: 38259
+- md5: 79825cf64d475efcea93f190d52df3f3
+  size: 38374
   hash: md5
   path: rautavaara.parquet
 meta:

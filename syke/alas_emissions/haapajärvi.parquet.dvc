@@ -1,6 +1,6 @@
 outs:
-- md5: 45c33994c27be84edcdd4605246ec835
-  size: 41356
+- md5: 4f33fa54844165fcc04097ae8c08d808
+  size: 41471
   hash: md5
   path: haapajärvi.parquet
 meta:

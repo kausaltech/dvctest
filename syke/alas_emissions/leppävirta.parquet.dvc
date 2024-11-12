@@ -1,6 +1,6 @@
 outs:
-- md5: 247eefc3d42b4f8b50600ca5c3934972
-  size: 40441
+- md5: 1767cc20398dd730db0c08a817e809d9
+  size: 40556
   hash: md5
   path: leppävirta.parquet
 meta:

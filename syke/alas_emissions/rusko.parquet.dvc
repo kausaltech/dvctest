@@ -1,6 +1,6 @@
 outs:
-- md5: d25c4b6a024e0e94075c767be7cacf4b
-  size: 39074
+- md5: ee915e6793df0890fbf2f2ee4bed4608
+  size: 39189
   hash: md5
   path: rusko.parquet
 meta:

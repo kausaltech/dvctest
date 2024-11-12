@@ -1,6 +1,6 @@
 outs:
-- md5: 2d3b366674ab07b8cf1f1f4090b74c7b
-  size: 40005
+- md5: c5eca9c5a052a266a88746c14deda19b
+  size: 40120
   hash: md5
   path: keminmaa.parquet
 meta:

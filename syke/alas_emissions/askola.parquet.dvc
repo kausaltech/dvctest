@@ -1,6 +1,6 @@
 outs:
-- md5: 511f101260e7916e4e1f917d7aaac9e5
-  size: 38026
+- md5: e3f2f2f24bd4c3289d106b1ccbebe419
+  size: 38141
   hash: md5
   path: askola.parquet
 meta:

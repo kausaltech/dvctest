@@ -1,6 +1,6 @@
 outs:
-- md5: 725846883415816a00b3c576a892b11c
-  size: 41401
+- md5: 5b74144f25b8dd20242a16ed05d09e79
+  size: 41516
   hash: md5
   path: mustasaari.parquet
 meta:

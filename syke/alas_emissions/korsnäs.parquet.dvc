@@ -1,6 +1,6 @@
 outs:
-- md5: 3c4626fd56e16d4c0f11dbaa6e8230a2
-  size: 38800
+- md5: a4e08695584adeec234d9031ea8b4a2d
+  size: 38915
   hash: md5
   path: korsnäs.parquet
 meta:

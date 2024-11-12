@@ -1,6 +1,6 @@
 outs:
-- md5: e503a81e017bfb325ecc18bce0325cd8
-  size: 42580
+- md5: df072af8038484e9a5e2e5db23c017fb
+  size: 42695
   hash: md5
   path: sipoo.parquet
 meta:

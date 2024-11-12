@@ -1,6 +1,6 @@
 outs:
-- md5: 6eb03586bf78fc6bb942a3f80be20654
-  size: 45327
+- md5: ac7d3bc1934edfadddc23b734b105cd4
+  size: 45442
   hash: md5
   path: pori.parquet
 meta:

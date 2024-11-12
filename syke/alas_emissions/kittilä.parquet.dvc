@@ -1,6 +1,6 @@
 outs:
-- md5: 76e4b1b0fa56b21125ce76d343aa62be
-  size: 40284
+- md5: 97abcf87fa5b4710b5467368f09f7385
+  size: 40399
   hash: md5
   path: kittilä.parquet
 meta:

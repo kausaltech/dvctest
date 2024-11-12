@@ -1,6 +1,6 @@
 outs:
-- md5: 7059ef7ef862c672932df15ea2a3b55d
-  size: 40497
+- md5: 2958ddcbf9098033d5243fa8aace1ae8
+  size: 40612
   hash: md5
   path: outokumpu.parquet
 meta:

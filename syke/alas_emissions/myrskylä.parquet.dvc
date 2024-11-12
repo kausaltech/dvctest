@@ -1,6 +1,6 @@
 outs:
-- md5: 67f04926c746f1d2fbffceba4a1b5012
-  size: 36207
+- md5: 1753d9718fc17d6c090371b1bae3ff0c
+  size: 36322
   hash: md5
   path: myrskylä.parquet
 meta:

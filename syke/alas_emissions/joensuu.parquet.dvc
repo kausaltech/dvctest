@@ -1,6 +1,6 @@
 outs:
-- md5: c8e77a149bbb0425a7414dd05b473637
-  size: 46018
+- md5: 43e1241078c312b638edfb7569a1684c
+  size: 46133
   hash: md5
   path: joensuu.parquet
 meta:

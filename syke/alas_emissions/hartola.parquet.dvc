@@ -1,6 +1,6 @@
 outs:
-- md5: edc97dd2ff82d49401a62edad3252482
-  size: 38006
+- md5: cb73df811ba0acf270eb6b5317b4e3ce
+  size: 38121
   hash: md5
   path: hartola.parquet
 meta:

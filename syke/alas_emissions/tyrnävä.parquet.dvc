@@ -1,6 +1,6 @@
 outs:
-- md5: 10bafac1da0112c9b62afa634f972d00
-  size: 38307
+- md5: 969376d7c7070ec3d8e7cfa7df1bcd6f
+  size: 38422
   hash: md5
   path: tyrnävä.parquet
 meta:

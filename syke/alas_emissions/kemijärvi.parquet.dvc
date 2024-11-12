@@ -1,6 +1,6 @@
 outs:
-- md5: d6a985814ab70b98d474e29ed18e4756
-  size: 43179
+- md5: 9f3f615352fe9ce713dd9d584e0b8aa3
+  size: 43294
   hash: md5
   path: kemijärvi.parquet
 meta:

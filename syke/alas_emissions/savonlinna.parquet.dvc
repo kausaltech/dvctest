@@ -1,6 +1,6 @@
 outs:
-- md5: d544d8e31fab734266b59d502f1334db
-  size: 43951
+- md5: ac8934134d6bfe509e6cdafd9d6f8e54
+  size: 44066
   hash: md5
   path: savonlinna.parquet
 meta:

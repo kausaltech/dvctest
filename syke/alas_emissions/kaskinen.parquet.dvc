@@ -1,6 +1,6 @@
 outs:
-- md5: 4b3a111be8f0933465f7ec38770d986d
-  size: 37375
+- md5: 81960ae42fc50edd362c8e64ca3f1107
+  size: 37490
   hash: md5
   path: kaskinen.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: c1a1ff8e27f72f0781294532f9a6cea5
-  size: 38655
+- md5: 3d24733e23179034cf69279f0a90837a
+  size: 38770
   hash: md5
   path: salla.parquet
 meta:

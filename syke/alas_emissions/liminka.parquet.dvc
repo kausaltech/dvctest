@@ -1,6 +1,6 @@
 outs:
-- md5: 61e740049e5e90a57a75e3f5461dbb4b
-  size: 38886
+- md5: 770942f800b0633e715b82a43d5fb77f
+  size: 39001
   hash: md5
   path: liminka.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: 83466522b1443016da5037883b56ca69
-  size: 38469
+- md5: 215a87a6975a24b16dda68d7d6e6bfd8
+  size: 38584
   hash: md5
   path: enontekiö.parquet
 meta:

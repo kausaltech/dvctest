@@ -1,6 +1,6 @@
 outs:
-- md5: 57ea5a0f797b5c31e0fbfa4410679abf
-  size: 38888
+- md5: a512e7886219d07dca7a78381cf4111c
+  size: 39003
   hash: md5
   path: laihia.parquet
 meta:

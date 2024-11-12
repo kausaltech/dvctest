@@ -1,6 +1,6 @@
 outs:
-- md5: a0adbb51aa16a331bfc6d0bdb8b4af2d
-  size: 40444
+- md5: 0341438949d574ac4a97b645f505ff7b
+  size: 40559
   hash: md5
   path: nivala.parquet
 meta:

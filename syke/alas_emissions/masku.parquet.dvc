@@ -1,6 +1,6 @@
 outs:
-- md5: fde7eecde219d32cd5c00dc5b085a950
-  size: 40062
+- md5: ffc48fb01294095ec8b53208323d867e
+  size: 40177
   hash: md5
   path: masku.parquet
 meta:

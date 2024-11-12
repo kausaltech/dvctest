@@ -1,6 +1,6 @@
 outs:
-- md5: e0d9f5634784ed2500ecae56b0c60217
-  size: 39318
+- md5: 3c79e125f89d83708ec7d6fcd680b74e
+  size: 39433
   hash: md5
   path: jokioinen.parquet
 meta:

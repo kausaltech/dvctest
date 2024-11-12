@@ -1,6 +1,6 @@
 outs:
-- md5: 87d6e24e0e1ed443f7b70601db985a3e
-  size: 46300
+- md5: 785cb01d9fba79138e2561d254f97423
+  size: 46415
   hash: md5
   path: turku.parquet
 meta:

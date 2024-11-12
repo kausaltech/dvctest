@@ -1,6 +1,6 @@
 outs:
-- md5: 2b589b7aa4cf8893f73126ea096b745b
-  size: 44103
+- md5: 2914eda09109cc81d252c566ae53a1b2
+  size: 44218
   hash: md5
   path: vantaa.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: d964354b83899033ff38c1b2dc0aa451
-  size: 39240
+- md5: 307a33dab503f919390b9019173a2f50
+  size: 39355
   hash: md5
   path: sulkava.parquet
 meta:

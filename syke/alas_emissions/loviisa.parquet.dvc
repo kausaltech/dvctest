@@ -1,6 +1,6 @@
 outs:
-- md5: a05e3f84c593903614f323207e78f7b3
-  size: 42223
+- md5: 6b532b748fffca775b1cf9ca18c1f909
+  size: 42338
   hash: md5
   path: loviisa.parquet
 meta:

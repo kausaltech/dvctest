@@ -1,6 +1,6 @@
 outs:
-- md5: b7f938bff226aa406a6a825f3e08c242
-  size: 38103
+- md5: e26f5fd88c2ec95a9f13e566a128c633
+  size: 38218
   hash: md5
   path: kuhmoinen.parquet
 meta:

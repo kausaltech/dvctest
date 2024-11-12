@@ -1,6 +1,6 @@
 outs:
-- md5: 3a55967c4fa77a63a51704eeec00bfd8
-  size: 39670
+- md5: 8bafe56266ba19a50cd289e20ba2471b
+  size: 39785
   hash: md5
   path: pello.parquet
 meta:

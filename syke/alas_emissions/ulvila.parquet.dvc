@@ -1,6 +1,6 @@
 outs:
-- md5: 53006de0c5c4b8742020f2b74628503f
-  size: 41182
+- md5: 4b7eb56e428216d1463f267134ff2650
+  size: 41297
   hash: md5
   path: ulvila.parquet
 meta:

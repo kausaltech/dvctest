@@ -1,6 +1,6 @@
 outs:
-- md5: ea3dd0b9e2b29d565ce7a2beffb78fab
-  size: 44275
+- md5: af46837a124e7b3ec0426c28aede92b7
+  size: 44390
   hash: md5
   path: pieksämäki.parquet
 meta:

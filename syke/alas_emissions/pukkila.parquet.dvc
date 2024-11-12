@@ -1,6 +1,6 @@
 outs:
-- md5: d28c95cb80386728c2e4efd1b041761b
-  size: 36560
+- md5: 4ae3c37eefb6a4d1d599704a13e0edf7
+  size: 36675
   hash: md5
   path: pukkila.parquet
 meta:

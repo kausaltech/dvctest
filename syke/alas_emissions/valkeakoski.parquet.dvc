@@ -1,6 +1,6 @@
 outs:
-- md5: e8abfecac0d9115ca6397514d9922942
-  size: 43110
+- md5: 9be742bbd5914a3f6af38b2e7e01e751
+  size: 43225
   hash: md5
   path: valkeakoski.parquet
 meta:

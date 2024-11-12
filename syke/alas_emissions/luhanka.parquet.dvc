@@ -1,6 +1,6 @@
 outs:
-- md5: 0eaeadf07ee0a1f2c0e8dd1c09133721
-  size: 36857
+- md5: aea0fbbb3794e1aa66db52420ee6ea46
+  size: 36972
   hash: md5
   path: luhanka.parquet
 meta:

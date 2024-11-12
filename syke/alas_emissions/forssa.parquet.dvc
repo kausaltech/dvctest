@@ -1,6 +1,6 @@
 outs:
-- md5: 323b8849549fb1566f00d1bc3f733b3c
-  size: 40761
+- md5: b6e3412ec8ed7661218d8eed9b3f2875
+  size: 40876
   hash: md5
   path: forssa.parquet
 meta:

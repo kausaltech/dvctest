@@ -1,6 +1,6 @@
 outs:
-- md5: 81961e8d7b0692a403115eef01f93de6
-  size: 43760
+- md5: d28902e80c3a11e08fa8fda21c18a5b5
+  size: 43875
   hash: md5
   path: sotkamo.parquet
 meta:

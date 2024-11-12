@@ -1,6 +1,6 @@
 outs:
-- md5: f5bbf229549c426658dd07065afb5d98
-  size: 40891
+- md5: ddd3ade915a26da8f4cca5809fb431af
+  size: 41006
   hash: md5
   path: vihti.parquet
 meta:

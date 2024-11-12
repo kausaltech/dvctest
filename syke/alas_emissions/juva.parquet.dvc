@@ -1,6 +1,6 @@
 outs:
-- md5: e444f481f250e8b2e688637c2ce9b489
-  size: 39416
+- md5: bc4b4c688b45e6022b8599f9e9da31c0
+  size: 39531
   hash: md5
   path: juva.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: a3485c515f1b96b9e17103b9b5e4a748
-  size: 41606
+- md5: ee7919c4f083034ffb48835252befd7c
+  size: 41721
   hash: md5
   path: suonenjoki.parquet
 meta:

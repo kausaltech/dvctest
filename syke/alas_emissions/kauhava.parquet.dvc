@@ -1,6 +1,6 @@
 outs:
-- md5: 9d4ad3c37329fce42eb3731ae2246296
-  size: 42629
+- md5: 9602f1e00319f5854d65fdc0a58eca89
+  size: 42744
   hash: md5
   path: kauhava.parquet
 meta:

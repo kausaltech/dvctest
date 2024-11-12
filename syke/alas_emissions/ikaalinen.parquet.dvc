@@ -1,6 +1,6 @@
 outs:
-- md5: 4bcf4046a4b7bb244fe5783d86b27915
-  size: 40096
+- md5: 41bdfe65b14e6600576201c0b255bd81
+  size: 40211
   hash: md5
   path: ikaalinen.parquet
 meta:

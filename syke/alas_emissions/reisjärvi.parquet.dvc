@@ -1,6 +1,6 @@
 outs:
-- md5: 2e8de78e254b657cf173ad4fce52d20f
-  size: 38693
+- md5: 2473b68d6c990bbca5d75474081439e1
+  size: 38808
   hash: md5
   path: reisjärvi.parquet
 meta:

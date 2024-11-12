@@ -1,6 +1,6 @@
 outs:
-- md5: bf5ac0127a7a7f4fc3a25536b66161ac
-  size: 40909
+- md5: 4f4037904735a0a71adba18dad27da8e
+  size: 41024
   hash: md5
   path: kauhajoki.parquet
 meta:

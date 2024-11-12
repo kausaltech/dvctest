@@ -1,6 +1,6 @@
 outs:
-- md5: f07f2537f4ad04a0adf1991da75fa227
-  size: 43762
+- md5: 60409538760ab95ebe07354e44665b06
+  size: 43877
   hash: md5
   path: ylivieska.parquet
 meta:

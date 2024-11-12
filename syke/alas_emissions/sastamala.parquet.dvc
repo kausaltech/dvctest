@@ -1,6 +1,6 @@
 outs:
-- md5: 2ceaf52849040410ce2b3081f79b394f
-  size: 42789
+- md5: 51a103f214ae43f43d41c100652470b5
+  size: 42904
   hash: md5
   path: sastamala.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: 61e19d3b463617f557b8d178389d7d25
-  size: 38756
+- md5: aaadf6c7f95d8e523b0d0f97cf439290
+  size: 38871
   hash: md5
   path: tuusniemi.parquet
 meta:

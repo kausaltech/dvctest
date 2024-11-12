@@ -1,6 +1,6 @@
 outs:
-- md5: ea2d510bb853774b474ca0ea71989ecf
-  size: 37433
+- md5: cbf477ec973e577c6940cc22beac1565
+  size: 37548
   hash: md5
   path: marttila.parquet
 meta:

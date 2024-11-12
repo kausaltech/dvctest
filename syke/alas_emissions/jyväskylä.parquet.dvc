@@ -1,6 +1,6 @@
 outs:
-- md5: f947a2ed33402083a44f6a6e143719a4
-  size: 46176
+- md5: 5a583bafd1cb6a2dfcb3e3a15e21bf75
+  size: 46291
   hash: md5
   path: jyväskylä.parquet
 meta:

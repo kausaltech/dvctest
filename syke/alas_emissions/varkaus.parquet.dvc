@@ -1,6 +1,6 @@
 outs:
-- md5: 764c9a9df7b808ef41c40e9f01ad48a6
-  size: 43280
+- md5: b725743ebfeede65149c53d64351ac8c
+  size: 43395
   hash: md5
   path: varkaus.parquet
 meta:

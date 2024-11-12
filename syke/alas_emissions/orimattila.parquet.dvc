@@ -1,6 +1,6 @@
 outs:
-- md5: 48c4056fd337c732f1ec92235ea102bb
-  size: 40998
+- md5: b4f58e1d75e53834cf72641fa64166e2
+  size: 41113
   hash: md5
   path: orimattila.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: 88232ae4eda8d75aa380294fe6a9d876
-  size: 39191
+- md5: ee4be0e144c7762d022f19b8cf8afa41
+  size: 39306
   hash: md5
   path: loppi.parquet
 meta:

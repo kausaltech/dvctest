@@ -1,6 +1,6 @@
 outs:
-- md5: 3c682ee139cf555ab4edc77ca25420b2
-  size: 43542
+- md5: 597936f8a96597e4b1cde878406517bd
+  size: 43657
   hash: md5
   path: janakkala.parquet
 meta:

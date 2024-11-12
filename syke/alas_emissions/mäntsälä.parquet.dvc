@@ -1,6 +1,6 @@
 outs:
-- md5: 0cc23cb347d07a38fd198026faa79b1c
-  size: 41442
+- md5: 877a76ba32c48c4eebd23f26d5b8adc0
+  size: 41557
   hash: md5
   path: mäntsälä.parquet
 meta:

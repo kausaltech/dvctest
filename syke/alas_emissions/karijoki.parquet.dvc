@@ -1,6 +1,6 @@
 outs:
-- md5: e6f07f16cbb11d1ebbd06c1ff8ecdf98
-  size: 37570
+- md5: d0cbe3906031345cf48a2a82d3e239ff
+  size: 37685
   hash: md5
   path: karijoki.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: 5553087dc34f09192b56fbf526cb290c
-  size: 38497
+- md5: df054f5870aebb30e53377d1ec090416
+  size: 38612
   hash: md5
   path: rääkkylä.parquet
 meta:

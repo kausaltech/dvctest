@@ -1,6 +1,6 @@
 outs:
-- md5: 03f7107ece24a79a6d8a6474ae70b40a
-  size: 43703
+- md5: 4a3590506815d8960efebab0daa83e18
+  size: 43818
   hash: md5
   path: hanko.parquet
 meta:

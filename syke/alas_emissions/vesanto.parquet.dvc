@@ -1,6 +1,6 @@
 outs:
-- md5: 0a8f5ef594e203cf60ef9a574ac44970
-  size: 38255
+- md5: 69dfc02e8c89e4818f430b60ad3ecde2
+  size: 38370
   hash: md5
   path: vesanto.parquet
 meta:

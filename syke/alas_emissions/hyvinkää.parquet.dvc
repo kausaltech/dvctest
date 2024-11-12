@@ -1,6 +1,6 @@
 outs:
-- md5: 9b564cfcba688e6728f38b7ecba79b59
-  size: 44110
+- md5: ecae6a5f600eae14c096492f505e65bb
+  size: 44225
   hash: md5
   path: hyvinkää.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: 9ce33d9a2d8f7f24e86aecd01a6d5493
-  size: 41274
+- md5: 457cd173f9e18f10c2f7b57feb6e671e
+  size: 41389
   hash: md5
   path: kurikka.parquet
 meta:

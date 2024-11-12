@@ -1,6 +1,6 @@
 outs:
-- md5: bb786861c2717dcd9c3f0b774873ee7f
-  size: 41037
+- md5: 5d2e4a959969807560424c511ba964ae
+  size: 41152
   hash: md5
   path: kankaanpää.parquet
 meta:

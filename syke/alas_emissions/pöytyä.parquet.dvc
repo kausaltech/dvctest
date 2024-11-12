@@ -1,6 +1,6 @@
 outs:
-- md5: a7953108b4c6fcd3a56daf0f91032e4b
-  size: 39575
+- md5: 1b3efea3183e1f24cafe9fc625069eed
+  size: 39690
   hash: md5
   path: pöytyä.parquet
 meta:

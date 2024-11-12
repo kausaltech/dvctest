@@ -1,6 +1,6 @@
 outs:
-- md5: fa53f400e2e014a528c14a93dc12e472
-  size: 39686
+- md5: f4d9cbda50d64b223b7c99a0326592b5
+  size: 39801
   hash: md5
   path: kolari.parquet
 meta:

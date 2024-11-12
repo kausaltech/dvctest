@@ -1,6 +1,6 @@
 outs:
-- md5: ddc50dc9059abf90d3daa35e815ee1ab
-  size: 43470
+- md5: c9f712064484df7bae5b5266d71528d6
+  size: 43585
   hash: md5
   path: äänekoski.parquet
 meta:

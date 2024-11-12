@@ -1,6 +1,6 @@
 outs:
-- md5: 4e6fb9b6c60fee83f4b4ed8ae6ef9fbb
-  size: 40419
+- md5: 90073eb6d5ce38b7fe63dce1746ce046
+  size: 40534
   hash: md5
   path: kontiolahti.parquet
 meta:

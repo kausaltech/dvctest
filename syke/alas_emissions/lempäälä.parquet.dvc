@@ -1,6 +1,6 @@
 outs:
-- md5: 598a9d41a276233380313caa0fab0934
-  size: 41698
+- md5: 286e79b19aab870c30e320fae146e483
+  size: 41813
   hash: md5
   path: lempäälä.parquet
 meta:

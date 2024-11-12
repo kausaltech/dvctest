@@ -1,6 +1,6 @@
 outs:
-- md5: 9505bd46f321cb0dc61129a8b84e5bd3
-  size: 38071
+- md5: 44baca817dd86fb659bd7a1dca0a7fef
+  size: 38186
   hash: md5
   path: kihniö.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: e9440dec2d27e2ebf709cabf57e219bc
-  size: 38664
+- md5: c7acfa5a97a225bfa99c3f555e5764f6
+  size: 38779
   hash: md5
   path: kärsämäki.parquet
 meta:

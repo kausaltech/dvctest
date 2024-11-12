@@ -1,6 +1,6 @@
 outs:
-- md5: 35113f6c9bf5d13f3f512a5bb40b778f
-  size: 44184
+- md5: 0a74e434863a4e9536bbdf35c667993e
+  size: 44299
   hash: md5
   path: rovaniemi.parquet
 meta:

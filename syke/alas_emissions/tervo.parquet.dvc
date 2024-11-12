@@ -1,6 +1,6 @@
 outs:
-- md5: fbde673f160d099da8b14a7829414132
-  size: 38309
+- md5: e6d63185c61836fc7afc62c9ba5c31ce
+  size: 38424
   hash: md5
   path: tervo.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: 603c5f30c5919615da318b9e35c27025
-  size: 40068
+- md5: fc633a2f91f192b0379f2ca1c9fb5309
+  size: 40183
   hash: md5
   path: taivalkoski.parquet
 meta:

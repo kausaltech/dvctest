@@ -1,6 +1,6 @@
 outs:
-- md5: b793c918ad4fff744bf51fabced1f92a
-  size: 39510
+- md5: 0a69b391e240509c64ecb4c7db202bd3
+  size: 39625
   hash: md5
   path: siuntio.parquet
 meta:

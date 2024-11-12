@@ -1,6 +1,6 @@
 outs:
-- md5: 8b6e0b35259d5011a1a62c041bea1f4d
-  size: 42417
+- md5: a87c010c638899083818847fb6f8f445
+  size: 42532
   hash: md5
   path: kempele.parquet
 meta:

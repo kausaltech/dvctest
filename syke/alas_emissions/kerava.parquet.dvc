@@ -1,6 +1,6 @@
 outs:
-- md5: fc122f2b24634d51117870a2c68672e3
-  size: 41716
+- md5: 599365b6d2d6f2dc51ff2d2126a26887
+  size: 41831
   hash: md5
   path: kerava.parquet
 meta:

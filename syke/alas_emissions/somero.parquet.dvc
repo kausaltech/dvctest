@@ -1,6 +1,6 @@
 outs:
-- md5: f32cecf54229292f75f20b64b18eab7d
-  size: 40398
+- md5: 5f6410aa055d0c40c6035be4dd14d374
+  size: 40513
   hash: md5
   path: somero.parquet
 meta:

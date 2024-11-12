@@ -1,6 +1,6 @@
 outs:
-- md5: 741bc0595af1f5e3be21f1dfc0f8cf0d
-  size: 39912
+- md5: bb572a5ac955b34755c751f8dd1dd383
+  size: 40027
   hash: md5
   path: juuka.parquet
 meta:

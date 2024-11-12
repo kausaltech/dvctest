@@ -1,6 +1,6 @@
 outs:
-- md5: cc956193ea95392ac22d4bc7b565d733
-  size: 37763
+- md5: 9f41e1582db7b28c60dadddc79e19058
+  size: 37878
   hash: md5
   path: aura.parquet
 meta:

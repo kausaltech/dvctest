@@ -1,6 +1,6 @@
 outs:
-- md5: 8b938b6859927830b5edf90428fd048c
-  size: 37786
+- md5: 5dc6043a4116999d3d9ee596213d265d
+  size: 37901
   hash: md5
   path: kyyjärvi.parquet
 meta:

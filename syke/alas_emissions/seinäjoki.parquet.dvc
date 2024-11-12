@@ -1,6 +1,6 @@
 outs:
-- md5: e74ebef9b6ffaaa7ab627284a977ff71
-  size: 46124
+- md5: f38c3564cfeff14c0521f7f5e939de9a
+  size: 46239
   hash: md5
   path: seinäjoki.parquet
 meta:

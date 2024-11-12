@@ -1,6 +1,6 @@
 outs:
-- md5: 486b5e4ff901ada20015f624f2dae087
-  size: 39488
+- md5: 382ba9f9cf9c7030feace1bb97c2c5bf
+  size: 39603
   hash: md5
   path: lappajärvi.parquet
 meta:

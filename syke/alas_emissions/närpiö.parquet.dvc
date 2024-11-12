@@ -1,6 +1,6 @@
 outs:
-- md5: ac78695e29b817c74991186082faa0b2
-  size: 41831
+- md5: 2ae1fc8d59fce2a1d0f694a52cbd3037
+  size: 41946
   hash: md5
   path: närpiö.parquet
 meta:

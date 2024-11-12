@@ -1,6 +1,6 @@
 outs:
-- md5: 6733f2f4746aa3234a95a518865d74e8
-  size: 43429
+- md5: 024be14a8f01a18b52edc7f9ff4918f8
+  size: 43544
   hash: md5
   path: uusikaupunki.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: 37985350be878274afbb11313f214cca
-  size: 38910
+- md5: 242e8c0bcfc5e7965ec75ff4a2a7d611
+  size: 39025
   hash: md5
   path: ruokolahti.parquet
 meta:

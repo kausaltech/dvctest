@@ -1,6 +1,6 @@
 outs:
-- md5: 4262da9ea5599fe9b5ed25e04e6d0d24
-  size: 41466
+- md5: 31315f25d073e1cff086a5b3ef3b874d
+  size: 41581
   hash: md5
   path: säkylä.parquet
 meta:

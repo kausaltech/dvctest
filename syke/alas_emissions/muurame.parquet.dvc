@@ -1,6 +1,6 @@
 outs:
-- md5: 2ad94d19b1005ed7e9acf9ad494773c3
-  size: 39599
+- md5: 5dda437f5fa943e6c5783f817c1d6362
+  size: 39714
   hash: md5
   path: muurame.parquet
 meta:

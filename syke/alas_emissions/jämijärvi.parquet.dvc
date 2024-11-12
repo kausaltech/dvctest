@@ -1,6 +1,6 @@
 outs:
-- md5: f157a01d502c635164874cd19c4b78c0
-  size: 37891
+- md5: 002a730fc9710cfbc6abd757657f2f9f
+  size: 38006
   hash: md5
   path: jämijärvi.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: 3d0560096400a184b00f47eb500a641b
-  size: 44966
+- md5: d81996004834188a0df790af188aa3c5
+  size: 45081
   hash: md5
   path: naantali.parquet
 meta:

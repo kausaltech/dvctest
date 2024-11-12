@@ -1,6 +1,6 @@
 outs:
-- md5: 7d1facb076593016d3ca239ca147d348
-  size: 40892
+- md5: 2541cf7733b14f6de0d8117671d6845e
+  size: 41007
   hash: md5
   path: joroinen.parquet
 meta:

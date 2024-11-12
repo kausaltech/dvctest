@@ -1,6 +1,6 @@
 outs:
-- md5: 4c58f5449237bf3827f17e08e6a11942
-  size: 38302
+- md5: 6016ec8010b694ac7bd8828cde9b4cf6
+  size: 38417
   hash: md5
   path: vehmaa.parquet
 meta:

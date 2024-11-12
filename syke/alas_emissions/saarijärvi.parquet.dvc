@@ -1,6 +1,6 @@
 outs:
-- md5: a2fb1e6d44ddd92c0e4dec42b7c856b5
-  size: 40482
+- md5: 5782ab51f8d792b629d1b73210996b4a
+  size: 40597
   hash: md5
   path: saarijärvi.parquet
 meta:

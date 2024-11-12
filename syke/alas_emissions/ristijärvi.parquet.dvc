@@ -1,6 +1,6 @@
 outs:
-- md5: c58dae610273362ac1f6c1c5c0e12876
-  size: 37963
+- md5: 4bc871d76b7228e3cd7b7fca14cc94c3
+  size: 38078
   hash: md5
   path: ristijärvi.parquet
 meta:

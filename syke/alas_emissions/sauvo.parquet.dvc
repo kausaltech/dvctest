@@ -1,6 +1,6 @@
 outs:
-- md5: 90741e96acd09c1bb5ab543667aa01d2
-  size: 38139
+- md5: 9c3703fa130f13c4b3402a2287fb0857
+  size: 38254
   hash: md5
   path: sauvo.parquet
 meta:

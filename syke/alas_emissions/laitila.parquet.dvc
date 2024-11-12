@@ -1,6 +1,6 @@
 outs:
-- md5: 17c30fdfb10ff51a4cd938c73b02607d
-  size: 41483
+- md5: 15cf5ad302b8868f79745b6f46c4d519
+  size: 41598
   hash: md5
   path: laitila.parquet
 meta:

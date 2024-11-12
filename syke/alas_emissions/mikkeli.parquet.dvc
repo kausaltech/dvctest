@@ -1,6 +1,6 @@
 outs:
-- md5: f37b65451171ecded7e97a7ac615037f
-  size: 43716
+- md5: 80611438c8b7637ded94cffc91e3378d
+  size: 43831
   hash: md5
   path: mikkeli.parquet
 meta:

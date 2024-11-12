@@ -1,6 +1,6 @@
 outs:
-- md5: 418684313fd21b9af56b090e235940a4
-  size: 45022
+- md5: 34d0609f8de28d40171ed4e19b9f3a81
+  size: 45137
   hash: md5
   path: lohja.parquet
 meta:

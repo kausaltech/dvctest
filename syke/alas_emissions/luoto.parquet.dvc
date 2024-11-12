@@ -1,6 +1,6 @@
 outs:
-- md5: 939d966801e8793a9feb35e1aecf270d
-  size: 39263
+- md5: 8fada37689546da5c139a215f1c14260
+  size: 39378
   hash: md5
   path: luoto.parquet
 meta:

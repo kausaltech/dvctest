@@ -1,6 +1,6 @@
 outs:
-- md5: 75e17d6d5ab7cb74cd7023018afddf39
-  size: 39944
+- md5: b699b3ef96d79b6d2d0c103f8fcd20f9
+  size: 40059
   hash: md5
   path: hattula.parquet
 meta:

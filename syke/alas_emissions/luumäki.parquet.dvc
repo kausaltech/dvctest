@@ -1,6 +1,6 @@
 outs:
-- md5: 6c04d18ccb82e76eb8781dd53d30b015
-  size: 41583
+- md5: ccd8a3fcc9daceee472333678bc8e3bf
+  size: 41698
   hash: md5
   path: luumäki.parquet
 meta:

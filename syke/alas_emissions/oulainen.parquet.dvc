@@ -1,6 +1,6 @@
 outs:
-- md5: e87e3d56613675662fc09a18f5667497
-  size: 41803
+- md5: 692e548144f64d2e5f24be2521274800
+  size: 41918
   hash: md5
   path: oulainen.parquet
 meta:

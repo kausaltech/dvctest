@@ -1,6 +1,6 @@
 outs:
-- md5: 1b34449a3ba8a94db342a3118410ff88
-  size: 42726
+- md5: 01e6f4a823a332a0b8142180d173157a
+  size: 42841
   hash: md5
   path: tuusula.parquet
 meta:

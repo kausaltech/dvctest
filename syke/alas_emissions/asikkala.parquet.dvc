@@ -1,6 +1,6 @@
 outs:
-- md5: 5fb601b99d596a138a0a2e16ee3133a4
-  size: 40856
+- md5: 5bc8f7853b8a45e4820f24ed3771ce83
+  size: 40971
   hash: md5
   path: asikkala.parquet
 meta:

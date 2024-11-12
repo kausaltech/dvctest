@@ -1,6 +1,6 @@
 outs:
-- md5: 2fc97a78ba4e775f73edc5d541ed3c5e
-  size: 44535
+- md5: 83bb905c3c5626260f1db5bf58b4b903
+  size: 44650
   hash: md5
   path: kirkkonummi.parquet
 meta:

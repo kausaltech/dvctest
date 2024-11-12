@@ -1,6 +1,6 @@
 outs:
-- md5: a6e7428a4012dced2082ff9396a4fd09
-  size: 39585
+- md5: 36a3f63ab46933e293a9a89d8b90efe3
+  size: 39700
   hash: md5
   path: kiuruvesi.parquet
 meta:

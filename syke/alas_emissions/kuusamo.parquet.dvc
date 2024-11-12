@@ -1,6 +1,6 @@
 outs:
-- md5: 55d25c62d7ccd6702ae165412c4d10f1
-  size: 43104
+- md5: b641e98c9fbbbf36d83c3df67ec281e0
+  size: 43219
   hash: md5
   path: kuusamo.parquet
 meta:

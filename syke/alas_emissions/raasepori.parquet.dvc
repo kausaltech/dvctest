@@ -1,6 +1,6 @@
 outs:
-- md5: 5351aba0b182d0b8cf0920f1be7aa1f6
-  size: 44885
+- md5: 4ae7c4a2b659417ed3e53f76ba8dd85a
+  size: 45000
   hash: md5
   path: raasepori.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: df450b3a513df32b460357a5462753bc
-  size: 39242
+- md5: fee76c4aa238193f4e666cb9a57979e3
+  size: 39357
   hash: md5
   path: puumala.parquet
 meta:

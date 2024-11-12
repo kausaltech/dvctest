@@ -1,6 +1,6 @@
 outs:
-- md5: 080bf15a25b0f95634a9968b3f82e75d
-  size: 41862
+- md5: 7634f14f2c6cd52b6bee9eb33c025008
+  size: 41977
   hash: md5
   path: liperi.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: 18a7829d54d33dcc0e4ebb6c7eadeb53
-  size: 46296
+- md5: 1e53e10b7b83328b637e03650a275790
+  size: 46411
   hash: md5
   path: kouvola.parquet
 meta:

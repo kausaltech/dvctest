@@ -1,6 +1,6 @@
 outs:
-- md5: 9124a83eaf1f58a95402c5b95326d48b
-  size: 38299
+- md5: 6debfe657e8c6882cb38dc4d8ce23599
+  size: 38414
   hash: md5
   path: isokyrö.parquet
 meta:

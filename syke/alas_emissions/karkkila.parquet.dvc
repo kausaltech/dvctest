@@ -1,6 +1,6 @@
 outs:
-- md5: 5ded28b2a722d8135944857ebe616491
-  size: 39015
+- md5: 3c13c300e74a3049e4cc835846d97d6f
+  size: 39130
   hash: md5
   path: karkkila.parquet
 meta:

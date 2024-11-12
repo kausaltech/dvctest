@@ -1,6 +1,6 @@
 outs:
-- md5: 7d872c7e3d6e2248c978dc9afd3ce54a
-  size: 36800
+- md5: 1fb6e6bd7ce80d9f0ec81296b065f287
+  size: 36915
   hash: md5
   path: merijärvi.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: 6f79f7a585537555d713df5cdc86fa82
-  size: 40158
+- md5: 526c547e9a8987e360ea3c3cd3d2349c
+  size: 40273
   hash: md5
   path: ruovesi.parquet
 meta:

@@ -1,6 +1,6 @@
 outs:
-- md5: b1d473d05a34f0457a5c33482529744b
-  size: 39571
+- md5: 10afadfe12fe7b2da09f846fb621d7d8
+  size: 39686
   hash: md5
   path: pyhäjoki.parquet
 meta:

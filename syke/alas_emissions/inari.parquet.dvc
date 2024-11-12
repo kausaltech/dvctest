@@ -1,6 +1,6 @@
 outs:
-- md5: 17ffe83f49bd987d618ddb8c160b7dc2
-  size: 40713
+- md5: f1706df354490015373c46c7b9398413
+  size: 40828
   hash: md5
   path: inari.parquet
 meta:

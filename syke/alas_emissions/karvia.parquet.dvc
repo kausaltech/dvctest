@@ -1,6 +1,6 @@
 outs:
-- md5: f15ee58d456fe60b8de73fdda96a4f87
-  size: 38312
+- md5: d2314144803141583ea670c863c332c2
+  size: 38427
   hash: md5
   path: karvia.parquet
 meta:

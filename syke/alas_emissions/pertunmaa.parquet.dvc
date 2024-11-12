@@ -1,6 +1,6 @@
 outs:
-- md5: 79a90434efcd5cfbf285b1c773770680
-  size: 37553
+- md5: a3a6acdf6dade7f9998afd97cc6d4ed2
+  size: 37668
   hash: md5
   path: pertunmaa.parquet
 meta:

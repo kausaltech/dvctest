@@ -1,6 +1,6 @@
 outs:
-- md5: 53a3b4d7476ac3eb8e8c6fa09d976e7d
-  size: 38110
+- md5: ed8709b5fc70ba4103300bc8de3aed02
+  size: 38225
   hash: md5
   path: isojoki.parquet
 meta:

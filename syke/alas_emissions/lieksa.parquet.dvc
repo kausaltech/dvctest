@@ -1,6 +1,6 @@
 outs:
-- md5: 7d861e40667bf13e23b049cb73203252
-  size: 42036
+- md5: dae68b7d6d92412585f24360d2e1851e
+  size: 42151
   hash: md5
   path: lieksa.parquet
 meta:
