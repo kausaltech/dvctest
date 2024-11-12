@@ -1,12 +1,10 @@
 outs:
-- md5: 86be57c658e21f07e57e0d4cb079fd7e
-  size: 39155
+- md5: 5a04c6a3a2159b5900ecd61c59704fd6
+  size: 39252
   hash: md5
   path: pielavesi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

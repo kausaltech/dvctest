@@ -1,12 +1,10 @@
 outs:
-- md5: 7c89f6f5e97c1e9b91cfe9425bae77c8
-  size: 37849
+- md5: cc4632d550b5b7690892a1b3dfedb2b6
+  size: 37946
   hash: md5
   path: saltvik.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

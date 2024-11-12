@@ -1,12 +1,10 @@
 outs:
-- md5: e2878187fe3e736c09cb52bf95542d7b
-  size: 40616
+- md5: 17ffe83f49bd987d618ddb8c160b7dc2
+  size: 40713
   hash: md5
   path: inari.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

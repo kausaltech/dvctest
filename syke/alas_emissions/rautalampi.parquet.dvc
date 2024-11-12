@@ -1,12 +1,10 @@
 outs:
-- md5: 6151de44488a5cc8ca0acb4b9914e9a2
-  size: 38921
+- md5: 047200ec869e07c35463b5c652be07fb
+  size: 39018
   hash: md5
   path: rautalampi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

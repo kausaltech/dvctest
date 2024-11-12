@@ -1,12 +1,10 @@
 outs:
-- md5: 03c844f2caa762be289cc4370836f186
-  size: 41677
+- md5: bbe5564bd6ac5886dfa9cfe44fac10d8
+  size: 41774
   hash: md5
   path: keuruu.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

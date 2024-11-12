@@ -1,12 +1,10 @@
 outs:
-- md5: 0132c4d3152de50ca4bbeef7cfe02db0
-  size: 38636
+- md5: 5e2525ef8f8feabd5aa9b901e3be39fd
+  size: 38733
   hash: md5
   path: petäjävesi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

@@ -1,12 +1,10 @@
 outs:
-- md5: 3c6691a7cc0f5fd6f39e96d42e0fc929
-  size: 37909
+- md5: edc97dd2ff82d49401a62edad3252482
+  size: 38006
   hash: md5
   path: hartola.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

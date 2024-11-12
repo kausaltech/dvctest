@@ -1,12 +1,10 @@
 outs:
-- md5: 30fae4c0a86b413306e10869846b956f
-  size: 38698
+- md5: 01db1ca8b0b077ceecff5c990e7e4a3a
+  size: 38795
   hash: md5
   path: sievi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

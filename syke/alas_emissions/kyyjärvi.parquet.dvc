@@ -1,12 +1,10 @@
 outs:
-- md5: c1abcb25e6e6b3d6378b98429c5ef6f8
-  size: 37689
+- md5: 8b938b6859927830b5edf90428fd048c
+  size: 37786
   hash: md5
   path: kyyjärvi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

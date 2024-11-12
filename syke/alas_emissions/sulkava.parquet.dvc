@@ -1,12 +1,10 @@
 outs:
-- md5: bf235c454ffb18f05edec67e05a023a8
-  size: 39143
+- md5: d964354b83899033ff38c1b2dc0aa451
+  size: 39240
   hash: md5
   path: sulkava.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

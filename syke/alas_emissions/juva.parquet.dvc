@@ -1,12 +1,10 @@
 outs:
-- md5: 867ff1e58d90739e46d94519d0c5dd62
-  size: 39319
+- md5: e444f481f250e8b2e688637c2ce9b489
+  size: 39416
   hash: md5
   path: juva.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

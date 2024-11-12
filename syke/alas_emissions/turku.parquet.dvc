@@ -1,12 +1,10 @@
 outs:
-- md5: a99f96f835bca1e81fe0814e9509bc92
-  size: 46203
+- md5: 87d6e24e0e1ed443f7b70601db985a3e
+  size: 46300
   hash: md5
   path: turku.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

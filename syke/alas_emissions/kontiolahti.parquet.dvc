@@ -1,12 +1,10 @@
 outs:
-- md5: f65428cb533ee521a36bb49b9e8efdcc
-  size: 40322
+- md5: 4e6fb9b6c60fee83f4b4ed8ae6ef9fbb
+  size: 40419
   hash: md5
   path: kontiolahti.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

@@ -1,12 +1,10 @@
 outs:
-- md5: be371c09dbe80283c90946503c7e40f7
-  size: 39410
+- md5: 126b2f69bf8b2a2a15c90b1f140291e7
+  size: 39507
   hash: md5
   path: pihtipudas.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

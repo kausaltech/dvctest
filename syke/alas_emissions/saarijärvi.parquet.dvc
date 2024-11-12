@@ -1,12 +1,10 @@
 outs:
-- md5: 19c13f4167ea71708e68b660afecf8eb
-  size: 40385
+- md5: a2fb1e6d44ddd92c0e4dec42b7c856b5
+  size: 40482
   hash: md5
   path: saarijärvi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

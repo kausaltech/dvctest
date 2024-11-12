@@ -1,12 +1,10 @@
 outs:
-- md5: e7aa1293bae4530b4209c91a3899db35
-  size: 38091
+- md5: 007e647e1978a57dceac6937cf29e906
+  size: 38188
   hash: md5
   path: alavieska.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

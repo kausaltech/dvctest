@@ -1,12 +1,10 @@
 outs:
-- md5: 14663d8bbea0f3aca72069050c52aee2
-  size: 35691
+- md5: ba06faf16af17188aad61bfd42947a2a
+  size: 35788
   hash: md5
   path: pelkosenniemi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

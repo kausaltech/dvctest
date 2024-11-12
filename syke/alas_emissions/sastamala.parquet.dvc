@@ -1,12 +1,10 @@
 outs:
-- md5: 7d5720545ab988f4621c7cdd80666c79
-  size: 42692
+- md5: 2ceaf52849040410ce2b3081f79b394f
+  size: 42789
   hash: md5
   path: sastamala.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

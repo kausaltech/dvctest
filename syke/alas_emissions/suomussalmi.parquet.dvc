@@ -1,12 +1,10 @@
 outs:
-- md5: 23971765dbac528f582ce4ce5ed2d821
-  size: 40919
+- md5: f6998afefdba04ef2a6de9838b04553c
+  size: 41016
   hash: md5
   path: suomussalmi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

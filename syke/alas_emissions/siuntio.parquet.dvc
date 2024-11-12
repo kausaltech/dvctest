@@ -1,12 +1,10 @@
 outs:
-- md5: 810ef2e0592cef8eefeaf34ea53f005e
-  size: 39413
+- md5: b793c918ad4fff744bf51fabced1f92a
+  size: 39510
   hash: md5
   path: siuntio.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

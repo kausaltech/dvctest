@@ -1,12 +1,10 @@
 outs:
-- md5: c08276e06c94b170b8156608daf9246b
-  size: 40664
+- md5: 323b8849549fb1566f00d1bc3f733b3c
+  size: 40761
   hash: md5
   path: forssa.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

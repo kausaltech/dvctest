@@ -1,12 +1,10 @@
 outs:
-- md5: 80a80b0435b81f092323a24cd2c35e5c
-  size: 41765
+- md5: 080bf15a25b0f95634a9968b3f82e75d
+  size: 41862
   hash: md5
   path: liperi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

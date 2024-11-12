@@ -1,12 +1,10 @@
 outs:
-- md5: 82a7da339d79b9020ae0d0fd62e4229e
-  size: 42240
+- md5: e490a5a5ffe93644801acfd297d9a269
+  size: 42337
   hash: md5
   path: siikajoki.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

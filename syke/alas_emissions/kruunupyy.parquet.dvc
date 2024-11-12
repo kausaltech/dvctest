@@ -1,12 +1,10 @@
 outs:
-- md5: cd3356c449a671759bf6f34e1cae748c
-  size: 39408
+- md5: 19593b9fe88a557be241643dbe921ee1
+  size: 39505
   hash: md5
   path: kruunupyy.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

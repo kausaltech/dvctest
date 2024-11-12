@@ -1,12 +1,10 @@
 outs:
-- md5: 4637a617a5ee9a25d7a6c45cb457fdc6
-  size: 45555
+- md5: 5747b29275478c5231e2bc2843f188db
+  size: 45652
   hash: md5
   path: vaasa.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

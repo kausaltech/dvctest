@@ -1,12 +1,10 @@
 outs:
-- md5: 1a3a00677047abe79e70f727a3f7b3c4
-  size: 41763
+- md5: a395be2e19a1e439853cb9e27b552155
+  size: 41860
   hash: md5
   path: ylöjärvi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

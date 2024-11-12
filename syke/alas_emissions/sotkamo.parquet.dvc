@@ -1,12 +1,10 @@
 outs:
-- md5: 38105a7db6679be0806cd67e27477c3c
-  size: 43663
+- md5: 81961e8d7b0692a403115eef01f93de6
+  size: 43760
   hash: md5
   path: sotkamo.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

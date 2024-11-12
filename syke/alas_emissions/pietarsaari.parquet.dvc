@@ -1,12 +1,10 @@
 outs:
-- md5: cd06be20022c86eecd191a522de545b4
-  size: 42873
+- md5: 6cc43750afd42ebe5eb8770ca2513e55
+  size: 42970
   hash: md5
   path: pietarsaari.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

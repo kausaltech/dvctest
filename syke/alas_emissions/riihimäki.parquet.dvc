@@ -1,12 +1,10 @@
 outs:
-- md5: 7c748a595471d8555897d063d51d7500
-  size: 42836
+- md5: 3e082f1aef4a58090547c73436e9ba47
+  size: 42933
   hash: md5
   path: riihimäki.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

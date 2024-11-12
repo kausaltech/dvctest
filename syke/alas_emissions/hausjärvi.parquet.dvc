@@ -1,12 +1,10 @@
 outs:
-- md5: 3bba69ccc1c5f622d90bad2fe7115dae
-  size: 40285
+- md5: c7064bd34a365b1e2e4f7565bc9da13a
+  size: 40382
   hash: md5
   path: hausjärvi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

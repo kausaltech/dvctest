@@ -1,12 +1,10 @@
 outs:
-- md5: e01daa6dd9ae259b480a2c6f9d7af374
-  size: 34401
+- md5: 80653ca05ed0f6a03b3daa8c2660a4bd
+  size: 34497
   hash: md5
   path: föglö.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

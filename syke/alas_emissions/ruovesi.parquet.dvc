@@ -1,12 +1,10 @@
 outs:
-- md5: de82be076a4af48b7bbb30f30e1256ce
-  size: 40061
+- md5: 6f79f7a585537555d713df5cdc86fa82
+  size: 40158
   hash: md5
   path: ruovesi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

@@ -1,12 +1,10 @@
 outs:
-- md5: a0a4f0fad1db71c163f137e93e8146c9
-  size: 39511
+- md5: 10470f0f8247c1f1dba8fc811e35a93e
+  size: 39608
   hash: md5
   path: rantasalmi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

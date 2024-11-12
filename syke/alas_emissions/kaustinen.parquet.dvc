@@ -1,12 +1,10 @@
 outs:
-- md5: 329e18cfdb533c89c7ea3fbd17c1d6c4
-  size: 38825
+- md5: 055a21e0f4579e3d201a769d8e590713
+  size: 38922
   hash: md5
   path: kaustinen.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

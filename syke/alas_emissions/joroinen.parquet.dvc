@@ -1,12 +1,10 @@
 outs:
-- md5: 9cd5fd6a3e5abba08eb43a0af4e605de
-  size: 40795
+- md5: 7d1facb076593016d3ca239ca147d348
+  size: 40892
   hash: md5
   path: joroinen.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

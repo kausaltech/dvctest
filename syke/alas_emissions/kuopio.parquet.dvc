@@ -1,12 +1,10 @@
 outs:
-- md5: b7b9106f0a489e999232655c3cf3e06e
-  size: 46771
+- md5: b7fbeef780b2e6a80aa2eedff6f7d8c0
+  size: 46869
   hash: md5
   path: kuopio.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

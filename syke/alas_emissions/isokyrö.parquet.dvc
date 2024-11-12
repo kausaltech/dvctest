@@ -1,12 +1,10 @@
 outs:
-- md5: 46423a92ae56561bd71c8c45e44928cb
-  size: 38202
+- md5: 9124a83eaf1f58a95402c5b95326d48b
+  size: 38299
   hash: md5
   path: isokyrö.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

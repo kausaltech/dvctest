@@ -1,12 +1,10 @@
 outs:
-- md5: d1aca13df96357b6cd9096f76c07cf27
-  size: 38206
+- md5: 3374c9b2e599cd3082bf1b30609b591b
+  size: 38303
   hash: md5
   path: pyhäntä.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

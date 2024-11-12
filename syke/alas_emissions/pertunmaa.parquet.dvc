@@ -1,12 +1,10 @@
 outs:
-- md5: 5fea7a5aedc9578df6975a8a5d8972f2
-  size: 37456
+- md5: 79a90434efcd5cfbf285b1c773770680
+  size: 37553
   hash: md5
   path: pertunmaa.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

@@ -1,12 +1,10 @@
 outs:
-- md5: 43cea1946ce648dddd14dd6073266ca4
-  size: 41082
+- md5: a5a82426b0b138944d18874342a8351c
+  size: 41179
   hash: md5
   path: lapinlahti.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

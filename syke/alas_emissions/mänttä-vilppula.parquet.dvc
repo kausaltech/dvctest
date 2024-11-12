@@ -1,12 +1,10 @@
 outs:
-- md5: 51e5fd2cb69241553d48936527d4f14f
-  size: 43675
+- md5: 1be417fa3f00a4e12f74f2c3b70c00b2
+  size: 43772
   hash: md5
   path: mänttä-vilppula.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

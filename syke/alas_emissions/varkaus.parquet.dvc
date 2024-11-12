@@ -1,12 +1,10 @@
 outs:
-- md5: 3a4540506ac36e47cc340ef9578cf494
-  size: 43183
+- md5: 764c9a9df7b808ef41c40e9f01ad48a6
+  size: 43280
   hash: md5
   path: varkaus.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

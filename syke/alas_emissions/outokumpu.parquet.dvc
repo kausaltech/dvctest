@@ -1,12 +1,10 @@
 outs:
-- md5: 852188b250043ada8d43b2cb618673c8
-  size: 40400
+- md5: 7059ef7ef862c672932df15ea2a3b55d
+  size: 40497
   hash: md5
   path: outokumpu.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

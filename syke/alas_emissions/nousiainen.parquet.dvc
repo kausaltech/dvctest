@@ -1,12 +1,10 @@
 outs:
-- md5: 693be6ee8b69a11ae60e319552060f3f
-  size: 37780
+- md5: bd68032e5aaaf25fb51c5c7b0f0aaaa3
+  size: 37877
   hash: md5
   path: nousiainen.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

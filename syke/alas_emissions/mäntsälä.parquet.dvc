@@ -1,12 +1,10 @@
 outs:
-- md5: 29b5c9ddedc3088b6c1d24b4e534a3a4
-  size: 41345
+- md5: 0cc23cb347d07a38fd198026faa79b1c
+  size: 41442
   hash: md5
   path: mäntsälä.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

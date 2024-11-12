@@ -1,12 +1,10 @@
 outs:
-- md5: e4b799b7f54bd3962d50e4d7e0c8eafe
-  size: 38808
+- md5: bc3de34a3bb7499dc79b258fdcf03954
+  size: 38905
   hash: md5
   path: hailuoto.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

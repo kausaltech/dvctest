@@ -1,12 +1,10 @@
 outs:
-- md5: 4422fb10ba2bec1edf647929739c437f
-  size: 39773
+- md5: fc7010a5d4e10801cd43c3d82ffab55c
+  size: 39870
   hash: md5
   path: virrat.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

@@ -1,12 +1,10 @@
 outs:
-- md5: 26a2be02dc33d5666b38d1f3f010f3e0
-  size: 38400
+- md5: 5553087dc34f09192b56fbf526cb290c
+  size: 38497
   hash: md5
   path: rääkkylä.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

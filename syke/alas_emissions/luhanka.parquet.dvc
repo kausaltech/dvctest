@@ -1,12 +1,10 @@
 outs:
-- md5: e2c2becaa21a56f9622bd0d483fc1e11
-  size: 36760
+- md5: 0eaeadf07ee0a1f2c0e8dd1c09133721
+  size: 36857
   hash: md5
   path: luhanka.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

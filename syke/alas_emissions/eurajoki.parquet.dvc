@@ -1,12 +1,10 @@
 outs:
-- md5: 1ba15abd2b9601d4dddead5fe00c5783
-  size: 41571
+- md5: b140b936077f347634bb739381d936eb
+  size: 41668
   hash: md5
   path: eurajoki.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

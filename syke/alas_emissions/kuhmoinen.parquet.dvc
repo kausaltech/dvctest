@@ -1,12 +1,10 @@
 outs:
-- md5: e35ef008e5c8852dbf11fdfe07b4206d
-  size: 38006
+- md5: b7f938bff226aa406a6a825f3e08c242
+  size: 38103
   hash: md5
   path: kuhmoinen.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

@@ -1,12 +1,10 @@
 outs:
-- md5: 435b70ecbb1049511758a491f0c0363c
-  size: 46544
+- md5: 2acaad2b0a9219d4326ac1d5b1ddadbe
+  size: 46642
   hash: md5
   path: tampere.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

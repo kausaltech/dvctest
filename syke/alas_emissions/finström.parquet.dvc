@@ -1,12 +1,10 @@
 outs:
-- md5: 6d21abe5f261a6ef172f02376905ffdd
-  size: 39294
+- md5: 7fb1ffa75c9432751d9440fd99bf11a7
+  size: 39391
   hash: md5
   path: finström.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

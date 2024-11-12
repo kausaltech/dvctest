@@ -1,12 +1,10 @@
 outs:
-- md5: f98c75b21a5e5bc97a816ad74082ae1c
-  size: 46224
+- md5: 9545319d8b2108647c4ee166b982b7a2
+  size: 46321
   hash: md5
   path: hämeenlinna.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

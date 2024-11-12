@@ -1,12 +1,10 @@
 outs:
-- md5: fb10d23a0e9f202e77e54d8af3d67e24
-  size: 38558
+- md5: c1a1ff8e27f72f0781294532f9a6cea5
+  size: 38655
   hash: md5
   path: salla.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

@@ -1,12 +1,10 @@
 outs:
-- md5: 2f2a4236fc0f2c0ddf738408212e4d48
-  size: 41706
+- md5: e87e3d56613675662fc09a18f5667497
+  size: 41803
   hash: md5
   path: oulainen.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

@@ -1,12 +1,10 @@
 outs:
-- md5: 4a60a8d26effb9dcd43aa362a267c6aa
-  size: 44178
+- md5: ea3dd0b9e2b29d565ce7a2beffb78fab
+  size: 44275
   hash: md5
   path: pieksämäki.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

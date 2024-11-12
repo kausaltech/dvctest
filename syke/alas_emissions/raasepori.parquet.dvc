@@ -1,12 +1,10 @@
 outs:
-- md5: 3c457d2d100fe354ac6f12db1a767a1c
-  size: 44788
+- md5: 5351aba0b182d0b8cf0920f1be7aa1f6
+  size: 44885
   hash: md5
   path: raasepori.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

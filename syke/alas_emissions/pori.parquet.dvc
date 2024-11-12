@@ -1,12 +1,10 @@
 outs:
-- md5: a2d1ccba916aa9df6e156dd46b66f706
-  size: 45230
+- md5: 6eb03586bf78fc6bb942a3f80be20654
+  size: 45327
   hash: md5
   path: pori.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

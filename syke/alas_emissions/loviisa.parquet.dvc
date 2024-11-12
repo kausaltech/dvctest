@@ -1,12 +1,10 @@
 outs:
-- md5: a7d4a2e5cf4b87e2d28cc41e139aff7f
-  size: 42126
+- md5: a05e3f84c593903614f323207e78f7b3
+  size: 42223
   hash: md5
   path: loviisa.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

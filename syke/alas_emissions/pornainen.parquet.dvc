@@ -1,12 +1,10 @@
 outs:
-- md5: 6a38ad65f337513718a6ca53bbcce3b4
-  size: 37319
+- md5: 831d93e1f9d6eb1de71eb3e61cd9cf38
+  size: 37416
   hash: md5
   path: pornainen.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

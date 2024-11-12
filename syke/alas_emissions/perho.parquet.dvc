@@ -1,12 +1,10 @@
 outs:
-- md5: 78acf6b951b3453025c58899cbc93da7
-  size: 38647
+- md5: 4b10825226c04cea25a1ec9fe77f3f2a
+  size: 38744
   hash: md5
   path: perho.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

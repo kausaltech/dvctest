@@ -1,12 +1,10 @@
 outs:
-- md5: 66a9b9cdb938c96e862d2d2589278bbe
-  size: 41571
+- md5: 76a130fe465bb81756436085acf396ed
+  size: 41668
   hash: md5
   path: alavus.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

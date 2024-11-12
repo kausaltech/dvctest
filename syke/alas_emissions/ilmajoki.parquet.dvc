@@ -1,12 +1,10 @@
 outs:
-- md5: 83e3e185381dee9dbce12fc15567c9ad
-  size: 41118
+- md5: a957ec5ef6c979124dd5130b3083e037
+  size: 41215
   hash: md5
   path: ilmajoki.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

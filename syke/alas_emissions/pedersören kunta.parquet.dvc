@@ -1,12 +1,10 @@
 outs:
-- md5: 4d6ed195f1e6176452111d274311a42e
-  size: 41050
+- md5: 491dac6b30c6abd1137f74360d5aaea4
+  size: 41147
   hash: md5
   path: pedersören kunta.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

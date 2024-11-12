@@ -1,12 +1,10 @@
 outs:
-- md5: 170a2bd2842ed44a8633a88f12892a11
-  size: 41939
+- md5: 7d861e40667bf13e23b049cb73203252
+  size: 42036
   hash: md5
   path: lieksa.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

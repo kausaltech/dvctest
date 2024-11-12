@@ -1,12 +1,10 @@
 outs:
-- md5: 66780a4506dcadfa3ee46e096ddd647b
-  size: 44989
+- md5: fd012cbfc3fac63c848b4db7025170d6
+  size: 45086
   hash: md5
   path: kotka.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

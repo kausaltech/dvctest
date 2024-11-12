@@ -1,12 +1,10 @@
 outs:
-- md5: 368295439c219e2a337c04d704064e14
-  size: 38013
+- md5: 53a3b4d7476ac3eb8e8c6fa09d976e7d
+  size: 38110
   hash: md5
   path: isojoki.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

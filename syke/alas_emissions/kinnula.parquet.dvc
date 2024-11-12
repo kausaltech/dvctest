@@ -1,12 +1,10 @@
 outs:
-- md5: fc15b365bf59ee6a1f08440bd2c639ff
-  size: 37441
+- md5: 21b316e2df4c3a39593bb59be35ec850
+  size: 37538
   hash: md5
   path: kinnula.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

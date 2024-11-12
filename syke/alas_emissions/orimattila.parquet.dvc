@@ -1,12 +1,10 @@
 outs:
-- md5: bb735cffa86afb040b93b3010f131b6f
-  size: 40901
+- md5: 48c4056fd337c732f1ec92235ea102bb
+  size: 40998
   hash: md5
   path: orimattila.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

@@ -1,12 +1,10 @@
 outs:
-- md5: b8a435c6a0860a0fc281700c6122e1fc
-  size: 39589
+- md5: fa53f400e2e014a528c14a93dc12e472
+  size: 39686
   hash: md5
   path: kolari.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

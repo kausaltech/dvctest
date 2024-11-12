@@ -1,12 +1,10 @@
 outs:
-- md5: a6be0f84fe5b6cf28e05c54f0e7c021e
-  size: 44158
+- md5: 8ad6d588311d9852a2351f4bb75cdebf
+  size: 44255
   hash: md5
   path: rauma.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

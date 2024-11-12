@@ -1,12 +1,10 @@
 outs:
-- md5: a8b128d469b3f22cc375113d936cf588
-  size: 46199
+- md5: 18a7829d54d33dcc0e4ebb6c7eadeb53
+  size: 46296
   hash: md5
   path: kouvola.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

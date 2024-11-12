@@ -1,12 +1,10 @@
 outs:
-- md5: 8652c7137c97df7f7e9ecce3102025ef
-  size: 39109
+- md5: a487522819aae5e7a41b23a3f5e95164
+  size: 39206
   hash: md5
   path: padasjoki.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

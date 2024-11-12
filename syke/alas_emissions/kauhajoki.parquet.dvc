@@ -1,12 +1,10 @@
 outs:
-- md5: f0bf724e6fe289dcf92099b975644ca7
-  size: 40812
+- md5: bf5ac0127a7a7f4fc3a25536b66161ac
+  size: 40909
   hash: md5
   path: kauhajoki.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

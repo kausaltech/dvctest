@@ -1,12 +1,10 @@
 outs:
-- md5: 247ecb641366541f59cb86e1c6c32ca4
-  size: 38932
+- md5: 881e173c0a1dc8782a115c9c2069aecc
+  size: 39029
   hash: md5
   path: kuortane.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

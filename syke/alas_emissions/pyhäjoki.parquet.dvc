@@ -1,12 +1,10 @@
 outs:
-- md5: 59095c09dce3a0670631705bfe19362f
-  size: 39474
+- md5: b1d473d05a34f0457a5c33482529744b
+  size: 39571
   hash: md5
   path: pyhäjoki.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

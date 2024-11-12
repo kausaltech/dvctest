@@ -1,12 +1,10 @@
 outs:
-- md5: 6edaf4417b10566c8a7ec891dd2e9cbb
-  size: 39971
+- md5: 603c5f30c5919615da318b9e35c27025
+  size: 40068
   hash: md5
   path: taivalkoski.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

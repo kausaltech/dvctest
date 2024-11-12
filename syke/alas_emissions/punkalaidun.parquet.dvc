@@ -1,12 +1,10 @@
 outs:
-- md5: 4bc94666144b5737c26e964aaf745b52
-  size: 38573
+- md5: a2cf494dde5f582a1fef8e25cbdb140e
+  size: 38670
   hash: md5
   path: punkalaidun.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

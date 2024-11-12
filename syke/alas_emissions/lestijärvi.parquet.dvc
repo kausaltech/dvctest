@@ -1,12 +1,10 @@
 outs:
-- md5: c5d6e46057aeaf66f4fc550d95bd324f
-  size: 37507
+- md5: 3b16b2ae322d1539952d887b4dd1040e
+  size: 37604
   hash: md5
   path: lestijärvi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

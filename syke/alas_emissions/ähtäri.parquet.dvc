@@ -1,12 +1,10 @@
 outs:
-- md5: 4fc421a868149f51db2d112fe72b5abf
-  size: 39552
+- md5: bfcc6bceab7cb397b27a4778e4b17156
+  size: 39649
   hash: md5
   path: ähtäri.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

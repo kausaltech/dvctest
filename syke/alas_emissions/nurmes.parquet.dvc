@@ -1,12 +1,10 @@
 outs:
-- md5: 1be5f85a2ed18e051dd020fbcf139265
-  size: 41580
+- md5: 851bfe3f1ec275b5c11c4297d8d21b82
+  size: 41677
   hash: md5
   path: nurmes.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

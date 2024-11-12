@@ -1,12 +1,10 @@
 outs:
-- md5: 1ad3158973fb9c5286a117d1decafae6
-  size: 39923
+- md5: b23b01e3171d1a4e502ee23b9a599ebc
+  size: 40020
   hash: md5
   path: pälkäne.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

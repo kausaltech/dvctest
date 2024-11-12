@@ -1,12 +1,10 @@
 outs:
-- md5: 0751810f88157fa45711f5b7973be902
-  size: 37347
+- md5: 4c44cab5104764bc966bc257993110cd
+  size: 37444
   hash: md5
   path: lumijoki.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

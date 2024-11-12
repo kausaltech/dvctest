@@ -1,12 +1,10 @@
 outs:
-- md5: 6a4636839a8514e5793ce8b8575b66ad
-  size: 40069
+- md5: ca3940109b8741520868ad90b31e7f2c
+  size: 40166
   hash: md5
   path: sonkajärvi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

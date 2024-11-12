@@ -1,12 +1,10 @@
 outs:
-- md5: 44945f80c37a8d68ba5cdae684c81a20
-  size: 38212
+- md5: fbde673f160d099da8b14a7829414132
+  size: 38309
   hash: md5
   path: tervo.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

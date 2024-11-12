@@ -1,12 +1,10 @@
 outs:
-- md5: 3f93e2093589f8286ec9233a20163449
-  size: 45275
+- md5: dbddb503907fc1ebbe87433119aaa9a8
+  size: 45372
   hash: md5
   path: jämsä.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

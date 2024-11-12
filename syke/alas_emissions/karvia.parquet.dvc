@@ -1,12 +1,10 @@
 outs:
-- md5: aebfdcc378fd013592262a6d86349b7a
-  size: 38215
+- md5: f15ee58d456fe60b8de73fdda96a4f87
+  size: 38312
   hash: md5
   path: karvia.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

@@ -1,12 +1,10 @@
 outs:
-- md5: 39b07dd4354b5d2b0d8c291652e4f38e
-  size: 37578
+- md5: 29ed3a3a746f118224d9653590ae65f9
+  size: 37675
   hash: md5
   path: vesilahti.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

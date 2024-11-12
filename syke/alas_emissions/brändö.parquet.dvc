@@ -1,12 +1,10 @@
 outs:
-- md5: 08be227db9d8653b8bc211c0efa4f334
-  size: 35637
+- md5: e680820acac6494cd601a290727ff3bf
+  size: 35734
   hash: md5
   path: brändö.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

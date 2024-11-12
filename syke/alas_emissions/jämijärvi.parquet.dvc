@@ -1,12 +1,10 @@
 outs:
-- md5: 3dfe2d5dc5d779c860629e81d16ce45a
-  size: 37794
+- md5: f157a01d502c635164874cd19c4b78c0
+  size: 37891
   hash: md5
   path: jämijärvi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

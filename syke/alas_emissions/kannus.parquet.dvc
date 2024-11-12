@@ -1,12 +1,10 @@
 outs:
-- md5: b813ae4b038aa021b7bc30a442038531
-  size: 38923
+- md5: 504577b656585e0b5e733a603203db0c
+  size: 39020
   hash: md5
   path: kannus.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

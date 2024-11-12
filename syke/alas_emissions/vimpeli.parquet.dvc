@@ -1,12 +1,10 @@
 outs:
-- md5: c4b8cf60ffb3215fad0709f369bd9985
-  size: 38852
+- md5: 55760361f14ddfe2d6700426cb4365bc
+  size: 38949
   hash: md5
   path: vimpeli.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

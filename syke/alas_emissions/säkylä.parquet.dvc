@@ -1,12 +1,10 @@
 outs:
-- md5: 5c362b60f070ce0bc889c953d0ea8bb8
-  size: 41369
+- md5: 4262da9ea5599fe9b5ed25e04e6d0d24
+  size: 41466
   hash: md5
   path: säkylä.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

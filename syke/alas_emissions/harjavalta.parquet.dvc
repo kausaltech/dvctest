@@ -1,12 +1,10 @@
 outs:
-- md5: acf08058eed94ecbb20750a9e99d052a
-  size: 42426
+- md5: c7feb2a863ac69dc46cec340ad7bedb3
+  size: 42523
   hash: md5
   path: harjavalta.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

@@ -1,12 +1,10 @@
 outs:
-- md5: 463948a19ce16bf6c02fc84fca2b0c55
-  size: 40440
+- md5: 806fa903015d479e2017fbbebf41126c
+  size: 40537
   hash: md5
   path: tohmajärvi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

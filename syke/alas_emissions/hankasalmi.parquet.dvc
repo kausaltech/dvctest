@@ -1,12 +1,10 @@
 outs:
-- md5: c6762243aaf98eb5e21f63029afed4d7
-  size: 40873
+- md5: fdb2cbfa5f6cf5049e8a83391b3e7d6b
+  size: 40970
   hash: md5
   path: hankasalmi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

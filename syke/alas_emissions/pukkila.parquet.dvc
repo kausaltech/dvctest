@@ -1,12 +1,10 @@
 outs:
-- md5: b0f675c34170ec48d1954a5fc3294874
-  size: 36463
+- md5: d28c95cb80386728c2e4efd1b041761b
+  size: 36560
   hash: md5
   path: pukkila.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

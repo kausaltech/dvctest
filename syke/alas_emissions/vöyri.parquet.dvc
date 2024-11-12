@@ -1,12 +1,10 @@
 outs:
-- md5: 36c7f47daac832809e907ace3f24daa8
-  size: 41092
+- md5: 24bb665e2a46a385c7b5d1ca9f479b5b
+  size: 41189
   hash: md5
   path: vöyri.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

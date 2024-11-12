@@ -1,12 +1,10 @@
 outs:
-- md5: a03ee6bafaecfd2bcc9f9054c83bea45
-  size: 42629
+- md5: 1b34449a3ba8a94db342a3118410ff88
+  size: 42726
   hash: md5
   path: tuusula.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

@@ -1,12 +1,10 @@
 outs:
-- md5: 2b7de15ff42d57d451d88cd7a91140f0
-  size: 38918
+- md5: 5ded28b2a722d8135944857ebe616491
+  size: 39015
   hash: md5
   path: karkkila.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

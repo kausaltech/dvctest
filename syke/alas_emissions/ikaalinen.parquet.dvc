@@ -1,12 +1,10 @@
 outs:
-- md5: b20c9fffcedaf97eeb0442593a5b0ce9
-  size: 39999
+- md5: 4bcf4046a4b7bb244fe5783d86b27915
+  size: 40096
   hash: md5
   path: ikaalinen.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

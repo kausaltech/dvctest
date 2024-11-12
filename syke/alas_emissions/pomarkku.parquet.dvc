@@ -1,12 +1,10 @@
 outs:
-- md5: 151246ea622aaf1465e80ca293b0de95
-  size: 36488
+- md5: 1874c53f30987a92c5d854a029da78ab
+  size: 36585
   hash: md5
   path: pomarkku.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

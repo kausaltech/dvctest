@@ -1,12 +1,10 @@
 outs:
-- md5: 3205198e83e304e24d3dde9b146d9349
-  size: 38210
+- md5: 10bafac1da0112c9b62afa634f972d00
+  size: 38307
   hash: md5
   path: tyrnävä.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

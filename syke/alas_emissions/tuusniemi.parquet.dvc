@@ -1,12 +1,10 @@
 outs:
-- md5: 6158add387b49be132963625356db8fd
-  size: 38659
+- md5: 61e19d3b463617f557b8d178389d7d25
+  size: 38756
   hash: md5
   path: tuusniemi.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

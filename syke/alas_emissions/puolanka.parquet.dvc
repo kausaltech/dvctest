@@ -1,12 +1,10 @@
 outs:
-- md5: 9f1208ab4c472de00ebfbe4b52c4f71c
-  size: 38267
+- md5: 23e6fdac344b843a39c42dc7e6d31a31
+  size: 38364
   hash: md5
   path: puolanka.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

@@ -1,12 +1,10 @@
 outs:
-- md5: fe40800241b4a45841a57a58146b543e
-  size: 38465
+- md5: 031b86d9bf79d536b8988e8e3bb132ec
+  size: 38562
   hash: md5
   path: vieremä.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

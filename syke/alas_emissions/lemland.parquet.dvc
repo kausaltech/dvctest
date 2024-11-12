@@ -1,12 +1,10 @@
 outs:
-- md5: 8b53e8fde58799b641ef9811b4e7dda7
-  size: 36309
+- md5: b20b0c0ecc4955e4546b4d88a0b02c55
+  size: 36406
   hash: md5
   path: lemland.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

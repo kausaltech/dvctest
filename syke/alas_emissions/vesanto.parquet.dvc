@@ -1,12 +1,10 @@
 outs:
-- md5: c722b0c45cc9445b06555d2f12c93e9a
-  size: 38158
+- md5: 0a8f5ef594e203cf60ef9a574ac44970
+  size: 38255
   hash: md5
   path: vesanto.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

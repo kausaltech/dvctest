@@ -1,12 +1,10 @@
 outs:
-- md5: 90846ce102ba0830b2005bc459be545a
-  size: 36750
+- md5: 7117e246f0b94392bba7b4c20739dc59
+  size: 36847
   hash: md5
   path: hammarland.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

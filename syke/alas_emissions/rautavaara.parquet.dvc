@@ -1,12 +1,10 @@
 outs:
-- md5: 246e6590140106f53cd7abdbe9116fd2
-  size: 38162
+- md5: deb8f4f30e96336c8bcdc444224f93a5
+  size: 38259
   hash: md5
   path: rautavaara.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

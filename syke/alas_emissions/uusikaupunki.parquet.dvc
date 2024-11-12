@@ -1,12 +1,10 @@
 outs:
-- md5: f7ca44a23087dc24efaff4776cf8dca8
-  size: 43332
+- md5: 6733f2f4746aa3234a95a518865d74e8
+  size: 43429
   hash: md5
   path: uusikaupunki.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

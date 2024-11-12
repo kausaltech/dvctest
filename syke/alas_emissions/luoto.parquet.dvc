@@ -1,12 +1,10 @@
 outs:
-- md5: 9a7f4586e2f262e9146cd9e70adc5aac
-  size: 39166
+- md5: 939d966801e8793a9feb35e1aecf270d
+  size: 39263
   hash: md5
   path: luoto.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

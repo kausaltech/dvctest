@@ -1,12 +1,10 @@
 outs:
-- md5: 0875cfbad256c857af0eac5e3f38c487
-  size: 42320
+- md5: 8b6e0b35259d5011a1a62c041bea1f4d
+  size: 42417
   hash: md5
   path: kempele.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

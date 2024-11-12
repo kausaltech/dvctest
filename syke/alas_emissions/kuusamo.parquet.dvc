@@ -1,12 +1,10 @@
 outs:
-- md5: ce7e43ab92979eda7f0c544122cafd06
-  size: 43007
+- md5: 55d25c62d7ccd6702ae165412c4d10f1
+  size: 43104
   hash: md5
   path: kuusamo.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

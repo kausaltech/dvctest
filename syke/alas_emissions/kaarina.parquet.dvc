@@ -1,12 +1,10 @@
 outs:
-- md5: 84a715a2622e210f71e797acb9673757
-  size: 43057
+- md5: e447640535e3d1b10cf2e8ceee2f3213
+  size: 43154
   hash: md5
   path: kaarina.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

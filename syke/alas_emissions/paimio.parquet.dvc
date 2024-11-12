@@ -1,12 +1,10 @@
 outs:
-- md5: 76bbb7db573840d9504c8126599f6a3d
-  size: 40162
+- md5: 3b9644a3431fa7354a33fbc041a0d68e
+  size: 40259
   hash: md5
   path: paimio.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

@@ -1,12 +1,10 @@
 outs:
-- md5: ffa114f6f4c82a26229fa5207aafc0fa
-  size: 43606
+- md5: 03f7107ece24a79a6d8a6474ae70b40a
+  size: 43703
   hash: md5
   path: hanko.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

@@ -1,12 +1,10 @@
 outs:
-- md5: a62295dc69e192da0a6ce4e854ce3222
-  size: 39654
+- md5: e1e299dddb2363c29f65b48370e57bee
+  size: 39751
   hash: md5
   path: tammela.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

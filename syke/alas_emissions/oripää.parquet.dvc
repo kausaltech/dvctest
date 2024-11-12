@@ -1,12 +1,10 @@
 outs:
-- md5: 91ad8612762283abbc21bf92c40c4732
-  size: 37787
+- md5: 23f277fbcffaa906466e8a342a439d94
+  size: 37884
   hash: md5
   path: oripää.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

@@ -1,12 +1,10 @@
 outs:
-- md5: 0f564d1a9b1a612cd168fdf57a48419c
-  size: 37408
+- md5: abdc2719bcd35aa2f3c90a6808145345
+  size: 37505
   hash: md5
   path: eckerö.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year

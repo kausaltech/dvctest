@@ -1,12 +1,10 @@
 outs:
-- md5: bd64a3819cfcee5eebe00f1414c50111
-  size: 37473
+- md5: e6f07f16cbb11d1ebbd06c1ff8ecdf98
+  size: 37570
   hash: md5
   path: karijoki.parquet
 meta:
   units:
-    ktCO2e: Gg/a
-    ktCO2e_tuuli: Gg/a
-    energiankulutus (GWh): GWh/a
-    hinku-laskenta: bool
-    päästökauppa: bool
+    ktCO2e: gigagram / year
+    ktCO2e_tuuli: gigagram / year
+    energiankulutus: gigawatt_hour / year
