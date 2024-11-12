@@ -59,3 +59,4 @@
 /livestock_counts.parquet
 /livestock_emission_factors.parquet
 /food_and_other_consumption_emissions.parquet
+/new_vehicle_counts.parquet
