@@ -1,0 +1,15 @@
+outs:
+- md5: 36adecedcda86bb94b633f055a669e73
+  size: 3928
+  hash: md5
+  path: new_building_energy_reference_areas.parquet
+meta:
+  name:
+    de-CH: New Building Energy Reference Areas
+  identifier: new_building_energy_reference_areas
+  metrics:
+  - id: floor_area
+    label:
+      de-CH: Floor Area
+  units:
+    floor_area: m²/a
