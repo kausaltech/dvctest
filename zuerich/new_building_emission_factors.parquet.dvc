@@ -1,0 +1,15 @@
+outs:
+- md5: d0c114a41fe8ee7a8ae99e58201396c4
+  size: 3789
+  hash: md5
+  path: new_building_emission_factors.parquet
+meta:
+  name:
+    de-CH: New Building Emission Factors
+  identifier: new_building_emission_factors
+  metrics:
+  - id: emission_factor
+    label:
+      de-CH: Emission Factor
+  units:
+    emission_factor: kg/m²

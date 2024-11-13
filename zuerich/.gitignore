@@ -61,3 +61,4 @@
 /food_and_other_consumption_emissions.parquet
 /new_vehicle_counts.parquet
 /new_vehicle_emission_factors.parquet
+/new_building_emission_factors.parquet
