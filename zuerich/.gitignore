@@ -63,3 +63,4 @@
 /new_vehicle_emission_factors.parquet
 /new_building_emission_factors.parquet
 /new_building_energy_reference_areas.parquet
+/building_renovation_energy_reference_areas.parquet
