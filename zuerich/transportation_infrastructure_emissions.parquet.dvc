@@ -1,0 +1,15 @@
+outs:
+- md5: e25a554013b83dcd948115c71e739d33
+  size: 4400
+  hash: md5
+  path: transportation_infrastructure_emissions.parquet
+meta:
+  name:
+    de-CH: Transportation Infrastructure Emissions
+  identifier: transportation_infrastructure_emissions
+  metrics:
+  - id: emissions
+    label:
+      de-CH: Emissions
+  units:
+    emissions: t/cap/a
