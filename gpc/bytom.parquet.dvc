@@ -1,5 +1,5 @@
 outs:
-- md5: a471bfae50960b2a31f4f3d6ac5dbaf9
-  size: 10239
+- md5: 9c990daf7003943af69c9f10f94060a6
+  size: 10218
   hash: md5
   path: bytom.parquet
