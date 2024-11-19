@@ -1,6 +1,6 @@
 outs:
-- md5: 3458ee62d3738188be60c21d8d777bb2
-  size: 3278
+- md5: 8e58a9fd40c699914bba4d1b267d5d8c
+  size: 3915
   hash: md5
   path: aviation_mileage.parquet
 meta:
