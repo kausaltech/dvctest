@@ -1,0 +1,5 @@
+outs:
+- md5: d91ff0817d42bd37c6a2a92ed6a89d98
+  size: 6617
+  hash: md5
+  path: bytom_simple_actions.parquet
