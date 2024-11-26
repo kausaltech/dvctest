@@ -1,5 +1,5 @@
 outs:
-- md5: f918b7816148fa971ba1a7ba9bdae883
-  size: 6375
+- md5: a5be2638cc915f925066bdd2f1d483eb
+  size: 6381
   hash: md5
   path: riga_simple_actions.parquet
