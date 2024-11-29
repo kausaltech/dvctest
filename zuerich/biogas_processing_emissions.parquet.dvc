@@ -1,16 +1,15 @@
 outs:
-- md5: 6fe3136f9364031a543c85002a34eec1
-  size: 2984
+- md5: 85a64b2a5c9d1938bdcb974e9f3f30ef
+  size: 3213
   hash: md5
   path: biogas_processing_emissions.parquet
-  remote: kausal-s3-private
 meta:
   name:
-    de-CH: Treibhausgasemissionen Biogasaufbereitungsanlage
+    de-CH: Biogas Processing Emissions
   identifier: biogas_processing_emissions
   metrics:
   - id: emissions
     label:
       de-CH: Emissions
   units:
-    emissions: t/a
+    emissions: kt/a
