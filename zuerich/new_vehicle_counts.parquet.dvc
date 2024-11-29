@@ -1,6 +1,6 @@
 outs:
-- md5: 5f6e09450e78c964763deec99bfedb58
-  size: 5010
+- md5: c37c481a24d3d10fcb7700b94e96c3b9
+  size: 4800
   hash: md5
   path: new_vehicle_counts.parquet
 meta:
@@ -11,5 +11,4 @@ meta:
   - id: number
     label:
       de-CH: Number
-  units:
-    number: count/a
+  units: {}
