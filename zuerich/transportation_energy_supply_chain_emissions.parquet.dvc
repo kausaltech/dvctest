@@ -1,0 +1,15 @@
+outs:
+- md5: 20a3d8eca63399fda21acdfc327ef2f1
+  size: 3379
+  hash: md5
+  path: transportation_energy_supply_chain_emissions.parquet
+meta:
+  name:
+    de-CH: Transportation Energy Supply Chain Emissions
+  identifier: transportation_energy_supply_chain_emissions
+  metrics:
+  - id: emissions
+    label:
+      de-CH: Emissions
+  units:
+    emissions: t/cap/a

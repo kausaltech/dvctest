@@ -66,3 +66,4 @@
 /building_renovation_energy_reference_areas.parquet
 /building_renovation_emission_factors.parquet
 /transportation_infrastructure_emissions.parquet
+/transportation_energy_supply_chain_emissions.parquet
