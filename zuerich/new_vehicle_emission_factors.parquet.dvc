@@ -1,6 +1,6 @@
 outs:
-- md5: 5feeddd7305e8328c7f90d66c63b5037
-  size: 6291
+- md5: 9339c565a1ee7d23b8eeec7fa6f5180a
+  size: 5972
   hash: md5
   path: new_vehicle_emission_factors.parquet
 meta:
