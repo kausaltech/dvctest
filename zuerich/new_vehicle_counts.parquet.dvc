@@ -1,6 +1,6 @@
 outs:
-- md5: b922f47e341cfd72b534b1333b93c441
-  size: 4835
+- md5: 5adfda5e8b3335525dfc06dde792d894
+  size: 4878
   hash: md5
   path: new_vehicle_counts.parquet
 meta:
