@@ -1,13 +1,11 @@
 outs:
-- md5: af9cf37bf3641923793cf4dd1b09b275
-  size: 4087
+- md5: 80f9c9a80f86bf462f895c3f3a723783
+  size: 4322
   hash: md5
   path: general_electricity_production_mix.parquet
-  remote: kausal-s3-private
 meta:
   name:
-    de-CH: Strommix ewz Stadt Zürich, ohne fremdbelieferte Konsumstellen
-    en: General electricity production mix
+    de-CH: General Electricity Production Mix
   identifier: general_electricity_production_mix
   metrics:
   - id: share
