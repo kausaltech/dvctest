@@ -1,16 +1,15 @@
 outs:
-- md5: 92eacc63310e139c4e17205146788765
-  size: 3484
+- md5: 0ea650fb1e64cc4fdd953a5a30a0ff0e
+  size: 3734
   hash: md5
   path: waste_incineration_emission_factors.parquet
-  remote: kausal-s3-private
 meta:
   name:
-    de-CH: Waste incineration emission factors
-    en: Waste incineration emission factors
+    de-CH: Waste Incineration Emission Factors
   identifier: waste_incineration_emission_factors
   metrics:
   - id: emission_factor
     label:
-      de-CH: Emission factor
-      en: Emission factor
+      de-CH: Emission Factor
+  units:
+    emission_factor: ''
