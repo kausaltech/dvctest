@@ -1,16 +1,15 @@
 outs:
-- md5: 9ab2b3e0fa54a5884000681c9f401e76
-  size: 3474
+- md5: 0e55cf03154a4a3db1d0171fe2ee90f9
+  size: 3746
   hash: md5
   path: wastewater_treatment_emission_factors.parquet
-  remote: kausal-s3-private
 meta:
   name:
-    de-CH: Wastewater treatment emission factors
+    de-CH: Wastewater Treatment Emission Factors
   identifier: wastewater_treatment_emission_factors
   metrics:
   - id: emission_factor
     label:
-      de-CH: Emission factor
+      de-CH: Emission Factor
   units:
-    emission_factor: g/a/cap
+    emission_factor: g/cap/a
