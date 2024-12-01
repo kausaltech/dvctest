@@ -1,13 +1,11 @@
 outs:
-- md5: e2229be0bad36a62d2b85e015fc2122b
-  size: 3433
+- md5: f3ae22412ccf593228ae3c9a3e47e2f1
+  size: 3690
   hash: md5
   path: subsidized_electricity_production_mix.parquet
-  remote: kausal-s3-private
 meta:
   name:
-    de-CH: Strommix geförderter Strom ewz Stadt Zürich
-    en: Subsidized electricity production mix
+    de-CH: Subsidized Electricity Production Mix
   identifier: subsidized_electricity_production_mix
   metrics:
   - id: share
