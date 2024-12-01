@@ -1,13 +1,11 @@
 outs:
-- md5: afbe31d4bf232758d9f0d6582ba2a21d
-  size: 4954
+- md5: 11b02d1ab6c83c612a0b16dbe061fec4
+  size: 5199
   hash: md5
   path: building_energy.parquet
-  remote: kausal-s3-private
 meta:
   name:
-    de-CH: Endenergieverbrauch Gebäude
-    en: Building end energy consumption
+    de-CH: Building End Energy Consumption
   identifier: building_energy
   metrics:
   - id: energy
