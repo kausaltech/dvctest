@@ -1,12 +1,11 @@
 outs:
-- md5: 87f496c7d30d96d021765a5f59c2c681
-  size: 4151
+- md5: 505298e035a3e418326a62379883ec56
+  size: 4308
   hash: md5
   path: other_building_emission_source_fuel_use.parquet
-  remote: kausal-s3-private
 meta:
   name:
-    de-CH: Other building emission source fuel use
+    de-CH: Other Building Emission Source Fuel Use
   identifier: other_building_emission_source_fuel_use
   metrics:
   - id: fuel
