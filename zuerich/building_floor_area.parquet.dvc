@@ -1,15 +1,15 @@
 outs:
-- md5: bba8fff4d0f5a8c48d7ae5ed92a7fbec
-  size: 3927
+- md5: c786524a56cf5881bc61ae0445234834
+  size: 4120
+  hash: md5
   path: building_floor_area.parquet
-  remote: kausal-s3-private
 meta:
   name:
-    de-CH: Geschossfläche nach Nutzungsart
+    de-CH: Building Floor Area
   identifier: building_floor_area
   metrics:
   - id: floor_area
     label:
-      de-CH: Floor area
+      de-CH: Floor Area
   units:
     floor_area: Msqm
