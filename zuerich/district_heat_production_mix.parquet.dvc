@@ -1,17 +1,15 @@
 outs:
-- md5: 39b0c3973c8fdcf5adf0f119e773f074
-  size: 3741
+- md5: 33d761bd3653ff78bbcd752031fdb1a1
+  size: 3963
   hash: md5
   path: district_heat_production_mix.parquet
-  remote: kausal-s3-private
 meta:
   name:
-    de-CH: Fernwärmeverbrauchsmix
-    en: District heat consumption mix
+    de-CH: District Heat Production Mix
   identifier: district_heat_production_mix
   metrics:
   - id: share
     label:
-      de-CH: ''
+      de-CH: Share
   units:
     share: '%'
