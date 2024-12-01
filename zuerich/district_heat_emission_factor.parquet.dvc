@@ -1,18 +1,15 @@
 outs:
-- md5: c05899afa18c449577a01a255228eedf
-  size: 5198
+- md5: 8b67f8eb1f0d3cb8e255c2d660cc8cde
+  size: 5421
   hash: md5
   path: district_heat_emission_factor.parquet
-  remote: kausal-s3-private
 meta:
   name:
-    de-CH: Treibhausgasfaktoren Fernwärme
-    en: District heat emission factors
+    de-CH: District Heat Emission Factor
   identifier: district_heat_emission_factor
   metrics:
   - id: emission_factor
     label:
-      de-CH: Treibhausgasfaktor
-      en: Emission factor
+      de-CH: Emission Factor
   units:
     emission_factor: g/kWh
