@@ -1,13 +1,11 @@
 outs:
-- md5: ae2f177db808a3a0636bccba516dea7e
-  size: 2319
+- md5: 90f5058cf8418867cffc53b2b2cf9abc
+  size: 2623
   hash: md5
   path: externally_supplied_electricity.parquet
-  remote: kausal-s3-private
 meta:
   name:
-    de-CH: Fremdbelieferte Konsumstellen
-    en: Externally supplied electricity
+    de-CH: Externally Supplied Electricity
   identifier: externally_supplied_electricity
   metrics:
   - id: energy
