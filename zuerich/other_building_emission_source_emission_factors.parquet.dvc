@@ -1,16 +1,15 @@
 outs:
-- md5: 5a869212b0e90a442923a70d0c9e0cc1
-  size: 5142
+- md5: fddab6f04dceb9719a2df4de7a033f57
+  size: 5358
   hash: md5
   path: other_building_emission_source_emission_factors.parquet
-  remote: kausal-s3-private
 meta:
   name:
-    de-CH: Other building emission source emission factors
+    de-CH: Other Building Emission Source Emission Factors
   identifier: other_building_emission_source_emission_factors
   metrics:
   - id: emission_factor
     label:
-      de-CH: Emission factor
+      de-CH: Emission Factor
   units:
     emission_factor: kg/MJ
