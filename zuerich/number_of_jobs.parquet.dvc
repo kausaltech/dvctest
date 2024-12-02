@@ -1,13 +1,11 @@
 outs:
-- md5: eab6149c3643707ec631e52ae96311c9
-  size: 2508
+- md5: b1d7c35bd99a4c89509700ecd975bf2c
+  size: 2819
   hash: md5
   path: number_of_jobs.parquet
-  remote: kausal-s3-private
 meta:
   name:
-    de-CH: Anzahl Beschäftigte
-    en: Number of jobs
+    de-CH: Number of Jobs
   identifier: number_of_jobs
   metrics:
   - id: number
