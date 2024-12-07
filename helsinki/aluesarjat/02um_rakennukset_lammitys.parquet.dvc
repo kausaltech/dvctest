@@ -1,26 +1,4 @@
 outs:
-- md5: 1cab7893946cc18844a94ff16b2b4c78
-  size: 443710
-  hash: md5
+- md5: a5aab9b6851f1faaff9bfa7dce89c7e9
+  size: 402123
   path: 02um_rakennukset_lammitys.parquet
-meta:
-  url_description: 
-    https://stat.hel.fi/pxweb/fi/Aluesarjat/Aluesarjat__asu__rakan__umkun/02UM_Rakennukset_lammitys.px/table/tableViewLayout1/
-  url_download: https://stat.hel.fi:443/sq/9ee19d39-17d4-439c-8ae0-0f227abbe326
-  download_type: pxweb
-  local_path: /Users/jouni/Downloads/02UM_20241206-130609.csv
-  skip_rows: 2
-  encoding: iso-8859-1
-  quote_char: '"'
-  value_column: Rakennukset
-  path: https://s3.kausal.tech/datasets/
-  etag: a5aab9b6851f1faaff9bfa7dce89c7e9
-  key: a5/aab9b6851f1faaff9bfa7dce89c7e9
-  column_types:
-    Alue: Categorical
-    Rakennuksen käyttötarkoitus: Categorical
-    Rakennuksen lämmitystapa: Categorical
-    Rakennuksen lämmitysaine: Categorical
-    Tiedot: Categorical
-    Vuosi: String
-    value: Float64
