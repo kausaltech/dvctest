@@ -1,5 +1,5 @@
 outs:
-- md5: 68b677e7d93edb20b0829225b41449f8
-  size: 9195
+- md5: 3323e29d7039a05f67db6cb92cef4a52
+  size: 8242
   hash: md5
   path: tampere_detailed_actions.parquet
