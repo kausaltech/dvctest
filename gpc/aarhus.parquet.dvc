@@ -1,0 +1,5 @@
+outs:
+- md5: 963f647e010b34dac00a5870bcd98651
+  size: 8990
+  hash: md5
+  path: aarhus.parquet
