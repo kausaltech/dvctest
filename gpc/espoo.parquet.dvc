@@ -1,5 +1,21 @@
 outs:
-- md5: d240ae599708796f8d7f7bb76e591ef0
-  size: 7379
+- md5: 91225a66f813c7f034eaab8582d6e4d1
+  size: 17418
   hash: md5
   path: espoo.parquet
+meta:
+  local_path: /Users/jouni/devel/kausal-paths/notebooks/espoo.csv
+  skip_rows: 0
+  encoding: UTF-8
+  quote_char: '"'
+  value_column: Value
+  column_types:
+    Value: Float64
+    Year: Int64
+    vehicle: String
+    Sector: String
+    Quantity: String
+    Unit: String
+    scenario: String
+    main_emission_sector: String
+    building_use: String
