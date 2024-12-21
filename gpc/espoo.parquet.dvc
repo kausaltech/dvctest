@@ -1,5 +1,5 @@
 outs:
-- md5: abe412498d31e273688e9211bb3c4d1c
-  size: 18620
+- md5: 5eb0a32eb0c00fc4d9862a82e33ad61f
+  size: 19461
   hash: md5
   path: espoo.parquet
