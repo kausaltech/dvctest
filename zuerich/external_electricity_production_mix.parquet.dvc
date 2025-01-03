@@ -1,0 +1,15 @@
+outs:
+- md5: b7f0d31713b8822b9cb6c0efc246ea38
+  size: 3493
+  hash: md5
+  path: external_electricity_production_mix.parquet
+meta:
+  name:
+    de-CH: External Electricity Production Mix
+  identifier: external_electricity_production_mix
+  metrics:
+  - id: share
+    label:
+      de-CH: Share
+  units:
+    share: '%'
