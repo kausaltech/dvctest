@@ -1,5 +1,5 @@
 outs:
-- md5: cec0c0a6e11fef68c4f29b8de5d379f9
-  size: 4596
+- md5: 6d0b8bb6c5fdd12065abefd3bf5a0b0f
+  size: 3891
   hash: md5
   path: greentransition.parquet
