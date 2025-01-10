@@ -1,9 +1,8 @@
 outs:
-- md5: f78d34285dd251ebfc2d92703fe4a549
-  size: 4367
+- md5: 887491ce37c9c58be4d326fd6bccf2e7
+  size: 4663
   hash: md5
   path: buildings_energy_consumption_emission_factor_revised.parquet
-  remote: kausal-s3-private
 meta:
   name:
     de-CH: Buildings energy consumption emission factor
