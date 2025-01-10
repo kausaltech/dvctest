@@ -1,8 +1,8 @@
 outs:
-- md5: 2c2a9065741e858a643d357e33d35136
-  size: 3002
+- md5: 5a02f6ed4dd9edf35d657cc4712a3265
+  size: 3215
+  hash: md5
   path: building_electricity_need.parquet
-  remote: kausal-s3-private
 meta:
   name:
     de-CH: Building electricity need
