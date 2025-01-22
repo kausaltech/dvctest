@@ -1,27 +1,22 @@
 outs:
-- md5: e799c900f90df49e58ac83266da30855
-  size: 5347
+- md5: dd56e08bfeb90808276e14f05b4e49c1
+  size: 5530
   hash: md5
   path: waste_incineration.parquet
-  remote: kausal-s3-private
 meta:
   name:
-    de-CH: Waste incineration
-    en: Waste incineration
+    de-CH: Waste Incineration
   identifier: waste_incineration
   metrics:
   - id: amount_of_waste
     label:
-      de-CH: Amount of waste
-      en: Amount of waste
+      de-CH: ''
   - id: share_of_fossil_co2
     label:
-      de-CH: Share of fossil CO2
-      en: Share of fossil CO2
+      de-CH: ''
   - id: share_of_ccs
     label:
-      de-CH: Share of CCS
-      en: Share of CCS
+      de-CH: ''
   units:
     amount_of_waste: t/a
     share_of_fossil_co2: '%'
