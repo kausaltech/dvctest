@@ -1,0 +1,5 @@
+outs:
+- md5: b09b296ac097c7773c749c9219183a96
+  size: 33558
+  hash: md5
+  path: athens_nzc.parquet
