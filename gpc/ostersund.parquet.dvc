@@ -1,5 +1,5 @@
 outs:
-- md5: 64ba9c3cb4b2cf335de7637431abd429
-  size: 8781
+- md5: e57693269662db997c10275f34326e9e
+  size: 8084
   hash: md5
   path: ostersund.parquet
