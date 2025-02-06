@@ -24,6 +24,7 @@
 /tampere_simple_actions.parquet
 /bytom_simple_actions.parquet
 /riga_simple_actions.parquet
-/aarhus.parquet
-/aarhus_simple_actions.parquet
-/athens_nzc.parquet
+/espoo.parquet
+/greentransition.parquet
+/greentransition_sample.parquet
+/dut_transport_nzc.parquet
