@@ -1,0 +1,15 @@
+outs:
+- md5: 04dcb10f8e4fcc02525c067f84a01200
+  size: 4733
+  hash: md5
+  path: solid_waste_indirect_emissions.parquet
+meta:
+  name:
+    de-CH: Solid Waste Indirect Emissions
+  identifier: solid_waste_indirect_emissions
+  metrics:
+  - id: emissions
+    label:
+      de-CH: Emissions
+  units:
+    emissions: t/a
