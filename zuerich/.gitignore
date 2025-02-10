@@ -68,3 +68,4 @@
 /transportation_infrastructure_emissions.parquet
 /transportation_energy_supply_chain_emissions.parquet
 /external_electricity_production_mix.parquet
+/solid_waste_fossil_emissions_share.parquet
