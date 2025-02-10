@@ -1,6 +1,6 @@
 outs:
-- md5: 6aeac43926ffd704b9d8029acc07e105
-  size: 4218
+- md5: b11d4509c78fd3b14aa42090b889ed8e
+  size: 3521
   hash: md5
   path: solid_waste_fossil_emissions_share.parquet
 meta:
@@ -8,8 +8,8 @@ meta:
     de-CH: Solid Waste Fossil Emissions Share
   identifier: solid_waste_fossil_emissions_share
   metrics:
-  - id: mix
+  - id: fraction
     label:
-      de-CH: Mix
+      de-CH: Fraction
   units:
-    mix: '%'
+    fraction: '%'
