@@ -1,0 +1,15 @@
+outs:
+- md5: 66bfb037ed28ad1c56201a67a8b4812a
+  size: 3284
+  hash: md5
+  path: biogas_processing_indirect_emissions.parquet
+meta:
+  name:
+    de-CH: Biogas Processing Indirect Emissions
+  identifier: biogas_processing_indirect_emissions
+  metrics:
+  - id: emissions
+    label:
+      de-CH: Emissions
+  units:
+    emissions: t/a
