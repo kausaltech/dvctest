@@ -1,6 +1,6 @@
 outs:
-- md5: 85a64b2a5c9d1938bdcb974e9f3f30ef
-  size: 3213
+- md5: cf50daa297f3bdffea11c3c96d28f731
+  size: 3320
   hash: md5
   path: biogas_processing_emissions.parquet
 meta:
@@ -12,4 +12,4 @@ meta:
     label:
       de-CH: Emissions
   units:
-    emissions: kt/a
+    emissions: t/a
