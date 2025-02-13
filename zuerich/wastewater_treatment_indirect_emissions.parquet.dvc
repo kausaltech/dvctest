@@ -1,0 +1,15 @@
+outs:
+- md5: e95100349bc66c82e43def2a621c6fcc
+  size: 4755
+  hash: md5
+  path: wastewater_treatment_indirect_emissions.parquet
+meta:
+  name:
+    de-CH: Wastewater Treatment Indirect Emissions
+  identifier: wastewater_treatment_indirect_emissions
+  metrics:
+  - id: emissions
+    label:
+      de-CH: Emissions
+  units:
+    emissions: t/a
