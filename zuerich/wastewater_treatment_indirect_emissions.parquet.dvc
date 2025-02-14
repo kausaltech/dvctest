@@ -1,5 +1,5 @@
 outs:
-- md5: e95100349bc66c82e43def2a621c6fcc
+- md5: dcc8eabcbb1435319dfef986e863bcb2
   size: 4755
   hash: md5
   path: wastewater_treatment_indirect_emissions.parquet
