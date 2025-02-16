@@ -1,0 +1,22 @@
+outs:
+- md5: a5f83884d4f625011e336aaa4709ab52
+  size: 10730
+  hash: md5
+  path: territorial_onroad_transportation.parquet
+meta:
+  name:
+    en: Territorial On-Road Transportation
+  metrics:
+    emission_factor:
+      label:
+        en: Emission_Factor
+    emissions:
+      label:
+        en: Emissions
+    mileage:
+      label:
+        en: Mileage
+  units:
+    mileage: km/a
+    emissions: kt/a
+    emission_factor: kg/km
