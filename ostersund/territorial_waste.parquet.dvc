@@ -1,0 +1,15 @@
+outs:
+- md5: b9db696a5df51462141311d886c4be77
+  size: 4351
+  hash: md5
+  path: territorial_waste.parquet
+meta:
+  name:
+    en: Territorial Waste
+  identifier: territorial_waste
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: kt/a
