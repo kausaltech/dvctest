@@ -1,0 +1,15 @@
+outs:
+- md5: 18585b9ab8b7a1919d420b13e528eb89
+  size: 7082
+  hash: md5
+  path: territorial_stationary.parquet
+meta:
+  name:
+    en: Territorial Stationary
+  identifier: territorial_stationary
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: kt/a
