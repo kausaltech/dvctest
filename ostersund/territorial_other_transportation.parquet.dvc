@@ -1,0 +1,15 @@
+outs:
+- md5: ef3c30c8bb6c6e55d60ba41c1b48ff2a
+  size: 5922
+  hash: md5
+  path: territorial_other_transportation.parquet
+meta:
+  name:
+    en: Territorial Other Transportation
+  identifier: territorial_other_transportation
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: kt/a
