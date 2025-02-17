@@ -1,0 +1,15 @@
+outs:
+- md5: b690b7421c393db0b4092f18abc1684b
+  size: 5272
+  hash: md5
+  path: territorial_ippu_and_afolu.parquet
+meta:
+  name:
+    en: Territorial IPPU and AFOLU
+  identifier: territorial_ippu_and_afolu
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: kt/a
