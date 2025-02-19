@@ -1,0 +1,15 @@
+outs:
+- md5: 8466de12760eed88c1229919497ef3e1
+  size: 6949
+  hash: md5
+  path: onroad_transportation.parquet
+meta:
+  name:
+    en: On-Road Transportation
+  identifier: onroad_transportation
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t/a
