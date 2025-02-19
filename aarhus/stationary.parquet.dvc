@@ -1,0 +1,15 @@
+outs:
+- md5: 5825da021f48444eb735beead0fdfe8b
+  size: 7045
+  hash: md5
+  path: stationary.parquet
+meta:
+  name:
+    en: Stationary
+  identifier: stationary
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t/a
