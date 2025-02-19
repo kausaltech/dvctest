@@ -1,0 +1,31 @@
+outs:
+- md5: 3510e2ab9fe67423202f9f02c052bb21
+  size: 8871
+  hash: md5
+  path: organizational_stationary.parquet
+meta:
+  name:
+    en: Organizational Stationary
+  identifier: organizational_stationary
+  metrics:
+  - id: currency
+    label:
+      en: Currency
+  - id: emission_factor_energy
+    label:
+      en: Emission Factor (Energy)
+  - id: emission_factor_fuel
+    label:
+      en: Emission Factor (Fuel)
+  - id: energy
+    label:
+      en: Energy
+  - id: fuel_consumption
+    label:
+      en: Fuel Consumption
+  units:
+    energy: GWh/a
+    emission_factor_fuel: kg/l
+    currency: kSEK/a
+    emission_factor_energy: t/GWh
+    fuel_consumption: l/a
