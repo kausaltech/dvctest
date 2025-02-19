@@ -1,0 +1,27 @@
+outs:
+- md5: 9f1004f6b94f89ae64444a6c32758d07
+  size: 7862
+  hash: md5
+  path: organizational_onroad_transportation.parquet
+meta:
+  name:
+    en: Organizational On-Road Transportation
+  identifier: organizational_onroad_transportation
+  metrics:
+  - id: currency
+    label:
+      en: Currency
+  - id: emission_factor
+    label:
+      en: Emission Factor
+  - id: emissions
+    label:
+      en: Emissions
+  - id: fuel_consumption
+    label:
+      en: Fuel Consumption
+  units:
+    fuel_consumption: l/a
+    currency: kSEK/a
+    emission_factor: kg/l
+    emissions: kt/a
