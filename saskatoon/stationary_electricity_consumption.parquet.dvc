@@ -1,6 +1,6 @@
 outs:
-- md5: 191873e6215ce09d858b1db12331b452
-  size: 3989
+- md5: 831164e52af61b0793ca67d1980ca2ea
+  size: 4164
   hash: md5
   path: stationary_electricity_consumption.parquet
 meta:
