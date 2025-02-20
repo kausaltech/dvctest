@@ -1,6 +1,6 @@
 outs:
-- md5: fb8d5aab8c17a297125de1735620723e
-  size: 2995
+- md5: 78eff6b2236180ab0f61ee75a76c3361
+  size: 3228
   hash: md5
   path: natural_gas_emission_factor.parquet
 meta:
