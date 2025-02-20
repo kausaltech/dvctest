@@ -1,6 +1,6 @@
 outs:
-- md5: ca38abae967ab1ff082bd0eac2e083cd
-  size: 3973
+- md5: d8339d5192b78033e12ca4fc5a257a2d
+  size: 4075
   hash: md5
   path: stationary_propane_consumption.parquet
 meta:
