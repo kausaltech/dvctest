@@ -1,6 +1,6 @@
 outs:
-- md5: d70c4aa479aaad843a65ec75efddaa02
-  size: 3095
+- md5: 20db395694852a124943be56708739ed
+  size: 3312
   hash: md5
   path: electricity_emission_factor.parquet
 meta:
