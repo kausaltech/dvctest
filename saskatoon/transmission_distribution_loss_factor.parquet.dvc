@@ -1,6 +1,6 @@
 outs:
-- md5: 9f70d63da731fe6cb66154b02aa37fac
-  size: 2933
+- md5: b7d2c1ffe4fc073328d502f6cc8ef674
+  size: 3180
   hash: md5
   path: transmission_distribution_loss_factor.parquet
 meta:
