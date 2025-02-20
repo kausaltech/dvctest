@@ -1,6 +1,6 @@
 outs:
-- md5: bff44d8de7d04643d11e314d70d3a898
-  size: 3138
+- md5: 3eef984fa14d9429e68e8c64c608880f
+  size: 3286
   hash: md5
   path: livestock_count.parquet
 meta:
