@@ -1,6 +1,6 @@
 outs:
-- md5: d6ee541a1dff9624b306cfba4f851dbf
-  size: 4247
+- md5: ae8406b8d1102235611f369898978f42
+  size: 4261
   hash: md5
   path: fuel_emission_factor.parquet
 meta:
