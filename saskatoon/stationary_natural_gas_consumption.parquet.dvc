@@ -1,6 +1,6 @@
 outs:
-- md5: 5671d27a981c128c82c36ba6803335d5
-  size: 3212
+- md5: 6c1ef921e1fe19a373a68b02cb78f657
+  size: 3449
   hash: md5
   path: stationary_natural_gas_consumption.parquet
 meta:
