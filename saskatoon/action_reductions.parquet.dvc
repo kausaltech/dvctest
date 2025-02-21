@@ -1,9 +1,22 @@
 outs:
-- md5: 478ed27e8ea8e3268541781a5637f73e
-  size: 186347
+- md5: 6ef2944c2d67980622f0c677117ed0e4
+  size: 147976
   hash: md5
   path: action_reductions.parquet
 meta:
+  name:
+    en: LEC Action Impacts
+  identifier: action_reductions
+  metrics:
+  - id: currency
+    label:
+      en: Currency
+  - id: emissions
+    label:
+      en: Emissions
+  - id: energy
+    label:
+      en: Energy
   units:
     currency: CAD/a
     emissions: kt/a
