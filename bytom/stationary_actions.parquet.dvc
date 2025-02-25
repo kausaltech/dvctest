@@ -1,0 +1,19 @@
+outs:
+- md5: 163a9889a9fc09a2220ae7cc94a21261
+  size: 5648
+  hash: md5
+  path: stationary_actions.parquet
+meta:
+  name:
+    en: Stationary Actions
+  identifier: stationary_actions
+  metrics:
+  - id: currency
+    label:
+      en: Currency
+  - id: number
+    label:
+      en: Number
+  units:
+    number: count/a
+    currency: PLN/a
