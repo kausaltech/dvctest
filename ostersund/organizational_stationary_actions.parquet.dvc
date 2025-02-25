@@ -1,0 +1,23 @@
+outs:
+- md5: 619e7e75f26653c9fb37f4bcdb2ee6ba
+  size: 7429
+  hash: md5
+  path: organizational_stationary_actions.parquet
+meta:
+  name:
+    en: Organizational Stationary Actions
+  identifier: organizational_stationary_actions
+  metrics:
+  - id: currency
+    label:
+      en: Currency
+  - id: emissions
+    label:
+      en: Emissions
+  - id: fuel_consumption
+    label:
+      en: Fuel Consumption
+  units:
+    currency: kSEK/a
+    emissions: t/a
+    fuel_consumption: l/a
