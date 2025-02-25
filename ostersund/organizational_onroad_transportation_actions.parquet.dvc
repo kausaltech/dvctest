@@ -1,0 +1,23 @@
+outs:
+- md5: bebde180b76d289ed76696d2a37360db
+  size: 7519
+  hash: md5
+  path: organizational_onroad_transportation_actions.parquet
+meta:
+  name:
+    en: Organizational On-Road Transportation Actions
+  identifier: organizational_onroad_transportation_actions
+  metrics:
+  - id: currency
+    label:
+      en: Currency
+  - id: emissions
+    label:
+      en: Emissions
+  - id: fuel_consumption
+    label:
+      en: Fuel Consumption
+  units:
+    fuel_consumption: l/a
+    currency: kSEK/a
+    emissions: kt/a
