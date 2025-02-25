@@ -1,0 +1,51 @@
+outs:
+- md5: 60cd87746d6b69fdb541b1eda5e03f99
+  size: 14666
+  hash: md5
+  path: stationary.parquet
+meta:
+  name:
+    en: Stationary
+  identifier: stationary
+  metrics:
+  - id: currency
+    label:
+      en: Currency
+  - id: emission_factor_energy
+    label:
+      en: Emission Factor (Energy)
+  - id: emission_factor_fuel
+    label:
+      en: Emission Factor (Fuel)
+  - id: emission_factor_number
+    label:
+      en: Emission Factor (Number)
+  - id: emissions
+    label:
+      en: Emissions
+  - id: energy
+    label:
+      en: Energy
+  - id: energy_factor
+    label:
+      en: Energy Factor
+  - id: fuel_consumption
+    label:
+      en: Fuel Consumption
+  - id: number
+    label:
+      en: Number
+  - id: unit_price
+    label:
+      en: Unit Price
+  units:
+    emission_factor_energy: kg/MWh
+    emission_factor_fuel: kg/m³
+    emissions: Mg/a
+    energy: MWh/a
+    energy_factor: kWh/count/a
+    emission_factor_number: kg/count/a
+    unit_price: PLN/kWh
+    fuel_consumption: m³/a
+    currency: PLN/a
+    number: count
