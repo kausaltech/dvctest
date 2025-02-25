@@ -1,0 +1,27 @@
+outs:
+- md5: e76141fda969dd781fce989f0ab2febc
+  size: 7777
+  hash: md5
+  path: waste.parquet
+meta:
+  name:
+    en: Waste
+  identifier: waste
+  metrics:
+  - id: emission_factor_mass
+    label:
+      en: Emission Factor (Mass)
+  - id: emission_factor_volume
+    label:
+      en: Emission Factor (Volume)
+  - id: mass
+    label:
+      en: Mass
+  - id: volume
+    label:
+      en: Volume
+  units:
+    volume: m³/a
+    mass: Mg/a
+    emission_factor_volume: kg/m³
+    emission_factor_mass: kg/Mg
