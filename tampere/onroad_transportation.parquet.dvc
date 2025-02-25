@@ -1,0 +1,23 @@
+outs:
+- md5: ee56e8ac17023bc5b95e1c69909fa877
+  size: 8590
+  hash: md5
+  path: onroad_transportation.parquet
+meta:
+  name:
+    en: On-Road Transportation
+  identifier: onroad_transportation
+  metrics:
+  - id: emission_factor
+    label:
+      en: Emission Factor
+  - id: emissions
+    label:
+      en: Emissions
+  - id: mileage
+    label:
+      en: Mileage
+  units:
+    emissions: kt/a
+    mileage: Mvkm/a
+    emission_factor: g/vkm
