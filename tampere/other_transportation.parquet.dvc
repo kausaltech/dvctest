@@ -1,0 +1,19 @@
+outs:
+- md5: 28075fa834c95eea86c0e23130e4eb4c
+  size: 6248
+  hash: md5
+  path: other_transportation.parquet
+meta:
+  name:
+    en: Other Transportation
+  identifier: other_transportation
+  metrics:
+  - id: emission_factor
+    label:
+      en: Emission Factor
+  - id: mileage
+    label:
+      en: Mileage
+  units:
+    emission_factor: g/vkm
+    mileage: Mvkm/a
