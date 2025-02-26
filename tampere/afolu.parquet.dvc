@@ -1,0 +1,15 @@
+outs:
+- md5: 9c53c26e3ac1152d6be5227fd3a9068a
+  size: 4150
+  hash: md5
+  path: afolu.parquet
+meta:
+  name:
+    en: AFOLU
+  identifier: afolu
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: kt/a
