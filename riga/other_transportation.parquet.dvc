@@ -1,0 +1,27 @@
+outs:
+- md5: 290bc2c9ea3ce06e560b7cdeeb98c8ac
+  size: 8711
+  hash: md5
+  path: other_transportation.parquet
+meta:
+  name:
+    en: Other Transportation
+  identifier: other_transportation
+  metrics:
+  - id: emission_factor
+    label:
+      en: Emission Factor
+  - id: emissions
+    label:
+      en: Emissions
+  - id: energy
+    label:
+      en: Energy
+  - id: fuel_consumption
+    label:
+      en: Fuel Consumption
+  units:
+    emission_factor: t/MWh
+    energy: MWh/a
+    emissions: kt/a
+    fuel_consumption: MWh/a
