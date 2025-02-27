@@ -1,0 +1,27 @@
+outs:
+- md5: 8d318f92b4126af4a6e829f46e42f2e9
+  size: 9991
+  hash: md5
+  path: stationary.parquet
+meta:
+  name:
+    en: Stationary
+  identifier: stationary
+  metrics:
+  - id: emission_factor
+    label:
+      en: Emission Factor
+  - id: emissions
+    label:
+      en: Emissions
+  - id: energy
+    label:
+      en: Energy
+  - id: unit_price
+    label:
+      en: Unit Price
+  units:
+    unit_price: EUR/MWh
+    emission_factor: t/MWh
+    emissions: t/a
+    energy: MWh/a
