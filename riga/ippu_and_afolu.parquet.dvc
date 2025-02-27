@@ -1,0 +1,15 @@
+outs:
+- md5: de528bff794b71d235ee09764e33af1f
+  size: 4532
+  hash: md5
+  path: ippu_and_afolu.parquet
+meta:
+  name:
+    en: IPPU and AFOLU
+  identifier: ippu_and_afolu
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: kt/a
