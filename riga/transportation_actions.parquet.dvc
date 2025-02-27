@@ -1,0 +1,19 @@
+outs:
+- md5: 3d471b2d92d1c97c5d2cc96861c738ac
+  size: 5977
+  hash: md5
+  path: transportation_actions.parquet
+meta:
+  name:
+    en: Transportation Actions
+  identifier: transportation_actions
+  metrics:
+  - id: currency
+    label:
+      en: Currency
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t/a
+    currency: EUR/a
