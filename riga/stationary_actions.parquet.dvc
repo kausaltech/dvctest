@@ -1,6 +1,6 @@
 outs:
-- md5: 72e77e1ad96bcd838e5b6c0ceb05a643
-  size: 7418
+- md5: 244de1e3171313a67054e2c75500e5c9
+  size: 9633
   hash: md5
   path: stationary_actions.parquet
 meta:
@@ -14,6 +14,10 @@ meta:
   - id: emissions
     label:
       en: Emissions
+  - id: energy
+    label:
+      en: Energy
   units:
+    energy: MWh/a
     emissions: t/a
     currency: EUR/a
