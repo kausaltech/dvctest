@@ -1,5 +1,5 @@
 outs:
-- md5: e01fc26e4aec55b2444efadd9bbb2324
-  size: 9506
+- md5: a52d2ff2ee0b953cf86cfcef6c733510
+  size: 10559
   hash: md5
   path: dinspec.parquet
