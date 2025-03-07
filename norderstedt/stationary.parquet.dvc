@@ -1,0 +1,27 @@
+outs:
+- md5: e363ff116a3fd3f9c27cf93399b37d03
+  size: 7912
+  hash: md5
+  path: stationary.parquet
+meta:
+  name:
+    en: Stationary
+  identifier: stationary
+  metrics:
+  - id: emission_factor
+    label:
+      en: Emission Factor
+  - id: emissions
+    label:
+      en: Emissions
+  - id: energy
+    label:
+      en: Energy
+  - id: unit_price
+    label:
+      en: Unit Price
+  units:
+    emission_factor: kg/kWh
+    emissions: kg/a
+    unit_price: EUR/kWh
+    energy: kWh/a
