@@ -1,0 +1,19 @@
+outs:
+- md5: eee39bd8ca478c8944809dffcf274b69
+  size: 6226
+  hash: md5
+  path: afolu_actions.parquet
+meta:
+  name:
+    en: AFOLU Actions
+  identifier: afolu_actions
+  metrics:
+  - id: currency
+    label:
+      en: Currency
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    currency: EUR/a
+    emissions: kg/a
