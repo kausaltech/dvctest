@@ -72,3 +72,4 @@
 /solid_waste_indirect_emissions.parquet
 /biogas_processing_indirect_emissions.parquet
 /wastewater_treatment_indirect_emissions.parquet
+/transportation_demand_goals.parquet

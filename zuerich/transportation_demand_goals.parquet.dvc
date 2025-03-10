@@ -1,0 +1,15 @@
+outs:
+- md5: 6c18311092b03b2aacae0c518c39ef7a
+  size: 2603
+  hash: md5
+  path: transportation_demand_goals.parquet
+meta:
+  name:
+    de-CH: Transportation Demand Goals
+  identifier: transportation_demand_goals
+  metrics:
+  - id: per_capita
+    label:
+      de-CH: Per Capita
+  units:
+    per_capita: pkm/cap/a
