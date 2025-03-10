@@ -1,6 +1,6 @@
 outs:
-- md5: e363ff116a3fd3f9c27cf93399b37d03
-  size: 7912
+- md5: 3db3cc1faba9baf864e91a2074686874
+  size: 7899
   hash: md5
   path: stationary.parquet
 meta:
@@ -21,7 +21,7 @@ meta:
     label:
       en: Unit Price
   units:
-    emission_factor: kg/kWh
     emissions: kg/a
-    unit_price: EUR/kWh
     energy: kWh/a
+    unit_price: EUR/kWh
+    emission_factor: kg/kWh
