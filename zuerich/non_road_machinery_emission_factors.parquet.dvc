@@ -1,9 +1,8 @@
 outs:
-- md5: b211a8d46316293379d88ea0a89821b2
-  size: 4768
+- md5: 910975beb3fcca587218dd6ba553a978
+  size: 4823
   hash: md5
   path: non_road_machinery_emission_factors.parquet
-  remote: kausal-s3-private
 meta:
   name:
     de-CH: Non-road machinery emission factors
