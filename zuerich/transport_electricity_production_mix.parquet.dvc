@@ -1,9 +1,8 @@
 outs:
-- md5: af9cf37bf3641923793cf4dd1b09b275
-  size: 4087
+- md5: d0d514d7ea6deeefb8e2774f96ecc6a5
+  size: 4314
   hash: md5
   path: transport_electricity_production_mix.parquet
-  remote: kausal-s3-private
 meta:
   name:
     de-CH: Transport Electricity Production Mix
