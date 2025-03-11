@@ -1,9 +1,8 @@
 outs:
-- md5: 10bf8d9d4cbeb5fe2348213a2c1f76e6
-  size: 2240
+- md5: b47d4491f50fec0d5402498e1880e243
+  size: 2571
   hash: md5
   path: transport_externally_supplied_electricity.parquet
-  remote: kausal-s3-private
 meta:
   name:
     de-CH: Transport Externally Supplied Electricity
