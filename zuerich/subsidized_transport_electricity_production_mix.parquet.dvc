@@ -1,9 +1,8 @@
 outs:
-- md5: e2229be0bad36a62d2b85e015fc2122b
-  size: 3433
+- md5: 9c245c0ed512c35e61aefaea6f8ac685
+  size: 3703
   hash: md5
   path: subsidized_transport_electricity_production_mix.parquet
-  remote: kausal-s3-private
 meta:
   name:
     de-CH: Subsidized Transport Electricity Production Mix
