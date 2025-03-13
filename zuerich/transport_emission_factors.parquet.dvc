@@ -1,6 +1,6 @@
 outs:
-- md5: b3d6997340cf42698e2cbdfdbcfd4b2a
-  size: 9886
+- md5: b896bbd486569862f72049ce4ea6b0a9
+  size: 9163
   hash: md5
   path: transport_emission_factors.parquet
 meta:
