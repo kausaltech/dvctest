@@ -1,0 +1,15 @@
+outs:
+- md5: 68c24eb6a2a639e7187949f140dc95b5
+  size: 18818
+  hash: md5
+  path: stationary_inventory.parquet
+meta:
+  name:
+    en: Stationary Inventory
+  identifier: stationary_inventory
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t_co2e/a
