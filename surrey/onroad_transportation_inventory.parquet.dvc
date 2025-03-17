@@ -1,0 +1,15 @@
+outs:
+- md5: 60e352d68fb66b4735c75fe2a9971f3c
+  size: 7732
+  hash: md5
+  path: onroad_transportation_inventory.parquet
+meta:
+  name:
+    en: On-Road Transportation Inventory
+  identifier: onroad_transportation_inventory
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t_co2e/a

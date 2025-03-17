@@ -11,3 +11,4 @@
 /building_emissions.parquet
 /stationary_energy_consumption.parquet
 /stationary_inventory.parquet
+/onroad_transportation_inventory.parquet
