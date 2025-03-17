@@ -1,6 +1,6 @@
 outs:
-- md5: 05f239342c31531417735c8ed5f194c6
-  size: 4986
+- md5: 20f1467088a8575f254aef1204fa41eb
+  size: 4991
   hash: md5
   path: emissions_forecast_baseline.parquet
 meta:
@@ -12,4 +12,4 @@ meta:
     label:
       en: Emissions
   units:
-    emissions: t/a
+    emissions: t_co2e/a
