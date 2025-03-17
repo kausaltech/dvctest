@@ -1,0 +1,15 @@
+outs:
+- md5: 32a6a4d06b45ab3cff66a1f442b3d654
+  size: 7862
+  hash: md5
+  path: emissions_forecast_actions.parquet
+meta:
+  name:
+    en: Emissions Forecast Actions
+  identifier: emissions_forecast_actions
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t/a

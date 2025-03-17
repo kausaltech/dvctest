@@ -15,3 +15,4 @@
 /other_transportation_inventory.parquet
 /waste_inventory.parquet
 /emissions_forecast_baseline.parquet
+/emissions_forecast_actions.parquet
