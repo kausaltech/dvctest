@@ -1,0 +1,15 @@
+outs:
+- md5: 353a0de957c1f3a470ba6197d6b365f0
+  size: 9543
+  hash: md5
+  path: other_transportation_inventory.parquet
+meta:
+  name:
+    en: Other Transportation Inventory
+  identifier: other_transportation_inventory
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t_co2e/a

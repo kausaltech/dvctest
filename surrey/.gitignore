@@ -12,3 +12,4 @@
 /stationary_energy_consumption.parquet
 /stationary_inventory.parquet
 /onroad_transportation_inventory.parquet
+/other_transportation_inventory.parquet
