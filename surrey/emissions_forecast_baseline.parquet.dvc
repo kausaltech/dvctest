@@ -1,0 +1,15 @@
+outs:
+- md5: 05f239342c31531417735c8ed5f194c6
+  size: 4986
+  hash: md5
+  path: emissions_forecast_baseline.parquet
+meta:
+  name:
+    en: Emissions Forecast Baseline
+  identifier: emissions_forecast_baseline
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t/a

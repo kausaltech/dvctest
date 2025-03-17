@@ -14,3 +14,4 @@
 /onroad_transportation_inventory.parquet
 /other_transportation_inventory.parquet
 /waste_inventory.parquet
+/emissions_forecast_baseline.parquet
