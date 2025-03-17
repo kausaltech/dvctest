@@ -1,0 +1,15 @@
+outs:
+- md5: 59b582a5258726bb402caf15ca80b015
+  size: 4859
+  hash: md5
+  path: waste_inventory.parquet
+meta:
+  name:
+    en: Waste Inventory
+  identifier: waste_inventory
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t_co2e/a
