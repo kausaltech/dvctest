@@ -1,0 +1,8 @@
+outs:
+- md5: 0dcaa5b838c445ddf12359494f739164
+  size: 4992
+  hash: md5
+  path: shkhenkilautojen_kasvu.parquet
+meta:
+  units:
+    Value: vehicles
