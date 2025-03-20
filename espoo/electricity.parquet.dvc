@@ -1,0 +1,5 @@
+outs:
+- md5: 72a7fe8305df1ad8231c8bdaba32e628
+  size: 6104
+  hash: md5
+  path: electricity.parquet

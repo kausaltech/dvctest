@@ -12,3 +12,4 @@
 /electric_heating_emission_factor_trajectories.parquet
 /building_energy_use_intensity_trajectories.parquet
 /waste.parquet
+/electricity.parquet
