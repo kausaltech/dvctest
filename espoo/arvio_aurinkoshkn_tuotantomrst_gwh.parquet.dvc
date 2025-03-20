@@ -1,9 +1,10 @@
 outs:
-- md5: 3f7d04238cbb8d71062a512eb2abb5c4
-  size: 4675
+- md5: 602ff6ecfccf617eba8189a4e0dab424
+  size: 4691
   hash: md5
   path: arvio_aurinkoshkn_tuotantomrst_gwh.parquet
 meta:
-  name: Arvio aurinkosähkön tuotantomäärästä (GWh)
+  name:
+    fi: Arvio aurinkosähkön tuotantomäärästä (GWh)
   units:
     Value: GWh/a
