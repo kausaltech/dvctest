@@ -1,0 +1,8 @@
+outs:
+- md5: 164481403cc8ae52e583981dff66f3f3
+  size: 4400
+  hash: md5
+  path: jakeluvelvoite.parquet
+meta:
+  units:
+    Value: dimensionless
