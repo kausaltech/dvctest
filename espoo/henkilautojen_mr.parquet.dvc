@@ -1,0 +1,8 @@
+outs:
+- md5: 55314d627a3c519b158387ce18774d4f
+  size: 5039
+  hash: md5
+  path: henkilautojen_mr.parquet
+meta:
+  units:
+    Value: vehicles
