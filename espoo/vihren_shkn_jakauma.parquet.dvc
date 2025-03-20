@@ -1,0 +1,8 @@
+outs:
+- md5: 1f01a99b875497da7683659a00337dad
+  size: 5047
+  hash: md5
+  path: vihren_shkn_jakauma.parquet
+meta:
+  units:
+    Value: dimensionless
