@@ -1,0 +1,8 @@
+outs:
+- md5: 05fc1c380d572cfaf467de0bc8b96c8d
+  size: 4326
+  hash: md5
+  path: kuorma_autoliikenteen_kerroin.parquet
+meta:
+  units:
+    Value: kt/a
