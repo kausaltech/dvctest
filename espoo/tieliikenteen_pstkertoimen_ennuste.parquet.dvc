@@ -1,0 +1,8 @@
+outs:
+- md5: 1c9749d230812b9be1f990ae5cde29aa
+  size: 5420
+  hash: md5
+  path: tieliikenteen_pstkertoimen_ennuste.parquet
+meta:
+  units:
+    Value: g/kWh
