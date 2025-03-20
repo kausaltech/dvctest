@@ -1,0 +1,8 @@
+outs:
+- md5: 862125a7f932f69bd4acef984be301d5
+  size: 5794
+  hash: md5
+  path: kaupungin_oman_rakennuskannan_energiankulutuksen_vhennys.parquet
+meta:
+  units:
+    Value: GWh/a
