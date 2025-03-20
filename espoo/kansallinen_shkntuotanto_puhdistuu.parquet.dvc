@@ -1,0 +1,8 @@
+outs:
+- md5: 1ec75ad1ea1be5fb04ed51abe7155e55
+  size: 4567
+  hash: md5
+  path: kansallinen_shkntuotanto_puhdistuu.parquet
+meta:
+  units:
+    Value: t/GWh
