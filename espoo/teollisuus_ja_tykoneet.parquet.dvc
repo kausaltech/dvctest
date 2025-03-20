@@ -1,0 +1,8 @@
+outs:
+- md5: 392f151d00f2d53e6c74309cc7c26a5e
+  size: 6268
+  hash: md5
+  path: teollisuus_ja_tykoneet.parquet
+meta:
+  units:
+    Value: dimensionless
