@@ -1,15 +1,8 @@
 outs:
-- md5: 9444e7bd0b35ede2aade57c0a7d0ea49
-  size: 3239
+- md5: 1fc3adce1cc3b81cfa46e5af3f8aa9a2
+  size: 5016
   hash: md5
   path: waste_treatment_goals.parquet
 meta:
-  name:
-    fi: Waste treatment goals
-  identifier: waste_treatment_goals
-  metrics:
-  - id: ratio
-    label:
-      fi: ratio
   units:
-    ratio: '%'
+    Value: dimensionless
