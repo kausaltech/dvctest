@@ -1,0 +1,8 @@
+outs:
+- md5: 2329e636b19268cf370921196be45716
+  size: 4412
+  hash: md5
+  path: muutos_kulutusshkn_kytss_asuminen.parquet
+meta:
+  units:
+    Value: GWh/a
