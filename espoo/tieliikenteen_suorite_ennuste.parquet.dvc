@@ -1,0 +1,8 @@
+outs:
+- md5: f419b6251976225853359031513730ff
+  size: 5214
+  hash: md5
+  path: tieliikenteen_suorite_ennuste.parquet
+meta:
+  units:
+    Value: GWh/a
