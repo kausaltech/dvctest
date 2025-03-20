@@ -1,0 +1,8 @@
+outs:
+- md5: ca80302be539c0e54381492113f984ae
+  size: 4493
+  hash: md5
+  path: kaukolmmn_pstkerrointavoite.parquet
+meta:
+  units:
+    Value: g/kWh
