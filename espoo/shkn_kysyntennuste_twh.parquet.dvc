@@ -1,0 +1,8 @@
+outs:
+- md5: c6f03673a87624b6b1594420dcc8c9fc
+  size: 4369
+  hash: md5
+  path: shkn_kysyntennuste_twh.parquet
+meta:
+  units:
+    Value: TWh/a
