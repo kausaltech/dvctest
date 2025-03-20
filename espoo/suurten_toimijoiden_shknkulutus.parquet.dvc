@@ -1,0 +1,8 @@
+outs:
+- md5: df77960abb9a6d3b3cd0b837ea44fae0
+  size: 5039
+  hash: md5
+  path: suurten_toimijoiden_shknkulutus.parquet
+meta:
+  units:
+    Value: GWh/a
