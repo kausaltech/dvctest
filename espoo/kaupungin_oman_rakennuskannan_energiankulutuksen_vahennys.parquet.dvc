@@ -1,6 +1,6 @@
 outs:
-- md5: 75bc350b2c930b106a992f0493cd6fb8
-  size: 4208
+- md5: 4084ba4eb8c2d0dff4bf6946de64e4fb
+  size: 4193
   hash: md5
   path: kaupungin_oman_rakennuskannan_energiankulutuksen_vahennys.parquet
 meta:
