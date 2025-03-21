@@ -1,0 +1,10 @@
+outs:
+- md5: f84b0b0ccec984df0b2d201930fa8278
+  size: 2861
+  hash: md5
+  path: sahkon_kysyntaennuste_twh.parquet
+meta:
+  name:
+    fi: Sähkön kysyntäennuste (TWh)
+  units:
+    Value: TWh/a
