@@ -1,0 +1,10 @@
+outs:
+- md5: d0231d75145fc86a3e6c6ac71ff70dc7
+  size: 2884
+  hash: md5
+  path: muutos_kulutussahkon_kaytossa_asuminen.parquet
+meta:
+  name:
+    fi: Muutos kulutussähkön käytössä (Asuminen)
+  units:
+    Value: GWh/a
