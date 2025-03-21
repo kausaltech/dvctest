@@ -1,0 +1,10 @@
+outs:
+- md5: ac6380e058ead4b3362ab080f701b37c
+  size: 3528
+  hash: md5
+  path: vihrean_sahkon_jakauma.parquet
+meta:
+  name:
+    fi: Vihreän sähkön jakauma
+  units:
+    Value: dimensionless
