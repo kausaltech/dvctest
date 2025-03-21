@@ -1,0 +1,10 @@
+outs:
+- md5: 61348234a695508753f999269ab5dcb2
+  size: 3490
+  hash: md5
+  path: sahkohenkiloautojen_kasvu.parquet
+meta:
+  name:
+    fi: Sähköhenkilöautojen kasvu
+  units:
+    Value: vehicles
