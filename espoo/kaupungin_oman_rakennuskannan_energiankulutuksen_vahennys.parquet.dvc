@@ -1,0 +1,10 @@
+outs:
+- md5: 75bc350b2c930b106a992f0493cd6fb8
+  size: 4208
+  hash: md5
+  path: kaupungin_oman_rakennuskannan_energiankulutuksen_vahennys.parquet
+meta:
+  name:
+    fi: Kaupungin oman rakennuskannan energiankulutuksen vähennys
+  units:
+    Value: GWh/a
