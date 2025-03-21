@@ -1,8 +1,10 @@
 outs:
-- md5: 6eec8f4c8dbb0da54c32a8ec1c62e06e
-  size: 3928
+- md5: a025480df12aee7fee15fa6516d82df1
+  size: 2290
   hash: md5
   path: liikenteen_fossiilisten_polttoaineiden_korvaaminen.parquet
 meta:
+  name:
+    fi: Liikenteen fossiilisten polttoaineiden korvaaminen
   units:
     Value: dimensionless
