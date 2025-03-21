@@ -1,0 +1,10 @@
+outs:
+- md5: 01884c302d10a92ae3df55f16531e8b5
+  size: 4042
+  hash: md5
+  path: jatteenkasittelyn_tavoite.parquet
+meta:
+  name:
+    fi: Jätteenkäsittelyn tavoite
+  units:
+    Value: dimensionless
