@@ -1,8 +1,10 @@
 outs:
-- md5: 1fc3adce1cc3b81cfa46e5af3f8aa9a2
-  size: 5016
+- md5: d08e35b9d21c9fe1828cee36975d2ae4
+  size: 4009
   hash: md5
   path: waste_treatment_goals.parquet
 meta:
+  name:
+    fi: Waste treatment goals
   units:
     Value: dimensionless
