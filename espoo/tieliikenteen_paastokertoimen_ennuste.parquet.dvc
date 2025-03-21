@@ -1,0 +1,10 @@
+outs:
+- md5: 355b9171a82ef0bb17862414d4005df1
+  size: 3852
+  hash: md5
+  path: tieliikenteen_paastokertoimen_ennuste.parquet
+meta:
+  name:
+    fi: Tieliikenteen päästökertoimen ennuste
+  units:
+    Value: g/kWh
