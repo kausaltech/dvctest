@@ -1,0 +1,10 @@
+outs:
+- md5: 1369ba558f12c771164562e3904853d4
+  size: 3557
+  hash: md5
+  path: henkiloautojen_maara.parquet
+meta:
+  name:
+    fi: Henkilöautojen määrä
+  units:
+    Value: vehicles
