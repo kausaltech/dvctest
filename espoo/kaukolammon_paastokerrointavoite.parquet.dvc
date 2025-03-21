@@ -1,0 +1,10 @@
+outs:
+- md5: 386a6106dcb19c2f5e363652f580276d
+  size: 2947
+  hash: md5
+  path: kaukolammon_paastokerrointavoite.parquet
+meta:
+  name:
+    fi: Kaukolämmön päästökerrointavoite
+  units:
+    Value: g/kWh
