@@ -1,0 +1,10 @@
+outs:
+- md5: 7d80a06e83d882ec77bbec11d2ed19da
+  size: 4717
+  hash: md5
+  path: teollisuus_ja_tyokoneet.parquet
+meta:
+  name:
+    fi: Teollisuus ja työkoneet
+  units:
+    Value: dimensionless
