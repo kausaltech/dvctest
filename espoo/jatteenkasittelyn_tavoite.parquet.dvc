@@ -1,6 +1,6 @@
 outs:
-- md5: 01884c302d10a92ae3df55f16531e8b5
-  size: 4042
+- md5: 16fc9c5946e874b06acf1997eb0c35c5
+  size: 3510
   hash: md5
   path: jatteenkasittelyn_tavoite.parquet
 meta:
