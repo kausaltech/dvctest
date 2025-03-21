@@ -1,8 +1,10 @@
 outs:
-- md5: 05fc1c380d572cfaf467de0bc8b96c8d
-  size: 4326
+- md5: a80acfd0500ca253500ebcaedd746964
+  size: 2792
   hash: md5
   path: kuorma_autoliikenteen_kerroin.parquet
 meta:
+  name:
+    fi: Kuorma-autoliikenteen kerroin
   units:
     Value: kt/a
