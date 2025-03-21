@@ -1,0 +1,10 @@
+outs:
+- md5: a2a5a090a1de32c7c4ab0319eabe0514
+  size: 2990
+  hash: md5
+  path: kansallinen_sahkontuotanto_puhdistuu.parquet
+meta:
+  name:
+    fi: Kansallinen sähköntuotanto puhdistuu
+  units:
+    Value: t/GWh
