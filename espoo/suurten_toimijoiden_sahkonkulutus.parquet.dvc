@@ -1,0 +1,10 @@
+outs:
+- md5: a7fbbf3e0cd1ccef230a2eb5b03e1fe4
+  size: 3519
+  hash: md5
+  path: suurten_toimijoiden_sahkonkulutus.parquet
+meta:
+  name:
+    fi: Suurten toimijoiden sähkönkulutus
+  units:
+    Value: GWh/a
