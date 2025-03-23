@@ -1,5 +1,5 @@
 outs:
-- md5: aac0327d71f9ae540e06059b2db64575
+- md5: 78df019435d1a6e421df8a5d86848d97
   size: 3855
   hash: md5
   path: waste.parquet
@@ -9,6 +9,6 @@ meta:
   metrics:
   - id: ratio
     label: Jätteenkäsittelyn tavoite
-  updated_at: '1742701659'
+  updated_at: '1742701882'
   units:
     Jätteenkäsittelyn tavoite: dimensionless
