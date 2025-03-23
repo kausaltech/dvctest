@@ -1,0 +1,32 @@
+outs:
+- md5: 52263b932377dde51a9aafea11162a30
+  size: 11853
+  hash: md5
+  path: transport.parquet
+meta:
+  name:
+    fi: transport
+  metrics:
+  - id: Amount
+    label: Henkilöautojen määrä
+  - id: Amount
+    label: Sähköhenkilöautojen kasvu
+  - id: energy
+    label: Tieliikenteen suorite-ennuste
+  - id: Emissions
+    label: Kuorma-autoliikenteen kerroin
+  - id: emission_factor
+    label: Tieliikenteen päästökertoimen ennuste
+  - id: fraction
+    label: Liikenteen fossiilisten polttoaineiden korvaaminen
+  - id: Fraction
+    label: Jakeluvelvoite
+  updated_at: '1742701664'
+  units:
+    Kuorma-autoliikenteen kerroin: kt/a
+    Liikenteen fossiilisten polttoaineiden korvaaminen: dimensionless
+    Tieliikenteen suorite-ennuste: GWh/a
+    Sähköhenkilöautojen kasvu: vehicles
+    Jakeluvelvoite: dimensionless
+    Tieliikenteen päästökertoimen ennuste: g/kWh
+    Henkilöautojen määrä: vehicles
