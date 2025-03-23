@@ -1,5 +1,29 @@
 outs:
-- md5: 72a7fe8305df1ad8231c8bdaba32e628
-  size: 6104
+- md5: 31761b51aa7d51d8d7df88eb41d9a2e5
+  size: 10039
   hash: md5
   path: electricity.parquet
+meta:
+  name:
+    fi: electricity
+  metrics:
+  - id: Energy
+    label: Arvio aurinkosähkön tuotantomäärästä (GWh)
+  - id: ratio
+    label: Vihreän sähkön jakauma
+  - id: Energy
+    label: Suurten toimijoiden sähkönkulutus
+  - id: Energy
+    label: Sähkön kysyntäennuste (TWh)
+  - id: Emission factor
+    label: Kansallinen sähköntuotanto puhdistuu
+  - id: Energy
+    label: Muutos kulutussähkön käytössä (Asuminen)
+  updated_at: '1742701667'
+  units:
+    Kansallinen sähköntuotanto puhdistuu: t/GWh
+    Arvio aurinkosähkön tuotantomäärästä (GWh): GWh/a
+    Suurten toimijoiden sähkönkulutus: GWh/a
+    Sähkön kysyntäennuste (TWh): TWh/a
+    Vihreän sähkön jakauma: dimensionless
+    Muutos kulutussähkön käytössä (Asuminen): GWh/a
