@@ -1,27 +1,32 @@
 outs:
-- md5: 5f194fd76c556eb80ba735fff5833613
-  size: 11099
+- md5: 6e108fd28ac67db406ac09beae662bdd
+  size: 11454
   hash: md5
   path: stationary.parquet
 meta:
   name:
     en: Stationary
+    fi: Kiinteät Lähteet
   identifier: stationary
   metrics:
   - id: emission_factor
     label:
       en: Emission Factor
+      fi: Päästökerroin
   - id: emissions
     label:
       en: Emissions
+      fi: Päästöt
   - id: energy
     label:
       en: Energy
+      fi: Energiaa
   - id: unit_price
     label:
       en: Unit Price
+      fi: Yksikköhinta
   units:
-    emission_factor: t/GWh
-    unit_price: EUR/kWh
     energy: GWh/a
+    emission_factor: t/GWh
     emissions: kt/a
+    unit_price: EUR/kWh
