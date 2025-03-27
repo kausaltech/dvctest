@@ -1,19 +1,22 @@
 outs:
-- md5: 28075fa834c95eea86c0e23130e4eb4c
-  size: 6248
+- md5: 8c4ddfef08e4a5d399b3f152b29c6e54
+  size: 6430
   hash: md5
   path: other_transportation.parquet
 meta:
   name:
     en: Other Transportation
+    fi: Muu Liikenne
   identifier: other_transportation
   metrics:
   - id: emission_factor
     label:
       en: Emission Factor
+      fi: Päästökerroin
   - id: mileage
     label:
       en: Mileage
+      fi: Suorite
   units:
     emission_factor: g/vkm
     mileage: Mvkm/a
