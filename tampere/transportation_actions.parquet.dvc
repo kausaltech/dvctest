@@ -1,19 +1,22 @@
 outs:
-- md5: a0173b4ffcddfeed2ca3665f48049ccc
-  size: 7056
+- md5: 8f90146af270bd97db1c957ae58f5ced
+  size: 7244
   hash: md5
   path: transportation_actions.parquet
 meta:
   name:
     en: Transportation Actions
+    fi: Toimenpiteet - Liikenne
   identifier: transportation_actions
   metrics:
   - id: currency
     label:
       en: Currency
+      fi: Kustannus
   - id: emissions
     label:
       en: Emissions
+      fi: Päästöt
   units:
-    currency: EUR/a
     emissions: t/a
+    currency: EUR/a
