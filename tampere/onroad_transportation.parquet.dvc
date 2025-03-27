@@ -1,23 +1,27 @@
 outs:
-- md5: ee56e8ac17023bc5b95e1c69909fa877
-  size: 8590
+- md5: 77c109569b86b724cf26b573acb071b3
+  size: 8833
   hash: md5
   path: onroad_transportation.parquet
 meta:
   name:
     en: On-Road Transportation
+    fi: Tieliikenne
   identifier: onroad_transportation
   metrics:
   - id: emission_factor
     label:
       en: Emission Factor
+      fi: Päästökerroin
   - id: emissions
     label:
       en: Emissions
+      fi: Päästöt
   - id: mileage
     label:
       en: Mileage
+      fi: Suorite
   units:
+    emission_factor: g/vkm
     emissions: kt/a
     mileage: Mvkm/a
-    emission_factor: g/vkm
