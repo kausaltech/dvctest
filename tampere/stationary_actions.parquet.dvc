@@ -1,27 +1,32 @@
 outs:
-- md5: da004a74aff5a4ec9150fbf0c0e0ab2d
-  size: 10074
+- md5: 93902a90d55ee3147c1ee3467c86de1a
+  size: 10418
   hash: md5
   path: stationary_actions.parquet
 meta:
   name:
     en: Stationary Actions
+    fi: Toimenpiteet - Kiinteät Lähteet
   identifier: stationary_actions
   metrics:
   - id: currency
     label:
       en: Currency
+      fi: Kustannus
   - id: emission_factor
     label:
       en: Emission Factor
+      fi: Päästökerroin
   - id: emissions
     label:
       en: Emissions
+      fi: Päästöt
   - id: energy
     label:
       en: Energy
+      fi: Energiaa
   units:
     currency: EUR/a
-    emissions: t/a
     emission_factor: t/GWh
     energy: GWh/a
+    emissions: t/a
