@@ -1,15 +1,17 @@
 outs:
-- md5: c68afdf9af471b5f4a83985b9bdf4a17
-  size: 4192
+- md5: 0a163ace6f9a16ac2f414493fb345062
+  size: 4308
   hash: md5
   path: waste.parquet
 meta:
   name:
     en: Waste
+    fi: Jäte
   identifier: waste
   metrics:
   - id: emissions
     label:
       en: Emissions
+      fi: Päästöt
   units:
     emissions: kt/a
