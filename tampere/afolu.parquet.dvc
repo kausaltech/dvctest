@@ -1,15 +1,17 @@
 outs:
-- md5: 9c53c26e3ac1152d6be5227fd3a9068a
-  size: 4150
+- md5: 15c139d6250da5b7788d80bc2ff4151c
+  size: 4266
   hash: md5
   path: afolu.parquet
 meta:
   name:
     en: AFOLU
+    fi: Maatalous
   identifier: afolu
   metrics:
   - id: emissions
     label:
       en: Emissions
+      fi: Päästöt
   units:
     emissions: kt/a
