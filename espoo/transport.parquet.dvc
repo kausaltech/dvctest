@@ -1,46 +1,47 @@
 outs:
-- md5: f128ca63322b21df78b4cbbb2a15be9f
-  size: 12445
+- md5: 9ad09da8c78ddaa814ab69a7b9daf2cf
+  size: 12516
   hash: md5
   path: transport.parquet
 meta:
   name:
     fi: transport
+  identifier: transport
   metrics:
+  - id: sahkohenkiloautojen_kasvu
+    quantity: amount
+    label:
+      fi: Sähköhenkilöautojen kasvu
+  - id: jakeluvelvoite
+    quantity: fraction
+    label:
+      fi: Jakeluvelvoite
   - id: tieliikenteen_paastokertoimen_ennuste
     quantity: emission_factor
     label:
       fi: Tieliikenteen päästökertoimen ennuste
-  - id: sahkohenkiloautojen_kasvu
-    quantity: Amount
-    label:
-      fi: Sähköhenkilöautojen kasvu
-  - id: kuorma_autoliikenteen_kerroin
-    quantity: Emissions
-    label:
-      fi: Kuorma-autoliikenteen kerroin
   - id: tieliikenteen_suorite_ennuste
     quantity: energy
     label:
       fi: Tieliikenteen suorite-ennuste
   - id: henkiloautojen_maara
-    quantity: Amount
+    quantity: amount
     label:
       fi: Henkilöautojen määrä
-  - id: jakeluvelvoite
-    quantity: Fraction
+  - id: kuorma_autoliikenteen_kerroin
+    quantity: emissions
     label:
-      fi: Jakeluvelvoite
+      fi: Kuorma-autoliikenteen kerroin
   - id: liikenteen_fossiilisten_polttoaineiden_korvaaminen
     quantity: fraction
     label:
       fi: Liikenteen fossiilisten polttoaineiden korvaaminen
-  updated_at: '1743610681'
+  updated_at: '1743611383'
   units:
-    henkiloautojen_maara: vehicles
-    tieliikenteen_paastokertoimen_ennuste: g/kWh
     jakeluvelvoite: dimensionless
-    kuorma_autoliikenteen_kerroin: kt/a
-    tieliikenteen_suorite_ennuste: GWh/a
     sahkohenkiloautojen_kasvu: vehicles
+    tieliikenteen_suorite_ennuste: GWh/a
     liikenteen_fossiilisten_polttoaineiden_korvaaminen: dimensionless
+    tieliikenteen_paastokertoimen_ennuste: g/kWh
+    kuorma_autoliikenteen_kerroin: kt/a
+    henkiloautojen_maara: vehicles
