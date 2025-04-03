@@ -17,3 +17,4 @@
 /forecasted_costs.parquet
 /action_reductions.parquet
 /corporate_transportation.parquet
+/corporate_waste.parquet

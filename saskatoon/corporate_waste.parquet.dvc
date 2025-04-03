@@ -1,0 +1,15 @@
+outs:
+- md5: 5fc9e56ef9826f49783088af355bd7e7
+  size: 4972
+  hash: md5
+  path: corporate_waste.parquet
+meta:
+  name:
+    en: Corporate Waste
+  identifier: corporate_waste
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t/a
