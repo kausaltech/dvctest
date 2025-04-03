@@ -1,6 +1,6 @@
 outs:
-- md5: 3256e6d5bafb5d7235369dfeb02b57d4
-  size: 5332
+- md5: 5ff24b6fbe9b4a2396e0c557ef9c015e
+  size: 5352
   hash: md5
   path: industry.parquet
 meta:
@@ -9,7 +9,8 @@ meta:
   metrics:
   - id: teollisuus_ja_tyokoneet
     quantity: ratio
-    label: Teollisuus ja työkoneet
-  updated_at: '1743685846'
+    label:
+      fi: Teollisuus ja työkoneet
+  updated_at: '1743686571'
   units:
     Teollisuus ja työkoneet: dimensionless
