@@ -1,39 +1,46 @@
 outs:
-- md5: ca033edc50e5d74a74b4e2c17e76de92
-  size: 12585
+- md5: 2317da6da3b537f504b39ab193bc46f4
+  size: 12713
   hash: md5
   path: transport.parquet
 meta:
   name:
     fi: transport
   metrics:
-  - id: liikenteen_fossiilisten_polttoaineiden_korvaaminen
-    quantity: fraction
-    label: Liikenteen fossiilisten polttoaineiden korvaaminen
+  - id: sahkohenkiloautojen_kasvu
+    quantity: amount
+    label:
+      fi: Sähköhenkilöautojen kasvu
+  - id: henkiloautojen_maara
+    quantity: amount
+    label:
+      fi: Henkilöautojen määrä
+  - id: kuorma_autoliikenteen_kerroin
+    quantity: emissions
+    label:
+      fi: Kuorma-autoliikenteen kerroin
   - id: tieliikenteen_suorite_ennuste
     quantity: energy
-    label: Tieliikenteen suorite-ennuste
-  - id: sahkohenkiloautojen_kasvu
-    quantity: Amount
-    label: Sähköhenkilöautojen kasvu
-  - id: jakeluvelvoite
-    quantity: Fraction
-    label: Jakeluvelvoite
+    label:
+      fi: Tieliikenteen suorite-ennuste
   - id: tieliikenteen_paastokertoimen_ennuste
     quantity: emission_factor
-    label: Tieliikenteen päästökertoimen ennuste
-  - id: henkiloautojen_maara
-    quantity: Amount
-    label: Henkilöautojen määrä
-  - id: kuorma_autoliikenteen_kerroin
-    quantity: Emissions
-    label: Kuorma-autoliikenteen kerroin
-  updated_at: '1743685853'
+    label:
+      fi: Tieliikenteen päästökertoimen ennuste
+  - id: liikenteen_fossiilisten_polttoaineiden_korvaaminen
+    quantity: fraction
+    label:
+      fi: Liikenteen fossiilisten polttoaineiden korvaaminen
+  - id: jakeluvelvoite
+    quantity: fraction
+    label:
+      fi: Jakeluvelvoite
+  updated_at: '1743686587'
   units:
+    Tieliikenteen suorite-ennuste: GWh/a
+    Tieliikenteen päästökertoimen ennuste: g/kWh
     Liikenteen fossiilisten polttoaineiden korvaaminen: dimensionless
     Jakeluvelvoite: dimensionless
-    Sähköhenkilöautojen kasvu: vehicles
-    Kuorma-autoliikenteen kerroin: kt/a
-    Tieliikenteen suorite-ennuste: GWh/a
     Henkilöautojen määrä: vehicles
-    Tieliikenteen päästökertoimen ennuste: g/kWh
+    Kuorma-autoliikenteen kerroin: kt/a
+    Sähköhenkilöautojen kasvu: vehicles
