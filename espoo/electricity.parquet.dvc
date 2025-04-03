@@ -1,41 +1,42 @@
 outs:
-- md5: 223fb90d08f78958f50780b533c3fe4a
-  size: 10825
+- md5: de97507d50f232e248cea6ee0c336339
+  size: 10290
   hash: md5
   path: electricity.parquet
 meta:
   name:
     fi: electricity
+  identifier: electricity
   metrics:
-  - id: kansallinen_sahkontuotanto_puhdistuu
-    quantity: emission_factor
-    label:
-      fi: Kansallinen sähköntuotanto puhdistuu
-  - id: arvio_aurinkosahkon_tuotantomaarasta_gwh
-    quantity: energy
-    label:
-      fi: Arvio aurinkosähkön tuotantomäärästä (GWh)
-  - id: sahkon_kysyntaennuste_twh
-    quantity: energy
-    label:
-      fi: Sähkön kysyntäennuste (TWh)
-  - id: suurten_toimijoiden_sahkonkulutus
-    quantity: energy
-    label:
-      fi: Suurten toimijoiden sähkönkulutus
   - id: muutos_kulutussahkon_kaytossa_asuminen
     quantity: energy
     label:
       fi: Muutos kulutussähkön käytössä (Asuminen)
+  - id: sahkon_kysyntaennuste_twh
+    quantity: energy
+    label:
+      fi: Sähkön kysyntäennuste (TWh)
+  - id: arvio_aurinkosahkon_tuotantomaarasta_gwh
+    quantity: energy
+    label:
+      fi: Arvio aurinkosähkön tuotantomäärästä (GWh)
   - id: vihrean_sahkon_jakauma
     quantity: ratio
     label:
       fi: Vihreän sähkön jakauma
-  updated_at: '1743686579'
+  - id: kansallinen_sahkontuotanto_puhdistuu
+    quantity: emission_factor
+    label:
+      fi: Kansallinen sähköntuotanto puhdistuu
+  - id: suurten_toimijoiden_sahkonkulutus
+    quantity: energy
+    label:
+      fi: Suurten toimijoiden sähkönkulutus
+  updated_at: '1743687148'
   units:
-    Arvio aurinkosähkön tuotantomäärästä (GWh): GWh/a
-    Muutos kulutussähkön käytössä (Asuminen): GWh/a
-    Suurten toimijoiden sähkönkulutus: GWh/a
-    Sähkön kysyntäennuste (TWh): TWh/a
-    Kansallinen sähköntuotanto puhdistuu: t/GWh
-    Vihreän sähkön jakauma: dimensionless
+    suurten_toimijoiden_sahkonkulutus: GWh/a
+    muutos_kulutussahkon_kaytossa_asuminen: GWh/a
+    sahkon_kysyntaennuste_twh: TWh/a
+    vihrean_sahkon_jakauma: dimensionless
+    kansallinen_sahkontuotanto_puhdistuu: t/GWh
+    arvio_aurinkosahkon_tuotantomaarasta_gwh: GWh/a
