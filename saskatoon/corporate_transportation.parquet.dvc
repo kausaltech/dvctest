@@ -1,0 +1,15 @@
+outs:
+- md5: f10d79fc6a71bcc1d2b5b7377745183a
+  size: 5551
+  hash: md5
+  path: corporate_transportation.parquet
+meta:
+  name:
+    en: Corporate Transportation
+  identifier: corporate_transportation
+  metrics:
+  - id: fuel_consumption
+    label:
+      en: Fuel Consumption
+  units:
+    fuel_consumption: l/a
