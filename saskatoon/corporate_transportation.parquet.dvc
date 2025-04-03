@@ -1,6 +1,6 @@
 outs:
-- md5: d5cef30b61b999d945db9f94dabaed73
-  size: 5582
+- md5: 74b369fcbb63f27f8abe5299cdbaa889
+  size: 5640
   hash: md5
   path: corporate_transportation.parquet
 meta:
