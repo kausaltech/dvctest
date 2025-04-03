@@ -1,5 +1,5 @@
 outs:
-- md5: 643da2e8fdda3524934b350b2df48fc2
+- md5: cacf5f98e66112cb8974fa9cfed23a0e
   size: 4537
   hash: md5
   path: jatteenkasittelyn_tavoitteet.parquet
@@ -13,6 +13,6 @@ meta:
   - id: jatteenkasittelyn_tavoite
     quantity: ratio
     label: Jätteenkäsittelyn tavoite
-  updated_at: '1742703629'
+  updated_at: '1743685857'
   units:
     Jätteenkäsittelyn tavoite: dimensionless
