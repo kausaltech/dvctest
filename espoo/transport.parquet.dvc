@@ -1,47 +1,39 @@
 outs:
-- md5: 9ad09da8c78ddaa814ab69a7b9daf2cf
-  size: 12516
+- md5: ca033edc50e5d74a74b4e2c17e76de92
+  size: 12585
   hash: md5
   path: transport.parquet
 meta:
   name:
     fi: transport
-  identifier: transport
   metrics:
-  - id: sahkohenkiloautojen_kasvu
-    quantity: amount
-    label:
-      fi: Sähköhenkilöautojen kasvu
-  - id: jakeluvelvoite
-    quantity: fraction
-    label:
-      fi: Jakeluvelvoite
-  - id: tieliikenteen_paastokertoimen_ennuste
-    quantity: emission_factor
-    label:
-      fi: Tieliikenteen päästökertoimen ennuste
-  - id: tieliikenteen_suorite_ennuste
-    quantity: energy
-    label:
-      fi: Tieliikenteen suorite-ennuste
-  - id: henkiloautojen_maara
-    quantity: amount
-    label:
-      fi: Henkilöautojen määrä
-  - id: kuorma_autoliikenteen_kerroin
-    quantity: emissions
-    label:
-      fi: Kuorma-autoliikenteen kerroin
   - id: liikenteen_fossiilisten_polttoaineiden_korvaaminen
     quantity: fraction
-    label:
-      fi: Liikenteen fossiilisten polttoaineiden korvaaminen
-  updated_at: '1743611383'
+    label: Liikenteen fossiilisten polttoaineiden korvaaminen
+  - id: tieliikenteen_suorite_ennuste
+    quantity: energy
+    label: Tieliikenteen suorite-ennuste
+  - id: sahkohenkiloautojen_kasvu
+    quantity: Amount
+    label: Sähköhenkilöautojen kasvu
+  - id: jakeluvelvoite
+    quantity: Fraction
+    label: Jakeluvelvoite
+  - id: tieliikenteen_paastokertoimen_ennuste
+    quantity: emission_factor
+    label: Tieliikenteen päästökertoimen ennuste
+  - id: henkiloautojen_maara
+    quantity: Amount
+    label: Henkilöautojen määrä
+  - id: kuorma_autoliikenteen_kerroin
+    quantity: Emissions
+    label: Kuorma-autoliikenteen kerroin
+  updated_at: '1743685853'
   units:
-    jakeluvelvoite: dimensionless
-    sahkohenkiloautojen_kasvu: vehicles
-    tieliikenteen_suorite_ennuste: GWh/a
-    liikenteen_fossiilisten_polttoaineiden_korvaaminen: dimensionless
-    tieliikenteen_paastokertoimen_ennuste: g/kWh
-    kuorma_autoliikenteen_kerroin: kt/a
-    henkiloautojen_maara: vehicles
+    Liikenteen fossiilisten polttoaineiden korvaaminen: dimensionless
+    Jakeluvelvoite: dimensionless
+    Sähköhenkilöautojen kasvu: vehicles
+    Kuorma-autoliikenteen kerroin: kt/a
+    Tieliikenteen suorite-ennuste: GWh/a
+    Henkilöautojen määrä: vehicles
+    Tieliikenteen päästökertoimen ennuste: g/kWh
