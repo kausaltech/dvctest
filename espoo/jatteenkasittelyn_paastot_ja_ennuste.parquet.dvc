@@ -1,6 +1,6 @@
 outs:
-- md5: a4811711abfb30d718be7136b5388996
-  size: 4113
+- md5: bf24cd370ec2234f0307e63613418ba8
+  size: 4129
   hash: md5
   path: jatteenkasittelyn_paastot_ja_ennuste.parquet
 meta:
@@ -12,7 +12,8 @@ meta:
   metrics:
   - id: jatteenkasittelyn_paastot
     quantity: emissions
-    label: Jätteenkäsittelyn päästöt
-  updated_at: '1743685840'
+    label:
+      fi: Jätteenkäsittelyn päästöt
+  updated_at: '1743686583'
   units:
     Jätteenkäsittelyn päästöt: kt/a
