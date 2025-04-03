@@ -1,6 +1,6 @@
 outs:
-- md5: 97d9d648e6a806043de00e7219713596
-  size: 10713
+- md5: 223fb90d08f78958f50780b533c3fe4a
+  size: 10825
   hash: md5
   path: electricity.parquet
 meta:
@@ -8,28 +8,34 @@ meta:
     fi: electricity
   metrics:
   - id: kansallinen_sahkontuotanto_puhdistuu
-    quantity: Emission factor
-    label: Kansallinen sähköntuotanto puhdistuu
+    quantity: emission_factor
+    label:
+      fi: Kansallinen sähköntuotanto puhdistuu
+  - id: arvio_aurinkosahkon_tuotantomaarasta_gwh
+    quantity: energy
+    label:
+      fi: Arvio aurinkosähkön tuotantomäärästä (GWh)
+  - id: sahkon_kysyntaennuste_twh
+    quantity: energy
+    label:
+      fi: Sähkön kysyntäennuste (TWh)
   - id: suurten_toimijoiden_sahkonkulutus
-    quantity: Energy
-    label: Suurten toimijoiden sähkönkulutus
+    quantity: energy
+    label:
+      fi: Suurten toimijoiden sähkönkulutus
+  - id: muutos_kulutussahkon_kaytossa_asuminen
+    quantity: energy
+    label:
+      fi: Muutos kulutussähkön käytössä (Asuminen)
   - id: vihrean_sahkon_jakauma
     quantity: ratio
-    label: Vihreän sähkön jakauma
-  - id: sahkon_kysyntaennuste_twh
-    quantity: Energy
-    label: Sähkön kysyntäennuste (TWh)
-  - id: muutos_kulutussahkon_kaytossa_asuminen
-    quantity: Energy
-    label: Muutos kulutussähkön käytössä (Asuminen)
-  - id: arvio_aurinkosahkon_tuotantomaarasta_gwh
-    quantity: Energy
-    label: Arvio aurinkosähkön tuotantomäärästä (GWh)
-  updated_at: '1743685849'
+    label:
+      fi: Vihreän sähkön jakauma
+  updated_at: '1743686579'
   units:
     Arvio aurinkosähkön tuotantomäärästä (GWh): GWh/a
-    Vihreän sähkön jakauma: dimensionless
-    Suurten toimijoiden sähkönkulutus: GWh/a
     Muutos kulutussähkön käytössä (Asuminen): GWh/a
-    Kansallinen sähköntuotanto puhdistuu: t/GWh
+    Suurten toimijoiden sähkönkulutus: GWh/a
     Sähkön kysyntäennuste (TWh): TWh/a
+    Kansallinen sähköntuotanto puhdistuu: t/GWh
+    Vihreän sähkön jakauma: dimensionless
