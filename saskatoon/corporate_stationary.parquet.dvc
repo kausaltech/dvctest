@@ -1,6 +1,6 @@
 outs:
-- md5: 50007389955b5ca478c39c9f54bab466
-  size: 9042
+- md5: 671c1551f1687a44f11e1238346b1bec
+  size: 9036
   hash: md5
   path: corporate_stationary.parquet
 meta:
@@ -19,5 +19,5 @@ meta:
       en: Fuel Consumption (Liters)
   units:
     energy: kWh/a
-    fuel_consumption_liters: l/a
     fuel_consumption_cubic_meters: m³/a
+    fuel_consumption_liters: l/a
