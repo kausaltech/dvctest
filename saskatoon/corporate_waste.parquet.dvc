@@ -1,6 +1,6 @@
 outs:
-- md5: 5fc9e56ef9826f49783088af355bd7e7
-  size: 4972
+- md5: d826b8ad181a030406278780da4c9577
+  size: 5113
   hash: md5
   path: corporate_waste.parquet
 meta:
