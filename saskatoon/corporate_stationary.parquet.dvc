@@ -1,0 +1,23 @@
+outs:
+- md5: 50007389955b5ca478c39c9f54bab466
+  size: 9042
+  hash: md5
+  path: corporate_stationary.parquet
+meta:
+  name:
+    en: Corporate Stationary
+  identifier: corporate_stationary
+  metrics:
+  - id: energy
+    label:
+      en: Energy
+  - id: fuel_consumption_cubic_meters
+    label:
+      en: Fuel Consumption (Cubic Meters)
+  - id: fuel_consumption_liters
+    label:
+      en: Fuel Consumption (Liters)
+  units:
+    energy: kWh/a
+    fuel_consumption_liters: l/a
+    fuel_consumption_cubic_meters: m³/a
