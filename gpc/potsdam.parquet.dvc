@@ -1,6 +1,6 @@
 outs:
-- md5: cacd3cf7e3dbfc23e2a80ae55fbee5ea
-  size: 21392
+- md5: d7548e94eb29869a123d4c9e73ab7f0c
+  size: 21421
   hash: md5
   path: potsdam.parquet
 meta:
@@ -55,28 +55,27 @@ meta:
       CNG fossil - GHG: CO2e - On-Road Transport: Fuel Combustion<br/>Emission Factor
       - Sector: II.1.1 - Energieträger: LPG - GHG: CO2e - On-Road Transport: Fuel
       Combustion<br/>Emission Factor - Sector: II.1.1 - Energieträger: Wasserstoff
-      - GHG: CO2e - On-Road Transport: Fuel Combustion<br/>Population - Sector: Population
-      - Population<br/>Ratio - Sector: I - Stationary'
+      - GHG: CO2e - On-Road Transport: Fuel Combustion<br/>Weather correction - Stationary'
   metrics:
-  - id: ratio
-    quantity: ratio
-    label:
-      de: Ratio
-  - id: emission_factor
-    quantity: emission_factor
-    label:
-      de: Emission Factor
   - id: population
     quantity: population
     label:
       de: Population
+  - id: emission_factor
+    quantity: emission_factor
+    label:
+      de: Emission Factor
   - id: energy_consumption
     quantity: energy_consumption
     label:
       de: Energy Consumption
-  updated_at: '1744215646'
+  - id: weather_correction
+    quantity: ratio
+    label:
+      de: Weather correction
+  updated_at: '1744215870'
   units:
     population: inh.
-    energy_consumption: MWh/a
     emission_factor: t/MWh
-    ratio: dimensionless
+    weather_correction: dimensionless
+    energy_consumption: MWh/a
