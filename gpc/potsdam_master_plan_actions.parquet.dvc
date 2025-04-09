@@ -86,8 +86,8 @@ meta:
       de: I.4.2
   updated_at: '1744191620'
   units:
-    ii12: tCO2e/MWh
+    ii12: t/MWh
     i11: MWh/a
     i12: MWh/a
-    i42: tCO2e/MWh
-    ii11: tCO2e/MWh
+    i42: t/MWh
+    ii11: t/MWh
