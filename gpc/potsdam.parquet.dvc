@@ -1,6 +1,6 @@
 outs:
-- md5: 3f36d3af3af5283d14e9fe4f24d77e4d
-  size: 21396
+- md5: cacd3cf7e3dbfc23e2a80ae55fbee5ea
+  size: 21392
   hash: md5
   path: potsdam.parquet
 meta:
@@ -58,25 +58,25 @@ meta:
       - GHG: CO2e - On-Road Transport: Fuel Combustion<br/>Population - Sector: Population
       - Population<br/>Ratio - Sector: I - Stationary'
   metrics:
-  - id: energy_consumption
-    quantity: energy_consumption
-    label:
-      de: Energy Consumption
-  - id: emission_factor
-    quantity: emission_factor
-    label:
-      de: Emission Factor
   - id: ratio
     quantity: ratio
     label:
       de: Ratio
+  - id: emission_factor
+    quantity: emission_factor
+    label:
+      de: Emission Factor
   - id: population
     quantity: population
     label:
       de: Population
-  updated_at: '1744215347'
+  - id: energy_consumption
+    quantity: energy_consumption
+    label:
+      de: Energy Consumption
+  updated_at: '1744215646'
   units:
-    energy_consumption: MWh/a
-    ratio: dimensionless
-    emission_factor: tCO2e/MWh
     population: inh.
+    energy_consumption: MWh/a
+    emission_factor: t/MWh
+    ratio: dimensionless
