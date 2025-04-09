@@ -1,5 +1,5 @@
 outs:
-- md5: 0b77398cca012b8eece21351f3f70d5d
+- md5: ed86d2b60b0e4aca1b98d71b22b04bba
   size: 16677
   hash: md5
   path: potsdam_master_plan_actions.parquet
@@ -57,15 +57,15 @@ meta:
       Combustion<br/>Emission Factor - Sector: II.1.1 - Energieträger: Wasserstoff
       - GHG: CO2e - On-Road Transport: Fuel Combustion'
   metrics:
-  - id: energy_consumption
-    quantity: energy_consumption
-    label:
-      de: Energy Consumption
   - id: emission_factor
     quantity: emission_factor
     label:
       de: Emission Factor
-  updated_at: '1744215650'
+  - id: energy_consumption
+    quantity: energy_consumption
+    label:
+      de: Energy Consumption
+  updated_at: '1744215865'
   units:
-    energy_consumption: MWh/a
     emission_factor: t/MWh
+    energy_consumption: MWh/a
