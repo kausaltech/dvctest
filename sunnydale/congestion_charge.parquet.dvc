@@ -1,6 +1,6 @@
 outs:
-- md5: 88f46872e3df1bd94a13798c9aa80396
-  size: 12513
+- md5: bf5678869ff2dfde729c97a290c1a593
+  size: 6294
   hash: md5
   path: congestion_charge.parquet
 meta:
@@ -12,41 +12,16 @@ meta:
     quantity: emissions
     label:
       en: Car traffic emissions (Emissions)
-  - id: purchase_power_of_the_poor_currency
-    quantity: currency
-    label:
-      en: Purchase power of the poor (Currency)
-  - id: congestion_charge_with_redistribution_emissions
-    quantity: emissions
-    label:
-      en: Congestion charge with redistribution (Emissions)
-  - id: congestion_charge_outcome_utility_emissions
-    quantity: emissions
-    label:
-      en: Congestion charge outcome utility (emissions)
-  - id: congestion_charge_with_redistribution_unit_price
-    quantity: unit_price
-    label:
-      en: Congestion charge with redistribution (Unit price)
   - id: inherent_action_utility_unit_price
     quantity: unit_price
     label:
       en: Inherent action utility (Unit price)
-  - id: congestion_charge_with_redistribution_currency
+  - id: purchase_power_of_the_poor_currency
     quantity: currency
     label:
-      en: Congestion charge with redistribution (Currency)
-  - id: congestion_charge_outcome_utility_currency
-    quantity: currency
-    label:
-      en: Congestion charge outcome utility (Currency)
-  updated_at: '1744277306'
+      en: Purchase power of the poor (Currency)
+  updated_at: '1744278482'
   units:
-    congestion_charge_with_redistribution_unit_price: EUR/vkm
+    inherent_action_utility_unit_price: vkm/EUR
     purchase_power_of_the_poor_currency: EUR/month
-    congestion_charge_with_redistribution_currency: EUR/month
     car_traffic_emissions_emissions: kt/a
-    congestion_charge_outcome_utility_emissions: a/kt
-    inherent_action_utility_unit_price: EUR/vkm
-    congestion_charge_outcome_utility_currency: month/kEUR
-    congestion_charge_with_redistribution_emissions: kt/a
