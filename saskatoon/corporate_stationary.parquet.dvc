@@ -1,6 +1,6 @@
 outs:
-- md5: 92f3dab480d93a78cfc2feaf5ca1f480
-  size: 9075
+- md5: 7ad78aa5fbfd83a64fb620bdd001dbf4
+  size: 9057
   hash: md5
   path: corporate_stationary.parquet
 meta:
