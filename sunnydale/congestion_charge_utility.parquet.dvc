@@ -1,6 +1,6 @@
 outs:
-- md5: dbbdb8f2ef78e2d1cd67369e1fb7c003
-  size: 5459
+- md5: b552d261a492b06d161965c296014391
+  size: 5451
   hash: md5
   path: congestion_charge_utility.parquet
 meta:
@@ -8,15 +8,15 @@ meta:
     en: congestion_charge_utility
   identifier: congestion_charge_utility
   metrics:
-  - id: congestion_charge_outcome_utility_emissions
-    quantity: emissions
-    label:
-      en: Congestion charge outcome utility (emissions)
   - id: congestion_charge_outcome_utility_currency
     quantity: currency
     label:
       en: Congestion charge outcome utility (Currency)
-  updated_at: '1744289421'
+  - id: congestion_charge_outcome_utility_emissions
+    quantity: emissions
+    label:
+      en: Congestion charge outcome utility (emissions)
+  updated_at: '1744335822'
   units:
     congestion_charge_outcome_utility_currency: month/kEUR
     congestion_charge_outcome_utility_emissions: a/kt
