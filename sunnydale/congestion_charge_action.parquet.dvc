@@ -1,5 +1,5 @@
 outs:
-- md5: fac86bb2dd25b02b70d2fecf6ffd1eeb
+- md5: ea1658ce7a3c94d1e794da4b3d4923b3
   size: 4410
   hash: md5
   path: congestion_charge_action.parquet
@@ -8,20 +8,20 @@ meta:
     en: congestion_charge_action
   identifier: congestion_charge_action
   metrics:
-  - id: currency
-    quantity: currency
-    label:
-      en: Congestion charge with redistribution (Currency)
-  - id: emissions
-    quantity: emissions
-    label:
-      en: Congestion charge with redistribution (Emissions)
   - id: unit_price
     quantity: unit_price
     label:
       en: Congestion charge with redistribution (Unit price)
-  updated_at: '1744289428'
+  - id: emissions
+    quantity: emissions
+    label:
+      en: Congestion charge with redistribution (Emissions)
+  - id: currency
+    quantity: currency
+    label:
+      en: Congestion charge with redistribution (Currency)
+  updated_at: '1744335814'
   units:
-    currency: EUR/month
     unit_price: EUR/vkm
+    currency: EUR/month
     emissions: kt/a
