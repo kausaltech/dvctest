@@ -1,5 +1,5 @@
 outs:
-- md5: d64360601c8c7c9b2d2644491c309d40
+- md5: b07b6bbff0b1d1f0a79997fc36c844c3
   size: 33806
   hash: md5
   path: forestry2.parquet
@@ -21,34 +21,38 @@ meta:
       type: Fossil emissions - Emission class: Rakennusten lämmityksen päästöt - From
       Espoo scenario tool'
   metrics:
-  - id: historical_forest_stock_in_finland_mass
-    quantity: mass
-    label:
-      en: Historical forest stock in Finland (Mass)
-  - id: average_forestry_product_unit_price_unit_price
+  - id: carbon_sink_unit_price_unit_price
     quantity: unit_price
     label:
-      en: Average forestry product unit price (Unit price)
-  - id: district_heating_emission_factor_emission_factor
-    quantity: emission_factor
-    label:
-      en: District heating emission factor (Emission factor)
-  - id: utility_weights_currency
-    quantity: currency
-    label:
-      en: Utility weights (currency)
-  - id: forest_cuts_by_metsahallitus_mass
-    quantity: mass
-    label:
-      en: Forest cuts by Metsähallitus (Mass)
-  - id: district_heating_with_biofuels_in_sunnydale_energy
-    quantity: energy
-    label:
-      en: District heating with biofuels in Sunnydale (Energy)
+      en: Carbon sink unit price (Unit price)
   - id: utility_weights_utility
     quantity: utility
     label:
       en: Utility weights (utility)
+  - id: growth_increase_due_to_protection_rate
+    quantity: rate
+    label:
+      en: Growth increase due to protection (Rate)
+  - id: district_heating_with_biofuels_in_sunnydale_energy
+    quantity: energy
+    label:
+      en: District heating with biofuels in Sunnydale (Energy)
+  - id: average_forestry_product_unit_price_unit_price
+    quantity: unit_price
+    label:
+      en: Average forestry product unit price (Unit price)
+  - id: utility_weights_currency
+    quantity: currency
+    label:
+      en: Utility weights (currency)
+  - id: reduce_forestry_production_fraction
+    quantity: fraction
+    label:
+      en: Reduce forestry production (Fraction)
+  - id: forestry_production_in_finland_mass
+    quantity: mass
+    label:
+      en: Forestry production in Finland (Mass)
   - id: forest_cuts_by_a_forest_owner_mass
     quantity: mass
     label:
@@ -57,69 +61,65 @@ meta:
     quantity: unit_price
     label:
       en: Average biofuel unit price (Unit price)
-  - id: forest_protection_unit_price_unit_price
-    quantity: unit_price
+  - id: historical_forest_stock_in_finland_mass
+    quantity: mass
     label:
-      en: Forest protection unit price (Unit price)
-  - id: growth_increase_due_to_protection_rate
-    quantity: rate
-    label:
-      en: Growth increase due to protection (Rate)
-  - id: argument_placeholder_argument
-    quantity: argument
-    label:
-      en: Argument placeholder (Argument)
-  - id: carbon_sink_unit_price_unit_price
-    quantity: unit_price
-    label:
-      en: Carbon sink unit price (Unit price)
-  - id: yesno_decision_fraction
-    quantity: fraction
-    label:
-      en: Yes/no decision (Fraction)
-  - id: reduce_forestry_production_fraction
-    quantity: fraction
-    label:
-      en: Reduce forestry production (Fraction)
-  - id: forest_growth_rate
-    quantity: rate
-    label:
-      en: Forest growth (Rate)
-  - id: co2_market_price_unit_price
-    quantity: unit_price
-    label:
-      en: CO2 market price (Unit price)
+      en: Historical forest stock in Finland (Mass)
   - id: sunnydale_net_emissions_emissions
     quantity: emissions
     label:
       en: Sunnydale net emissions (Emissions)
-  - id: forestry_production_in_finland_mass
-    quantity: mass
+  - id: forest_growth_rate
+    quantity: rate
     label:
-      en: Forestry production in Finland (Mass)
+      en: Forest growth (Rate)
+  - id: yesno_decision_fraction
+    quantity: fraction
+    label:
+      en: Yes/no decision (Fraction)
+  - id: forest_protection_unit_price_unit_price
+    quantity: unit_price
+    label:
+      en: Forest protection unit price (Unit price)
+  - id: district_heating_emission_factor_emission_factor
+    quantity: emission_factor
+    label:
+      en: District heating emission factor (Emission factor)
+  - id: argument_placeholder_argument
+    quantity: argument
+    label:
+      en: Argument placeholder (Argument)
   - id: technical_row_to_make_sure_uuid_is_not_dropped_fraction
     quantity: fraction
     label:
       en: Technical row to make sure UUID is not dropped (Fraction)
-  updated_at: '1744289416'
+  - id: forest_cuts_by_metsahallitus_mass
+    quantity: mass
+    label:
+      en: Forest cuts by Metsähallitus (Mass)
+  - id: co2_market_price_unit_price
+    quantity: unit_price
+    label:
+      en: CO2 market price (Unit price)
+  updated_at: '1744335818'
   units:
-    district_heating_with_biofuels_in_sunnydale_energy: GWh/a
-    yesno_decision_fraction: dimensionless
     district_heating_emission_factor_emission_factor: g/kWh
-    argument_placeholder_argument: dimensionless
-    utility_weights_utility: dimensionless
-    average_biofuel_unit_price_unit_price: EUR/m3_solid
-    technical_row_to_make_sure_uuid_is_not_dropped_fraction: dimensionless
-    forest_growth_rate: 1/a
-    co2_market_price_unit_price: EUR/t
+    average_forestry_product_unit_price_unit_price: EUR/m3_solid
     forest_cuts_by_metsahallitus_mass: m3_solid/a
     carbon_sink_unit_price_unit_price: EUR/m3_solid/a
     growth_increase_due_to_protection_rate: 1/a
+    forest_cuts_by_a_forest_owner_mass: m3_solid/a
+    forestry_production_in_finland_mass: Mm3_solid/a
+    utility_weights_utility: dimensionless
     sunnydale_net_emissions_emissions: kt/a
     utility_weights_currency: a/MEUR
-    reduce_forestry_production_fraction: dimensionless
-    forest_protection_unit_price_unit_price: EUR/m3_solid/a
-    forestry_production_in_finland_mass: Mm3_solid/a
     historical_forest_stock_in_finland_mass: Mm3_solid
-    forest_cuts_by_a_forest_owner_mass: m3_solid/a
-    average_forestry_product_unit_price_unit_price: EUR/m3_solid
+    technical_row_to_make_sure_uuid_is_not_dropped_fraction: dimensionless
+    forest_growth_rate: 1/a
+    reduce_forestry_production_fraction: dimensionless
+    district_heating_with_biofuels_in_sunnydale_energy: GWh/a
+    argument_placeholder_argument: dimensionless
+    average_biofuel_unit_price_unit_price: EUR/m3_solid
+    yesno_decision_fraction: dimensionless
+    co2_market_price_unit_price: EUR/t
+    forest_protection_unit_price_unit_price: EUR/m3_solid/a
