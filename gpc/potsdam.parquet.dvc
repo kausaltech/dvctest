@@ -1,6 +1,6 @@
 outs:
-- md5: 27bc12575d2079114f023ac02c0a57f2
-  size: 22914
+- md5: 4725b9019be97113ce0e4ada0dfd6e26
+  size: 22970
   hash: md5
   path: potsdam.parquet
 meta:
@@ -65,25 +65,25 @@ meta:
       Factor - Sector: II.1.1 - Scope: scope1 - Energieträger: Wasserstoff - GHG:
       CO2e - On-Road Transport: Fuel Combustion<br/>Weather correction - Stationary'
   metrics:
-  - id: population
-    quantity: population
-    label:
-      de: Population
-  - id: weather_correction
+  - id: weather_correction_ratio
     quantity: ratio
     label:
-      de: Weather correction
-  - id: energy_consumption
-    quantity: energy_consumption
-    label:
-      de: Energy Consumption
-  - id: emission_factor
+      de: Weather correction (Ratio)
+  - id: emission_factor_emission_factor
     quantity: emission_factor
     label:
-      de: Emission Factor
-  updated_at: '1744223654'
+      de: Emission Factor (Emission Factor)
+  - id: population_population
+    quantity: population
+    label:
+      de: Population (Population)
+  - id: energy_consumption_energy_consumption
+    quantity: energy_consumption
+    label:
+      de: Energy Consumption (Energy Consumption)
+  updated_at: '1744360366'
   units:
-    population: inh.
-    emission_factor: t/MWh
-    weather_correction: dimensionless
-    energy_consumption: MWh/a
+    energy_consumption_energy_consumption: MWh/a
+    weather_correction_ratio: dimensionless
+    population_population: inh.
+    emission_factor_emission_factor: t/MWh
