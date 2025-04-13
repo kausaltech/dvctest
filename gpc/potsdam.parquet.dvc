@@ -1,6 +1,6 @@
 outs:
-- md5: 4725b9019be97113ce0e4ada0dfd6e26
-  size: 22970
+- md5: dcdc6217aafe273a84664449ac30e00e
+  size: 21582
   hash: md5
   path: potsdam.parquet
 meta:
@@ -8,82 +8,80 @@ meta:
     de: potsdam
   identifier: potsdam
   description:
-    de: 'Energy Consumption - Sector: I.4.2 - Scope: scope2 - Energieträger: Strom
-      - Energy: Grid Energy<br/>Energy Consumption - Sector: II.1.2 - Scope: scope2
-      - Energieträger: Fahrstrom - On-Road Transport: Grid Energy<br/>Energy Consumption
-      - Sector: I.1.2 - Scope: scope2 - Energieträger: Heizstrom - Residential: Grid
-      Energy<br/>Energy Consumption - Sector: I.1.2 - Scope: scope2 - Energieträger:
-      Fernwärme - Residential: Grid Energy<br/>Energy Consumption - Sector: I.1.1
-      - Scope: scope1 - Energieträger: Nahwärme - Residential: Fuel Combustion<br/>Energy
-      Consumption - Sector: I.1.1 - Scope: scope1 - Energieträger: Gas - Residential:
-      Fuel Combustion<br/>Energy Consumption - Sector: I.1.1 - Scope: scope1 - Energieträger:
-      Biogas - Residential: Fuel Combustion<br/>Energy Consumption - Sector: I.1.1
-      - Scope: scope1 - Energieträger: Heizöl - Residential: Fuel Combustion<br/>Energy
-      Consumption - Sector: I.1.1 - Scope: scope1 - Energieträger: Kohle - Residential:
-      Fuel Combustion<br/>Energy Consumption - Sector: I.1.1 - Scope: scope1 - Energieträger:
-      Biomasse - Residential: Fuel Combustion<br/>Energy Consumption - Sector: I.1.1
-      - Scope: scope1 - Energieträger: Solarthermie - Residential: Fuel Combustion<br/>Energy
-      Consumption - Sector: I.1.1 - Scope: scope1 - Energieträger: Umweltwärme - Residential:
-      Fuel Combustion<br/>Energy Consumption - Sector: II.1.1 - Scope: scope1 - Energieträger:
-      Benzin fossil - On-Road Transport: Fuel Combustion<br/>Energy Consumption -
-      Sector: II.1.1 - Scope: scope1 - Energieträger: Benzin biogen - On-Road Transport:
-      Fuel Combustion<br/>Energy Consumption - Sector: II.1.1 - Scope: scope1 - Energieträger:
-      Diesel fossil - On-Road Transport: Fuel Combustion<br/>Energy Consumption -
-      Sector: II.1.1 - Scope: scope1 - Energieträger: Diesel biogen - On-Road Transport:
-      Fuel Combustion<br/>Energy Consumption - Sector: II.1.1 - Scope: scope1 - Energieträger:
-      CNG fossil - On-Road Transport: Fuel Combustion<br/>Energy Consumption - Sector:
-      II.1.1 - Scope: scope1 - Energieträger: LPG - On-Road Transport: Fuel Combustion<br/>Energy
-      Consumption - Sector: II.1.1 - Scope: scope1 - Energieträger: Wasserstoff -
-      On-Road Transport: Fuel Combustion<br/>Emission Factor - Sector: I.4.2 - Scope:
-      scope2 - Energieträger: Strom - GHG: CO2e - Energy: Grid Energy<br/>Emission
-      Factor - Sector: II.1.2 - Scope: scope2 - Energieträger: Fahrstrom - GHG: CO2e
-      - On-Road Transport: Grid Energy<br/>Emission Factor - Sector: I.1.2 - Scope:
-      scope2 - Energieträger: Heizstrom - GHG: CO2e - Residential: Grid Energy<br/>Emission
-      Factor - Sector: I.1.2 - Scope: scope2 - Energieträger: Fernwärme - GHG: CO2e
-      - Residential: Grid Energy<br/>Emission Factor - Sector: I.1.1 - Scope: scope1
-      - Energieträger: Nahwärme - GHG: CO2e - Residential: Fuel Combustion<br/>Emission
-      Factor - Sector: I.1.1 - Scope: scope1 - Energieträger: Gas - GHG: CO2e - Residential:
-      Fuel Combustion<br/>Emission Factor - Sector: I.1.1 - Scope: scope1 - Energieträger:
-      Biogas - GHG: CO2e - Residential: Fuel Combustion<br/>Emission Factor - Sector:
-      I.1.1 - Scope: scope1 - Energieträger: Heizöl - GHG: CO2e - Residential: Fuel
-      Combustion<br/>Emission Factor - Sector: I.1.1 - Scope: scope1 - Energieträger:
-      Kohle - GHG: CO2e - Residential: Fuel Combustion<br/>Emission Factor - Sector:
-      I.1.1 - Scope: scope1 - Energieträger: Biomasse - GHG: CO2e - Residential: Fuel
-      Combustion<br/>Emission Factor - Sector: I.1.1 - Scope: scope1 - Energieträger:
-      Solarthermie - GHG: CO2e - Residential: Fuel Combustion<br/>Emission Factor
-      - Sector: I.1.1 - Scope: scope1 - Energieträger: Umweltwärme - GHG: CO2e - Residential:
-      Fuel Combustion<br/>Emission Factor - Sector: II.1.1 - Scope: scope1 - Energieträger:
-      Benzin fossil - GHG: CO2e - On-Road Transport: Fuel Combustion<br/>Emission
-      Factor - Sector: II.1.1 - Scope: scope1 - Energieträger: Benzin biogen - GHG:
+    de: 'Energy - Sector: I.4.2 - Scope: scope2 - Energieträger: Strom - Energy: Grid
+      Energy<br/>Energy - Sector: II.1.2 - Scope: scope2 - Energieträger: Fahrstrom
+      - On-Road Transport: Grid Energy<br/>Energy - Sector: I.1.2 - Scope: scope2
+      - Energieträger: Heizstrom - Residential: Grid Energy<br/>Energy - Sector: I.1.2
+      - Scope: scope2 - Energieträger: Fernwärme - Residential: Grid Energy<br/>Energy
+      - Sector: I.1.1 - Scope: scope1 - Energieträger: Nahwärme - Residential: Fuel
+      Combustion<br/>Energy - Sector: I.1.1 - Scope: scope1 - Energieträger: Gas -
+      Residential: Fuel Combustion<br/>Energy - Sector: I.1.1 - Scope: scope1 - Energieträger:
+      Biogas - Residential: Fuel Combustion<br/>Energy - Sector: I.1.1 - Scope: scope1
+      - Energieträger: Heizöl - Residential: Fuel Combustion<br/>Energy - Sector:
+      I.1.1 - Scope: scope1 - Energieträger: Kohle - Residential: Fuel Combustion<br/>Energy
+      - Sector: I.1.1 - Scope: scope1 - Energieträger: Biomasse - Residential: Fuel
+      Combustion<br/>Energy - Sector: I.1.1 - Scope: scope1 - Energieträger: Solarthermie
+      - Residential: Fuel Combustion<br/>Energy - Sector: I.1.1 - Scope: scope1 -
+      Energieträger: Umweltwärme - Residential: Fuel Combustion<br/>Energy - Sector:
+      II.1.1 - Scope: scope1 - Energieträger: Benzin fossil - On-Road Transport: Fuel
+      Combustion<br/>Energy - Sector: II.1.1 - Scope: scope1 - Energieträger: Benzin
+      biogen - On-Road Transport: Fuel Combustion<br/>Energy - Sector: II.1.1 - Scope:
+      scope1 - Energieträger: Diesel fossil - On-Road Transport: Fuel Combustion<br/>Energy
+      - Sector: II.1.1 - Scope: scope1 - Energieträger: Diesel biogen - On-Road Transport:
+      Fuel Combustion<br/>Energy - Sector: II.1.1 - Scope: scope1 - Energieträger:
+      CNG fossil - On-Road Transport: Fuel Combustion<br/>Energy - Sector: II.1.1
+      - Scope: scope1 - Energieträger: LPG - On-Road Transport: Fuel Combustion<br/>Energy
+      - Sector: II.1.1 - Scope: scope1 - Energieträger: Wasserstoff - On-Road Transport:
+      Fuel Combustion<br/>Emission Factor - Sector: I.4.2 - Scope: scope2 - Energieträger:
+      Strom - GHG: CO2e - Energy: Grid Energy<br/>Emission Factor - Sector: II.1.2
+      - Scope: scope2 - Energieträger: Fahrstrom - GHG: CO2e - On-Road Transport:
+      Grid Energy<br/>Emission Factor - Sector: I.1.2 - Scope: scope2 - Energieträger:
+      Heizstrom - GHG: CO2e - Residential: Grid Energy<br/>Emission Factor - Sector:
+      I.1.2 - Scope: scope2 - Energieträger: Fernwärme - GHG: CO2e - Residential:
+      Grid Energy<br/>Emission Factor - Sector: I.1.1 - Scope: scope1 - Energieträger:
+      Nahwärme - GHG: CO2e - Residential: Fuel Combustion<br/>Emission Factor - Sector:
+      I.1.1 - Scope: scope1 - Energieträger: Gas - GHG: CO2e - Residential: Fuel Combustion<br/>Emission
+      Factor - Sector: I.1.1 - Scope: scope1 - Energieträger: Biogas - GHG: CO2e -
+      Residential: Fuel Combustion<br/>Emission Factor - Sector: I.1.1 - Scope: scope1
+      - Energieträger: Heizöl - GHG: CO2e - Residential: Fuel Combustion<br/>Emission
+      Factor - Sector: I.1.1 - Scope: scope1 - Energieträger: Kohle - GHG: CO2e -
+      Residential: Fuel Combustion<br/>Emission Factor - Sector: I.1.1 - Scope: scope1
+      - Energieträger: Biomasse - GHG: CO2e - Residential: Fuel Combustion<br/>Emission
+      Factor - Sector: I.1.1 - Scope: scope1 - Energieträger: Solarthermie - GHG:
+      CO2e - Residential: Fuel Combustion<br/>Emission Factor - Sector: I.1.1 - Scope:
+      scope1 - Energieträger: Umweltwärme - GHG: CO2e - Residential: Fuel Combustion<br/>Emission
+      Factor - Sector: II.1.1 - Scope: scope1 - Energieträger: Benzin fossil - GHG:
       CO2e - On-Road Transport: Fuel Combustion<br/>Emission Factor - Sector: II.1.1
-      - Scope: scope1 - Energieträger: Diesel fossil - GHG: CO2e - On-Road Transport:
+      - Scope: scope1 - Energieträger: Benzin biogen - GHG: CO2e - On-Road Transport:
       Fuel Combustion<br/>Emission Factor - Sector: II.1.1 - Scope: scope1 - Energieträger:
-      Diesel biogen - GHG: CO2e - On-Road Transport: Fuel Combustion<br/>Emission
-      Factor - Sector: II.1.1 - Scope: scope1 - Energieträger: CNG fossil - GHG: CO2e
-      - On-Road Transport: Fuel Combustion<br/>Emission Factor - Sector: II.1.1 -
-      Scope: scope1 - Energieträger: LPG - GHG: CO2e - On-Road Transport: Fuel Combustion<br/>Emission
-      Factor - Sector: II.1.1 - Scope: scope1 - Energieträger: Wasserstoff - GHG:
-      CO2e - On-Road Transport: Fuel Combustion<br/>Weather correction - Stationary'
+      Diesel fossil - GHG: CO2e - On-Road Transport: Fuel Combustion<br/>Emission
+      Factor - Sector: II.1.1 - Scope: scope1 - Energieträger: Diesel biogen - GHG:
+      CO2e - On-Road Transport: Fuel Combustion<br/>Emission Factor - Sector: II.1.1
+      - Scope: scope1 - Energieträger: CNG fossil - GHG: CO2e - On-Road Transport:
+      Fuel Combustion<br/>Emission Factor - Sector: II.1.1 - Scope: scope1 - Energieträger:
+      LPG - GHG: CO2e - On-Road Transport: Fuel Combustion<br/>Emission Factor - Sector:
+      II.1.1 - Scope: scope1 - Energieträger: Wasserstoff - GHG: CO2e - On-Road Transport:
+      Fuel Combustion<br/>Weather correction - Stationary'
   metrics:
-  - id: weather_correction_ratio
+  - id: weather_correction
     quantity: ratio
     label:
-      de: Weather correction (Ratio)
-  - id: emission_factor_emission_factor
+      de: Weather correction
+  - id: energy
+    quantity: energy
+    label:
+      de: Energy
+  - id: emission_factor
     quantity: emission_factor
     label:
-      de: Emission Factor (Emission Factor)
-  - id: population_population
+      de: Emission Factor
+  - id: population
     quantity: population
     label:
-      de: Population (Population)
-  - id: energy_consumption_energy_consumption
-    quantity: energy_consumption
-    label:
-      de: Energy Consumption (Energy Consumption)
-  updated_at: '1744360366'
+      de: Population
+  updated_at: '1744515377'
   units:
-    energy_consumption_energy_consumption: MWh/a
-    weather_correction_ratio: dimensionless
-    population_population: inh.
-    emission_factor_emission_factor: t/MWh
+    Emission Factor: t/MWh
+    Population: inh.
+    Energy: MWh/a
+    Weather correction: dimensionless
