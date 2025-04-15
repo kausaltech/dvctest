@@ -1,0 +1,15 @@
+outs:
+- md5: e4b838a77afb821931139805a236f2ca
+  size: 4308
+  hash: md5
+  path: corporate_afolu.parquet
+meta:
+  name:
+    en: Corporate AFOLU
+  identifier: corporate_afolu
+  metrics:
+  - id: number
+    label:
+      en: Number
+  units:
+    number: cap/a
