@@ -1,6 +1,6 @@
 outs:
-- md5: 4178e8118d765aa0439a53f9dab1be35
-  size: 6874
+- md5: 697f62e7eeaffad22754890096722f64
+  size: 5839
   hash: md5
   path: warmeentwicklung.parquet
 meta:
@@ -12,6 +12,6 @@ meta:
     quantity: fraction
     label:
       de: warmeentwicklung
-  updated_at: '1744809639'
+  updated_at: '1744811782'
   units:
     warmeentwicklung: dimensionless
