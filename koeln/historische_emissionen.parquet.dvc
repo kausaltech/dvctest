@@ -1,0 +1,37 @@
+outs:
+- md5: ad69fce8f62feb934c09569aeb184154
+  size: 8857
+  hash: md5
+  path: historische_emissionen.parquet
+meta:
+  name:
+    de: Historische Emissionen
+  identifier: historische_emissionen
+  metrics:
+  - id: verkehr
+    quantity: emissions
+    label:
+      de: verkehr
+  - id: stadtische_gebaude
+    quantity: emissions
+    label:
+      de: stadtische_gebaude
+  - id: gewerbe_sonstiges
+    quantity: emissions
+    label:
+      de: gewerbe_sonstiges
+  - id: industrie
+    quantity: emissions
+    label:
+      de: industrie
+  - id: private_haushalte
+    quantity: emissions
+    label:
+      de: private_haushalte
+  updated_at: '1744809663'
+  units:
+    private_haushalte: t/a
+    industrie: t/a
+    gewerbe_sonstiges: t/a
+    verkehr: t/a
+    stadtische_gebaude: t/a
