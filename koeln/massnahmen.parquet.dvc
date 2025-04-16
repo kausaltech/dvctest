@@ -1,0 +1,27 @@
+outs:
+- md5: 763e8470b4e6534d2e8dbdbdf01dcb04
+  size: 7657
+  hash: md5
+  path: massnahmen.parquet
+meta:
+  name:
+    de: Massnahmen
+  identifier: massnahmen
+  metrics:
+  - id: massnahmen_emissionfaktor
+    quantity: emission_factor
+    label:
+      de: massnahmen_emissionfaktor
+  - id: massnahmen_erneuerbare_energiepotenziale
+    quantity: energy
+    label:
+      de: massnahmen_erneuerbare_energiepotenziale
+  - id: massnahmen_endenergie
+    quantity: energy
+    label:
+      de: massnahmen_endenergie
+  updated_at: '1744808692'
+  units:
+    massnahmen_emissionfaktor: g/kWh
+    massnahmen_erneuerbare_energiepotenziale: MW
+    massnahmen_endenergie: MWh/a
