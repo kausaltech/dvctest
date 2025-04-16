@@ -1,5 +1,5 @@
 outs:
-- md5: d9ecccb77f05e483ea323e93a19188ea
+- md5: ed19d616a00fd9ea108bb185f66c1ef1
   size: 9660
   hash: md5
   path: andere_daten.parquet
@@ -8,15 +8,15 @@ meta:
     de: Andere Daten
   identifier: andere_daten
   metrics:
-  - id: treibhausgase_lokaler_strommix
-    quantity: emissions
-    label:
-      de: treibhausgase_lokaler_strommix
   - id: emissionen_verbrauchsektoren
     quantity: emissions
     label:
       de: emissionen_verbrauchsektoren
-  updated_at: '1744809628'
+  - id: treibhausgase_lokaler_strommix
+    quantity: emissions
+    label:
+      de: treibhausgase_lokaler_strommix
+  updated_at: '1744811792'
   units:
     emissionen_verbrauchsektoren: t/a
     treibhausgase_lokaler_strommix: t/a
