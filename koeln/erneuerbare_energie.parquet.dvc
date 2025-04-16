@@ -1,5 +1,5 @@
 outs:
-- md5: 7f15519425ff43bfabfe9aa80dd03920
+- md5: 2df6273312d65b8fb9987dcc7f9fbccd
   size: 7309
   hash: md5
   path: erneuerbare_energie.parquet
@@ -8,20 +8,20 @@ meta:
     de: Erneuerbare Energie
   identifier: erneuerbare_energie
   metrics:
-  - id: erneuerbare_energiepotenziale
-    quantity: energy
-    label:
-      de: erneuerbare_energiepotenziale
-  - id: erneuerbare_energiefaktor
-    quantity: ratio
-    label:
-      de: erneuerbare_energiefaktor
   - id: erneuerbare_energieerzeugung
     quantity: energy
     label:
       de: erneuerbare_energieerzeugung
-  updated_at: '1744808681'
+  - id: erneuerbare_energiefaktor
+    quantity: ratio
+    label:
+      de: erneuerbare_energiefaktor
+  - id: erneuerbare_energiepotenziale
+    quantity: energy
+    label:
+      de: erneuerbare_energiepotenziale
+  updated_at: '1744809648'
   units:
     erneuerbare_energiefaktor: h/a
-    erneuerbare_energieerzeugung: MWh/a
     erneuerbare_energiepotenziale: MW
+    erneuerbare_energieerzeugung: MWh/a
