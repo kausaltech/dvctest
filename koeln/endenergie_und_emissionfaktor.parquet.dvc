@@ -1,5 +1,5 @@
 outs:
-- md5: 68789f5a668f7a3e04b56fecc3012cfe
+- md5: 7178d31257ba5c37f2a5168d1a9f7955
   size: 8184
   hash: md5
   path: endenergie_und_emissionfaktor.parquet
@@ -8,15 +8,15 @@ meta:
     de: Endenergie und Emissionfaktor
   identifier: endenergie_und_emissionfaktor
   metrics:
-  - id: emissionfaktor
-    quantity: emission_factor
-    label:
-      de: emissionfaktor
   - id: endenergie_anwendung
     quantity: energy
     label:
       de: endenergie_anwendung
-  updated_at: '1744809668'
+  - id: emissionfaktor
+    quantity: emission_factor
+    label:
+      de: emissionfaktor
+  updated_at: '1744811787'
   units:
     endenergie_anwendung: MWh/a
     emissionfaktor: g/kWh
