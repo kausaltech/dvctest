@@ -1,0 +1,17 @@
+outs:
+- md5: 7b248f68266b4da160b24723a6ba54c4
+  size: 3106
+  hash: md5
+  path: einwohnerin.parquet
+meta:
+  name:
+    de: Einwohnerin
+  identifier: einwohnerin
+  metrics:
+  - id: einwohnerin
+    quantity: population
+    label:
+      de: einwohnerin
+  updated_at: '1744808658'
+  units:
+    einwohnerin: cap
