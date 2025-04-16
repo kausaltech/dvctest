@@ -1,5 +1,5 @@
 outs:
-- md5: 9f8eba21191ecff49cf9c99edda92f97
+- md5: 50654000b9f3d23fb98f0a59fdcdf2f0
   size: 10387
   hash: md5
   path: endenergie_und_emissionfaktor_verbrauchssektoren.parquet
@@ -16,7 +16,7 @@ meta:
     quantity: emission_factor
     label:
       de: emissionfaktor_verbrauchssektoren
-  updated_at: '1744808662'
+  updated_at: '1744809653'
   units:
-    emissionfaktor_verbrauchssektoren: g/kWh
     endenergie_verbrauchssektoren: MWh/a
+    emissionfaktor_verbrauchssektoren: g/kWh
