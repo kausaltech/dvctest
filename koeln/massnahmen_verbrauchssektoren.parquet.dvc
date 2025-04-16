@@ -1,5 +1,5 @@
 outs:
-- md5: eb79d15d8249f3df643acb520ec115e5
+- md5: 063e82cda2e065551925d7e4d5225c99
   size: 7686
   hash: md5
   path: massnahmen_verbrauchssektoren.parquet
@@ -16,7 +16,7 @@ meta:
     quantity: energy
     label:
       de: massnahmen_endenergie_verbrauchssektoren
-  updated_at: '1744808676'
+  updated_at: '1744809060'
   units:
-    massnahmen_endenergie_verbrauchssektoren: MWh/a
     massnahmen_emissionfaktor_verbrauchssektoren: g/kWh
+    massnahmen_endenergie_verbrauchssektoren: MWh/a
