@@ -1,5 +1,5 @@
 outs:
-- md5: 2fc2f1ebff52d2cb4a275a272a6be259
+- md5: 67671b4b182c759f08777262975e8e98
   size: 5980
   hash: md5
   path: massnahmen_warmeentwicklung.parquet
@@ -12,6 +12,6 @@ meta:
     quantity: fraction
     label:
       de: massnahmen_warmeentwicklung
-  updated_at: '1744808667'
+  updated_at: '1744809633'
   units:
     massnahmen_warmeentwicklung: dimensionless
