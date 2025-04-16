@@ -1,0 +1,17 @@
+outs:
+- md5: 2fc2f1ebff52d2cb4a275a272a6be259
+  size: 5980
+  hash: md5
+  path: massnahmen_warmeentwicklung.parquet
+meta:
+  name:
+    de: Massnahmen Wärmeentwicklung
+  identifier: massnahmen_warmeentwicklung
+  metrics:
+  - id: massnahmen_warmeentwicklung
+    quantity: fraction
+    label:
+      de: massnahmen_warmeentwicklung
+  updated_at: '1744808667'
+  units:
+    massnahmen_warmeentwicklung: dimensionless
