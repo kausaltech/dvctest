@@ -1,5 +1,5 @@
 outs:
-- md5: 47d7a2d4bd41040e19169c3ca66b1af2
+- md5: b81a22a7bc93ff5124537b8f9668331a
   size: 6674
   hash: md5
   path: age_of_forests.parquet
@@ -18,6 +18,6 @@ meta:
     quantity: area
     label:
       fi: age_of_forests
-  updated_at: '1744987108'
+  updated_at: '1744987437'
   units:
     age_of_forests: t_ha
