@@ -1,0 +1,22 @@
+outs:
+- md5: 743141d04c90703476951cca1ac11fad
+  size: 28877
+  hash: md5
+  path: standing_wood_unit_price.parquet
+meta:
+  name:
+    fi: Standing wood unit price
+  identifier: standing_wood_unit_price
+  description:
+    fi: 'standing_wood_unit_price - Cost type: tukki - Species: Mänty - Region: Uusimaa
+      - Treatment: Pystykauppa yhteensä - Pystykauppahinnat muuttujina Maakunta, Hakkuutapa,
+      Puutavaralaji ja Vuosi<br/>standing_wood_unit_price - Cost type: tukki - Species:
+      Kuusi - Region: Uusimaa - Treatment: Pystykauppa yhteensä - https://statdb.luke.fi:443/PxWeb/sq/b6f2d240-99cb-473f-b929-59e27ccd3c25'
+  metrics:
+  - id: standing_wood_unit_price
+    quantity: unit_price
+    label:
+      fi: standing_wood_unit_price
+  updated_at: '1744987457'
+  units:
+    standing_wood_unit_price: EUR/m**3
