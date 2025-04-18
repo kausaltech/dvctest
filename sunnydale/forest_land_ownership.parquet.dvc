@@ -1,5 +1,5 @@
 outs:
-- md5: e72ba2869be36632c6c29988684e9c7c
+- md5: d95ecb2ad4f7deee2f9080cf96df5593
   size: 10273
   hash: md5
   path: forest_land_ownership.parquet
@@ -35,6 +35,6 @@ meta:
     quantity: area
     label:
       fi: forest_land_ownership
-  updated_at: '1744976359'
+  updated_at: '1744976562'
   units:
     forest_land_ownership: t_ha
