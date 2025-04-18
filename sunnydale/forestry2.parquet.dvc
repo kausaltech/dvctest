@@ -1,5 +1,5 @@
 outs:
-- md5: f614be667d87994e415ceadd620b8f89
+- md5: 0a1a6cd8cbb7bcb300674a2d1f0a13a6
   size: 32881
   hash: md5
   path: forestry2.parquet
@@ -20,105 +20,105 @@ meta:
       emissions - Emission class: Rakennusten lämmityksen päästöt - From Espoo scenario
       tool'
   metrics:
-  - id: forest_growth_rate
-    quantity: rate
-    label:
-      fi: forest_growth_rate
-  - id: carbon_sink_unit_price_unit_price
-    quantity: unit_price
-    label:
-      fi: carbon_sink_unit_price_unit_price
-  - id: reduce_forestry_production_fraction
-    quantity: fraction
-    label:
-      fi: reduce_forestry_production_fraction
-  - id: forest_protection_unit_price_unit_price
-    quantity: unit_price
-    label:
-      fi: forest_protection_unit_price_unit_price
-  - id: forest_cuts_by_a_forest_owner_mass
-    quantity: mass
-    label:
-      fi: forest_cuts_by_a_forest_owner_mass
-  - id: yesno_decision_fraction
-    quantity: fraction
-    label:
-      fi: yesno_decision_fraction
-  - id: growth_increase_due_to_protection_rate
-    quantity: rate
-    label:
-      fi: growth_increase_due_to_protection_rate
-  - id: co2_market_price_unit_price
-    quantity: unit_price
-    label:
-      fi: co2_market_price_unit_price
-  - id: utility_weights_utility
-    quantity: utility
-    label:
-      fi: utility_weights_utility
   - id: utility_weights_currency
     quantity: currency
     label:
       fi: utility_weights_currency
-  - id: average_forestry_product_unit_price_unit_price
-    quantity: unit_price
-    label:
-      fi: average_forestry_product_unit_price_unit_price
-  - id: forestry_production_in_finland_mass
-    quantity: mass
-    label:
-      fi: forestry_production_in_finland_mass
   - id: argument_placeholder_argument
     quantity: argument
     label:
       fi: argument_placeholder_argument
-  - id: historical_forest_stock_in_finland_mass
-    quantity: mass
+  - id: forest_protection_unit_price_unit_price
+    quantity: unit_price
     label:
-      fi: historical_forest_stock_in_finland_mass
+      fi: forest_protection_unit_price_unit_price
   - id: district_heating_with_biofuels_in_sunnydale_energy
     quantity: energy
     label:
       fi: district_heating_with_biofuels_in_sunnydale_energy
-  - id: sunnydale_net_emissions_emissions
-    quantity: emissions
-    label:
-      fi: sunnydale_net_emissions_emissions
-  - id: average_biofuel_unit_price_unit_price
+  - id: average_forestry_product_unit_price_unit_price
     quantity: unit_price
     label:
-      fi: average_biofuel_unit_price_unit_price
+      fi: average_forestry_product_unit_price_unit_price
   - id: technical_row_to_make_sure_uuid_is_not_dropped_fraction
     quantity: fraction
     label:
       fi: technical_row_to_make_sure_uuid_is_not_dropped_fraction
+  - id: reduce_forestry_production_fraction
+    quantity: fraction
+    label:
+      fi: reduce_forestry_production_fraction
+  - id: forest_cuts_by_a_forest_owner_mass
+    quantity: mass
+    label:
+      fi: forest_cuts_by_a_forest_owner_mass
+  - id: historical_forest_stock_in_finland_mass
+    quantity: mass
+    label:
+      fi: historical_forest_stock_in_finland_mass
+  - id: forest_growth_rate
+    quantity: rate
+    label:
+      fi: forest_growth_rate
   - id: district_heating_emission_factor_emission_factor
     quantity: emission_factor
     label:
       fi: district_heating_emission_factor_emission_factor
+  - id: forestry_production_in_finland_mass
+    quantity: mass
+    label:
+      fi: forestry_production_in_finland_mass
+  - id: co2_market_price_unit_price
+    quantity: unit_price
+    label:
+      fi: co2_market_price_unit_price
+  - id: sunnydale_net_emissions_emissions
+    quantity: emissions
+    label:
+      fi: sunnydale_net_emissions_emissions
   - id: forest_cuts_by_metsahallitus_mass
     quantity: mass
     label:
       fi: forest_cuts_by_metsahallitus_mass
-  updated_at: '1744987094'
+  - id: average_biofuel_unit_price_unit_price
+    quantity: unit_price
+    label:
+      fi: average_biofuel_unit_price_unit_price
+  - id: yesno_decision_fraction
+    quantity: fraction
+    label:
+      fi: yesno_decision_fraction
+  - id: utility_weights_utility
+    quantity: utility
+    label:
+      fi: utility_weights_utility
+  - id: growth_increase_due_to_protection_rate
+    quantity: rate
+    label:
+      fi: growth_increase_due_to_protection_rate
+  - id: carbon_sink_unit_price_unit_price
+    quantity: unit_price
+    label:
+      fi: carbon_sink_unit_price_unit_price
+  updated_at: '1744987467'
   units:
-    utility_weights_currency: a/MEUR
-    co2_market_price_unit_price: EUR/t
-    yesno_decision_fraction: dimensionless
-    forest_cuts_by_metsahallitus_mass: m3_solid/a
-    technical_row_to_make_sure_uuid_is_not_dropped_fraction: dimensionless
-    average_biofuel_unit_price_unit_price: EUR/m3_solid
-    sunnydale_net_emissions_emissions: kt/a
-    average_forestry_product_unit_price_unit_price: EUR/m3_solid
-    district_heating_emission_factor_emission_factor: g/kWh
-    carbon_sink_unit_price_unit_price: EUR/m3_solid/a
-    forest_protection_unit_price_unit_price: EUR/m3_solid/a
-    district_heating_with_biofuels_in_sunnydale_energy: GWh/a
-    utility_weights_utility: dimensionless
-    forest_growth_rate: 1/a
-    argument_placeholder_argument: dimensionless
-    forestry_production_in_finland_mass: Mm3_solid/a
-    reduce_forestry_production_fraction: dimensionless
-    historical_forest_stock_in_finland_mass: Mm3_solid
     growth_increase_due_to_protection_rate: 1/a
+    utility_weights_utility: dimensionless
+    utility_weights_currency: a/MEUR
+    average_biofuel_unit_price_unit_price: EUR/m3_solid
+    reduce_forestry_production_fraction: dimensionless
+    technical_row_to_make_sure_uuid_is_not_dropped_fraction: dimensionless
+    historical_forest_stock_in_finland_mass: Mm3_solid
+    co2_market_price_unit_price: EUR/t
+    district_heating_with_biofuels_in_sunnydale_energy: GWh/a
     forest_cuts_by_a_forest_owner_mass: m3_solid/a
+    district_heating_emission_factor_emission_factor: g/kWh
+    yesno_decision_fraction: dimensionless
+    average_forestry_product_unit_price_unit_price: EUR/m3_solid
+    argument_placeholder_argument: dimensionless
+    carbon_sink_unit_price_unit_price: EUR/m3_solid/a
+    forest_cuts_by_metsahallitus_mass: m3_solid/a
+    sunnydale_net_emissions_emissions: kt/a
+    forestry_production_in_finland_mass: Mm3_solid/a
+    forest_protection_unit_price_unit_price: EUR/m3_solid/a
+    forest_growth_rate: 1/a
