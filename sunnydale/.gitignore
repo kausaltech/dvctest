@@ -8,3 +8,4 @@
 /forest_land_ownership.parquet
 /amount_of_wood_in_forest.parquet
 /age_of_forests.parquet
+/annual_growth_of_forest.parquet
