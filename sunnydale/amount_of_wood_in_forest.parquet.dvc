@@ -1,0 +1,55 @@
+outs:
+- md5: 50938b0da56602425f50046fdc426eb5
+  size: 12924
+  hash: md5
+  path: amount_of_wood_in_forest.parquet
+meta:
+  name:
+    fi: Amount of wood in forest
+  identifier: amount_of_wood_in_forest
+  description:
+    fi: "amount_of_wood_in_forest - Species: Mänty - Region: Uusimaa - https://statdb.luke.fi:443/PxWeb/sq/add96c28-e1ee-4e4f-ba09-5b16275f5849<br/>amount_of_wood_in_forest
+      - Species: Mänty - Region: Varsinais-Suomi - \"Mänty sisältää kaikki muut havupuut
+      paitsi kuusen.<br/>amount_of_wood_in_forest - Species: Mänty - Region: Satakunta
+      - VMI12:n tulokseen muuta havupuuta sisältyy yhteensä 3,3 miljoonaa kuutiometriä.<br/>amount_of_wood_in_forest
+      - Species: Mänty - Region: Kanta-Häme - VMI 13:n v. 2019-2023 tulokseen muuta
+      havupuuta sisältyy yhteensä 3,5 miljoonaa kuutiometriä.\"<br/>amount_of_wood_in_forest
+      - Species: Mänty - Region: Pirkanmaa - Luvut ovat laskettu Suomen nykyisten
+      aluerajojen mukaan.<br/>amount_of_wood_in_forest - Species: Mänty - Region:
+      Päijät-Häme - inventointi:<br/>amount_of_wood_in_forest - Species: Mänty - Region:
+      Kymenlaakso - VMI 1 (1921-1924):<br/>amount_of_wood_in_forest - Species: Mänty
+      - Region: Etelä-Karjala - Luvut ovat laskettu Suomen nykyisten aluerajojen mukaan.<br/>amount_of_wood_in_forest
+      - Species: Mänty - Region: Pohjois-Savo - inventointi:<br/>amount_of_wood_in_forest
+      - Species: Mänty - Region: Pohjois-Karjala - VMI 11 (2009-2013):<br/>amount_of_wood_in_forest
+      - Species: Mänty - Region: Keski-Suomi - VMI 11:n mukaisesta puuston tilavuudesta
+      oli metsämaalla 2 295 milj. m³ ja kitumaalla 62 milj. m³.<br/>amount_of_wood_in_forest
+      - Species: Mänty - Region: Pohjanmaa - inventointi:<br/>amount_of_wood_in_forest
+      - Species: Mänty - Region: Keski-Pohjanmaa - VMI 12 (2014-2018):<br/>amount_of_wood_in_forest
+      - Species: Mänty - Region: Pohjois-Pohjanmaa - VMI 12:n mukaisesta puuston tilavuudesta
+      oli metsämaalla 2 409 milj. m³ ja kitumaalla 67 milj. m³.\n<br/>amount_of_wood_in_forest
+      - Species: Mänty - Region: Lappi - inventointi:<br/>amount_of_wood_in_forest
+      - Species: Mänty - Region: Ahvenanmaa - VMI 13 (2019-2023):<br/>amount_of_wood_in_forest
+      - Species: Kuusi - Region: Uusimaa - Ahvenanmaan maakunta mitattu vuonna 2023
+      ja Inarin, Utsjoen ja Enontekiön kunnat vuonna 2022.\nVMI 13:n v. 2019-2023
+      mukaisesta puuston tilavuudesta oli metsämaalla 2 482 milj. m³ ja kitumaalla
+      70 milj. m³.<br/>amount_of_wood_in_forest - Species: Kuusi - Region: Satakunta
+      - inventointi:<br/>amount_of_wood_in_forest - Species: Kuusi - Region: Kanta-Häme
+      - VMI 12 (2014-2018):<br/>amount_of_wood_in_forest - Species: Kuusi - Region:
+      Pirkanmaa - maakunta:<br/>amount_of_wood_in_forest - Species: Kuusi - Region:
+      Päijät-Häme - Lappi:<br/>amount_of_wood_in_forest - Species: Kuusi - Region:
+      Kymenlaakso - VMI12: n mittauksia ei tehty Enontekiön, Inarin ja Utsjoen alueella,
+      minkä osalta tulokset on laskettu VMI11:n aineistosta.<br/>amount_of_wood_in_forest
+      - Species: Kuusi - Region: Pohjois-Savo - Päivitetty viimeksi:<br/>amount_of_wood_in_forest
+      - Species: Kuusi - Region: Pohjois-Karjala - 20241114 09:00<br/>amount_of_wood_in_forest
+      - Species: Kuusi - Region: Etelä-Pohjanmaa - Lähde:<br/>amount_of_wood_in_forest
+      - Species: Kuusi - Region: Pohjanmaa - Luonnonvarakeskus, Metsävarat<br/>amount_of_wood_in_forest
+      - Species: Kuusi - Region: Pohjois-Pohjanmaa - Yhteystiedot:<br/>amount_of_wood_in_forest
+      - Species: Kuusi - Region: Kainuu - tietopalvelu@luke.fi"
+  metrics:
+  - id: amount_of_wood_in_forest
+    quantity: volume
+    label:
+      fi: amount_of_wood_in_forest
+  updated_at: '1744976557'
+  units:
+    amount_of_wood_in_forest: Mm3_solid
