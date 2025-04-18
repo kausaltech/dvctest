@@ -1,5 +1,5 @@
 outs:
-- md5: 50938b0da56602425f50046fdc426eb5
+- md5: ffbfdcd703891748fdf2f08214cba1f3
   size: 12924
   hash: md5
   path: amount_of_wood_in_forest.parquet
@@ -50,6 +50,6 @@ meta:
     quantity: volume
     label:
       fi: amount_of_wood_in_forest
-  updated_at: '1744976557'
+  updated_at: '1744987089'
   units:
     amount_of_wood_in_forest: Mm3_solid
