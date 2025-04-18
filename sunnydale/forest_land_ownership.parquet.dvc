@@ -1,0 +1,40 @@
+outs:
+- md5: e72ba2869be36632c6c29988684e9c7c
+  size: 10273
+  hash: md5
+  path: forest_land_ownership.parquet
+meta:
+  name:
+    fi: Forest land ownership
+  identifier: forest_land_ownership
+  description:
+    fi: 'forest_land_ownership - Region: Uusimaa - Stakeholder: Yksityiset - https://statdb.luke.fi:443/PxWeb/sq/9be16fc3-8e98-4e3f-a6be-a911789ab851<br/>forest_land_ownership
+      - Region: Varsinais-Suomi - Stakeholder: Yksityiset - Yksityiset henkilöt, henkilöyhtymät,
+      perikunnat ja toiminimet ym.<br/>forest_land_ownership - Region: Varsinais-Suomi
+      - Stakeholder: Yhtiöt - Osakeyhtiöt (pl. asunto-osakeyhtiöt) ja niiden eläkesäätiöt.<br/>forest_land_ownership
+      - Region: Varsinais-Suomi - Stakeholder: Valtio - Metsähallitus ja muut valtion
+      virastot ja laitokset.<br/>forest_land_ownership - Region: Varsinais-Suomi -
+      Stakeholder: Muut - Kunnat, seurakunnat ja yhteisöt. Yhteisöiksi luetaan osuuskunnat,
+      yhteismetsät, kommandiittiyhtiöt, asunto-osakeyhtiöt ja säätiöt.<br/>forest_land_ownership
+      - Region: Pirkanmaa - Stakeholder: Yhtiöt - inventointi:<br/>forest_land_ownership
+      - Region: Pirkanmaa - Stakeholder: Valtio - VMI 13 (2019-2023):<br/>forest_land_ownership
+      - Region: Pirkanmaa - Stakeholder: Muut - Ahvenanmaan maakunta mitattu vuonna
+      2023 ja Inarin, Utsjoen ja Enontekiön kunnat vuonna 2022.<br/>forest_land_ownership
+      - Region: Päijät-Häme - Stakeholder: Yhtiöt - inventointi:<br/>forest_land_ownership
+      - Region: Päijät-Häme - Stakeholder: Valtio - VMI 12 (2014-2018):<br/>forest_land_ownership
+      - Region: Päijät-Häme - Stakeholder: Muut - maakunta:<br/>forest_land_ownership
+      - Region: Kymenlaakso - Stakeholder: Yksityiset - Lappi:<br/>forest_land_ownership
+      - Region: Kymenlaakso - Stakeholder: Yhtiöt - VMI12: n mittauksia ei tehty Enontekiön,
+      Inarin ja Utsjoen alueella, minkä osalta tulokset on laskettu VMI11:n aineistosta.<br/>forest_land_ownership
+      - Region: Etelä-Karjala - Stakeholder: Yksityiset - Päivitetty viimeksi:<br/>forest_land_ownership
+      - Region: Etelä-Karjala - Stakeholder: Yhtiöt - 20241114 09:00<br/>forest_land_ownership
+      - Region: Etelä-Karjala - Stakeholder: Muut - Lähde:<br/>forest_land_ownership
+      - Region: Etelä-Savo - Stakeholder: Yksityiset - Luonnonvarakeskus, Metsävarat'
+  metrics:
+  - id: forest_land_ownership
+    quantity: area
+    label:
+      fi: forest_land_ownership
+  updated_at: '1744976359'
+  units:
+    forest_land_ownership: t_ha
