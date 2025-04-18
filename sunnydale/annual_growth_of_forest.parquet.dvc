@@ -1,5 +1,5 @@
 outs:
-- md5: 127d07320134d047087dbf4968912d6b
+- md5: bea2bf3596da9898ac7b840a1b1773fe
   size: 7603
   hash: md5
   path: annual_growth_of_forest.parquet
@@ -20,6 +20,6 @@ meta:
     quantity: volume
     label:
       fi: annual_growth_of_forest
-  updated_at: '1744987446'
+  updated_at: '1744988042'
   units:
     annual_growth_of_forest: Mm3_solid
