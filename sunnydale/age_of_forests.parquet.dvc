@@ -1,0 +1,23 @@
+outs:
+- md5: 47d7a2d4bd41040e19169c3ca66b1af2
+  size: 6674
+  hash: md5
+  path: age_of_forests.parquet
+meta:
+  name:
+    fi: Age of forests
+  identifier: age_of_forests
+  description:
+    fi: 'age_of_forests - Region: Uusimaa - Age: Puuton - Metsiköiden ikäluokat metsämaalla
+      (1000 ha) muuttujina maakunta, ikäluokka ja inventointi<br/>age_of_forests -
+      Region: Uusimaa - Age: Ikäluokka - 1-20 - https://statdb.luke.fi:443/PxWeb/sq/b8c287fd-7819-409d-8ca6-5c9afd415e3e<br/>age_of_forests
+      - Region: Uusimaa - Age: Ikäluokka - 21-40 - Ahvenanmaan maakunta mitattu vuonna
+      2023 ja Inarin, Utsjoen ja Enontekiön kunnat vuonna 2022.'
+  metrics:
+  - id: age_of_forests
+    quantity: area
+    label:
+      fi: age_of_forests
+  updated_at: '1744987108'
+  units:
+    age_of_forests: t_ha
