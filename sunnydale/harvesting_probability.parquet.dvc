@@ -1,0 +1,22 @@
+outs:
+- md5: 55a4ed4ab94348a6b857623164869562
+  size: 4431
+  hash: md5
+  path: harvesting_probability.parquet
+meta:
+  name:
+    fi: harvesting_probability
+  identifier: harvesting_probability
+  metrics:
+  - id: harvesting_probability_rate
+    quantity: rate
+    label:
+      fi: harvesting_probability_rate
+  - id: harvesting_probability_fraction
+    quantity: fraction
+    label:
+      fi: harvesting_probability_fraction
+  updated_at: '1745207218'
+  units:
+    harvesting_probability_fraction: dimensionless
+    harvesting_probability_rate: '%/a'
