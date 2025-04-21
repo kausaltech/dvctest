@@ -1,5 +1,5 @@
 outs:
-- md5: c1ab31ee06db399ba1cee68fda0b83f9
+- md5: 3d16f9218a8b40f773ee8be6d50adabe
   size: 28893
   hash: md5
   path: standing_wood_unit_price.parquet
@@ -17,6 +17,6 @@ meta:
     quantity: unit_price
     label:
       fi: standing_wood_unit_price
-  updated_at: '1745207186'
+  updated_at: '1745251978'
   units:
     standing_wood_unit_price: EUR/m3_solid
