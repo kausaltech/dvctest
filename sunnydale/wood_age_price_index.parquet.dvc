@@ -1,5 +1,5 @@
 outs:
-- md5: 9f3adcf083be71c98afc4da772a1472d
+- md5: 26ac5e33f6aaab67ea68044088544656
   size: 3852
   hash: md5
   path: wood_age_price_index.parquet
@@ -12,6 +12,6 @@ meta:
     quantity: fraction
     label:
       fi: wood_age_price_index
-  updated_at: '1745207208'
+  updated_at: '1745251967'
   units:
     wood_age_price_index: dimensionless
