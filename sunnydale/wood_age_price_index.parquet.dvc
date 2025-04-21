@@ -1,0 +1,17 @@
+outs:
+- md5: 7d2a634872c594bbaf8bc9c23b074b04
+  size: 3856
+  hash: md5
+  path: wood_age_price_index.parquet
+meta:
+  name:
+    fi: wood_age_price_index
+  identifier: wood_age_price_index
+  metrics:
+  - id: wood_age_price_index
+    quantity: fraction
+    label:
+      fi: wood_age_price_index
+  updated_at: '1745205918'
+  units:
+    wood_age_price_index: dimensionless
