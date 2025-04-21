@@ -1,5 +1,5 @@
 outs:
-- md5: acc7c0ee699eecf782e0b447f7c50b9e
+- md5: 73d9485e993010011b6e424314d2f645
   size: 5896
   hash: md5
   path: congestion_charge.parquet
@@ -8,6 +8,10 @@ meta:
     fi: congestion_charge
   identifier: congestion_charge
   metrics:
+  - id: purchase_power_of_the_poor
+    quantity: currency
+    label:
+      fi: purchase_power_of_the_poor
   - id: car_traffic_emissions
     quantity: emissions
     label:
@@ -16,11 +20,7 @@ meta:
     quantity: unit_price
     label:
       fi: inherent_action_utility
-  - id: purchase_power_of_the_poor
-    quantity: currency
-    label:
-      fi: purchase_power_of_the_poor
-  updated_at: '1745205945'
+  updated_at: '1745207227'
   units:
     car_traffic_emissions: kt/a
     purchase_power_of_the_poor: EUR/month
