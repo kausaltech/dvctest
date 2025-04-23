@@ -1,0 +1,17 @@
+outs:
+- md5: abbb54762c878fdc5c5bd2d7131e5b38
+  size: 2737
+  hash: md5
+  path: vaestoennuste.parquet
+meta:
+  name:
+    fi: Väestöennuste
+  identifier: vaestoennuste
+  metrics:
+  - id: vaestoennuste
+    quantity: population
+    label:
+      fi: vaestoennuste
+  updated_at: '1745388339'
+  units:
+    vaestoennuste: cap
