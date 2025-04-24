@@ -1,6 +1,6 @@
 outs:
-- md5: 8c4ddfef08e4a5d399b3f152b29c6e54
-  size: 6430
+- md5: 01aca6a28872656c38dde92b7c88c5f2
+  size: 6434
   hash: md5
   path: other_transportation.parquet
 meta:
