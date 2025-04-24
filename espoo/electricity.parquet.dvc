@@ -1,6 +1,6 @@
 outs:
-- md5: de97507d50f232e248cea6ee0c336339
-  size: 10290
+- md5: 53c58017b526055dda67c43f411679f8
+  size: 11900
   hash: md5
   path: electricity.parquet
 meta:
@@ -8,35 +8,40 @@ meta:
     fi: electricity
   identifier: electricity
   metrics:
-  - id: muutos_kulutussahkon_kaytossa_asuminen
-    quantity: energy
-    label:
-      fi: Muutos kulutussähkön käytössä (Asuminen)
-  - id: sahkon_kysyntaennuste_twh
-    quantity: energy
-    label:
-      fi: Sähkön kysyntäennuste (TWh)
-  - id: arvio_aurinkosahkon_tuotantomaarasta_gwh
-    quantity: energy
-    label:
-      fi: Arvio aurinkosähkön tuotantomäärästä (GWh)
-  - id: vihrean_sahkon_jakauma
-    quantity: ratio
-    label:
-      fi: Vihreän sähkön jakauma
   - id: kansallinen_sahkontuotanto_puhdistuu
     quantity: emission_factor
     label:
-      fi: Kansallinen sähköntuotanto puhdistuu
+      fi: kansallinen_sahkontuotanto_puhdistuu
+  - id: arvio_aurinkosahkon_tuotantomaarasta_gwh
+    quantity: energy
+    label:
+      fi: arvio_aurinkosahkon_tuotantomaarasta_gwh
   - id: suurten_toimijoiden_sahkonkulutus
     quantity: energy
     label:
-      fi: Suurten toimijoiden sähkönkulutus
-  updated_at: '1743687148'
+      fi: suurten_toimijoiden_sahkonkulutus
+  - id: ei_lammityssahkon_kulutus_henkea_kohti
+    quantity: energy
+    label:
+      fi: ei_lammityssahkon_kulutus_henkea_kohti
+  - id: sahkon_kysyntaennuste_twh
+    quantity: energy
+    label:
+      fi: sahkon_kysyntaennuste_twh
+  - id: muutos_kulutussahkon_kaytossa_asuminen
+    quantity: energy
+    label:
+      fi: muutos_kulutussahkon_kaytossa_asuminen
+  - id: vihrean_sahkon_jakauma
+    quantity: ratio
+    label:
+      fi: vihrean_sahkon_jakauma
+  updated_at: '1745490761'
   units:
-    suurten_toimijoiden_sahkonkulutus: GWh/a
     muutos_kulutussahkon_kaytossa_asuminen: GWh/a
+    suurten_toimijoiden_sahkonkulutus: GWh/a
     sahkon_kysyntaennuste_twh: TWh/a
-    vihrean_sahkon_jakauma: dimensionless
-    kansallinen_sahkontuotanto_puhdistuu: t/GWh
     arvio_aurinkosahkon_tuotantomaarasta_gwh: GWh/a
+    kansallinen_sahkontuotanto_puhdistuu: t/GWh
+    vihrean_sahkon_jakauma: dimensionless
+    ei_lammityssahkon_kulutus_henkea_kohti: kWh/cap/a
