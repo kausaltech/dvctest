@@ -1,6 +1,6 @@
 outs:
-- md5: 7430cdf3756a7d75361a774ca4ec73d7
-  size: 7959
+- md5: 5c78613c5b38caeb4d06bcca87a2220f
+  size: 7906
   hash: md5
   path: onroad_transportation.parquet
 meta:
@@ -22,6 +22,6 @@ meta:
       en: Mileage
       fi: Suorite
   units:
-    emissions: kt/a
     mileage: Mvkm/a
+    emissions: kt/a
     emission_factor: g/vkm
