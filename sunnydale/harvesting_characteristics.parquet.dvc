@@ -1,0 +1,22 @@
+outs:
+- md5: 415b645bd7bf867c4f411300109949b0
+  size: 4891
+  hash: md5
+  path: harvesting_characteristics.parquet
+meta:
+  name:
+    fi: harvesting_characteristics
+  identifier: harvesting_characteristics
+  metrics:
+  - id: harvesting_probability
+    quantity: rate
+    label:
+      fi: harvesting_probability
+  - id: treatment_type_by_age
+    quantity: ratio
+    label:
+      fi: treatment_type_by_age
+  updated_at: '1745663965'
+  units:
+    harvesting_probability: '%/a'
+    treatment_type_by_age: dimensionless

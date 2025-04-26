@@ -14,3 +14,4 @@
 /wood_age_price_index.parquet
 /co2_emission_potential_in_wood.parquet
 /harvesting_probability.parquet
+/harvesting_characteristics.parquet
