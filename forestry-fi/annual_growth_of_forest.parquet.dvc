@@ -1,0 +1,25 @@
+outs:
+- md5: f1a0605efd8a2772e76dfd4c45b39a25
+  size: 7603
+  hash: md5
+  path: annual_growth_of_forest.parquet
+meta:
+  name:
+    fi: Annual growth of forest
+  identifier: annual_growth_of_forest
+  description:
+    fi: 'annual_growth_of_forest - Species: Mänty - Region: Uusimaa - Stakeholder:
+      Yksityiset ja muut - Puuston vuotuinen kasvu metsä- ja kitumaalla omistajaryhmittäin
+      (milj. m³/vuosi) muuttujina maaluokka, maakunta, omistajaryhmä, puulaji ja inventointi<br/>annual_growth_of_forest
+      - Species: Kuusi - Region: Uusimaa - Stakeholder: Yksityiset ja muut - https://statdb.luke.fi:443/PxWeb/sq/2d37f955-9644-4bcc-95cb-1c67082f5b35<br/>annual_growth_of_forest
+      - Species: Koivu - Region: Uusimaa - Stakeholder: Yksityiset ja muut - Ahvenanmaan
+      maakunta mitattu vuonna 2023 ja Inarin, Utsjoen ja Enontekiön kunnat vuonna
+      2022.'
+  metrics:
+  - id: annual_growth_of_forest
+    quantity: volume
+    label:
+      fi: annual_growth_of_forest
+  updated_at: '1745663657'
+  units:
+    annual_growth_of_forest: Mm3_solid
