@@ -1,0 +1,31 @@
+outs:
+- md5: aac9e971c5d26b8ccfc1f997f01d62d6
+  size: 6798
+  hash: md5
+  path: co2_emission_potential_in_wood.parquet
+meta:
+  name:
+    fi: co2_emission_potential_in_wood
+  identifier: co2_emission_potential_in_wood
+  description:
+    fi: 'co2_emission_potential_in_wood - Cost type: fiberwood - Kiintokuutiometri
+      puuta nimittäin painaa noin 520 kg/k-m3 ja puussa on hiiltä kutakuinkin samassa
+      suhteessa kuin selluloosassa (C6H12O6)n eli 6*12/(6*12 + 12*1 + 6*16) = 40 %,
+      joten alkuainehiiltä on 209 kg/k-m3. (Bioenergianeuvoja 2024)<br/>co2_emission_potential_in_wood
+      - Cost type: small_log - https://www.bioenergianeuvoja.fi/faktaa/biopolttoaineiden-muuntokertoimia/<br/>co2_emission_potential_in_wood
+      - Cost type: log - Oletuksena, että tukista 40 % päätyy pitkäaikaiseen käyttöön
+      ja siten hiilivarastoksi.<br/>who_pays_for_wood_co2 - Stakeholder: Yksityiset
+      - Indeksi, valitaan käyttöliittymässä.'
+  metrics:
+  - id: who_pays_for_wood_co2
+    quantity: fraction
+    label:
+      fi: who_pays_for_wood_co2
+  - id: co2_emission_potential_in_wood
+    quantity: emission_factor
+    label:
+      fi: co2_emission_potential_in_wood
+  updated_at: '1745663696'
+  units:
+    co2_emission_potential_in_wood: kg/m3_solid
+    who_pays_for_wood_co2: dimensionless
