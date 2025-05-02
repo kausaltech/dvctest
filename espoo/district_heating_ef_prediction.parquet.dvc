@@ -1,0 +1,17 @@
+outs:
+- md5: 70c6ecd54584e2293c85c120388de5c5
+  size: 3752
+  hash: md5
+  path: district_heating_ef_prediction.parquet
+meta:
+  name:
+    en: District heating EF prediction
+  identifier: district_heating_ef_prediction
+  metrics:
+  - id: district_heating_emission_factor_prediction
+    quantity: emission_factor
+    label:
+      en: district_heating_emission_factor_prediction
+  updated_at: '1746189266'
+  units:
+    district_heating_emission_factor_prediction: g/kWh
