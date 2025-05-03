@@ -3,9 +3,3 @@ outs:
   size: 41427
   hash: md5
   path: defaults.parquet
-meta:
-  name:
-    en: ''
-  identifier: ''
-  updated_at: '1745990824'
-  units: {}
