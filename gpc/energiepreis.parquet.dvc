@@ -1,6 +1,6 @@
 outs:
-- md5: e3131a4c961902b56861ce56b564d42c
-  size: 10737
+- md5: 38e5393e02c6449e4fec0cbc6c034841
+  size: 6285
   hash: md5
   path: energiepreis.parquet
 meta:
@@ -8,30 +8,10 @@ meta:
     de: Energiepreis
   identifier: energiepreis
   metrics:
-  - id: kommunale_einrichtungen
+  - id: energiepreis
     quantity: unit_price
     label:
-      de: kommunale_einrichtungen
-  - id: industrie
-    quantity: unit_price
-    label:
-      de: industrie
-  - id: verkehr
-    quantity: unit_price
-    label:
-      de: verkehr
-  - id: private_haushalte
-    quantity: unit_price
-    label:
-      de: private_haushalte
-  - id: gewerbe_handel_dienstleistungen
-    quantity: unit_price
-    label:
-      de: gewerbe_handel_dienstleistungen
-  updated_at: '1747815310'
+      de: energiepreis
+  updated_at: '1747815934'
   units:
-    gewerbe_handel_dienstleistungen: EUR/MWh
-    industrie: EUR/MWh
-    verkehr: EUR/MWh
-    private_haushalte: EUR/MWh
-    kommunale_einrichtungen: EUR/MWh
+    energiepreis: EUR/MWh
