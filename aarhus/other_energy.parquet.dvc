@@ -1,0 +1,15 @@
+outs:
+- md5: 98f26fbf9a831f7e7995d4a2bfc3cd27
+  size: 4445
+  hash: md5
+  path: other_energy.parquet
+meta:
+  name:
+    en: Other Energy
+  identifier: other_energy
+  metrics:
+  - id: energy
+    label:
+      en: Energy
+  units:
+    energy: TJ/a

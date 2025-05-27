@@ -3,3 +3,4 @@
 /emission_factors__energy.parquet
 /rail_transportation.parquet
 /manufacturing.parquet
+/other_energy.parquet
