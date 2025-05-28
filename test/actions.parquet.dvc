@@ -1,0 +1,15 @@
+outs:
+- md5: bd138bd3d7bdb22949bb9720691b0014
+  size: 3218
+  hash: md5
+  path: actions.parquet
+meta:
+  name:
+    en: Actions
+  identifier: actions
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t_co2e/a
