@@ -1,0 +1,15 @@
+outs:
+- md5: 8be3d6c9605a7e74cc2937c694aaa87d
+  size: 4766
+  hash: md5
+  path: electricity.parquet
+meta:
+  name:
+    en: Electricity
+  identifier: electricity
+  metrics:
+  - id: energy
+    label:
+      en: Energy
+  units:
+    energy: TJ/a
