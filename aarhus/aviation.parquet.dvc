@@ -1,0 +1,15 @@
+outs:
+- md5: 7a5f4db068892ba47554146213fbd06b
+  size: 4272
+  hash: md5
+  path: aviation.parquet
+meta:
+  name:
+    en: Aviation
+  identifier: aviation
+  metrics:
+  - id: energy
+    label:
+      en: Energy
+  units:
+    energy: TJ/a
