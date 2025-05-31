@@ -1,0 +1,15 @@
+outs:
+- md5: a3bbf7c1281c3945ee9024ec2eadca0c
+  size: 5762
+  hash: md5
+  path: stationary_combustion.parquet
+meta:
+  name:
+    en: Stationary Combustion
+  identifier: stationary_combustion
+  metrics:
+  - id: fuel_consumption
+    label:
+      en: Fuel Consumption
+  units:
+    fuel_consumption: m³/a
