@@ -1,0 +1,23 @@
+outs:
+- md5: 8b9c7fd5acf180996b5eb23adc4d1d50
+  size: 5341
+  hash: md5
+  path: energy_emission_factors.parquet
+meta:
+  name:
+    en: Energy Emission Factors
+  identifier: energy_emission_factors
+  metrics:
+  - id: emission_factor_electricity
+    label:
+      en: Emission Factor (Electricity)
+  - id: emission_factor_natural_gas
+    label:
+      en: Emission Factor (Natural Gas)
+  - id: emission_factor_other_fuels
+    label:
+      en: Emission Factor (Other Fuels)
+  units:
+    emission_factor_other_fuels: g_co2e/L
+    emission_factor_natural_gas: g_co2e/m³
+    emission_factor_electricity: g_co2e/kWh
