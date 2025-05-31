@@ -1,0 +1,15 @@
+outs:
+- md5: 74bd050c0d759410316e03b626a3db0a
+  size: 4941
+  hash: md5
+  path: wastewater_treatment.parquet
+meta:
+  name:
+    en: Wastewater Treatment
+  identifier: wastewater_treatment
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t_co2e/a
