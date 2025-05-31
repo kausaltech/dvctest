@@ -1,0 +1,15 @@
+outs:
+- md5: 6fa6d2b5497c1f11c00d21657ae25d1e
+  size: 5310
+  hash: md5
+  path: mobile_combustion.parquet
+meta:
+  name:
+    en: Mobile Combustion
+  identifier: mobile_combustion
+  metrics:
+  - id: fuel_consumption
+    label:
+      en: Fuel Consumption
+  units:
+    fuel_consumption: L/a
