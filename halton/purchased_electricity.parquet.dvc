@@ -1,0 +1,15 @@
+outs:
+- md5: 014f813b45519ab397afd4a79598d5b0
+  size: 5393
+  hash: md5
+  path: purchased_electricity.parquet
+meta:
+  name:
+    en: Purchased Electricity
+  identifier: purchased_electricity
+  metrics:
+  - id: energy
+    label:
+      en: Energy
+  units:
+    energy: kWh/a

@@ -2,3 +2,4 @@
 /energy_emission_factors.parquet
 /wastewater_treatment.parquet
 /stationary_combustion.parquet
+/purchased_electricity.parquet
