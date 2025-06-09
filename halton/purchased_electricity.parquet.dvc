@@ -1,6 +1,6 @@
 outs:
-- md5: c25c751d85d41f307418800ea60b4918
-  size: 14153
+- md5: 5c5df87648fbf66f3f8259c50517d22c
+  size: 14161
   hash: md5
   path: purchased_electricity.parquet
 meta:
