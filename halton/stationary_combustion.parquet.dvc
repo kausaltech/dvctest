@@ -1,6 +1,6 @@
 outs:
-- md5: d7f456dab23b2b6ec35a80de0b2f448f
-  size: 6032
+- md5: 295a470cb35af12eda05baabe40947a1
+  size: 8090
   hash: md5
   path: stationary_combustion.parquet
 meta:
