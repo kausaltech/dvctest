@@ -1,0 +1,19 @@
+outs:
+- md5: e2d66d145db92cc001eeb2540019b011
+  size: 5776
+  hash: md5
+  path: other_stationary_combustion.parquet
+meta:
+  name:
+    en: Other Stationary Combustion
+  identifier: other_stationary_combustion
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  - id: fuel_consumption
+    label:
+      en: Fuel Consumption
+  units:
+    fuel_consumption: L/a
+    emissions: t_co2e/a
