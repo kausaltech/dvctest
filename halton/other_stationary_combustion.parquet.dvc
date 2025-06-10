@@ -1,6 +1,6 @@
 outs:
-- md5: e2d66d145db92cc001eeb2540019b011
-  size: 5776
+- md5: 356690284df8c65a688f91eb999ca888
+  size: 5784
   hash: md5
   path: other_stationary_combustion.parquet
 meta:
@@ -15,5 +15,5 @@ meta:
     label:
       en: Fuel Consumption
   units:
-    fuel_consumption: L/a
     emissions: t_co2e/a
+    fuel_consumption: L/a
