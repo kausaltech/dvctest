@@ -1,0 +1,15 @@
+outs:
+- md5: 15e0a309edeac94bc83669cebc141253
+  size: 3239
+  hash: md5
+  path: biosolids_transportation.parquet
+meta:
+  name:
+    en: Biosolids Transportation
+  identifier: biosolids_transportation
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t_co2e/a
