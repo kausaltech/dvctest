@@ -1,0 +1,19 @@
+outs:
+- md5: 2ae03fd2d0c7b3df8368642b1f4650a9
+  size: 5373
+  hash: md5
+  path: leased_assets.parquet
+meta:
+  name:
+    en: Leased Assets
+  identifier: leased_assets
+  metrics:
+  - id: energy
+    label:
+      en: Energy
+  - id: fuel_consumption
+    label:
+      en: Fuel Consumption
+  units:
+    fuel_consumption: m³/a
+    energy: kWh/a
