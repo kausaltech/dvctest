@@ -1,0 +1,17 @@
+outs:
+- md5: fe4ca69f7d8a85c05ff636153ae152b2
+  size: 7718
+  hash: md5
+  path: private_households.parquet
+meta:
+  name:
+    en: private_households
+  identifier: private_households
+  metrics:
+  - id: energy
+    quantity: energy
+    label:
+      en: energy
+  updated_at: '1750019897'
+  units:
+    energy: MWh/a
