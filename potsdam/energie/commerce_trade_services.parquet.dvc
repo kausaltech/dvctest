@@ -1,0 +1,17 @@
+outs:
+- md5: 73b5d2f68f3850b639b3736fffce09a1
+  size: 7471
+  hash: md5
+  path: commerce_trade_services.parquet
+meta:
+  name:
+    en: commerce_trade_services
+  identifier: commerce_trade_services
+  metrics:
+  - id: energy
+    quantity: energy
+    label:
+      en: energy
+  updated_at: '1750019603'
+  units:
+    energy: MWh/a
