@@ -1,0 +1,17 @@
+outs:
+- md5: 467531b442394bd62084b0afa3045abb
+  size: 6300
+  hash: md5
+  path: industry.parquet
+meta:
+  name:
+    en: industry
+  identifier: industry
+  metrics:
+  - id: emissions
+    quantity: emissions
+    label:
+      en: emissions
+  updated_at: '1750066695'
+  units:
+    emissions: t/a
