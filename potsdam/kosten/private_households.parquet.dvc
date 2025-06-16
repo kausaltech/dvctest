@@ -1,0 +1,17 @@
+outs:
+- md5: 868d57b3ebdfe76755ea62689d590283
+  size: 8074
+  hash: md5
+  path: private_households.parquet
+meta:
+  name:
+    en: private_households
+  identifier: private_households
+  metrics:
+  - id: currency
+    quantity: currency
+    label:
+      en: currency
+  updated_at: '1750066738'
+  units:
+    currency: EUR/a
