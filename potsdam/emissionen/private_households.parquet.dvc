@@ -1,17 +1,17 @@
 outs:
-- md5: 2299a9331211c73a58de5a6d38b45341
+- md5: e803a39419a2612fe7e5119839cd1602
   size: 7755
   hash: md5
   path: private_households.parquet
 meta:
   name:
-    en: private_households
+    de: private_households
   identifier: private_households
   metrics:
   - id: emissions
     quantity: emissions
     label:
-      en: emissions
-  updated_at: '1750066710'
+      de: emissions
+  updated_at: '1750083532'
   units:
     emissions: t/a
