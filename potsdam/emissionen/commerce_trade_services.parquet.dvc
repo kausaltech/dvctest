@@ -1,0 +1,17 @@
+outs:
+- md5: 77ef2326064e9c7af716506c21799cc5
+  size: 7508
+  hash: md5
+  path: commerce_trade_services.parquet
+meta:
+  name:
+    en: commerce_trade_services
+  identifier: commerce_trade_services
+  metrics:
+  - id: emissions
+    quantity: emissions
+    label:
+      en: emissions
+  updated_at: '1750066715'
+  units:
+    emissions: t/a
