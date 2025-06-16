@@ -1,17 +1,17 @@
 outs:
-- md5: 1f5090b1448c321fecc851a2af8d4943
+- md5: 1830f4308458296757980faae8b9aef3
   size: 6861
   hash: md5
   path: transport.parquet
 meta:
   name:
-    en: transport
+    de: transport
   identifier: transport
   metrics:
   - id: currency
     quantity: currency
     label:
-      en: currency
-  updated_at: '1750066757'
+      de: currency
+  updated_at: '1750083578'
   units:
     currency: EUR/a
