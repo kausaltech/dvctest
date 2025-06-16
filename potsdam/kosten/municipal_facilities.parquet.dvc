@@ -1,17 +1,17 @@
 outs:
-- md5: b34614fef812145e5b19237bc7c6e1eb
+- md5: 81483adfff8dec543d51a2762e92fd12
   size: 6309
   hash: md5
   path: municipal_facilities.parquet
 meta:
   name:
-    en: municipal_facilities
+    de: municipal_facilities
   identifier: municipal_facilities
   metrics:
   - id: currency
     quantity: currency
     label:
-      en: currency
-  updated_at: '1750066748'
+      de: currency
+  updated_at: '1750083569'
   units:
     currency: EUR/a
