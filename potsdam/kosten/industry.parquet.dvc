@@ -1,17 +1,17 @@
 outs:
-- md5: 35ec65395f65d7edc52ad239ee1fa87b
+- md5: 6baab58afee6d0440a0d6302cdb94ce0
   size: 6410
   hash: md5
   path: industry.parquet
 meta:
   name:
-    en: industry
+    de: industry
   identifier: industry
   metrics:
   - id: currency
     quantity: currency
     label:
-      en: currency
-  updated_at: '1750066743'
+      de: currency
+  updated_at: '1750083588'
   units:
     currency: EUR/a
