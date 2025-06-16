@@ -1,0 +1,17 @@
+outs:
+- md5: f4a419c2a135a8c853cde7098d175571
+  size: 7008
+  hash: md5
+  path: transport.parquet
+meta:
+  name:
+    en: transport
+  identifier: transport
+  metrics:
+  - id: emissions
+    quantity: emissions
+    label:
+      en: emissions
+  updated_at: '1750066701'
+  units:
+    emissions: t/a
