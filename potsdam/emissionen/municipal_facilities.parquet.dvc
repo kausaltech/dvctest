@@ -1,0 +1,17 @@
+outs:
+- md5: d3f30ddce9fa17a4c1f81b9264149681
+  size: 6179
+  hash: md5
+  path: municipal_facilities.parquet
+meta:
+  name:
+    en: municipal_facilities
+  identifier: municipal_facilities
+  metrics:
+  - id: emissions
+    quantity: emissions
+    label:
+      en: emissions
+  updated_at: '1750066705'
+  units:
+    emissions: t/a
