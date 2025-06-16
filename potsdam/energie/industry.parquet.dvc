@@ -1,6 +1,6 @@
 outs:
-- md5: b507cb796c62abe3c1cf208c4411e882
-  size: 6231
+- md5: 39e902d524a68e1147d0931870a0fb72
+  size: 6266
   hash: md5
   path: industry.parquet
 meta:
@@ -12,6 +12,6 @@ meta:
     quantity: energy
     label:
       en: energy
-  updated_at: '1750019878'
+  updated_at: '1750083670'
   units:
     energy: MWh/a
