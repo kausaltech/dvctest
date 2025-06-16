@@ -1,0 +1,17 @@
+outs:
+- md5: 855646e3992f9f9bf6478b2b491ca59b
+  size: 7770
+  hash: md5
+  path: commerce_trade_services.parquet
+meta:
+  name:
+    en: commerce_trade_services
+  identifier: commerce_trade_services
+  metrics:
+  - id: currency
+    quantity: currency
+    label:
+      en: currency
+  updated_at: '1750066753'
+  units:
+    currency: EUR/a
