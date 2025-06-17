@@ -5,7 +5,8 @@ outs:
   path: commerce_trade_services.parquet
 meta:
   name:
-    de: commerce_trade_services
+    de: Gewerbe, Handel, Dienstleistungen
+    en: Commerce, trade, and services
   identifier: commerce_trade_services
   metrics:
   - id: energy
