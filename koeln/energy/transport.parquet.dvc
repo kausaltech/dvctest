@@ -5,7 +5,8 @@ outs:
   path: transport.parquet
 meta:
   name:
-    de: transport
+    de: Verkehr
+    en: Transport
   identifier: transport
   metrics:
   - id: energy
