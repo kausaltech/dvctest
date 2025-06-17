@@ -5,7 +5,8 @@ outs:
   path: municipal_facilities.parquet
 meta:
   name:
-    de: municipal_facilities
+    de: Kommunale Einrichtungen
+    en: Municipal facilities
   identifier: municipal_facilities
   metrics:
   - id: energy
