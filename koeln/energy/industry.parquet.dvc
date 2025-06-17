@@ -1,0 +1,17 @@
+outs:
+- md5: a99d4b85267789322bd4b21157054b2d
+  size: 6022
+  hash: md5
+  path: industry.parquet
+meta:
+  name:
+    de: industry
+  identifier: industry
+  metrics:
+  - id: energy
+    quantity: energy
+    label:
+      de: energy
+  updated_at: '1750182647'
+  units:
+    energy: MWh/a
