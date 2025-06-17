@@ -1,0 +1,17 @@
+outs:
+- md5: 0baed189fad9282a138f399de77cd5a9
+  size: 6152
+  hash: md5
+  path: municipal_facilities.parquet
+meta:
+  name:
+    de: municipal_facilities
+  identifier: municipal_facilities
+  metrics:
+  - id: energy
+    quantity: energy
+    label:
+      de: energy
+  updated_at: '1750183586'
+  units:
+    energy: MWh/a
