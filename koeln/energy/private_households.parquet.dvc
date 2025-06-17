@@ -5,7 +5,8 @@ outs:
   path: private_households.parquet
 meta:
   name:
-    de: private_households
+    de: Private Haushalte
+    en: Private households
   identifier: private_households
   metrics:
   - id: energy
