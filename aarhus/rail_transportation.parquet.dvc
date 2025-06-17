@@ -1,6 +1,6 @@
 outs:
-- md5: 7753ca10fd8872833277d87e8b001628
-  size: 6398
+- md5: 7fe2a8dfb94b8689bd40f5d2e0161b03
+  size: 6394
   hash: md5
   path: rail_transportation.parquet
 meta:
