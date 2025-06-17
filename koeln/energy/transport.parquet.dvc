@@ -1,0 +1,17 @@
+outs:
+- md5: 2b3a411ed14879cd3699aba495654886
+  size: 6047
+  hash: md5
+  path: transport.parquet
+meta:
+  name:
+    de: transport
+  identifier: transport
+  metrics:
+  - id: energy
+    quantity: energy
+    label:
+      de: energy
+  updated_at: '1750182641'
+  units:
+    energy: MWh/a
