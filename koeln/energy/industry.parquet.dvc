@@ -5,7 +5,8 @@ outs:
   path: industry.parquet
 meta:
   name:
-    de: industry
+    de: Industrie
+    en: Industry
   identifier: industry
   metrics:
   - id: energy
