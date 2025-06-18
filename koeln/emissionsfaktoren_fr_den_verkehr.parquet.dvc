@@ -1,0 +1,33 @@
+outs:
+- md5: f2e998ee00432ca6a9373773a5964803
+  size: 8955
+  hash: md5
+  path: emissionsfaktoren_fr_den_verkehr.parquet
+meta:
+  name:
+    de: Emissionsfaktoren für den Verkehr
+  identifier: emissionsfaktoren_fr_den_verkehr
+  description:
+    de: 'emission_factor - File type: Eingabefeld - BISKO code: F84 - inventory_method:
+      bisko - ghg: co2e - sector: electricity - energy_carrier: electricity - Emissionsfaktor
+      öffentlicher Strommix<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      F84 - inventory_method: bisko - ghg: co2e - sector: electricity - energy_carrier:
+      electricity - Emissionsfaktor öffentlicher Strommix<br/>emission_factor - File
+      type: Eingabefeld - BISKO code: F84 - inventory_method: bisko - ghg: co2e -
+      sector: electricity - energy_carrier: electricity - Emissionsfaktor öffentlicher
+      Strommix<br/>emission_factor - File type: Eingabefeld - BISKO code: F84 - inventory_method:
+      bisko - ghg: co2e - sector: electricity - energy_carrier: electricity - Emissionsfaktor
+      öffentlicher Strommix<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      F84 - inventory_method: bisko - ghg: co2e - sector: electricity - energy_carrier:
+      electricity - Emissionsfaktor öffentlicher Strommix<br/>emission_factor - File
+      type: Eingabefeld - BISKO code: F84 - inventory_method: bisko - ghg: co2e -
+      sector: electricity - energy_carrier: electricity - Emissionsfaktor öffentlicher
+      Strommix'
+  metrics:
+  - id: emission_factor
+    quantity: emission_factor
+    label:
+      de: emission_factor
+  updated_at: '1750225929'
+  units:
+    emission_factor: g/Wh
