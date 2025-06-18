@@ -1,0 +1,884 @@
+outs:
+- md5: c4d9ea12990660c3910ab6e0c11f5ffa
+  size: 181514
+  hash: md5
+  path: aktivitaten_verkehr_und_gebaude.parquet
+meta:
+  name:
+    de: Aktivitäten, Verkehr und Gebäude
+  identifier: aktivitaten_verkehr_und_gebaude
+  description:
+    de: 'number_number_pcs - File type: Eingabefeld - BISKO code: St82 - sector: private_households
+      - household_size: single_person - 1-Personen-Haushalte<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St83 - sector: private_households - household_size:
+      two_person - 2-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St84 - sector: private_households - household_size: three_person
+      - 3-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld - BISKO
+      code: St85 - sector: private_households - household_size: four_person - 4-Personen-Haushalte<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St86 - sector: private_households - household_size:
+      five_person - 5-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St6 - sector: commerce_trade_services - Beschäftigte: Gesamt auf
+      Kommunalebene (ohne verarbeitendes Gewerbe)<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St5 - sector: commerce_trade_services - Beschäftigte:
+      Verarbeitendes Gewerbe auf Kommunalebene<br/>energy_energy_mwha - File type:
+      Eingabefeld - BISKO code: V56 - sector: electricity - trip_type: inland_shipping
+      - Endenergieverbrauch Kraftstoff, Binnenschifffahrt<br/>energy_energy_mwha -
+      File type: Eingabefeld - BISKO code: V58 - sector: transport - trip_type: aviation
+      - Endenergieverbrauch Kraftstoff, Flugverkehr<br/>energy_energy_mwha - File
+      type: Eingabefeld - BISKO code: V55 - sector: transport - trip_type: rail_freight
+      - Endenergieverbrauch Kraftstoff, Schienengüterverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V53 - sector: transport - trip_type:
+      long_distance_rail - Endenergieverbrauch Kraftstoff, Schienenpersonenfernverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V23b - sector: transport - trip_type:
+      local_rail - Endenergieverbrauch Kraftstoff, Schienenpersonennahverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V54 - sector: transport - trip_type:
+      rail_freight - energy_carrier: electricity - Endenergieverbrauch Strom, Schienengüterverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V52 - sector: transport - trip_type:
+      long_distance_rail - energy_carrier: electricity - Endenergieverbrauch Strom,
+      Schienenpersonenfernverkehr<br/>energy_energy_mwha - File type: Eingabefeld
+      - BISKO code: V23a - sector: transport - trip_type: local_rail - energy_carrier:
+      electricity - Endenergieverbrauch Strom, Schienenpersonennahverkehr<br/>energy_energy_gja
+      - File type: Eingabefeld - BISKO code: E86 - sector: commerce_trade_services
+      - fuel_type: fossil - energy_carrier: natural_gas - Energetischer Endenergieverbrauch
+      von Erdgas, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja - File type:
+      Eingabefeld - BISKO code: E87 - sector: commerce_trade_services - fuel_type:
+      non_fossil - energy_carrier: other_renewables - Energetischer Endenergieverbrauch
+      von erneuerbaren Energien, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja
+      - File type: Eingabefeld - BISKO code: E85 - sector: commerce_trade_services
+      - fuel_type: fossil - energy_carrier: heating_oil - Energetischer Endenergieverbrauch
+      von Heizöl, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja - File type:
+      Eingabefeld - BISKO code: E84 - sector: commerce_trade_services - energy_carrier:
+      hard_coal - Energetischer Endenergieverbrauch von Kohle, verarbeitendes Gewerbe,
+      Kreis<br/>energy_energy_gja - File type: Eingabefeld - BISKO code: E90 - sector:
+      commerce_trade_services - Energetischer Endenergieverbrauch von sonstigen Energieträgern,
+      verarbeitendes Gewerbe, Kreis<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St67 - sector: buildings - heating_type: district_heating_local
+      - building_age: age_1950_1969 - Gebäude mit Blockheizung Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St68 - sector: buildings - heating_type:
+      district_heating_local - building_age: age_1970_1989 - Gebäude mit Blockheizung
+      Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld - BISKO code:
+      St69 - sector: buildings - heating_type: district_heating_local - building_age:
+      after_1990 - Gebäude mit Blockheizung Baujahr nach 1990<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St66 - sector: buildings - heating_type:
+      district_heating_local - building_age: before_1950 - Gebäude mit Blockheizung
+      Baujahr vor 1950<br/>number_number_pcs - File type: Eingabefeld - BISKO code:
+      St75 - sector: buildings - heating_type: individual_room_heaters - building_age:
+      age_1950_1969 - Gebäude mit Einzel- oder Mehrraumöfen Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St76 - sector: buildings - heating_type:
+      individual_room_heaters - building_age: age_1970_1989 - Gebäude mit Einzel-
+      oder Mehrraumöfen Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St77 - sector: buildings - heating_type: individual_room_heaters
+      - building_age: after_1990 - Gebäude mit Einzel- oder Mehrraumöfen Baujahr nach
+      1990<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St74 - sector:
+      buildings - heating_type: individual_room_heaters - building_age: before_1950
+      - Gebäude mit Einzel- oder Mehrraumöfen Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St63 - sector: buildings - heating_type:
+      floor_heating - building_age: age_1950_1969 - Gebäude mit Etagenheizung Baujahr  1950
+      - 1969<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St64 - sector:
+      buildings - heating_type: floor_heating - building_age: age_1970_1989 - Gebäude
+      mit Etagenheizung Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St65 - sector: buildings - heating_type: floor_heating - building_age:
+      after_1990 - Gebäude mit Etagenheizung Baujahr nach 1990<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St62 - sector: buildings - heating_type:
+      floor_heating - building_age: before_1950 - Gebäude mit Etagenheizung Baujahr
+      vor 1950<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St59 -
+      sector: buildings - heating_type: district_heating - building_age: age_1950_1969
+      - Gebäude mit Fernheizung Baujahr 1950 - 1969<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St60 - sector: buildings - heating_type: district_heating
+      - building_age: age_1970_1989 - Gebäude mit Fernheizung Baujahr 1970 - 1989<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St61 - sector: buildings - heating_type:
+      district_heating - building_age: after_1990 - Gebäude mit Fernheizung Baujahr
+      nach 1990<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St58
+      - sector: buildings - heating_type: district_heating - building_age: before_1950
+      - Gebäude mit Fernheizung Baujahr vor 1950<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St71 - sector: buildings - heating_type: central_heating
+      - building_age: age_1950_1969 - Gebäude mit Zentralheizung Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St72 - sector: buildings - heating_type:
+      central_heating - building_age: age_1970_1989 - Gebäude mit Zentralheizung Baujahr
+      1970 - 1989<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St73
+      - sector: buildings - heating_type: central_heating - building_age: after_1990
+      - Gebäude mit Zentralheizung Baujahr nach 1990<br/>number_number_pcs - File
+      type: Eingabefeld - BISKO code: St70 - sector: buildings - heating_type: central_heating
+      - building_age: before_1950 - Gebäude mit Zentralheizung Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St79 - sector: buildings - heating_type:
+      no_heating - building_age: age_1950_1969 - Gebäude ohne Heizung Baujahr 1950
+      - 1969<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St80 - sector:
+      buildings - heating_type: no_heating - building_age: age_1970_1989 - Gebäude
+      ohne Heizung Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St81 - sector: buildings - heating_type: no_heating - building_age:
+      after_1990 - Gebäude ohne Heizung Baujahr nach 1990<br/>number_number_pcs -
+      File type: Eingabefeld - BISKO code: St78 - sector: buildings - heating_type:
+      no_heating - building_age: before_1950 - Gebäude ohne Heizung Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St87 - sector: private_households - household_size:
+      five_plus_person - Haushalte mit mehr als 5 Personen<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St93 - sector: buildings - building_age:
+      age_1950_1969 - building_type: small_multifamily - Wohnfläche in Gebäuden mit
+      3-6 Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m - File type:
+      Eingabefeld - BISKO code: St94 - sector: buildings - building_type: small_multifamily
+      - Wohnfläche in Gebäuden mit 3-6 Wohnungen und Baujahr 1970 -1989<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St95 - sector: buildings - building_age:
+      after_1990 - building_type: small_multifamily - Wohnfläche in Gebäuden mit 3-6
+      Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m - File type: Eingabefeld
+      - BISKO code: St92 - sector: buildings - building_age: before_1950 - building_type:
+      small_multifamily - Wohnfläche in Gebäuden mit 3-6 Wohnungen und Baujahr vor
+      1950<br/>floor_area_floor_area_m - File type: Eingabefeld - BISKO code: St97
+      - sector: buildings - building_age: age_1950_1969 - building_type: large_multifamily
+      - Wohnfläche in Gebäuden mit 7-12 und 13 und mehr Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St98 - sector: buildings - building_age:
+      age_1970_1989 - building_type: large_multifamily - Wohnfläche in Gebäuden mit
+      7-12 und 13 und mehr Wohnungen und Baujahr 1970-1989<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St99 - sector: buildings - building_age:
+      after_1990 - building_type: large_multifamily - Wohnfläche in Gebäuden mit 7-12
+      und 13 und mehr Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St96 - sector: buildings - building_age:
+      before_1950 - building_type: large_multifamily - Wohnfläche in Gebäuden mit
+      7-12 und 13 und mehr Wohnungen und Baujahr vor 1950<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St89 - sector: buildings - building_age:
+      age_1950_1969 - building_type: single_two_family - Wohnfläche in Gebäuden mit
+      einer und zwei Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m -
+      File type: Eingabefeld - BISKO code: St90 - sector: buildings - building_type:
+      single_two_family - Wohnfläche in Gebäuden mit einer und zwei Wohnungen und
+      Baujahr 1970 -1989<br/>floor_area_floor_area_m - File type: Eingabefeld - BISKO
+      code: St91 - sector: buildings - building_age: after_1990 - building_type: single_two_family
+      - Wohnfläche in Gebäuden mit einer und zwei Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St88 - sector: buildings - building_age:
+      before_1950 - building_type: single_two_family - Wohnfläche in Gebäuden mit
+      einer und zwei Wohnungen und Baujahr vor 1950<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St82 - sector: private_households - household_size:
+      single_person - 1-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St83 - sector: private_households - household_size: two_person
+      - 2-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld - BISKO
+      code: St84 - sector: private_households - household_size: three_person - 3-Personen-Haushalte<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St85 - sector: private_households - household_size:
+      four_person - 4-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St86 - sector: private_households - household_size: five_person
+      - 5-Personen-Haushalte<br/>number_number_ - File type: Eingabefeld - BISKO code:
+      V31 - sector: transport - trip_type: local_rail - Anteil Kraftstoffe, Schienenpersonennahverkehr<br/>number_number_
+      - File type: Eingabefeld - BISKO code: V30 - sector: transport - trip_type:
+      local_rail - energy_carrier: electricity - Anteil Strom, Schienenpersonennahverkehr<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St6 - sector: commerce_trade_services
+      - Beschäftigte: Gesamt auf Kommunalebene (ohne verarbeitendes Gewerbe)<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St5 - sector: commerce_trade_services
+      - Beschäftigte: Verarbeitendes Gewerbe auf Kommunalebene<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V56 - sector: electricity - trip_type:
+      inland_shipping - Endenergieverbrauch Kraftstoff, Binnenschifffahrt<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V58 - sector: transport - trip_type:
+      aviation - Endenergieverbrauch Kraftstoff, Flugverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V55 - sector: transport - trip_type:
+      rail_freight - Endenergieverbrauch Kraftstoff, Schienengüterverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V53 - sector: transport - trip_type:
+      long_distance_rail - Endenergieverbrauch Kraftstoff, Schienenpersonenfernverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V23b - sector: transport - trip_type:
+      local_rail - Endenergieverbrauch Kraftstoff, Schienenpersonennahverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V54 - sector: transport - trip_type:
+      rail_freight - energy_carrier: electricity - Endenergieverbrauch Strom, Schienengüterverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V52 - sector: transport - trip_type:
+      long_distance_rail - energy_carrier: electricity - Endenergieverbrauch Strom,
+      Schienenpersonenfernverkehr<br/>energy_energy_mwha - File type: Eingabefeld
+      - BISKO code: V23a - sector: transport - trip_type: local_rail - energy_carrier:
+      electricity - Endenergieverbrauch Strom, Schienenpersonennahverkehr<br/>energy_energy_gja
+      - File type: Eingabefeld - BISKO code: E86 - sector: commerce_trade_services
+      - fuel_type: fossil - energy_carrier: natural_gas - Energetischer Endenergieverbrauch
+      von Erdgas, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja - File type:
+      Eingabefeld - BISKO code: E87 - sector: commerce_trade_services - fuel_type:
+      non_fossil - energy_carrier: other_renewables - Energetischer Endenergieverbrauch
+      von erneuerbaren Energien, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja
+      - File type: Eingabefeld - BISKO code: E85 - sector: commerce_trade_services
+      - fuel_type: fossil - energy_carrier: heating_oil - Energetischer Endenergieverbrauch
+      von Heizöl, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja - File type:
+      Eingabefeld - BISKO code: E84 - sector: commerce_trade_services - energy_carrier:
+      hard_coal - Energetischer Endenergieverbrauch von Kohle, verarbeitendes Gewerbe,
+      Kreis<br/>energy_energy_gja - File type: Eingabefeld - BISKO code: E90 - sector:
+      commerce_trade_services - Energetischer Endenergieverbrauch von sonstigen Energieträgern,
+      verarbeitendes Gewerbe, Kreis<br/>mileage_mileage_mvkm - File type: Eingabefeld
+      - BISKO code: V24 - sector: transport - trip_type: local_rail - Fahrleistung
+      Schienenpersonennahverkehr in Zugkilometer<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St67 - sector: buildings - heating_type: district_heating_local
+      - building_age: age_1950_1969 - Gebäude mit Blockheizung Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St68 - sector: buildings - heating_type:
+      district_heating_local - building_age: age_1970_1989 - Gebäude mit Blockheizung
+      Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld - BISKO code:
+      St69 - sector: buildings - heating_type: district_heating_local - building_age:
+      after_1990 - Gebäude mit Blockheizung Baujahr nach 1990<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St66 - sector: buildings - heating_type:
+      district_heating_local - building_age: before_1950 - Gebäude mit Blockheizung
+      Baujahr vor 1950<br/>number_number_pcs - File type: Eingabefeld - BISKO code:
+      St75 - sector: buildings - heating_type: individual_room_heaters - building_age:
+      age_1950_1969 - Gebäude mit Einzel- oder Mehrraumöfen Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St76 - sector: buildings - heating_type:
+      individual_room_heaters - building_age: age_1970_1989 - Gebäude mit Einzel-
+      oder Mehrraumöfen Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St77 - sector: buildings - heating_type: individual_room_heaters
+      - building_age: after_1990 - Gebäude mit Einzel- oder Mehrraumöfen Baujahr nach
+      1990<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St74 - sector:
+      buildings - heating_type: individual_room_heaters - building_age: before_1950
+      - Gebäude mit Einzel- oder Mehrraumöfen Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St63 - sector: buildings - heating_type:
+      floor_heating - building_age: age_1950_1969 - Gebäude mit Etagenheizung Baujahr  1950
+      - 1969<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St64 - sector:
+      buildings - heating_type: floor_heating - building_age: age_1970_1989 - Gebäude
+      mit Etagenheizung Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St65 - sector: buildings - heating_type: floor_heating - building_age:
+      after_1990 - Gebäude mit Etagenheizung Baujahr nach 1990<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St62 - sector: buildings - heating_type:
+      floor_heating - building_age: before_1950 - Gebäude mit Etagenheizung Baujahr
+      vor 1950<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St59 -
+      sector: buildings - heating_type: district_heating - building_age: age_1950_1969
+      - Gebäude mit Fernheizung Baujahr 1950 - 1969<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St60 - sector: buildings - heating_type: district_heating
+      - building_age: age_1970_1989 - Gebäude mit Fernheizung Baujahr 1970 - 1989<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St61 - sector: buildings - heating_type:
+      district_heating - building_age: after_1990 - Gebäude mit Fernheizung Baujahr
+      nach 1990<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St58
+      - sector: buildings - heating_type: district_heating - building_age: before_1950
+      - Gebäude mit Fernheizung Baujahr vor 1950<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St71 - sector: buildings - heating_type: central_heating
+      - building_age: age_1950_1969 - Gebäude mit Zentralheizung Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St72 - sector: buildings - heating_type:
+      central_heating - building_age: age_1970_1989 - Gebäude mit Zentralheizung Baujahr
+      1970 - 1989<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St73
+      - sector: buildings - heating_type: central_heating - building_age: after_1990
+      - Gebäude mit Zentralheizung Baujahr nach 1990<br/>number_number_pcs - File
+      type: Eingabefeld - BISKO code: St70 - sector: buildings - heating_type: central_heating
+      - building_age: before_1950 - Gebäude mit Zentralheizung Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St79 - sector: buildings - heating_type:
+      no_heating - building_age: age_1950_1969 - Gebäude ohne Heizung Baujahr 1950
+      - 1969<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St80 - sector:
+      buildings - heating_type: no_heating - building_age: age_1970_1989 - Gebäude
+      ohne Heizung Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St81 - sector: buildings - heating_type: no_heating - building_age:
+      after_1990 - Gebäude ohne Heizung Baujahr nach 1990<br/>number_number_pcs -
+      File type: Eingabefeld - BISKO code: St78 - sector: buildings - heating_type:
+      no_heating - building_age: before_1950 - Gebäude ohne Heizung Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St87 - sector: private_households - household_size:
+      five_plus_person - Haushalte mit mehr als 5 Personen<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St93 - sector: buildings - building_age:
+      age_1950_1969 - building_type: small_multifamily - Wohnfläche in Gebäuden mit
+      3-6 Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m - File type:
+      Eingabefeld - BISKO code: St94 - sector: buildings - building_type: small_multifamily
+      - Wohnfläche in Gebäuden mit 3-6 Wohnungen und Baujahr 1970 -1989<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St95 - sector: buildings - building_age:
+      after_1990 - building_type: small_multifamily - Wohnfläche in Gebäuden mit 3-6
+      Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m - File type: Eingabefeld
+      - BISKO code: St92 - sector: buildings - building_age: before_1950 - building_type:
+      small_multifamily - Wohnfläche in Gebäuden mit 3-6 Wohnungen und Baujahr vor
+      1950<br/>floor_area_floor_area_m - File type: Eingabefeld - BISKO code: St97
+      - sector: buildings - building_age: age_1950_1969 - building_type: large_multifamily
+      - Wohnfläche in Gebäuden mit 7-12 und 13 und mehr Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St98 - sector: buildings - building_age:
+      age_1970_1989 - building_type: large_multifamily - Wohnfläche in Gebäuden mit
+      7-12 und 13 und mehr Wohnungen und Baujahr 1970-1989<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St99 - sector: buildings - building_age:
+      after_1990 - building_type: large_multifamily - Wohnfläche in Gebäuden mit 7-12
+      und 13 und mehr Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St96 - sector: buildings - building_age:
+      before_1950 - building_type: large_multifamily - Wohnfläche in Gebäuden mit
+      7-12 und 13 und mehr Wohnungen und Baujahr vor 1950<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St89 - sector: buildings - building_age:
+      age_1950_1969 - building_type: single_two_family - Wohnfläche in Gebäuden mit
+      einer und zwei Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m -
+      File type: Eingabefeld - BISKO code: St90 - sector: buildings - building_type:
+      single_two_family - Wohnfläche in Gebäuden mit einer und zwei Wohnungen und
+      Baujahr 1970 -1989<br/>floor_area_floor_area_m - File type: Eingabefeld - BISKO
+      code: St91 - sector: buildings - building_age: after_1990 - building_type: single_two_family
+      - Wohnfläche in Gebäuden mit einer und zwei Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St88 - sector: buildings - building_age:
+      before_1950 - building_type: single_two_family - Wohnfläche in Gebäuden mit
+      einer und zwei Wohnungen und Baujahr vor 1950<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St82 - sector: private_households - household_size:
+      single_person - 1-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St83 - sector: private_households - household_size: two_person
+      - 2-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld - BISKO
+      code: St84 - sector: private_households - household_size: three_person - 3-Personen-Haushalte<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St85 - sector: private_households - household_size:
+      four_person - 4-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St86 - sector: private_households - household_size: five_person
+      - 5-Personen-Haushalte<br/>number_number_ - File type: Eingabefeld - BISKO code:
+      V31 - sector: transport - trip_type: local_rail - Anteil Kraftstoffe, Schienenpersonennahverkehr<br/>number_number_
+      - File type: Eingabefeld - BISKO code: V30 - sector: transport - trip_type:
+      local_rail - energy_carrier: electricity - Anteil Strom, Schienenpersonennahverkehr<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St6 - sector: commerce_trade_services
+      - Beschäftigte: Gesamt auf Kommunalebene (ohne verarbeitendes Gewerbe)<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St5 - sector: commerce_trade_services
+      - Beschäftigte: Verarbeitendes Gewerbe auf Kommunalebene<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V56 - sector: electricity - trip_type:
+      inland_shipping - Endenergieverbrauch Kraftstoff, Binnenschifffahrt<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V58 - sector: transport - trip_type:
+      aviation - Endenergieverbrauch Kraftstoff, Flugverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V55 - sector: transport - trip_type:
+      rail_freight - Endenergieverbrauch Kraftstoff, Schienengüterverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V53 - sector: transport - trip_type:
+      long_distance_rail - Endenergieverbrauch Kraftstoff, Schienenpersonenfernverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V23b - sector: transport - trip_type:
+      local_rail - Endenergieverbrauch Kraftstoff, Schienenpersonennahverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V54 - sector: transport - trip_type:
+      rail_freight - energy_carrier: electricity - Endenergieverbrauch Strom, Schienengüterverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V52 - sector: transport - trip_type:
+      long_distance_rail - energy_carrier: electricity - Endenergieverbrauch Strom,
+      Schienenpersonenfernverkehr<br/>energy_energy_mwha - File type: Eingabefeld
+      - BISKO code: V23a - sector: transport - trip_type: local_rail - energy_carrier:
+      electricity - Endenergieverbrauch Strom, Schienenpersonennahverkehr<br/>energy_energy_gja
+      - File type: Eingabefeld - BISKO code: E86 - sector: commerce_trade_services
+      - fuel_type: fossil - energy_carrier: natural_gas - Energetischer Endenergieverbrauch
+      von Erdgas, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja - File type:
+      Eingabefeld - BISKO code: E87 - sector: commerce_trade_services - fuel_type:
+      non_fossil - energy_carrier: other_renewables - Energetischer Endenergieverbrauch
+      von erneuerbaren Energien, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja
+      - File type: Eingabefeld - BISKO code: E85 - sector: commerce_trade_services
+      - fuel_type: fossil - energy_carrier: heating_oil - Energetischer Endenergieverbrauch
+      von Heizöl, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja - File type:
+      Eingabefeld - BISKO code: E84 - sector: commerce_trade_services - energy_carrier:
+      hard_coal - Energetischer Endenergieverbrauch von Kohle, verarbeitendes Gewerbe,
+      Kreis<br/>energy_energy_gja - File type: Eingabefeld - BISKO code: E90 - sector:
+      commerce_trade_services - Energetischer Endenergieverbrauch von sonstigen Energieträgern,
+      verarbeitendes Gewerbe, Kreis<br/>mileage_mileage_mvkm - File type: Eingabefeld
+      - BISKO code: V24 - sector: transport - trip_type: local_rail - Fahrleistung
+      Schienenpersonennahverkehr in Zugkilometer<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St67 - sector: buildings - heating_type: district_heating_local
+      - building_age: age_1950_1969 - Gebäude mit Blockheizung Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St68 - sector: buildings - heating_type:
+      district_heating_local - building_age: age_1970_1989 - Gebäude mit Blockheizung
+      Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld - BISKO code:
+      St69 - sector: buildings - heating_type: district_heating_local - building_age:
+      after_1990 - Gebäude mit Blockheizung Baujahr nach 1990<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St66 - sector: buildings - heating_type:
+      district_heating_local - building_age: before_1950 - Gebäude mit Blockheizung
+      Baujahr vor 1950<br/>number_number_pcs - File type: Eingabefeld - BISKO code:
+      St75 - sector: buildings - heating_type: individual_room_heaters - building_age:
+      age_1950_1969 - Gebäude mit Einzel- oder Mehrraumöfen Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St76 - sector: buildings - heating_type:
+      individual_room_heaters - building_age: age_1970_1989 - Gebäude mit Einzel-
+      oder Mehrraumöfen Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St77 - sector: buildings - heating_type: individual_room_heaters
+      - building_age: after_1990 - Gebäude mit Einzel- oder Mehrraumöfen Baujahr nach
+      1990<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St74 - sector:
+      buildings - heating_type: individual_room_heaters - building_age: before_1950
+      - Gebäude mit Einzel- oder Mehrraumöfen Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St63 - sector: buildings - heating_type:
+      floor_heating - building_age: age_1950_1969 - Gebäude mit Etagenheizung Baujahr  1950
+      - 1969<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St64 - sector:
+      buildings - heating_type: floor_heating - building_age: age_1970_1989 - Gebäude
+      mit Etagenheizung Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St65 - sector: buildings - heating_type: floor_heating - building_age:
+      after_1990 - Gebäude mit Etagenheizung Baujahr nach 1990<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St62 - sector: buildings - heating_type:
+      floor_heating - building_age: before_1950 - Gebäude mit Etagenheizung Baujahr
+      vor 1950<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St59 -
+      sector: buildings - heating_type: district_heating - building_age: age_1950_1969
+      - Gebäude mit Fernheizung Baujahr 1950 - 1969<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St60 - sector: buildings - heating_type: district_heating
+      - building_age: age_1970_1989 - Gebäude mit Fernheizung Baujahr 1970 - 1989<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St61 - sector: buildings - heating_type:
+      district_heating - building_age: after_1990 - Gebäude mit Fernheizung Baujahr
+      nach 1990<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St58
+      - sector: buildings - heating_type: district_heating - building_age: before_1950
+      - Gebäude mit Fernheizung Baujahr vor 1950<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St71 - sector: buildings - heating_type: central_heating
+      - building_age: age_1950_1969 - Gebäude mit Zentralheizung Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St72 - sector: buildings - heating_type:
+      central_heating - building_age: age_1970_1989 - Gebäude mit Zentralheizung Baujahr
+      1970 - 1989<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St73
+      - sector: buildings - heating_type: central_heating - building_age: after_1990
+      - Gebäude mit Zentralheizung Baujahr nach 1990<br/>number_number_pcs - File
+      type: Eingabefeld - BISKO code: St70 - sector: buildings - heating_type: central_heating
+      - building_age: before_1950 - Gebäude mit Zentralheizung Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St79 - sector: buildings - heating_type:
+      no_heating - building_age: age_1950_1969 - Gebäude ohne Heizung Baujahr 1950
+      - 1969<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St80 - sector:
+      buildings - heating_type: no_heating - building_age: age_1970_1989 - Gebäude
+      ohne Heizung Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St81 - sector: buildings - heating_type: no_heating - building_age:
+      after_1990 - Gebäude ohne Heizung Baujahr nach 1990<br/>number_number_pcs -
+      File type: Eingabefeld - BISKO code: St78 - sector: buildings - heating_type:
+      no_heating - building_age: before_1950 - Gebäude ohne Heizung Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St87 - sector: private_households - household_size:
+      five_plus_person - Haushalte mit mehr als 5 Personen<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St93 - sector: buildings - building_age:
+      age_1950_1969 - building_type: small_multifamily - Wohnfläche in Gebäuden mit
+      3-6 Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m - File type:
+      Eingabefeld - BISKO code: St94 - sector: buildings - building_type: small_multifamily
+      - Wohnfläche in Gebäuden mit 3-6 Wohnungen und Baujahr 1970 -1989<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St95 - sector: buildings - building_age:
+      after_1990 - building_type: small_multifamily - Wohnfläche in Gebäuden mit 3-6
+      Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m - File type: Eingabefeld
+      - BISKO code: St92 - sector: buildings - building_age: before_1950 - building_type:
+      small_multifamily - Wohnfläche in Gebäuden mit 3-6 Wohnungen und Baujahr vor
+      1950<br/>floor_area_floor_area_m - File type: Eingabefeld - BISKO code: St97
+      - sector: buildings - building_age: age_1950_1969 - building_type: large_multifamily
+      - Wohnfläche in Gebäuden mit 7-12 und 13 und mehr Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St98 - sector: buildings - building_age:
+      age_1970_1989 - building_type: large_multifamily - Wohnfläche in Gebäuden mit
+      7-12 und 13 und mehr Wohnungen und Baujahr 1970-1989<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St99 - sector: buildings - building_age:
+      after_1990 - building_type: large_multifamily - Wohnfläche in Gebäuden mit 7-12
+      und 13 und mehr Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St96 - sector: buildings - building_age:
+      before_1950 - building_type: large_multifamily - Wohnfläche in Gebäuden mit
+      7-12 und 13 und mehr Wohnungen und Baujahr vor 1950<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St89 - sector: buildings - building_age:
+      age_1950_1969 - building_type: single_two_family - Wohnfläche in Gebäuden mit
+      einer und zwei Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m -
+      File type: Eingabefeld - BISKO code: St90 - sector: buildings - building_type:
+      single_two_family - Wohnfläche in Gebäuden mit einer und zwei Wohnungen und
+      Baujahr 1970 -1989<br/>floor_area_floor_area_m - File type: Eingabefeld - BISKO
+      code: St91 - sector: buildings - building_age: after_1990 - building_type: single_two_family
+      - Wohnfläche in Gebäuden mit einer und zwei Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St88 - sector: buildings - building_age:
+      before_1950 - building_type: single_two_family - Wohnfläche in Gebäuden mit
+      einer und zwei Wohnungen und Baujahr vor 1950<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St82 - sector: private_households - household_size:
+      single_person - 1-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St83 - sector: private_households - household_size: two_person
+      - 2-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld - BISKO
+      code: St84 - sector: private_households - household_size: three_person - 3-Personen-Haushalte<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St85 - sector: private_households - household_size:
+      four_person - 4-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St86 - sector: private_households - household_size: five_person
+      - 5-Personen-Haushalte<br/>number_number_ - File type: Eingabefeld - BISKO code:
+      V31 - sector: transport - trip_type: local_rail - Anteil Kraftstoffe, Schienenpersonennahverkehr<br/>number_number_
+      - File type: Eingabefeld - BISKO code: V30 - sector: transport - trip_type:
+      local_rail - energy_carrier: electricity - Anteil Strom, Schienenpersonennahverkehr<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St6 - sector: commerce_trade_services
+      - Beschäftigte: Gesamt auf Kommunalebene (ohne verarbeitendes Gewerbe)<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St5 - sector: commerce_trade_services
+      - Beschäftigte: Verarbeitendes Gewerbe auf Kommunalebene<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V56 - sector: electricity - trip_type:
+      inland_shipping - Endenergieverbrauch Kraftstoff, Binnenschifffahrt<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V58 - sector: transport - trip_type:
+      aviation - Endenergieverbrauch Kraftstoff, Flugverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V55 - sector: transport - trip_type:
+      rail_freight - Endenergieverbrauch Kraftstoff, Schienengüterverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V53 - sector: transport - trip_type:
+      long_distance_rail - Endenergieverbrauch Kraftstoff, Schienenpersonenfernverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V23b - sector: transport - trip_type:
+      local_rail - Endenergieverbrauch Kraftstoff, Schienenpersonennahverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V54 - sector: transport - trip_type:
+      rail_freight - energy_carrier: electricity - Endenergieverbrauch Strom, Schienengüterverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V52 - sector: transport - trip_type:
+      long_distance_rail - energy_carrier: electricity - Endenergieverbrauch Strom,
+      Schienenpersonenfernverkehr<br/>energy_energy_mwha - File type: Eingabefeld
+      - BISKO code: V23a - sector: transport - trip_type: local_rail - energy_carrier:
+      electricity - Endenergieverbrauch Strom, Schienenpersonennahverkehr<br/>energy_energy_gja
+      - File type: Eingabefeld - BISKO code: E86 - sector: commerce_trade_services
+      - fuel_type: fossil - energy_carrier: natural_gas - Energetischer Endenergieverbrauch
+      von Erdgas, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja - File type:
+      Eingabefeld - BISKO code: E87 - sector: commerce_trade_services - fuel_type:
+      non_fossil - energy_carrier: other_renewables - Energetischer Endenergieverbrauch
+      von erneuerbaren Energien, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja
+      - File type: Eingabefeld - BISKO code: E85 - sector: commerce_trade_services
+      - fuel_type: fossil - energy_carrier: heating_oil - Energetischer Endenergieverbrauch
+      von Heizöl, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja - File type:
+      Eingabefeld - BISKO code: E84 - sector: commerce_trade_services - energy_carrier:
+      hard_coal - Energetischer Endenergieverbrauch von Kohle, verarbeitendes Gewerbe,
+      Kreis<br/>energy_energy_gja - File type: Eingabefeld - BISKO code: E90 - sector:
+      commerce_trade_services - Energetischer Endenergieverbrauch von sonstigen Energieträgern,
+      verarbeitendes Gewerbe, Kreis<br/>mileage_mileage_mvkm - File type: Eingabefeld
+      - BISKO code: V24 - sector: transport - trip_type: local_rail - Fahrleistung
+      Schienenpersonennahverkehr in Zugkilometer<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St67 - sector: buildings - heating_type: district_heating_local
+      - building_age: age_1950_1969 - Gebäude mit Blockheizung Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St68 - sector: buildings - heating_type:
+      district_heating_local - building_age: age_1970_1989 - Gebäude mit Blockheizung
+      Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld - BISKO code:
+      St69 - sector: buildings - heating_type: district_heating_local - building_age:
+      after_1990 - Gebäude mit Blockheizung Baujahr nach 1990<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St66 - sector: buildings - heating_type:
+      district_heating_local - building_age: before_1950 - Gebäude mit Blockheizung
+      Baujahr vor 1950<br/>number_number_pcs - File type: Eingabefeld - BISKO code:
+      St75 - sector: buildings - heating_type: individual_room_heaters - building_age:
+      age_1950_1969 - Gebäude mit Einzel- oder Mehrraumöfen Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St76 - sector: buildings - heating_type:
+      individual_room_heaters - building_age: age_1970_1989 - Gebäude mit Einzel-
+      oder Mehrraumöfen Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St77 - sector: buildings - heating_type: individual_room_heaters
+      - building_age: after_1990 - Gebäude mit Einzel- oder Mehrraumöfen Baujahr nach
+      1990<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St74 - sector:
+      buildings - heating_type: individual_room_heaters - building_age: before_1950
+      - Gebäude mit Einzel- oder Mehrraumöfen Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St63 - sector: buildings - heating_type:
+      floor_heating - building_age: age_1950_1969 - Gebäude mit Etagenheizung Baujahr  1950
+      - 1969<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St64 - sector:
+      buildings - heating_type: floor_heating - building_age: age_1970_1989 - Gebäude
+      mit Etagenheizung Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St65 - sector: buildings - heating_type: floor_heating - building_age:
+      after_1990 - Gebäude mit Etagenheizung Baujahr nach 1990<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St62 - sector: buildings - heating_type:
+      floor_heating - building_age: before_1950 - Gebäude mit Etagenheizung Baujahr
+      vor 1950<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St59 -
+      sector: buildings - heating_type: district_heating - building_age: age_1950_1969
+      - Gebäude mit Fernheizung Baujahr 1950 - 1969<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St60 - sector: buildings - heating_type: district_heating
+      - building_age: age_1970_1989 - Gebäude mit Fernheizung Baujahr 1970 - 1989<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St61 - sector: buildings - heating_type:
+      district_heating - building_age: after_1990 - Gebäude mit Fernheizung Baujahr
+      nach 1990<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St58
+      - sector: buildings - heating_type: district_heating - building_age: before_1950
+      - Gebäude mit Fernheizung Baujahr vor 1950<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St71 - sector: buildings - heating_type: central_heating
+      - building_age: age_1950_1969 - Gebäude mit Zentralheizung Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St72 - sector: buildings - heating_type:
+      central_heating - building_age: age_1970_1989 - Gebäude mit Zentralheizung Baujahr
+      1970 - 1989<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St73
+      - sector: buildings - heating_type: central_heating - building_age: after_1990
+      - Gebäude mit Zentralheizung Baujahr nach 1990<br/>number_number_pcs - File
+      type: Eingabefeld - BISKO code: St70 - sector: buildings - heating_type: central_heating
+      - building_age: before_1950 - Gebäude mit Zentralheizung Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St79 - sector: buildings - heating_type:
+      no_heating - building_age: age_1950_1969 - Gebäude ohne Heizung Baujahr 1950
+      - 1969<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St80 - sector:
+      buildings - heating_type: no_heating - building_age: age_1970_1989 - Gebäude
+      ohne Heizung Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St81 - sector: buildings - heating_type: no_heating - building_age:
+      after_1990 - Gebäude ohne Heizung Baujahr nach 1990<br/>number_number_pcs -
+      File type: Eingabefeld - BISKO code: St78 - sector: buildings - heating_type:
+      no_heating - building_age: before_1950 - Gebäude ohne Heizung Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St87 - sector: private_households - household_size:
+      five_plus_person - Haushalte mit mehr als 5 Personen<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St93 - sector: buildings - building_age:
+      age_1950_1969 - building_type: small_multifamily - Wohnfläche in Gebäuden mit
+      3-6 Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m - File type:
+      Eingabefeld - BISKO code: St94 - sector: buildings - building_type: small_multifamily
+      - Wohnfläche in Gebäuden mit 3-6 Wohnungen und Baujahr 1970 -1989<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St95 - sector: buildings - building_age:
+      after_1990 - building_type: small_multifamily - Wohnfläche in Gebäuden mit 3-6
+      Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m - File type: Eingabefeld
+      - BISKO code: St92 - sector: buildings - building_age: before_1950 - building_type:
+      small_multifamily - Wohnfläche in Gebäuden mit 3-6 Wohnungen und Baujahr vor
+      1950<br/>floor_area_floor_area_m - File type: Eingabefeld - BISKO code: St97
+      - sector: buildings - building_age: age_1950_1969 - building_type: large_multifamily
+      - Wohnfläche in Gebäuden mit 7-12 und 13 und mehr Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St98 - sector: buildings - building_age:
+      age_1970_1989 - building_type: large_multifamily - Wohnfläche in Gebäuden mit
+      7-12 und 13 und mehr Wohnungen und Baujahr 1970-1989<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St99 - sector: buildings - building_age:
+      after_1990 - building_type: large_multifamily - Wohnfläche in Gebäuden mit 7-12
+      und 13 und mehr Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St96 - sector: buildings - building_age:
+      before_1950 - building_type: large_multifamily - Wohnfläche in Gebäuden mit
+      7-12 und 13 und mehr Wohnungen und Baujahr vor 1950<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St89 - sector: buildings - building_age:
+      age_1950_1969 - building_type: single_two_family - Wohnfläche in Gebäuden mit
+      einer und zwei Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m -
+      File type: Eingabefeld - BISKO code: St90 - sector: buildings - building_type:
+      single_two_family - Wohnfläche in Gebäuden mit einer und zwei Wohnungen und
+      Baujahr 1970 -1989<br/>floor_area_floor_area_m - File type: Eingabefeld - BISKO
+      code: St91 - sector: buildings - building_age: after_1990 - building_type: single_two_family
+      - Wohnfläche in Gebäuden mit einer und zwei Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St88 - sector: buildings - building_age:
+      before_1950 - building_type: single_two_family - Wohnfläche in Gebäuden mit
+      einer und zwei Wohnungen und Baujahr vor 1950<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St82 - sector: private_households - household_size:
+      single_person - 1-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St83 - sector: private_households - household_size: two_person
+      - 2-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld - BISKO
+      code: St84 - sector: private_households - household_size: three_person - 3-Personen-Haushalte<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St85 - sector: private_households - household_size:
+      four_person - 4-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St86 - sector: private_households - household_size: five_person
+      - 5-Personen-Haushalte<br/>number_number_ - File type: Eingabefeld - BISKO code:
+      V31 - sector: transport - trip_type: local_rail - Anteil Kraftstoffe, Schienenpersonennahverkehr<br/>number_number_
+      - File type: Eingabefeld - BISKO code: V30 - sector: transport - trip_type:
+      local_rail - energy_carrier: electricity - Anteil Strom, Schienenpersonennahverkehr<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St6 - sector: commerce_trade_services
+      - Beschäftigte: Gesamt auf Kommunalebene (ohne verarbeitendes Gewerbe)<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St5 - sector: commerce_trade_services
+      - Beschäftigte: Verarbeitendes Gewerbe auf Kommunalebene<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V56 - sector: electricity - trip_type:
+      inland_shipping - Endenergieverbrauch Kraftstoff, Binnenschifffahrt<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V58 - sector: transport - trip_type:
+      aviation - Endenergieverbrauch Kraftstoff, Flugverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V55 - sector: transport - trip_type:
+      rail_freight - Endenergieverbrauch Kraftstoff, Schienengüterverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V53 - sector: transport - trip_type:
+      long_distance_rail - Endenergieverbrauch Kraftstoff, Schienenpersonenfernverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V23b - sector: transport - trip_type:
+      local_rail - Endenergieverbrauch Kraftstoff, Schienenpersonennahverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V54 - sector: transport - trip_type:
+      rail_freight - energy_carrier: electricity - Endenergieverbrauch Strom, Schienengüterverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V52 - sector: transport - trip_type:
+      long_distance_rail - energy_carrier: electricity - Endenergieverbrauch Strom,
+      Schienenpersonenfernverkehr<br/>energy_energy_mwha - File type: Eingabefeld
+      - BISKO code: V23a - sector: transport - trip_type: local_rail - energy_carrier:
+      electricity - Endenergieverbrauch Strom, Schienenpersonennahverkehr<br/>energy_energy_gja
+      - File type: Eingabefeld - BISKO code: E86 - sector: commerce_trade_services
+      - fuel_type: fossil - energy_carrier: natural_gas - Energetischer Endenergieverbrauch
+      von Erdgas, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja - File type:
+      Eingabefeld - BISKO code: E87 - sector: commerce_trade_services - fuel_type:
+      non_fossil - energy_carrier: other_renewables - Energetischer Endenergieverbrauch
+      von erneuerbaren Energien, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja
+      - File type: Eingabefeld - BISKO code: E85 - sector: commerce_trade_services
+      - fuel_type: fossil - energy_carrier: heating_oil - Energetischer Endenergieverbrauch
+      von Heizöl, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja - File type:
+      Eingabefeld - BISKO code: E84 - sector: commerce_trade_services - energy_carrier:
+      hard_coal - Energetischer Endenergieverbrauch von Kohle, verarbeitendes Gewerbe,
+      Kreis<br/>energy_energy_gja - File type: Eingabefeld - BISKO code: E90 - sector:
+      commerce_trade_services - Energetischer Endenergieverbrauch von sonstigen Energieträgern,
+      verarbeitendes Gewerbe, Kreis<br/>mileage_mileage_mvkm - File type: Eingabefeld
+      - BISKO code: V24 - sector: transport - trip_type: local_rail - Fahrleistung
+      Schienenpersonennahverkehr in Zugkilometer<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St67 - sector: buildings - heating_type: district_heating_local
+      - building_age: age_1950_1969 - Gebäude mit Blockheizung Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St68 - sector: buildings - heating_type:
+      district_heating_local - building_age: age_1970_1989 - Gebäude mit Blockheizung
+      Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld - BISKO code:
+      St69 - sector: buildings - heating_type: district_heating_local - building_age:
+      after_1990 - Gebäude mit Blockheizung Baujahr nach 1990<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St66 - sector: buildings - heating_type:
+      district_heating_local - building_age: before_1950 - Gebäude mit Blockheizung
+      Baujahr vor 1950<br/>number_number_pcs - File type: Eingabefeld - BISKO code:
+      St75 - sector: buildings - heating_type: individual_room_heaters - building_age:
+      age_1950_1969 - Gebäude mit Einzel- oder Mehrraumöfen Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St76 - sector: buildings - heating_type:
+      individual_room_heaters - building_age: age_1970_1989 - Gebäude mit Einzel-
+      oder Mehrraumöfen Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St77 - sector: buildings - heating_type: individual_room_heaters
+      - building_age: after_1990 - Gebäude mit Einzel- oder Mehrraumöfen Baujahr nach
+      1990<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St74 - sector:
+      buildings - heating_type: individual_room_heaters - building_age: before_1950
+      - Gebäude mit Einzel- oder Mehrraumöfen Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St63 - sector: buildings - heating_type:
+      floor_heating - building_age: age_1950_1969 - Gebäude mit Etagenheizung Baujahr  1950
+      - 1969<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St64 - sector:
+      buildings - heating_type: floor_heating - building_age: age_1970_1989 - Gebäude
+      mit Etagenheizung Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St65 - sector: buildings - heating_type: floor_heating - building_age:
+      after_1990 - Gebäude mit Etagenheizung Baujahr nach 1990<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St62 - sector: buildings - heating_type:
+      floor_heating - building_age: before_1950 - Gebäude mit Etagenheizung Baujahr
+      vor 1950<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St59 -
+      sector: buildings - heating_type: district_heating - building_age: age_1950_1969
+      - Gebäude mit Fernheizung Baujahr 1950 - 1969<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St60 - sector: buildings - heating_type: district_heating
+      - building_age: age_1970_1989 - Gebäude mit Fernheizung Baujahr 1970 - 1989<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St61 - sector: buildings - heating_type:
+      district_heating - building_age: after_1990 - Gebäude mit Fernheizung Baujahr
+      nach 1990<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St58
+      - sector: buildings - heating_type: district_heating - building_age: before_1950
+      - Gebäude mit Fernheizung Baujahr vor 1950<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St71 - sector: buildings - heating_type: central_heating
+      - building_age: age_1950_1969 - Gebäude mit Zentralheizung Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St72 - sector: buildings - heating_type:
+      central_heating - building_age: age_1970_1989 - Gebäude mit Zentralheizung Baujahr
+      1970 - 1989<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St73
+      - sector: buildings - heating_type: central_heating - building_age: after_1990
+      - Gebäude mit Zentralheizung Baujahr nach 1990<br/>number_number_pcs - File
+      type: Eingabefeld - BISKO code: St70 - sector: buildings - heating_type: central_heating
+      - building_age: before_1950 - Gebäude mit Zentralheizung Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St79 - sector: buildings - heating_type:
+      no_heating - building_age: age_1950_1969 - Gebäude ohne Heizung Baujahr 1950
+      - 1969<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St80 - sector:
+      buildings - heating_type: no_heating - building_age: age_1970_1989 - Gebäude
+      ohne Heizung Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St81 - sector: buildings - heating_type: no_heating - building_age:
+      after_1990 - Gebäude ohne Heizung Baujahr nach 1990<br/>number_number_pcs -
+      File type: Eingabefeld - BISKO code: St78 - sector: buildings - heating_type:
+      no_heating - building_age: before_1950 - Gebäude ohne Heizung Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St87 - sector: private_households - household_size:
+      five_plus_person - Haushalte mit mehr als 5 Personen<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St93 - sector: buildings - building_age:
+      age_1950_1969 - building_type: small_multifamily - Wohnfläche in Gebäuden mit
+      3-6 Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m - File type:
+      Eingabefeld - BISKO code: St94 - sector: buildings - building_type: small_multifamily
+      - Wohnfläche in Gebäuden mit 3-6 Wohnungen und Baujahr 1970 -1989<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St95 - sector: buildings - building_age:
+      after_1990 - building_type: small_multifamily - Wohnfläche in Gebäuden mit 3-6
+      Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m - File type: Eingabefeld
+      - BISKO code: St92 - sector: buildings - building_age: before_1950 - building_type:
+      small_multifamily - Wohnfläche in Gebäuden mit 3-6 Wohnungen und Baujahr vor
+      1950<br/>floor_area_floor_area_m - File type: Eingabefeld - BISKO code: St97
+      - sector: buildings - building_age: age_1950_1969 - building_type: large_multifamily
+      - Wohnfläche in Gebäuden mit 7-12 und 13 und mehr Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St98 - sector: buildings - building_age:
+      age_1970_1989 - building_type: large_multifamily - Wohnfläche in Gebäuden mit
+      7-12 und 13 und mehr Wohnungen und Baujahr 1970-1989<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St99 - sector: buildings - building_age:
+      after_1990 - building_type: large_multifamily - Wohnfläche in Gebäuden mit 7-12
+      und 13 und mehr Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St96 - sector: buildings - building_age:
+      before_1950 - building_type: large_multifamily - Wohnfläche in Gebäuden mit
+      7-12 und 13 und mehr Wohnungen und Baujahr vor 1950<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St89 - sector: buildings - building_age:
+      age_1950_1969 - building_type: single_two_family - Wohnfläche in Gebäuden mit
+      einer und zwei Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m -
+      File type: Eingabefeld - BISKO code: St90 - sector: buildings - building_type:
+      single_two_family - Wohnfläche in Gebäuden mit einer und zwei Wohnungen und
+      Baujahr 1970 -1989<br/>floor_area_floor_area_m - File type: Eingabefeld - BISKO
+      code: St91 - sector: buildings - building_age: after_1990 - building_type: single_two_family
+      - Wohnfläche in Gebäuden mit einer und zwei Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St88 - sector: buildings - building_age:
+      before_1950 - building_type: single_two_family - Wohnfläche in Gebäuden mit
+      einer und zwei Wohnungen und Baujahr vor 1950<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St82 - sector: private_households - household_size:
+      single_person - 1-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St83 - sector: private_households - household_size: two_person
+      - 2-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld - BISKO
+      code: St84 - sector: private_households - household_size: three_person - 3-Personen-Haushalte<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St85 - sector: private_households - household_size:
+      four_person - 4-Personen-Haushalte<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St86 - sector: private_households - household_size: five_person
+      - 5-Personen-Haushalte<br/>number_number_ - File type: Eingabefeld - BISKO code:
+      V31 - sector: transport - trip_type: local_rail - Anteil Kraftstoffe, Schienenpersonennahverkehr<br/>number_number_
+      - File type: Eingabefeld - BISKO code: V30 - sector: transport - trip_type:
+      local_rail - energy_carrier: electricity - Anteil Strom, Schienenpersonennahverkehr<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St6 - sector: commerce_trade_services
+      - Beschäftigte: Gesamt auf Kommunalebene (ohne verarbeitendes Gewerbe)<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St5 - sector: commerce_trade_services
+      - Beschäftigte: Verarbeitendes Gewerbe auf Kommunalebene<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V56 - sector: electricity - trip_type:
+      inland_shipping - Endenergieverbrauch Kraftstoff, Binnenschifffahrt<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V58 - sector: transport - trip_type:
+      aviation - Endenergieverbrauch Kraftstoff, Flugverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V55 - sector: transport - trip_type:
+      rail_freight - Endenergieverbrauch Kraftstoff, Schienengüterverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V53 - sector: transport - trip_type:
+      long_distance_rail - Endenergieverbrauch Kraftstoff, Schienenpersonenfernverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V23b - sector: transport - trip_type:
+      local_rail - Endenergieverbrauch Kraftstoff, Schienenpersonennahverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V54 - sector: transport - trip_type:
+      rail_freight - energy_carrier: electricity - Endenergieverbrauch Strom, Schienengüterverkehr<br/>energy_energy_mwha
+      - File type: Eingabefeld - BISKO code: V52 - sector: transport - trip_type:
+      long_distance_rail - energy_carrier: electricity - Endenergieverbrauch Strom,
+      Schienenpersonenfernverkehr<br/>energy_energy_mwha - File type: Eingabefeld
+      - BISKO code: V23a - sector: transport - trip_type: local_rail - energy_carrier:
+      electricity - Endenergieverbrauch Strom, Schienenpersonennahverkehr<br/>energy_energy_gja
+      - File type: Eingabefeld - BISKO code: E86 - sector: commerce_trade_services
+      - fuel_type: fossil - energy_carrier: natural_gas - Energetischer Endenergieverbrauch
+      von Erdgas, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja - File type:
+      Eingabefeld - BISKO code: E87 - sector: commerce_trade_services - fuel_type:
+      non_fossil - energy_carrier: other_renewables - Energetischer Endenergieverbrauch
+      von erneuerbaren Energien, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja
+      - File type: Eingabefeld - BISKO code: E85 - sector: commerce_trade_services
+      - fuel_type: fossil - energy_carrier: heating_oil - Energetischer Endenergieverbrauch
+      von Heizöl, verarbeitendes Gewerbe, Kreis<br/>energy_energy_gja - File type:
+      Eingabefeld - BISKO code: E84 - sector: commerce_trade_services - energy_carrier:
+      hard_coal - Energetischer Endenergieverbrauch von Kohle, verarbeitendes Gewerbe,
+      Kreis<br/>energy_energy_gja - File type: Eingabefeld - BISKO code: E90 - sector:
+      commerce_trade_services - Energetischer Endenergieverbrauch von sonstigen Energieträgern,
+      verarbeitendes Gewerbe, Kreis<br/>mileage_mileage_mvkm - File type: Eingabefeld
+      - BISKO code: V24 - sector: transport - trip_type: local_rail - Fahrleistung
+      Schienenpersonennahverkehr in Zugkilometer<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St67 - sector: buildings - heating_type: district_heating_local
+      - building_age: age_1950_1969 - Gebäude mit Blockheizung Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St68 - sector: buildings - heating_type:
+      district_heating_local - building_age: age_1970_1989 - Gebäude mit Blockheizung
+      Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld - BISKO code:
+      St69 - sector: buildings - heating_type: district_heating_local - building_age:
+      after_1990 - Gebäude mit Blockheizung Baujahr nach 1990<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St66 - sector: buildings - heating_type:
+      district_heating_local - building_age: before_1950 - Gebäude mit Blockheizung
+      Baujahr vor 1950<br/>number_number_pcs - File type: Eingabefeld - BISKO code:
+      St75 - sector: buildings - heating_type: individual_room_heaters - building_age:
+      age_1950_1969 - Gebäude mit Einzel- oder Mehrraumöfen Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St76 - sector: buildings - heating_type:
+      individual_room_heaters - building_age: age_1970_1989 - Gebäude mit Einzel-
+      oder Mehrraumöfen Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St77 - sector: buildings - heating_type: individual_room_heaters
+      - building_age: after_1990 - Gebäude mit Einzel- oder Mehrraumöfen Baujahr nach
+      1990<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St74 - sector:
+      buildings - heating_type: individual_room_heaters - building_age: before_1950
+      - Gebäude mit Einzel- oder Mehrraumöfen Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St63 - sector: buildings - heating_type:
+      floor_heating - building_age: age_1950_1969 - Gebäude mit Etagenheizung Baujahr  1950
+      - 1969<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St64 - sector:
+      buildings - heating_type: floor_heating - building_age: age_1970_1989 - Gebäude
+      mit Etagenheizung Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St65 - sector: buildings - heating_type: floor_heating - building_age:
+      after_1990 - Gebäude mit Etagenheizung Baujahr nach 1990<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St62 - sector: buildings - heating_type:
+      floor_heating - building_age: before_1950 - Gebäude mit Etagenheizung Baujahr
+      vor 1950<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St59 -
+      sector: buildings - heating_type: district_heating - building_age: age_1950_1969
+      - Gebäude mit Fernheizung Baujahr 1950 - 1969<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St60 - sector: buildings - heating_type: district_heating
+      - building_age: age_1970_1989 - Gebäude mit Fernheizung Baujahr 1970 - 1989<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St61 - sector: buildings - heating_type:
+      district_heating - building_age: after_1990 - Gebäude mit Fernheizung Baujahr
+      nach 1990<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St58
+      - sector: buildings - heating_type: district_heating - building_age: before_1950
+      - Gebäude mit Fernheizung Baujahr vor 1950<br/>number_number_pcs - File type:
+      Eingabefeld - BISKO code: St71 - sector: buildings - heating_type: central_heating
+      - building_age: age_1950_1969 - Gebäude mit Zentralheizung Baujahr 1950 - 1969<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St72 - sector: buildings - heating_type:
+      central_heating - building_age: age_1970_1989 - Gebäude mit Zentralheizung Baujahr
+      1970 - 1989<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St73
+      - sector: buildings - heating_type: central_heating - building_age: after_1990
+      - Gebäude mit Zentralheizung Baujahr nach 1990<br/>number_number_pcs - File
+      type: Eingabefeld - BISKO code: St70 - sector: buildings - heating_type: central_heating
+      - building_age: before_1950 - Gebäude mit Zentralheizung Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St79 - sector: buildings - heating_type:
+      no_heating - building_age: age_1950_1969 - Gebäude ohne Heizung Baujahr 1950
+      - 1969<br/>number_number_pcs - File type: Eingabefeld - BISKO code: St80 - sector:
+      buildings - heating_type: no_heating - building_age: age_1970_1989 - Gebäude
+      ohne Heizung Baujahr 1970 - 1989<br/>number_number_pcs - File type: Eingabefeld
+      - BISKO code: St81 - sector: buildings - heating_type: no_heating - building_age:
+      after_1990 - Gebäude ohne Heizung Baujahr nach 1990<br/>number_number_pcs -
+      File type: Eingabefeld - BISKO code: St78 - sector: buildings - heating_type:
+      no_heating - building_age: before_1950 - Gebäude ohne Heizung Baujahr vor 1950<br/>number_number_pcs
+      - File type: Eingabefeld - BISKO code: St87 - sector: private_households - household_size:
+      five_plus_person - Haushalte mit mehr als 5 Personen<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St93 - sector: buildings - building_age:
+      age_1950_1969 - building_type: small_multifamily - Wohnfläche in Gebäuden mit
+      3-6 Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m - File type:
+      Eingabefeld - BISKO code: St94 - sector: buildings - building_type: small_multifamily
+      - Wohnfläche in Gebäuden mit 3-6 Wohnungen und Baujahr 1970 -1989<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St95 - sector: buildings - building_age:
+      after_1990 - building_type: small_multifamily - Wohnfläche in Gebäuden mit 3-6
+      Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m - File type: Eingabefeld
+      - BISKO code: St92 - sector: buildings - building_age: before_1950 - building_type:
+      small_multifamily - Wohnfläche in Gebäuden mit 3-6 Wohnungen und Baujahr vor
+      1950<br/>floor_area_floor_area_m - File type: Eingabefeld - BISKO code: St97
+      - sector: buildings - building_age: age_1950_1969 - building_type: large_multifamily
+      - Wohnfläche in Gebäuden mit 7-12 und 13 und mehr Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St98 - sector: buildings - building_age:
+      age_1970_1989 - building_type: large_multifamily - Wohnfläche in Gebäuden mit
+      7-12 und 13 und mehr Wohnungen und Baujahr 1970-1989<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St99 - sector: buildings - building_age:
+      after_1990 - building_type: large_multifamily - Wohnfläche in Gebäuden mit 7-12
+      und 13 und mehr Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St96 - sector: buildings - building_age:
+      before_1950 - building_type: large_multifamily - Wohnfläche in Gebäuden mit
+      7-12 und 13 und mehr Wohnungen und Baujahr vor 1950<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St89 - sector: buildings - building_age:
+      age_1950_1969 - building_type: single_two_family - Wohnfläche in Gebäuden mit
+      einer und zwei Wohnungen und Baujahr 1951-1969<br/>floor_area_floor_area_m -
+      File type: Eingabefeld - BISKO code: St90 - sector: buildings - building_type:
+      single_two_family - Wohnfläche in Gebäuden mit einer und zwei Wohnungen und
+      Baujahr 1970 -1989<br/>floor_area_floor_area_m - File type: Eingabefeld - BISKO
+      code: St91 - sector: buildings - building_age: after_1990 - building_type: single_two_family
+      - Wohnfläche in Gebäuden mit einer und zwei Wohnungen und Baujahr nach 1990<br/>floor_area_floor_area_m
+      - File type: Eingabefeld - BISKO code: St88 - sector: buildings - building_age:
+      before_1950 - building_type: single_two_family - Wohnfläche in Gebäuden mit
+      einer und zwei Wohnungen und Baujahr vor 1950'
+  metrics:
+  - id: mileage_mileage_mvkm
+    quantity: mileage
+    label:
+      de: mileage_mileage_mvkm
+  - id: number_number_
+    quantity: number
+    label:
+      de: number_number_
+  - id: energy_energy_mwha
+    quantity: energy
+    label:
+      de: energy_energy_mwha
+  - id: energy_energy_gja
+    quantity: energy
+    label:
+      de: energy_energy_gja
+  - id: number_number_pcs
+    quantity: number
+    label:
+      de: number_number_pcs
+  - id: floor_area_floor_area_m
+    quantity: floor_area
+    label:
+      de: floor_area_floor_area_m
+  updated_at: '1750225945'
+  units:
+    floor_area_floor_area_m: m²
+    number_number_pcs: pcs
+    energy_energy_mwha: MWh/a
+    energy_energy_gja: GJ/a
+    mileage_mileage_mvkm: Mvkm
+    number_number_: '%'
