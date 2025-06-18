@@ -1,0 +1,673 @@
+outs:
+- md5: 207009c92fb5c2f5457740fbc05c2388
+  size: 139472
+  hash: md5
+  path: emissionsfaktoren_fr_die_energieerzeugung.parquet
+meta:
+  name:
+    de: Emissionsfaktoren für die Energieerzeugung
+  identifier: emissionsfaktoren_fr_die_energieerzeugung
+  description:
+    de: 'emission_factor - File type: Eingabefeld - BISKO code: U25a - inventory_method:
+      bisko - ghg: co2e - sector: electricity - energy_process: electricity_generation
+      - fuel_type: non_fossil - energy_carrier: biogas - scope: scope3 - Emissionsfaktor
+      (inkl. Äquivalente und Vorkette) Biogas für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biogas - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) Biogas für Wärmeerzeugungsanlagen<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U25b - inventory_method: bisko - ghg: co2e - sector:
+      electricity - energy_process: electricity_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) feste Biomasse für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) feste Biomasse für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25c - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) flüssige Biomasse für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) flüssige Biomasse für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: environmental_heat - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) Geothermie für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25j - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: electricity - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige erneuerbare Energieträger für Stromerzeugungsanlage<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25i - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: other_renewables - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige erneuerbare Energieträger für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25l - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      fossil - energy_carrier: electricity - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige konventionelle Energieträger für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25k - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: fossil
+      - energy_carrier: other_conventional - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige konventionelle Energieträger für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25h - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: environmental_heat - scope: scope3 - Emissionsfaktor
+      (inkl. Äquivalente und Vorkette) Stromerzeugungsanlage mit Geothermie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U5 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: mixed - energy_carrier:
+      other_conventional - scope: scope1 - Emissionsfaktor Abfall für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: non_fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 1 (überwiegend erneuerbare Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 1 (überwiegend konventionelle Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: non_fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 2 (überwiegend erneuerbare Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 2 (überwiegend konventionelle Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U6 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: biogas - scope: scope1 - Emissionsfaktor Biogas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U7 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope1 - Emissionsfaktor Biomasse für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U24 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: biomass - scope: scope2 - Emissionsfaktor Biomasse
+      zur Stromerzeugung<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      U3 - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      power_plants - fuel_type: fossil - energy_carrier: brown_coal - scope: scope1
+      - Emissionsfaktor Braunkohle für Kraftwerke<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U1 - inventory_method: bisko - ghg: co2e - sector:
+      electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      natural_gas - scope: scope1 - Emissionsfaktor Erdgas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U8 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      natural_gas - scope: scope1 - Emissionsfaktor Flüssiggas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U4 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      heating_oil - scope: scope1 - Emissionsfaktor Heizöl für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - energy_carrier:
+      natural_gas - scope: scope2 - Emissionsfaktor Klär-, Deponie-, Grubengas zur
+      Stromerzeugung<br/>emission_factor - File type: Eingabefeld - BISKO code: U21
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      electricity_generation - fuel_type: non_fossil - energy_carrier: electricity
+      - scope: scope2 - Emissionsfaktor Photovoltaik zur Stromerzeugung<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U10 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: other_renewables - scope: scope1 - Emissionsfaktor sonstige
+      erneuerbare Energieträger für Kraftwerke<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U9 - inventory_method: bisko - ghg: co2e - sector: electricity
+      - energy_process: power_plants - fuel_type: fossil - energy_carrier: other_conventional
+      - scope: scope1 - Emissionsfaktor sonstige konventionelle Energieträger für
+      Kraftwerke<br/>emission_factor - File type: Eingabefeld - BISKO code: U2 - inventory_method:
+      bisko - ghg: co2e - sector: electricity - energy_process: power_plants - fuel_type:
+      fossil - energy_carrier: hard_coal - scope: scope1 - Emissionsfaktor Steinkohle
+      für Kraftwerke<br/>emission_factor - File type: Eingabefeld - BISKO code: U23
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      electricity_generation - fuel_type: non_fossil - energy_carrier: electricity
+      - scope: scope2 - Emissionsfaktor Wasserkraft zur Stromerzeugung<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U22 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: electricity - scope: scope2 - Emissionsfaktor Windkraft
+      zur Stromerzeugung<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      U25a - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      electricity_generation - fuel_type: non_fossil - energy_carrier: biogas - scope:
+      scope3 - Emissionsfaktor (inkl. Äquivalente und Vorkette) Biogas für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biogas - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) Biogas für Wärmeerzeugungsanlagen<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U25b - inventory_method: bisko - ghg: co2e - sector:
+      electricity - energy_process: electricity_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) feste Biomasse für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) feste Biomasse für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25c - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) flüssige Biomasse für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) flüssige Biomasse für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: environmental_heat - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) Geothermie für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25j - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: electricity - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige erneuerbare Energieträger für Stromerzeugungsanlage<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25i - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: other_renewables - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige erneuerbare Energieträger für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25l - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      fossil - energy_carrier: electricity - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige konventionelle Energieträger für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25k - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: fossil
+      - energy_carrier: other_conventional - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige konventionelle Energieträger für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25h - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: environmental_heat - scope: scope3 - Emissionsfaktor
+      (inkl. Äquivalente und Vorkette) Stromerzeugungsanlage mit Geothermie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U5 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: mixed - energy_carrier:
+      other_conventional - scope: scope1 - Emissionsfaktor Abfall für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: non_fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 1 (überwiegend erneuerbare Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 1 (überwiegend konventionelle Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: non_fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 2 (überwiegend erneuerbare Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 2 (überwiegend konventionelle Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U6 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: biogas - scope: scope1 - Emissionsfaktor Biogas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U7 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope1 - Emissionsfaktor Biomasse für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U24 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: biomass - scope: scope2 - Emissionsfaktor Biomasse
+      zur Stromerzeugung<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      U3 - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      power_plants - fuel_type: fossil - energy_carrier: brown_coal - scope: scope1
+      - Emissionsfaktor Braunkohle für Kraftwerke<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U1 - inventory_method: bisko - ghg: co2e - sector:
+      electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      natural_gas - scope: scope1 - Emissionsfaktor Erdgas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U8 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      natural_gas - scope: scope1 - Emissionsfaktor Flüssiggas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U4 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      heating_oil - scope: scope1 - Emissionsfaktor Heizöl für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - energy_carrier:
+      natural_gas - scope: scope2 - Emissionsfaktor Klär-, Deponie-, Grubengas zur
+      Stromerzeugung<br/>emission_factor - File type: Eingabefeld - BISKO code: U21
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      electricity_generation - fuel_type: non_fossil - energy_carrier: electricity
+      - scope: scope2 - Emissionsfaktor Photovoltaik zur Stromerzeugung<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U10 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: other_renewables - scope: scope1 - Emissionsfaktor sonstige
+      erneuerbare Energieträger für Kraftwerke<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U9 - inventory_method: bisko - ghg: co2e - sector: electricity
+      - energy_process: power_plants - fuel_type: fossil - energy_carrier: other_conventional
+      - scope: scope1 - Emissionsfaktor sonstige konventionelle Energieträger für
+      Kraftwerke<br/>emission_factor - File type: Eingabefeld - BISKO code: U2 - inventory_method:
+      bisko - ghg: co2e - sector: electricity - energy_process: power_plants - fuel_type:
+      fossil - energy_carrier: hard_coal - scope: scope1 - Emissionsfaktor Steinkohle
+      für Kraftwerke<br/>emission_factor - File type: Eingabefeld - BISKO code: U23
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      electricity_generation - fuel_type: non_fossil - energy_carrier: electricity
+      - scope: scope2 - Emissionsfaktor Wasserkraft zur Stromerzeugung<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U22 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: electricity - scope: scope2 - Emissionsfaktor Windkraft
+      zur Stromerzeugung<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      U25a - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      electricity_generation - fuel_type: non_fossil - energy_carrier: biogas - scope:
+      scope3 - Emissionsfaktor (inkl. Äquivalente und Vorkette) Biogas für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biogas - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) Biogas für Wärmeerzeugungsanlagen<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U25b - inventory_method: bisko - ghg: co2e - sector:
+      electricity - energy_process: electricity_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) feste Biomasse für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) feste Biomasse für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25c - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) flüssige Biomasse für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) flüssige Biomasse für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: environmental_heat - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) Geothermie für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25j - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: electricity - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige erneuerbare Energieträger für Stromerzeugungsanlage<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25i - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: other_renewables - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige erneuerbare Energieträger für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25l - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      fossil - energy_carrier: electricity - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige konventionelle Energieträger für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25k - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: fossil
+      - energy_carrier: other_conventional - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige konventionelle Energieträger für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25h - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: environmental_heat - scope: scope3 - Emissionsfaktor
+      (inkl. Äquivalente und Vorkette) Stromerzeugungsanlage mit Geothermie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U5 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: mixed - energy_carrier:
+      other_conventional - scope: scope1 - Emissionsfaktor Abfall für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: non_fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 1 (überwiegend erneuerbare Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 1 (überwiegend konventionelle Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: non_fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 2 (überwiegend erneuerbare Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 2 (überwiegend konventionelle Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U6 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: biogas - scope: scope1 - Emissionsfaktor Biogas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U7 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope1 - Emissionsfaktor Biomasse für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U24 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: biomass - scope: scope2 - Emissionsfaktor Biomasse
+      zur Stromerzeugung<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      U3 - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      power_plants - fuel_type: fossil - energy_carrier: brown_coal - scope: scope1
+      - Emissionsfaktor Braunkohle für Kraftwerke<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U1 - inventory_method: bisko - ghg: co2e - sector:
+      electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      natural_gas - scope: scope1 - Emissionsfaktor Erdgas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U8 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      natural_gas - scope: scope1 - Emissionsfaktor Flüssiggas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U4 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      heating_oil - scope: scope1 - Emissionsfaktor Heizöl für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - energy_carrier:
+      natural_gas - scope: scope2 - Emissionsfaktor Klär-, Deponie-, Grubengas zur
+      Stromerzeugung<br/>emission_factor - File type: Eingabefeld - BISKO code: U21
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      electricity_generation - fuel_type: non_fossil - energy_carrier: electricity
+      - scope: scope2 - Emissionsfaktor Photovoltaik zur Stromerzeugung<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U10 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: other_renewables - scope: scope1 - Emissionsfaktor sonstige
+      erneuerbare Energieträger für Kraftwerke<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U9 - inventory_method: bisko - ghg: co2e - sector: electricity
+      - energy_process: power_plants - fuel_type: fossil - energy_carrier: other_conventional
+      - scope: scope1 - Emissionsfaktor sonstige konventionelle Energieträger für
+      Kraftwerke<br/>emission_factor - File type: Eingabefeld - BISKO code: U2 - inventory_method:
+      bisko - ghg: co2e - sector: electricity - energy_process: power_plants - fuel_type:
+      fossil - energy_carrier: hard_coal - scope: scope1 - Emissionsfaktor Steinkohle
+      für Kraftwerke<br/>emission_factor - File type: Eingabefeld - BISKO code: U23
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      electricity_generation - fuel_type: non_fossil - energy_carrier: electricity
+      - scope: scope2 - Emissionsfaktor Wasserkraft zur Stromerzeugung<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U22 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: electricity - scope: scope2 - Emissionsfaktor Windkraft
+      zur Stromerzeugung<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      U25a - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      electricity_generation - fuel_type: non_fossil - energy_carrier: biogas - scope:
+      scope3 - Emissionsfaktor (inkl. Äquivalente und Vorkette) Biogas für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biogas - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) Biogas für Wärmeerzeugungsanlagen<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U25b - inventory_method: bisko - ghg: co2e - sector:
+      electricity - energy_process: electricity_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) feste Biomasse für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) feste Biomasse für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25c - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) flüssige Biomasse für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) flüssige Biomasse für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: environmental_heat - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) Geothermie für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25j - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: electricity - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige erneuerbare Energieträger für Stromerzeugungsanlage<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25i - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: other_renewables - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige erneuerbare Energieträger für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25l - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      fossil - energy_carrier: electricity - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige konventionelle Energieträger für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25k - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: fossil
+      - energy_carrier: other_conventional - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige konventionelle Energieträger für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25h - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: environmental_heat - scope: scope3 - Emissionsfaktor
+      (inkl. Äquivalente und Vorkette) Stromerzeugungsanlage mit Geothermie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U5 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: mixed - energy_carrier:
+      other_conventional - scope: scope1 - Emissionsfaktor Abfall für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: non_fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 1 (überwiegend erneuerbare Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 1 (überwiegend konventionelle Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: non_fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 2 (überwiegend erneuerbare Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 2 (überwiegend konventionelle Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U6 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: biogas - scope: scope1 - Emissionsfaktor Biogas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U7 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope1 - Emissionsfaktor Biomasse für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U24 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: biomass - scope: scope2 - Emissionsfaktor Biomasse
+      zur Stromerzeugung<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      U3 - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      power_plants - fuel_type: fossil - energy_carrier: brown_coal - scope: scope1
+      - Emissionsfaktor Braunkohle für Kraftwerke<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U1 - inventory_method: bisko - ghg: co2e - sector:
+      electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      natural_gas - scope: scope1 - Emissionsfaktor Erdgas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U8 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      natural_gas - scope: scope1 - Emissionsfaktor Flüssiggas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U4 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      heating_oil - scope: scope1 - Emissionsfaktor Heizöl für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - energy_carrier:
+      natural_gas - scope: scope2 - Emissionsfaktor Klär-, Deponie-, Grubengas zur
+      Stromerzeugung<br/>emission_factor - File type: Eingabefeld - BISKO code: U21
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      electricity_generation - fuel_type: non_fossil - energy_carrier: electricity
+      - scope: scope2 - Emissionsfaktor Photovoltaik zur Stromerzeugung<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U10 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: other_renewables - scope: scope1 - Emissionsfaktor sonstige
+      erneuerbare Energieträger für Kraftwerke<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U9 - inventory_method: bisko - ghg: co2e - sector: electricity
+      - energy_process: power_plants - fuel_type: fossil - energy_carrier: other_conventional
+      - scope: scope1 - Emissionsfaktor sonstige konventionelle Energieträger für
+      Kraftwerke<br/>emission_factor - File type: Eingabefeld - BISKO code: U2 - inventory_method:
+      bisko - ghg: co2e - sector: electricity - energy_process: power_plants - fuel_type:
+      fossil - energy_carrier: hard_coal - scope: scope1 - Emissionsfaktor Steinkohle
+      für Kraftwerke<br/>emission_factor - File type: Eingabefeld - BISKO code: U23
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      electricity_generation - fuel_type: non_fossil - energy_carrier: electricity
+      - scope: scope2 - Emissionsfaktor Wasserkraft zur Stromerzeugung<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U22 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: electricity - scope: scope2 - Emissionsfaktor Windkraft
+      zur Stromerzeugung<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      U25a - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      electricity_generation - fuel_type: non_fossil - energy_carrier: biogas - scope:
+      scope3 - Emissionsfaktor (inkl. Äquivalente und Vorkette) Biogas für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biogas - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) Biogas für Wärmeerzeugungsanlagen<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U25b - inventory_method: bisko - ghg: co2e - sector:
+      electricity - energy_process: electricity_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) feste Biomasse für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) feste Biomasse für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25c - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) flüssige Biomasse für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) flüssige Biomasse für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: environmental_heat - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) Geothermie für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25j - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: electricity - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige erneuerbare Energieträger für Stromerzeugungsanlage<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25i - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: other_renewables - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige erneuerbare Energieträger für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25l - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      fossil - energy_carrier: electricity - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige konventionelle Energieträger für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25k - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: fossil
+      - energy_carrier: other_conventional - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige konventionelle Energieträger für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25h - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: environmental_heat - scope: scope3 - Emissionsfaktor
+      (inkl. Äquivalente und Vorkette) Stromerzeugungsanlage mit Geothermie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U5 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: mixed - energy_carrier:
+      other_conventional - scope: scope1 - Emissionsfaktor Abfall für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: non_fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 1 (überwiegend erneuerbare Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 1 (überwiegend konventionelle Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: non_fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 2 (überwiegend erneuerbare Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 2 (überwiegend konventionelle Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U6 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: biogas - scope: scope1 - Emissionsfaktor Biogas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U7 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope1 - Emissionsfaktor Biomasse für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U24 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: biomass - scope: scope2 - Emissionsfaktor Biomasse
+      zur Stromerzeugung<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      U3 - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      power_plants - fuel_type: fossil - energy_carrier: brown_coal - scope: scope1
+      - Emissionsfaktor Braunkohle für Kraftwerke<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U1 - inventory_method: bisko - ghg: co2e - sector:
+      electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      natural_gas - scope: scope1 - Emissionsfaktor Erdgas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U8 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      natural_gas - scope: scope1 - Emissionsfaktor Flüssiggas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U4 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      heating_oil - scope: scope1 - Emissionsfaktor Heizöl für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - energy_carrier:
+      natural_gas - scope: scope2 - Emissionsfaktor Klär-, Deponie-, Grubengas zur
+      Stromerzeugung<br/>emission_factor - File type: Eingabefeld - BISKO code: U21
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      electricity_generation - fuel_type: non_fossil - energy_carrier: electricity
+      - scope: scope2 - Emissionsfaktor Photovoltaik zur Stromerzeugung<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U10 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: other_renewables - scope: scope1 - Emissionsfaktor sonstige
+      erneuerbare Energieträger für Kraftwerke<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U9 - inventory_method: bisko - ghg: co2e - sector: electricity
+      - energy_process: power_plants - fuel_type: fossil - energy_carrier: other_conventional
+      - scope: scope1 - Emissionsfaktor sonstige konventionelle Energieträger für
+      Kraftwerke<br/>emission_factor - File type: Eingabefeld - BISKO code: U2 - inventory_method:
+      bisko - ghg: co2e - sector: electricity - energy_process: power_plants - fuel_type:
+      fossil - energy_carrier: hard_coal - scope: scope1 - Emissionsfaktor Steinkohle
+      für Kraftwerke<br/>emission_factor - File type: Eingabefeld - BISKO code: U23
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      electricity_generation - fuel_type: non_fossil - energy_carrier: electricity
+      - scope: scope2 - Emissionsfaktor Wasserkraft zur Stromerzeugung<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U22 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: electricity - scope: scope2 - Emissionsfaktor Windkraft
+      zur Stromerzeugung<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      U25a - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      electricity_generation - fuel_type: non_fossil - energy_carrier: biogas - scope:
+      scope3 - Emissionsfaktor (inkl. Äquivalente und Vorkette) Biogas für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biogas - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) Biogas für Wärmeerzeugungsanlagen<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U25b - inventory_method: bisko - ghg: co2e - sector:
+      electricity - energy_process: electricity_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) feste Biomasse für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) feste Biomasse für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25c - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) flüssige Biomasse für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope3 - Emissionsfaktor (inkl. Äquivalente
+      und Vorkette) flüssige Biomasse für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: environmental_heat - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) Geothermie für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25j - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: electricity - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige erneuerbare Energieträger für Stromerzeugungsanlage<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25i - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: non_fossil
+      - energy_carrier: other_renewables - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige erneuerbare Energieträger für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25l - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      fossil - energy_carrier: electricity - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige konventionelle Energieträger für Stromerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25k - inventory_method: bisko - ghg:
+      co2e - sector: buildings - energy_process: heat_generation - fuel_type: fossil
+      - energy_carrier: other_conventional - scope: scope3 - Emissionsfaktor (inkl.
+      Äquivalente und Vorkette) sonstige konventionelle Energieträger für Wärmeerzeugungsanlagen<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25h - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: environmental_heat - scope: scope3 - Emissionsfaktor
+      (inkl. Äquivalente und Vorkette) Stromerzeugungsanlage mit Geothermie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U5 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: mixed - energy_carrier:
+      other_conventional - scope: scope1 - Emissionsfaktor Abfall für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: non_fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 1 (überwiegend erneuerbare Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 1 (überwiegend konventionelle Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: non_fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 2 (überwiegend erneuerbare Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U40e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - fuel_type: fossil - energy_carrier: district_heating
+      - Emissionsfaktor Abwärme 2 (überwiegend konventionelle Energieträger)<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U6 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: biogas - scope: scope1 - Emissionsfaktor Biogas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U7 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: biomass - scope: scope1 - Emissionsfaktor Biomasse für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U24 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: biomass - scope: scope2 - Emissionsfaktor Biomasse
+      zur Stromerzeugung<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      U3 - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      power_plants - fuel_type: fossil - energy_carrier: brown_coal - scope: scope1
+      - Emissionsfaktor Braunkohle für Kraftwerke<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U1 - inventory_method: bisko - ghg: co2e - sector:
+      electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      natural_gas - scope: scope1 - Emissionsfaktor Erdgas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U8 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      natural_gas - scope: scope1 - Emissionsfaktor Flüssiggas für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U4 - inventory_method: bisko - ghg: co2e
+      - sector: electricity - energy_process: power_plants - fuel_type: fossil - energy_carrier:
+      heating_oil - scope: scope1 - Emissionsfaktor Heizöl für Kraftwerke<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U25 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - energy_carrier:
+      natural_gas - scope: scope2 - Emissionsfaktor Klär-, Deponie-, Grubengas zur
+      Stromerzeugung<br/>emission_factor - File type: Eingabefeld - BISKO code: U21
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      electricity_generation - fuel_type: non_fossil - energy_carrier: electricity
+      - scope: scope2 - Emissionsfaktor Photovoltaik zur Stromerzeugung<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U10 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: power_plants - fuel_type: non_fossil
+      - energy_carrier: other_renewables - scope: scope1 - Emissionsfaktor sonstige
+      erneuerbare Energieträger für Kraftwerke<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U9 - inventory_method: bisko - ghg: co2e - sector: electricity
+      - energy_process: power_plants - fuel_type: fossil - energy_carrier: other_conventional
+      - scope: scope1 - Emissionsfaktor sonstige konventionelle Energieträger für
+      Kraftwerke<br/>emission_factor - File type: Eingabefeld - BISKO code: U2 - inventory_method:
+      bisko - ghg: co2e - sector: electricity - energy_process: power_plants - fuel_type:
+      fossil - energy_carrier: hard_coal - scope: scope1 - Emissionsfaktor Steinkohle
+      für Kraftwerke<br/>emission_factor - File type: Eingabefeld - BISKO code: U23
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_process:
+      electricity_generation - fuel_type: non_fossil - energy_carrier: electricity
+      - scope: scope2 - Emissionsfaktor Wasserkraft zur Stromerzeugung<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U22 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_process: electricity_generation - fuel_type:
+      non_fossil - energy_carrier: electricity - scope: scope2 - Emissionsfaktor Windkraft
+      zur Stromerzeugung'
+  metrics:
+  - id: emission_factor
+    quantity: emission_factor
+    label:
+      de: emission_factor
+  updated_at: '1750225940'
+  units:
+    emission_factor: t/MWh
