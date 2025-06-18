@@ -1,0 +1,415 @@
+outs:
+- md5: f6707b2a7bb92e6d0b0d75a1a225f9ff
+  size: 87879
+  hash: md5
+  path: emissionsfaktoren_fr_die_industrie.parquet
+meta:
+  name:
+    de: Emissionsfaktoren für die Industrie
+  identifier: emissionsfaktoren_fr_die_industrie
+  description:
+    de: 'emission_factor - File type: Eingabefeld - BISKO code: U40c - inventory_method:
+      bisko - ghg: co2e - sector: industry - fuel_type: non_fossil - energy_carrier:
+      biogas - Emissionsfaktor Biogas für Industrie<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U35a - inventory_method: bisko - ghg: co2e - sector:
+      industry - fuel_type: non_fossil - energy_carrier: biomass - Emissionsfaktor
+      Biomasse für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U33a - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type:
+      fossil - energy_carrier: brown_coal - Emissionsfaktor Braunkohle für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U28a - inventory_method: bisko - ghg:
+      co2e - sector: industry - fuel_type: fossil - energy_carrier: natural_gas -
+      Emissionsfaktor Erdgas für Industrie<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U29b - inventory_method: bisko - ghg: co2e - sector: buildings
+      - Emissionsfaktor Fernwärme für Industrie<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U29 - inventory_method: bisko - ghg: co2e - sector: buildings
+      - Emissionsfaktor Fernwärme<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U27 - inventory_method: bisko - ghg: co2e - sector: electricity - energy_carrier:
+      electricity - Emissionsfaktor Heizstrom<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U30a - inventory_method: bisko - ghg: co2e - sector: industry
+      - fuel_type: fossil - energy_carrier: heating_oil - Emissionsfaktor Heizöl für
+      Industrie<br/>emission_factor - File type: Eingabefeld - BISKO code: U40h -
+      inventory_method: bisko - ghg: co2e - sector: buildings - Emissionsfaktor Nahwärme
+      für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO code: U40a
+      - inventory_method: bisko - ghg: co2e - sector: buildings - Emissionsfaktor
+      Nahwärme<br/>emission_factor - File type: Eingabefeld - BISKO code: U37a - inventory_method:
+      bisko - ghg: co2e - sector: industry - fuel_type: non_fossil - energy_carrier:
+      other_renewables - Emissionsfaktor sonstige erneuerbare Energieträger für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U37 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - fuel_type: non_fossil - energy_carrier: other_renewables
+      - Emissionsfaktor sonstige erneuerbare Energieträger<br/>emission_factor - File
+      type: Eingabefeld - BISKO code: U38a - inventory_method: bisko - ghg: co2e -
+      sector: industry - fuel_type: fossil - energy_carrier: other_conventional -
+      Emissionsfaktor sonstige konventionelle Energieträger für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U38 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - fuel_type: fossil - energy_carrier: other_conventional
+      - Emissionsfaktor sonstige konventionelle Energieträger<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U32a - inventory_method: bisko - ghg:
+      co2e - sector: industry - fuel_type: fossil - energy_carrier: hard_coal - Emissionsfaktor
+      Steinkohle für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U26 - inventory_method: bisko - ghg: co2e - sector: electricity - energy_carrier:
+      electricity - Emissionsfaktor Strom<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U36 - inventory_method: bisko - ghg: co2e - sector: buildings
+      - Emissionsfaktor Umweltwärme<br/>emission_factor - File type: Eingabefeld -
+      BISKO code: U29bc - inventory_method: bisko - ghg: co2e - sector: buildings
+      - lokaler Emissionsfaktor für Fernwärmenetz 1 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29c - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 1<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bd - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 2 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 2<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29be - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 3 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 3<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bf - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 4 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 4<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bg - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 5 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 5<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U27a - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_carrier: electricity - lokaler Emissionsfaktor
+      für Heizstrom<br/>emission_factor - File type: Eingabefeld - BISKO code: U26a
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_carrier:
+      electricity - lokaler Emissionsfaktor für Strom<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U40c - inventory_method: bisko - ghg: co2e - sector:
+      industry - fuel_type: non_fossil - energy_carrier: biogas - Emissionsfaktor
+      Biogas für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      U35a - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type: non_fossil
+      - energy_carrier: biomass - Emissionsfaktor Biomasse für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U33a - inventory_method: bisko - ghg:
+      co2e - sector: industry - fuel_type: fossil - energy_carrier: brown_coal - Emissionsfaktor
+      Braunkohle für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U28a - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type:
+      fossil - energy_carrier: natural_gas - Emissionsfaktor Erdgas für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29b - inventory_method: bisko - ghg:
+      co2e - sector: buildings - Emissionsfaktor Fernwärme für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29 - inventory_method: bisko - ghg:
+      co2e - sector: buildings - Emissionsfaktor Fernwärme<br/>emission_factor - File
+      type: Eingabefeld - BISKO code: U27 - inventory_method: bisko - ghg: co2e -
+      sector: electricity - energy_carrier: electricity - Emissionsfaktor Heizstrom<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U30a - inventory_method: bisko - ghg:
+      co2e - sector: industry - fuel_type: fossil - energy_carrier: heating_oil -
+      Emissionsfaktor Heizöl für Industrie<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U40h - inventory_method: bisko - ghg: co2e - sector: buildings
+      - Emissionsfaktor Nahwärme für Industrie<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U40a - inventory_method: bisko - ghg: co2e - sector: buildings
+      - Emissionsfaktor Nahwärme<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U37a - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type:
+      non_fossil - energy_carrier: other_renewables - Emissionsfaktor sonstige erneuerbare
+      Energieträger für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U37 - inventory_method: bisko - ghg: co2e - sector: electricity - fuel_type:
+      non_fossil - energy_carrier: other_renewables - Emissionsfaktor sonstige erneuerbare
+      Energieträger<br/>emission_factor - File type: Eingabefeld - BISKO code: U38a
+      - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type: fossil
+      - energy_carrier: other_conventional - Emissionsfaktor sonstige konventionelle
+      Energieträger für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U38 - inventory_method: bisko - ghg: co2e - sector: electricity - fuel_type:
+      fossil - energy_carrier: other_conventional - Emissionsfaktor sonstige konventionelle
+      Energieträger<br/>emission_factor - File type: Eingabefeld - BISKO code: U32a
+      - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type: fossil
+      - energy_carrier: hard_coal - Emissionsfaktor Steinkohle für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U26 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_carrier: electricity - Emissionsfaktor Strom<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U36 - inventory_method: bisko - ghg:
+      co2e - sector: buildings - Emissionsfaktor Umweltwärme<br/>emission_factor -
+      File type: Eingabefeld - BISKO code: U29bc - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 1 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29c - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 1<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bd - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 2 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 2<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29be - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 3 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 3<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bf - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 4 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 4<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bg - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 5 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 5<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U27a - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_carrier: electricity - lokaler Emissionsfaktor
+      für Heizstrom<br/>emission_factor - File type: Eingabefeld - BISKO code: U26a
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_carrier:
+      electricity - lokaler Emissionsfaktor für Strom<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U40c - inventory_method: bisko - ghg: co2e - sector:
+      industry - fuel_type: non_fossil - energy_carrier: biogas - Emissionsfaktor
+      Biogas für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      U35a - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type: non_fossil
+      - energy_carrier: biomass - Emissionsfaktor Biomasse für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U33a - inventory_method: bisko - ghg:
+      co2e - sector: industry - fuel_type: fossil - energy_carrier: brown_coal - Emissionsfaktor
+      Braunkohle für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U28a - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type:
+      fossil - energy_carrier: natural_gas - Emissionsfaktor Erdgas für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29b - inventory_method: bisko - ghg:
+      co2e - sector: buildings - Emissionsfaktor Fernwärme für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29 - inventory_method: bisko - ghg:
+      co2e - sector: buildings - Emissionsfaktor Fernwärme<br/>emission_factor - File
+      type: Eingabefeld - BISKO code: U27 - inventory_method: bisko - ghg: co2e -
+      sector: electricity - energy_carrier: electricity - Emissionsfaktor Heizstrom<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U30a - inventory_method: bisko - ghg:
+      co2e - sector: industry - fuel_type: fossil - energy_carrier: heating_oil -
+      Emissionsfaktor Heizöl für Industrie<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U40h - inventory_method: bisko - ghg: co2e - sector: buildings
+      - Emissionsfaktor Nahwärme für Industrie<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U40a - inventory_method: bisko - ghg: co2e - sector: buildings
+      - Emissionsfaktor Nahwärme<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U37a - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type:
+      non_fossil - energy_carrier: other_renewables - Emissionsfaktor sonstige erneuerbare
+      Energieträger für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U37 - inventory_method: bisko - ghg: co2e - sector: electricity - fuel_type:
+      non_fossil - energy_carrier: other_renewables - Emissionsfaktor sonstige erneuerbare
+      Energieträger<br/>emission_factor - File type: Eingabefeld - BISKO code: U38a
+      - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type: fossil
+      - energy_carrier: other_conventional - Emissionsfaktor sonstige konventionelle
+      Energieträger für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U38 - inventory_method: bisko - ghg: co2e - sector: electricity - fuel_type:
+      fossil - energy_carrier: other_conventional - Emissionsfaktor sonstige konventionelle
+      Energieträger<br/>emission_factor - File type: Eingabefeld - BISKO code: U32a
+      - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type: fossil
+      - energy_carrier: hard_coal - Emissionsfaktor Steinkohle für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U26 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_carrier: electricity - Emissionsfaktor Strom<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U36 - inventory_method: bisko - ghg:
+      co2e - sector: buildings - Emissionsfaktor Umweltwärme<br/>emission_factor -
+      File type: Eingabefeld - BISKO code: U29bc - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 1 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29c - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 1<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bd - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 2 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 2<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29be - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 3 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 3<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bf - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 4 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 4<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bg - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 5 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 5<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U27a - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_carrier: electricity - lokaler Emissionsfaktor
+      für Heizstrom<br/>emission_factor - File type: Eingabefeld - BISKO code: U26a
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_carrier:
+      electricity - lokaler Emissionsfaktor für Strom<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U40c - inventory_method: bisko - ghg: co2e - sector:
+      industry - fuel_type: non_fossil - energy_carrier: biogas - Emissionsfaktor
+      Biogas für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      U35a - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type: non_fossil
+      - energy_carrier: biomass - Emissionsfaktor Biomasse für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U33a - inventory_method: bisko - ghg:
+      co2e - sector: industry - fuel_type: fossil - energy_carrier: brown_coal - Emissionsfaktor
+      Braunkohle für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U28a - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type:
+      fossil - energy_carrier: natural_gas - Emissionsfaktor Erdgas für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29b - inventory_method: bisko - ghg:
+      co2e - sector: buildings - Emissionsfaktor Fernwärme für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29 - inventory_method: bisko - ghg:
+      co2e - sector: buildings - Emissionsfaktor Fernwärme<br/>emission_factor - File
+      type: Eingabefeld - BISKO code: U27 - inventory_method: bisko - ghg: co2e -
+      sector: electricity - energy_carrier: electricity - Emissionsfaktor Heizstrom<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U30a - inventory_method: bisko - ghg:
+      co2e - sector: industry - fuel_type: fossil - energy_carrier: heating_oil -
+      Emissionsfaktor Heizöl für Industrie<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U40h - inventory_method: bisko - ghg: co2e - sector: buildings
+      - Emissionsfaktor Nahwärme für Industrie<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U40a - inventory_method: bisko - ghg: co2e - sector: buildings
+      - Emissionsfaktor Nahwärme<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U37a - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type:
+      non_fossil - energy_carrier: other_renewables - Emissionsfaktor sonstige erneuerbare
+      Energieträger für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U37 - inventory_method: bisko - ghg: co2e - sector: electricity - fuel_type:
+      non_fossil - energy_carrier: other_renewables - Emissionsfaktor sonstige erneuerbare
+      Energieträger<br/>emission_factor - File type: Eingabefeld - BISKO code: U38a
+      - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type: fossil
+      - energy_carrier: other_conventional - Emissionsfaktor sonstige konventionelle
+      Energieträger für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U38 - inventory_method: bisko - ghg: co2e - sector: electricity - fuel_type:
+      fossil - energy_carrier: other_conventional - Emissionsfaktor sonstige konventionelle
+      Energieträger<br/>emission_factor - File type: Eingabefeld - BISKO code: U32a
+      - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type: fossil
+      - energy_carrier: hard_coal - Emissionsfaktor Steinkohle für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U26 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_carrier: electricity - Emissionsfaktor Strom<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U36 - inventory_method: bisko - ghg:
+      co2e - sector: buildings - Emissionsfaktor Umweltwärme<br/>emission_factor -
+      File type: Eingabefeld - BISKO code: U29bc - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 1 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29c - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 1<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bd - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 2 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 2<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29be - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 3 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 3<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bf - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 4 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 4<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bg - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 5 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 5<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U27a - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_carrier: electricity - lokaler Emissionsfaktor
+      für Heizstrom<br/>emission_factor - File type: Eingabefeld - BISKO code: U26a
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_carrier:
+      electricity - lokaler Emissionsfaktor für Strom<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U40c - inventory_method: bisko - ghg: co2e - sector:
+      industry - fuel_type: non_fossil - energy_carrier: biogas - Emissionsfaktor
+      Biogas für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      U35a - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type: non_fossil
+      - energy_carrier: biomass - Emissionsfaktor Biomasse für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U33a - inventory_method: bisko - ghg:
+      co2e - sector: industry - fuel_type: fossil - energy_carrier: brown_coal - Emissionsfaktor
+      Braunkohle für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U28a - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type:
+      fossil - energy_carrier: natural_gas - Emissionsfaktor Erdgas für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29b - inventory_method: bisko - ghg:
+      co2e - sector: buildings - Emissionsfaktor Fernwärme für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29 - inventory_method: bisko - ghg:
+      co2e - sector: buildings - Emissionsfaktor Fernwärme<br/>emission_factor - File
+      type: Eingabefeld - BISKO code: U27 - inventory_method: bisko - ghg: co2e -
+      sector: electricity - energy_carrier: electricity - Emissionsfaktor Heizstrom<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U30a - inventory_method: bisko - ghg:
+      co2e - sector: industry - fuel_type: fossil - energy_carrier: heating_oil -
+      Emissionsfaktor Heizöl für Industrie<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U40h - inventory_method: bisko - ghg: co2e - sector: buildings
+      - Emissionsfaktor Nahwärme für Industrie<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U40a - inventory_method: bisko - ghg: co2e - sector: buildings
+      - Emissionsfaktor Nahwärme<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U37a - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type:
+      non_fossil - energy_carrier: other_renewables - Emissionsfaktor sonstige erneuerbare
+      Energieträger für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U37 - inventory_method: bisko - ghg: co2e - sector: electricity - fuel_type:
+      non_fossil - energy_carrier: other_renewables - Emissionsfaktor sonstige erneuerbare
+      Energieträger<br/>emission_factor - File type: Eingabefeld - BISKO code: U38a
+      - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type: fossil
+      - energy_carrier: other_conventional - Emissionsfaktor sonstige konventionelle
+      Energieträger für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U38 - inventory_method: bisko - ghg: co2e - sector: electricity - fuel_type:
+      fossil - energy_carrier: other_conventional - Emissionsfaktor sonstige konventionelle
+      Energieträger<br/>emission_factor - File type: Eingabefeld - BISKO code: U32a
+      - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type: fossil
+      - energy_carrier: hard_coal - Emissionsfaktor Steinkohle für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U26 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_carrier: electricity - Emissionsfaktor Strom<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U36 - inventory_method: bisko - ghg:
+      co2e - sector: buildings - Emissionsfaktor Umweltwärme<br/>emission_factor -
+      File type: Eingabefeld - BISKO code: U29bc - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 1 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29c - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 1<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bd - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 2 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 2<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29be - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 3 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 3<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bf - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 4 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 4<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bg - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 5 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 5<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U27a - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_carrier: electricity - lokaler Emissionsfaktor
+      für Heizstrom<br/>emission_factor - File type: Eingabefeld - BISKO code: U26a
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_carrier:
+      electricity - lokaler Emissionsfaktor für Strom<br/>emission_factor - File type:
+      Eingabefeld - BISKO code: U40c - inventory_method: bisko - ghg: co2e - sector:
+      industry - fuel_type: non_fossil - energy_carrier: biogas - Emissionsfaktor
+      Biogas für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO code:
+      U35a - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type: non_fossil
+      - energy_carrier: biomass - Emissionsfaktor Biomasse für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U33a - inventory_method: bisko - ghg:
+      co2e - sector: industry - fuel_type: fossil - energy_carrier: brown_coal - Emissionsfaktor
+      Braunkohle für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U28a - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type:
+      fossil - energy_carrier: natural_gas - Emissionsfaktor Erdgas für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29b - inventory_method: bisko - ghg:
+      co2e - sector: buildings - Emissionsfaktor Fernwärme für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29 - inventory_method: bisko - ghg:
+      co2e - sector: buildings - Emissionsfaktor Fernwärme<br/>emission_factor - File
+      type: Eingabefeld - BISKO code: U27 - inventory_method: bisko - ghg: co2e -
+      sector: electricity - energy_carrier: electricity - Emissionsfaktor Heizstrom<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U30a - inventory_method: bisko - ghg:
+      co2e - sector: industry - fuel_type: fossil - energy_carrier: heating_oil -
+      Emissionsfaktor Heizöl für Industrie<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U40h - inventory_method: bisko - ghg: co2e - sector: buildings
+      - Emissionsfaktor Nahwärme für Industrie<br/>emission_factor - File type: Eingabefeld
+      - BISKO code: U40a - inventory_method: bisko - ghg: co2e - sector: buildings
+      - Emissionsfaktor Nahwärme<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U37a - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type:
+      non_fossil - energy_carrier: other_renewables - Emissionsfaktor sonstige erneuerbare
+      Energieträger für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U37 - inventory_method: bisko - ghg: co2e - sector: electricity - fuel_type:
+      non_fossil - energy_carrier: other_renewables - Emissionsfaktor sonstige erneuerbare
+      Energieträger<br/>emission_factor - File type: Eingabefeld - BISKO code: U38a
+      - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type: fossil
+      - energy_carrier: other_conventional - Emissionsfaktor sonstige konventionelle
+      Energieträger für Industrie<br/>emission_factor - File type: Eingabefeld - BISKO
+      code: U38 - inventory_method: bisko - ghg: co2e - sector: electricity - fuel_type:
+      fossil - energy_carrier: other_conventional - Emissionsfaktor sonstige konventionelle
+      Energieträger<br/>emission_factor - File type: Eingabefeld - BISKO code: U32a
+      - inventory_method: bisko - ghg: co2e - sector: industry - fuel_type: fossil
+      - energy_carrier: hard_coal - Emissionsfaktor Steinkohle für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U26 - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_carrier: electricity - Emissionsfaktor Strom<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U36 - inventory_method: bisko - ghg:
+      co2e - sector: buildings - Emissionsfaktor Umweltwärme<br/>emission_factor -
+      File type: Eingabefeld - BISKO code: U29bc - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 1 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29c - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 1<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bd - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 2 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29d - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 2<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29be - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 3 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29e - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 3<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bf - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 4 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29f - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 4<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29bg - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 5 für Industrie<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U29g - inventory_method: bisko - ghg:
+      co2e - sector: buildings - lokaler Emissionsfaktor für Fernwärmenetz 5<br/>emission_factor
+      - File type: Eingabefeld - BISKO code: U27a - inventory_method: bisko - ghg:
+      co2e - sector: electricity - energy_carrier: electricity - lokaler Emissionsfaktor
+      für Heizstrom<br/>emission_factor - File type: Eingabefeld - BISKO code: U26a
+      - inventory_method: bisko - ghg: co2e - sector: electricity - energy_carrier:
+      electricity - lokaler Emissionsfaktor für Strom'
+  metrics:
+  - id: emission_factor
+    quantity: emission_factor
+    label:
+      de: emission_factor
+  updated_at: '1750225935'
+  units:
+    emission_factor: t/MWh
