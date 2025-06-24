@@ -1,0 +1,15 @@
+outs:
+- md5: 7dae746e4c9c7b764ed2b7c28989bcf3
+  size: 3592
+  hash: md5
+  path: waste.parquet
+meta:
+  name:
+    en: Waste
+  identifier: waste
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: kt_co2e/a
