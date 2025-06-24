@@ -1,0 +1,15 @@
+outs:
+- md5: 05b863113579ecdaa7560e16e1ff74be
+  size: 4965
+  hash: md5
+  path: transportation.parquet
+meta:
+  name:
+    en: Transportation
+  identifier: transportation
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: kt_co2e/a
