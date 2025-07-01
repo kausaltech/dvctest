@@ -1,0 +1,20 @@
+outs:
+- md5: 4c56a25332b8466e77bfa3ccdda09d7f
+  size: 4117
+  hash: md5
+  path: lammityssahkon_lisakerroin.parquet
+meta:
+  name:
+    fi: Lämmityssähkön lisäkerroin
+  identifier: lammityssahkon_lisakerroin
+  description:
+    fi: 'lammityssahkon_lisakerroin - Energy carrier: electricity - Tämän verran suurempi
+      on lämmityssähkön päästökerroin verrattuna kulutussähköön'
+  metrics:
+  - id: lammityssahkon_lisakerroin
+    quantity: ratio
+    label:
+      fi: lammityssahkon_lisakerroin
+  updated_at: '1751370117'
+  units:
+    lammityssahkon_lisakerroin: '%'
