@@ -4,8 +4,7 @@ outs:
   hash: md5
   path: pks_khk_paastot.parquet
 meta:
-  name:
-    fi: ''
-  identifier: ''
   updated_at: '1751378665'
-  units: {}
+  units:
+    Päästöt: gigagram / year
+    Energiankulutus: gigawatt_hour / year
