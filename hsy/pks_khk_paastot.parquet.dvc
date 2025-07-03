@@ -1,13 +1,13 @@
 outs:
-- md5: f9e5331dae85d752d0f8b5cef797a8e9
-  size: 106275
+- md5: 64cc842c58ffc56a9aee2a9b98cf6369
+  size: 65706
   hash: md5
   path: pks_khk_paastot.parquet
 meta:
   name:
     fi: ''
   identifier: ''
-  updated_at: '1751567552'
+  updated_at: '1751571898'
   units:
     Päästöt: kt/a
     Energiankulutus: GWh/a
