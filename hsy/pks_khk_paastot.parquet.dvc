@@ -1,10 +1,11 @@
 outs:
-- md5: 66c79f696c0843f169e5abee0745a492
-  size: 65695
+- md5: 93ac1ae75f17a87c271ea105822ddd97
+  size: 90539
   hash: md5
   path: pks_khk_paastot.parquet
 meta:
-  updated_at: '1751378665'
-  units:
-    Päästöt: gigagram / year
-    Energiankulutus: gigawatt_hour / year
+  name:
+    fi: ''
+  identifier: ''
+  updated_at: '1751558079'
+  units: {}
