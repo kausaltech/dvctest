@@ -1,11 +1,51 @@
 outs:
-- md5: b58a48977ea9b10443e8a0e8918132cc
-  size: 5974
+- md5: c96251fea0c961c3f35212000ec66bb8
+  size: 10291
   hash: md5
   path: liikenteen_toimenpiteet.parquet
 meta:
   name:
     fi: Liikenteen toimenpiteet
   identifier: liikenteen_toimenpiteet
-  updated_at: '1751766007'
-  units: {}
+  description:
+    fi: yhdistetyt_kuljetukset - Tieliikenteen päästökaupan arvioidaan vähentävän
+      tieliikenteen päästöjä 0,2 % (Sitowise)<br/>tieliikenteen_paastokauppa - Tieliikenteen
+      päästökaupan arvioidaan vähentävän tieliikenteen päästöjä 4,5 % (Sitowise)<br/>etatyon_lisaaminen
+      - Tieliikenteen päästökaupan arvioidaan vähentävän tieliikenteen päästöjä 0,9
+      % (Sitowise)<br/>liikennejarjestelman_tehostaminen - Tieliikenteen päästökaupan
+      arvioidaan vähentävän tieliikenteen päästöjä 2.8 % (Sitowise)<br/>henkilo_ja_pakettiautojen_sitovat_paastorajat
+      - Tieliikenteen päästökaupan arvioidaan vähentävän tieliikenteen päästöjä 0.7
+      % (Sitowise)
+  metrics:
+  - id: yhdistetyt_kuljetukset
+    quantity: fraction
+    label:
+      fi: yhdistetyt_kuljetukset
+  - id: liikenteen_fossiilisten_polttoaineiden_korvaaminen
+    quantity: fraction
+    label:
+      fi: liikenteen_fossiilisten_polttoaineiden_korvaaminen
+  - id: tieliikenteen_paastokauppa
+    quantity: fraction
+    label:
+      fi: tieliikenteen_paastokauppa
+  - id: etatyon_lisaaminen
+    quantity: fraction
+    label:
+      fi: etatyon_lisaaminen
+  - id: henkilo_ja_pakettiautojen_sitovat_paastorajat
+    quantity: fraction
+    label:
+      fi: henkilo_ja_pakettiautojen_sitovat_paastorajat
+  - id: liikennejarjestelman_tehostaminen
+    quantity: fraction
+    label:
+      fi: liikennejarjestelman_tehostaminen
+  updated_at: '1751766064'
+  units:
+    liikenteen_fossiilisten_polttoaineiden_korvaaminen: '%'
+    etatyon_lisaaminen: '%'
+    yhdistetyt_kuljetukset: '%'
+    henkilo_ja_pakettiautojen_sitovat_paastorajat: '%'
+    liikennejarjestelman_tehostaminen: '%'
+    tieliikenteen_paastokauppa: '%'
