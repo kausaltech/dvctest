@@ -1,0 +1,11 @@
+outs:
+- md5: b58a48977ea9b10443e8a0e8918132cc
+  size: 5974
+  hash: md5
+  path: liikenteen_toimenpiteet.parquet
+meta:
+  name:
+    fi: Liikenteen toimenpiteet
+  identifier: liikenteen_toimenpiteet
+  updated_at: '1751766007'
+  units: {}
