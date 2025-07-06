@@ -1,6 +1,6 @@
 outs:
-- md5: cf4099f7a7a7a2fcc81ecb0c5ca22753
-  size: 7322
+- md5: 07180139bdb0e32de99d0eadd06750a5
+  size: 6151
   hash: md5
   path: autokanta.parquet
 meta:
@@ -8,6 +8,10 @@ meta:
     fi: Autokanta
   identifier: autokanta
   metrics:
+  - id: ajoneuvojen_paastokertoimet
+    quantity: emission_factor
+    label:
+      fi: ajoneuvojen_paastokertoimet
   - id: ajoneuvosuorite
     quantity: mileage
     label:
@@ -16,17 +20,8 @@ meta:
     quantity: amount
     label:
       fi: liikennekaytossa_olevien_autojen_lukumaara
-  - id: ajoneuvojen_paastokertoimet
-    quantity: emission_factor
-    label:
-      fi: ajoneuvojen_paastokertoimet
-  - id: helsingin_seudun_autokantamuutoksen_ero
-    quantity: ratio
-    label:
-      fi: helsingin_seudun_autokantamuutoksen_ero
-  updated_at: '1751689866'
+  updated_at: '1751766742'
   units:
-    helsingin_seudun_autokantamuutoksen_ero: '%'
-    liikennekaytossa_olevien_autojen_lukumaara: pcs
     ajoneuvojen_paastokertoimet: g/vkm
+    liikennekaytossa_olevien_autojen_lukumaara: pcs
     ajoneuvosuorite: vkm/a
