@@ -1,6 +1,6 @@
 outs:
-- md5: 08643454fcc5abde447937d2253fa644
-  size: 2523
+- md5: 20aa81d92d4ebaebbfeb301ceea22475
+  size: 2521
   hash: md5
   path: gpd_distance_miles.parquet
 meta:
@@ -12,6 +12,6 @@ meta:
     quantity: mileage
     label:
       en: mileage
-  updated_at: '1751906621'
+  updated_at: '1751909472'
   units:
-    mileage: VMT/gal
+    mileage: VMT/a
