@@ -1,5 +1,5 @@
 outs:
-- md5: 82cb39f01c7a0a6b3c4136ca9e763223
+- md5: ccb1cc6631a19381653f25dd75b9e11c
   size: 10015
   hash: md5
   path: transportation_emission_factors.parquet
@@ -35,7 +35,7 @@ meta:
     quantity: emission_factor
     label:
       en: emission_factor
-  updated_at: '1751906391'
+  updated_at: '1751906627'
   units:
-    fuel_emission_factor: g/gal
     emission_factor: g/VMT
+    fuel_emission_factor: g/gal
