@@ -1,0 +1,38 @@
+outs:
+- md5: 22e3331aed6dc954475632b0aa733422
+  size: 7578
+  hash: md5
+  path: vehicle_energy_efficiency.parquet
+meta:
+  name:
+    en: Vehicle energy efficiency
+  identifier: vehicle_energy_efficiency
+  description:
+    en: 'mpg - Vehicle type: Car - Energy carrier: Gasoline - Gas cars<br/>mpg - Vehicle
+      type: Light Duty Truck - Energy carrier: Gasoline - Gas light trucks<br/>mpg
+      - Vehicle type: Car - Energy carrier: Diesel - Diesel cars<br/>mpg - Vehicle
+      type: Light Duty Truck - Energy carrier: Diesel - Diesel light trucks<br/>mpg
+      - Vehicle type: Heavy Duty Truck - Energy carrier: Diesel - Diesel heavy duty
+      trucks/bus<br/>mpg - Vehicle type: Heavy Duty Truck - Energy carrier: Gasoline
+      - Gas heavy duty truck<br/>mpg - Energy carrier: Diesel - Diesel single unit
+      trucks<br/>mpg - Energy carrier: Diesel - Diesel bus (paratransit)<br/>mpg -
+      Vehicle type: Motorcycle - Energy carrier: Gasoline - Gas motorcycle<br/>mpg
+      - Vehicle type: Heavy Duty Truck - Energy carrier: CNG - CNG Heavy Truck (note:
+      unit is mi/DGE)<br/>mpg - Vehicle type: Light Duty Truck - Energy carrier: Electric
+      light duty vehicle (MPGe) - Electric light duty vehicle (MPGe)<br/>mpg - Vehicle
+      type: PHEV - Energy carrier: Electricity - Data from: https://atlaspolicy.com/evaluateco/,
+      vehicle deepdive, 2024 average vehicles on road.<br/>mpg - Vehicle type: Bus
+      - Energy carrier: Gasoline - Gas Bus'
+  metrics:
+  - id: energy_efficiency
+    quantity: energy_factor
+    label:
+      en: energy_efficiency
+  - id: mpg
+    quantity: energy_factor
+    label:
+      en: mpg
+  updated_at: '1751906610'
+  units:
+    mpg: VMT/gal
+    energy_efficiency: kWh/VMT
