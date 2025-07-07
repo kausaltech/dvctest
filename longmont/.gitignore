@@ -43,3 +43,4 @@
 /transportation_emission_factors.parquet
 /longmont_registered_vehicle_data.parquet
 /vehicle_energy_efficiency.parquet
+/gpd_distance_miles.parquet

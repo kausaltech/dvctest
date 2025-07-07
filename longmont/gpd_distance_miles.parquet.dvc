@@ -1,0 +1,17 @@
+outs:
+- md5: 08643454fcc5abde447937d2253fa644
+  size: 2523
+  hash: md5
+  path: gpd_distance_miles.parquet
+meta:
+  name:
+    en: GPD distance miles
+  identifier: gpd_distance_miles
+  metrics:
+  - id: mileage
+    quantity: mileage
+    label:
+      en: mileage
+  updated_at: '1751906621'
+  units:
+    mileage: VMT/gal
