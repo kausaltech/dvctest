@@ -1,0 +1,17 @@
+outs:
+- md5: 21e475d2c42af48c44d216f5b0d36f0a
+  size: 3890
+  hash: md5
+  path: electricity_emission_factor_for_transportation.parquet
+meta:
+  name:
+    en: Electricity emission factor for transportation
+  identifier: electricity_emission_factor_for_transportation
+  metrics:
+  - id: emission_factor
+    quantity: emission_factor
+    label:
+      en: emission_factor
+  updated_at: '1751950698'
+  units:
+    emission_factor: t/MWh
