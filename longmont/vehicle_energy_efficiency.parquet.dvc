@@ -1,5 +1,5 @@
 outs:
-- md5: 1a23cc174f9a6db183468a8b3532ce4c
+- md5: 2abaf48af9dfe720ce667d535d341ce1
   size: 7543
   hash: md5
   path: vehicle_energy_efficiency.parquet
@@ -24,15 +24,15 @@ meta:
       vehicle deepdive, 2024 average vehicles on road.<br/>mpg - Vehicle type: Bus
       - Energy carrier: Gasoline - Gas Bus'
   metrics:
-  - id: mpg
-    quantity: energy_factor
-    label:
-      en: mpg
   - id: energy_efficiency
     quantity: energy_factor
     label:
       en: energy_efficiency
-  updated_at: '1751951615'
+  - id: mpg
+    quantity: energy_factor
+    label:
+      en: mpg
+  updated_at: '1751963124'
   units:
     energy_efficiency: kWh/VMT
     mpg: VMT/gal
