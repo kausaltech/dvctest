@@ -1,0 +1,15 @@
+outs:
+- md5: f9c3dc6ded3d3115c7243a5991be4f2b
+  size: 4794
+  hash: md5
+  path: landfill_waste.parquet
+meta:
+  name:
+    en: Landfill Waste
+  identifier: landfill_waste
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t_co2e/a
