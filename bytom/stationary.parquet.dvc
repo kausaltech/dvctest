@@ -1,6 +1,6 @@
 outs:
-- md5: 60cd87746d6b69fdb541b1eda5e03f99
-  size: 14666
+- md5: 98f9c49205b88fecbae9f352499f1ad1
+  size: 14819
   hash: md5
   path: stationary.parquet
 meta:
@@ -39,13 +39,13 @@ meta:
     label:
       en: Unit Price
   units:
-    emission_factor_energy: kg/MWh
+    unit_price: PLN/kWh
     emission_factor_fuel: kg/m³
-    emissions: Mg/a
+    emission_factor_energy: kg/MWh
     energy: MWh/a
+    emissions: Mg/a
     energy_factor: kWh/count/a
     emission_factor_number: kg/count/a
-    unit_price: PLN/kWh
+    number: count
     fuel_consumption: m³/a
     currency: PLN/a
-    number: count
