@@ -1,0 +1,19 @@
+outs:
+- md5: bfad9ec07e5853bd475e7c594291497b
+  size: 5265
+  hash: md5
+  path: waste_actions.parquet
+meta:
+  name:
+    en: Waste Actions
+  identifier: waste_actions
+  metrics:
+  - id: currency
+    label:
+      en: Currency
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    currency: zł/a
+    emissions: kt_co2e/a
