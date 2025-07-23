@@ -1,6 +1,6 @@
 outs:
-- md5: 16857d9b2e24127f8b4af54493352b1b
-  size: 6832
+- md5: 274bfcf9eaba291c0a09db51abaa6855
+  size: 6845
   hash: md5
   path: stationary_actions.parquet
 meta:
@@ -15,5 +15,5 @@ meta:
     label:
       en: Emissions
   units:
-    emissions: kt/a
+    emissions: kt_co2e/a
     currency: zł/a
