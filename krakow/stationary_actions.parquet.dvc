@@ -1,0 +1,19 @@
+outs:
+- md5: 16857d9b2e24127f8b4af54493352b1b
+  size: 6832
+  hash: md5
+  path: stationary_actions.parquet
+meta:
+  name:
+    en: Stationary Actions
+  identifier: stationary_actions
+  metrics:
+  - id: currency
+    label:
+      en: Currency
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: kt/a
+    currency: zł/a
