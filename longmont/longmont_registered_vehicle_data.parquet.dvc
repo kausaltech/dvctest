@@ -1,6 +1,6 @@
 outs:
-- md5: 4d71fe38b85be74a4a2610f64405406b
-  size: 4443
+- md5: af1c4f23b309e8b59f3702d8872f308f
+  size: 4429
   hash: md5
   path: longmont_registered_vehicle_data.parquet
 meta:
@@ -12,6 +12,6 @@ meta:
     quantity: number
     label:
       en: number_of_registered_vehicles
-  updated_at: '1753620816'
+  updated_at: '1753621694'
   units:
-    number_of_registered_vehicles: pcs
+    number_of_registered_vehicles: v
