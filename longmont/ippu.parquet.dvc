@@ -1,0 +1,15 @@
+outs:
+- md5: 07ee8bb56232dd3fedc0309583ee18d1
+  size: 5263
+  hash: md5
+  path: ippu.parquet
+meta:
+  name:
+    en: IPPU
+  identifier: ippu
+  updated_at: '1753608857'
+  units:
+    estimated_refrigerant_loss: '%/a'
+    square_feet_per_ton_of_cooling: sq_ft/refrigeration_ton
+    amount_of_refrigerant: kg/refrigerant_ton
+    commercial_square_footage_air_conditioned: sq_ft
