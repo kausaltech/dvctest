@@ -1,5 +1,5 @@
 outs:
-- md5: b9e7931007abcd0c5dc5300ca7193590
+- md5: 925a48e6ed3e6f6321441a7d04244f01
   size: 7635
   hash: md5
   path: waste_data.parquet
@@ -16,6 +16,14 @@ meta:
     quantity: mass
     label:
       en: waste_composted
+  - id: waste_recycled
+    quantity: mass
+    label:
+      en: waste_recycled
+  - id: gas_collection_rate
+    quantity: fraction
+    label:
+      en: gas_collection_rate
   - id: oxidizing_factor
     quantity: fraction
     label:
@@ -24,18 +32,10 @@ meta:
     quantity: mass
     label:
       en: waste_landfilled
-  - id: gas_collection_rate
-    quantity: fraction
-    label:
-      en: gas_collection_rate
-  - id: waste_recycled
-    quantity: mass
-    label:
-      en: waste_recycled
-  updated_at: '1753608755'
+  updated_at: '1753608883'
   units:
-    waste_recycled: short_ton/a
     oxidizing_factor: dimensionless
-    waste_landfilled: short_ton/a
     gas_collection_rate: dimensionless
+    waste_recycled: short_ton/a
+    waste_landfilled: short_ton/a
     waste_composted: short_ton/a
