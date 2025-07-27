@@ -1,5 +1,5 @@
 outs:
-- md5: 2a09df3fea3d49cd76eacd27ea3a8b7d
+- md5: 07ee4f2b117e5057ade122dac074edf2
   size: 4437
   hash: md5
   path: railways_data.parquet
@@ -7,7 +7,7 @@ meta:
   name:
     en: Railways Data
   identifier: railways_data
-  updated_at: '1753608877'
+  updated_at: '1753620800'
   units:
     total_railway_ghg_emissions_boulder_county_: t/a
     proportion_of_rail_lines_in_longmont: dimensionless
