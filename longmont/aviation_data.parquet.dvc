@@ -1,11 +1,44 @@
 outs:
-- md5: 5d80384e97d9b9b93a828111e86c98da
-  size: 6907
+- md5: 79335214aa7b3965aa3f2ab19da03889
+  size: 11135
   hash: md5
   path: aviation_data.parquet
 meta:
   name:
-    en: Aviation Data
+    en: Aviation data
   identifier: aviation_data
-  updated_at: '1753629136'
-  units: {}
+  description:
+    en: "total_fuel_used - Energy carrier: Jet fuel - Scope: scope1 - Airport: Vance
+      Brand Airport - Assumption based on the parking apron data. Was unable to find
+      FAA data that distributed local and itinerant for Longmont in 2024.<br/>total_fuel_used
+      - Energy carrier: Jet fuel - Scope: scope3 - Airport: Denver International Airport
+      - Denver International Airport (DIA)  (all Scope 3): \nTotal Longmont emissions
+      = Longmont Origin / Destination Fuel Used x Emission Factor for both jet fuel
+      and aviation gasoline \nLongmont Origin /Destination Fuel Used (both jet fuel
+      and aviation gasoline) = (Total Fuel DIA fuel usage) x (1 - (Connecting Passengers
+      / Total Passengers)) x (Longmont Population / Denver Boulder Metro Area Population)
+      <br/>fuel_emission_factors - Energy carrier: Jet Fuel - Ghg: CO2 - Source: ICLEI
+      - Per guidance from ICLEI on emissions factors used in the ClearPath tool. This
+      was referencing factors from the EPA: https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf
+      (also saved in files)<br/>fuel_emission_factors - Energy carrier: Aviation gasoline
+      - Ghg: CO2 - Source: ICLEI - Per guidance from ICLEI on emissions factors used
+      in the ClearPath tool. This was referencing factors from the EPA: https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf
+      (also saved in files)<br/>fuel_emission_factors - Energy carrier: Motor Gasoline
+      - Ghg: CO2 - Source: EPA - EPA Emissions Factors: https://www.epa.gov/sites/production/files/2018-03/documents/emission-factors_mar_2018_0.pdf.
+      The \"Vehicle Type\" for CH4 and N2O emissions factors was \"Other Gasoline
+      Sources.\"  <br/>fuel_emission_factors - Energy carrier: Motor Gasoline - Ghg:
+      CH4 - Source: Climate Registry - Climate Registry Emission Factors for Airport
+      Equipment (Gasoline 4 Stroke under airport equipment): https://theclimateregistry.org/wp-content/uploads/2024/03/2024-Emission-Factor-Document_FINAL.pdf"
+  metrics:
+  - id: fuel_emission_factors
+    quantity: emission_factor
+    label:
+      en: fuel_emission_factors
+  - id: total_fuel_used
+    quantity: energy
+    label:
+      en: total_fuel_used
+  updated_at: '1753629178'
+  units:
+    fuel_emission_factors: g/gal
+    total_fuel_used: gal/a
