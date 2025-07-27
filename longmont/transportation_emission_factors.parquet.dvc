@@ -1,6 +1,6 @@
 outs:
-- md5: a612556bba40d794b7a442fb6044e122
-  size: 10015
+- md5: d044ac497645b0d146be2440e923dc07
+  size: 9977
   hash: md5
   path: transportation_emission_factors.parquet
 meta:
@@ -8,34 +8,34 @@ meta:
     en: Transportation emission factors
   identifier: transportation_emission_factors
   description:
-    en: "fuel_emission_factor - Energy carrier: Gasoline - Ghg: CO2 - CO2 using  EPA
-      estimates (https://www.epa.gov/climateleadership/ghg-emission-factors-hub).
-      \n\nUsed ICLEI data for passenger vehilces for CH4 and N2O.This factors in combining
+    en: 'fuel_emission_factor - Energy carrier: Gasoline - Ghg: CO2 - CO2 using  EPA
+      estimates (https://www.epa.gov/climateleadership/ghg-emission-factors-hub).  Used
+      ICLEI data for passenger vehilces for CH4 and N2O.This factors in combining
       ages of the vehicle. https://docs.google.com/spreadsheets/d/1KXmtHoxI-mPXz0ujidtj76woUcK-RN9ITMRy-gMoUls/edit?gid=0#gid=0<br/>fuel_emission_factor
-      - Energy carrier: Diesel - Ghg: CO2 - CO2 using  EPA estimates (https://www.epa.gov/climateleadership/ghg-emission-factors-hub).
-      \n\nUsed ICLEI data for passenger vehilces for CH4 and N2O.This factors in combining
+      - Energy carrier: Diesel - Ghg: CO2 - CO2 using  EPA estimates (https://www.epa.gov/climateleadership/ghg-emission-factors-hub).  Used
+      ICLEI data for passenger vehilces for CH4 and N2O.This factors in combining
       ages of the vehicle. https://docs.google.com/spreadsheets/d/1KXmtHoxI-mPXz0ujidtj76woUcK-RN9ITMRy-gMoUls/edit?gid=0#gid=0
       (scroll down to bottom of Ch4/N20 tab)<br/>fuel_emission_factor - Energy carrier:
       Propane - Ghg: CO2 - Updated using EPA estimates as recommended by ICLEI (https://www.epa.gov/climateleadership/ghg-emission-factors-hub).
       Based on vehicles that are 1996 to present. Past years utilized ICLEI Appendix
-      D numbers. \n\n<br/>fuel_emission_factor - Energy carrier: Biodiesel - Ghg:
-      CO2 - Updated using EPA estimates as recommended by ICLEI (https://www.epa.gov/climateleadership/ghg-emission-factors-hub).
+      D numbers. <br/>fuel_emission_factor - Energy carrier: Biodiesel - Ghg: CO2
+      - Updated using EPA estimates as recommended by ICLEI (https://www.epa.gov/climateleadership/ghg-emission-factors-hub).
       Based on vehicles that are 1996 to present. Past years utilized ICLEI Appendix
-      D numbers. \n\n<br/>fuel_emission_factor - Energy carrier: Ethanol - Ghg: CO2
-      - Updated using EPA estimates as recommended by ICLEI (https://www.epa.gov/climateleadership/ghg-emission-factors-hub).\
-      \  Past years utilized ICLEI Appendix D numbers. <br/>fuel_emission_factor -
-      Energy carrier: CNG - Ghg: CO2 - US EPA Emissions Factors for Greenhouse Gas
-      Inventories (April 2022): https://www.epa.gov/system/files/documents/2022-04/ghg_emission_factors_hub.pdf"
+      D numbers. <br/>fuel_emission_factor - Energy carrier: Ethanol - Ghg: CO2 -
+      Updated using EPA estimates as recommended by ICLEI (https://www.epa.gov/climateleadership/ghg-emission-factors-hub).  Past
+      years utilized ICLEI Appendix D numbers. <br/>fuel_emission_factor - Energy
+      carrier: CNG - Ghg: CO2 - US EPA Emissions Factors for Greenhouse Gas Inventories
+      (April 2022): https://www.epa.gov/system/files/documents/2022-04/ghg_emission_factors_hub.pdf'
   metrics:
-  - id: fuel_emission_factor
-    quantity: emission_factor
-    label:
-      en: fuel_emission_factor
   - id: emission_factor
     quantity: emission_factor
     label:
       en: emission_factor
-  updated_at: '1751963113'
+  - id: fuel_emission_factor
+    quantity: emission_factor
+    label:
+      en: fuel_emission_factor
+  updated_at: '1753620788'
   units:
     fuel_emission_factor: t/gal
     emission_factor: g/VMT
