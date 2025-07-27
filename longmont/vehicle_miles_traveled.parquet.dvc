@@ -1,14 +1,17 @@
 outs:
-- md5: a4429f297fee33a9da106f2513bc0dc1
-  size: 3077
+- md5: db697c9379c329eac57b2e937a2d5822
+  size: 4350
+  hash: md5
   path: vehicle_miles_traveled.parquet
 meta:
   name:
-    en: Passenger car miles traveled VMT
-  identifier: vehicle_miles_traveled_vmt
+    en: Vehicle miles traveled
+  identifier: vehicle_miles_traveled
   metrics:
-  - id: vmt
+  - id: vehicle_miles_traveled
+    quantity: mileage
     label:
-      en: vmt
+      en: vehicle_miles_traveled
+  updated_at: '1753621469'
   units:
-    vmt: mi/a
+    vehicle_miles_traveled: VMT/a
