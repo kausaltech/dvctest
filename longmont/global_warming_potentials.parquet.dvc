@@ -1,5 +1,5 @@
 outs:
-- md5: e4c752ad9086c0e6196139329cfc5178
+- md5: 0afc2f425ea782066a2da21efe7fced1
   size: 3671
   hash: md5
   path: global_warming_potentials.parquet
@@ -14,6 +14,6 @@ meta:
     quantity: ratio
     label:
       en: global_warming_potential
-  updated_at: '1753608871'
+  updated_at: '1753620782'
   units:
     global_warming_potential: dimensionless
