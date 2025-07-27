@@ -1,0 +1,41 @@
+outs:
+- md5: b9e7931007abcd0c5dc5300ca7193590
+  size: 7635
+  hash: md5
+  path: waste_data.parquet
+meta:
+  name:
+    en: Waste data
+  identifier: waste_data
+  description:
+    en: "waste_landfilled - Scope: 1 - Waste: MSW - 2) MSW composition is based on
+      Boulder County's 2021 waste characterization study ---- Boulder County is doing
+      a new study in 2024, but it will not be ready by May or June."
+  metrics:
+  - id: waste_composted
+    quantity: mass
+    label:
+      en: waste_composted
+  - id: oxidizing_factor
+    quantity: fraction
+    label:
+      en: oxidizing_factor
+  - id: waste_landfilled
+    quantity: mass
+    label:
+      en: waste_landfilled
+  - id: gas_collection_rate
+    quantity: fraction
+    label:
+      en: gas_collection_rate
+  - id: waste_recycled
+    quantity: mass
+    label:
+      en: waste_recycled
+  updated_at: '1753608755'
+  units:
+    waste_recycled: short_ton/a
+    oxidizing_factor: dimensionless
+    waste_landfilled: short_ton/a
+    gas_collection_rate: dimensionless
+    waste_composted: short_ton/a

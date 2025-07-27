@@ -48,3 +48,4 @@
 /waste_characterization.parquet
 /waste_emission_factors.parquet
 /community_indicators.parquet
+/waste_data.parquet
