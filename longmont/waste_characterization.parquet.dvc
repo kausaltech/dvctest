@@ -1,0 +1,22 @@
+outs:
+- md5: cee34c39dbc86622e39af133697c4cb9
+  size: 4610
+  hash: md5
+  path: waste_characterization.parquet
+meta:
+  name:
+    en: Waste characterization
+  identifier: waste_characterization
+  metrics:
+  - id: recycling_characterization
+    quantity: fraction
+    label:
+      en: recycling_characterization
+  - id: msw_characterization
+    quantity: fraction
+    label:
+      en: msw_characterization
+  updated_at: '1753608456'
+  units:
+    msw_characterization: '%'
+    recycling_characterization: '%'

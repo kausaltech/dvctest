@@ -45,3 +45,4 @@
 /vehicle_energy_efficiency.parquet
 /gpd_distance_miles.parquet
 /electricity_emission_factor_for_transportation.parquet
+/waste_characterization.parquet
