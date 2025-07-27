@@ -1,5 +1,5 @@
 outs:
-- md5: 40a7b1568be6ea5c575ea2c82b6c3bec
+- md5: ddd6e5b55a8f4cb547164da9fd50d139
   size: 4610
   hash: md5
   path: waste_characterization.parquet
@@ -16,7 +16,7 @@ meta:
     quantity: fraction
     label:
       en: msw_characterization
-  updated_at: '1753608895'
+  updated_at: '1753620794'
   units:
-    recycling_characterization: '%'
     msw_characterization: '%'
+    recycling_characterization: '%'
