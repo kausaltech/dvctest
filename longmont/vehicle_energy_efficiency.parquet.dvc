@@ -1,5 +1,5 @@
 outs:
-- md5: 2abaf48af9dfe720ce667d535d341ce1
+- md5: dc996fd9a5c49b3cd3373980e3a762f9
   size: 7543
   hash: md5
   path: vehicle_energy_efficiency.parquet
@@ -32,7 +32,7 @@ meta:
     quantity: energy_factor
     label:
       en: mpg
-  updated_at: '1751963124'
+  updated_at: '1753620914'
   units:
-    energy_efficiency: kWh/VMT
     mpg: VMT/gal
+    energy_efficiency: kWh/VMT
