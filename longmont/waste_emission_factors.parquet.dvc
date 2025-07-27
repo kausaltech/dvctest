@@ -1,5 +1,5 @@
 outs:
-- md5: c682fceac35d0ea342e9be3b8e1884ff
+- md5: 810c07198f21f7fa18c7fec72021d80b
   size: 10479
   hash: md5
   path: waste_emission_factors.parquet
@@ -41,8 +41,8 @@ meta:
     quantity: emission_factor
     label:
       en: recycling_instead_of_virgin
-  updated_at: '1753608749'
+  updated_at: '1753608865'
   units:
+    recycling_instead_of_virgin: t/short_ton
     landfill_gas_collection: t/short_ton
     waste_emission_factor: t/short_ton
-    recycling_instead_of_virgin: t/short_ton
