@@ -1,5 +1,5 @@
 outs:
-- md5: 2e28e03eab2967bca6a2ad1698b5c38b
+- md5: e07058f2791007fae6bf0809c1eb190e
   size: 7831
   hash: md5
   path: community_indicators.parquet
@@ -8,21 +8,21 @@ meta:
     en: Community indicators
   identifier: community_indicators
   metrics:
-  - id: number_of_people_employed_in_the_city
-    quantity: amount
-    label:
-      en: number_of_people_employed_in_the_city
   - id: number_of_housing_units_
     quantity: amount
     label:
       en: number_of_housing_units_
-  updated_at: '1753608742'
+  - id: number_of_people_employed_in_the_city
+    quantity: amount
+    label:
+      en: number_of_people_employed_in_the_city
+  updated_at: '1753608889'
   units:
-    total_taxes_dollars: USD
-    cooling_degree_days: F d
-    number_of_people_employed_in_the_city: cap
     number_of_housing_units_: pcs
-    ci_floor_space_sq_ft: sq_ft
-    retail_sales: USD
+    total_taxes_dollars: USD
     heating_degree_days: F d
+    retail_sales: USD
+    ci_floor_space_sq_ft: sq_ft
+    number_of_people_employed_in_the_city: cap
+    cooling_degree_days: F d
     city_open_space_acres: acre
