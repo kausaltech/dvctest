@@ -1,6 +1,6 @@
 outs:
-- md5: edf634414b62b490c68dd832801c86b8
-  size: 14969
+- md5: 71cd37c0a03698e4beca13a516613314
+  size: 14961
   hash: md5
   path: waste_emission_factors.parquet
 meta:
@@ -38,6 +38,18 @@ meta:
       value represents the \"avoided emissions\" of sending compost to the landfill
       and properly treating compost so it can be utilized by the community."
   metrics:
+  - id: landfill_gas_collection
+    quantity: emission_factor
+    label:
+      en: landfill_gas_collection
+  - id: composting_emission_factor
+    quantity: emission_factor
+    label:
+      en: composting_emission_factor
+  - id: recycling_instead_of_virgin
+    quantity: emission_factor
+    label:
+      en: recycling_instead_of_virgin
   - id: informational_composting_emission_factor
     quantity: emission_factor
     label:
@@ -46,22 +58,10 @@ meta:
     quantity: emission_factor
     label:
       en: waste_emission_factor
-  - id: composting_emission_factor
-    quantity: emission_factor
-    label:
-      en: composting_emission_factor
-  - id: landfill_gas_collection
-    quantity: emission_factor
-    label:
-      en: landfill_gas_collection
-  - id: recycling_instead_of_virgin
-    quantity: emission_factor
-    label:
-      en: recycling_instead_of_virgin
-  updated_at: '1753665423'
+  updated_at: '1753666862'
   units:
+    recycling_instead_of_virgin: t/short_ton
     composting_emission_factor: t/short_ton
     waste_emission_factor: t/short_ton
-    landfill_gas_collection: t/short_ton
-    recycling_instead_of_virgin: t/short_ton
     informational_composting_emission_factor: t/short_ton
+    landfill_gas_collection: t/short_ton
