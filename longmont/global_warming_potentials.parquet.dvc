@@ -1,11 +1,11 @@
 outs:
-- md5: 0afc2f425ea782066a2da21efe7fced1
-  size: 3671
+- md5: a9ea9f4c683e4d1a87f3d0fdde7fc69e
+  size: 3654
   hash: md5
   path: global_warming_potentials.parquet
 meta:
   name:
-    en: Global Warming Potentials
+    en: Global warming potentials
   identifier: global_warming_potentials
   description:
     en: 'global_warming_potential - Ghg: CO2 - IPCC AR6: https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Full_Report.pdf'
@@ -14,6 +14,6 @@ meta:
     quantity: ratio
     label:
       en: global_warming_potential
-  updated_at: '1753620782'
+  updated_at: '1753667483'
   units:
-    global_warming_potential: dimensionless
+    global_warming_potential: t_co2e/t
