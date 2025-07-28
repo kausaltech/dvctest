@@ -1,6 +1,6 @@
 outs:
-- md5: 234e71ef2f53e1f244c1ef762c1e6a5e
-  size: 13147
+- md5: edf634414b62b490c68dd832801c86b8
+  size: 14969
   hash: md5
   path: waste_emission_factors.parquet
 meta:
@@ -18,18 +18,19 @@ meta:
       in the Waste Reduction Model (WARM): https://www.epa.gov/sites/production/files/2016-03/documents/warm_v14_management_practices.pdf.
       Assumes green waste. Values are adjusted to CH4 and N2O emission factors.\n\n
       These emission factors represent the emissions associated with food waste decomposing,
-      which emits methane and N2O. <br/>composting_emission_factor - Ghg: CO2e - Longmont's
-      LCA analysis (2019). Value is for Mixed Organics.\nThis value represents the
-      \"avoided emissions\" of sending compost to the landfill and properly treating
-      compost so it can be utilized by the community.<br/>recycling_instead_of_virgin
-      - Ghg: CO2e - Waste: Cardboard - ICLEI\x92s U.S. Community Protocol for Accounting
-      and Reporting of Greenhouse Gas Emissions (Community Protocol) \x96 Recycling
-      and Composting Emissions Protocol, Version 1.0, July 2013: http://icleiusa.org/ghg-protocols/.
-      Emission factors represent those for avoided emissions from a facility with
-      landfill gas capture but no energy production.\n\nICLEI recommends using the
-      same emission factors that were used in past inventories.<br/>waste_emission_factor
-      - Ghg: CH4 - Waste: Composted - Documentation for Greenhouse Gas Emissions and
-      Energy Factors Used in the Waste Reduction Model (WARM): https://www.epa.gov/sites/production/files/2016-03/documents/warm_v14_management_practices.pdf.
+      which emits methane and N2O. <br/>informational_composting_emission_factor -
+      Ghg: CO2e - Scope: informational - Longmont's LCA analysis (2019). Value is
+      for Mixed Organics.\nThis value represents the \"avoided emissions\" of sending
+      compost to the landfill and properly treating compost so it can be utilized
+      by the community.<br/>recycling_instead_of_virgin - Ghg: CO2e - Waste: Cardboard
+      - ICLEI\x92s U.S. Community Protocol for Accounting and Reporting of Greenhouse
+      Gas Emissions (Community Protocol) \x96 Recycling and Composting Emissions Protocol,
+      Version 1.0, July 2013: http://icleiusa.org/ghg-protocols/. Emission factors
+      represent those for avoided emissions from a facility with landfill gas capture
+      but no energy production.\n\nICLEI recommends using the same emission factors
+      that were used in past inventories.<br/>waste_emission_factor - Ghg: CH4 - Waste:
+      Composted - Documentation for Greenhouse Gas Emissions and Energy Factors Used
+      in the Waste Reduction Model (WARM): https://www.epa.gov/sites/production/files/2016-03/documents/warm_v14_management_practices.pdf.
       Assumes green waste. Values are adjusted to CH4 and N2O emission factors.\n\n
       These emission factors represent the emissions associated with food waste decomposing,
       which emits methane and N2O. <br/>waste_emission_factor - Ghg: CO2e - Waste:
@@ -37,14 +38,14 @@ meta:
       value represents the \"avoided emissions\" of sending compost to the landfill
       and properly treating compost so it can be utilized by the community."
   metrics:
+  - id: informational_composting_emission_factor
+    quantity: emission_factor
+    label:
+      en: informational_composting_emission_factor
   - id: waste_emission_factor
     quantity: emission_factor
     label:
       en: waste_emission_factor
-  - id: recycling_instead_of_virgin
-    quantity: emission_factor
-    label:
-      en: recycling_instead_of_virgin
   - id: composting_emission_factor
     quantity: emission_factor
     label:
@@ -53,9 +54,14 @@ meta:
     quantity: emission_factor
     label:
       en: landfill_gas_collection
-  updated_at: '1753664668'
+  - id: recycling_instead_of_virgin
+    quantity: emission_factor
+    label:
+      en: recycling_instead_of_virgin
+  updated_at: '1753665423'
   units:
     composting_emission_factor: t/short_ton
+    waste_emission_factor: t/short_ton
     landfill_gas_collection: t/short_ton
     recycling_instead_of_virgin: t/short_ton
-    waste_emission_factor: t/short_ton
+    informational_composting_emission_factor: t/short_ton
