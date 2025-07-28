@@ -1,6 +1,6 @@
 outs:
-- md5: bcf673d054cecb8a8f7d0ff21ad9511d
-  size: 13228
+- md5: 234e71ef2f53e1f244c1ef762c1e6a5e
+  size: 13147
   hash: md5
   path: waste_emission_factors.parquet
 meta:
@@ -14,8 +14,8 @@ meta:
       1.1, July 2013: http://icleiusa.org/ghg-protocols/. <br/>waste_emission_factor
       - Ghg: CH4 - Waste: Newspaper - 8) Per recommendation by ICLEI (https://icleiusa.org/wp-content/uploads/2022/09/U.S.-Community-Protocol-DASH_-Greenhouse-Gas-Emissions-Profile.pdf),
       will use the same emission factors that were used in previous inventories.<br/>composting_emission_factor
-      - Ghg: CH4 - Waste: Dimensional lumber - Documentation for Greenhouse Gas Emissions
-      and Energy Factors Used in the Waste Reduction Model (WARM): https://www.epa.gov/sites/production/files/2016-03/documents/warm_v14_management_practices.pdf.
+      - Ghg: CH4 - Documentation for Greenhouse Gas Emissions and Energy Factors Used
+      in the Waste Reduction Model (WARM): https://www.epa.gov/sites/production/files/2016-03/documents/warm_v14_management_practices.pdf.
       Assumes green waste. Values are adjusted to CH4 and N2O emission factors.\n\n
       These emission factors represent the emissions associated with food waste decomposing,
       which emits methane and N2O. <br/>composting_emission_factor - Ghg: CO2e - Longmont's
@@ -37,25 +37,25 @@ meta:
       value represents the \"avoided emissions\" of sending compost to the landfill
       and properly treating compost so it can be utilized by the community."
   metrics:
-  - id: recycling_instead_of_virgin
-    quantity: emission_factor
-    label:
-      en: recycling_instead_of_virgin
   - id: waste_emission_factor
     quantity: emission_factor
     label:
       en: waste_emission_factor
-  - id: landfill_gas_collection
+  - id: recycling_instead_of_virgin
     quantity: emission_factor
     label:
-      en: landfill_gas_collection
+      en: recycling_instead_of_virgin
   - id: composting_emission_factor
     quantity: emission_factor
     label:
       en: composting_emission_factor
-  updated_at: '1753664198'
+  - id: landfill_gas_collection
+    quantity: emission_factor
+    label:
+      en: landfill_gas_collection
+  updated_at: '1753664668'
   units:
-    recycling_instead_of_virgin: t/short_ton
     composting_emission_factor: t/short_ton
     landfill_gas_collection: t/short_ton
+    recycling_instead_of_virgin: t/short_ton
     waste_emission_factor: t/short_ton
