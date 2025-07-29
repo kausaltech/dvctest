@@ -1,11 +1,12 @@
 outs:
-- md5: 3abd7b9a8b68c584e7b6d4545f822b8c
-  size: 13020
+- md5: ff0ca1de4a60fb8224ea625f27d82b89
+  size: 13094
   hash: md5
   path: energy_prices.parquet
 meta:
   name:
     de: ''
   identifier: ''
-  updated_at: '1753771114'
-  units: {}
+  updated_at: '1753771274'
+  units:
+    Value: EUR/MWh
