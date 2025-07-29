@@ -1,0 +1,11 @@
+outs:
+- md5: 3abd7b9a8b68c584e7b6d4545f822b8c
+  size: 13020
+  hash: md5
+  path: energy_prices.parquet
+meta:
+  name:
+    de: ''
+  identifier: ''
+  updated_at: '1753771114'
+  units: {}
