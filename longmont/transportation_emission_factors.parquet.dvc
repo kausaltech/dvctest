@@ -1,6 +1,6 @@
 outs:
-- md5: d044ac497645b0d146be2440e923dc07
-  size: 9977
+- md5: f30a9c6be68832dd0fc70e8ef6bd66d6
+  size: 11599
   hash: md5
   path: transportation_emission_factors.parquet
 meta:
@@ -25,7 +25,14 @@ meta:
       Updated using EPA estimates as recommended by ICLEI (https://www.epa.gov/climateleadership/ghg-emission-factors-hub).  Past
       years utilized ICLEI Appendix D numbers. <br/>fuel_emission_factor - Energy
       carrier: CNG - Ghg: CO2 - US EPA Emissions Factors for Greenhouse Gas Inventories
-      (April 2022): https://www.epa.gov/system/files/documents/2022-04/ghg_emission_factors_hub.pdf'
+      (April 2022): https://www.epa.gov/system/files/documents/2022-04/ghg_emission_factors_hub.pdf<br/>emission_factor
+      - Vehicle type: Bus - Energy carrier: Gasoline - Ghg: CH4 - See On-Road data
+      tab for emission factors. Note that per ICLEI recommendation, we utilized light
+      duty vehicles for buses, not heavy duty. <br/>emission_factor - Vehicle type:
+      Bus - Energy carrier: Diesel - Ghg: CH4 - 2024 Climate Registry, Table 2. 1
+      and Table 2.4 (https://theclimateregistry.org/wp-content/uploads/2024/03/2024-Emission-Factor-Document_FINAL.pdf)<br/>emission_factor
+      - Vehicle type: Bus - Energy carrier: CNG - Ghg: CH4 - 2024 Climate Registry,
+      Table 2. 1 and Table 2.6 (https://theclimateregistry.org/wp-content/uploads/2024/03/2024-Emission-Factor-Document_FINAL.pdf)'
   metrics:
   - id: emission_factor
     quantity: emission_factor
@@ -35,7 +42,7 @@ meta:
     quantity: emission_factor
     label:
       en: fuel_emission_factor
-  updated_at: '1753620788'
+  updated_at: '1753982654'
   units:
     fuel_emission_factor: t/gal
     emission_factor: g/VMT
