@@ -1,0 +1,11 @@
+outs:
+- md5: 6e331d216f6da83cf19e3a8527c310ae
+  size: 3849
+  hash: md5
+  path: transit_data.parquet
+meta:
+  name:
+    en: Transit Data
+  identifier: transit_data
+  updated_at: '1753983537'
+  units: {}
