@@ -1,0 +1,17 @@
+outs:
+- md5: 34deb7e74e8954fdb5b2071afddb8840
+  size: 4712
+  hash: md5
+  path: transit_percentage_attributable_to_longmont.parquet
+meta:
+  name:
+    en: Transit percentage attributable to Longmont
+  identifier: transit_percentage_attributable_to_longmont
+  metrics:
+  - id: percent_attributable
+    quantity: fraction
+    label:
+      en: percent_attributable
+  updated_at: '1753982932'
+  units:
+    percent_attributable: '%'
