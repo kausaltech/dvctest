@@ -1,0 +1,11 @@
+outs:
+- md5: 3e3f233bbaa6717f731c17b36dceab2e
+  size: 3986
+  hash: md5
+  path: total_railway_ghg_emissions_boulder_county.parquet
+meta:
+  name:
+    en: Total Railway GHG Emissions Boulder County
+  identifier: total_railway_ghg_emissions_boulder_county
+  updated_at: '1753983008'
+  units: {}
