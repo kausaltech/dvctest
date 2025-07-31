@@ -1,11 +1,27 @@
 outs:
-- md5: 6e331d216f6da83cf19e3a8527c310ae
-  size: 3849
+- md5: 963fb31391fd4c2ac9d52b98a71432e9
+  size: 6207
   hash: md5
   path: transit_data.parquet
 meta:
   name:
     en: Transit Data
   identifier: transit_data
-  updated_at: '1753983537'
-  units: {}
+  metrics:
+  - id: percent_attributable
+    quantity: fraction
+    label:
+      en: percent_attributable
+  - id: transit_mpg
+    quantity: mileage
+    label:
+      en: transit_mpg
+  - id: transit_vmt
+    quantity: mileage
+    label:
+      en: transit_vmt
+  updated_at: '1753983589'
+  units:
+    transit_mpg: VMT/gal
+    percent_attributable: '%'
+    transit_vmt: VMT/a
