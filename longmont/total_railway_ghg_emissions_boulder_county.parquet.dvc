@@ -1,11 +1,27 @@
 outs:
-- md5: 3404200f3e45fcf99c366d60bb77a7bd
-  size: 3986
+- md5: c1e7d76c011aaba5e5527aaf3fb10b2f
+  size: 5024
   hash: md5
   path: total_railway_ghg_emissions_boulder_county.parquet
 meta:
   name:
     en: Total Railway GHG Emissions Boulder County
   identifier: total_railway_ghg_emissions_boulder_county
-  updated_at: '1753983634'
-  units: {}
+  description:
+    en: 'railway_emissions - Ghg: CO2 - 1) 2021 Inventory notes: Railway emissions
+      data from the 2020 National Emissions Inventory (NEI) from the US EPA which
+      calculated GHG emissions for Boulder County. Data provided by Janice Godfrey
+      at the EPA in an email, on file.'
+  metrics:
+  - id: railway_emissions
+    quantity: emissions
+    label:
+      en: railway_emissions
+  - id: proportion_of_rail_lines_in_longmont
+    quantity: fraction
+    label:
+      en: proportion_of_rail_lines_in_longmont
+  updated_at: '1753983856'
+  units:
+    proportion_of_rail_lines_in_longmont: '%'
+    railway_emissions: t/a
