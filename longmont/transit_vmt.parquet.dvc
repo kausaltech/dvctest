@@ -1,17 +1,11 @@
 outs:
-- md5: 089cf624634eb00806e769895e0711c7
-  size: 4460
+- md5: f284662f5de275ab62b3fddbd386d697
+  size: 3845
   hash: md5
   path: transit_vmt.parquet
 meta:
   name:
     en: Transit VMT
   identifier: transit_vmt
-  metrics:
-  - id: transit_vmt
-    quantity: mileage
-    label:
-      en: transit_vmt
-  updated_at: '1753982896'
-  units:
-    transit_vmt: VMT/a
+  updated_at: '1754311872'
+  units: {}
