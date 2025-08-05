@@ -1,6 +1,6 @@
 outs:
-- md5: 10a1357e5a5d6089848935fe3f23322f
-  size: 3475
+- md5: 429a845520a3b4bd6fe73613a74d8086
+  size: 2830
   hash: md5
   path: maatalouden_toimet.parquet
 meta:
@@ -12,6 +12,6 @@ meta:
     quantity: fraction
     label:
       fi: Maatalouden päästövähennys
-  updated_at: '1754388585'
+  updated_at: '1754388890'
   units:
     maatalouden_paastovahennys: '%'
