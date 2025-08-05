@@ -1,0 +1,17 @@
+outs:
+- md5: 67ad31b30708000f1bde0d64eb846368
+  size: 2734
+  hash: md5
+  path: maatalouden_toimet.parquet
+meta:
+  name:
+    fi: Maatalouden toimet
+  identifier: maatalouden_toimet
+  metrics:
+  - id: maatalouden_pstvhennys
+    quantity: fraction
+    label:
+      fi: maatalouden_pstvhennys
+  updated_at: '1754384185'
+  units:
+    maatalouden_pstvhennys: '%'
