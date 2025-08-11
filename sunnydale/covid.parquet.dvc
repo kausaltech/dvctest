@@ -1,0 +1,17 @@
+outs:
+- md5: 930fb9ae04d46cce3e09049cb5206d33
+  size: 2454
+  hash: md5
+  path: covid.parquet
+meta:
+  name:
+    en: Covid
+  identifier: covid
+  metrics:
+  - id: value
+    quantity: emissions
+    label:
+      en: Value
+  updated_at: '1754914202'
+  units:
+    value: kt/a
