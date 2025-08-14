@@ -1,0 +1,17 @@
+outs:
+- md5: 318a64de03f61434af15a0612b7185f8
+  size: 4327
+  hash: md5
+  path: energialaji_ja_lammitystapa.parquet
+meta:
+  name:
+    fi: Energialaji ja lämmitystapa
+  identifier: energialaji_ja_lammitystapa
+  metrics:
+  - id: energialaji_ja_lammitystapa
+    quantity: ratio
+    label:
+      fi: Energialaji ja lämmitystapa
+  updated_at: '1755202718'
+  units:
+    energialaji_ja_lammitystapa: dimensionless
