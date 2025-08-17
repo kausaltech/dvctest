@@ -1,0 +1,20 @@
+outs:
+- md5: 482daf29c7eee96839fe9b884a86dc2a
+  size: 3762
+  hash: md5
+  path: energieanteile_der_verbesserung.parquet
+meta:
+  name:
+    de: Energieanteile der Verbesserung
+  identifier: energieanteile_der_verbesserung
+  description:
+    de: 'energieanteile - Metric: Energieanteile - Energietrager: benzin_fossil -
+      Used to split the impacts of actions into different energy carriers'
+  metrics:
+  - id: energieanteile
+    quantity: fraction
+    label:
+      de: Energieanteile
+  updated_at: '1755423295'
+  units:
+    energieanteile: dimensionless
