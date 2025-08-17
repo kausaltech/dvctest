@@ -1,0 +1,17 @@
+outs:
+- md5: b85dc46025e1413d8d2060656debe01d
+  size: 8370
+  hash: md5
+  path: energie_stationar.parquet
+meta:
+  name:
+    de: Energie stationär
+  identifier: energie_stationar
+  metrics:
+  - id: energy
+    quantity: energy
+    label:
+      de: energy
+  updated_at: '1755460585'
+  units:
+    energy: MWh/a
