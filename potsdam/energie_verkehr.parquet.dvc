@@ -1,0 +1,17 @@
+outs:
+- md5: 8cffd6cd97712ad75c6f5895bb92cd84
+  size: 6386
+  hash: md5
+  path: energie_verkehr.parquet
+meta:
+  name:
+    de: Energie Verkehr
+  identifier: energie_verkehr
+  metrics:
+  - id: energy
+    quantity: energy
+    label:
+      de: energy
+  updated_at: '1755460580'
+  units:
+    energy: MWh/a
