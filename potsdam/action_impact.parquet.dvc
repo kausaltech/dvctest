@@ -1,6 +1,6 @@
 outs:
-- md5: 4557dca7f4a83b7d1a58f236a5d2f63f
-  size: 8287
+- md5: 524e76b568fbd29d6d4263bfa757370e
+  size: 9199
   hash: md5
   path: action_impact.parquet
 meta:
@@ -30,12 +30,18 @@ meta:
       - Reduces fossil transport fuel emission factor<br/>action_impact - Metric:
       Action impact - Decision: fossil_fuel_replacement - Reduces fossil transport
       fuel emission factor<br/>action_impact - Metric: Action impact - Decision: local_transport_energy_reduction
-      - Reduces fossil transport fuel use'
+      - Reduces fossil transport fuel use<br/>baseline - Metric: Baseline - Decision:
+      baseline - Used when no actions available'
   metrics:
+  - id: baseline
+    quantity: emissions
+    label:
+      de: Baseline
   - id: action_impact
     quantity: emissions
     label:
       de: Action impact
-  updated_at: '1755364460'
+  updated_at: '1755423289'
   units:
+    baseline: kt/a
     action_impact: kt/a
