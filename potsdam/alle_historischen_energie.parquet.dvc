@@ -1,0 +1,17 @@
+outs:
+- md5: dc78dddc36b0a21748fcc6e6cd406a01
+  size: 9054
+  hash: md5
+  path: alle_historischen_energie.parquet
+meta:
+  name:
+    de: Alle historischen Energie
+  identifier: alle_historischen_energie
+  metrics:
+  - id: energy
+    quantity: energy
+    label:
+      de: energy
+  updated_at: '1755486769'
+  units:
+    energy: MWh/a
