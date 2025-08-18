@@ -1,5 +1,5 @@
 outs:
-- md5: 482daf29c7eee96839fe9b884a86dc2a
+- md5: 5a7e3546a68bde9e16048300400f85e3
   size: 3762
   hash: md5
   path: energieanteile_der_verbesserung.parquet
@@ -15,6 +15,6 @@ meta:
     quantity: fraction
     label:
       de: Energieanteile
-  updated_at: '1755423295'
+  updated_at: '1755498370'
   units:
     energieanteile: dimensionless
