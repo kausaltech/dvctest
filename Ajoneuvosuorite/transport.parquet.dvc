@@ -1,0 +1,37 @@
+outs:
+- md5: ce60b9c3f565147ee4d73230b635dbd5
+  size: 10122
+  hash: md5
+  path: transport.parquet
+meta:
+  name:
+    fi: transport
+  identifier: transport
+  metrics:
+  - id: jakeluvelvoite
+    quantity: fraction
+    label:
+      fi: Jakeluvelvoite
+  - id: kuorma_autoliikenteen_kerroin
+    quantity: emissions
+    label:
+      fi: Kuorma-autoliikenteen kerroin
+  - id: henkiloautojen_maara
+    quantity: amount
+    label:
+      fi: Henkilöautojen määrä
+  - id: tieliikenteen_suorite_ennuste
+    quantity: energy
+    label:
+      fi: Tieliikenteen suorite-ennuste
+  - id: tieliikenteen_paastokertoimen_ennuste
+    quantity: emission_factor
+    label:
+      fi: Tieliikenteen päästökertoimen ennuste
+  updated_at: '1755590010'
+  units:
+    kuorma_autoliikenteen_kerroin: kt/a
+    henkiloautojen_maara: vehicles
+    tieliikenteen_suorite_ennuste: GWh/a
+    tieliikenteen_paastokertoimen_ennuste: g/kWh
+    jakeluvelvoite: dimensionless
