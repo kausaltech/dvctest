@@ -1,0 +1,30 @@
+outs:
+- md5: 2b6f50650338e300e7bfcd92567565c6
+  size: 6470
+  hash: md5
+  path: rakennuskannan_toimet.parquet
+meta:
+  name:
+    fi: Rakennuskannan toimet
+  identifier: rakennuskannan_toimet
+  description:
+    fi: 'kerrosalan_kasvu - Metric: Kerrosalan kasvu - Building class: commercial_buildings
+      - Kerrosalan kasvu vuodesta 2014 vuoteen 2035.'
+  metrics:
+  - id: asumisvaljyys
+    quantity: floor_area
+    label:
+      fi: Asumisväljyys
+  - id: kerrosala_per_huoneistoala
+    quantity: floor_area
+    label:
+      fi: Kerrosala per huoneistoala
+  - id: kerrosalan_kasvu
+    quantity: fraction
+    label:
+      fi: Kerrosalan kasvu
+  updated_at: '1755589994'
+  units:
+    kerrosalan_kasvu: '%'
+    kerrosala_per_huoneistoala: m**2/m**2
+    asumisvaljyys: m**2/cap
