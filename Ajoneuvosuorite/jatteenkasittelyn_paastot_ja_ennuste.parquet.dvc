@@ -1,0 +1,20 @@
+outs:
+- md5: bff3ba872fe6751dcfa2223bdec96c8d
+  size: 4296
+  hash: md5
+  path: jatteenkasittelyn_paastot_ja_ennuste.parquet
+meta:
+  name:
+    fi: Jätteenkäsittelyn päästöt ja ennuste
+  identifier: jatteenkasittelyn_paastot_ja_ennuste
+  description:
+    fi: 'jatteenkasittelyn_paastot - Metric: Jätteenkäsittelyn päästöt - Waste treatment:
+      landfills - Juha Viholainen, sähköposti 14.3.2025'
+  metrics:
+  - id: jatteenkasittelyn_paastot
+    quantity: emissions
+    label:
+      fi: Jätteenkäsittelyn päästöt
+  updated_at: '1755589964'
+  units:
+    jatteenkasittelyn_paastot: kt/a
