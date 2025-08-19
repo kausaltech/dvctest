@@ -1,0 +1,17 @@
+outs:
+- md5: 80321396e255da792071d54f05e1e215
+  size: 4473
+  hash: md5
+  path: autojen_lukumaara.parquet
+meta:
+  name:
+    fi: Autojen lukumäärä
+  identifier: autojen_lukumaara
+  metrics:
+  - id: liikennekaytossa_olevien_autojen_lukumaara
+    quantity: amount
+    label:
+      fi: Liikennekäytössä olevien autojen lukumäärä
+  updated_at: '1755590015'
+  units:
+    liikennekaytossa_olevien_autojen_lukumaara: pcs
