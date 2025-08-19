@@ -1,0 +1,17 @@
+outs:
+- md5: 30f04646e52e7300a990378ee2e6fc1b
+  size: 4254
+  hash: md5
+  path: ajoneuvojen_paastokertoimet.parquet
+meta:
+  name:
+    fi: Ajoneuvojen päästökertoimet
+  identifier: ajoneuvojen_paastokertoimet
+  metrics:
+  - id: ajoneuvojen_paastokertoimet
+    quantity: emission_factor
+    label:
+      fi: Ajoneuvojen päästökertoimet
+  updated_at: '1755590640'
+  units:
+    ajoneuvojen_paastokertoimet: g/vkm
