@@ -1,0 +1,17 @@
+outs:
+- md5: 13a9bcd384acc0fba463bbe7aed91798
+  size: 5176
+  hash: md5
+  path: building_stock_of_the_city.parquet
+meta:
+  name:
+    fi: Building stock of the city
+  identifier: building_stock_of_the_city
+  metrics:
+  - id: kaupungin_oman_rakennuskannan_energiankulutuksen_vahennys
+    quantity: energy
+    label:
+      fi: Kaupungin oman rakennuskannan energiankulutuksen vähennys
+  updated_at: '1755590035'
+  units:
+    kaupungin_oman_rakennuskannan_energiankulutuksen_vahennys: GWh/a
