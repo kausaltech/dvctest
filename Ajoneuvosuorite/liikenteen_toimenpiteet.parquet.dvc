@@ -1,0 +1,58 @@
+outs:
+- md5: 5b33f9741648682e94a70697f0a989d7
+  size: 13661
+  hash: md5
+  path: liikenteen_toimenpiteet.parquet
+meta:
+  name:
+    fi: Liikenteen toimenpiteet
+  identifier: liikenteen_toimenpiteet
+  description:
+    fi: 'yhdistetyt_kuljetukset - Metric: Yhdistetyt kuljetukset - Tieliikenteen päästökaupan
+      arvioidaan vähentävän tieliikenteen päästöjä 0,2 % (Sitowise)<br/>tieliikenteen_paastokauppa
+      - Metric: Tieliikenteen päästökauppa - Tieliikenteen päästökaupan arvioidaan
+      vähentävän tieliikenteen päästöjä 4,5 % (Sitowise)<br/>etatyon_lisaaminen -
+      Metric: Etätyön lisääminen - Tieliikenteen päästökaupan arvioidaan vähentävän
+      tieliikenteen päästöjä 0,9 % (Sitowise)<br/>liikennejarjestelman_tehostaminen
+      - Metric: Liikennejärjestelmän tehostaminen - Tieliikenteen päästökaupan arvioidaan
+      vähentävän tieliikenteen päästöjä 2.8 % (Sitowise)<br/>henkilo_ja_pakettiautojen_sitovat_paastorajat
+      - Metric: Henkilö- ja pakettiautojen sitovat päästörajat - Tieliikenteen päästökaupan
+      arvioidaan vähentävän tieliikenteen päästöjä 0.7 % (Sitowise)'
+  metrics:
+  - id: liikennejarjestelman_tehostaminen
+    quantity: fraction
+    label:
+      fi: Liikennejärjestelmän tehostaminen
+  - id: liikenteen_fossiilisten_polttoaineiden_korvaaminen
+    quantity: fraction
+    label:
+      fi: Liikenteen fossiilisten polttoaineiden korvaaminen
+  - id: tieliikenteen_paastokauppa
+    quantity: fraction
+    label:
+      fi: Tieliikenteen päästökauppa
+  - id: etatyon_lisaaminen
+    quantity: fraction
+    label:
+      fi: Etätyön lisääminen
+  - id: helsingin_seudun_autokantamuutoksen_ero
+    quantity: ratio
+    label:
+      fi: Helsingin seudun autokantamuutoksen ero
+  - id: yhdistetyt_kuljetukset
+    quantity: fraction
+    label:
+      fi: Yhdistetyt kuljetukset
+  - id: henkilo_ja_pakettiautojen_sitovat_paastorajat
+    quantity: fraction
+    label:
+      fi: Henkilö- ja pakettiautojen sitovat päästörajat
+  updated_at: '1755590025'
+  units:
+    liikenteen_fossiilisten_polttoaineiden_korvaaminen: '%'
+    etatyon_lisaaminen: '%'
+    liikennejarjestelman_tehostaminen: '%'
+    henkilo_ja_pakettiautojen_sitovat_paastorajat: '%'
+    helsingin_seudun_autokantamuutoksen_ero: '%'
+    tieliikenteen_paastokauppa: '%'
+    yhdistetyt_kuljetukset: '%'
