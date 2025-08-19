@@ -1,0 +1,17 @@
+outs:
+- md5: 3b6f604bf2670599a105a523df5d880c
+  size: 3256
+  hash: md5
+  path: ajoneuvosuorite.parquet
+meta:
+  name:
+    fi: Ajoneuvosuorite
+  identifier: ajoneuvosuorite
+  metrics:
+  - id: ajoneuvosuorite
+    quantity: mileage
+    label:
+      fi: Ajoneuvosuorite
+  updated_at: '1755590563'
+  units:
+    ajoneuvosuorite: vkm/a
