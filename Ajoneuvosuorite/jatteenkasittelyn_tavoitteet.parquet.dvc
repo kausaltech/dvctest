@@ -1,0 +1,21 @@
+outs:
+- md5: ba415596b11fd16aa7ae0485902d2d85
+  size: 4763
+  hash: md5
+  path: jatteenkasittelyn_tavoitteet.parquet
+meta:
+  name:
+    fi: Jätteenkäsittelyn tavoitteet
+  identifier: jatteenkasittelyn_tavoitteet
+  description:
+    fi: 'jatteenkasittelyn_tavoite - Metric: Jätteenkäsittelyn tavoite - Scenario:
+      suomi2035 - Emission sector: waste_treatment - Jätteenkäsittelyn määrä verrattuna
+      uusimpaan historialliseen tietoon.'
+  metrics:
+  - id: jatteenkasittelyn_tavoite
+    quantity: ratio
+    label:
+      fi: Jätteenkäsittelyn tavoite
+  updated_at: '1755590030'
+  units:
+    jatteenkasittelyn_tavoite: dimensionless
