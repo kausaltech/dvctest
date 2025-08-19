@@ -1,0 +1,21 @@
+outs:
+- md5: 5e1d1711c13f3af7ef82888ff2bc0e6b
+  size: 5040
+  hash: md5
+  path: rakennustyypit_ja_kaytto.parquet
+meta:
+  name:
+    fi: Rakennustyypit ja käyttö
+  identifier: rakennustyypit_ja_kaytto
+  description:
+    fi: 'rakennustyypit_ja_kaytto - Metric: Rakennustyypit ja käyttö - Building use:
+      residence - Building class: single_family_houses - Luokittelutieto siitä, mitkä
+      rakennustyypit kuuluvat mihinkin käyttöluokkaan'
+  metrics:
+  - id: rakennustyypit_ja_kaytto
+    quantity: ratio
+    label:
+      fi: Rakennustyypit ja käyttö
+  updated_at: '1755590040'
+  units:
+    rakennustyypit_ja_kaytto: dimensionless
