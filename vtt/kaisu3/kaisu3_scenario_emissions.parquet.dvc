@@ -1,6 +1,6 @@
 outs:
-- md5: 5cc869d57c70ab82cd316ab6389d13cf
-  size: 12792
+- md5: 2019b4a6d416e1aac759c20e853f910c
+  size: 13583
   hash: md5
   path: kaisu3_scenario_emissions.parquet
 meta:
@@ -15,12 +15,10 @@ meta:
       - Metric: Teollisuus - Kaisu3 sector: 1A2 Teollisuus ja rakentaminen - Scenario:
       WEM - Luokitusta justeerattu täällä https://docs.google.com/spreadsheets/d/1q9kAAu0Qo27e6hneQ1gB_043sq3ZWBgFcimcnun_vZA/edit#gid=0<br/>kulutussahko
       - Metric: Kulutussähkö - Kaisu3 sector: 1A1 Energiateollisuus - Scenario: WAM
-      - Puolet energiateollisuudesta ja muista sektoreista (1A1, 1A4, 1A5)'
+      - Puolet energiateollisuudesta ja muista sektoreista (1A1, 1A4, 1A5)<br/>kulutussahko
+      - Metric: Kulutussähkö - Kaisu3 sector: 1A1 Energiateollisuus - Scenario: WAM-impakti
+      - WAM-impakti = WAM - WEM'
   metrics:
-  - id: teollisuus
-    quantity: emissions
-    label:
-      fi: Teollisuus
   - id: maatalous
     quantity: emissions
     label:
@@ -33,24 +31,28 @@ meta:
     quantity: emissions
     label:
       fi: Lämmitys
-  - id: kulutussahko
-    quantity: emissions
-    label:
-      fi: Kulutussähkö
   - id: jatteiden_kasittely
     quantity: emissions
     label:
       fi: Jätteiden käsittely
+  - id: teollisuus
+    quantity: emissions
+    label:
+      fi: Teollisuus
   - id: f_kaasut
     quantity: emissions
     label:
       fi: F-kaasut
-  updated_at: '1755786091'
+  - id: kulutussahko
+    quantity: emissions
+    label:
+      fi: Kulutussähkö
+  updated_at: '1755796496'
   units:
+    liikenne: Mt/a
+    f_kaasut: Mt/a
+    jatteiden_kasittely: Mt/a
     kulutussahko: Mt/a
     teollisuus: Mt/a
-    f_kaasut: Mt/a
-    liikenne: Mt/a
-    maatalous: Mt/a
-    jatteiden_kasittely: Mt/a
     lammitys: Mt/a
+    maatalous: Mt/a
