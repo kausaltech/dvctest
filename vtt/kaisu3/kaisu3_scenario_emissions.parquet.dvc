@@ -1,6 +1,6 @@
 outs:
-- md5: 9d4d8963041945d55322f97ed1b231b0
-  size: 13804
+- md5: 5cc869d57c70ab82cd316ab6389d13cf
+  size: 12792
   hash: md5
   path: kaisu3_scenario_emissions.parquet
 meta:
@@ -11,51 +11,46 @@ meta:
     fi: 'kulutussahko - Metric: Kulutussähkö - Kaisu3 sector: 1A1 Energiateollisuus
       - Scenario: WEM - Puolet energiateollisuudesta ja muista sektoreista (1A1, 1A4,
       1A5)<br/>lammitys - Metric: Lämmitys - Kaisu3 sector: 1A1 Energiateollisuus
-      - Scenario: WEM - Data alunperin Taulukko G-1. https://publications.vtt.fi/pdf/technology/2025/KEITO-keskipitkan_aikavalin_vaikutusarviot_VTT%20Technology_LUONNOS_010725.pdf<br/>rakennusten_lammitys
-      - Metric: Rakennusten lämmitys - Kaisu3 sector: 1A2 Teollisuus ja rakentaminen
-      - Scenario: WEM - Luokitusta justeerattu täällä https://docs.google.com/spreadsheets/d/1q9kAAu0Qo27e6hneQ1gB_043sq3ZWBgFcimcnun_vZA/edit#gid=0<br/>kulutussahko
+      - Scenario: WEM - Data alunperin Taulukko G-1. https://publications.vtt.fi/pdf/technology/2025/KEITO-keskipitkan_aikavalin_vaikutusarviot_VTT%20Technology_LUONNOS_010725.pdf<br/>teollisuus
+      - Metric: Teollisuus - Kaisu3 sector: 1A2 Teollisuus ja rakentaminen - Scenario:
+      WEM - Luokitusta justeerattu täällä https://docs.google.com/spreadsheets/d/1q9kAAu0Qo27e6hneQ1gB_043sq3ZWBgFcimcnun_vZA/edit#gid=0<br/>kulutussahko
       - Metric: Kulutussähkö - Kaisu3 sector: 1A1 Energiateollisuus - Scenario: WAM
       - Puolet energiateollisuudesta ja muista sektoreista (1A1, 1A4, 1A5)'
   metrics:
-  - id: jatteiden_kasittely
-    quantity: emissions
-    label:
-      fi: Jätteiden käsittely
-  - id: maatalous
-    quantity: emissions
-    label:
-      fi: Maatalous
-  - id: kulutussahko
-    quantity: emissions
-    label:
-      fi: Kulutussähkö
-  - id: liikenne
-    quantity: emissions
-    label:
-      fi: Liikenne
-  - id: f_kaasut
-    quantity: emissions
-    label:
-      fi: F-kaasut
-  - id: lammitys
-    quantity: emissions
-    label:
-      fi: Lämmitys
-  - id: rakennusten_lammitys
-    quantity: emissions
-    label:
-      fi: Rakennusten lämmitys
   - id: teollisuus
     quantity: emissions
     label:
       fi: Teollisuus
-  updated_at: '1755785465'
+  - id: maatalous
+    quantity: emissions
+    label:
+      fi: Maatalous
+  - id: liikenne
+    quantity: emissions
+    label:
+      fi: Liikenne
+  - id: lammitys
+    quantity: emissions
+    label:
+      fi: Lämmitys
+  - id: kulutussahko
+    quantity: emissions
+    label:
+      fi: Kulutussähkö
+  - id: jatteiden_kasittely
+    quantity: emissions
+    label:
+      fi: Jätteiden käsittely
+  - id: f_kaasut
+    quantity: emissions
+    label:
+      fi: F-kaasut
+  updated_at: '1755786091'
   units:
-    liikenne: Mt/a
-    lammitys: Mt/a
-    jatteiden_kasittely: Mt/a
-    rakennusten_lammitys: Mt/a
-    f_kaasut: Mt/a
     kulutussahko: Mt/a
-    maatalous: Mt/a
     teollisuus: Mt/a
+    f_kaasut: Mt/a
+    liikenne: Mt/a
+    maatalous: Mt/a
+    jatteiden_kasittely: Mt/a
+    lammitys: Mt/a
