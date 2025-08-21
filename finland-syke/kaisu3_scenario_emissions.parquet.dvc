@@ -1,0 +1,62 @@
+outs:
+- md5: f6385cf7fdbbabcaeae46f46e4a35d62
+  size: 13375
+  hash: md5
+  path: kaisu3_scenario_emissions.parquet
+meta:
+  name:
+    fi: Kaisu3 scenario emissions
+  identifier: kaisu3_scenario_emissions
+  metrics:
+  - id: ippu
+    quantity: emissions
+    label:
+      fi: IPPU
+  - id: transport
+    quantity: emissions
+    label:
+      fi: Transport
+  - id: agriculture
+    quantity: emissions
+    label:
+      fi: Agriculture
+  - id: fuel_evaporation
+    quantity: emissions
+    label:
+      fi: Fuel evaporation
+  - id: other_fuel_use
+    quantity: emissions
+    label:
+      fi: Other fuel use
+  - id: waste_management
+    quantity: emissions
+    label:
+      fi: Waste management
+  - id: other_sectors
+    quantity: emissions
+    label:
+      fi: Other sectors
+  - id: industry
+    quantity: emissions
+    label:
+      fi: Industry
+  - id: f_gases
+    quantity: emissions
+    label:
+      fi: F gases
+  - id: energy_production
+    quantity: emissions
+    label:
+      fi: Energy production
+  updated_at: '1755757825'
+  units:
+    ippu: kt/a
+    f_gases: kt/a
+    energy_production: kt/a
+    fuel_evaporation: kt/a
+    waste_management: kt/a
+    agriculture: kt/a
+    other_sectors: kt/a
+    transport: kt/a
+    industry: kt/a
+    other_fuel_use: kt/a
