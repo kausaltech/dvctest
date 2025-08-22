@@ -1,5 +1,5 @@
 outs:
-- md5: 4c5d943da3bc4d6f488bc4d55ed26fef
+- md5: 29e3a587a62dcc6e80819d70efd01a75
   size: 4186
   hash: md5
   path: vihrean_sahkon_indeksi.parquet
@@ -12,6 +12,6 @@ meta:
     quantity: ratio
     label:
       fi: Vihreä sähkö päästötöntä
-  updated_at: '1755848392'
+  updated_at: '1755848521'
   units:
     vihrea_sahko_paastotonta: dimensionless
