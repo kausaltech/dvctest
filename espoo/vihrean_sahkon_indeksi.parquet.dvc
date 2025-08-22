@@ -1,0 +1,17 @@
+outs:
+- md5: ba7a2803f30847aa32743550475c92fc
+  size: 4089
+  hash: md5
+  path: vihrean_sahkon_indeksi.parquet
+meta:
+  name:
+    fi: Vihreän sähkön indeksi
+  identifier: vihrean_sahkon_indeksi
+  metrics:
+  - id: vihrean_sahkon_indeksi
+    quantity: ratio
+    label:
+      fi: Vihreän sähkön indeksi
+  updated_at: '1755839171'
+  units:
+    vihrean_sahkon_indeksi: dimensionless
