@@ -1,6 +1,6 @@
 outs:
-- md5: 2019b4a6d416e1aac759c20e853f910c
-  size: 13583
+- md5: ec6c8b13e8741fc1d856021adce495bb
+  size: 17104
   hash: md5
   path: kaisu3_scenario_emissions.parquet
 meta:
@@ -17,12 +17,11 @@ meta:
       - Metric: Kulutussähkö - Kaisu3 sector: 1A1 Energiateollisuus - Scenario: WAM
       - Puolet energiateollisuudesta ja muista sektoreista (1A1, 1A4, 1A5)<br/>kulutussahko
       - Metric: Kulutussähkö - Kaisu3 sector: 1A1 Energiateollisuus - Scenario: WAM-impakti
-      - WAM-impakti = WAM - WEM'
+      - WAM-impakti = WAM - WEM<br/>metsamaa_ja_puutuotteet - Metric: Metsämaa ja
+      puutuotteet - Kaisu3 sector: Metsämaa ja puutuotteet - Scenario: WEM - Kuva
+      4. Energia- ja ilmastostrategian luonnos 4.7.2025. Päästöt on mitattu millimetreinä
+      kuvasta, kun 100 Mt/a on 81 mm.'
   metrics:
-  - id: maatalous
-    quantity: emissions
-    label:
-      fi: Maatalous
   - id: liikenne
     quantity: emissions
     label:
@@ -31,10 +30,22 @@ meta:
     quantity: emissions
     label:
       fi: Lämmitys
-  - id: jatteiden_kasittely
+  - id: kulutussahko
     quantity: emissions
     label:
-      fi: Jätteiden käsittely
+      fi: Kulutussähkö
+  - id: maatalous
+    quantity: emissions
+    label:
+      fi: Maatalous
+  - id: ccs_ja_beccs
+    quantity: emissions
+    label:
+      fi: CCS ja BECCS
+  - id: metsamaa_ja_puutuotteet
+    quantity: emissions
+    label:
+      fi: Metsämaa ja puutuotteet
   - id: teollisuus
     quantity: emissions
     label:
@@ -43,16 +54,23 @@ meta:
     quantity: emissions
     label:
       fi: F-kaasut
-  - id: kulutussahko
+  - id: muu_lulucf
     quantity: emissions
     label:
-      fi: Kulutussähkö
-  updated_at: '1755796496'
+      fi: Muu LULUCF
+  - id: jatteiden_kasittely
+    quantity: emissions
+    label:
+      fi: Jätteiden käsittely
+  updated_at: '1755880205'
   units:
-    liikenne: Mt/a
-    f_kaasut: Mt/a
+    maatalous: Mt/a
     jatteiden_kasittely: Mt/a
     kulutussahko: Mt/a
     teollisuus: Mt/a
     lammitys: Mt/a
-    maatalous: Mt/a
+    muu_lulucf: Mt/a
+    f_kaasut: Mt/a
+    metsamaa_ja_puutuotteet: Mt/a
+    liikenne: Mt/a
+    ccs_ja_beccs: Mt/a
