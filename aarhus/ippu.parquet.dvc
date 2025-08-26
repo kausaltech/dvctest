@@ -1,6 +1,6 @@
 outs:
-- md5: 5b4b1ec40e5d9de267de753c660aab91
-  size: 3564
+- md5: a5a7e8b4284784a246dbd94535db7926
+  size: 3685
   hash: md5
   path: ippu.parquet
 meta:
