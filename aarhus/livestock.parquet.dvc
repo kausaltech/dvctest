@@ -1,6 +1,6 @@
 outs:
-- md5: bce75134edf836bf54e98e5ebc87687c
-  size: 5308
+- md5: fb48a840d89797b8cf452b33b5d014a0
+  size: 6576
   hash: md5
   path: livestock.parquet
 meta:
@@ -11,9 +11,13 @@ meta:
   - id: emission_factor
     label:
       en: Emission Factor
+  - id: emissions
+    label:
+      en: Emissions
   - id: number
     label:
       en: Number
   units:
-    number: count
+    emissions: t/a
     emission_factor: t/count/a
+    number: count
