@@ -1,6 +1,6 @@
 outs:
-- md5: 543cc938100865d9e579b1e2e32ac4f3
-  size: 3823
+- md5: 8e67713f8a017a240d52b1a28c190bf4
+  size: 3906
   hash: md5
   path: waste.parquet
 meta:
