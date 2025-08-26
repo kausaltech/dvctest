@@ -1,6 +1,6 @@
 outs:
-- md5: 8430d0cf5b600bf82bdd3855999ea003
-  size: 5161
+- md5: 2bc096b16f56135a9312a67cdbfb262a
+  size: 5285
   hash: md5
   path: land.parquet
 meta:
@@ -15,5 +15,5 @@ meta:
     label:
       en: Emission Factor
   units:
-    area: ha
     emission_factor: t/ha/a
+    area: ha
