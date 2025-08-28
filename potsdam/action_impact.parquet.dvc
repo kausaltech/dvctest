@@ -1,6 +1,6 @@
 outs:
-- md5: 5860c2daf184be691a06f2ccae4ca6db
-  size: 8287
+- md5: 7dd11dba2fe13b2f4ad054636065bde1
+  size: 9181
   hash: md5
   path: action_impact.parquet
 meta:
@@ -9,14 +9,19 @@ meta:
   identifier: action_impact
   description:
     de: 'action_impact - Metric: Action impact - Decision: district_heating_until_2030
-      - Reduces district heating emission factor<br/>action_impact - Metric: Action
-      impact - Decision: district_heating_2030_2045 - Reduces district heating emission
-      factor<br/>action_impact - Metric: Action impact - Decision: re_expansion_masterplan_2045
-      - Reduces local heating emission factor<br/>action_impact - Metric: Action impact
-      - Decision: re_expansion_masterplan_kwp - Reduces local heating emission factor<br/>action_impact
-      - Metric: Action impact - Decision: district_heating_kwp_expansion_areas - Reduces
-      district heating use<br/>action_impact - Metric: Action impact - Decision: district_heating_kwp_test_areas
-      - Reduces district heating use<br/>action_impact - Metric: Action impact - Decision:
+      - Reduces district heating emission factor. Data from https://docs.google.com/spreadsheets/d/1pW5Un-rUGLyM8FbMdsRELq4W9Q_ZNx_b/edit?gid=1524147948#gid=1524147948<br/>action_impact
+      - Metric: Action impact - Decision: district_heating_2030_2040 - Reduces district
+      heating emission factor<br/>action_impact - Metric: Action impact - Decision:
+      district_heating_2040_2045 - Reduces district heating emission factor<br/>action_impact
+      - Metric: Action impact - Decision: district_heating_2045_ - Reduces district
+      heating emission factor<br/>action_impact - Metric: Action impact - Decision:
+      re_expansion_masterplan_2045 - Reduces local heating emission factor<br/>action_impact
+      - Metric: Action impact - Decision: re_expansion_masterplan_kwp - Reduces local
+      heating emission factor<br/>action_impact - Metric: Action impact - Decision:
+      district_heating_kwp_expansion_areas - Reduces district heating use<br/>action_impact
+      - Metric: Action impact - Decision: district_heating_kwp_test_areas - Reduces
+      district heating use<br/>action_impact - Metric: Action impact - Decision: district_heating_reduction_renovation
+      - Reduces local heating use<br/>action_impact - Metric: Action impact - Decision:
       decentralized_heat_reduction_replacement - Reduces local heating use<br/>action_impact
       - Metric: Action impact - Decision: decentralized_heat_reduction_renovation
       - Reduces local heating use<br/>action_impact - Metric: Action impact - Decision:
@@ -26,16 +31,15 @@ meta:
       - Reduces electricity emission factor<br/>action_impact - Metric: Action impact
       - Decision: electricity_consumption_reduction - Reduces electricity use<br/>action_impact
       - Metric: Action impact - Decision: improved_federal_grid_mix - Reduces electricity
-      emission factor<br/>action_impact - Metric: Action impact - Decision: re_electricity_emobility
+      emission factor<br/>action_impact - Metric: Action impact - Decision: fossil_fuel_replacement
       - Reduces fossil transport fuel emission factor<br/>action_impact - Metric:
-      Action impact - Decision: fossil_fuel_replacement - Reduces fossil transport
-      fuel emission factor<br/>action_impact - Metric: Action impact - Decision: local_transport_energy_reduction
-      - Reduces fossil transport fuel use'
+      Action impact - Decision: local_transport_energy_reduction - Reduces fossil
+      transport fuel use'
   metrics:
   - id: action_impact
     quantity: emissions
     label:
       de: Action impact
-  updated_at: '1755498361'
+  updated_at: '1756402764'
   units:
     action_impact: kt/a
