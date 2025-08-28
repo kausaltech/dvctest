@@ -1,6 +1,6 @@
 outs:
-- md5: 5a7e3546a68bde9e16048300400f85e3
-  size: 3762
+- md5: 088641e1e3f480980734dbe9d3c9903d
+  size: 4225
   hash: md5
   path: energieanteile_der_verbesserung.parquet
 meta:
@@ -9,12 +9,13 @@ meta:
   identifier: energieanteile_der_verbesserung
   description:
     de: 'energieanteile - Metric: Energieanteile - Energietrager: benzin_fossil -
-      Used to split the impacts of actions into different energy carriers'
+      Used to split the impacts of actions into different energy carriers<br/>energieanteile
+      - Metric: Energieanteile - Energietrager: diesel_fossil - Data from https://docs.google.com/spreadsheets/d/1pW5Un-rUGLyM8FbMdsRELq4W9Q_ZNx_b/edit?gid=1524147948#gid=1524147948'
   metrics:
   - id: energieanteile
     quantity: fraction
     label:
       de: Energieanteile
-  updated_at: '1755498370'
+  updated_at: '1756402773'
   units:
     energieanteile: dimensionless
