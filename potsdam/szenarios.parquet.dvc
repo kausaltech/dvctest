@@ -1,0 +1,22 @@
+outs:
+- md5: 69583bfe6f7cf6f49a341c9cc387e1e7
+  size: 10432
+  hash: md5
+  path: szenarios.parquet
+meta:
+  name:
+    de: szenarios
+  identifier: szenarios
+  metrics:
+  - id: emissions
+    quantity: emissions
+    label:
+      de: Emissions
+  - id: energy
+    quantity: energy
+    label:
+      de: Energy
+  updated_at: '1756359812'
+  units:
+    energy: MWh/a
+    emissions: t/a
