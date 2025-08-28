@@ -1,6 +1,6 @@
 outs:
-- md5: 7dd11dba2fe13b2f4ad054636065bde1
-  size: 9181
+- md5: 0ee30b7f2e501ba970f3fff599c2c093
+  size: 9209
   hash: md5
   path: action_impact.parquet
 meta:
@@ -13,16 +13,16 @@ meta:
       - Metric: Action impact - Decision: district_heating_2030_2040 - Reduces district
       heating emission factor<br/>action_impact - Metric: Action impact - Decision:
       district_heating_2040_2045 - Reduces district heating emission factor<br/>action_impact
-      - Metric: Action impact - Decision: district_heating_2045_ - Reduces district
+      - Metric: Action impact - Decision: local_heating_networks_2045 - Reduces district
       heating emission factor<br/>action_impact - Metric: Action impact - Decision:
       re_expansion_masterplan_2045 - Reduces local heating emission factor<br/>action_impact
       - Metric: Action impact - Decision: re_expansion_masterplan_kwp - Reduces local
       heating emission factor<br/>action_impact - Metric: Action impact - Decision:
       district_heating_kwp_expansion_areas - Reduces district heating use<br/>action_impact
       - Metric: Action impact - Decision: district_heating_kwp_test_areas - Reduces
-      district heating use<br/>action_impact - Metric: Action impact - Decision: district_heating_reduction_renovation
+      district heating use<br/>action_impact - Metric: Action impact - Decision: decentralized_heat_reduction_replacement
       - Reduces local heating use<br/>action_impact - Metric: Action impact - Decision:
-      decentralized_heat_reduction_replacement - Reduces local heating use<br/>action_impact
+      district_heating_reduction_renovation - Reduces local heating use<br/>action_impact
       - Metric: Action impact - Decision: decentralized_heat_reduction_renovation
       - Reduces local heating use<br/>action_impact - Metric: Action impact - Decision:
       pv_rooftop_expansion - Reduces electricity emission factor<br/>action_impact
@@ -40,6 +40,6 @@ meta:
     quantity: emissions
     label:
       de: Action impact
-  updated_at: '1756402764'
+  updated_at: '1756403436'
   units:
     action_impact: kt/a
