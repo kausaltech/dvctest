@@ -1,0 +1,19 @@
+outs:
+- md5: 240aae9fb215ee0d33e97706eeb0396e
+  size: 6479
+  hash: md5
+  path: actions.parquet
+meta:
+  name:
+    en: Actions
+  identifier: actions
+  metrics:
+  - id: currency
+    label:
+      en: Currency
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t_co2e/a
+    currency: EUR/a
