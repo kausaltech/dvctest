@@ -1,5 +1,5 @@
 outs:
-- md5: 0ee30b7f2e501ba970f3fff599c2c093
+- md5: 3f4a6c73df08df63e908937ab8ae21fa
   size: 9209
   hash: md5
   path: action_impact.parquet
@@ -40,6 +40,6 @@ meta:
     quantity: emissions
     label:
       de: Action impact
-  updated_at: '1756403436'
+  updated_at: '1756446214'
   units:
     action_impact: kt/a
