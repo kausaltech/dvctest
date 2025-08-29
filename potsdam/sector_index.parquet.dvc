@@ -1,0 +1,20 @@
+outs:
+- md5: 73238ff478c63b958972ebec9f9c306c
+  size: 4485
+  hash: md5
+  path: sector_index.parquet
+meta:
+  name:
+    de: Sector index
+  identifier: sector_index
+  description:
+    de: 'sector_index - Metric: Sector index - Energietrager: Strom - Sector: Strom
+      - Data from https://docs.google.com/spreadsheets/d/1pW5Un-rUGLyM8FbMdsRELq4W9Q_ZNx_b/edit?gid=1524147948#gid=1524147948'
+  metrics:
+  - id: sector_index
+    quantity: ratio
+    label:
+      de: Sector index
+  updated_at: '1756450043'
+  units:
+    sector_index: dimensionless
