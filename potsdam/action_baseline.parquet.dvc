@@ -1,6 +1,6 @@
 outs:
-- md5: 0b5452504114707dfa389538a1269587
-  size: 3365
+- md5: 4acc5703c21624c8784d11ba3cc57879
+  size: 2759
   hash: md5
   path: action_baseline.parquet
 meta:
@@ -8,12 +8,12 @@ meta:
     de: Action baseline
   identifier: action_baseline
   description:
-    de: 'baseline - Metric: Baseline - Decision: baseline - Used when no actions available'
+    de: 'baseline - Metric: Baseline - Used when no actions available'
   metrics:
   - id: baseline
     quantity: emissions
     label:
       de: Baseline
-  updated_at: '1756402769'
+  updated_at: '1756620524'
   units:
     baseline: kt/a
