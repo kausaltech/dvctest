@@ -1,6 +1,6 @@
 outs:
-- md5: 240aae9fb215ee0d33e97706eeb0396e
-  size: 6479
+- md5: 95db4c83055155eb02684cb35c1ff0a6
+  size: 6521
   hash: md5
   path: actions.parquet
 meta:
@@ -15,5 +15,5 @@ meta:
     label:
       en: Emissions
   units:
-    emissions: t_co2e/a
     currency: EUR/a
+    emissions: t_co2e/a
