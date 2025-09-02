@@ -1,0 +1,17 @@
+outs:
+- md5: 6e2d2a5a7fe6fbd81434c58b4643e311
+  size: 6344
+  hash: md5
+  path: energiepreis.parquet
+meta:
+  name:
+    de: Energiepreis
+  identifier: energiepreis
+  metrics:
+  - id: energiepreis
+    quantity: unit_price
+    label:
+      de: Energiepreis
+  updated_at: '1756792806'
+  units:
+    energiepreis: EUR/MWh
