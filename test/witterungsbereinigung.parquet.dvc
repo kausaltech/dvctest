@@ -1,6 +1,6 @@
 outs:
-- md5: 0054b684759c9b625487e978c592dc95
-  size: 3953
+- md5: c13dd0eaf83d824427d38b70a825090e
+  size: 4137
   hash: md5
   path: witterungsbereinigung.parquet
 meta:
@@ -15,6 +15,6 @@ meta:
     quantity: ratio
     label:
       de: Witterungsbereinigung
-  updated_at: '1757520429'
+  updated_at: '1757533838'
   units:
     witterungsbereinigung: dimensionless
