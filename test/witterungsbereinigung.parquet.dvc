@@ -1,0 +1,20 @@
+outs:
+- md5: 0054b684759c9b625487e978c592dc95
+  size: 3953
+  hash: md5
+  path: witterungsbereinigung.parquet
+meta:
+  name:
+    de: Witterungsbereinigung
+  identifier: witterungsbereinigung
+  description:
+    de: 'witterungsbereinigung - Metric: Witterungsbereinigung - Sector: Wärme - Data
+      from https://docs.google.com/spreadsheets/d/1amDCABVyFZzHP5Pe9-qeWE76WTe_qsk5p23V0DIZN-w/edit?gid=191350030#gid=191350030&range=E79'
+  metrics:
+  - id: witterungsbereinigung
+    quantity: ratio
+    label:
+      de: Witterungsbereinigung
+  updated_at: '1757520429'
+  units:
+    witterungsbereinigung: dimensionless
