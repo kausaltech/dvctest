@@ -1,0 +1,17 @@
+outs:
+- md5: adf7abd2f52fc2782e7cb3452d396066
+  size: 6126
+  hash: md5
+  path: emissionsszenarien.parquet
+meta:
+  name:
+    de: Emissionsszenarien
+  identifier: emissionsszenarien
+  metrics:
+  - id: emissionen
+    quantity: emissionen_ta
+    label:
+      de: Emissionen
+  updated_at: '1757762611'
+  units:
+    emissionen: t/a
