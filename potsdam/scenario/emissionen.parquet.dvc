@@ -1,6 +1,6 @@
 outs:
-- md5: 2da0201aa218febbf1a204106cbaa50c
-  size: 5318
+- md5: 05ed90c9787aa0ad170baa301e4aec1d
+  size: 5317
   hash: md5
   path: emissionen.parquet
 meta:
@@ -9,9 +9,9 @@ meta:
   identifier: emissionen
   metrics:
   - id: emissionen
-    quantity: emissionen
+    quantity: emissions
     label:
       de: Emissionen
-  updated_at: '1757737184'
+  updated_at: '1757745237'
   units:
     emissionen: t/a
