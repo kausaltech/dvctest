@@ -1,5 +1,5 @@
 outs:
-- md5: ed8d3571669f7bdc2d1b455c767a3275
+- md5: 7a9d28d36cd8a03cd4c021406db57b4e
   size: 7859
   hash: md5
   path: trend_und_masterplan_szenarien.parquet
@@ -8,15 +8,15 @@ meta:
     de: Trend und Masterplan Szenarien
   identifier: trend_und_masterplan_szenarien
   metrics:
-  - id: emissionen
-    quantity: emissions
-    label:
-      de: Emissionen
   - id: energie
     quantity: energy
     label:
       de: Energie
-  updated_at: '1757748397'
+  - id: emissionen
+    quantity: emissions
+    label:
+      de: Emissionen
+  updated_at: '1757748599'
   units:
     emissionen: t/a
     energie: MWh/a
