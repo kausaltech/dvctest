@@ -1,0 +1,17 @@
+outs:
+- md5: e98b6143bd7300c60fd59f99ce9797f5
+  size: 6049
+  hash: md5
+  path: energieszenarien.parquet
+meta:
+  name:
+    de: Energieszenarien
+  identifier: energieszenarien
+  metrics:
+  - id: energie
+    quantity: energie_mwha
+    label:
+      de: Energie
+  updated_at: '1757762596'
+  units:
+    energie: MWh/a
