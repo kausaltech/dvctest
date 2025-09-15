@@ -73,3 +73,4 @@
 /biogas_processing_indirect_emissions.parquet
 /wastewater_treatment_indirect_emissions.parquet
 /transportation_demand_goals.parquet
+/building_floor_area_goals.parquet

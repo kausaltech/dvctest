@@ -1,0 +1,15 @@
+outs:
+- md5: c30a29d0e99d858d7e52217c73a4894e
+  size: 3186
+  hash: md5
+  path: building_floor_area_goals.parquet
+meta:
+  name:
+    en: Building Floor Area Goals
+  identifier: building_floor_area_goals
+  metrics:
+  - id: floor_area
+    label:
+      en: Floor Area
+  units:
+    floor_area: m**2/cap
