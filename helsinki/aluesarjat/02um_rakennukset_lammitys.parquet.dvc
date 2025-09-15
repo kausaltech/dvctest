@@ -1,9 +1,8 @@
 outs:
-- md5: de4ff483f29701066bba6add86bca8e4
-  size: 511973
+- md5: 2f5e61fe47ded62d74b0d2b0775a3abf
+  size: 511345
   hash: md5
   path: 02um_rakennukset_lammitys.parquet
 meta:
   url_description: 
     https://stat.hel.fi/pxweb/fi/Aluesarjat/Aluesarjat__asu__rakan/alu_rakan_005w.px
-  quote_char: '"'
