@@ -1,6 +1,6 @@
 outs:
-- md5: 4d83444bbfaf8f596a6eded78c4eb99a
-  size: 11895
+- md5: 90deed6af8a2b1ae487ba7abf63d336f
+  size: 11897
   hash: md5
   path: onroad_transportation.parquet
 meta:
@@ -19,5 +19,5 @@ meta:
       en: Mileage
   units:
     emissions: t/a
-    mileage: km/a
     energy_factor: TJ/km
+    mileage: km/a
