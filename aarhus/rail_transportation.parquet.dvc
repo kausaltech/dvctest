@@ -1,6 +1,6 @@
 outs:
-- md5: 7fe2a8dfb94b8689bd40f5d2e0161b03
-  size: 6394
+- md5: 07c990a0723bf9d01f2ddf2eced16bdb
+  size: 7683
   hash: md5
   path: rail_transportation.parquet
 meta:
@@ -8,6 +8,9 @@ meta:
     en: Rail Transportation
   identifier: rail_transportation
   metrics:
+  - id: emissions
+    label:
+      en: Emissions
   - id: energy_factor
     label:
       en: Energy Factor
@@ -15,5 +18,6 @@ meta:
     label:
       en: Mileage
   units:
-    energy_factor: TJ/km
+    emissions: t/a
     mileage: km/a
+    energy_factor: TJ/km
