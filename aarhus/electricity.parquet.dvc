@@ -1,6 +1,6 @@
 outs:
-- md5: 8be3d6c9605a7e74cc2937c694aaa87d
-  size: 4766
+- md5: 29decdae07282fb468050c5f74dd573e
+  size: 4817
   hash: md5
   path: electricity.parquet
 meta:
