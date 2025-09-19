@@ -1,6 +1,6 @@
 outs:
-- md5: 97c3b461455a4c33dbab5e82293d4c43
-  size: 4372
+- md5: f7c078fb03ccd7675983423d524cc5f0
+  size: 5684
   hash: md5
   path: manufacturing.parquet
 meta:
@@ -8,8 +8,12 @@ meta:
     en: Manufacturing
   identifier: manufacturing
   metrics:
+  - id: emissions
+    label:
+      en: Emissions
   - id: energy
     label:
       en: Energy
   units:
     energy: TJ/a
+    emissions: t/a
