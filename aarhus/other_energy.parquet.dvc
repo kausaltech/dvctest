@@ -1,6 +1,6 @@
 outs:
-- md5: 98f26fbf9a831f7e7995d4a2bfc3cd27
-  size: 4445
+- md5: 943c46f7e457277d5d6df31fa6eb22db
+  size: 4510
   hash: md5
   path: other_energy.parquet
 meta:
