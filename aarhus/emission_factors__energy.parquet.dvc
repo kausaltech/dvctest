@@ -1,6 +1,6 @@
 outs:
-- md5: 41904c2e48f5b930fa464cc442075921
-  size: 4704
+- md5: 2aed0f09123bb08e4204141996d02847
+  size: 4902
   hash: md5
   path: emission_factors__energy.parquet
 meta:
