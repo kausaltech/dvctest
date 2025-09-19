@@ -1,0 +1,15 @@
+outs:
+- md5: b32726c55e71a55f717596aeeae2c712
+  size: 4254
+  hash: md5
+  path: transportation_actions.parquet
+meta:
+  name:
+    en: Transportation Actions
+  identifier: transportation_actions
+  metrics:
+  - id: mileage
+    label:
+      en: Mileage
+  units:
+    mileage: km/a
