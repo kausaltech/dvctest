@@ -16,3 +16,4 @@
 /biogenic_shares.parquet
 /transportation_actions.parquet
 /gasoline_hybrid_shares.parquet
+/emission_factors__transportation.parquet
