@@ -1,0 +1,15 @@
+outs:
+- md5: 4f7dd99153261bd895c8458acfd3b832
+  size: 4138
+  hash: md5
+  path: ippu_actions.parquet
+meta:
+  name:
+    en: IPPU Actions
+  identifier: ippu_actions
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t/a
