@@ -19,3 +19,4 @@
 /emission_factors__transportation.parquet
 /energy_actions.parquet
 /afolu_actions.parquet
+/waste_actions.parquet
