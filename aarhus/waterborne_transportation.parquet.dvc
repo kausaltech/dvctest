@@ -1,6 +1,6 @@
 outs:
-- md5: 97051229ff3d0f2febd5c5473467f450
-  size: 6134
+- md5: ac90f8baf59c3d48df789e5b1f3ae5e5
+  size: 5988
   hash: md5
   path: waterborne_transportation.parquet
 meta:
@@ -15,5 +15,5 @@ meta:
     label:
       en: Energy
   units:
-    emissions: t/a
     energy: TJ/a
+    emissions: t/a
