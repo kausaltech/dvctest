@@ -1,0 +1,15 @@
+outs:
+- md5: 8318408648e68c47012ca2d5831eb9c5
+  size: 4303
+  hash: md5
+  path: energy_actions.parquet
+meta:
+  name:
+    en: Energy Actions
+  identifier: energy_actions
+  metrics:
+  - id: energy
+    label:
+      en: Energy
+  units:
+    energy: TJ/a
