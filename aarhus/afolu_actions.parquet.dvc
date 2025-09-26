@@ -1,6 +1,6 @@
 outs:
-- md5: b787bb8d51ea1584cf0f3e0045dacc5b
-  size: 4107
+- md5: 485727291f568da18b4c204d32de9241
+  size: 5908
   hash: md5
   path: afolu_actions.parquet
 meta:
@@ -8,8 +8,12 @@ meta:
     en: AFOLU Actions
   identifier: afolu_actions
   metrics:
+  - id: area
+    label:
+      en: Area
   - id: emissions
     label:
       en: Emissions
   units:
+    area: ha
     emissions: t/a
