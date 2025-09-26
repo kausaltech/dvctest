@@ -1,6 +1,6 @@
 outs:
-- md5: 8318408648e68c47012ca2d5831eb9c5
-  size: 4303
+- md5: d00345d417ee0baab6120100c61fc6af
+  size: 6356
   hash: md5
   path: energy_actions.parquet
 meta:
@@ -8,8 +8,12 @@ meta:
     en: Energy Actions
   identifier: energy_actions
   metrics:
+  - id: emissions
+    label:
+      en: Emissions
   - id: energy
     label:
       en: Energy
   units:
     energy: TJ/a
+    emissions: t/a
