@@ -1,19 +1,26 @@
 outs:
-- md5: cde19df777c0d336241772544dc36040
-  size: 3979
+- md5: 3116d2cfd586049c0d23bc78b0303491
+  size: 6632
   hash: md5
   path: stationary_energy_consumption.parquet
 meta:
   name:
     en: Stationary energy consumption
   identifier: stationary_energy_consumption
+  description:
+    en: 'electricity - Metric: Electricity - Energy carrier: Electricity - Emission
+      sectors: residential_energy - Site: Platte River Power Authority - Placeholder
+      data to be filled in by the city'
   metrics:
-  - id: electricity
-    label:
-      en: electricity
   - id: natural_gas
+    quantity: energy
     label:
-      en: natural gas
+      en: Natural gas
+  - id: electricity
+    quantity: energy
+    label:
+      en: Electricity
+  updated_at: '1758964352'
   units:
-    electricity: kWh/a
     natural_gas: thm/a
+    electricity: kWh/a
