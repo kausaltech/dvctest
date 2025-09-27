@@ -1,0 +1,19 @@
+outs:
+- md5: 50a2f76019aa8c4cda38bfdcbc3ff120
+  size: 2735
+  hash: md5
+  path: technical_data.parquet
+meta:
+  name:
+    en: Technical data
+  identifier: technical_data
+  description:
+    en: 'ratio - Metric: ratio - Technical data to be used as zeros in the model'
+  metrics:
+  - id: ratio
+    quantity: ratio
+    label:
+      en: ratio
+  updated_at: '1758964406'
+  units:
+    ratio: dimensionless
