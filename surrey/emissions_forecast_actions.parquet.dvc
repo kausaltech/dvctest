@@ -1,6 +1,6 @@
 outs:
-- md5: 7a57b4c30fb0d459f70ba7211e194bec
-  size: 6860
+- md5: c2733b4f36c1d38c390c86a3a079f25c
+  size: 6858
   hash: md5
   path: emissions_forecast_actions.parquet
 meta:
