@@ -1,6 +1,6 @@
 outs:
-- md5: 9141392effe7998838e87ee638c7ec54
-  size: 18908
+- md5: 9ea478bdf202bbda0c91d61dc2314cdb
+  size: 18932
   hash: md5
   path: energy_vehicle_and_waste_actions.parquet
 meta:
@@ -8,42 +8,10 @@ meta:
     en: Energy, vehicle and waste actions
   identifier: energy_vehicle_and_waste_actions
   metrics:
-  - id: participation_smart_grid
-    quantity: ratio
-    label:
-      en: participation smart grid
   - id: reduce_transmission_distribution_losses
     quantity: ratio
     label:
       en: reduce transmission distribution losses
-  - id: longmont_power_renewables
-    quantity: emission_factor
-    label:
-      en: longmont power renewables
-  - id: smart_grid_improvement
-    quantity: ratio
-    label:
-      en: smart grid improvement
-  - id: multimodal_transportation_system
-    quantity: fraction
-    label:
-      en: multimodal transportation system
-  - id: efficiency_works_program
-    quantity: fraction
-    label:
-      en: efficiency works program
-  - id: replace_natural_gas_residential
-    quantity: energy
-    label:
-      en: replace natural gas residential
-  - id: increase_access_of_public_transit
-    quantity: number
-    label:
-      en: increase access of public transit
-  - id: leak_detection
-    quantity: emissions
-    label:
-      en: leak detection
   - id: longmont_power_renewables_additional
     quantity: emission_factor
     label:
@@ -52,22 +20,54 @@ meta:
     quantity: energy
     label:
       en: replace natural gas commercial
-  updated_at: '1759042102'
+  - id: smart_grid_improvement
+    quantity: ratio
+    label:
+      en: smart grid improvement
+  - id: participation_smart_grid
+    quantity: ratio
+    label:
+      en: participation smart grid
+  - id: efficiency_works_program
+    quantity: fraction
+    label:
+      en: efficiency works program
+  - id: replace_natural_gas_residential
+    quantity: energy
+    label:
+      en: replace natural gas residential
+  - id: longmont_power_renewables
+    quantity: emission_factor
+    label:
+      en: longmont power renewables
+  - id: increase_access_of_public_transit
+    quantity: number
+    label:
+      en: increase access of public transit
+  - id: multimodal_transportation_system
+    quantity: fraction
+    label:
+      en: multimodal transportation system
+  - id: leak_detection
+    quantity: emissions
+    label:
+      en: leak detection
+  updated_at: '1759048404'
   units:
-    leak_detection: t/a
-    last_mile_connections: '%'
-    participation_smart_grid: '%'
-    electric_vehicle_efficiency_trend: kWh/mi
-    multimodal_transportation_system: '%'
-    efficiency_works_program: '%'
-    replace_natural_gas_commercial: kthm/a
     increase_waste_diversion: '%'
     vmt_per_vehicle_trend: mi/v/a
-    increase_access_of_public_transit: trip/inhabitant/a
-    mpg_trend: mi/gal
     longmont_power_renewables_additional: t/MWh
+    leak_detection: t/a
+    replace_natural_gas_commercial: kthm/a
+    mpg_trend: mi/gal
+    multimodal_transportation_system: '%'
+    increase_access_of_public_transit: trip/inhabitant/a
+    electric_vehicle_efficiency_trend: kWh/mi
+    reduce_transmission_distribution_losses: '%'
+    participation_smart_grid: '%'
+    efficiency_works_program: '%'
     longmont_power_renewables: t/MWh
     vehicle_incentives: v
+    last_mile_connections: '%'
     replace_natural_gas_residential: kthm/a
     smart_grid_improvement: '%'
-    reduce_transmission_distribution_losses: '%'
