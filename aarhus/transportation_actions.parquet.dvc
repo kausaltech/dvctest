@@ -1,6 +1,6 @@
 outs:
-- md5: b93c0348fe779748db9d498be35da00d
-  size: 5914
+- md5: da2709ccb9920a99a98724e18bfc4e68
+  size: 5941
   hash: md5
   path: transportation_actions.parquet
 meta:
@@ -15,5 +15,5 @@ meta:
     label:
       en: Mileage
   units:
-    mileage: km/a
     energy: TJ/a
+    mileage: km/a
