@@ -1,0 +1,36 @@
+outs:
+- md5: 302c0cdf4992930269e051b64860f7c2
+  size: 9372
+  hash: md5
+  path: forestry_economics.parquet
+meta:
+  name:
+    en: Forestry economics
+  identifier: forestry_economics
+  description:
+    en: 'forestry_employees - Metric: Forestry employees - Economic sector: Metsätalous
+      - 1975: 48.2 - 1976: 42.6 - 1977: 40.8 - 1978: 38.4 - 1979: 43.1 - 1980: 45.7
+      - 1981: 43 - Työllisyys (tuhatta työntekijää)<br/>gross_output - Metric: Gross
+      output - Economic sector: Metsätalous - 1975: 2319 - 1976: 2240 - 1977: 2440
+      - 1978: 2490 - 1979: 3135 - 1980: 3337 - 1981: 3118 - Tuotos (miljoonaa euroa,
+      vuoden 2015 hinnoin)<br/>gross_value_added - Metric: Gross value added - Economic
+      sector: Metsätalous - 1975: 1903 - 1976: 1840 - 1977: 2003 - 1978: 2066 - 1979:
+      2611 - 1980: 2730 - 1981: 2467 - Arvonlisä (miljoonaa euroa, vuoden 2015 hinnoin)'
+  metrics:
+  - id: forestry_employees
+    quantity: employment
+    label:
+      en: Forestry employees
+  - id: gross_value_added
+    quantity: currency
+    label:
+      en: Gross value added
+  - id: gross_output
+    quantity: currency
+    label:
+      en: Gross output
+  updated_at: '1759404546'
+  units:
+    forestry_employees: kfte
+    gross_value_added: MEUR/a
+    gross_output: MEUR/a
