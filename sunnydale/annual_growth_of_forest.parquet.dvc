@@ -22,4 +22,4 @@ meta:
       fi: annual_growth_of_forest
   updated_at: '1745251948'
   units:
-    annual_growth_of_forest: Mm3_solid
+    annual_growth_of_forest: Mm3_solid/a
