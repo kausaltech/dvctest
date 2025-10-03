@@ -1,0 +1,17 @@
+outs:
+- md5: d7a88a767d66d559e2b60e407dce5b69
+  size: 3354
+  hash: md5
+  path: forest_income_fraction_by_stakeholder.parquet
+meta:
+  name:
+    fi: Forest income fraction by stakeholder
+  identifier: forest_income_fraction_by_stakeholder
+  metrics:
+  - id: fraction
+    quantity: fraction
+    label:
+      fi: fraction
+  updated_at: '1759499230'
+  units:
+    fraction: '%'
