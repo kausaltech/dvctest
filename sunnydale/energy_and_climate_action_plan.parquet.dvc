@@ -1,0 +1,71 @@
+outs:
+- md5: 5ee51a5451341c90876388189db21e40
+  size: 13241
+  hash: md5
+  path: energy_and_climate_action_plan.parquet
+meta:
+  name:
+    fi: Energy and climate action plan
+  identifier: energy_and_climate_action_plan
+  description:
+    fi: 'negatiivisten_paastojen_edistaminen - Metric: Negatiivisten päästöjen edistäminen
+      - 2030: -0.6 - 2035: -2.7 - 2040: -3 - 2055: -14 - Tiedot ovat heinäkuussa 2025
+      julkaistusta luonnoksesta Suomen energia- ja ilmastostrategiaksi.'
+  metrics:
+  - id: metsalannoituksen_edistaminen
+    quantity: emissions
+    label:
+      fi: Metsälannoituksen edistäminen
+  - id: metsatuhojen_ennaltaehkaisy
+    quantity: emissions
+    label:
+      fi: Metsätuhojen ennaltaehkäisy
+  - id: turvepeltojen_kosteikkotoimet
+    quantity: emissions
+    label:
+      fi: Turvepeltojen kosteikkotoimet
+  - id: maatalouden_toimet
+    quantity: emissions
+    label:
+      fi: Maatalouden toimet
+  - id: negatiivisten_paastojen_edistaminen
+    quantity: emissions
+    label:
+      fi: Negatiivisten päästöjen edistäminen
+  - id: metsaalan_lisaamistoimet
+    quantity: emissions
+    label:
+      fi: Metsäalan lisäämistoimet
+  - id: jatteenpolton_toimet
+    quantity: emissions
+    label:
+      fi: Jätteenpolton toimet
+  - id: liikennetoimet
+    quantity: emissions
+    label:
+      fi: Liikennetoimet
+  - id: erillislammitystoimet
+    quantity: emissions
+    label:
+      fi: Erillislämmitystoimet
+  - id: tyokonetoimet
+    quantity: emissions
+    label:
+      fi: Työkonetoimet
+  - id: metsanuudistustoimet
+    quantity: emissions
+    label:
+      fi: Metsänuudistustoimet
+  updated_at: '1759498920'
+  units:
+    metsanuudistustoimet: Mt/a
+    metsalannoituksen_edistaminen: Mt/a
+    jatteenpolton_toimet: Mt/a
+    erillislammitystoimet: Mt/a
+    liikennetoimet: Mt/a
+    turvepeltojen_kosteikkotoimet: Mt/a
+    tyokonetoimet: Mt/a
+    metsaalan_lisaamistoimet: Mt/a
+    maatalouden_toimet: Mt/a
+    metsatuhojen_ennaltaehkaisy: Mt/a
+    negatiivisten_paastojen_edistaminen: Mt/a
