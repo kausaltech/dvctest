@@ -1,0 +1,21 @@
+outs:
+- md5: 737ed71d9b837ca1e1ab594ee61d1074
+  size: 13718
+  hash: md5
+  path: wood_use.parquet
+meta:
+  name:
+    fi: wood_use
+  identifier: wood_use
+  description:
+    fi: 'volume - Maakunta: KOKO MAA - Käyttötarkoitus: Raakapuu yhteensä - 2018:
+      84382 - 2019: 81878 - 2020: 78321 - 2021: 85181 - 2022: 78563 - Metric: volume
+      - Haettu 2025-10-02 https://statdb.luke.fi/PxWeb/pxweb/fi/LUKE/LUKE__met__puukay/0100_puukay.px/table/tableViewLayout2/'
+  metrics:
+  - id: volume
+    quantity: volume
+    label:
+      fi: volume
+  updated_at: '1759462849'
+  units:
+    volume: km3_solid
