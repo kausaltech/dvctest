@@ -1,6 +1,6 @@
 outs:
-- md5: d7a88a767d66d559e2b60e407dce5b69
-  size: 3354
+- md5: 02d92a4fdba271d4cf97264fb4cf090c
+  size: 3381
   hash: md5
   path: forest_income_fraction_by_stakeholder.parquet
 meta:
@@ -12,6 +12,6 @@ meta:
     quantity: fraction
     label:
       fi: fraction
-  updated_at: '1759499230'
+  updated_at: '1759502764'
   units:
     fraction: '%'
