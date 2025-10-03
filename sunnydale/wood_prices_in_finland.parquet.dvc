@@ -1,0 +1,20 @@
+outs:
+- md5: e4a0c74466b926b5225a10d04ead1319
+  size: 9607
+  hash: md5
+  path: wood_prices_in_finland.parquet
+meta:
+  name:
+    fi: Wood prices in Finland
+  identifier: wood_prices_in_finland
+  description:
+    fi: 'unit_price - Puutavaralaji: YHTEENSÄ (puutavaralajit) - Kauppatapa: YHTEENSÄ
+      (kauppatavat) - Metric: unit_price - Data fetched 2025-10-03 https://statdb.luke.fi/PxWeb/pxweb/fi/LUKE/LUKE__met__teokau__v/0300_teokau.px/table/tableViewLayout2/'
+  metrics:
+  - id: unit_price
+    quantity: unit_price
+    label:
+      fi: unit_price
+  updated_at: '1759498773'
+  units:
+    unit_price: EUR/m**3
