@@ -1,6 +1,6 @@
 outs:
-- md5: 737ed71d9b837ca1e1ab594ee61d1074
-  size: 13718
+- md5: 33564fe0d4c4891443a3c6edebd7d97a
+  size: 13737
   hash: md5
   path: wood_use.parquet
 meta:
@@ -16,6 +16,6 @@ meta:
     quantity: volume
     label:
       fi: volume
-  updated_at: '1759462849'
+  updated_at: '1759468337'
   units:
     volume: km3_solid
