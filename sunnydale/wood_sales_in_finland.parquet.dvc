@@ -1,0 +1,20 @@
+outs:
+- md5: 12f40b2603c4d43a5cbc4bf0e16ec68a
+  size: 11483
+  hash: md5
+  path: wood_sales_in_finland.parquet
+meta:
+  name:
+    fi: Wood sales in Finland
+  identifier: wood_sales_in_finland
+  description:
+    fi: 'volume - Puutavaralaji: YHTEENSÄ (puutavaralajit) - Kauppatapa: YHTEENSÄ
+      (kauppatavat) - Metric: volume - Data fetched 2025-10-03 https://statdb.luke.fi/PxWeb/pxweb/fi/LUKE/LUKE__met__teokau__v/0300_teokau.px/table/tableViewLayout2/'
+  metrics:
+  - id: volume
+    quantity: volume
+    label:
+      fi: volume
+  updated_at: '1759498750'
+  units:
+    volume: km3_solid/a
