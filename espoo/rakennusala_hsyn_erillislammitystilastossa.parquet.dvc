@@ -1,0 +1,17 @@
+outs:
+- md5: 24b50b04e2d9d9465449724b0870a1c8
+  size: 5741
+  hash: md5
+  path: rakennusala_hsyn_erillislammitystilastossa.parquet
+meta:
+  name:
+    fi: Rakennusala HSY:n erillislämmitystilastossa
+  identifier: rakennusala_hsyn_erillislammitystilastossa
+  metrics:
+  - id: rakennusala
+    quantity: floor_area
+    label:
+      fi: Rakennusala
+  updated_at: '1759845701'
+  units:
+    rakennusala: m**2
