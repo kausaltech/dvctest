@@ -1,0 +1,17 @@
+outs:
+- md5: 4bdcb4e82411de10adb2fb2f943dcef4
+  size: 5378
+  hash: md5
+  path: lammitysenergia_hsyn_erillislammitystilastossa.parquet
+meta:
+  name:
+    fi: Lämmitysenergia HSY:n erillislämmitystilastossa
+  identifier: lammitysenergia_hsyn_erillislammitystilastossa
+  metrics:
+  - id: energia
+    quantity: energy
+    label:
+      fi: Energia
+  updated_at: '1759845556'
+  units:
+    energia: GWh/a
