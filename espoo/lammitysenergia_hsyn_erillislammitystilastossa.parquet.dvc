@@ -1,5 +1,5 @@
 outs:
-- md5: 4bdcb4e82411de10adb2fb2f943dcef4
+- md5: 1b786c6c4427f157696c1176adf03a56
   size: 5378
   hash: md5
   path: lammitysenergia_hsyn_erillislammitystilastossa.parquet
@@ -12,6 +12,6 @@ meta:
     quantity: energy
     label:
       fi: Energia
-  updated_at: '1759845556'
+  updated_at: '1759845706'
   units:
     energia: GWh/a
