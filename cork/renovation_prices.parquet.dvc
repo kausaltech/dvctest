@@ -1,0 +1,22 @@
+outs:
+- md5: d9d8f1b8e55aa45e1db55ad0e9960cb1
+  size: 4833
+  hash: md5
+  path: renovation_prices.parquet
+meta:
+  name:
+    en: Renovation prices
+  identifier: renovation_prices
+  description:
+    en: 'renovation_unit_price - Metric: Renovation unit price - Cost type: Renovation
+      CAPEX - Source: Codema. Dublin - EIB Funding Application CCC (€22m)<br/>renovation_unit_price
+      - Metric: Renovation unit price - Cost type: Public Building OPEX - Source:
+      CBRE Commercial Dublin - REAL'
+  metrics:
+  - id: renovation_unit_price
+    quantity: unit_price
+    label:
+      en: Renovation unit price
+  updated_at: '1759924576'
+  units:
+    renovation_unit_price: EUR/m**2
