@@ -1,5 +1,5 @@
 outs:
-- md5: 1db00e7129a710f51dbc07e8b0b3d0d2
+- md5: 1b97f57d6ff4db801f699f2f4501c80f
   size: 6818
   hash: md5
   path: cost_data.parquet
@@ -16,20 +16,20 @@ meta:
       - Construction_Price_Inflation<br/>inflation - Metric: Inflation - All data
       comes from CCC_NZC_IP_ISSUED_AUGUST_24.xlsx!Public_Buildings'
   metrics:
-  - id: residential_capex_opex_estimates
-    quantity: currency
-    label:
-      en: Residential CAPEX & OPEX Estimates
   - id: emissions_saved_residential_retrofit
     quantity: emissions
     label:
       en: Emissions saved Residential Retrofit
+  - id: residential_capex_opex_estimates
+    quantity: currency
+    label:
+      en: Residential CAPEX & OPEX Estimates
   - id: inflation
     quantity: rate
     label:
       en: Inflation
-  updated_at: '1759924679'
+  updated_at: '1759926167'
   units:
-    emissions_saved_residential_retrofit: t_CO2e
-    residential_capex_opex_estimates: €
     inflation: 1/a
+    residential_capex_opex_estimates: €
+    emissions_saved_residential_retrofit: t_co2e
