@@ -1,5 +1,5 @@
 outs:
-- md5: d9d8f1b8e55aa45e1db55ad0e9960cb1
+- md5: 2de6826f8e664af32bc0b89f38e95a78
   size: 4833
   hash: md5
   path: renovation_prices.parquet
@@ -17,6 +17,6 @@ meta:
     quantity: unit_price
     label:
       en: Renovation unit price
-  updated_at: '1759924576'
+  updated_at: '1759924675'
   units:
     renovation_unit_price: EUR/m**2
