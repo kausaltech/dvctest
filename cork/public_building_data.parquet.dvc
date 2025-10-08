@@ -1,5 +1,5 @@
 outs:
-- md5: d51bc212888e91251c727a3cc8904d50
+- md5: b6379189e6bad4e946d08f43782a1092
   size: 12338
   hash: md5
   path: public_building_data.parquet
@@ -54,6 +54,6 @@ meta:
     quantity: floor_area
     label:
       en: Floor area
-  updated_at: '1759924670'
+  updated_at: '1759926163'
   units:
     floor_area: m**2
