@@ -1,0 +1,59 @@
+outs:
+- md5: d51bc212888e91251c727a3cc8904d50
+  size: 12338
+  hash: md5
+  path: public_building_data.parquet
+meta:
+  name:
+    en: Public building data
+  identifier: public_building_data
+  description:
+    en: 'floor_area - Metric: Floor area - Building: Offices - Cork City Hall - Source:
+      CCC - C1<br/>floor_area - Metric: Floor area - Building: Leisure Centre - Churchfield
+      - Source: CCC - D1<br/>floor_area - Metric: Floor area - Building: Leisure Centre
+      - Bishopstown - Source: CCC - C1<br/>floor_area - Metric: Floor area - Building:
+      Leisure Centre - Douglas Swimming Pool - Source: CCC - C3<br/>floor_area - Metric:
+      Floor area - Building: Council Depot - Halfmoon Lane - Source: CCC - NA<br/>floor_area
+      - Metric: Floor area - Building: Museum - Fitzgeralds Park - Source: CCC - D1<br/>floor_area
+      - Metric: Floor area - Building: Library - Wilton, Bishopstown - Source: CCC
+      - C1<br/>floor_area - Metric: Floor area - Building: Cork City Archives - Source:
+      CCC - D1<br/>floor_area - Metric: Floor area - Building: Fire Station - Ballyvolane
+      - Source: CCC - NA<br/>floor_area - Metric: Floor area - Building: Library -
+      Grand Parade - Source: CCC - B2<br/>floor_area - Metric: Floor area - Building:
+      Library - Blackpool - Source: CCC - B2<br/>floor_area - Metric: Floor area -
+      Building: Library - Mayfield - Source: CCC - C3<br/>floor_area - Metric: Floor
+      area - Building: Library - Tory Top - Source: CCC - D2<br/>floor_area - Metric:
+      Floor area - Building: Clubhouse and Shop - Mahon Golfcourse - Source: CCC -
+      NA<br/>floor_area - Metric: Floor area - Building: Car Park - Blackash Park
+      & Ride - Source: CCC - NA<br/>floor_area - Metric: Floor area - Building: Keanes
+      Yard Depot - Ballinlough Road - Source: CCC - NA<br/>floor_area - Metric: Floor
+      area - Building: Council Parks Depot - Cloverhill Blackrock - Source: CCC -
+      NA<br/>floor_area - Metric: Floor area - Building: Library - Hollyhill - Source:
+      CCC - B2<br/>floor_area - Metric: Floor area - Building: Cork foyer, Assumption
+      Rd - Source: CCC - NA<br/>floor_area - Metric: Floor area - Building: Civil
+      Defence - Ballyvolane - Source: CCC - NA<br/>floor_area - Metric: Floor area
+      - Building: Library - Glanmire - Source: CCC - C2<br/>floor_area - Metric: Floor
+      area - Building: James Kenneally Sports Hall - Source: CCC - NA<br/>floor_area
+      - Metric: Floor area - Building: Housing Maintenance Department - Source: CCC
+      - NA<br/>floor_area - Metric: Floor area - Building: Council Offices - Innishmore
+      Lawn - Source: CCC - NA<br/>floor_area - Metric: Floor area - Building: Library
+      - Ballincollig - Source: CCC - B1<br/>floor_area - Metric: Floor area - Building:
+      Sports Centre - Churchfield - Source: CCC - NA<br/>floor_area - Metric: Floor
+      area - Building: Sustainable City Campus - Lee Road - Source: CCC - B2<br/>floor_area
+      - Metric: Floor area - Building: Project - Jack Lynch Tunnel - Source: CCC -
+      NA<br/>floor_area - Metric: Floor area - Building: Tramore Valley Park - Kinsale
+      Road - Source: CCC - NA<br/>floor_area - Metric: Floor area - Building: Fire
+      Station - Ballincollig - Source: CCC - NA<br/>floor_area - Metric: Floor area
+      - Building: Area Office - Blarney - Source: CCC - NA<br/>floor_area - Metric:
+      Floor area - Building: Turners Cross Community Centre - Source: CCC - NA<br/>floor_area
+      - Metric: Floor area - Building: Council Offices - Innishmore Lawn2 - Source:
+      CCC - NA<br/>floor_area - Metric: Floor area - Building: Pitch & Putt - Elton
+      Lawn - Source: CCC - NA'
+  metrics:
+  - id: floor_area
+    quantity: floor_area
+    label:
+      en: Floor area
+  updated_at: '1759924670'
+  units:
+    floor_area: m**2
