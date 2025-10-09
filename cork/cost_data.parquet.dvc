@@ -1,6 +1,6 @@
 outs:
-- md5: 1b97f57d6ff4db801f699f2f4501c80f
-  size: 6818
+- md5: 2caa3d94b6ba2b0975cecd02e4c6b734
+  size: 8029
   hash: md5
   path: cost_data.parquet
 meta:
@@ -11,11 +11,16 @@ meta:
     en: 'emissions_saved_residential_retrofit - Metric: Emissions saved Residential
       Retrofit - Source: Housing Calculation, Arup - To be used as a proxy for Emissions
       Improvement<br/>residential_capex_opex_estimates - Metric: Residential CAPEX
-      & OPEX Estimates - Source: Housing Calculation, Arup - Nominal Total<br/>inflation
-      - Metric: Inflation - Source: 2024-NTA-Inflation-Full-Report.pdf (nationaltransport.ie)
-      - Construction_Price_Inflation<br/>inflation - Metric: Inflation - All data
-      comes from CCC_NZC_IP_ISSUED_AUGUST_24.xlsx!Public_Buildings'
+      & OPEX Estimates - Source: Housing Calculation, Arup - Nominal Total<br/>reduction_efficiency
+      - Metric: Reduction efficiency - Calculated from residential costs and emission
+      raductions<br/>inflation - Metric: Inflation - Source: 2024-NTA-Inflation-Full-Report.pdf
+      (nationaltransport.ie) - Construction_Price_Inflation<br/>inflation - Metric:
+      Inflation - All data comes from CCC_NZC_IP_ISSUED_AUGUST_24.xlsx!Public_Buildings'
   metrics:
+  - id: inflation
+    quantity: rate
+    label:
+      en: Inflation
   - id: emissions_saved_residential_retrofit
     quantity: emissions
     label:
@@ -24,12 +29,13 @@ meta:
     quantity: currency
     label:
       en: Residential CAPEX & OPEX Estimates
-  - id: inflation
-    quantity: rate
+  - id: reduction_efficiency
+    quantity: emission_factor
     label:
-      en: Inflation
-  updated_at: '1759926167'
+      en: Reduction efficiency
+  updated_at: '1759975873'
   units:
-    inflation: 1/a
+    inflation: '%/a'
     residential_capex_opex_estimates: €
+    reduction_efficiency: t_co2e/EUR
     emissions_saved_residential_retrofit: t_co2e
