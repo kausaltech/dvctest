@@ -1,0 +1,1734 @@
+outs:
+- md5: be1565566d99db36a24843a2f644d0af
+  size: 380796
+  hash: md5
+  path: default_params.parquet
+meta:
+  name:
+    en: default_params
+  identifier: default_params
+  description:
+    en: 'ef_grid - Metric: ef_grid - confidence: high - Table 3.1, Dünnebeil et al.
+      2024b. Measured BISKO value<br/>ef_grid - Metric: ef_grid - confidence: medium
+      - Table 3.2, ifeu Strommaster Projektionsbericht 2024. Projection<br/>ef_grid
+      - Metric: ef_grid - confidence: medium - Table 3.2, Wehenemann und Schultz 2024.
+      Projection<br/>ef_grid - Metric: ef_grid - confidence: medium - Table 3.2, Wehenemann
+      und Schultz 2024. Projection<br/>ef_grid - Metric: ef_grid - confidence: low
+      - Table 3.2, Wehenemann und Schultz 2024. Projection<br/>ef_grid - Metric: ef_grid
+      - confidence: low - Table 3.2, Wehenemann und Schultz 2024. Projection - near
+      net-zero<br/>ef_displacement_pv - Metric: ef_displacement_pv - confidence: high
+      - Table 3.4, Lauf et al. 2025. Bruttovermeidungsfaktor PV<br/>ef_displacement_pv
+      - Metric: ef_displacement_pv - confidence: medium - component: 30_year_average
+      - Table 3.5, Eigene Berechnungen Lauf et al. 2025. 30-year average accounts
+      for grid decarbonization<br/>ef_displacement_wind - Metric: ef_displacement_wind
+      - confidence: high - Table 3.6, Lauf et al. 2025. <br/>ef_displacement_wind
+      - Metric: ef_displacement_wind - confidence: medium - component: 30_year_average
+      - Table 3.7, Eigene Berechnungen Lauf et al. 2025. <br/>ef_displacement_hydro
+      - Metric: ef_displacement_hydro - confidence: high - Table 3.8, Lauf et al.
+      2025. <br/>ef_displacement_hydro - Metric: ef_displacement_hydro - confidence:
+      medium - component: 30_year_average - Table 3.9, Eigene Berechnungen Lauf et
+      al. 2025. <br/>ef_displacement_geothermal - Metric: ef_displacement_geothermal
+      - confidence: high - Table 3.10, Lauf et al. 2025. <br/>ef_displacement_geothermal
+      - Metric: ef_displacement_geothermal - confidence: medium - component: 30_year_average
+      - Table 3.11, Eigene Berechnungen Lauf et al. 2025. <br/>ef_green_tariff_climate_invest
+      - Metric: ef_green_tariff_climate_invest - confidence: low - Table 3.12, Eigene
+      Berechnungen. Annual savings per EUR additional investment<br/>ef_green_tariff_climate_invest2
+      - Metric: ef_green_tariff_climate_invest2 - confidence: low - component: 30_year_total
+      - Table 3.13, Eigene Berechnungen. Cumulative over 30 years<br/>ef_electricity_chp
+      - Metric: ef_electricity_chp - confidence: medium - fuel_type: waste_chp - Table
+      3.3, Eigene Berechnungen. <br/>ef_electricity_chp - Metric: ef_electricity_chp
+      - confidence: medium - fuel_type: waste_chp - chp_technology: modern - Table
+      3.3, Eigene Berechnungen. <br/>ef_electricity_chp - Metric: ef_electricity_chp
+      - confidence: medium - fuel_type: waste - Table 3.3, Eigene Berechnungen. <br/>ef_electricity_chp
+      - Metric: ef_electricity_chp - confidence: medium - fuel_type: waste - chp_technology:
+      modern - Table 3.3, Eigene Berechnungen. <br/>ef_electricity_chp - Metric: ef_electricity_chp
+      - confidence: medium - fuel_type: biomass - Table 3.3, Eigene Berechnungen.
+      <br/>ef_electricity_chp - Metric: ef_electricity_chp - confidence: high - fuel_type:
+      biomass_chp - Table 3.3, Lauf et al. 2025. <br/>ef_electricity_chp - Metric:
+      ef_electricity_chp - confidence: high - fuel_type: biogas_biomethan - Table
+      3.3, Lauf et al. 2025. <br/>ef_electricity_chp - Metric: ef_electricity_chp
+      - confidence: high - fuel_type: biomethan - Table 3.3, Lauf et al. 2025. <br/>ef_electricity_chp
+      - Metric: ef_electricity_chp - confidence: high - fuel_type: liquid_biomass
+      - Table 3.3, Lauf et al. 2025. <br/>ef_electricity_chp - Metric: ef_electricity_chp
+      - confidence: high - fuel_type: sewage_gas - Table 3.3, Lauf et al. 2025. <br/>ef_electricity_chp
+      - Metric: ef_electricity_chp - confidence: high - fuel_type: landfill_gas -
+      Table 3.3, Lauf et al. 2025. <br/>ef_electricity_chp - Metric: ef_electricity_chp
+      - confidence: medium - fuel_type: hard_coal_chp - Table 3.3, Eigene Berechnungen.
+      <br/>ef_electricity_chp - Metric: ef_electricity_chp - confidence: medium -
+      fuel_type: hard_coal_chp - chp_technology: modern - Table 3.3, Eigene Berechnungen.
+      <br/>ef_electricity_chp - Metric: ef_electricity_chp - confidence: medium -
+      fuel_type: hard_coal - Table 3.3, Eigene Berechnungen. <br/>ef_electricity_chp
+      - Metric: ef_electricity_chp - confidence: medium - fuel_type: hard_coal - chp_technology:
+      modern - Table 3.3, Eigene Berechnungen. <br/>ef_electricity_chp - Metric: ef_electricity_chp
+      - confidence: medium - fuel_type: natural_gas_chp - Table 3.3, Eigene Berechnungen.
+      <br/>ef_electricity_chp - Metric: ef_electricity_chp - confidence: medium -
+      fuel_type: natural_gas_chp - chp_technology: modern - Table 3.3, Eigene Berechnungen.
+      <br/>ef_electricity_chp - Metric: ef_electricity_chp - confidence: medium -
+      fuel_type: natural_gas - Table 3.3, Eigene Berechnungen. <br/>ef_electricity_chp
+      - Metric: ef_electricity_chp - confidence: medium - fuel_type: natural_gas -
+      chp_technology: modern - Table 3.3, Eigene Berechnungen. <br/>ef_electricity_chp
+      - Metric: ef_electricity_chp - confidence: medium - fuel_type: natural_gas_bhkw
+      - Table 3.3, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp - confidence:
+      medium - fuel_type: district_heating_average - Table 3.15, Eigene Berechnungen.
+      District heating average - DO NOT USE FOR CALCULATIONS!<br/>ef_heat_chp - Metric:
+      ef_heat_chp - confidence: medium - fuel_type: waste_chp - Table 3.15, Eigene
+      Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: medium -
+      fuel_type: waste_chp - chp_technology: modern - Table 3.15, Eigene Berechnungen.
+      <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: medium - fuel_type: biomass_chp
+      - Table 3.15, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp -
+      confidence: medium - fuel_type: biogas_biomethan - Table 3.15, Eigene Berechnungen.
+      <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: medium - fuel_type: biomethan
+      - Table 3.15, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp -
+      confidence: medium - fuel_type: liquid_biomass - Table 3.15, Eigene Berechnungen.
+      <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: medium - fuel_type: sewage_gas
+      - Table 3.15, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp -
+      confidence: medium - fuel_type: landfill_gas - Table 3.15, Eigene Berechnungen.
+      <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: medium - fuel_type: hard_coal_chp
+      - Table 3.15, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp -
+      confidence: medium - fuel_type: hard_coal_chp - chp_technology: modern - Table
+      3.15, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp - confidence:
+      medium - fuel_type: natural_gas_chp - Table 3.15, Eigene Berechnungen. <br/>ef_heat_chp
+      - Metric: ef_heat_chp - confidence: medium - fuel_type: natural_gas_chp - chp_technology:
+      modern - Table 3.15, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp
+      - confidence: medium - fuel_type: natural_gas_bhkw - Table 3.15, Eigene Berechnungen.
+      <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: medium - fuel_type: district_heating_average
+      - Table 3.16, Eigene Berechnungen. Future projection<br/>ef_heat_chp - Metric:
+      ef_heat_chp - confidence: medium - fuel_type: district_heating_average - Table
+      3.16, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp - confidence:
+      medium - fuel_type: district_heating_average - Table 3.16, Eigene Berechnungen.
+      <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: low - fuel_type: district_heating_average
+      - Table 3.16, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp -
+      confidence: low - fuel_type: district_heating_average - Table 3.16, Eigene Berechnungen.
+      <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: medium - fuel_type: district_heating_gud
+      - Table 3.16, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp -
+      confidence: medium - fuel_type: district_heating_gud - Table 3.16, Eigene Berechnungen.
+      <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: medium - fuel_type: district_heating_gud
+      - Table 3.16, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp -
+      confidence: low - fuel_type: district_heating_gud - Table 3.16, Eigene Berechnungen.
+      <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: low - fuel_type: district_heating_gud
+      - Table 3.16, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp -
+      confidence: medium - fuel_type: district_heating_coal - Table 3.16, Eigene Berechnungen.
+      <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: medium - fuel_type: district_heating_coal
+      - Table 3.16, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp -
+      confidence: medium - fuel_type: district_heating_coal - Table 3.16, Eigene Berechnungen.
+      <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: low - fuel_type: district_heating_coal
+      - Table 3.16, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp -
+      confidence: low - fuel_type: district_heating_coal - Table 3.16, Eigene Berechnungen.
+      <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: medium - fuel_type: district_heating_waste
+      - Table 3.16, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp -
+      confidence: medium - fuel_type: district_heating_waste - Table 3.16, Eigene
+      Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: medium -
+      fuel_type: district_heating_waste - Table 3.16, Eigene Berechnungen. <br/>ef_heat_chp
+      - Metric: ef_heat_chp - confidence: low - fuel_type: district_heating_waste
+      - Table 3.16, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp -
+      confidence: low - fuel_type: district_heating_waste - Table 3.16, Eigene Berechnungen.
+      <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: medium - fuel_type: district_heating_other_renewable
+      - Table 3.16, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp -
+      confidence: medium - fuel_type: district_heating_other_renewable - Table 3.16,
+      Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: medium
+      - fuel_type: district_heating_other_renewable - Table 3.16, Eigene Berechnungen.
+      <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: low - fuel_type: district_heating_other_renewable
+      - Table 3.16, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp -
+      confidence: low - fuel_type: district_heating_other_renewable - Table 3.16,
+      Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: medium
+      - fuel_type: district_heating_biomass - Table 3.16, Eigene Berechnungen. <br/>ef_heat_chp
+      - Metric: ef_heat_chp - confidence: medium - fuel_type: district_heating_biomass
+      - Table 3.16, Eigene Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp -
+      confidence: medium - fuel_type: district_heating_biomass - Table 3.16, Eigene
+      Berechnungen. <br/>ef_heat_chp - Metric: ef_heat_chp - confidence: low - fuel_type:
+      district_heating_biomass - Table 3.16, Eigene Berechnungen. <br/>ef_heat_chp
+      - Metric: ef_heat_chp - confidence: low - fuel_type: district_heating_biomass
+      - Table 3.16, Eigene Berechnungen. <br/>ef_natural_gas - Metric: ef_natural_gas
+      - confidence: high - Table 3.14, Dünnebeil et al. 2024b. Includes upstream<br/>ef_heating_oil
+      - Metric: ef_heating_oil - confidence: high - Table 3.14, Dünnebeil et al. 2024b.
+      <br/>ef_hard_coal - Metric: ef_hard_coal - confidence: high - Table 3.14, Dünnebeil
+      et al. 2024b. Steinkohle<br/>ef_lignite - Metric: ef_lignite - confidence: high
+      - Table 3.14, Dünnebeil et al. 2024b. Braunkohle<br/>ef_wood - Metric: ef_wood
+      - confidence: medium - Table 3.14, Dünnebeil et al. 2024b. Only upstream - combustion
+      CO2-neutral<br/>ef_solar_thermal - Metric: ef_solar_thermal - confidence: medium
+      - Table 3.14, Dünnebeil et al. 2024b. <br/>ef_fuel_mix_fossil - Metric: ef_fuel_mix_fossil
+      - confidence: high - Table 3.17, TREMOD 6.53. Fossil fuel mix incl. biofuel
+      blending<br/>ef_fuel_mix_fossil - Metric: ef_fuel_mix_fossil - confidence: high
+      - Table 3.18, TREMOD 6.53. <br/>ef_fuel_mix_fossil - Metric: ef_fuel_mix_fossil
+      - confidence: medium - Table 3.18, TREMOD 6.53. <br/>ef_fuel_mix_fossil - Metric:
+      ef_fuel_mix_fossil - confidence: medium - Table 3.18, TREMOD 6.53. Constant
+      from 2030<br/>ef_fuel_mix_fossil - Metric: ef_fuel_mix_fossil - confidence:
+      low - Table 3.18, TREMOD 6.53. <br/>ef_fuel_mix_fossil - Metric: ef_fuel_mix_fossil
+      - confidence: low - Table 3.18, TREMOD 6.53. <br/>ef_propulsion_mix - Metric:
+      ef_propulsion_mix - confidence: high - Table 3.17, TREMOD 6.53. All propulsion
+      types incl. electricity<br/>ef_propulsion_mix - Metric: ef_propulsion_mix -
+      confidence: high - Table 3.18, TREMOD 6.53. <br/>ef_propulsion_mix - Metric:
+      ef_propulsion_mix - confidence: medium - Table 3.18, TREMOD 6.53. <br/>ef_propulsion_mix
+      - Metric: ef_propulsion_mix - confidence: medium - Table 3.18, TREMOD 6.53.
+      Decreasing through electrification.<br/>ef_propulsion_mix - Metric: ef_propulsion_mix
+      - confidence: low - Table 3.18, TREMOD 6.53. <br/>ef_propulsion_mix - Metric:
+      ef_propulsion_mix - confidence: low - Table 3.18, TREMOD 6.53. <br/>share_ev_in_propulsion_mix
+      - Metric: share_ev_in_propulsion_mix - confidence: high - Table 3.17, TREMOD
+      6.53. 0.5% EEV share<br/>share_ev_in_propulsion_mix - Metric: share_ev_in_propulsion_mix
+      - confidence: high - Table 3.18, TREMOD 6.53. 1.8%<br/>share_ev_in_propulsion_mix
+      - Metric: share_ev_in_propulsion_mix - confidence: medium - Table 3.18, TREMOD
+      6.53. 8.4%<br/>share_ev_in_propulsion_mix - Metric: share_ev_in_propulsion_mix
+      - confidence: medium - Table 3.18, TREMOD 6.53. 21.5%<br/>share_ev_in_propulsion_mix
+      - Metric: share_ev_in_propulsion_mix - confidence: low - Table 3.18, TREMOD
+      6.53. 41.4%<br/>share_ev_in_propulsion_mix - Metric: share_ev_in_propulsion_mix
+      - confidence: low - Table 3.18, TREMOD 6.53. 62.2%<br/>occupancy_rate - Metric:
+      occupancy_rate - confidence: high - flight_distance_category: commuting - Table
+      3.19, Nobis und Kuhnimhof 2018 (MiD). <br/>occupancy_rate - Metric: occupancy_rate
+      - confidence: high - flight_distance_category: business_trips - Table 3.19,
+      Nobis und Kuhnimhof 2018 (MiD). <br/>conversion_factor_fuel_to_energy - Metric:
+      conversion_factor_fuel_to_energy - confidence: very_high - chp_technology: diesel
+      - Table 3.20, AGEB 2022. Physical constant<br/>conversion_factor_fuel_to_energy
+      - Metric: conversion_factor_fuel_to_energy - confidence: very_high - chp_technology:
+      gasoline - Table 3.20, AGEB 2022. Physical constant<br/>conversion_factor_fuel_to_energy
+      - Metric: conversion_factor_fuel_to_energy - confidence: very_high - chp_technology:
+      gasoline_diesel_mix - Table 3.20, AGEB 2022. Physical constant - mix<br/>emission_intensity_flight_length
+      - Metric: emission_intensity_flight_length - confidence: medium - flight_distance_category:
+      national - trip_purpose: <=500km - building_size_category: ccd - Table 3.21,
+      TREMOD AV ifeu 2025. <br/>emission_intensity_flight_length - Metric: emission_intensity_flight_length
+      - confidence: medium - flight_distance_category: national - trip_purpose: <=1000km
+      - building_size_category: ccd - Table 3.21, TREMOD AV ifeu 2025. <br/>emission_intensity_flight_length
+      - Metric: emission_intensity_flight_length - confidence: medium - flight_distance_category:
+      international - trip_purpose: <=500km - building_size_category: ccd - Table
+      3.21, TREMOD AV ifeu 2025. <br/>emission_intensity_flight_length - Metric: emission_intensity_flight_length
+      - confidence: medium - flight_distance_category: international - trip_purpose:
+      <=1000km - building_size_category: ccd - Table 3.21, TREMOD AV ifeu 2025. <br/>emission_intensity_flight_length
+      - Metric: emission_intensity_flight_length - confidence: medium - flight_distance_category:
+      international - trip_purpose: <=2000km - building_size_category: ccd - Table
+      3.21, TREMOD AV ifeu 2025. <br/>emission_intensity_flight_length - Metric: emission_intensity_flight_length
+      - confidence: medium - flight_distance_category: international - trip_purpose:
+      <=5000km - building_size_category: ccd - Table 3.21, TREMOD AV ifeu 2025. <br/>emission_intensity_flight_length
+      - Metric: emission_intensity_flight_length - confidence: medium - flight_distance_category:
+      international - trip_purpose: <=10000km - building_size_category: ccd - Table
+      3.21, TREMOD AV ifeu 2025. <br/>emission_intensity_flight_length - Metric: emission_intensity_flight_length
+      - confidence: medium - flight_distance_category: international - trip_purpose:
+      >10000km - building_size_category: ccd - Table 3.21, TREMOD AV ifeu 2025. <br/>emission_intensity_flight_start
+      - Metric: emission_intensity_flight_start - confidence: medium - flight_distance_category:
+      national - trip_purpose: <=500km - building_size_category: lto - Table 3.21,
+      TREMOD AV ifeu 2025. <br/>emission_intensity_flight_start - Metric: emission_intensity_flight_start
+      - confidence: medium - flight_distance_category: national - trip_purpose: <=1000km
+      - building_size_category: lto - Table 3.21, TREMOD AV ifeu 2025. <br/>emission_intensity_flight_start
+      - Metric: emission_intensity_flight_start - confidence: medium - flight_distance_category:
+      international - trip_purpose: <=500km - building_size_category: lto - Table
+      3.21, TREMOD AV ifeu 2025. <br/>emission_intensity_flight_start - Metric: emission_intensity_flight_start
+      - confidence: medium - flight_distance_category: international - trip_purpose:
+      <=1000km - building_size_category: lto - Table 3.21, TREMOD AV ifeu 2025. <br/>emission_intensity_flight_start
+      - Metric: emission_intensity_flight_start - confidence: medium - flight_distance_category:
+      international - trip_purpose: <=2000km - building_size_category: lto - Table
+      3.21, TREMOD AV ifeu 2025. <br/>emission_intensity_flight_start - Metric: emission_intensity_flight_start
+      - confidence: medium - flight_distance_category: international - trip_purpose:
+      <=5000km - building_size_category: lto - Table 3.21, TREMOD AV ifeu 2025. <br/>emission_intensity_flight_start
+      - Metric: emission_intensity_flight_start - confidence: medium - flight_distance_category:
+      international - trip_purpose: <=10000km - building_size_category: lto - Table
+      3.21, TREMOD AV ifeu 2025. <br/>emission_intensity_flight_start - Metric: emission_intensity_flight_start
+      - confidence: medium - flight_distance_category: international - trip_purpose:
+      >10000km - building_size_category: lto - Table 3.21, TREMOD AV ifeu 2025. <br/>sequestration_rate_trees
+      - Metric: sequestration_rate_trees - confidence: medium - tree_type: deciduous
+      - tree_age_class: 1-20 - Table 3.22, Roman und Scatena 2011; Rock et al. 2016.
+      <br/>sequestration_rate_trees - Metric: sequestration_rate_trees - confidence:
+      medium - tree_type: deciduous - tree_age_class: 21-40 - Table 3.22, Roman und
+      Scatena 2011; Rock et al. 2016. <br/>sequestration_rate_trees - Metric: sequestration_rate_trees
+      - confidence: medium - tree_type: deciduous - tree_age_class: 41-60 - Table
+      3.22, Roman und Scatena 2011; Rock et al. 2016. <br/>sequestration_rate_trees
+      - Metric: sequestration_rate_trees - confidence: medium - tree_type: deciduous
+      - tree_age_class: 61-80 - Table 3.22, Roman und Scatena 2011; Rock et al. 2016.
+      <br/>sequestration_rate_trees - Metric: sequestration_rate_trees - confidence:
+      medium - tree_type: deciduous - tree_age_class: 81-100 - Table 3.22, Roman und
+      Scatena 2011; Rock et al. 2016. <br/>sequestration_rate_trees - Metric: sequestration_rate_trees
+      - confidence: medium - tree_type: deciduous - tree_age_class: 101-120 - Table
+      3.22, Roman und Scatena 2011; Rock et al. 2016. <br/>sequestration_rate_trees
+      - Metric: sequestration_rate_trees - confidence: medium - tree_type: coniferous
+      - tree_age_class: 1-20 - Table 3.22, Roman und Scatena 2011; Rock et al. 2016.
+      <br/>sequestration_rate_trees - Metric: sequestration_rate_trees - confidence:
+      medium - tree_type: coniferous - tree_age_class: 21-40 - Table 3.22, Roman und
+      Scatena 2011; Rock et al. 2016. <br/>sequestration_rate_trees - Metric: sequestration_rate_trees
+      - confidence: medium - tree_type: coniferous - tree_age_class: 41-60 - Table
+      3.22, Roman und Scatena 2011; Rock et al. 2016. <br/>sequestration_rate_trees
+      - Metric: sequestration_rate_trees - confidence: medium - tree_type: coniferous
+      - tree_age_class: 61-80 - Table 3.22, Roman und Scatena 2011; Rock et al. 2016.
+      <br/>sequestration_rate_trees - Metric: sequestration_rate_trees - confidence:
+      medium - tree_type: coniferous - tree_age_class: 81-100 - Table 3.22, Roman
+      und Scatena 2011; Rock et al. 2016. <br/>sequestration_rate_trees - Metric:
+      sequestration_rate_trees - confidence: medium - tree_type: coniferous - tree_age_class:
+      101-120 - Table 3.22, Roman und Scatena 2011; Rock et al. 2016. <br/>emission_factor_organic_soils
+      - Metric: emission_factor_organic_soils - confidence: medium - land_use_drained:
+      cropland - Table 3.23, Abel et al. 2019; DEHSt 2023. Drained cropland<br/>emission_factor_organic_soils
+      - Metric: emission_factor_organic_soils - confidence: medium - land_use_drained:
+      grassland - Table 3.23, Abel et al. 2019; DEHSt 2023. Drained grassland<br/>emission_factor_organic_soils
+      - Metric: emission_factor_organic_soils - confidence: medium - land_use_drained:
+      forest - Table 3.23, Abel et al. 2019; DEHSt 2023. Drained forest<br/>emission_factor_organic_soils
+      - Metric: emission_factor_organic_soils - confidence: medium - land_use_drained:
+      wasteland - Table 3.23, Abel et al. 2019; DEHSt 2023. Drained wasteland<br/>emission_factor_organic_soils
+      - Metric: emission_factor_organic_soils - confidence: medium - land_use_drained:
+      peat_extraction - Table 3.23, Abel et al. 2019; DEHSt 2023. Drained peat extraction
+      - very high!<br/>emission_factor_organic_soils - Metric: emission_factor_organic_soils
+      - confidence: low - land_use_rewetted: cropland - Table 3.23, Abel et al. 2019;
+      DEHSt 2023. Rewetted cropland - still substantial emissions<br/>emission_factor_organic_soils
+      - Metric: emission_factor_organic_soils - confidence: low - land_use_rewetted:
+      grassland - Table 3.23, Abel et al. 2019; DEHSt 2023. Rewetted grassland<br/>emission_factor_organic_soils
+      - Metric: emission_factor_organic_soils - confidence: low - land_use_rewetted:
+      forest - Table 3.23, Abel et al. 2019; DEHSt 2023. Rewetted forest<br/>emission_factor_organic_soils
+      - Metric: emission_factor_organic_soils - confidence: low - land_use_rewetted:
+      wasteland - Table 3.23, Abel et al. 2019; DEHSt 2023. Rewetted wasteland - high
+      residual emissions<br/>emission_factor_organic_soils - Metric: emission_factor_organic_soils
+      - confidence: low - land_use_rewetted: peat_extraction - Table 3.23, Abel et
+      al. 2019; DEHSt 2023. Rewetted peat extraction<br/>sequestration_rate_forest
+      - Metric: sequestration_rate_forest - confidence: medium - forest_age_class:
+      1-20 - Table 3.24, Günther et al. 2023; Riedel et al. 2017, 2024. Negative =
+      sink<br/>sequestration_rate_forest - Metric: sequestration_rate_forest - confidence:
+      medium - forest_age_class: 21-40 - Table 3.24, Günther et al. 2023; Riedel et
+      al. 2017, 2024. <br/>sequestration_rate_forest - Metric: sequestration_rate_forest
+      - confidence: medium - forest_age_class: 41-60 - Table 3.24, Günther et al.
+      2023; Riedel et al. 2017, 2024. <br/>sequestration_rate_forest - Metric: sequestration_rate_forest
+      - confidence: medium - forest_age_class: 61-80 - Table 3.24, Günther et al.
+      2023; Riedel et al. 2017, 2024. <br/>sequestration_rate_forest - Metric: sequestration_rate_forest
+      - confidence: medium - forest_age_class: 81-100 - Table 3.24, Günther et al.
+      2023; Riedel et al. 2017, 2024. <br/>sequestration_rate_forest - Metric: sequestration_rate_forest
+      - confidence: medium - forest_age_class: 101-120 - Table 3.24, Günther et al.
+      2023; Riedel et al. 2017, 2024. <br/>sequestration_rate_forest_management -
+      Metric: sequestration_rate_forest_management - confidence: low - land_use_drained:
+      conventional - Table 3.25, Günther et al. 2023; Reise et al. 2022; Riedel et
+      al. 2024. Conventional management<br/>sequestration_rate_forest_management -
+      Metric: sequestration_rate_forest_management - confidence: low - land_use_drained:
+      near_natural - Table 3.25, Günther et al. 2023; Reise et al. 2022; Riedel et
+      al. 2024. Near-natural management<br/>upstream_pv_per_annual_yield - Metric:
+      upstream_pv_per_annual_yield - confidence: medium - Table 4.1, Eigene Berechnungen
+      Lauf et al. 2025. Scaled to usage period based on annual yield<br/>upstream_wind_per_annual_yield
+      - Metric: upstream_wind_per_annual_yield - confidence: medium - Table 4.2, Eigene
+      Berechnungen Lauf et al. 2025. <br/>upstream_hydro_per_annual_yield - Metric:
+      upstream_hydro_per_annual_yield - confidence: low - Table 4.3, Eigene Berechnungen
+      Lauf et al. 2025. <br/>upstream_geothermal_per_annual_yield - Metric: upstream_geothermal_per_annual_yield
+      - confidence: low - Table 4.4, Eigene Berechnungen Lauf et al. 2025. <br/>upstream_chp_per_capacity
+      - Metric: upstream_chp_per_capacity - confidence: medium - Table 4.5, Eigene
+      Berechnungen OEKOBAU.DAT 2021. Related to electrical capacity<br/>upstream_lighting
+      - Metric: upstream_lighting - confidence: medium - chp_technology: halogen_metalhalide
+      - trip_purpose: street_lighting - Table 4.6, Abdul Hadi et al. 2013. <br/>upstream_lighting
+      - Metric: upstream_lighting - confidence: medium - chp_technology: sodium_vapor
+      - trip_purpose: street_lighting - Table 4.6, In Anlehnung an Abdul Hadi et al.
+      2013. <br/>upstream_lighting - Metric: upstream_lighting - confidence: medium
+      - propulsion_type: led - application: street_lighting - Table 4.6, Abdul Hadi
+      et al. 2013. Higher than old lamps but much more efficient in operation<br/>upstream_lighting
+      - Metric: upstream_lighting - confidence: medium - chp_technology: led - trip_purpose:
+      office - Table 4.7, LEDVANCE GmbH o.J.. <br/>upstream_lighting - Metric: upstream_lighting
+      - confidence: medium - chp_technology: led - trip_purpose: sports_hall - Table
+      4.8, OEKOBAU.DAT 2021. <br/>upstream_lighting - Metric: upstream_lighting -
+      confidence: medium - chp_technology: led - trip_purpose: sports_field - Table
+      4.9, In Anlehnung an Abdul Hadi et al. 2013. <br/>upstream_ict_devices - Metric:
+      upstream_ict_devices - confidence: medium - application: printer - Table 4.10,
+      CO2-Rechner UBA 2022; Gröger 2020. <br/>upstream_ict_devices - Metric: upstream_ict_devices
+      - confidence: medium - application: pc - Table 4.10, CO2-Rechner UBA 2022; Gröger
+      2020. <br/>upstream_ict_devices - Metric: upstream_ict_devices - confidence:
+      medium - application: monitor - Table 4.10, CO2-Rechner UBA 2022; Gröger 2020.
+      <br/>upstream_ict_devices - Metric: upstream_ict_devices - confidence: medium
+      - application: copier - Table 4.10, CO2-Rechner UBA 2022; Gröger 2020. <br/>upstream_ict_devices
+      - Metric: upstream_ict_devices - confidence: medium - application: laptop -
+      Table 4.10, CO2-Rechner UBA 2022; Gröger 2020. <br/>upstream_ict_devices - Metric:
+      upstream_ict_devices - confidence: medium - application: smartphone - Table
+      4.27, CO2-Rechner UBA 2022; Gröger 2020. <br/>upstream_ict_devices - Metric:
+      upstream_ict_devices - confidence: medium - application: coffee_machine - Table
+      4.27, CO2-Rechner UBA 2022; Gröger 2020. <br/>upstream_ict_devices - Metric:
+      upstream_ict_devices - confidence: medium - application: router - Table 4.27,
+      CO2-Rechner UBA 2022; Gröger 2020. <br/>upstream_device_repair - Metric: upstream_device_repair
+      - confidence: low - application: pc - Table 4.27, In Anlehnung an Gröger 2020.
+      <br/>upstream_device_repair - Metric: upstream_device_repair - confidence: low
+      - application: monitor - Table 4.27, In Anlehnung an Gröger 2020. <br/>upstream_device_repair
+      - Metric: upstream_device_repair - confidence: low - application: laptop - Table
+      4.27, In Anlehnung an Gröger 2020. <br/>upstream_device_repair - Metric: upstream_device_repair
+      - confidence: low - application: smartphone - Table 4.27, In Anlehnung an Gröger
+      2020. <br/>upstream_device_repair - Metric: upstream_device_repair - confidence:
+      low - application: printer - Table 4.27, In Anlehnung an Gröger 2020. <br/>upstream_device_repair
+      - Metric: upstream_device_repair - confidence: low - application: coffee_machine
+      - Table 4.27, In Anlehnung an Gröger 2020. <br/>upstream_device_repair - Metric:
+      upstream_device_repair - confidence: low - application: router - Table 4.27,
+      In Anlehnung an Gröger 2020. <br/>upstream_heating_system - Metric: upstream_heating_system
+      - confidence: medium - fuel_type: gas_oil_boiler - Table 4.11, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>upstream_heating_system - Metric: upstream_heating_system
+      - confidence: medium - fuel_type: air_water_heat_pump - Table 4.11, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>upstream_heating_system - Metric: upstream_heating_system
+      - confidence: medium - fuel_type: district_heating_transfer_station - Table
+      4.11, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_heating_system - Metric:
+      upstream_heating_system - confidence: medium - heating_system_type: ground_water_heat_pump_with_pipes
+      - Table 4.11, Eigene Berechnungen OEKOBAU.DAT 2021. Includes ground drilling/collectors<br/>upstream_heating_system
+      - Metric: upstream_heating_system - confidence: medium - fuel_type: pellet_boiler
+      - Table 4.11, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_heating_system
+      - Metric: upstream_heating_system - confidence: medium - fuel_type: bhkw - Table
+      4.11, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_heating_system - Metric:
+      upstream_heating_system - confidence: low - heating_system_type: electric_direct_heating
+      - Table 4.11, Eigene Berechnungen OEKOBAU.DAT 2021. Estimated - no data in Ökobaudat<br/>upstream_renovation_non_residential
+      - Metric: upstream_renovation_non_residential - confidence: medium - building_type_residential:
+      admin_school_kita - building_age_class: conventional - construction_method:
+      standard - Table 4.12, Eigene Berechnungen OEKOBAU.DAT 2021. Only fossil portion
+      used<br/>upstream_renovation_non_residential - Metric: upstream_renovation_non_residential
+      - confidence: medium - building_type_residential: admin_school_kita - building_age_class:
+      conventional - construction_method: ambitious - Table 4.12, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>upstream_renovation_non_residential - Metric: upstream_renovation_non_residential
+      - confidence: medium - building_type_residential: admin_school_kita - building_age_class:
+      eco_optimized - construction_method: standard - Table 4.12, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>upstream_renovation_non_residential - Metric: upstream_renovation_non_residential
+      - confidence: medium - building_type_residential: admin_school_kita - building_age_class:
+      eco_optimized - construction_method: ambitious - Table 4.12, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>upstream_renovation_non_residential - Metric: upstream_renovation_non_residential
+      - confidence: medium - building_type_residential: gymnasium - building_age_class:
+      conventional - construction_method: standard - Table 4.12, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>upstream_renovation_non_residential - Metric: upstream_renovation_non_residential
+      - confidence: medium - building_type_residential: gymnasium - building_age_class:
+      conventional - construction_method: ambitious - Table 4.12, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>upstream_renovation_non_residential - Metric: upstream_renovation_non_residential
+      - confidence: medium - building_type_residential: gymnasium - building_age_class:
+      eco_optimized - construction_method: standard - Table 4.12, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>upstream_renovation_non_residential - Metric: upstream_renovation_non_residential
+      - confidence: medium - building_type_residential: gymnasium - building_age_class:
+      eco_optimized - construction_method: ambitious - Table 4.12, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_non_residential - Metric:
+      partial_renovation_equivalent_non_residential - confidence: medium - vehicle_category:
+      full_renovation - Table 4.13, Eigene Berechnungen OEKOBAU.DAT 2021. All construction
+      methods and standards<br/>partial_renovation_equivalent_non_residential - Metric:
+      partial_renovation_equivalent_non_residential - confidence: medium - building_age_class:
+      conventional - construction_method: standard - renovation_status: roof_top_floor
+      - Table 4.13, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_non_residential
+      - Metric: partial_renovation_equivalent_non_residential - confidence: medium
+      - building_age_class: conventional - construction_method: ambitious - renovation_status:
+      roof_top_floor - Table 4.13, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_non_residential
+      - Metric: partial_renovation_equivalent_non_residential - confidence: medium
+      - building_age_class: eco_optimized - construction_method: standard - renovation_status:
+      roof_top_floor - Table 4.13, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_non_residential
+      - Metric: partial_renovation_equivalent_non_residential - confidence: medium
+      - building_age_class: eco_optimized - construction_method: ambitious - renovation_status:
+      roof_top_floor - Table 4.13, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_non_residential
+      - Metric: partial_renovation_equivalent_non_residential - confidence: medium
+      - building_age_class: conventional - construction_method: standard - renovation_status:
+      basement_ceiling - Table 4.13, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_non_residential
+      - Metric: partial_renovation_equivalent_non_residential - confidence: medium
+      - building_age_class: conventional - construction_method: ambitious - renovation_status:
+      basement_ceiling - Table 4.13, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_non_residential
+      - Metric: partial_renovation_equivalent_non_residential - confidence: medium
+      - building_age_class: eco_optimized - construction_method: standard - renovation_status:
+      basement_ceiling - Table 4.13, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_non_residential
+      - Metric: partial_renovation_equivalent_non_residential - confidence: medium
+      - building_age_class: eco_optimized - construction_method: ambitious - renovation_status:
+      basement_ceiling - Table 4.13, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_non_residential
+      - Metric: partial_renovation_equivalent_non_residential - confidence: medium
+      - building_age_class: conventional - construction_method: standard - renovation_status:
+      facade - Table 4.13, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_non_residential
+      - Metric: partial_renovation_equivalent_non_residential - confidence: medium
+      - building_age_class: conventional - construction_method: ambitious - renovation_status:
+      facade - Table 4.13, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_non_residential
+      - Metric: partial_renovation_equivalent_non_residential - confidence: medium
+      - building_age_class: eco_optimized - construction_method: standard - renovation_status:
+      facade - Table 4.13, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_non_residential
+      - Metric: partial_renovation_equivalent_non_residential - confidence: medium
+      - building_age_class: eco_optimized - construction_method: ambitious - renovation_status:
+      facade - Table 4.13, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_non_residential
+      - Metric: partial_renovation_equivalent_non_residential - confidence: medium
+      - building_age_class: conventional - construction_method: standard - renovation_status:
+      windows - Table 4.13, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_non_residential
+      - Metric: partial_renovation_equivalent_non_residential - confidence: medium
+      - building_age_class: conventional - construction_method: ambitious - renovation_status:
+      windows - Table 4.13, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_non_residential
+      - Metric: partial_renovation_equivalent_non_residential - confidence: medium
+      - building_age_class: eco_optimized - construction_method: standard - renovation_status:
+      windows - Table 4.13, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_non_residential
+      - Metric: partial_renovation_equivalent_non_residential - confidence: medium
+      - building_age_class: eco_optimized - construction_method: ambitious - renovation_status:
+      windows - Table 4.13, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_new_construction_non_residential
+      - Metric: upstream_new_construction_non_residential - confidence: medium - building_type_non_residential:
+      admin - construction_method: conventional - energy_standard: standard - Table
+      4.14, Eigene Berechnungen Röck et al. 2022. <br/>upstream_new_construction_non_residential
+      - Metric: upstream_new_construction_non_residential - confidence: medium - building_type_non_residential:
+      admin - construction_method: conventional - energy_standard: ambitious - Table
+      4.14, Eigene Berechnungen Röck et al. 2022. <br/>upstream_new_construction_non_residential
+      - Metric: upstream_new_construction_non_residential - confidence: medium - building_type_non_residential:
+      admin - construction_method: eco_optimized - energy_standard: standard - Table
+      4.14, Eigene Berechnungen Röck et al. 2022. <br/>upstream_new_construction_non_residential
+      - Metric: upstream_new_construction_non_residential - confidence: medium - building_type_non_residential:
+      admin - construction_method: eco_optimized - energy_standard: ambitious - Table
+      4.14, Eigene Berechnungen Röck et al. 2022. <br/>upstream_new_construction_non_residential
+      - Metric: upstream_new_construction_non_residential - confidence: medium - building_type_non_residential:
+      school_kita - construction_method: conventional - energy_standard: standard
+      - Table 4.14, Eigene Berechnungen Röck et al. 2022. <br/>upstream_new_construction_non_residential
+      - Metric: upstream_new_construction_non_residential - confidence: medium - building_type_non_residential:
+      school_kita - construction_method: conventional - energy_standard: ambitious
+      - Table 4.14, Eigene Berechnungen Röck et al. 2022. <br/>upstream_new_construction_non_residential
+      - Metric: upstream_new_construction_non_residential - confidence: medium - building_type_non_residential:
+      school_kita - construction_method: eco_optimized - energy_standard: standard
+      - Table 4.14, Eigene Berechnungen Röck et al. 2022. <br/>upstream_new_construction_non_residential
+      - Metric: upstream_new_construction_non_residential - confidence: medium - building_type_non_residential:
+      school_kita - construction_method: eco_optimized - energy_standard: ambitious
+      - Table 4.14, Eigene Berechnungen Röck et al. 2022. <br/>upstream_new_construction_non_residential
+      - Metric: upstream_new_construction_non_residential - confidence: medium - building_type_non_residential:
+      gymnasium - construction_method: conventional - energy_standard: standard -
+      Table 4.14, Eigene Berechnungen Röck et al. 2022. <br/>upstream_new_construction_non_residential
+      - Metric: upstream_new_construction_non_residential - confidence: medium - building_type_non_residential:
+      gymnasium - construction_method: conventional - energy_standard: ambitious -
+      Table 4.14, Eigene Berechnungen Röck et al. 2022. <br/>upstream_new_construction_non_residential
+      - Metric: upstream_new_construction_non_residential - confidence: medium - building_type_non_residential:
+      gymnasium - construction_method: eco_optimized - energy_standard: standard -
+      Table 4.14, Eigene Berechnungen Röck et al. 2022. <br/>upstream_new_construction_non_residential
+      - Metric: upstream_new_construction_non_residential - confidence: medium - building_type_non_residential:
+      gymnasium - construction_method: eco_optimized - energy_standard: ambitious
+      - Table 4.14, Eigene Berechnungen Röck et al. 2022. <br/>upstream_renovation_residential
+      - Metric: upstream_renovation_residential - confidence: medium - battery_chemistry:
+      efh - building_age_class: conventional - construction_method: standard - Table
+      4.15, Eigene Berechnungen OEKOBAU.DAT 2021. Only fossil portion used<br/>upstream_renovation_residential
+      - Metric: upstream_renovation_residential - confidence: medium - building_type_residential:
+      efh - construction_method: conventional - energy_standard: ambitious - Table
+      4.15, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_renovation_residential
+      - Metric: upstream_renovation_residential - confidence: medium - building_type_residential:
+      efh - construction_method: eco_optimized - energy_standard: standard - Table
+      4.15, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_renovation_residential
+      - Metric: upstream_renovation_residential - confidence: medium - building_type_residential:
+      efh - construction_method: eco_optimized - energy_standard: ambitious - Table
+      4.15, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_renovation_residential
+      - Metric: upstream_renovation_residential - confidence: medium - building_type_residential:
+      rh - construction_method: conventional - energy_standard: standard - Table 4.15,
+      Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_renovation_residential -
+      Metric: upstream_renovation_residential - confidence: medium - building_type_residential:
+      rh - construction_method: conventional - energy_standard: ambitious - Table
+      4.15, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_renovation_residential
+      - Metric: upstream_renovation_residential - confidence: medium - building_type_residential:
+      rh - construction_method: eco_optimized - energy_standard: standard - Table
+      4.15, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_renovation_residential
+      - Metric: upstream_renovation_residential - confidence: medium - building_type_residential:
+      rh - construction_method: eco_optimized - energy_standard: ambitious - Table
+      4.15, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_renovation_residential
+      - Metric: upstream_renovation_residential - confidence: medium - building_type_residential:
+      mfh - construction_method: conventional - energy_standard: standard - Table
+      4.15, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_renovation_residential
+      - Metric: upstream_renovation_residential - confidence: medium - building_type_residential:
+      mfh - construction_method: conventional - energy_standard: ambitious - Table
+      4.15, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_renovation_residential
+      - Metric: upstream_renovation_residential - confidence: medium - building_type_residential:
+      mfh - construction_method: eco_optimized - energy_standard: standard - Table
+      4.15, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_renovation_residential
+      - Metric: upstream_renovation_residential - confidence: medium - building_type_residential:
+      mfh - construction_method: eco_optimized - energy_standard: ambitious - Table
+      4.15, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_renovation_residential
+      - Metric: upstream_renovation_residential - confidence: medium - building_type_residential:
+      gmh - construction_method: conventional - energy_standard: standard - Table
+      4.15, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_renovation_residential
+      - Metric: upstream_renovation_residential - confidence: medium - building_type_residential:
+      gmh - construction_method: conventional - energy_standard: ambitious - Table
+      4.15, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_renovation_residential
+      - Metric: upstream_renovation_residential - confidence: medium - building_type_residential:
+      gmh - construction_method: eco_optimized - energy_standard: standard - Table
+      4.15, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>upstream_renovation_residential
+      - Metric: upstream_renovation_residential - confidence: medium - building_type_residential:
+      gmh - construction_method: eco_optimized - energy_standard: ambitious - Table
+      4.15, Eigene Berechnungen OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_residential
+      - Metric: partial_renovation_equivalent_residential - confidence: medium - building_component:
+      full_renovation - Table 4.16, Eigene Berechnungen OEKOBAU.DAT 2021. All methods
+      and standards<br/>partial_renovation_equivalent_residential - Metric: partial_renovation_equivalent_residential
+      - confidence: medium - building_age_class: conventional - construction_method:
+      standard - renovation_status: roof_top_floor - Table 4.16, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_residential - Metric: partial_renovation_equivalent_residential
+      - confidence: medium - building_age_class: conventional - construction_method:
+      ambitious - renovation_status: roof_top_floor - Table 4.16, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_residential - Metric: partial_renovation_equivalent_residential
+      - confidence: medium - building_age_class: eco_optimized - construction_method:
+      standard - renovation_status: roof_top_floor - Table 4.16, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_residential - Metric: partial_renovation_equivalent_residential
+      - confidence: medium - building_age_class: eco_optimized - construction_method:
+      ambitious - renovation_status: roof_top_floor - Table 4.16, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_residential - Metric: partial_renovation_equivalent_residential
+      - confidence: medium - building_age_class: conventional - construction_method:
+      standard - renovation_status: basement_ceiling - Table 4.16, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_residential - Metric: partial_renovation_equivalent_residential
+      - confidence: medium - building_age_class: conventional - construction_method:
+      ambitious - renovation_status: basement_ceiling - Table 4.16, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_residential - Metric: partial_renovation_equivalent_residential
+      - confidence: medium - building_age_class: eco_optimized - construction_method:
+      standard - renovation_status: basement_ceiling - Table 4.16, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_residential - Metric: partial_renovation_equivalent_residential
+      - confidence: medium - building_age_class: eco_optimized - construction_method:
+      ambitious - renovation_status: basement_ceiling - Table 4.16, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>partial_renovation_equivalent_residential - Metric: partial_renovation_equivalent_residential
+      - confidence: medium - building_age_class: conventional - construction_method:
+      standard - renovation_status: facade - Table 4.16, Eigene Berechnungen OEKOBAU.DAT
+      2021. <br/>partial_renovation_equivalent_residential - Metric: partial_renovation_equivalent_residential
+      - confidence: medium - building_age_class: conventional - construction_method:
+      ambitious - renovation_status: facade - Table 4.16, Eigene Berechnungen OEKOBAU.DAT
+      2021. <br/>partial_renovation_equivalent_residential - Metric: partial_renovation_equivalent_residential
+      - confidence: medium - building_age_class: eco_optimized - construction_method:
+      standard - renovation_status: facade - Table 4.16, Eigene Berechnungen OEKOBAU.DAT
+      2021. <br/>partial_renovation_equivalent_residential - Metric: partial_renovation_equivalent_residential
+      - confidence: medium - building_age_class: eco_optimized - construction_method:
+      ambitious - renovation_status: facade - Table 4.16, Eigene Berechnungen OEKOBAU.DAT
+      2021. <br/>partial_renovation_equivalent_residential - Metric: partial_renovation_equivalent_residential
+      - confidence: medium - building_age_class: conventional - construction_method:
+      standard - renovation_status: windows - Table 4.16, Eigene Berechnungen OEKOBAU.DAT
+      2021. <br/>partial_renovation_equivalent_residential - Metric: partial_renovation_equivalent_residential
+      - confidence: medium - building_age_class: conventional - construction_method:
+      ambitious - renovation_status: windows - Table 4.16, Eigene Berechnungen OEKOBAU.DAT
+      2021. <br/>partial_renovation_equivalent_residential - Metric: partial_renovation_equivalent_residential
+      - confidence: medium - building_age_class: eco_optimized - construction_method:
+      standard - renovation_status: windows - Table 4.16, Eigene Berechnungen OEKOBAU.DAT
+      2021. <br/>partial_renovation_equivalent_residential - Metric: partial_renovation_equivalent_residential
+      - confidence: medium - building_age_class: eco_optimized - construction_method:
+      ambitious - renovation_status: windows - Table 4.16, Eigene Berechnungen OEKOBAU.DAT
+      2021. <br/>upstream_new_construction_residential - Metric: upstream_new_construction_residential
+      - confidence: medium - building_type_residential: efh_rh - building_age_class:
+      conventional - construction_method: standard - Table 4.17, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>upstream_new_construction_residential - Metric: upstream_new_construction_residential
+      - confidence: medium - building_type_residential: efh_rh - building_age_class:
+      conventional - construction_method: ambitious - Table 4.17, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>upstream_new_construction_residential - Metric: upstream_new_construction_residential
+      - confidence: medium - building_type_residential: efh_rh - building_age_class:
+      eco_optimized - construction_method: standard - Table 4.17, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>upstream_new_construction_residential - Metric: upstream_new_construction_residential
+      - confidence: medium - building_type_residential: efh_rh - building_age_class:
+      eco_optimized - construction_method: ambitious - Table 4.17, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>upstream_new_construction_residential - Metric: upstream_new_construction_residential
+      - confidence: medium - building_type_residential: mfh_gmh - building_age_class:
+      conventional - construction_method: standard - Table 4.17, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>upstream_new_construction_residential - Metric: upstream_new_construction_residential
+      - confidence: medium - building_type_residential: mfh_gmh - building_age_class:
+      conventional - construction_method: ambitious - Table 4.17, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>upstream_new_construction_residential - Metric: upstream_new_construction_residential
+      - confidence: medium - building_type_residential: mfh_gmh - building_age_class:
+      eco_optimized - construction_method: standard - Table 4.17, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>upstream_new_construction_residential - Metric: upstream_new_construction_residential
+      - confidence: medium - building_type_residential: mfh_gmh - building_age_class:
+      eco_optimized - construction_method: ambitious - Table 4.17, Eigene Berechnungen
+      OEKOBAU.DAT 2021. <br/>upstream_battery_production - Metric: upstream_battery_production
+      - confidence: medium - lamp_type: nmc622 - Table 4.18, Biemann et al. 2024.
+      NMC622 chemistry<br/>upstream_battery_production - Metric: upstream_battery_production
+      - confidence: medium - lamp_type: nmc811 - Table 4.19, Biemann et al. 2024.
+      NMC811 chemistry - improved<br/>ef_meal - Metric: ef_meal - confidence: medium
+      - meal_type: meat_dish - Table 4.20, CO2-Rechner UBA 2022; Scharp et al. 2019.
+      <br/>ef_meal - Metric: ef_meal - confidence: medium - meal_type: vegetarian_vegan
+      - Table 4.20, CO2-Rechner UBA 2022; Scharp et al. 2019. <br/>reduction_regional_seasonal
+      - Metric: reduction_regional_seasonal - confidence: low - Table 4.21, CO2-Rechner
+      UBA 2022; Scharp et al. 2019. Additional reduction per meal with regional/seasonal
+      sourcing<br/>food_waste_reduction_factor - Metric: food_waste_reduction_factor
+      - confidence: medium - Table 4.22, Scharp et al. 2019. Reduction factor on total
+      emissions when avoiding food waste<br/>ef_residual_waste_mass - Metric: ef_residual_waste_mass
+      - confidence: medium - Table 4.23, Power und Eisenmann 2021. <br/>ef_residual_waste_volume
+      - Metric: ef_residual_waste_volume - confidence: medium - Table 4.23, Power
+      und Eisenmann 2021. <br/>ef_drinking_water - Metric: ef_drinking_water - confidence:
+      medium - land_use_rewetted: bottled_uncooled - Table 4.24, Kroll et al. 2020.
+      <br/>ef_drinking_water - Metric: ef_drinking_water - confidence: medium - land_use_rewetted:
+      bottled_cooled - Table 4.24, Kroll et al. 2020. <br/>ef_drinking_water - Metric:
+      ef_drinking_water - confidence: high - land_use_rewetted: tap_water - Table
+      4.24, Kroll et al. 2020. Very low - only treatment energy<br/>ef_drinking_water
+      - Metric: ef_drinking_water - confidence: medium - land_use_rewetted: tap_water_carbonated
+      - Table 4.24, Kroll et al. 2020. With CO2 carbonation by device at home<br/>ef_water_treatment
+      - Metric: ef_water_treatment - confidence: medium - meal_type: fresh_water -
+      Table 4.25, DECC und Defra 2012. <br/>ef_water_treatment - Metric: ef_water_treatment
+      - confidence: medium - meal_type: wastewater - Table 4.25, DECC und Defra 2012.
+      <br/>ef_paper - Metric: ef_paper - confidence: medium - water_type: virgin_fiber
+      - treatment_type: sheet - Table 4.26, Wellenreuther et al. 2022. <br/>ef_paper2
+      - Metric: ef_paper2 - confidence: medium - water_type: virgin_fiber - treatment_type:
+      pack_500 - Table 4.26, Wellenreuther et al. 2022. <br/>ef_paper - Metric: ef_paper
+      - confidence: medium - water_type: recycled - treatment_type: sheet - Table
+      4.26, Wellenreuther et al. 2022. <br/>ef_paper2 - Metric: ef_paper2 - confidence:
+      medium - water_type: recycled - treatment_type: pack_500 - Table 4.26, Wellenreuther
+      et al. 2022. Possible error - should be 2.05e-3 (500 * 4.1e-6)<br/>lifetime_technology
+      - Metric: lifetime_technology - confidence: low - usage_pattern: behavioral_measure
+      - Table 2.2, IKKA Methodology. Only 1 year - effectiveness duration varies greatly<br/>lifetime_technology
+      - Metric: lifetime_technology - confidence: high - age_category: ict_devices
+      - Table 2.2, IKKA Methodology. <br/>lifetime_technology - Metric: lifetime_technology
+      - confidence: high - age_category: vehicle_municipal - Table 2.2, IKKA Methodology.
+      <br/>lifetime_technology - Metric: lifetime_technology - confidence: high -
+      age_category: bus - Table 2.2, IKKA Methodology. <br/>lifetime_technology -
+      Metric: lifetime_technology - confidence: high - age_category: heating_system
+      - Table 2.2, IKKA Methodology. <br/>lifetime_technology - Metric: lifetime_technology
+      - confidence: high - age_category: building_renovation - Table 2.2, IKKA Methodology.
+      <br/>lifetime_technology - Metric: lifetime_technology - confidence: high -
+      age_category: lighting - Table 2.2, IKKA Methodology. 20-25 years depending
+      on source<br/>lifetime_technology - Metric: lifetime_technology - confidence:
+      high - age_category: pv_system - Table 2.2, IKKA Methodology. <br/>lifetime_technology
+      - Metric: lifetime_technology - confidence: high - age_category: new_building
+      - Table 2.2, IKKA Methodology. Evaluation horizon - actual lifetime longer<br/>behavioral_savings_electricity
+      - Metric: behavioral_savings_electricity - confidence: low - scenario: moderate
+      - Table 6.5, Eigene Berechnung Gugel 2018. <br/>behavioral_savings_electricity
+      - Metric: behavioral_savings_electricity - confidence: low - scenario: ambitious
+      - Table 6.5, Eigene Berechnung Gugel 2018. <br/>behavioral_savings_electricity_households
+      - Metric: behavioral_savings_electricity_households - confidence: low - efficiency_level:
+      moderate - sufficiency_level: none - Table 6.6, Eigene Berechnung Gugel 2018.
+      <br/>behavioral_savings_electricity_households - Metric: behavioral_savings_electricity_households
+      - confidence: low - efficiency_level: ambitious - sufficiency_level: none -
+      Table 6.6, Eigene Berechnung Gugel 2018. <br/>behavioral_savings_electricity_households
+      - Metric: behavioral_savings_electricity_households - confidence: low - efficiency_level:
+      none - sufficiency_level: moderate - Table 6.6, Eigene Berechnung Gugel 2018.
+      <br/>behavioral_savings_electricity_households - Metric: behavioral_savings_electricity_households
+      - confidence: low - efficiency_level: none - sufficiency_level: ambitious -
+      Table 6.6, Eigene Berechnung Gugel 2018. <br/>behavioral_savings_electricity_households
+      - Metric: behavioral_savings_electricity_households - confidence: low - efficiency_level:
+      moderate - sufficiency_level: moderate - Table 6.6, Eigene Berechnung Gugel
+      2018. <br/>behavioral_savings_electricity_households - Metric: behavioral_savings_electricity_households
+      - confidence: low - efficiency_level: ambitious - sufficiency_level: ambitious
+      - Table 6.6, Eigene Berechnung Gugel 2018. <br/>low_investment_savings_electricity
+      - Metric: low_investment_savings_electricity - confidence: low - efficiency_level:
+      maximum - usage_pattern: lighting - Table 6.7, Eigene Berechnung. <br/>low_investment_savings_electricity
+      - Metric: low_investment_savings_electricity - confidence: low - efficiency_level:
+      medium - usage_pattern: lighting - Table 6.7, Eigene Berechnung. <br/>low_investment_savings_electricity
+      - Metric: low_investment_savings_electricity - confidence: low - efficiency_level:
+      low - usage_pattern: lighting - Table 6.7, Eigene Berechnung. <br/>low_investment_savings_electricity
+      - Metric: low_investment_savings_electricity - confidence: low - efficiency_level:
+      maximum - usage_pattern: ict - Table 6.7, Eigene Berechnung. <br/>low_investment_savings_electricity
+      - Metric: low_investment_savings_electricity - confidence: low - efficiency_level:
+      medium - usage_pattern: ict - Table 6.7, Eigene Berechnung. <br/>low_investment_savings_electricity
+      - Metric: low_investment_savings_electricity - confidence: low - efficiency_level:
+      low - usage_pattern: ict - Table 6.7, Eigene Berechnung. <br/>low_investment_savings_electricity
+      - Metric: low_investment_savings_electricity - confidence: low - efficiency_level:
+      maximum - usage_pattern: hvac - Table 6.7, Eigene Berechnung. <br/>low_investment_savings_electricity
+      - Metric: low_investment_savings_electricity - confidence: low - efficiency_level:
+      medium - usage_pattern: hvac - Table 6.7, Eigene Berechnung. <br/>low_investment_savings_electricity
+      - Metric: low_investment_savings_electricity - confidence: low - efficiency_level:
+      low - usage_pattern: hvac - Table 6.7, Eigene Berechnung. <br/>low_investment_savings_electricity_comprehensive
+      - Metric: low_investment_savings_electricity_comprehensive - confidence: low
+      - efficiency_level: maximum - Table 6.8, Eigene Berechnung. <br/>low_investment_savings_electricity_comprehensive
+      - Metric: low_investment_savings_electricity_comprehensive - confidence: low
+      - efficiency_level: medium - Table 6.8, Eigene Berechnung. <br/>low_investment_savings_electricity_comprehensive
+      - Metric: low_investment_savings_electricity_comprehensive - confidence: low
+      - efficiency_level: low - Table 6.8, Eigene Berechnung. <br/>low_investment_savings_heat
+      - Metric: low_investment_savings_heat - confidence: low - efficiency_level:
+      maximum - usage_pattern: boiler - Table 6.21, Eigene Berechnungen. <br/>low_investment_savings_heat
+      - Metric: low_investment_savings_heat - confidence: low - efficiency_level:
+      low - usage_pattern: boiler - Table 6.21, Eigene Berechnungen. <br/>low_investment_savings_heat
+      - Metric: low_investment_savings_heat - confidence: low - efficiency_level:
+      maximum - usage_pattern: distribution - Table 6.21, Eigene Berechnungen. <br/>low_investment_savings_heat
+      - Metric: low_investment_savings_heat - confidence: low - efficiency_level:
+      low - usage_pattern: distribution - Table 6.21, Eigene Berechnungen. <br/>low_investment_savings_heat
+      - Metric: low_investment_savings_heat - confidence: low - energy_level: maximum
+      - building_size_category: dhw - Table 6.21, Eigene Berechnungen. DHW - domestic
+      hot water<br/>low_investment_savings_heat - Metric: low_investment_savings_heat
+      - confidence: low - efficiency_level: low - usage_pattern: dhw - Table 6.21,
+      Eigene Berechnungen. <br/>behavioral_savings_heat - Metric: behavioral_savings_heat
+      - confidence: low - efficiency_level: moderate - Table 6.22, Eigene Berechnung
+      Gugel 2018. <br/>behavioral_savings_heat - Metric: behavioral_savings_heat -
+      confidence: low - efficiency_level: ambitious - Table 6.22, Eigene Berechnung
+      Gugel 2018. <br/>operating_hours_lighting - Metric: operating_hours_lighting
+      - confidence: high - flight_distance_category: street_lighting - Table 6.1,
+      Gröger et al. 2013. <br/>operating_hours_lighting - Metric: operating_hours_lighting
+      - confidence: medium - flight_distance_category: office - meal_type: all_day_year_round
+      - Table 6.2, Eigene Annahmen. <br/>operating_hours_lighting - Metric: operating_hours_lighting
+      - confidence: medium - flight_distance_category: office - meal_type: half_day
+      - Table 6.2, Eigene Annahmen. <br/>operating_hours_lighting - Metric: operating_hours_lighting
+      - confidence: medium - flight_distance_category: office - meal_type: winter_only
+      - Table 6.2, Eigene Annahmen. <br/>operating_hours_lighting - Metric: operating_hours_lighting
+      - confidence: medium - flight_distance_category: sports_hall - Table 6.3, Eigene
+      Berechnung. <br/>operating_hours_lighting - Metric: operating_hours_lighting
+      - confidence: medium - flight_distance_category: sports_field - Table 6.4, Eigene
+      Berechnung. <br/>control_system_savings - Metric: control_system_savings - confidence:
+      medium - Table 6.1, dena 2016. Share of original consumption through control
+      switching to 50%<br/>power_consumption_lighting - Metric: power_consumption_lighting
+      - confidence: high - chp_technology: mercury_vapor - trip_purpose: street_lighting
+      - Table 6.1, dena 2016. <br/>power_consumption_lighting - Metric: power_consumption_lighting
+      - confidence: high - chp_technology: sodium_vapor - trip_purpose: street_lighting
+      - Table 6.1, dena 2016. <br/>power_consumption_lighting - Metric: power_consumption_lighting
+      - confidence: high - chp_technology: halogen_metalhalide - trip_purpose: street_lighting
+      - Table 6.1, dena 2016. <br/>power_consumption_lighting - Metric: power_consumption_lighting
+      - confidence: high - chp_technology: led - trip_purpose: street_lighting - Table
+      6.1, dena 2016. <br/>power_consumption_lighting - Metric: power_consumption_lighting
+      - confidence: high - chp_technology: incandescent - trip_purpose: office - Table
+      6.2, co2online o.J.. <br/>power_consumption_lighting - Metric: power_consumption_lighting
+      - confidence: high - chp_technology: halogen - trip_purpose: office - Table
+      6.2, co2online o.J.. <br/>power_consumption_lighting - Metric: power_consumption_lighting
+      - confidence: high - chp_technology: cfl - trip_purpose: office - Table 6.2,
+      co2online o.J.. <br/>power_consumption_lighting - Metric: power_consumption_lighting
+      - confidence: high - chp_technology: led - trip_purpose: office - Table 6.2,
+      co2online o.J.. <br/>power_consumption_lighting2 - Metric: power_consumption_lighting2
+      - confidence: medium - chp_technology: old - application: sports_hall - Table
+      6.3, Eigene Annahmen. Halogen fluorescent tubes etc.<br/>power_consumption_lighting2
+      - Metric: power_consumption_lighting2 - confidence: medium - chp_technology:
+      led - trip_purpose: sports_hall - Table 6.3, Eigene Annahmen. <br/>power_consumption_lighting2
+      - Metric: power_consumption_lighting2 - confidence: medium - chp_technology:
+      old - trip_purpose: sports_field - Table 6.4, EnerergieAgentur.NRW 2018. <br/>power_consumption_lighting2
+      - Metric: power_consumption_lighting2 - confidence: medium - chp_technology:
+      led - trip_purpose: sports_field - Table 6.4, EnerergieAgentur.NRW 2018. <br/>lighting_count_sports_hall
+      - Metric: lighting_count_sports_hall - confidence: medium - age_category: single
+      - Table 6.3, Sportstätten Rechner. <br/>lighting_count_sports_hall - Metric:
+      lighting_count_sports_hall - confidence: medium - age_category: double - Table
+      6.3, Sportstätten Rechner. <br/>lighting_count_sports_hall - Metric: lighting_count_sports_hall
+      - confidence: medium - age_category: triple - Table 6.3, Sportstätten Rechner.
+      <br/>lighting_efficiency_sports_hall - Metric: lighting_efficiency_sports_hall
+      - confidence: medium - trip_purpose: sports_hall - Table 6.3, Eigene Berechnung.
+      Savings rate LED vs old<br/>lighting_efficiency_sports_field - Metric: lighting_efficiency_sports_field
+      - confidence: medium - trip_purpose: sports_field - Table 6.4, EnerergieAgentur.NRW
+      2018. <br/>electricity_consumption_device_commercial - Metric: electricity_consumption_device_commercial
+      - confidence: medium - application: printer - sector: reference - Table 6.9,
+      In Anlehnung CO2-Rechner UBA; Gröger 2020. <br/>electricity_consumption_device_commercial
+      - Metric: electricity_consumption_device_commercial - confidence: medium - application:
+      pc - sector: reference - Table 6.9, In Anlehnung CO2-Rechner UBA; Gröger 2020.
+      <br/>electricity_consumption_device_commercial - Metric: electricity_consumption_device_commercial
+      - confidence: medium - application: monitor - sector: reference - Table 6.9,
+      In Anlehnung CO2-Rechner UBA; Gröger 2020. <br/>electricity_consumption_device_commercial
+      - Metric: electricity_consumption_device_commercial - confidence: medium - application:
+      copier - sector: reference - Table 6.9, In Anlehnung CO2-Rechner UBA; Gröger
+      2020. <br/>electricity_consumption_device_commercial - Metric: electricity_consumption_device_commercial
+      - confidence: medium - application: laptop - sector: reference - Table 6.9,
+      In Anlehnung CO2-Rechner UBA; Gröger 2020. <br/>electricity_consumption_device_commercial
+      - Metric: electricity_consumption_device_commercial - confidence: medium - application:
+      printer - sector: climate - Table 6.9, Eigene Berechnung CO2-Rechner UBA; Gröger
+      2020. <br/>electricity_consumption_device_commercial - Metric: electricity_consumption_device_commercial
+      - confidence: medium - application: pc - sector: climate - Table 6.9, Eigene
+      Berechnung CO2-Rechner UBA; Gröger 2020. <br/>electricity_consumption_device_commercial
+      - Metric: electricity_consumption_device_commercial - confidence: medium - application:
+      monitor - sector: climate - Table 6.9, Eigene Berechnung CO2-Rechner UBA; Gröger
+      2020. <br/>electricity_consumption_device_commercial - Metric: electricity_consumption_device_commercial
+      - confidence: medium - application: copier - sector: climate - Table 6.9, Eigene
+      Berechnung CO2-Rechner UBA; Gröger 2020. <br/>electricity_consumption_device_commercial
+      - Metric: electricity_consumption_device_commercial - confidence: medium - application:
+      laptop - sector: climate - Table 6.9, Eigene Berechnung CO2-Rechner UBA; Gröger
+      2020. <br/>electricity_consumption_device_household - Metric: electricity_consumption_device_household
+      - confidence: medium - application: printer - sector: reference - Table 6.10,
+      Eigene Berechnungen CO2-Rechner UBA; Gröger 2020. <br/>electricity_consumption_device_household
+      - Metric: electricity_consumption_device_household - confidence: medium - application:
+      pc - sector: reference - Table 6.10, Eigene Berechnungen CO2-Rechner UBA; Gröger
+      2020. <br/>electricity_consumption_device_household - Metric: electricity_consumption_device_household
+      - confidence: medium - application: monitor - sector: reference - Table 6.10,
+      Eigene Berechnungen CO2-Rechner UBA; Gröger 2020. <br/>electricity_consumption_device_household
+      - Metric: electricity_consumption_device_household - confidence: medium - application:
+      telecom_device - sector: reference - Table 6.10, Eigene Berechnungen CO2-Rechner
+      UBA; Gröger 2020. <br/>electricity_consumption_device_household - Metric: electricity_consumption_device_household
+      - confidence: medium - application: laptop - sector: reference - Table 6.10,
+      Eigene Berechnungen CO2-Rechner UBA; Gröger 2020. <br/>electricity_consumption_device_household
+      - Metric: electricity_consumption_device_household - confidence: medium - application:
+      printer - sector: climate - Table 6.10, Eigene Berechnungen CO2-Rechner UBA;
+      Gröger 2020. <br/>electricity_consumption_device_household - Metric: electricity_consumption_device_household
+      - confidence: medium - application: pc - sector: climate - Table 6.10, Eigene
+      Berechnungen CO2-Rechner UBA; Gröger 2020. <br/>electricity_consumption_device_household
+      - Metric: electricity_consumption_device_household - confidence: medium - application:
+      monitor - sector: climate - Table 6.10, Eigene Berechnungen CO2-Rechner UBA;
+      Gröger 2020. <br/>electricity_consumption_device_household - Metric: electricity_consumption_device_household
+      - confidence: medium - application: telecom_device - sector: climate - Table
+      6.10, Eigene Berechnungen CO2-Rechner UBA; Gröger 2020. <br/>electricity_consumption_device_household
+      - Metric: electricity_consumption_device_household - confidence: medium - application:
+      laptop - sector: climate - Table 6.10, Eigene Berechnungen CO2-Rechner UBA;
+      Gröger 2020. <br/>system_performance_factor_non_residential - Metric: system_performance_factor_non_residential
+      - confidence: high - fuel_type: gas_condensing_boiler - age_category: existing
+      - Table 6.11, In Anlehnung Hörner et al. 2014. <br/>system_performance_factor_non_residential
+      - Metric: system_performance_factor_non_residential - confidence: high - fuel_type:
+      gas_condensing_boiler - age_category: new - Table 6.11, In Anlehnung Hörner
+      et al. 2014. <br/>system_performance_factor_non_residential - Metric: system_performance_factor_non_residential
+      - confidence: high - fuel_type: gas_low_temp_boiler - age_category: existing
+      - Table 6.11, In Anlehnung Hörner et al. 2014. <br/>system_performance_factor_non_residential
+      - Metric: system_performance_factor_non_residential - confidence: high - fuel_type:
+      gas_low_temp_boiler - age_category: new - Table 6.11, In Anlehnung Hörner et
+      al. 2014. <br/>system_performance_factor_non_residential - Metric: system_performance_factor_non_residential
+      - confidence: high - fuel_type: oil_condensing_boiler - age_category: existing
+      - Table 6.11, In Anlehnung Hörner et al. 2014. <br/>system_performance_factor_non_residential
+      - Metric: system_performance_factor_non_residential - confidence: high - fuel_type:
+      oil_condensing_boiler - age_category: new - Table 6.11, In Anlehnung Hörner
+      et al. 2014. <br/>system_performance_factor_non_residential - Metric: system_performance_factor_non_residential
+      - confidence: high - fuel_type: oil_low_temp_boiler - age_category: existing
+      - Table 6.11, In Anlehnung Hörner et al. 2014. <br/>system_performance_factor_non_residential
+      - Metric: system_performance_factor_non_residential - confidence: high - fuel_type:
+      oil_low_temp_boiler - age_category: new - Table 6.11, In Anlehnung Hörner et
+      al. 2014. <br/>system_performance_factor_non_residential - Metric: system_performance_factor_non_residential
+      - confidence: high - fuel_type: electric_storage_heating - age_category: existing
+      - Table 6.11, In Anlehnung Hörner et al. 2014. <br/>system_performance_factor_non_residential
+      - Metric: system_performance_factor_non_residential - confidence: high - fuel_type:
+      electric_storage_heating - age_category: new - Table 6.11, In Anlehnung Hörner
+      et al. 2014. <br/>system_performance_factor_non_residential - Metric: system_performance_factor_non_residential
+      - confidence: high - fuel_type: wood_pellet_boiler - age_category: existing
+      - Table 6.11, In Anlehnung Hörner et al. 2014. <br/>system_performance_factor_non_residential
+      - Metric: system_performance_factor_non_residential - confidence: high - fuel_type:
+      wood_pellet_boiler - age_category: new - Table 6.11, In Anlehnung Hörner et
+      al. 2014. <br/>system_performance_factor_non_residential - Metric: system_performance_factor_non_residential
+      - confidence: medium - heating_system_type: gas_condensing_boiler_alt - usage_pattern:
+      existing - Table 6.11, In Anlehnung Hörner et al. 2014. Alternative value -
+      check<br/>system_performance_factor_non_residential - Metric: system_performance_factor_non_residential
+      - confidence: medium - heating_system_type: gas_condensing_boiler_alt - usage_pattern:
+      new - Table 6.11, In Anlehnung Hörner et al. 2014. Alternative value - check<br/>system_performance_factor_non_residential
+      - Metric: system_performance_factor_non_residential - confidence: high - fuel_type:
+      district_heating - age_category: existing - Table 6.11, In Anlehnung Hörner
+      et al. 2014. <br/>system_performance_factor_non_residential - Metric: system_performance_factor_non_residential
+      - confidence: high - fuel_type: district_heating - age_category: new - Table
+      6.11, In Anlehnung Hörner et al. 2014. <br/>system_performance_factor_non_residential
+      - Metric: system_performance_factor_non_residential - confidence: high - heating_system_type:
+      ground_source_heat_pump - usage_pattern: existing - Table 6.11, In Anlehnung
+      Hörner et al. 2014. System performance < 1 = COP > 1<br/>system_performance_factor_non_residential
+      - Metric: system_performance_factor_non_residential - confidence: high - fuel_type:
+      ground_source_heat_pump - age_category: new - Table 6.11, In Anlehnung Hörner
+      et al. 2014. <br/>system_performance_factor_non_residential - Metric: system_performance_factor_non_residential
+      - confidence: high - fuel_type: air_source_heat_pump - age_category: existing
+      - Table 6.11, In Anlehnung Hörner et al. 2014. <br/>system_performance_factor_non_residential
+      - Metric: system_performance_factor_non_residential - confidence: high - fuel_type:
+      air_source_heat_pump - age_category: new - Table 6.11, BEG Stand 9.12.2022.
+      <br/>net_floor_area_non_residential - Metric: net_floor_area_non_residential
+      - confidence: medium - building_type_non_residential: admin - Table 6.12, Hörner
+      et al. 2022; Plesser et al. 2015. <br/>net_floor_area_non_residential - Metric:
+      net_floor_area_non_residential - confidence: medium - building_type_non_residential:
+      school - Table 6.12, Hörner et al. 2022; Plesser et al. 2015. <br/>net_floor_area_non_residential
+      - Metric: net_floor_area_non_residential - confidence: medium - building_type_non_residential:
+      kita - Table 6.12, Hörner et al. 2022; Plesser et al. 2015. <br/>net_floor_area_non_residential
+      - Metric: net_floor_area_non_residential - confidence: medium - building_type_non_residential:
+      gymnasium - Table 6.12, Hörner et al. 2022; Plesser et al. 2015. <br/>full_usage_hours_heating_non_residential
+      - Metric: full_usage_hours_heating_non_residential - confidence: medium - building_type_non_residential:
+      admin - Table 6.13, Rosenkranz 2020. <br/>full_usage_hours_heating_non_residential
+      - Metric: full_usage_hours_heating_non_residential - confidence: medium - building_type_non_residential:
+      school - Table 6.13, Rosenkranz 2020. <br/>full_usage_hours_heating_non_residential
+      - Metric: full_usage_hours_heating_non_residential - confidence: medium - building_type_non_residential:
+      kita - Table 6.13, Rosenkranz 2020. <br/>full_usage_hours_heating_non_residential
+      - Metric: full_usage_hours_heating_non_residential - confidence: medium - building_type_non_residential:
+      gymnasium - Table 6.13, Rosenkranz 2020. <br/>heat_intensity_non_residential
+      - Metric: heat_intensity_non_residential - confidence: medium - building_age_class:
+      admin - tree_age_class: average - Table 6.14, Eigene Berechnungen Ritter et
+      al. 2019. Typical unsanitated building<br/>heat_intensity_non_residential -
+      Metric: heat_intensity_non_residential - confidence: medium - building_type_non_residential:
+      admin - tree_type: very_high - Table 6.14, Eigene Berechnungen Ritter et al.
+      2019. <br/>heat_intensity_non_residential - Metric: heat_intensity_non_residential
+      - confidence: medium - building_type_non_residential: admin - tree_type: high
+      - Table 6.14, Eigene Berechnungen Ritter et al. 2019. <br/>heat_intensity_non_residential
+      - Metric: heat_intensity_non_residential - confidence: medium - building_type_non_residential:
+      admin - tree_type: medium - Table 6.14, Eigene Berechnungen Ritter et al. 2019.
+      <br/>heat_intensity_non_residential - Metric: heat_intensity_non_residential
+      - confidence: medium - building_age_class: admin - tree_age_class: low - Table
+      6.14, Eigene Berechnungen Ritter et al. 2019. KfW 70-85 or new building GEG<br/>heat_intensity_non_residential
+      - Metric: heat_intensity_non_residential - confidence: medium - building_age_class:
+      admin - tree_age_class: very_low - Table 6.14, Eigene Berechnungen Ritter et
+      al. 2019. KfW 40-55<br/>heat_intensity_non_residential - Metric: heat_intensity_non_residential
+      - confidence: medium - building_type_non_residential: school_kita - tree_type:
+      average - Table 6.14, Eigene Berechnungen Ritter et al. 2019. <br/>heat_intensity_non_residential
+      - Metric: heat_intensity_non_residential - confidence: medium - building_type_non_residential:
+      school_kita - tree_type: very_high - Table 6.14, Eigene Berechnungen Ritter
+      et al. 2019. <br/>heat_intensity_non_residential - Metric: heat_intensity_non_residential
+      - confidence: medium - building_type_non_residential: school_kita - tree_type:
+      high - Table 6.14, Eigene Berechnungen Ritter et al. 2019. <br/>heat_intensity_non_residential
+      - Metric: heat_intensity_non_residential - confidence: medium - building_type_non_residential:
+      school_kita - tree_type: medium - Table 6.14, Eigene Berechnungen Ritter et
+      al. 2019. <br/>heat_intensity_non_residential - Metric: heat_intensity_non_residential
+      - confidence: medium - building_type_non_residential: school_kita - tree_type:
+      low - Table 6.14, Eigene Berechnungen Ritter et al. 2019. <br/>heat_intensity_non_residential
+      - Metric: heat_intensity_non_residential - confidence: medium - building_type_non_residential:
+      school_kita - tree_type: very_low - Table 6.14, Eigene Berechnungen Ritter et
+      al. 2019. <br/>heat_intensity_non_residential - Metric: heat_intensity_non_residential
+      - confidence: medium - building_type_non_residential: gymnasium - tree_type:
+      average - Table 6.14, Eigene Berechnungen Ritter et al. 2019. <br/>heat_intensity_non_residential
+      - Metric: heat_intensity_non_residential - confidence: medium - building_type_non_residential:
+      gymnasium - tree_type: very_high - Table 6.14, Eigene Berechnungen Ritter et
+      al. 2019. <br/>heat_intensity_non_residential - Metric: heat_intensity_non_residential
+      - confidence: medium - building_type_non_residential: gymnasium - tree_type:
+      high - Table 6.14, Eigene Berechnungen Ritter et al. 2019. <br/>heat_intensity_non_residential
+      - Metric: heat_intensity_non_residential - confidence: medium - building_type_non_residential:
+      gymnasium - tree_type: medium - Table 6.14, Eigene Berechnungen Ritter et al.
+      2019. <br/>heat_intensity_non_residential - Metric: heat_intensity_non_residential
+      - confidence: medium - building_type_non_residential: gymnasium - tree_type:
+      low - Table 6.14, Eigene Berechnungen Ritter et al. 2019. <br/>heat_intensity_non_residential
+      - Metric: heat_intensity_non_residential - confidence: medium - building_type_non_residential:
+      gymnasium - tree_type: very_low - Table 6.14, Eigene Berechnungen Ritter et
+      al. 2019. <br/>partial_renovation_equivalent_non_residential_simplified - Metric:
+      partial_renovation_equivalent_non_residential_simplified - confidence: medium
+      - vehicle_category: full_renovation - Table 6.15, Hörner et al. 2022. Simplified
+      version<br/>partial_renovation_equivalent_non_residential_simplified - Metric:
+      partial_renovation_equivalent_non_residential_simplified - confidence: medium
+      - vehicle_category: roof_top_floor - Table 6.15, Hörner et al. 2022. <br/>partial_renovation_equivalent_non_residential_simplified
+      - Metric: partial_renovation_equivalent_non_residential_simplified - confidence:
+      medium - vehicle_category: basement_ceiling - Table 6.15, Hörner et al. 2022.
+      <br/>partial_renovation_equivalent_non_residential_simplified - Metric: partial_renovation_equivalent_non_residential_simplified
+      - confidence: medium - vehicle_category: facade - Table 6.15, Hörner et al.
+      2022. <br/>partial_renovation_equivalent_non_residential_simplified - Metric:
+      partial_renovation_equivalent_non_residential_simplified - confidence: medium
+      - vehicle_category: windows - Table 6.15, Hörner et al. 2022. <br/>system_performance_factor_residential
+      - Metric: system_performance_factor_residential - confidence: high - fuel_type:
+      low_temp_boiler - paper_type: efh_rh - unit_type: existing - Table 6.16, IWU
+      2012. <br/>system_performance_factor_residential - Metric: system_performance_factor_residential
+      - confidence: high - fuel_type: low_temp_boiler - paper_type: efh_rh - unit_type:
+      new - Table 6.16, IWU 2012. <br/>system_performance_factor_residential - Metric:
+      system_performance_factor_residential - confidence: high - fuel_type: condensing_boiler
+      - paper_type: efh_rh - unit_type: existing - Table 6.16, IWU 2012. <br/>system_performance_factor_residential
+      - Metric: system_performance_factor_residential - confidence: high - fuel_type:
+      condensing_boiler - paper_type: efh_rh - unit_type: new - Table 6.16, IWU 2012.
+      <br/>system_performance_factor_residential - Metric: system_performance_factor_residential
+      - confidence: high - fuel_type: wood_pellet_boiler - paper_type: efh_rh - unit_type:
+      existing - Table 6.16, IWU 2012. <br/>system_performance_factor_residential
+      - Metric: system_performance_factor_residential - confidence: high - fuel_type:
+      wood_pellet_boiler - paper_type: efh_rh - unit_type: new - Table 6.16, IWU 2012.
+      <br/>system_performance_factor_residential - Metric: system_performance_factor_residential
+      - confidence: high - fuel_type: low_temp_boiler - paper_type: mfh_gmh - unit_type:
+      existing - Table 6.16, IWU 2012. <br/>system_performance_factor_residential
+      - Metric: system_performance_factor_residential - confidence: high - fuel_type:
+      low_temp_boiler - paper_type: mfh_gmh - unit_type: new - Table 6.16, IWU 2012.
+      <br/>system_performance_factor_residential - Metric: system_performance_factor_residential
+      - confidence: high - fuel_type: condensing_boiler - paper_type: mfh_gmh - unit_type:
+      existing - Table 6.16, IWU 2012. <br/>system_performance_factor_residential
+      - Metric: system_performance_factor_residential - confidence: high - fuel_type:
+      condensing_boiler - paper_type: mfh_gmh - unit_type: new - Table 6.16, IWU 2012.
+      <br/>system_performance_factor_residential - Metric: system_performance_factor_residential
+      - confidence: high - fuel_type: wood_pellet_boiler - paper_type: mfh_gmh - unit_type:
+      existing - Table 6.16, IWU 2012. <br/>system_performance_factor_residential
+      - Metric: system_performance_factor_residential - confidence: high - fuel_type:
+      wood_pellet_boiler - paper_type: mfh_gmh - unit_type: new - Table 6.16, IWU
+      2012. <br/>system_performance_factor_residential - Metric: system_performance_factor_residential
+      - confidence: high - fuel_type: district_heating - paper_type: all - unit_type:
+      existing - Table 6.16, IWU 2012. <br/>system_performance_factor_residential
+      - Metric: system_performance_factor_residential - confidence: high - fuel_type:
+      district_heating - paper_type: all - unit_type: new - Table 6.16, IWU 2012.
+      <br/>system_performance_factor_residential - Metric: system_performance_factor_residential
+      - confidence: high - fuel_type: air_source_heat_pump - paper_type: all - unit_type:
+      existing - Table 6.16, IWU 2012. <br/>system_performance_factor_residential
+      - Metric: system_performance_factor_residential - confidence: high - fuel_type:
+      air_source_heat_pump - paper_type: all - unit_type: new - Table 6.16, IWU 2012.
+      <br/>system_performance_factor_residential - Metric: system_performance_factor_residential
+      - confidence: high - fuel_type: ground_source_heat_pump - paper_type: all -
+      unit_type: existing - Table 6.16, IWU 2012. <br/>system_performance_factor_residential
+      - Metric: system_performance_factor_residential - confidence: high - heating_system_type:
+      ground_source_heat_pump - unit_type: all - age_category: new - Table 6.16, IWU
+      2012. Very efficient - COP approx 3.5<br/>living_area_residential - Metric:
+      living_area_residential - confidence: medium - building_type_residential: efh
+      - building_age_class: average - Table 6.17, Eigene Berechnungen IWU 2012. <br/>living_area_residential
+      - Metric: living_area_residential - confidence: medium - building_type_residential:
+      efh - building_age_class: before_1948 - Table 6.17, Eigene Berechnungen IWU
+      2012. <br/>living_area_residential - Metric: living_area_residential - confidence:
+      medium - building_type_residential: efh - building_age_class: 1948_to_1978 -
+      Table 6.17, Eigene Berechnungen IWU 2012. <br/>living_area_residential - Metric:
+      living_area_residential - confidence: medium - building_type_residential: efh
+      - building_age_class: 1978_to_today - Table 6.17, Eigene Berechnungen IWU 2012.
+      <br/>living_area_residential - Metric: living_area_residential - confidence:
+      medium - building_type_residential: rh - building_age_class: average - Table
+      6.17, Eigene Berechnungen IWU 2012. <br/>living_area_residential - Metric: living_area_residential
+      - confidence: medium - building_type_residential: rh - building_age_class: before_1948
+      - Table 6.17, Eigene Berechnungen IWU 2012. <br/>living_area_residential - Metric:
+      living_area_residential - confidence: medium - building_type_residential: rh
+      - building_age_class: 1948_to_1978 - Table 6.17, Eigene Berechnungen IWU 2012.
+      <br/>living_area_residential - Metric: living_area_residential - confidence:
+      medium - building_type_residential: rh - building_age_class: 1978_to_today -
+      Table 6.17, Eigene Berechnungen IWU 2012. <br/>living_area_residential - Metric:
+      living_area_residential - confidence: medium - building_type_residential: mfh
+      - building_age_class: average - Table 6.17, Eigene Berechnungen IWU 2012. <br/>living_area_residential
+      - Metric: living_area_residential - confidence: medium - building_type_residential:
+      mfh - building_age_class: before_1948 - Table 6.17, Eigene Berechnungen IWU
+      2012. <br/>living_area_residential - Metric: living_area_residential - confidence:
+      medium - building_type_residential: mfh - building_age_class: 1948_to_1978 -
+      Table 6.17, Eigene Berechnungen IWU 2012. <br/>living_area_residential - Metric:
+      living_area_residential - confidence: medium - building_type_residential: mfh
+      - building_age_class: 1978_to_today - Table 6.17, Eigene Berechnungen IWU 2012.
+      <br/>living_area_residential - Metric: living_area_residential - confidence:
+      medium - building_type_residential: gmh - building_age_class: average - Table
+      6.17, Eigene Berechnungen IWU 2012. <br/>living_area_residential - Metric: living_area_residential
+      - confidence: medium - building_type_residential: gmh - building_age_class:
+      before_1948 - Table 6.17, Eigene Berechnungen IWU 2012. <br/>living_area_residential
+      - Metric: living_area_residential - confidence: medium - building_type_residential:
+      gmh - building_age_class: 1948_to_1978 - Table 6.17, Eigene Berechnungen IWU
+      2012. <br/>full_usage_hours_heating_residential - Metric: full_usage_hours_heating_residential
+      - confidence: medium - building_type_residential: efh - Table 6.18, Rosenkranz
+      2020. <br/>full_usage_hours_heating_residential - Metric: full_usage_hours_heating_residential
+      - confidence: medium - building_type_residential: mfh - Table 6.18, Rosenkranz
+      2020. <br/>heat_intensity_residential - Metric: heat_intensity_residential -
+      confidence: medium - building_type_residential: efh - building_age_class: before_1948
+      - renovation_status: before_renovation - Table 6.19, Eigene Berechnungen IWU
+      2012. <br/>heat_intensity_residential - Metric: heat_intensity_residential -
+      confidence: medium - building_type_residential: efh - building_age_class: before_1948
+      - construction_method: conventional - Table 6.19, Eigene Berechnungen IWU 2012.
+      <br/>heat_intensity_residential - Metric: heat_intensity_residential - confidence:
+      medium - building_type_residential: efh - building_age_class: before_1948 -
+      renovation_status: ambitious - Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential
+      - Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      efh - building_age_class: 1948_to_1978 - renovation_status: before_renovation
+      - Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential
+      - Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      efh - building_age_class: 1948_to_1978 - construction_method: conventional -
+      Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential -
+      Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      efh - building_age_class: 1948_to_1978 - renovation_status: ambitious - Table
+      6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential - Metric:
+      heat_intensity_residential - confidence: medium - building_type_residential:
+      efh - building_age_class: 1978_to_today - renovation_status: before_renovation
+      - Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential
+      - Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      efh - building_age_class: 1978_to_today - construction_method: conventional
+      - Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential
+      - Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      efh - building_age_class: 1978_to_today - renovation_status: ambitious - Table
+      6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential - Metric:
+      heat_intensity_residential - confidence: medium - building_type_residential:
+      rh - building_age_class: before_1948 - renovation_status: before_renovation
+      - Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential
+      - Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      rh - building_age_class: before_1948 - construction_method: conventional - Table
+      6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential - Metric:
+      heat_intensity_residential - confidence: medium - building_type_residential:
+      rh - building_age_class: before_1948 - renovation_status: ambitious - Table
+      6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential - Metric:
+      heat_intensity_residential - confidence: medium - building_type_residential:
+      rh - building_age_class: 1948_to_1978 - renovation_status: before_renovation
+      - Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential
+      - Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      rh - building_age_class: 1948_to_1978 - construction_method: conventional -
+      Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential -
+      Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      rh - building_age_class: 1948_to_1978 - renovation_status: ambitious - Table
+      6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential - Metric:
+      heat_intensity_residential - confidence: medium - building_type_residential:
+      rh - building_age_class: 1978_to_today - renovation_status: before_renovation
+      - Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential
+      - Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      rh - building_age_class: 1978_to_today - construction_method: conventional -
+      Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential -
+      Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      rh - building_age_class: 1978_to_today - renovation_status: ambitious - Table
+      6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential - Metric:
+      heat_intensity_residential - confidence: medium - building_type_residential:
+      mfh - building_age_class: before_1948 - renovation_status: before_renovation
+      - Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential
+      - Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      mfh - building_age_class: before_1948 - construction_method: conventional -
+      Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential -
+      Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      mfh - building_age_class: before_1948 - renovation_status: ambitious - Table
+      6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential - Metric:
+      heat_intensity_residential - confidence: medium - building_type_residential:
+      mfh - building_age_class: 1948_to_1978 - renovation_status: before_renovation
+      - Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential
+      - Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      mfh - building_age_class: 1948_to_1978 - construction_method: conventional -
+      Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential -
+      Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      mfh - building_age_class: 1948_to_1978 - renovation_status: ambitious - Table
+      6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential - Metric:
+      heat_intensity_residential - confidence: medium - building_type_residential:
+      mfh - building_age_class: 1978_to_today - renovation_status: before_renovation
+      - Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential
+      - Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      mfh - building_age_class: 1978_to_today - construction_method: conventional
+      - Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential
+      - Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      mfh - building_age_class: 1978_to_today - renovation_status: ambitious - Table
+      6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential - Metric:
+      heat_intensity_residential - confidence: medium - building_type_residential:
+      gmh - building_age_class: before_1948 - renovation_status: before_renovation
+      - Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential
+      - Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      gmh - building_age_class: before_1948 - construction_method: conventional -
+      Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential -
+      Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      gmh - building_age_class: before_1948 - renovation_status: ambitious - Table
+      6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential - Metric:
+      heat_intensity_residential - confidence: medium - building_type_residential:
+      gmh - building_age_class: 1948_to_1978 - renovation_status: before_renovation
+      - Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential
+      - Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      gmh - building_age_class: 1948_to_1978 - construction_method: conventional -
+      Table 6.19, Eigene Berechnungen IWU 2012. <br/>heat_intensity_residential -
+      Metric: heat_intensity_residential - confidence: medium - building_type_residential:
+      gmh - building_age_class: 1948_to_1978 - renovation_status: ambitious - Table
+      6.19, Eigene Berechnungen IWU 2012. <br/>partial_renovation_equivalent_residential_simplified
+      - Metric: partial_renovation_equivalent_residential_simplified - confidence:
+      medium - vehicle_category: full_renovation - Table 6.20, Diefenbach et al. 2010.
+      Simplified version<br/>partial_renovation_equivalent_residential_simplified
+      - Metric: partial_renovation_equivalent_residential_simplified - confidence:
+      medium - vehicle_category: roof_top_floor - Table 6.20, Diefenbach et al. 2010.
+      <br/>partial_renovation_equivalent_residential_simplified - Metric: partial_renovation_equivalent_residential_simplified
+      - confidence: medium - vehicle_category: basement_ceiling - Table 6.20, Diefenbach
+      et al. 2010. <br/>partial_renovation_equivalent_residential_simplified - Metric:
+      partial_renovation_equivalent_residential_simplified - confidence: medium -
+      vehicle_category: facade - Table 6.20, Diefenbach et al. 2010. <br/>partial_renovation_equivalent_residential_simplified
+      - Metric: partial_renovation_equivalent_residential_simplified - confidence:
+      medium - vehicle_category: windows - Table 6.20, Diefenbach et al. 2010. <br/>vehicle_fuel_consumption
+      - Metric: vehicle_fuel_consumption - confidence: high - chp_technology: combustion
+      - vehicle_category: compact - Table 6.24, Biemann et al. 2024. <br/>vehicle_fuel_consumption
+      - Metric: vehicle_fuel_consumption - confidence: medium - propulsion_type: combustion
+      - bus_type: compact - Table 6.24, Biemann et al. 2024. Improved efficiency<br/>vehicle_fuel_consumption
+      - Metric: vehicle_fuel_consumption - confidence: medium - propulsion_type: combustion
+      - bus_type: compact - Table 6.24, Biemann et al. 2024. Constant from 2030<br/>vehicle_fuel_consumption
+      - Metric: vehicle_fuel_consumption - confidence: medium - chp_technology: combustion
+      - vehicle_category: compact - Table 6.24, Biemann et al. 2024. <br/>vehicle_fuel_consumption
+      - Metric: vehicle_fuel_consumption - confidence: medium - chp_technology: combustion
+      - vehicle_category: compact - Table 6.24, Biemann et al. 2024. <br/>vehicle_electricity_consumption
+      - Metric: vehicle_electricity_consumption - confidence: high - chp_technology:
+      bev - vehicle_category: compact - Table 6.24, Biemann et al. 2024. <br/>vehicle_electricity_consumption
+      - Metric: vehicle_electricity_consumption - confidence: high - propulsion_type:
+      bev - bus_type: compact - Table 6.24, Biemann et al. 2024. Constant assumed<br/>vehicle_electricity_consumption
+      - Metric: vehicle_electricity_consumption - confidence: medium - chp_technology:
+      bev - vehicle_category: compact - Table 6.24, Biemann et al. 2024. <br/>vehicle_electricity_consumption
+      - Metric: vehicle_electricity_consumption - confidence: medium - chp_technology:
+      bev - vehicle_category: compact - Table 6.24, Biemann et al. 2024. <br/>vehicle_electricity_consumption
+      - Metric: vehicle_electricity_consumption - confidence: medium - chp_technology:
+      bev - vehicle_category: compact - Table 6.24, Biemann et al. 2024. <br/>vehicle_electricity_consumption
+      - Metric: vehicle_electricity_consumption - confidence: medium - chp_technology:
+      bev - vehicle_category: compact - Table 6.24, Biemann et al. 2024. <br/>battery_capacity
+      - Metric: battery_capacity - confidence: high - building_component: compact
+      - Table 6.24, Biemann et al. 2024. <br/>battery_capacity - Metric: battery_capacity
+      - confidence: medium - vehicle_category: compact - Table 6.24, Biemann et al.
+      2024. Increasing for higher range<br/>battery_capacity - Metric: battery_capacity
+      - confidence: medium - building_component: compact - Table 6.24, Biemann et
+      al. 2024. <br/>battery_capacity - Metric: battery_capacity - confidence: low
+      - building_component: compact - Table 6.24, Biemann et al. 2024. <br/>battery_capacity
+      - Metric: battery_capacity - confidence: low - building_component: compact -
+      Table 6.24, Biemann et al. 2024. <br/>battery_capacity - Metric: battery_capacity
+      - confidence: low - building_component: compact - Table 6.24, Biemann et al.
+      2024. <br/>annual_mileage_municipal_vehicle - Metric: annual_mileage_municipal_vehicle
+      - confidence: medium - Table 6.23, Expertenschätzung Jöhrens et al. 2019. <br/>lifetime_mileage_vehicle
+      - Metric: lifetime_mileage_vehicle - confidence: high - Table 6.23, TREMOD 6.53.
+      <br/>vehicle_holding_period - Metric: vehicle_holding_period - confidence: high
+      - Table 6.23, Innenministerium BW 2000; Rheinland-Pfalz 2006. <br/>share_mileage_within_territory
+      - Metric: share_mileage_within_territory - confidence: medium - Table 6.23,
+      Expertenschätzung. For BISKO allocation<br/>bus_fuel_consumption - Metric: bus_fuel_consumption
+      - confidence: medium - chp_technology: diesel - bus_type: 12m_solo - Table 6.26,
+      Sphera Solutions et al. 2021. <br/>bus_fuel_consumption - Metric: bus_fuel_consumption
+      - confidence: medium - chp_technology: diesel - bus_type: 12m_solo - Table 6.26,
+      Sphera Solutions et al. 2021. <br/>bus_electricity_consumption - Metric: bus_electricity_consumption
+      - confidence: medium - chp_technology: bev - bus_type: 12m_solo - Table 6.26,
+      PwC et al. 2024. <br/>bus_electricity_consumption - Metric: bus_electricity_consumption
+      - confidence: medium - propulsion_type: bev - flight_type: 12m_solo - Table
+      6.26, PwC et al. 2024. Constant assumed<br/>bus_battery_capacity - Metric: bus_battery_capacity
+      - confidence: medium - vehicle_category: 12m_solo - Table 6.26, PwC et al. 2024.
+      <br/>bus_battery_capacity - Metric: bus_battery_capacity - confidence: medium
+      - bus_type: 12m_solo - Table 6.26, PwC et al. 2024. Constant assumed<br/>bus_annual_mileage
+      - Metric: bus_annual_mileage - confidence: high - Table 6.25, PwC et al. 2024.
+      <br/>bus_ratio_electric_to_diesel - Metric: bus_ratio_electric_to_diesel - confidence:
+      medium - Table 6.25, PwC et al. 2024. 1.075 e-buses needed for same service
+      as 1 diesel bus<br/>bus_holding_period - Metric: bus_holding_period - confidence:
+      high - Table 6.25, PwC et al. 2024. <br/>avg_commute_distance - Metric: avg_commute_distance
+      - confidence: medium - Table 6.27, Nobis und Kuhnimhof 2018 (MiD). One-way distance<br/>rebound_effect_commuting
+      - Metric: rebound_effect_commuting - confidence: low - Table 6.27, Lambrecht
+      et al. 2021. Savings reduction -10% through rebound<br/>home_office_share_current
+      - Metric: home_office_share_current - confidence: medium - Table 6.27, Lambrecht
+      et al. 2021. <br/>home_office_days_per_week_current - Metric: home_office_days_per_week_current
+      - confidence: medium - Table 6.27, Lambrecht et al. 2021. <br/>modal_split_commuting_active_current
+      - Metric: modal_split_commuting_active_current - confidence: medium - Table
+      6.27, Lambrecht et al. 2021. Share bike/walk today<br/>modal_split_commuting_pt_current
+      - Metric: modal_split_commuting_pt_current - confidence: medium - Table 6.27,
+      Lambrecht et al. 2021. Share public transport today<br/>home_office_share_ambitious
+      - Metric: home_office_share_ambitious - confidence: low - Table 6.27, Lambrecht
+      et al. 2021. Ambitious target<br/>home_office_days_per_week_ambitious - Metric:
+      home_office_days_per_week_ambitious - confidence: low - Table 6.27, Lambrecht
+      et al. 2021. <br/>share_mileage_within_territory_commuting - Metric: share_mileage_within_territory_commuting
+      - confidence: medium - Table 6.27, Expertenschätzung. For BISKO allocation -
+      50% within territory<br/>annual_mileage_business_vehicle - Metric: annual_mileage_business_vehicle
+      - confidence: medium - Table 6.28, Expertenschätzung Jöhrens et al. 2019. <br/>avg_flight_distance_national
+      - Metric: avg_flight_distance_national - confidence: high - Table 6.28, Eigene
+      Berechnung TREMOD AV ifeu 2025. <br/>avg_flight_distance_international - Metric:
+      avg_flight_distance_international - confidence: high - Table 6.28, Eigene Berechnung
+      TREMOD AV ifeu 2025. <br/>meat_share_typical_canteen - Metric: meat_share_typical_canteen
+      - confidence: medium - Table 6.29, Eigene Berechnung. Typical meat share in
+      canteens without climate measures<br/>exergy_factor_electricity - Metric: exergy_factor_electricity
+      - confidence: very_high - Section 5.1 Footnote 3, BISKO Methodology. Physical
+      principle - electricity has exergy = 1.0<br/>exergy_factor_heat - Metric: exergy_factor_heat
+      - confidence: high - Section 5.1 Footnote 3, BISKO Methodology. For district
+      heat - temperature dependent<br/>typical_work_days_per_year - Metric: typical_work_days_per_year
+      - confidence: high - Section 5.3, Standard assumption. For commuting calculations'
+  metrics:
+  - id: sequestration_rate_forest_management
+    quantity: sequestration
+    label:
+      en: sequestration_rate_forest_management
+  - id: emission_intensity_flight_start
+    quantity: emission
+    label:
+      en: emission_intensity_flight_start
+  - id: ef_green_tariff_climate_invest
+    quantity: emission
+    label:
+      en: ef_green_tariff_climate_invest
+  - id: upstream_chp_per_capacity
+    quantity: emission
+    label:
+      en: upstream_chp_per_capacity
+  - id: system_performance_factor_non_residential
+    quantity: efficiency
+    label:
+      en: system_performance_factor_non_residential
+  - id: electricity_consumption_device_commercial
+    quantity: consumption
+    label:
+      en: electricity_consumption_device_commercial
+  - id: ef_fuel_mix_fossil
+    quantity: emission
+    label:
+      en: ef_fuel_mix_fossil
+  - id: food_waste_reduction_factor
+    quantity: share
+    label:
+      en: food_waste_reduction_factor
+  - id: vehicle_holding_period
+    quantity: duration
+    label:
+      en: vehicle_holding_period
+  - id: upstream_renovation_non_residential
+    quantity: emission
+    label:
+      en: upstream_renovation_non_residential
+  - id: net_floor_area_non_residential
+    quantity: area
+    label:
+      en: net_floor_area_non_residential
+  - id: control_system_savings
+    quantity: savings_rate
+    label:
+      en: control_system_savings
+  - id: upstream_lighting
+    quantity: emission
+    label:
+      en: upstream_lighting
+  - id: modal_split_commuting_active_current
+    quantity: share
+    label:
+      en: modal_split_commuting_active_current
+  - id: upstream_ict_devices
+    quantity: emission
+    label:
+      en: upstream_ict_devices
+  - id: ef_green_tariff_climate_invest2
+    quantity: emission
+    label:
+      en: ef_green_tariff_climate_invest2
+  - id: lifetime_mileage_vehicle
+    quantity: mileage
+    label:
+      en: lifetime_mileage_vehicle
+  - id: share_ev_in_propulsion_mix
+    quantity: share
+    label:
+      en: share_ev_in_propulsion_mix
+  - id: bus_fuel_consumption
+    quantity: consumption
+    label:
+      en: bus_fuel_consumption
+  - id: avg_flight_distance_international
+    quantity: distance
+    label:
+      en: avg_flight_distance_international
+  - id: vehicle_electricity_consumption
+    quantity: consumption
+    label:
+      en: vehicle_electricity_consumption
+  - id: behavioral_savings_electricity
+    quantity: savings_rate
+    label:
+      en: behavioral_savings_electricity
+  - id: ef_paper2
+    quantity: emission
+    label:
+      en: ef_paper2
+  - id: partial_renovation_equivalent_residential_simplified
+    quantity: share
+    label:
+      en: partial_renovation_equivalent_residential_simplified
+  - id: ef_natural_gas
+    quantity: emission
+    label:
+      en: ef_natural_gas
+  - id: ef_lignite
+    quantity: emission
+    label:
+      en: ef_lignite
+  - id: exergy_factor_heat
+    quantity: factor
+    label:
+      en: exergy_factor_heat
+  - id: lighting_count_sports_hall
+    quantity: count
+    label:
+      en: lighting_count_sports_hall
+  - id: conversion_factor_fuel_to_energy
+    quantity: energy
+    label:
+      en: conversion_factor_fuel_to_energy
+  - id: emission_factor_organic_soils
+    quantity: emission
+    label:
+      en: emission_factor_organic_soils
+  - id: sequestration_rate_trees
+    quantity: sequestration
+    label:
+      en: sequestration_rate_trees
+  - id: home_office_share_ambitious
+    quantity: share
+    label:
+      en: home_office_share_ambitious
+  - id: lighting_efficiency_sports_field
+    quantity: savings_rate
+    label:
+      en: lighting_efficiency_sports_field
+  - id: rebound_effect_commuting
+    quantity: factor
+    label:
+      en: rebound_effect_commuting
+  - id: exergy_factor_electricity
+    quantity: factor
+    label:
+      en: exergy_factor_electricity
+  - id: ef_displacement_geothermal
+    quantity: emission
+    label:
+      en: ef_displacement_geothermal
+  - id: ef_hard_coal
+    quantity: emission
+    label:
+      en: ef_hard_coal
+  - id: ef_wood
+    quantity: emission
+    label:
+      en: ef_wood
+  - id: modal_split_commuting_pt_current
+    quantity: share
+    label:
+      en: modal_split_commuting_pt_current
+  - id: bus_ratio_electric_to_diesel
+    quantity: ratio
+    label:
+      en: bus_ratio_electric_to_diesel
+  - id: ef_meal
+    quantity: emission
+    label:
+      en: ef_meal
+  - id: lighting_efficiency_sports_hall
+    quantity: savings_rate
+    label:
+      en: lighting_efficiency_sports_hall
+  - id: system_performance_factor_residential
+    quantity: efficiency
+    label:
+      en: system_performance_factor_residential
+  - id: full_usage_hours_heating_residential
+    quantity: duration
+    label:
+      en: full_usage_hours_heating_residential
+  - id: full_usage_hours_heating_non_residential
+    quantity: duration
+    label:
+      en: full_usage_hours_heating_non_residential
+  - id: home_office_days_per_week_current
+    quantity: days
+    label:
+      en: home_office_days_per_week_current
+  - id: ef_paper
+    quantity: emission
+    label:
+      en: ef_paper
+  - id: upstream_battery_production
+    quantity: emission
+    label:
+      en: upstream_battery_production
+  - id: upstream_new_construction_residential
+    quantity: emission
+    label:
+      en: upstream_new_construction_residential
+  - id: partial_renovation_equivalent_non_residential
+    quantity: share
+    label:
+      en: partial_renovation_equivalent_non_residential
+  - id: bus_annual_mileage
+    quantity: mileage
+    label:
+      en: bus_annual_mileage
+  - id: upstream_new_construction_non_residential
+    quantity: emission
+    label:
+      en: upstream_new_construction_non_residential
+  - id: emission_intensity_flight_length
+    quantity: emission
+    label:
+      en: emission_intensity_flight_length
+  - id: lifetime_technology
+    quantity: duration
+    label:
+      en: lifetime_technology
+  - id: ef_propulsion_mix
+    quantity: emission
+    label:
+      en: ef_propulsion_mix
+  - id: power_consumption_lighting2
+    quantity: power
+    label:
+      en: power_consumption_lighting2
+  - id: upstream_geothermal_per_annual_yield
+    quantity: emission
+    label:
+      en: upstream_geothermal_per_annual_yield
+  - id: avg_flight_distance_national
+    quantity: distance
+    label:
+      en: avg_flight_distance_national
+  - id: ef_electricity_chp
+    quantity: emission
+    label:
+      en: ef_electricity_chp
+  - id: ef_solar_thermal
+    quantity: emission
+    label:
+      en: ef_solar_thermal
+  - id: bus_battery_capacity
+    quantity: capacity
+    label:
+      en: bus_battery_capacity
+  - id: upstream_hydro_per_annual_yield
+    quantity: emission
+    label:
+      en: upstream_hydro_per_annual_yield
+  - id: operating_hours_lighting
+    quantity: duration
+    label:
+      en: operating_hours_lighting
+  - id: heat_intensity_non_residential
+    quantity: heat_demand
+    label:
+      en: heat_intensity_non_residential
+  - id: ef_displacement_pv
+    quantity: emission
+    label:
+      en: ef_displacement_pv
+  - id: living_area_residential
+    quantity: area
+    label:
+      en: living_area_residential
+  - id: upstream_wind_per_annual_yield
+    quantity: emission
+    label:
+      en: upstream_wind_per_annual_yield
+  - id: low_investment_savings_electricity_comprehensive
+    quantity: savings_rate
+    label:
+      en: low_investment_savings_electricity_comprehensive
+  - id: power_consumption_lighting
+    quantity: power
+    label:
+      en: power_consumption_lighting
+  - id: behavioral_savings_heat
+    quantity: savings_rate
+    label:
+      en: behavioral_savings_heat
+  - id: bus_electricity_consumption
+    quantity: consumption
+    label:
+      en: bus_electricity_consumption
+  - id: upstream_pv_per_annual_yield
+    quantity: emission
+    label:
+      en: upstream_pv_per_annual_yield
+  - id: share_mileage_within_territory
+    quantity: share
+    label:
+      en: share_mileage_within_territory
+  - id: upstream_heating_system
+    quantity: emission
+    label:
+      en: upstream_heating_system
+  - id: home_office_days_per_week_ambitious
+    quantity: days
+    label:
+      en: home_office_days_per_week_ambitious
+  - id: home_office_share_current
+    quantity: share
+    label:
+      en: home_office_share_current
+  - id: ef_residual_waste_mass
+    quantity: emission
+    label:
+      en: ef_residual_waste_mass
+  - id: bus_holding_period
+    quantity: duration
+    label:
+      en: bus_holding_period
+  - id: annual_mileage_business_vehicle
+    quantity: mileage
+    label:
+      en: annual_mileage_business_vehicle
+  - id: avg_commute_distance
+    quantity: distance
+    label:
+      en: avg_commute_distance
+  - id: battery_capacity
+    quantity: capacity
+    label:
+      en: battery_capacity
+  - id: vehicle_fuel_consumption
+    quantity: consumption
+    label:
+      en: vehicle_fuel_consumption
+  - id: heat_intensity_residential
+    quantity: heat_demand
+    label:
+      en: heat_intensity_residential
+  - id: electricity_consumption_device_household
+    quantity: consumption
+    label:
+      en: electricity_consumption_device_household
+  - id: partial_renovation_equivalent_non_residential_simplified
+    quantity: share
+    label:
+      en: partial_renovation_equivalent_non_residential_simplified
+  - id: occupancy_rate
+    quantity: occupancy
+    label:
+      en: occupancy_rate
+  - id: typical_work_days_per_year
+    quantity: duration
+    label:
+      en: typical_work_days_per_year
+  - id: low_investment_savings_electricity
+    quantity: savings_rate
+    label:
+      en: low_investment_savings_electricity
+  - id: ef_heat_chp
+    quantity: emission
+    label:
+      en: ef_heat_chp
+  - id: upstream_renovation_residential
+    quantity: emission
+    label:
+      en: upstream_renovation_residential
+  - id: annual_mileage_municipal_vehicle
+    quantity: mileage
+    label:
+      en: annual_mileage_municipal_vehicle
+  - id: ef_displacement_hydro
+    quantity: emission
+    label:
+      en: ef_displacement_hydro
+  - id: upstream_device_repair
+    quantity: emission
+    label:
+      en: upstream_device_repair
+  - id: ef_water_treatment
+    quantity: emission
+    label:
+      en: ef_water_treatment
+  - id: share_mileage_within_territory_commuting
+    quantity: share
+    label:
+      en: share_mileage_within_territory_commuting
+  - id: sequestration_rate_forest
+    quantity: sequestration
+    label:
+      en: sequestration_rate_forest
+  - id: low_investment_savings_heat
+    quantity: savings_rate
+    label:
+      en: low_investment_savings_heat
+  - id: partial_renovation_equivalent_residential
+    quantity: share
+    label:
+      en: partial_renovation_equivalent_residential
+  - id: ef_grid
+    quantity: emission
+    label:
+      en: ef_grid
+  - id: meat_share_typical_canteen
+    quantity: share
+    label:
+      en: meat_share_typical_canteen
+  - id: reduction_regional_seasonal
+    quantity: emission
+    label:
+      en: reduction_regional_seasonal
+  - id: behavioral_savings_electricity_households
+    quantity: savings_rate
+    label:
+      en: behavioral_savings_electricity_households
+  - id: ef_heating_oil
+    quantity: emission
+    label:
+      en: ef_heating_oil
+  - id: ef_residual_waste_volume
+    quantity: emission
+    label:
+      en: ef_residual_waste_volume
+  - id: ef_drinking_water
+    quantity: emission
+    label:
+      en: ef_drinking_water
+  - id: ef_displacement_wind
+    quantity: emission
+    label:
+      en: ef_displacement_wind
+  updated_at: '1760266029'
+  units:
+    ef_grid: g CO2eq/kWh
+    ef_heat_chp: g CO2eq/kWh
+    avg_flight_distance_international: km
+    upstream_renovation_residential: kg CO2eq/m²
+    sequestration_rate_trees: kg CO2/tree/year
+    operating_hours_lighting: hours/year
+    home_office_share_current: dimensionless
+    power_consumption_lighting: kWh/h
+    home_office_days_per_week_current: days per 5 work days
+    upstream_new_construction_non_residential: kg CO2eq/m²
+    bus_fuel_consumption: liters/100km
+    emission_factor_organic_soils: t CO2eq/ha/year
+    behavioral_savings_electricity_households: dimensionless
+    electricity_consumption_device_household: kWh/year
+    bus_ratio_electric_to_diesel: dimensionless
+    ef_displacement_wind: g CO2eq/kWh
+    modal_split_commuting_active_current: dimensionless
+    ef_green_tariff_climate_invest: t CO2eq/(EUR*year)
+    lighting_efficiency_sports_field: dimensionless
+    low_investment_savings_heat: dimensionless
+    system_performance_factor_non_residential: dimensionless
+    occupancy_rate: persons/vehicle
+    meat_share_typical_canteen: dimensionless
+    ef_wood: g CO2eq/kWh
+    system_performance_factor_residential: dimensionless
+    ef_fuel_mix_fossil: t CO2eq/MWh
+    bus_electricity_consumption: kWh/100km
+    lighting_count_sports_hall: lamps
+    heat_intensity_non_residential: kWh/m²/year
+    upstream_hydro_per_annual_yield: t CO2eq/(MWh*year)
+    reduction_regional_seasonal: kg CO2eq/meal
+    share_mileage_within_territory: dimensionless
+    lifetime_mileage_vehicle: km
+    full_usage_hours_heating_residential: hours/year
+    electricity_consumption_device_commercial: kWh/year
+    share_mileage_within_territory_commuting: dimensionless
+    upstream_lighting: t CO2eq/unit
+    emission_intensity_flight_length: g CO2eq/person-km
+    upstream_heating_system: kg CO2eq/kW
+    sequestration_rate_forest: t CO2/ha/year
+    ef_electricity_chp: g CO2eq/kWh
+    conversion_factor_fuel_to_energy: MJ/liter
+    ef_displacement_geothermal: g CO2eq/kWh
+    upstream_device_repair: t CO2eq/device
+    upstream_pv_per_annual_yield: t CO2eq/(MWh*year)
+    ef_residual_waste_mass: t CO2eq/t waste
+    exergy_factor_electricity: dimensionless
+    ef_meal: kg CO2eq/meal
+    upstream_renovation_non_residential: kg CO2eq/m²
+    ef_displacement_hydro: g CO2eq/kWh
+    annual_mileage_municipal_vehicle: km/year
+    home_office_days_per_week_ambitious: days per 5 work days
+    behavioral_savings_electricity: dimensionless
+    ef_solar_thermal: g CO2eq/kWh
+    battery_capacity: kWh
+    vehicle_electricity_consumption: kWh/100km
+    typical_work_days_per_year: days/year
+    heat_intensity_residential: kWh/m²/year
+    ef_natural_gas: g CO2eq/kWh
+    lifetime_technology: years
+    avg_flight_distance_national: km
+    bus_battery_capacity: kWh
+    sequestration_rate_forest_management: t CO2/ha/year
+    living_area_residential: m²
+    low_investment_savings_electricity_comprehensive: dimensionless
+    ef_water_treatment: t CO2eq/liter
+    upstream_wind_per_annual_yield: t CO2eq/(MWh*year)
+    food_waste_reduction_factor: dimensionless
+    avg_commute_distance: km
+    annual_mileage_business_vehicle: km/year
+    control_system_savings: dimensionless
+    exergy_factor_heat: dimensionless
+    upstream_battery_production: kg CO2eq/kWh
+    ef_displacement_pv: g CO2eq/kWh
+    ef_paper: t CO2eq/sheet
+    emission_intensity_flight_start: g CO2eq/start/person
+    net_floor_area_non_residential: m²
+    partial_renovation_equivalent_residential_simplified: dimensionless
+    share_ev_in_propulsion_mix: dimensionless
+    ef_lignite: g CO2eq/kWh
+    behavioral_savings_heat: dimensionless
+    ef_paper2: t CO2eq/pack
+    upstream_geothermal_per_annual_yield: t CO2eq/(MWh*year)
+    partial_renovation_equivalent_non_residential_simplified: dimensionless
+    full_usage_hours_heating_non_residential: hours/year
+    ef_residual_waste_volume: t CO2eq/m³ waste
+    vehicle_holding_period: years
+    ef_drinking_water: kg CO2eq/liter
+    lighting_efficiency_sports_hall: dimensionless
+    partial_renovation_equivalent_residential: dimensionless
+    bus_annual_mileage: km/year
+    low_investment_savings_electricity: dimensionless
+    ef_heating_oil: g CO2eq/kWh
+    home_office_share_ambitious: dimensionless
+    rebound_effect_commuting: dimensionless
+    ef_propulsion_mix: t CO2eq/MWh
+    upstream_ict_devices: t CO2eq/device
+    vehicle_fuel_consumption: liters/100km
+    modal_split_commuting_pt_current: dimensionless
+    upstream_new_construction_residential: kg CO2eq/m²
+    ef_green_tariff_climate_invest2: t CO2eq/EUR
+    bus_holding_period: years
+    power_consumption_lighting2: W/h
+    ef_hard_coal: g CO2eq/kWh
+    partial_renovation_equivalent_non_residential: dimensionless
+    upstream_chp_per_capacity: t CO2eq/MW
