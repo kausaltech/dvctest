@@ -1,0 +1,50 @@
+outs:
+- md5: a06fe0c20a5cb19c669f97beecc098a3
+  size: 9206
+  hash: md5
+  path: solar_electricity.parquet
+meta:
+  name:
+    en: Solar electricity
+  identifier: solar_electricity
+  description:
+    en: 'ef_displacement - Metric: EF displacement - Confidence: high - Table 3.4,
+      Lauf et al. 2025. Bruttovermeidungsfaktor PV<br/>ef_displacement - Metric: EF
+      displacement - Confidence: medium - Table 3.5, Eigene Berechnungen Lauf et al.
+      2025. 30-year average accounts for grid decarbonization<br/>irradiation - Metric:
+      Irradiation - Confidence: high - Solar irradiation in Germany (from IKKA). DWD
+      climate data 2010-2020 average<br/>performance_fraction - Metric: Performance
+      fraction - Confidence: high - System performance ratio (losses from soiling,
+      temperature, inverter, etc.) https://github.com/kausaltech/netzeroplanner-framework-config/blob/main/ikka/params.yaml#L120<br/>equipment_lifetime
+      - Metric: Equipment lifetime - Confidence: medium - Embodied emissions in PV
+      module production (incl. BOS)<br/>ef_upstream_production - Metric: EF Upstream
+      production - Confidence: medium - Embodied emissions in PV module production
+      (incl. BOS). LCA databases, improving with technology.'
+  metrics:
+  - id: ef_upstream_production
+    quantity: emission_factor
+    label:
+      en: EF Upstream production
+  - id: equipment_lifetime
+    quantity: duration
+    label:
+      en: Equipment lifetime
+  - id: irradiation
+    quantity: energy_factor
+    label:
+      en: Irradiation
+  - id: performance_fraction
+    quantity: fraction
+    label:
+      en: Performance fraction
+  - id: ef_displacement
+    quantity: emission_factor
+    label:
+      en: EF displacement
+  updated_at: '1760356219'
+  units:
+    ef_displacement: g_co2e/kWh
+    irradiation: kWh/kWp/a
+    ef_upstream_production: kg_co2e/kWp
+    performance_fraction: dimensionless
+    equipment_lifetime: a
