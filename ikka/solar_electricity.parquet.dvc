@@ -1,6 +1,6 @@
 outs:
-- md5: a06fe0c20a5cb19c669f97beecc098a3
-  size: 9206
+- md5: 5a7c735f160452758bd89b7454174ced
+  size: 11719
   hash: md5
   path: solar_electricity.parquet
 meta:
@@ -19,32 +19,46 @@ meta:
       - Metric: Equipment lifetime - Confidence: medium - Embodied emissions in PV
       module production (incl. BOS)<br/>ef_upstream_production - Metric: EF Upstream
       production - Confidence: medium - Embodied emissions in PV module production
-      (incl. BOS). LCA databases, improving with technology.'
+      (incl. BOS). LCA databases, improving with technology.<br/>pv_info_campaign_potential
+      - Metric: PV info campaign potential - Confidence: medium - 10000 rooftops *
+      50% reached * 4 %/a adoption * 8 kWp/roof<br/>pv_subsidies - Metric: PV subsidies
+      - Confidence: medium - Budget available for 100 installations, 85 % adoption,
+      60 % attribution * 8 kWp/installation'
   metrics:
-  - id: ef_upstream_production
-    quantity: emission_factor
-    label:
-      en: EF Upstream production
-  - id: equipment_lifetime
-    quantity: duration
-    label:
-      en: Equipment lifetime
   - id: irradiation
     quantity: energy_factor
     label:
       en: Irradiation
-  - id: performance_fraction
-    quantity: fraction
+  - id: pv_info_campaign_potential
+    quantity: energy
     label:
-      en: Performance fraction
+      en: PV info campaign potential
   - id: ef_displacement
     quantity: emission_factor
     label:
       en: EF displacement
-  updated_at: '1760356219'
+  - id: pv_subsidies
+    quantity: energy
+    label:
+      en: PV subsidies
+  - id: ef_upstream_production
+    quantity: emission_factor
+    label:
+      en: EF Upstream production
+  - id: performance_fraction
+    quantity: fraction
+    label:
+      en: Performance fraction
+  - id: equipment_lifetime
+    quantity: duration
+    label:
+      en: Equipment lifetime
+  updated_at: '1760497943'
   units:
-    ef_displacement: g_co2e/kWh
-    irradiation: kWh/kWp/a
-    ef_upstream_production: kg_co2e/kWp
-    performance_fraction: dimensionless
+    pv_subsidies: kWp/a
     equipment_lifetime: a
+    performance_fraction: dimensionless
+    pv_info_campaign_potential: kWp/a
+    ef_upstream_production: kg_co2e/kWp
+    irradiation: kWh/kWp/a
+    ef_displacement: g_co2e/kWh
