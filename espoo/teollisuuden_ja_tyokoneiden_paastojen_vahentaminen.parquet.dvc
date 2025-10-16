@@ -1,0 +1,17 @@
+outs:
+- md5: 2aa968d1a9ed48968a70413bd006aad6
+  size: 3565
+  hash: md5
+  path: teollisuuden_ja_tyokoneiden_paastojen_vahentaminen.parquet
+meta:
+  name:
+    fi: Teollisuuden ja työkoneiden päästöjen vähentäminen
+  identifier: teollisuuden_ja_tyokoneiden_paastojen_vahentaminen
+  metrics:
+  - id: vahennysprosentti
+    quantity: fraction
+    label:
+      fi: Vähennysprosentti
+  updated_at: '1760607730'
+  units:
+    vahennysprosentti: '%'
