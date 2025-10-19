@@ -1,0 +1,17 @@
+outs:
+- md5: 16555bc500df3ea0c0f14fc6b068ec45
+  size: 3907
+  hash: md5
+  path: rakennuksen_kayttotarkoitusindeksi.parquet
+meta:
+  name:
+    fi: Rakennuksen käyttötarkoitusindeksi
+  identifier: rakennuksen_kayttotarkoitusindeksi
+  metrics:
+  - id: value
+    quantity: ratio
+    label:
+      fi: Value
+  updated_at: '1760901825'
+  units:
+    value: dimensionless
