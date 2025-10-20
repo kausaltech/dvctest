@@ -1,6 +1,6 @@
 outs:
-- md5: 339a3c17aa469e1b6a5aa8cbea126e2c
-  size: 5274
+- md5: af0b2fff7ed06ddf6776a1cf4518c73e
+  size: 5352
   hash: md5
   path: rakennuksen_kayttotarkoitusindeksi.parquet
 meta:
@@ -12,6 +12,6 @@ meta:
     quantity: ratio
     label:
       fi: Value
-  updated_at: '1760929498'
+  updated_at: '1760930061'
   units:
     value: dimensionless
