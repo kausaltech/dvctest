@@ -1,0 +1,21 @@
+outs:
+- md5: ffb2b4c33d98c6ceedbd1f9947ee1a98
+  size: 5824
+  hash: md5
+  path: ajoneuvosuorite_henkiloautotyypeittain.parquet
+meta:
+  name:
+    fi: Ajoneuvosuorite henkilöautotyypeittäin
+  identifier: ajoneuvosuorite_henkiloautotyypeittain
+  description:
+    fi: 'ajoneuvosuorite - Metric: Ajoneuvosuorite - Energy carrier: electricity -
+      Luvut on saatu aiemmasta malliversiosta laskemalla kokonaissuorite ja eri ajoneuvotyyppien
+      määrät.'
+  metrics:
+  - id: ajoneuvosuorite
+    quantity: mileage
+    label:
+      fi: Ajoneuvosuorite
+  updated_at: '1761015365'
+  units:
+    ajoneuvosuorite: Mvkm/a
