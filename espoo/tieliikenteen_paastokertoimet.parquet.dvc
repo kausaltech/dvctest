@@ -1,0 +1,21 @@
+outs:
+- md5: 6e68f84bcbb71558ec87a2ebc0db7b52
+  size: 5408
+  hash: md5
+  path: tieliikenteen_paastokertoimet.parquet
+meta:
+  name:
+    fi: Tieliikenteen päästökertoimet
+  identifier: tieliikenteen_paastokertoimet
+  description:
+    fi: 'paastokerroin - Metric: Päästökerroin - Vehicle type: passenger_cars - Traficomin
+      julkaisu 2023. https://www.traficom.fi/fi/traficomin-julkaisut?limit=20&offset=0&query=p%C3%A4%C3%A4st%C3%B6ennusteen&sort=created&toggle=Tieliikenteen%20ajoneuvokanta-%20ja%20p%C3%A4%C3%A4st%C3%B6ennusteen%20p%C3%A4ivitys%202023<br/>paastokerroin
+      - Metric: Päästökerroin - Vehicle type: vans - https://www.traficom.fi/sites/default/files/media/publication/LIITE%202%20WEM2023_16-10-2023.xlsx'
+  metrics:
+  - id: paastokerroin
+    quantity: emission_factor
+    label:
+      fi: Päästökerroin
+  updated_at: '1761063533'
+  units:
+    paastokerroin: g/vkm
