@@ -1,0 +1,23 @@
+outs:
+- md5: 3ecbe645626e2ec03abe3c5ed4a52470
+  size: 6655
+  hash: md5
+  path: tieliikenteen_ajoneuvosuorite.parquet
+meta:
+  name:
+    fi: Tieliikenteen ajoneuvosuorite
+  identifier: tieliikenteen_ajoneuvosuorite
+  description:
+    fi: 'ajoneuvosuorite - Metric: Ajoneuvosuorite - Vehicle type: passenger_cars
+      - Traficomin julkaisu 2023. https://www.traficom.fi/fi/traficomin-julkaisut?limit=20&offset=0&query=p%C3%A4%C3%A4st%C3%B6ennusteen&sort=created&toggle=Tieliikenteen%20ajoneuvokanta-%20ja%20p%C3%A4%C3%A4st%C3%B6ennusteen%20p%C3%A4ivitys%202023<br/>ajoneuvosuorite
+      - Metric: Ajoneuvosuorite - Vehicle type: vans - https://www.traficom.fi/sites/default/files/media/publication/LIITE%202%20WEM2023_16-10-2023.xlsx<br/>ajoneuvosuorite
+      - Metric: Ajoneuvosuorite - Vehicle type: buses_hsl - Laskettu Traficomin julkaisun
+      ja HSY:n energiasuoritteen perusteella'
+  metrics:
+  - id: ajoneuvosuorite
+    quantity: mileage
+    label:
+      fi: Ajoneuvosuorite
+  updated_at: '1761063561'
+  units:
+    ajoneuvosuorite: Mvkm/a
