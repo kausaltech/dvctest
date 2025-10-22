@@ -1,5 +1,5 @@
 outs:
-- md5: 4f74231ec45db4da8b1d42195bbcc9e9
+- md5: 7f591eb06f811b1e70531a8a57803af9
   size: 7296
   hash: md5
   path: tieliikenteen_ajoneuvosuorite.parquet
@@ -18,6 +18,6 @@ meta:
     quantity: mileage
     label:
       fi: Ajoneuvosuorite
-  updated_at: '1761069211'
+  updated_at: '1761113518'
   units:
     ajoneuvosuorite: Mvkm/a
