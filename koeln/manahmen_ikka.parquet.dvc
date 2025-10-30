@@ -1,5 +1,5 @@
 outs:
-- md5: 71495a2d747549e01454601cb75f6ade
+- md5: 141b475e7a69920b5b9ee24f7de70f67
   size: 5631
   hash: md5
   path: manahmen_ikka.parquet
@@ -12,6 +12,6 @@ meta:
     quantity: emissions
     label:
       de: Emissions
-  updated_at: '1761787329'
+  updated_at: '1761788002'
   units:
     emissions: kt/a
