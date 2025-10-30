@@ -1,0 +1,17 @@
+outs:
+- md5: fb50cca6b7c8af267ed43b4f0a4d440e
+  size: 5768
+  hash: md5
+  path: direkte_manahmen_ikka.parquet
+meta:
+  name:
+    de: Direkte Maßnahmen IKKA
+  identifier: direkte_manahmen_ikka
+  metrics:
+  - id: emissions
+    quantity: emissions
+    label:
+      de: Emissions
+  updated_at: '1761791428'
+  units:
+    emissions: kt/a
