@@ -1,0 +1,17 @@
+outs:
+- md5: 71495a2d747549e01454601cb75f6ade
+  size: 5631
+  hash: md5
+  path: manahmen_ikka.parquet
+meta:
+  name:
+    de: Maßnahmen IKKA
+  identifier: manahmen_ikka
+  metrics:
+  - id: emissions
+    quantity: emissions
+    label:
+      de: Emissions
+  updated_at: '1761787329'
+  units:
+    emissions: kt/a
