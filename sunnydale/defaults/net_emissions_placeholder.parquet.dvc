@@ -1,6 +1,6 @@
 outs:
-- md5: bca40923d362bcafc4f43152a507f560
-  size: 4620
+- md5: b5fdb08ccc6e1bcb85b211d52841185e
+  size: 4554
   hash: md5
   path: net_emissions_placeholder.parquet
 meta:
@@ -8,10 +8,10 @@ meta:
     en: Net emissions, placeholder
   identifier: net_emissions_placeholder
   metrics:
-  - id: emissions
+  - id: default
     quantity: emissions
     label:
-      en: Emissions
-  updated_at: '1762229600'
+      en: Value
+  updated_at: '1762253268'
   units:
-    emissions: kt/a
+    Value: kt/a
