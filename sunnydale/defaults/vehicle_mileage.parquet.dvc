@@ -1,0 +1,21 @@
+outs:
+- md5: 4afae9e273ae540ce23206d991363be1
+  size: 5986
+  hash: md5
+  path: vehicle_mileage.parquet
+meta:
+  name:
+    en: Vehicle mileage
+  identifier: vehicle_mileage
+  description:
+    en: 'mileage - Metric: Mileage - energy_carrier: petrol_diesel - transport_mode:
+      buses - stakeholder: transport_operators - Example data from the default model
+      of NetZeroPlanner. http://nzc.localhost:3000/node/vehicle_mileage'
+  metrics:
+  - id: mileage
+    quantity: mileage
+    label:
+      en: Mileage
+  updated_at: '1762239010'
+  units:
+    mileage: l/vkm

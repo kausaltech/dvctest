@@ -2,3 +2,4 @@
 /net_emissions_placeholder.parquet
 /vehicle_transport.parquet
 /number_of_vehicles.parquet
+/vehicle_mileage.parquet
