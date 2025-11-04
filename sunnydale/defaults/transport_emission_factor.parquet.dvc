@@ -1,5 +1,5 @@
 outs:
-- md5: f834c7df246f7a56eedc00d50994756b
+- md5: b02bae536c90393d88993a510762550b
   size: 7882
   hash: md5
   path: transport_emission_factor.parquet
@@ -15,6 +15,6 @@ meta:
     quantity: emission_factor
     label:
       en: Value
-  updated_at: '1762252864'
+  updated_at: '1762253286'
   units:
     Value: g/vkm
