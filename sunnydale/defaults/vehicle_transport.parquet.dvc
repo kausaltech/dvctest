@@ -1,6 +1,6 @@
 outs:
-- md5: 7e38048ea056a52f12d8fa5a574b022a
-  size: 5715
+- md5: 5eacf787db95f3a3835d3e2d4d6bbaa3
+  size: 5689
   hash: md5
   path: vehicle_transport.parquet
 meta:
@@ -8,13 +8,13 @@ meta:
     en: Vehicle transport
   identifier: vehicle_transport
   description:
-    en: 'mileage - Metric: Mileage - energy_carrier: electricity - transport_mode:
-      buses - Example data from the default model of NetZeroPlanner. http://nzc.localhost:3000/node/vehicle_transport'
+    en: 'Value - Metric: Value - energy_carrier: electricity - transport_mode: buses
+      - Example data from the default model of NetZeroPlanner. http://nzc.localhost:3000/node/vehicle_transport'
   metrics:
-  - id: mileage
+  - id: default
     quantity: mileage
     label:
-      en: Mileage
-  updated_at: '1762230756'
+      en: Value
+  updated_at: '1762253281'
   units:
-    mileage: Mvkm/a
+    Value: Mvkm/a
