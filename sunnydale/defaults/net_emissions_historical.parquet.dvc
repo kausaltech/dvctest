@@ -1,0 +1,20 @@
+outs:
+- md5: 63e4086e66b23df5a06ab99b9941f104
+  size: 6987
+  hash: md5
+  path: net_emissions_historical.parquet
+meta:
+  name:
+    en: Net emissions, historical
+  identifier: net_emissions_historical
+  description:
+    en: 'emissions - Metric: Emissions - ghg: co2e - scope: scope2 - sector: buildings
+      - Example data from the default model of NetZeroPlanner. http://nzc.localhost:3000/node/net_emissions'
+  metrics:
+  - id: emissions
+    quantity: emissions
+    label:
+      en: Emissions
+  updated_at: '1762229287'
+  units:
+    emissions: kt/a
