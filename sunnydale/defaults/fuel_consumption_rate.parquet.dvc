@@ -1,0 +1,21 @@
+outs:
+- md5: d4065ee7ffc478835bdea82cb6059ba7
+  size: 5994
+  hash: md5
+  path: fuel_consumption_rate.parquet
+meta:
+  name:
+    en: Fuel consumption rate
+  identifier: fuel_consumption_rate
+  description:
+    en: 'value - Metric: Value - energy_carrier: petrol_diesel - transport_mode: buses
+      - stakeholder: transport_operators - Example data from the default model of
+      NetZeroPlanner. http://nzc.localhost:3000/node/vehicle_mileage'
+  metrics:
+  - id: value
+    quantity: mileage
+    label:
+      en: Value
+  updated_at: '1762240088'
+  units:
+    value: l/vkm
