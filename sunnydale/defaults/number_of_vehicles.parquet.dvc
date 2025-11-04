@@ -1,5 +1,5 @@
 outs:
-- md5: 3e046aad40475d40a4ec902baad674ff
+- md5: c776e015921a0922186ab07169863064
   size: 5758
   hash: md5
   path: number_of_vehicles.parquet
@@ -8,15 +8,15 @@ meta:
     en: Number of vehicles
   identifier: number_of_vehicles
   metrics:
-  - id: buses
-    quantity: number
-    label:
-      en: Buses
   - id: evs
     quantity: number
     label:
       en: EVs
-  updated_at: '1762234516'
+  - id: buses
+    quantity: number
+    label:
+      en: Buses
+  updated_at: '1762253277'
   units:
-    buses: v
-    evs: v/a
+    EVs: v/a
+    Buses: v
