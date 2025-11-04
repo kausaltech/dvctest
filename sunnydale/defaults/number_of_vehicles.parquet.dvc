@@ -1,5 +1,5 @@
 outs:
-- md5: a976672c0715c9bb9c189439c3004fa1
+- md5: 11fb736dccec657c71378c4999834505
   size: 5097
   hash: md5
   path: number_of_vehicles.parquet
@@ -12,6 +12,6 @@ meta:
     quantity: number
     label:
       en: Number
-  updated_at: '1762233277'
+  updated_at: '1762234350'
   units:
     number: v
