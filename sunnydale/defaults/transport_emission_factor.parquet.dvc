@@ -1,6 +1,6 @@
 outs:
-- md5: 6606188345a89e70a2ae7231c4be73dd
-  size: 7880
+- md5: f834c7df246f7a56eedc00d50994756b
+  size: 7882
   hash: md5
   path: transport_emission_factor.parquet
 meta:
@@ -8,13 +8,13 @@ meta:
     en: Transport emission factor
   identifier: transport_emission_factor
   description:
-    en: 'value - Metric: Value - energy_carrier: electricity - transport_mode: buses
+    en: 'Value - Metric: Value - energy_carrier: electricity - transport_mode: buses
       - pollutant: co2 - Example data from the default model of NetZeroPlanner. http://nzc.localhost:3000/node/transport_emission_factor'
   metrics:
-  - id: value
+  - id: default
     quantity: emission_factor
     label:
       en: Value
-  updated_at: '1762251892'
+  updated_at: '1762252864'
   units:
-    value: g/vkm
+    Value: g/vkm
