@@ -1,0 +1,17 @@
+outs:
+- md5: 9f500141a0598b304d189cee6855a612
+  size: 3580
+  hash: md5
+  path: passenger_transport.parquet
+meta:
+  name:
+    en: Passenger transport
+  identifier: passenger_transport
+  metrics:
+  - id: default
+    quantity: mileage
+    label:
+      en: Value
+  updated_at: '1762254174'
+  units:
+    Value: Mpkm/a

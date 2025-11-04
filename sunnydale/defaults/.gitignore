@@ -5,3 +5,4 @@
 /vehicle_mileage.parquet
 /fuel_consumption_rate.parquet
 /transport_emission_factor.parquet
+/passenger_transport.parquet
