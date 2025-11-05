@@ -1,0 +1,20 @@
+outs:
+- md5: 1029e2a4be684082fc25396032b609b6
+  size: 4223
+  hash: md5
+  path: transport_and_power_plant_emissions.parquet
+meta:
+  name:
+    en: Transport and power plant emissions
+  identifier: transport_and_power_plant_emissions
+  description:
+    en: 'Value - Metric: Value - sector: district_heating - Example data from the
+      Lappeenranta model. http://lappeenranta-nzc.localhost:3000/node/road_transport_emissions_intermediate'
+  metrics:
+  - id: default
+    quantity: emissions
+    label:
+      en: Value
+  updated_at: '1762314340'
+  units:
+    Value: kt/a
