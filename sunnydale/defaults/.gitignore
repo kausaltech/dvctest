@@ -7,3 +7,4 @@
 /transport_emission_factor.parquet
 /passenger_transport.parquet
 /transport_and_power_plant_emissions.parquet
+/air_pollution_exposure.parquet

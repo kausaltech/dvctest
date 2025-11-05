@@ -1,0 +1,17 @@
+outs:
+- md5: de31f9769e6acc26d91fe5de7ba35b69
+  size: 3806
+  hash: md5
+  path: air_pollution_exposure.parquet
+meta:
+  name:
+    en: Air pollution exposure
+  identifier: air_pollution_exposure
+  metrics:
+  - id: default
+    quantity: exposure
+    label:
+      en: Value
+  updated_at: '1762322226'
+  units:
+    Value: µg/m³
