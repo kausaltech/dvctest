@@ -1,6 +1,6 @@
 outs:
-- md5: 2e2a1675a9809d351b3f5e5e2956ca0a
-  size: 7414
+- md5: 5bb96aec5e380b665fdf23ec15f6795e
+  size: 7411
   hash: md5
   path: cork_actions.parquet
 meta:
@@ -18,21 +18,21 @@ meta:
     quantity: floor_area
     label:
       en: House retrofit
+  - id: saved_driving
+    quantity: mileage
+    label:
+      en: Saved driving
   - id: new_social_housing
     quantity: floor_area
     label:
       en: New social housing
-  - id: saved_driving
-    quantity: floor_area
-    label:
-      en: Saved driving
   - id: street_building_cost
     quantity: currency
     label:
       en: Street building cost
-  updated_at: '1762451771'
+  updated_at: '1762452490'
   units:
-    Saved driving: vkm/a
+    New social housing: m**2
     Street building cost: EUR/a
     House retrofit: m**2
-    New social housing: m**2
+    Saved driving: vkm/a
