@@ -1,6 +1,6 @@
 outs:
-- md5: 5bb96aec5e380b665fdf23ec15f6795e
-  size: 7411
+- md5: cdbcfb851fe8ef8f252db2a5809b7ac1
+  size: 7099
   hash: md5
   path: cork_actions.parquet
 meta:
@@ -10,29 +10,29 @@ meta:
   description:
     en: 'House retrofit - Metric: House retrofit - Project: Retrokit Tackle - https://cork-planner.watch-test.kausal.tech/actions/BE.1<br/>New
       social housing - Metric: New social housing - Project: Railyard Apartments -
-      https://cork-planner.watch-test.kausal.tech/actions/BE.2<br/>Saved driving -
-      Metric: Saved driving - Project: Ballyhooly Road - https://cork-planner.watch-test.kausal.tech/actions/TM.1<br/>Street
-      building cost - Metric: Street building cost - Project: Ballyhooly Road - https://cork-planner.watch-test.kausal.tech/actions/TM.1'
+      https://cork-planner.watch-test.kausal.tech/actions/BE.2<br/>mileage - Metric:
+      mileage - Project: Ballyhooly Road - https://cork-planner.watch-test.kausal.tech/actions/TM.1<br/>currency
+      - Metric: currency - Project: Ballyhooly Road - https://cork-planner.watch-test.kausal.tech/actions/TM.1'
   metrics:
   - id: house_retrofit
     quantity: floor_area
     label:
       en: House retrofit
-  - id: saved_driving
-    quantity: mileage
-    label:
-      en: Saved driving
   - id: new_social_housing
     quantity: floor_area
     label:
       en: New social housing
-  - id: street_building_cost
+  - id: currency
     quantity: currency
     label:
-      en: Street building cost
-  updated_at: '1762452490'
+      en: currency
+  - id: mileage
+    quantity: mileage
+    label:
+      en: mileage
+  updated_at: '1762453085'
   units:
+    mileage: vkm/a
     New social housing: m**2
-    Street building cost: EUR/a
+    currency: EUR/a
     House retrofit: m**2
-    Saved driving: vkm/a
