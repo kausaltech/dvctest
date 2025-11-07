@@ -1,6 +1,6 @@
 outs:
-- md5: d99efdd1964bfb91899d99c117051a9e
-  size: 6536
+- md5: 1b86453bcd9778f28ace60be2eadcf59
+  size: 6565
   hash: md5
   path: tieliikenteen_paastokertoimet.parquet
 meta:
@@ -16,6 +16,6 @@ meta:
     quantity: emission_factor
     label:
       fi: Päästökerroin
-  updated_at: '1762503110'
+  updated_at: '1762503846'
   units:
     Päästökerroin: g/vkm
