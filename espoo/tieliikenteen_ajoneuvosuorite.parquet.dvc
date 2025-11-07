@@ -1,6 +1,6 @@
 outs:
-- md5: 3b845850c545440811371cf988603d08
-  size: 7479
+- md5: 871f0f3de9de3eb2500dd823d2a7461e
+  size: 7733
   hash: md5
   path: tieliikenteen_ajoneuvosuorite.parquet
 meta:
@@ -8,16 +8,17 @@ meta:
     fi: Tieliikenteen ajoneuvosuorite
   identifier: tieliikenteen_ajoneuvosuorite
   description:
-    fi: 'Value - Metric: Value - Vehicle type: cars - Economic sector: residential
-      - Traficomin julkaisu 2023. https://www.traficom.fi/fi/traficomin-julkaisut?limit=20&offset=0&query=p%C3%A4%C3%A4st%C3%B6ennusteen&sort=created&toggle=Tieliikenteen%20ajoneuvokanta-%20ja%20p%C3%A4%C3%A4st%C3%B6ennusteen%20p%C3%A4ivitys%202023<br/>Value
-      - Metric: Value - Vehicle type: vans - Economic sector: services - Laskettu
-      Traficomin julkaisun ja HSY:n päästöinventaarin perusteella<br/>Value - Metric:
-      Value - Vehicle type: trucks - Economic sector: industry - https://www.traficom.fi/sites/default/files/media/publication/LIITE%202%20WEM2023_16-10-2023.xlsx'
+    fi: 'Ajoneuvosuorite - Metric: Ajoneuvosuorite - Vehicle type: cars - Economic
+      sector: residential - Traficomin julkaisu 2023. https://www.traficom.fi/fi/traficomin-julkaisut?limit=20&offset=0&query=p%C3%A4%C3%A4st%C3%B6ennusteen&sort=created&toggle=Tieliikenteen%20ajoneuvokanta-%20ja%20p%C3%A4%C3%A4st%C3%B6ennusteen%20p%C3%A4ivitys%202023<br/>Ajoneuvosuorite
+      - Metric: Ajoneuvosuorite - Vehicle type: vans - Economic sector: services -
+      Laskettu Traficomin julkaisun ja HSY:n päästöinventaarin perusteella<br/>Ajoneuvosuorite
+      - Metric: Ajoneuvosuorite - Vehicle type: trucks - Economic sector: industry
+      - https://www.traficom.fi/sites/default/files/media/publication/LIITE%202%20WEM2023_16-10-2023.xlsx'
   metrics:
-  - id: default
+  - id: ajoneuvosuorite
     quantity: mileage
     label:
-      fi: Value
-  updated_at: '1762505560'
+      fi: Ajoneuvosuorite
+  updated_at: '1762506501'
   units:
-    Value: Mvkm/a
+    Ajoneuvosuorite: Mvkm/a
