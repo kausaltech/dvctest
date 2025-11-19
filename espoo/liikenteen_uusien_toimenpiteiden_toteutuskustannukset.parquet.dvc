@@ -1,0 +1,17 @@
+outs:
+- md5: ca95a70ee2a7db6c61780d0c62023027
+  size: 3826
+  hash: md5
+  path: liikenteen_uusien_toimenpiteiden_toteutuskustannukset.parquet
+meta:
+  name:
+    fi: Liikenteen uusien toimenpiteiden toteutuskustannukset
+  identifier: liikenteen_uusien_toimenpiteiden_toteutuskustannukset
+  metrics:
+  - id: default
+    quantity: currency
+    label:
+      fi: Value
+  updated_at: '1763544632'
+  units:
+    Value: kEUR/a
