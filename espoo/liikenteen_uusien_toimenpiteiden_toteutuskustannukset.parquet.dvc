@@ -1,6 +1,6 @@
 outs:
-- md5: ca95a70ee2a7db6c61780d0c62023027
-  size: 3826
+- md5: d46d3c4e59a7d55ba4601d87259d285c
+  size: 3850
   hash: md5
   path: liikenteen_uusien_toimenpiteiden_toteutuskustannukset.parquet
 meta:
@@ -12,6 +12,6 @@ meta:
     quantity: currency
     label:
       fi: Value
-  updated_at: '1763544632'
+  updated_at: '1763545076'
   units:
     Value: kEUR/a
