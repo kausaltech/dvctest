@@ -1,6 +1,6 @@
 outs:
-- md5: 7cdcb5d01658d8e8e0888dcd52c9e981
-  size: 5507
+- md5: 06e0dca0d8d1f8b422030f91fe4c3972
+  size: 6299
   hash: md5
   path: liikenteen_uudet_toimenpiteet.parquet
 meta:
@@ -8,15 +8,15 @@ meta:
     fi: Liikenteen uudet toimenpiteet
   identifier: liikenteen_uudet_toimenpiteet
   metrics:
-  - id: suorite
-    quantity: mileage
-    label:
-      fi: Suorite
   - id: paastokerroin
     quantity: emission_factor
     label:
       fi: Päästökerroin
-  updated_at: '1763536584'
+  - id: suorite
+    quantity: mileage
+    label:
+      fi: Suorite
+  updated_at: '1763540613'
   units:
     Päästökerroin: g/vkm
     Suorite: Mvkm/a
