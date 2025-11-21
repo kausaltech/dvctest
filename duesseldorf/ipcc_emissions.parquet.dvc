@@ -1,0 +1,25 @@
+outs:
+- md5: 1755cf8f2a314a9d1426d1b8c748209f
+  size: 8334
+  hash: md5
+  path: ipcc_emissions.parquet
+meta:
+  name:
+    en: ipcc_emissions
+  identifier: ipcc_emissions
+  description:
+    en: 'Value - Sector: Energiewirtschaft - Energy_Carrier: Benzin - Metric: Value
+      - Data source not defined.'
+  metrics:
+  - id: default
+    quantity: emissions
+    label:
+      en: Value
+  - id: quality_of_data
+    quantity: quality_of_data
+    label:
+      en: Quality of data
+  updated_at: '1763759180'
+  units:
+    Value: t_CO2/a
+    Quality of data: dimensionless
