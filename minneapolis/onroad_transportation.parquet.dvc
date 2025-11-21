@@ -1,6 +1,6 @@
 outs:
-- md5: b2e4f849beae036e676b67f42bf350e6
-  size: 3900
+- md5: ab3ae7044fb65bd58e86fcc496e4c02b
+  size: 5872
   hash: md5
   path: onroad_transportation.parquet
 meta:
@@ -8,8 +8,16 @@ meta:
     en: On-Road Transportation
   identifier: onroad_transportation
   metrics:
+  - id: fuel_factor
+    label:
+      en: Fuel Factor
+  - id: mileage
+    label:
+      en: Mileage
   - id: mix
     label:
       en: Mix
   units:
+    mileage: miles/a
+    fuel_factor: miles/gallon
     mix: '%'
