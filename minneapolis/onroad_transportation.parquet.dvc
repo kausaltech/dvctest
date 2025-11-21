@@ -1,0 +1,15 @@
+outs:
+- md5: b2e4f849beae036e676b67f42bf350e6
+  size: 3900
+  hash: md5
+  path: onroad_transportation.parquet
+meta:
+  name:
+    en: On-Road Transportation
+  identifier: onroad_transportation
+  metrics:
+  - id: mix
+    label:
+      en: Mix
+  units:
+    mix: '%'
