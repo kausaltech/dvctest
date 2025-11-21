@@ -1,0 +1,19 @@
+outs:
+- md5: e17a6fd4948cf186f86b6165aa86a373
+  size: 5539
+  hash: md5
+  path: natural_gas.parquet
+meta:
+  name:
+    en: Natural Gas
+  identifier: natural_gas
+  metrics:
+  - id: emission_factor
+    label:
+      en: Emission Factor
+  - id: energy
+    label:
+      en: Energy
+  units:
+    emission_factor: t_co2e/therm
+    energy: therm/a
