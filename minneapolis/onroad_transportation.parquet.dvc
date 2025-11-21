@@ -1,6 +1,6 @@
 outs:
-- md5: ab3ae7044fb65bd58e86fcc496e4c02b
-  size: 5872
+- md5: 3f25abaf96640347b3f6ea3291af99fd
+  size: 8246
   hash: md5
   path: onroad_transportation.parquet
 meta:
@@ -8,6 +8,12 @@ meta:
     en: On-Road Transportation
   identifier: onroad_transportation
   metrics:
+  - id: emission_factor_co2
+    label:
+      en: Emission Factor (CO2)
+  - id: fraction_biogenic
+    label:
+      en: Fraction (Biogenic)
   - id: fuel_factor
     label:
       en: Fuel Factor
@@ -18,6 +24,8 @@ meta:
     label:
       en: Mix
   units:
-    mileage: miles/a
     fuel_factor: miles/gallon
+    emission_factor_co2: kg_co2e/gallon
     mix: '%'
+    fraction_biogenic: '%'
+    mileage: miles/a
