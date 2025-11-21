@@ -1,0 +1,25 @@
+outs:
+- md5: 7e763d448c3af70cc5c5880a14625f9c
+  size: 10145
+  hash: md5
+  path: final_energy.parquet
+meta:
+  name:
+    en: final_energy
+  identifier: final_energy
+  description:
+    en: 'Value - Sector: Commerce_Trade_Services - Energy_Carrier: Benzin - Metric:
+      Value - Data source not defined.'
+  metrics:
+  - id: quality_of_data
+    quantity: quality_of_data
+    label:
+      en: Quality of data
+  - id: default
+    quantity: energy
+    label:
+      en: Value
+  updated_at: '1763758757'
+  units:
+    Quality of data: dimensionless
+    Value: MWh/a
