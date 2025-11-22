@@ -1,6 +1,6 @@
 outs:
-- md5: 711ed330f3f0fb38a9a8991772b32088
-  size: 10214
+- md5: a72cad26c5dc6837a11ca3ca92613a30
+  size: 10221
   hash: md5
   path: final_energy.parquet
 meta:
@@ -19,7 +19,7 @@ meta:
     quantity: quality_of_data
     label:
       en: Quality of data
-  updated_at: '1763762001'
+  updated_at: '1763818420'
   units:
-    Quality of data: dimensionless
     Value: MWh/a
+    Quality of data: dimensionless
