@@ -1,6 +1,6 @@
 outs:
-- md5: f8cf17f90634c41f66e48673b75226c2
-  size: 10317
+- md5: c447b02b0b832ca10f795a52ce3695de
+  size: 10324
   hash: md5
   path: primary_energy.parquet
 meta:
@@ -11,15 +11,15 @@ meta:
     en: 'Value - Sector: Gewerbe, Handel, Dienstleistungen - Energy_Carrier: Benzin
       - Metric: Value - Data source not defined.'
   metrics:
-  - id: quality_of_data
-    quantity: quality_of_data
-    label:
-      en: Quality of data
   - id: default
     quantity: energy
     label:
       en: Value
-  updated_at: '1763761924'
+  - id: quality_of_data
+    quantity: quality_of_data
+    label:
+      en: Quality of data
+  updated_at: '1763818460'
   units:
-    Quality of data: dimensionless
     Value: MWh/a
+    Quality of data: dimensionless
