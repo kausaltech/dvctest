@@ -1,6 +1,6 @@
 outs:
-- md5: 5e4d480b5ba4d170156a89aa73e5c65d
-  size: 12238
+- md5: 0c9f1feb8a3617e64d18c04fceb0dee3
+  size: 12255
   hash: md5
   path: endenergie_emissionsfaktoren.parquet
 meta:
@@ -43,6 +43,6 @@ meta:
     quantity: emission_factor
     label:
       de: Value
-  updated_at: '1763880772'
+  updated_at: '1763881061'
   units:
-    Value: t/MWh
+    Value: t_co2e/MWh
