@@ -1,0 +1,42 @@
+outs:
+- md5: e607c5391d296b699ceea99181c1c0e8
+  size: 10156
+  hash: md5
+  path: emissionsfaktoren_fr_erzeugung.parquet
+meta:
+  name:
+    de: Emissionsfaktoren für Erzeugung
+  identifier: emissionsfaktoren_fr_erzeugung
+  description:
+    de: 'Value - Energy carrier: Erdgas - Upstream included: Yes - Per what energy:
+      Fuel input - Metric: Value - ifeu/GEMIS<br/>Value - Energy carrier: Steinkohle
+      - Upstream included: Yes - Per what energy: Fuel input - Metric: Value - UBA
+      2025<br/>Value - Energy carrier: Braunkohle - Upstream included: Yes - Per what
+      energy: Fuel input - Metric: Value - UBA 2025<br/>Value - Energy carrier: Heizöl
+      - Upstream included: Yes - Per what energy: Fuel input - Metric: Value - ifeu/GEMIS<br/>Value
+      - Energy carrier: Abfall - Upstream included: Yes - Per what energy: Fuel input
+      - Metric: Value - ifeu<br/>Value - Energy carrier: Biogas - Upstream included:
+      Yes - Per what energy: Fuel input - Metric: Value - UBA 2025<br/>Value - Energy
+      carrier: Biomasse - Upstream included: Yes - Per what energy: Fuel input - Metric:
+      Value - UBA 2025<br/>Value - Energy carrier: Flüssiggas - Upstream included:
+      Yes - Per what energy: Fuel input - Metric: Value - GEMIS<br/>Value - Energy
+      carrier: Sonstige konventionelle Energieträger - Upstream included: Yes - Per
+      what energy: Fuel input - Metric: Value - ifeu<br/>Value - Energy carrier: Sonstige
+      Erneuerbare Energieträger - Upstream included: Yes - Per what energy: Fuel input
+      - Metric: Value - ifeu<br/>Value - Energy carrier: Fotovoltaik - Upstream included:
+      Yes - Per what energy: Electricity output - Metric: Value - UBA 2025<br/>Value
+      - Energy carrier: Wind - Upstream included: Yes - Per what energy: Electricity
+      output - Metric: Value - UBA 2025<br/>Value - Energy carrier: Wasser - Upstream
+      included: Yes - Per what energy: Electricity output - Metric: Value - UBA 2025<br/>Value
+      - Energy carrier: Biomasse - Upstream included: Yes - Per what energy: Electricity
+      output - Metric: Value - UBA 2025<br/>Value - Energy carrier: Klär- Deponie-
+      Grubengas - Upstream included: Yes - Per what energy: Electricity output - Metric:
+      Value - UBA 2025'
+  metrics:
+  - id: default
+    quantity: emission_factor
+    label:
+      de: Value
+  updated_at: '1763880433'
+  units:
+    Value: t/MWh
