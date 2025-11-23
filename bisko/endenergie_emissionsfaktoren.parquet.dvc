@@ -1,0 +1,48 @@
+outs:
+- md5: df491e9f78231572c970f9fa013f43cf
+  size: 11964
+  hash: md5
+  path: endenergie_emissionsfaktoren.parquet
+meta:
+  name:
+    de: Endenergie Emissionsfaktoren
+  identifier: endenergie_emissionsfaktoren
+  description:
+    de: 'Value - Energy carrier: Strom - Upstream included: Yes - Per what energy:
+      Fuel input - Metric: Value - ifeu<br/>Value - Energy carrier: Heizstrom - Upstream
+      included: Yes - Per what energy: Fuel input - Metric: Value - ifeu<br/>Value
+      - Energy carrier: Erdgas - Upstream included: Yes - Per what energy: Fuel input
+      - Metric: Value - UBA 2025<br/>Value - Energy carrier: Fernwärme - Upstream
+      included: Yes - Per what energy: Fuel input - Metric: Value - ifeu<br/>Value
+      - Energy carrier: Heizöl  - Upstream included: Yes - Per what energy: Fuel input
+      - Metric: Value - UBA 2025<br/>Value - Energy carrier: Flüssiggas - Upstream
+      included: Yes - Per what energy: Fuel input - Metric: Value - Gemis 5.1<br/>Value
+      - Energy carrier: Steinkohle - Upstream included: Yes - Per what energy: Fuel
+      input - Metric: Value - UBA 2025<br/>Value - Energy carrier: Braunkohle - Upstream
+      included: Yes - Per what energy: Fuel input - Metric: Value - UBA 2025<br/>Value
+      - Energy carrier: Solarthermie - Upstream included: Yes - Per what energy: Fuel
+      input - Metric: Value - UBA 2025<br/>Value - Energy carrier: Biomasse - Upstream
+      included: Yes - Per what energy: Fuel input - Metric: Value - UBA 2025<br/>Value
+      - Energy carrier: Umweltwärme - Upstream included: Yes - Per what energy: Fuel
+      input - Metric: Value - ifeu<br/>Value - Energy carrier: Sonstige Erneuerbare
+      Energieträger - Upstream included: Yes - Per what energy: Fuel input - Metric:
+      Value - ifeu<br/>Value - Energy carrier: Sonstige konventionelle Energieträger
+      - Upstream included: Yes - Per what energy: Fuel input - Metric: Value - ifeu<br/>Value
+      - Energy carrier: Nahwärme - Upstream included: Yes - Per what energy: Fuel
+      input - Metric: Value - ifeu<br/>Value - Energy carrier: Biogas - Upstream included:
+      Yes - Per what energy: Fuel input - Metric: Value - UBA 2025<br/>Value - Energy
+      carrier: Konventioneller Abwärme >90 C - Upstream included: Yes - Per what energy:
+      Fuel input - Metric: Value - ifeu<br/>Value - Energy carrier: Konventioneller
+      Abwärme <90 C - Upstream included: Yes - Per what energy: Fuel input - Metric:
+      Value - ifeu<br/>Value - Energy carrier: Erneuerbarer Abwärme >90 C - Upstream
+      included: Yes - Per what energy: Fuel input - Metric: Value - ifeu<br/>Value
+      - Energy carrier: Erneuerbarer Abwärme <90 C - Upstream included: Yes - Per
+      what energy: Fuel input - Metric: Value - ifeu'
+  metrics:
+  - id: default
+    quantity: emission_factor
+    label:
+      de: Value
+  updated_at: '1763880074'
+  units:
+    Value: t/MWh
