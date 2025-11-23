@@ -1,6 +1,6 @@
 outs:
-- md5: 99c4cc025aaed954a64ad04130b37439
-  size: 10434
+- md5: 4d00c488047b3d1bc05b3a3ee9a3be7f
+  size: 10451
   hash: md5
   path: emissionsfaktoren_fr_erzeugung.parquet
 meta:
@@ -37,6 +37,6 @@ meta:
     quantity: emission_factor
     label:
       de: Value
-  updated_at: '1763880764'
+  updated_at: '1763881069'
   units:
-    Value: t/MWh
+    Value: t_co2e/MWh
