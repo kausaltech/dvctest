@@ -1,6 +1,6 @@
 outs:
-- md5: b76371d2dee12f98914530be1ac3292c
-  size: 8435
+- md5: 2084140c49af6b662f1bdd990f289469
+  size: 8432
   hash: md5
   path: liikenteen_uudet_toimenpiteet.parquet
 meta:
@@ -15,20 +15,20 @@ meta:
       - Toimenpiteen luvut ovat skenaarion arvoja, jossa tämä toimenpide on päällä
       ja muut ovat pois.'
   metrics:
-  - id: toteutuskustannus
-    quantity: currency
-    label:
-      fi: Toteutuskustannus
-  - id: suorite
-    quantity: mileage
-    label:
-      fi: Suorite
   - id: paastokerroin
     quantity: emission_factor
     label:
       fi: Päästökerroin
-  updated_at: '1763910404'
+  - id: suorite
+    quantity: mileage
+    label:
+      fi: Suorite
+  - id: toteutuskustannus
+    quantity: currency
+    label:
+      fi: Toteutuskustannus
+  updated_at: '1763929944'
   units:
+    Suorite: Mvkm/a
     Päästökerroin: g/vkm
     Toteutuskustannus: kEUR/a
-    Suorite: Mvkm/a
