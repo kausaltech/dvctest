@@ -1,6 +1,6 @@
 outs:
-- md5: 73cb4c4649d35051f0b7d1cec9503401
-  size: 7301
+- md5: 86a249c09f6e5d376941f2b6c6c38e6d
+  size: 7314
   hash: md5
   path: fernwarme_berwiegend.parquet
 meta:
@@ -24,6 +24,6 @@ meta:
     quantity: emission_factor
     label:
       de: Value
-  updated_at: '1763880768'
+  updated_at: '1763881056'
   units:
-    Value: t/MWh
+    Value: t_co2e/MWh
