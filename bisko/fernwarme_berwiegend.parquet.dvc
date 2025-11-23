@@ -1,0 +1,29 @@
+outs:
+- md5: 475840c3b87cd8098388d0820cf2e327
+  size: 7023
+  hash: md5
+  path: fernwarme_berwiegend.parquet
+meta:
+  name:
+    de: Fernwärme - überwiegend
+  identifier: fernwarme_berwiegend
+  description:
+    de: 'Value - Energy carrier: Erdgas GuD - Upstream included: Yes - Per what energy:
+      Heat output - Metric: Value - ifeu<br/>Value - Energy carrier: Kohle - Upstream
+      included: Yes - Per what energy: Heat output - Metric: Value - ifeu<br/>Value
+      - Energy carrier: Abfall - Upstream included: Yes - Per what energy: Heat output
+      - Metric: Value - ifeu<br/>Value - Energy carrier: Biomasse KWK - Upstream included:
+      Yes - Per what energy: Heat output - Metric: Value - ifeu<br/>Value - Energy
+      carrier: Biogas KWK - Upstream included: Yes - Per what energy: Heat output
+      - Metric: Value - ifeu<br/>Value - Energy carrier: Biomasse Heizwerk - Upstream
+      included: Yes - Per what energy: Heat output - Metric: Value - ifeu<br/>Value
+      - Energy carrier: Erdgas BHKW - Upstream included: Yes - Per what energy: Heat
+      output - Metric: Value - ifeu'
+  metrics:
+  - id: default
+    quantity: emission_factor
+    label:
+      de: Value
+  updated_at: '1763880420'
+  units:
+    Value: t/MWh
