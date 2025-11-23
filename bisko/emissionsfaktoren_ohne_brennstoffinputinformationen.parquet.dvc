@@ -1,0 +1,17 @@
+outs:
+- md5: b3ccc8f05f026ee1fecfabace7365af0
+  size: 5369
+  hash: md5
+  path: emissionsfaktoren_ohne_brennstoffinputinformationen.parquet
+meta:
+  name:
+    de: Emissionsfaktoren ohne Brennstoffinputinformationen
+  identifier: emissionsfaktoren_ohne_brennstoffinputinformationen
+  metrics:
+  - id: default
+    quantity: emission_factor
+    label:
+      de: Value
+  updated_at: '1763880425'
+  units:
+    Value: t/MWh
