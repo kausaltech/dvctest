@@ -1,6 +1,6 @@
 outs:
-- md5: b68be014f504b3d7ac583a9b1949e491
-  size: 5647
+- md5: 77ee16ec0566eb6b50a831fd33f7fd12
+  size: 5664
   hash: md5
   path: emissionsfaktoren_ohne_brennstoffinputinformationen.parquet
 meta:
@@ -12,6 +12,6 @@ meta:
     quantity: emission_factor
     label:
       de: Value
-  updated_at: '1763880758'
+  updated_at: '1763881065'
   units:
-    Value: t/MWh
+    Value: t_co2e/MWh
