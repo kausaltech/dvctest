@@ -5,20 +5,20 @@ outs:
   path: primary_energy.parquet
 meta:
   name:
-    en: primary_energy
+    de: primary_energy
   identifier: primary_energy
   description:
-    en: 'Value - Sector: Gewerbe, Handel, Dienstleistungen - Energy_Carrier: Benzin
+    de: 'Value - Sector: Gewerbe, Handel, Dienstleistungen - Energy_Carrier: Benzin
       - Metric: Value - Data source not defined.'
   metrics:
   - id: default
     quantity: energy
     label:
-      en: Value
+      de: Value
   - id: quality_of_data
     quantity: quality_of_data
     label:
-      en: Quality of data
+      de: Quality of data
   updated_at: '1763818460'
   units:
     Value: MWh/a
