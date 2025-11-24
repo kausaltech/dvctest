@@ -1,6 +1,6 @@
 outs:
-- md5: d4ebec4b7c48ce660cf3e9ad9ddca544
-  size: 5912
+- md5: 3e1f366fab5c6221ab35808ba386e7e6
+  size: 6463
   hash: md5
   path: waste_and_wastewater.parquet
 meta:
@@ -21,7 +21,7 @@ meta:
     label:
       en: Mass
   units:
-    mass: t/a
-    fraction_minneapolis: '%'
     emission_factor: t_co2e/t
     emissions: t_co2e/a
+    mass: t/a
+    fraction_minneapolis: '%'
