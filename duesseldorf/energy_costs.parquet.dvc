@@ -5,20 +5,20 @@ outs:
   path: energy_costs.parquet
 meta:
   name:
-    en: energy_costs
+    de: energy_costs
   identifier: energy_costs
   description:
-    en: 'Value - Sector: Gewerbe, Handel, Dienstleistungen - Energy_Carrier: Benzin
+    de: 'Value - Sector: Gewerbe, Handel, Dienstleistungen - Energy_Carrier: Benzin
       - Metric: Value - Data source not defined.'
   metrics:
   - id: default
     quantity: currency
     label:
-      en: Value
+      de: Value
   - id: quality_of_data
     quantity: quality_of_data
     label:
-      en: Quality of data
+      de: Quality of data
   updated_at: '1763818379'
   units:
     Value: EUR/a
