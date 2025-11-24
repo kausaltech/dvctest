@@ -1,5 +1,5 @@
 outs:
-- md5: dd5a33139144886ca1a7a4530d503ea7
+- md5: b1e440af1e520901380415286a0bd23e
   size: 5847
   hash: md5
   path: electricity.parquet
@@ -15,5 +15,5 @@ meta:
     label:
       en: Energy
   units:
-    emission_factor: t_co2e/MWh
     energy: MWh/a
+    emission_factor: t_co2e/MWh
