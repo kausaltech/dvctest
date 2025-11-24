@@ -1,0 +1,27 @@
+outs:
+- md5: d4ebec4b7c48ce660cf3e9ad9ddca544
+  size: 5912
+  hash: md5
+  path: waste_and_wastewater.parquet
+meta:
+  name:
+    en: Waste and Wastewater
+  identifier: waste_and_wastewater
+  metrics:
+  - id: emission_factor
+    label:
+      en: Emission Factor
+  - id: emissions
+    label:
+      en: Emissions
+  - id: fraction_minneapolis
+    label:
+      en: Fraction (Minneapolis)
+  - id: mass
+    label:
+      en: Mass
+  units:
+    mass: t/a
+    fraction_minneapolis: '%'
+    emission_factor: t_co2e/t
+    emissions: t_co2e/a
