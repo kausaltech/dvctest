@@ -1,0 +1,17 @@
+outs:
+- md5: 54343086a00ef982f9b177b7ec199608
+  size: 1557657
+  hash: md5
+  path: gemeindefeine_fahrleistungen_straenverkehr.parquet
+meta:
+  name:
+    de: Gemeindefeine Fahrleistungen Straßenverkehr
+  identifier: gemeindefeine_fahrleistungen_straenverkehr
+  metrics:
+  - id: mileage
+    quantity: mileage
+    label:
+      de: mileage
+  updated_at: '1763961181'
+  units:
+    mileage: Mvkm/a
