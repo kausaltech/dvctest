@@ -1,6 +1,6 @@
 outs:
-- md5: 677175a74828f4e54b09125335a2cb6e
-  size: 6534
+- md5: 4d493e03eccb343517e9e7fea0ff41b8
+  size: 6684
   hash: md5
   path: utility_energy.parquet
 meta:
@@ -20,8 +20,8 @@ meta:
     quantity: energy
     label:
       en: Wood use
-  updated_at: '1764509816'
+  updated_at: '1764509898'
   units:
-    Electricity use: kWh/a
     Wood use: MMBtu/a
     Natural gas use: therm/a
+    Electricity use: kWh/a
