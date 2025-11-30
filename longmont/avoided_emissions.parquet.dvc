@@ -1,0 +1,17 @@
+outs:
+- md5: 68b061619de164abe1f9c6bbfc21808b
+  size: 4165
+  hash: md5
+  path: avoided_emissions.parquet
+meta:
+  name:
+    en: Avoided emissions
+  identifier: avoided_emissions
+  metrics:
+  - id: green_production
+    quantity: energy
+    label:
+      en: Green production
+  updated_at: '1764494749'
+  units:
+    Green production: kWh/a
