@@ -1,5 +1,5 @@
 outs:
-- md5: b1abd67da452f3dcb1eb1b14b32bdc06
+- md5: 677175a74828f4e54b09125335a2cb6e
   size: 6534
   hash: md5
   path: utility_energy.parquet
@@ -8,10 +8,6 @@ meta:
     en: Utility energy
   identifier: utility_energy
   metrics:
-  - id: wood_use
-    quantity: energy
-    label:
-      en: Wood use
   - id: electricity_use
     quantity: energy
     label:
@@ -20,8 +16,12 @@ meta:
     quantity: energy
     label:
       en: Natural gas use
-  updated_at: '1764509566'
+  - id: wood_use
+    quantity: energy
+    label:
+      en: Wood use
+  updated_at: '1764509816'
   units:
-    Natural gas use: therm/a
     Electricity use: kWh/a
     Wood use: MMBtu/a
+    Natural gas use: therm/a
