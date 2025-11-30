@@ -59,3 +59,4 @@
 /transit_data.parquet
 /technical_data.parquet
 /avoided_emissions.parquet
+/utility_energy.parquet
