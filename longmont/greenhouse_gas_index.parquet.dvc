@@ -1,0 +1,17 @@
+outs:
+- md5: 5d31ecee4452b458d1f176865aee179c
+  size: 4066
+  hash: md5
+  path: greenhouse_gas_index.parquet
+meta:
+  name:
+    en: Greenhouse gas index
+  identifier: greenhouse_gas_index
+  metrics:
+  - id: default
+    quantity: fraction
+    label:
+      en: Value
+  updated_at: '1764579035'
+  units:
+    Value: dimensionless

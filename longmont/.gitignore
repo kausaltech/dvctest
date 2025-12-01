@@ -61,3 +61,4 @@
 /avoided_emissions.parquet
 /utility_energy.parquet
 /transport_fuel_consumption.parquet
+/greenhouse_gas_index.parquet
