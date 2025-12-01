@@ -1,0 +1,30 @@
+outs:
+- md5: 803373e315a8204e7844db27e69a1873
+  size: 6148
+  hash: md5
+  path: transport_fuel_consumption.parquet
+meta:
+  name:
+    en: Transport fuel consumption
+  identifier: transport_fuel_consumption
+  description:
+    en: 'CNG - Metric: CNG - Vehicle type: Single Unit Truck - Energy carrier: cng
+      - 2024: 12088592 - Sanitation trucks'
+  metrics:
+  - id: fuel
+    quantity: energy
+    label:
+      en: Fuel
+  - id: energy
+    quantity: energy
+    label:
+      en: Energy
+  - id: cng
+    quantity: energy
+    label:
+      en: CNG
+  updated_at: '1764575701'
+  units:
+    Fuel: gal/a
+    Energy: kWh/a
+    CNG: scf/a
