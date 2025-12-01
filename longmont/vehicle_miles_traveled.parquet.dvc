@@ -1,6 +1,6 @@
 outs:
-- md5: db697c9379c329eac57b2e937a2d5822
-  size: 4350
+- md5: 49490e73ecfbb0bba2998d091e45bcd8
+  size: 4410
   hash: md5
   path: vehicle_miles_traveled.parquet
 meta:
@@ -8,10 +8,10 @@ meta:
     en: Vehicle miles traveled
   identifier: vehicle_miles_traveled
   metrics:
-  - id: vehicle_miles_traveled
+  - id: default
     quantity: mileage
     label:
-      en: vehicle_miles_traveled
-  updated_at: '1753621469'
+      en: Value
+  updated_at: '1764575668'
   units:
-    vehicle_miles_traveled: VMT/a
+    Value: VMT/a
