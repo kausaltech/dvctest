@@ -1,0 +1,32 @@
+outs:
+- md5: 70fa42866694b365639b3e034ff47772
+  size: 6086
+  hash: md5
+  path: fugitive_parameters.parquet
+meta:
+  name:
+    en: Fugitive parameters
+  identifier: fugitive_parameters
+  metrics:
+  - id: natural_gas_density
+    quantity: density
+    label:
+      en: Natural gas density
+  - id: natural_gas_energy_factor
+    quantity: energy_factor
+    label:
+      en: Natural gas energy factor
+  - id: natural_gas_leakage
+    quantity: fraction
+    label:
+      en: Natural gas leakage
+  - id: fraction_in_natural_gas
+    quantity: fraction
+    label:
+      en: Fraction in natural gas
+  updated_at: '1764667014'
+  units:
+    Natural gas density: kg/m**3
+    Natural gas energy factor: BTU/ft**3
+    Fraction in natural gas: '%'
+    Natural gas leakage: '%'
