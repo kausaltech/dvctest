@@ -1,0 +1,17 @@
+outs:
+- md5: 735326df19834ce144e1392d40d09a24
+  size: 7301
+  hash: md5
+  path: emissionsfaktor.parquet
+meta:
+  name:
+    de: Emissionsfaktor
+  identifier: emissionsfaktor
+  metrics:
+  - id: default
+    quantity: emission_factor
+    label:
+      de: Value
+  updated_at: '1764959911'
+  units:
+    Value: t/MWh
