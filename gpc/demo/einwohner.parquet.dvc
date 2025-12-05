@@ -1,0 +1,17 @@
+outs:
+- md5: ba8c7b26501a6e1158cd3addc0e63254
+  size: 2602
+  hash: md5
+  path: einwohner.parquet
+meta:
+  name:
+    de: Einwohner
+  identifier: einwohner
+  metrics:
+  - id: default
+    quantity: population
+    label:
+      de: Value
+  updated_at: '1764959906'
+  units:
+    Value: capita
