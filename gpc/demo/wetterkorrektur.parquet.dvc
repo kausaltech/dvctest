@@ -1,0 +1,17 @@
+outs:
+- md5: e7d94c4dfd10a98ba219b33ddc0a64cc
+  size: 2609
+  hash: md5
+  path: wetterkorrektur.parquet
+meta:
+  name:
+    de: Wetterkorrektur
+  identifier: wetterkorrektur
+  metrics:
+  - id: default
+    quantity: ratio
+    label:
+      de: Value
+  updated_at: '1764959919'
+  units:
+    Value: dimensionless
