@@ -1,5 +1,5 @@
 outs:
-- md5: d85b7b55fc85763cfd8ba7cb88cc5e46
+- md5: 0d54fbb54ea1595a0068c64e11775a24
   size: 2602
   hash: md5
   path: einwohner.parquet
@@ -12,6 +12,6 @@ meta:
     quantity: population
     label:
       de: Value
-  updated_at: '1764960575'
+  updated_at: '1764998948'
   units:
     Value: capita
