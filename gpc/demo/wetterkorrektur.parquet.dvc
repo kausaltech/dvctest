@@ -1,5 +1,5 @@
 outs:
-- md5: 04b4a1e7fd66fa83b96f1e5715672a6b
+- md5: 6b90a6ded0fb0a8c64ee1e2b9843d7a2
   size: 2609
   hash: md5
   path: wetterkorrektur.parquet
@@ -12,6 +12,6 @@ meta:
     quantity: ratio
     label:
       de: Value
-  updated_at: '1764960579'
+  updated_at: '1764998934'
   units:
     Value: dimensionless
