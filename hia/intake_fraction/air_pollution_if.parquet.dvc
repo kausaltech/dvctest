@@ -1,5 +1,17 @@
 outs:
-- md5: cc244bfff63cdff8464ab43d9af28772
-  size: 6353
+- md5: 13444ec51229ee4aa6242a30a688891d
+  size: 4819
   hash: md5
   path: air_pollution_if.parquet
+meta:
+  name:
+    en: Air pollution IF
+  identifier: air_pollution_if
+  metrics:
+  - id: intake_fraction
+    quantity: fraction
+    label:
+      en: Intake fraction
+  updated_at: '1765620411'
+  units:
+    Intake fraction: ppm
