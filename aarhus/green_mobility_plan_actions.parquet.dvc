@@ -1,0 +1,19 @@
+outs:
+- md5: 698dafe3529c9d4f1fe7f01c3c530f7d
+  size: 5980
+  hash: md5
+  path: green_mobility_plan_actions.parquet
+meta:
+  name:
+    en: Green Mobility Plan Actions
+  identifier: green_mobility_plan_actions
+  metrics:
+  - id: currency
+    label:
+      en: Currency
+  - id: fraction
+    label:
+      en: Fraction
+  units:
+    fraction: '%'
+    currency: DKK/a
