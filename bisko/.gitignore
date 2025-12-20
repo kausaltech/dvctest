@@ -13,3 +13,4 @@
 /weather_correction.parquet
 /road_transport_activity.parquet
 /final_energy_use.parquet
+/emission_factors_without_fuel_data.parquet

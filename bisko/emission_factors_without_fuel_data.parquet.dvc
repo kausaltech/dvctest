@@ -1,0 +1,17 @@
+outs:
+- md5: 2e6f9cbb9d42eef41025faf2038797bf
+  size: 4825
+  hash: md5
+  path: emission_factors_without_fuel_data.parquet
+meta:
+  name:
+    de: emission_factors_without_fuel_data
+  identifier: emission_factors_without_fuel_data
+  metrics:
+  - id: default
+    quantity: emission_factor
+    label:
+      de: Value
+  updated_at: '1766216353'
+  units:
+    Value: g_co2e/kWh
