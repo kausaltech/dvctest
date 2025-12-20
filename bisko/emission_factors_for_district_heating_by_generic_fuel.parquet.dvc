@@ -1,0 +1,17 @@
+outs:
+- md5: adbb05acbc14c699648596dda32ebd49
+  size: 4737
+  hash: md5
+  path: emission_factors_for_district_heating_by_generic_fuel.parquet
+meta:
+  name:
+    de: emission_factors_for_district_heating_by_generic_fuel
+  identifier: emission_factors_for_district_heating_by_generic_fuel
+  metrics:
+  - id: default
+    quantity: emission_factor
+    label:
+      de: Value
+  updated_at: '1766216333'
+  units:
+    Value: g_co2e/kWh
