@@ -1,0 +1,17 @@
+outs:
+- md5: 7ea71954083d39fb124518bccc598e6b
+  size: 14938
+  hash: md5
+  path: final_energy_use.parquet
+meta:
+  name:
+    de: final_energy_use
+  identifier: final_energy_use
+  metrics:
+  - id: default
+    quantity: energy
+    label:
+      de: Value
+  updated_at: '1766216349'
+  units:
+    Value: MWh/a
