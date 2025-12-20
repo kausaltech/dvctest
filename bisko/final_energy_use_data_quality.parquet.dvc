@@ -1,0 +1,17 @@
+outs:
+- md5: 913e3d778a48bc836187b72fd294f5d5
+  size: 5977
+  hash: md5
+  path: final_energy_use_data_quality.parquet
+meta:
+  name:
+    de: final_energy_use_data_quality
+  identifier: final_energy_use_data_quality
+  metrics:
+  - id: default
+    quantity: fraction
+    label:
+      de: Value
+  updated_at: '1766216324'
+  units:
+    Value: dimensionless
