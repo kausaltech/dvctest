@@ -10,3 +10,4 @@
 /final_energy_use_data_quality.parquet
 /end_energy_emission_factors.parquet
 /emission_factors_for_district_heating_by_generic_fuel.parquet
+/weather_correction.parquet
