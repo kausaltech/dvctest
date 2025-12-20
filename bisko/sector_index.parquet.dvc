@@ -1,0 +1,17 @@
+outs:
+- md5: e3a88e006732dbe3a3f716c8aa8c6c94
+  size: 4493
+  hash: md5
+  path: sector_index.parquet
+meta:
+  name:
+    de: sector_index
+  identifier: sector_index
+  metrics:
+  - id: default
+    quantity: ratio
+    label:
+      de: Value
+  updated_at: '1766216310'
+  units:
+    Value: dimensionless
