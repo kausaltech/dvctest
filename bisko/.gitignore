@@ -11,3 +11,4 @@
 /end_energy_emission_factors.parquet
 /emission_factors_for_district_heating_by_generic_fuel.parquet
 /weather_correction.parquet
+/road_transport_activity.parquet

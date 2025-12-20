@@ -1,0 +1,17 @@
+outs:
+- md5: e15889ebd10689eed5b4d450f57f9a09
+  size: 4241
+  hash: md5
+  path: road_transport_activity.parquet
+meta:
+  name:
+    de: road_transport_activity
+  identifier: road_transport_activity
+  metrics:
+  - id: default
+    quantity: mileage
+    label:
+      de: Value
+  updated_at: '1766216341'
+  units:
+    Value: Mvkm/a
