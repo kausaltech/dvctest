@@ -1,0 +1,17 @@
+outs:
+- md5: 226e0028f5024a80d4e6f30fa9ce4e7c
+  size: 4257
+  hash: md5
+  path: other_transport_activity.parquet
+meta:
+  name:
+    de: other_transport_activity
+  identifier: other_transport_activity
+  metrics:
+  - id: default
+    quantity: energy
+    label:
+      de: Value
+  updated_at: '1766216315'
+  units:
+    Value: MWh/a
