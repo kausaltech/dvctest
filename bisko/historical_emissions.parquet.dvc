@@ -1,0 +1,17 @@
+outs:
+- md5: c1592e54518f7ae523f7371e453ca865
+  size: 16954
+  hash: md5
+  path: historical_emissions.parquet
+meta:
+  name:
+    de: historical_emissions
+  identifier: historical_emissions
+  metrics:
+  - id: default
+    quantity: emissions
+    label:
+      de: Value
+  updated_at: '1766216361'
+  units:
+    Value: kt_co2e/a
