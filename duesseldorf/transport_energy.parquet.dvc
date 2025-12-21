@@ -1,0 +1,25 @@
+outs:
+- md5: 9d89ef71667ba4388166b627bc6a1867
+  size: 8392
+  hash: md5
+  path: transport_energy.parquet
+meta:
+  name:
+    de: transport_energy
+  identifier: transport_energy
+  description:
+    de: 'Value - Transport_Mode: BiSchi - Energy_Carrier: Kraftstoff - Metric: Value
+      - Data source not defined.'
+  metrics:
+  - id: default
+    quantity: energy
+    label:
+      de: Value
+  - id: quality_of_data
+    quantity: quality_of_data
+    label:
+      de: Quality of data
+  updated_at: '1766284755'
+  units:
+    Quality of data: dimensionless
+    Value: MWh/a
