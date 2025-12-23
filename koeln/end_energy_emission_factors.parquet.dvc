@@ -1,0 +1,17 @@
+outs:
+- md5: ebf42623c12a88a7d7ef9f79546356d9
+  size: 4824
+  hash: md5
+  path: end_energy_emission_factors.parquet
+meta:
+  name:
+    de: end_energy_emission_factors
+  identifier: end_energy_emission_factors
+  metrics:
+  - id: default
+    quantity: emission_factor
+    label:
+      de: Value
+  updated_at: '1766465783'
+  units:
+    Value: g_co2e/kWh
