@@ -1,5 +1,5 @@
 outs:
-- md5: 288197c44d082877a1614a2135254102
+- md5: d4889de4947da35fab7b839152f1c544
   size: 3293
   hash: md5
   path: sector_index.parquet
@@ -12,6 +12,6 @@ meta:
     quantity: ratio
     label:
       de: Value
-  updated_at: '1766468584'
+  updated_at: '1766470065'
   units:
     Value: dimensionless
