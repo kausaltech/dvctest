@@ -1,0 +1,19 @@
+outs:
+- md5: 429c4cf2802d44e5a40c4e1766d44cee
+  size: 2840
+  hash: md5
+  path: hiilidioksidin_hinta.parquet
+meta:
+  name:
+    fi: Hiilidioksidin hinta
+  identifier: hiilidioksidin_hinta
+  description:
+    fi: 'Value - Metric: Value - Oletusarvo NetZeroPlannerista'
+  metrics:
+  - id: default
+    quantity: unit_price
+    label:
+      fi: Value
+  updated_at: '1766940761'
+  units:
+    Value: EUR/t
