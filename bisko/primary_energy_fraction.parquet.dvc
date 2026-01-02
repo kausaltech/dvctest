@@ -1,0 +1,17 @@
+outs:
+- md5: 49849b109ee1305bac6249fbbc5258f2
+  size: 3938
+  hash: md5
+  path: primary_energy_fraction.parquet
+meta:
+  name:
+    de: Primary energy fraction
+  identifier: primary_energy_fraction
+  metrics:
+  - id: default
+    quantity: ratio
+    label:
+      de: Value
+  updated_at: '1767348046'
+  units:
+    Value: dimensionless

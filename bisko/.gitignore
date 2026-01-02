@@ -19,3 +19,4 @@
 /emission_factor.parquet
 /energy_shares.parquet
 /fraction_of_biodiesel.parquet
+/primary_energy_fraction.parquet
