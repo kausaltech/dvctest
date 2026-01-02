@@ -17,3 +17,4 @@
 /historical_emissions.parquet
 /transport_energy.parquet
 /emission_factor.parquet
+/energy_shares.parquet

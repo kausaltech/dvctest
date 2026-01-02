@@ -1,0 +1,17 @@
+outs:
+- md5: 170e6fe192cd4a89cf6040ff9a296e4d
+  size: 13377
+  hash: md5
+  path: energy_shares.parquet
+meta:
+  name:
+    de: Energy shares
+  identifier: energy_shares
+  metrics:
+  - id: default
+    quantity: fraction
+    label:
+      de: Value
+  updated_at: '1767348037'
+  units:
+    Value: dimensionless
