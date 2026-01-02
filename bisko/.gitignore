@@ -18,3 +18,4 @@
 /transport_energy.parquet
 /emission_factor.parquet
 /energy_shares.parquet
+/fraction_of_biodiesel.parquet
