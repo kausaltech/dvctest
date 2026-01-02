@@ -1,5 +1,5 @@
 outs:
-- md5: 49849b109ee1305bac6249fbbc5258f2
+- md5: f67b5bbb116931e263219bec95bac372
   size: 3938
   hash: md5
   path: primary_energy_fraction.parquet
@@ -12,6 +12,6 @@ meta:
     quantity: ratio
     label:
       de: Value
-  updated_at: '1767348046'
+  updated_at: '1767348318'
   units:
     Value: dimensionless
