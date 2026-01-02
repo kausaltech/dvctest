@@ -1,5 +1,5 @@
 outs:
-- md5: b4071aa6786b8f5d7d1295f945a3ec1c
+- md5: 47a911721eaa681e5ff3f1965f4ccefb
   size: 6859
   hash: md5
   path: emission_factor.parquet
@@ -8,15 +8,15 @@ meta:
     de: Emission factor
   identifier: emission_factor
   metrics:
-  - id: well_to_wheel
-    quantity: emission_factor
-    label:
-      de: Well-to-wheel
   - id: well_to_tank
     quantity: emission_factor
     label:
       de: Well-to-tank
-  updated_at: '1767348029'
+  - id: well_to_wheel
+    quantity: emission_factor
+    label:
+      de: Well-to-wheel
+  updated_at: '1767348306'
   units:
-    Well-to-tank: g_co2e/kWh
     Well-to-wheel: g_co2e/kWh
+    Well-to-tank: g_co2e/kWh
