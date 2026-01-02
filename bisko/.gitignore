@@ -16,3 +16,4 @@
 /emission_factors_without_fuel_data.parquet
 /historical_emissions.parquet
 /transport_energy.parquet
+/emission_factor.parquet
