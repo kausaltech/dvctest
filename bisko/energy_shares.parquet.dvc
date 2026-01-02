@@ -1,5 +1,5 @@
 outs:
-- md5: 170e6fe192cd4a89cf6040ff9a296e4d
+- md5: 5bc39502dfd259bbdf703abb34ad4e3c
   size: 13377
   hash: md5
   path: energy_shares.parquet
@@ -12,6 +12,6 @@ meta:
     quantity: fraction
     label:
       de: Value
-  updated_at: '1767348037'
+  updated_at: '1767348325'
   units:
     Value: dimensionless
