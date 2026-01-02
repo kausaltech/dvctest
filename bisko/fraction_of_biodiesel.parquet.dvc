@@ -1,5 +1,5 @@
 outs:
-- md5: 7ab8203c5d7e7482b6d79deb4dbe1b9e
+- md5: 1662805335f7b52822021b57c3e48781
   size: 2769
   hash: md5
   path: fraction_of_biodiesel.parquet
@@ -12,6 +12,6 @@ meta:
     quantity: fraction
     label:
       de: Value
-  updated_at: '1767348042'
+  updated_at: '1767348296'
   units:
     Value: dimensionless
