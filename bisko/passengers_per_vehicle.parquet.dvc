@@ -1,6 +1,6 @@
 outs:
-- md5: 71d4b5588f7cc4740f28deb74b3b77e5
-  size: 4712
+- md5: fa748df3d42e7de6f57f30967b7c2e58
+  size: 4727
   hash: md5
   path: passengers_per_vehicle.parquet
 meta:
@@ -12,6 +12,6 @@ meta:
     quantity: amount
     label:
       de: Value
-  updated_at: '1767348301'
+  updated_at: '1767408642'
   units:
-    Value: person/vehicle
+    Value: passenger/vehicle
