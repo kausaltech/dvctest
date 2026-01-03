@@ -22,3 +22,4 @@
 /primary_energy_fraction.parquet
 /passengers_per_vehicle.parquet
 /energy_factor.parquet
+/load_per_vehicle.parquet

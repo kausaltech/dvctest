@@ -1,0 +1,22 @@
+outs:
+- md5: 3be41eb8d85058ab0bf730bde043323b
+  size: 5534
+  hash: md5
+  path: load_per_vehicle.parquet
+meta:
+  name:
+    de: Load per vehicle
+  identifier: load_per_vehicle
+  metrics:
+  - id: cargo
+    quantity: amount
+    label:
+      de: Cargo
+  - id: passengers
+    quantity: amount
+    label:
+      de: Passengers
+  updated_at: '1767409134'
+  units:
+    Passengers: passenger/vehicle
+    Cargo: t/vehicle
