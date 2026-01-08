@@ -1,0 +1,17 @@
+outs:
+- md5: 6902fd21586efd57b053bcddfa624d6c
+  size: 6243
+  hash: md5
+  path: endenergie.parquet
+meta:
+  name:
+    de: Endenergie
+  identifier: endenergie
+  metrics:
+  - id: energy
+    quantity: energy
+    label:
+      de: energy
+  updated_at: '1767871708'
+  units:
+    energy: kWh/a
