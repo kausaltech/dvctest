@@ -1,0 +1,19 @@
+outs:
+- md5: 988378468ccad316380cfdb5471432b4
+  size: 2835
+  hash: md5
+  path: avg_trip_distance_periphery.parquet
+meta:
+  name:
+    en: Avg trip distance periphery
+  identifier: avg_trip_distance_periphery
+  description:
+    en: 'Value - Metric: Value - City travel survey data'
+  metrics:
+  - id: default
+    quantity: distance
+    label:
+      en: Value
+  updated_at: '1768100301'
+  units:
+    Value: km/trip
