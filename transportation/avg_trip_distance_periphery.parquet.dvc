@@ -1,5 +1,5 @@
 outs:
-- md5: 988378468ccad316380cfdb5471432b4
+- md5: 5ef9582f197392a31c37d9595f94d8aa
   size: 2835
   hash: md5
   path: avg_trip_distance_periphery.parquet
@@ -14,6 +14,6 @@ meta:
     quantity: distance
     label:
       en: Value
-  updated_at: '1768100301'
+  updated_at: '1768103052'
   units:
     Value: km/trip
