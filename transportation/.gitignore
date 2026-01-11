@@ -3,3 +3,4 @@
 /price_elasticity_estimates.parquet
 /spillover_estimates.parquet
 /baseline_zone_traffic_counts.parquet
+/avg_trip_distance_zone.parquet

@@ -1,0 +1,19 @@
+outs:
+- md5: 92e9b27aa53e689425a468aca1fd8dd7
+  size: 2814
+  hash: md5
+  path: avg_trip_distance_zone.parquet
+meta:
+  name:
+    en: Avg trip distance zone
+  identifier: avg_trip_distance_zone
+  description:
+    en: 'Value - Metric: Value - City travel survey data'
+  metrics:
+  - id: default
+    quantity: distance
+    label:
+      en: Value
+  updated_at: '1768100285'
+  units:
+    Value: km/trip
