@@ -1,0 +1,20 @@
+outs:
+- md5: fbdaba8ff67d663b090bee8f98ae0c2d
+  size: 4583
+  hash: md5
+  path: baseline_zone_traffic_counts.parquet
+meta:
+  name:
+    en: Baseline zone traffic counts
+  identifier: baseline_zone_traffic_counts
+  description:
+    en: 'Value - Metric: Value - time_of_day: peak_hours - vehicle_type: car - City
+      traffic monitoring system 2010-2023'
+  metrics:
+  - id: default
+    quantity: traffic_volume
+    label:
+      en: Value
+  updated_at: '1768100280'
+  units:
+    Value: vehicles/hour

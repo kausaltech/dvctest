@@ -2,3 +2,4 @@
 /fleet_composition.parquet
 /price_elasticity_estimates.parquet
 /spillover_estimates.parquet
+/baseline_zone_traffic_counts.parquet
