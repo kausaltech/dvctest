@@ -1,5 +1,5 @@
 outs:
-- md5: fbdaba8ff67d663b090bee8f98ae0c2d
+- md5: f50b6994922916ce828f7ccf4a8aaf1e
   size: 4583
   hash: md5
   path: baseline_zone_traffic_counts.parquet
@@ -15,6 +15,6 @@ meta:
     quantity: traffic_volume
     label:
       en: Value
-  updated_at: '1768100280'
+  updated_at: '1768103056'
   units:
     Value: vehicles/hour
