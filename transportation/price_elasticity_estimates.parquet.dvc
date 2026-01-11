@@ -1,0 +1,20 @@
+outs:
+- md5: 49f4284ad740ec5efa7933790e1c37d8
+  size: 3669
+  hash: md5
+  path: price_elasticity_estimates.parquet
+meta:
+  name:
+    en: Price elasticity estimates
+  identifier: price_elasticity_estimates
+  description:
+    en: 'Value - Metric: Value - hypotheses: high_displacement - Literature review:
+      elasticity estimates range from -0.1 to -0.4'
+  metrics:
+  - id: default
+    quantity: elasticity
+    label:
+      en: Value
+  updated_at: '1768100272'
+  units:
+    Value: dimensionless
