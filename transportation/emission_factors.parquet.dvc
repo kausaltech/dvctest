@@ -1,0 +1,20 @@
+outs:
+- md5: 09fcfe0e6084bceed05736538621a1df
+  size: 4806
+  hash: md5
+  path: emission_factors.parquet
+meta:
+  name:
+    en: Emission factors
+  identifier: emission_factors
+  description:
+    en: 'Value - Metric: Value - vehicle_type: car - energy_carrier: gasoline - IPCC
+      emission factors and lifecycle assessments'
+  metrics:
+  - id: default
+    quantity: emission_factor
+    label:
+      en: Value
+  updated_at: '1768100289'
+  units:
+    Value: g_co2e/km
