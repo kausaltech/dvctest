@@ -1,5 +1,5 @@
 outs:
-- md5: 7fe9011d3331be2e2cddfbf208cb8b81
+- md5: 3dba06ce88ea73054265bd634207268c
   size: 4586
   hash: md5
   path: fleet_composition.parquet
@@ -15,6 +15,6 @@ meta:
     quantity: fraction
     label:
       en: Value
-  updated_at: '1768100268'
+  updated_at: '1768103064'
   units:
     Value: dimensionless
