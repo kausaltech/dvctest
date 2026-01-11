@@ -1,5 +1,5 @@
 outs:
-- md5: 49f4284ad740ec5efa7933790e1c37d8
+- md5: 4147128fa045be7731474d26859dae86
   size: 3669
   hash: md5
   path: price_elasticity_estimates.parquet
@@ -15,6 +15,6 @@ meta:
     quantity: elasticity
     label:
       en: Value
-  updated_at: '1768100272'
+  updated_at: '1768103043'
   units:
     Value: dimensionless
