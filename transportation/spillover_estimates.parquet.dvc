@@ -1,0 +1,22 @@
+outs:
+- md5: 115406747ea9817f1e869693807cb219
+  size: 4022
+  hash: md5
+  path: spillover_estimates.parquet
+meta:
+  name:
+    en: Spillover estimates
+  identifier: spillover_estimates
+  description:
+    en: 'Value - Metric: Value - hypotheses: high_displacement - Hypothesis: minimal
+      trip elimination<br/>Value - Metric: Value - hypotheses: net_reduction - Hypothesis:
+      substantial trip elimination<br/>Value - Metric: Value - hypotheses: empirical_estimate
+      - Based on London/Stockholm experience'
+  metrics:
+  - id: default
+    quantity: fraction
+    label:
+      en: Value
+  updated_at: '1768100276'
+  units:
+    Value: dimensionless
