@@ -6,3 +6,4 @@
 /avg_trip_distance_zone.parquet
 /emission_factors.parquet
 /baseline_peripheral_traffic_counts.parquet
+/zeros.parquet

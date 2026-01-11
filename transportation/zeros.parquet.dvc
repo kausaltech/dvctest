@@ -1,0 +1,19 @@
+outs:
+- md5: 84f597073589487dcb90b6bd9fd89c40
+  size: 2726
+  hash: md5
+  path: zeros.parquet
+meta:
+  name:
+    en: Zeros
+  identifier: zeros
+  description:
+    en: 'Value - Metric: Value - Placeholder for argument nodes'
+  metrics:
+  - id: default
+    quantity: ratio
+    label:
+      en: Value
+  updated_at: '1768100297'
+  units:
+    Value: dimensionless
