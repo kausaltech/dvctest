@@ -1,0 +1,20 @@
+outs:
+- md5: 7fe9011d3331be2e2cddfbf208cb8b81
+  size: 4586
+  hash: md5
+  path: fleet_composition.parquet
+meta:
+  name:
+    en: Fleet composition
+  identifier: fleet_composition
+  description:
+    en: 'Value - Metric: Value - vehicle_type: car - energy_carrier: gasoline - National
+      vehicle registry data'
+  metrics:
+  - id: default
+    quantity: fraction
+    label:
+      en: Value
+  updated_at: '1768100268'
+  units:
+    Value: dimensionless
