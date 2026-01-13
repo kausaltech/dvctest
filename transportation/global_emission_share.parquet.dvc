@@ -1,5 +1,5 @@
 outs:
-- md5: 18d8470c82195d3ab0f1e2ae83e4bdf1
+- md5: dd83120cdf62de4a83107a73f03e0b60
   size: 2871
   hash: md5
   path: global_emission_share.parquet
@@ -14,6 +14,6 @@ meta:
     quantity: fraction
     label:
       en: Value
-  updated_at: '1768324534'
+  updated_at: '1768325510'
   units:
     Value: dimensionless
