@@ -1,0 +1,19 @@
+outs:
+- md5: 5119e1f2f4029e6606bfb05423f512ef
+  size: 2848
+  hash: md5
+  path: revenue_allocation_policy.parquet
+meta:
+  name:
+    en: Revenue allocation policy
+  identifier: revenue_allocation_policy
+  description:
+    en: 'Value - Metric: Value - Policy assumption: share to transit'
+  metrics:
+  - id: default
+    quantity: fraction
+    label:
+      en: Value
+  updated_at: '1768318096'
+  units:
+    Value: dimensionless
