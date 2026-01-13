@@ -1,0 +1,19 @@
+outs:
+- md5: 18d8470c82195d3ab0f1e2ae83e4bdf1
+  size: 2871
+  hash: md5
+  path: global_emission_share.parquet
+meta:
+  name:
+    en: Global emission share
+  identifier: global_emission_share
+  description:
+    en: 'Value - Metric: Value - City transport emissions as fraction of global emissions'
+  metrics:
+  - id: default
+    quantity: fraction
+    label:
+      en: Value
+  updated_at: '1768324534'
+  units:
+    Value: dimensionless
