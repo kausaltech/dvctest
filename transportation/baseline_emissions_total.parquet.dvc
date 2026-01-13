@@ -1,0 +1,19 @@
+outs:
+- md5: 7b3027ba058aadfa913b2a03e3decc38
+  size: 2919
+  hash: md5
+  path: baseline_emissions_total.parquet
+meta:
+  name:
+    en: Baseline emissions total
+  identifier: baseline_emissions_total
+  description:
+    en: 'Value - Metric: Value - Total transport emissions before policy'
+  metrics:
+  - id: default
+    quantity: emissions
+    label:
+      en: Value
+  updated_at: '1768324529'
+  units:
+    Value: t_co2e/a
