@@ -1,0 +1,20 @@
+outs:
+- md5: e7cf0f1ccb5507b4138e1ca47d60e35a
+  size: 4326
+  hash: md5
+  path: income_trip_distribution.parquet
+meta:
+  name:
+    en: Income trip distribution
+  identifier: income_trip_distribution
+  description:
+    en: 'Value - Metric: Value - stakeholder: low_income - time_of_day: peak_hours
+      - Estimated from travel surveys and demographic data'
+  metrics:
+  - id: default
+    quantity: fraction
+    label:
+      en: Value
+  updated_at: '1768318088'
+  units:
+    Value: dimensionless
