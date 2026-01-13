@@ -10,3 +10,4 @@
 /avg_trip_distance_periphery.parquet
 /income_trip_distribution.parquet
 /revenue_allocation_policy.parquet
+/income_group_population.parquet

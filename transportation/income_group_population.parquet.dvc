@@ -1,0 +1,17 @@
+outs:
+- md5: 687750ec2044352d3d05a97f86667029
+  size: 3533
+  hash: md5
+  path: income_group_population.parquet
+meta:
+  name:
+    en: Income group population
+  identifier: income_group_population
+  metrics:
+  - id: default
+    quantity: population
+    label:
+      en: Value
+  updated_at: '1768318100'
+  units:
+    Value: persons
