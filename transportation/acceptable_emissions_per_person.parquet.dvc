@@ -1,0 +1,20 @@
+outs:
+- md5: 1a013af1d1fb4b697ea7329c9a56f300
+  size: 2969
+  hash: md5
+  path: acceptable_emissions_per_person.parquet
+meta:
+  name:
+    en: Acceptable emissions per person
+  identifier: acceptable_emissions_per_person
+  description:
+    en: 'Value - Metric: Value - Morally acceptable per-capita emissions level consistent
+      with climate goals'
+  metrics:
+  - id: default
+    quantity: emissions
+    label:
+      en: Value
+  updated_at: '1768325519'
+  units:
+    Value: t_co2e/person/a

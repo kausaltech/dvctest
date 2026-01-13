@@ -13,3 +13,4 @@
 /income_group_population.parquet
 /baseline_emissions_total.parquet
 /global_emission_share.parquet
+/acceptable_emissions_per_person.parquet
