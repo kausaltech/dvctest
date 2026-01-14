@@ -1,17 +1,20 @@
 outs:
-- md5: cc7d45896eb84849fc696c89cefc856d
-  size: 3254
+- md5: 2a6f90340b2a4c977a4844adf102ce8a
+  size: 3876
   hash: md5
   path: cooperation_rate_estimates.parquet
 meta:
   name:
     en: Cooperation rate estimates
   identifier: cooperation_rate_estimates
+  description:
+    en: 'Value - Metric: Value - hypotheses: pessimistic - Estimated % of global cities
+      taking comparable climate action'
   metrics:
   - id: default
     quantity: fraction
     label:
       en: Value
-  updated_at: '1768377817'
+  updated_at: '1768377909'
   units:
     Value: dimensionless
