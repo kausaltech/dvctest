@@ -1,0 +1,17 @@
+outs:
+- md5: 792054c3f83645d8484ce0293698f6f5
+  size: 3189
+  hash: md5
+  path: hypothesis_index.parquet
+meta:
+  name:
+    en: Hypothesis index
+  identifier: hypothesis_index
+  metrics:
+  - id: default
+    quantity: fraction
+    label:
+      en: Value
+  updated_at: '1768377812'
+  units:
+    Value: dimensionless
