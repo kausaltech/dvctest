@@ -1,0 +1,14 @@
+outs:
+- md5: 05e088e2be07f83efa94c6cf8e28a37e
+  size: 11616
+  hash: md5
+  path: develop_beyond_building_code.parquet
+meta:
+  name:
+    en: Develop beyond building code
+  identifier: develop_beyond_building_code
+  updated_at: '1768621089'
+  units:
+    triggered: '%'
+    improvement: '%'
+    compliant: '%'
