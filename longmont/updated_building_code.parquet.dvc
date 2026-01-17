@@ -1,14 +1,14 @@
 outs:
-- md5: 8cfc2bbd5c7fb5f715805461e916ef29
-  size: 7424
+- md5: 81f3641edcb5d197fae8f99779a930e9
+  size: 6196
   hash: md5
   path: updated_building_code.parquet
 meta:
   name:
     en: Updated building code
   identifier: updated_building_code
-  updated_at: '1768622179'
+  updated_at: '1768622283'
   units:
     compliant: '%'
-    improvement: '%'
     triggered: '%'
+    improvement: '%'
