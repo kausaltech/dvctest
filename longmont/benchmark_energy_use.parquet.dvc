@@ -1,5 +1,5 @@
 outs:
-- md5: 9799840f44e64a8f1f90bc79b69d6f89
+- md5: 49d247429332724a1e75351004ba17db
   size: 7541
   hash: md5
   path: benchmark_energy_use.parquet
@@ -7,8 +7,8 @@ meta:
   name:
     en: Benchmark energy use
   identifier: benchmark_energy_use
-  updated_at: '1768622085'
+  updated_at: '1768622157'
   units:
+    compliant: '%'
     triggered: '%'
     improvement: '%'
-    compliant: '%'
