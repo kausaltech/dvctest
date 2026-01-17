@@ -1,0 +1,17 @@
+outs:
+- md5: 622eec00942fc25fe901f638b56172a1
+  size: 10787
+  hash: md5
+  path: replace_natural_gas.parquet
+meta:
+  name:
+    en: Replace natural gas
+  identifier: replace_natural_gas
+  metrics:
+  - id: default
+    quantity: energy
+    label:
+      en: Value
+  updated_at: '1768621093'
+  units:
+    Value: kthm/a
