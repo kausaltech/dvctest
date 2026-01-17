@@ -67,3 +67,4 @@
 /develop_beyond_building_code.parquet
 /replace_natural_gas.parquet
 /benchmark_energy_use.parquet
+/non_electric_vehicle_fuel_use.parquet
