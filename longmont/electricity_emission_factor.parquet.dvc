@@ -1,5 +1,5 @@
 outs:
-- md5: e2b2d6e56e601b0dd6c638da47064364
+- md5: ae099770c4778d8846921130783552a4
   size: 5410
   hash: md5
   path: electricity_emission_factor.parquet
@@ -12,6 +12,6 @@ meta:
     quantity: emission_factor
     label:
       en: Value
-  updated_at: '1768622075'
+  updated_at: '1768622170'
   units:
     Value: t/MWh
