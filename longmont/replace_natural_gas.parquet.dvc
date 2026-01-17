@@ -1,6 +1,6 @@
 outs:
-- md5: 622eec00942fc25fe901f638b56172a1
-  size: 10787
+- md5: 63ec3a53ae6dea903761ceb617c054c7
+  size: 5274
   hash: md5
   path: replace_natural_gas.parquet
 meta:
@@ -12,6 +12,6 @@ meta:
     quantity: energy
     label:
       en: Value
-  updated_at: '1768621093'
+  updated_at: '1768622093'
   units:
     Value: kthm/a
