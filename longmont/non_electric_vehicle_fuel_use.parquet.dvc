@@ -1,6 +1,6 @@
 outs:
-- md5: 7d3399dc6ce57800448b35e7491da9a2
-  size: 11565
+- md5: 1d4bd2b4fb4fe494fb42ac6e875ee92d
+  size: 6711
   hash: md5
   path: non_electric_vehicle_fuel_use.parquet
 meta:
@@ -12,6 +12,6 @@ meta:
     quantity: energy
     label:
       en: Value
-  updated_at: '1768621102'
+  updated_at: '1768622089'
   units:
     Value: gal/a
