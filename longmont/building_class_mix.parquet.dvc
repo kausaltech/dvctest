@@ -1,0 +1,17 @@
+outs:
+- md5: be440fb70c6bc067acb03e6538edcbdc
+  size: 3344
+  hash: md5
+  path: building_class_mix.parquet
+meta:
+  name:
+    en: Building class mix
+  identifier: building_class_mix
+  metrics:
+  - id: default
+    quantity: fraction
+    label:
+      en: Value
+  updated_at: '1768725058'
+  units:
+    Value: '%'
