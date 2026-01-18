@@ -1,6 +1,6 @@
 outs:
-- md5: bee8343c80ce0e6d7ebae79af3ddf7cb
-  size: 3376
+- md5: f12984775c179ad70eea37ecc0aaffb3
+  size: 5131
   hash: md5
   path: building_class_mix.parquet
 meta:
@@ -12,6 +12,6 @@ meta:
     quantity: fraction
     label:
       en: Value
-  updated_at: '1768725131'
+  updated_at: '1768740793'
   units:
     Value: dimensionless
