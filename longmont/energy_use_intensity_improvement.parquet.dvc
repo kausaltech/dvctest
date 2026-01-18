@@ -1,0 +1,17 @@
+outs:
+- md5: 8da73f364856be16be77f38e84b19514
+  size: 4523
+  hash: md5
+  path: energy_use_intensity_improvement.parquet
+meta:
+  name:
+    en: Energy use intensity improvement
+  identifier: energy_use_intensity_improvement
+  metrics:
+  - id: default
+    quantity: fraction
+    label:
+      en: Value
+  updated_at: '1768712757'
+  units:
+    Value: '%'
