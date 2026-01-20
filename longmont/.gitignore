@@ -70,3 +70,4 @@
 /non_electric_vehicle_fuel_use.parquet
 /energy_use_intensity_improvement.parquet
 /building_class_mix.parquet
+/non_biogenic_ghg_emission_index.parquet

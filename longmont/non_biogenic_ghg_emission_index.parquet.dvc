@@ -1,0 +1,16 @@
+outs:
+- md5: c1d085e0e7f879e5372131708b46d4d0
+  size: 3267
+  hash: md5
+  path: non_biogenic_ghg_emission_index.parquet
+meta:
+  name:
+    en: Non-biogenic ghg emission index
+  identifier: non_biogenic_ghg_emission_index
+  metrics:
+  - id: default
+    quantity: fraction
+    label:
+      en: Value
+  updated_at: '1768877605'
+  units: {}
