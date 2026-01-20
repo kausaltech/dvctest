@@ -1,6 +1,6 @@
 outs:
-- md5: c1d085e0e7f879e5372131708b46d4d0
-  size: 3267
+- md5: 325ddd89ca8e4c7cece7a150d847dc7e
+  size: 3341
   hash: md5
   path: non_biogenic_ghg_emission_index.parquet
 meta:
@@ -12,5 +12,6 @@ meta:
     quantity: fraction
     label:
       en: Value
-  updated_at: '1768877605'
-  units: {}
+  updated_at: '1768877906'
+  units:
+    Value: dimensionless
