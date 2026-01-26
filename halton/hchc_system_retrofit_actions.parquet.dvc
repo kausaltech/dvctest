@@ -1,0 +1,15 @@
+outs:
+- md5: b5294d6179805d0c7d3d93939a27c194
+  size: 7764
+  hash: md5
+  path: hchc_system_retrofit_actions.parquet
+meta:
+  name:
+    en: HCHC System Retrofit Actions
+  identifier: hchc_system_retrofit_actions
+  metrics:
+  - id: reduction
+    label:
+      en: Reduction
+  units:
+    reduction: '%'
