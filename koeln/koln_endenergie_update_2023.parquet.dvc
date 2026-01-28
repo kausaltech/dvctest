@@ -5,7 +5,7 @@ outs:
   path: koln_endenergie_update_2023.parquet
 meta:
   name:
-    de: Köln endenergie update 2023
+    de: Köln Endenergie Update 2023
   identifier: koln_endenergie_update_2023
   metrics:
   - id: energy
@@ -14,4 +14,4 @@ meta:
       de: energy
   updated_at: '1769568032'
   units:
-    energy: kWh
+    energy: kWh/a
