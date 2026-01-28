@@ -1,0 +1,17 @@
+outs:
+- md5: c413ffb367d55911097864ce906c652b
+  size: 7694
+  hash: md5
+  path: koln_emissionen_update_2023.parquet
+meta:
+  name:
+    de: Köln Emissionen update 2023
+  identifier: koln_emissionen_update_2023
+  metrics:
+  - id: emissions
+    quantity: emissions
+    label:
+      de: emissions
+  updated_at: '1769568242'
+  units:
+    emissions: t_co2e/a

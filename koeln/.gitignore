@@ -18,3 +18,4 @@
 /sector_index.parquet
 /weather_correction.parquet
 /koln_endenergie_update_2023.parquet
+/koln_emissionen_update_2023.parquet
