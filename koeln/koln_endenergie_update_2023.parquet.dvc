@@ -1,0 +1,17 @@
+outs:
+- md5: 581c669ca2bb2a8bde8669d0e8813e46
+  size: 7644
+  hash: md5
+  path: koln_endenergie_update_2023.parquet
+meta:
+  name:
+    de: Köln endenergie update 2023
+  identifier: koln_endenergie_update_2023
+  metrics:
+  - id: energy
+    quantity: energy
+    label:
+      de: energy
+  updated_at: '1769567673'
+  units:
+    energy: kWh
