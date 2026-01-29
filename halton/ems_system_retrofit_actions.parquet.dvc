@@ -1,0 +1,15 @@
+outs:
+- md5: f65bbbcca973b1210edc10cdc4f98aa1
+  size: 6703
+  hash: md5
+  path: ems_system_retrofit_actions.parquet
+meta:
+  name:
+    en: EMS System Retrofit Actions
+  identifier: ems_system_retrofit_actions
+  metrics:
+  - id: reduction
+    label:
+      en: Reduction
+  units:
+    reduction: '%'
