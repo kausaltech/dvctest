@@ -1,0 +1,25 @@
+outs:
+- md5: a769fb61c6093c4d5af55a6cd8524538
+  size: 15948
+  hash: md5
+  path: energy_costs.parquet
+meta:
+  name:
+    de: energy_costs
+  identifier: energy_costs
+  description:
+    de: 'Value - Sector: Gewerbe, Handel, Dienstleistungen - Energy_Carrier: Benzin
+      - Metric: Value - Data source not defined.'
+  metrics:
+  - id: default
+    quantity: currency
+    label:
+      de: Value
+  - id: quality_of_data
+    quantity: quality_of_data
+    label:
+      de: Quality of data
+  updated_at: '1770225758'
+  units:
+    Value: EUR/a
+    Quality of data: dimensionless
