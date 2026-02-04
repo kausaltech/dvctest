@@ -1,0 +1,15 @@
+outs:
+- md5: 1795805282a2eede2f40fd7e94e8da7b
+  size: 6843
+  hash: md5
+  path: cs_system_retrofit_actions.parquet
+meta:
+  name:
+    en: CS System Retrofit Actions
+  identifier: cs_system_retrofit_actions
+  metrics:
+  - id: reduction
+    label:
+      en: Reduction
+  units:
+    reduction: '%'
