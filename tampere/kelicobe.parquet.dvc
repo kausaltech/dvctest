@@ -1,6 +1,6 @@
 outs:
-- md5: 527aba9d2ebb50b1b77575f693b7c0b3
-  size: 6880
+- md5: 47f32eb932a905beb335df63b53522da
+  size: 6882
   hash: md5
   path: kelicobe.parquet
 meta:
@@ -12,4 +12,4 @@ meta:
     label:
       en: Currency
   units:
-    currency: EUR
+    currency: EUR/a
