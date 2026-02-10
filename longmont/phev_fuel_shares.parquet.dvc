@@ -1,0 +1,17 @@
+outs:
+- md5: d336257cb6644dcb68bc7f7009f1a293
+  size: 4026
+  hash: md5
+  path: phev_fuel_shares.parquet
+meta:
+  name:
+    en: PHEV fuel shares
+  identifier: phev_fuel_shares
+  metrics:
+  - id: default
+    quantity: fraction
+    label:
+      en: Value
+  updated_at: '1770723992'
+  units:
+    Value: '%'

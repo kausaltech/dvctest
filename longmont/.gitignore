@@ -71,3 +71,4 @@
 /energy_use_intensity_improvement.parquet
 /building_class_mix.parquet
 /non_biogenic_ghg_emission_index.parquet
+/phev_fuel_shares.parquet
