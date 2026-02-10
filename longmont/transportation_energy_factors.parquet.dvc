@@ -1,6 +1,6 @@
 outs:
-- md5: 84a3c1800734be5ce3870859582cb9ff
-  size: 8450
+- md5: 1723f3feb263d202b4012179b2e9a384
+  size: 8502
   hash: md5
   path: transportation_energy_factors.parquet
 meta:
@@ -32,8 +32,8 @@ meta:
     quantity: energy_factor
     label:
       en: Electricity use
-  updated_at: '1770724082'
+  updated_at: '1770725546'
   units:
-    Natural gas use: scf/Mile
-    Electricity use: kWh/Mile
+    Natural gas use: scf/(vehicle*mile)
+    Electricity use: kWh/(vehicle*mile)
     Miles per gallon: MPG
