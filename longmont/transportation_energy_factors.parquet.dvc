@@ -1,0 +1,39 @@
+outs:
+- md5: 84a3c1800734be5ce3870859582cb9ff
+  size: 8450
+  hash: md5
+  path: transportation_energy_factors.parquet
+meta:
+  name:
+    en: Transportation energy factors
+  identifier: transportation_energy_factors
+  description:
+    en: 'Miles per gallon - Vehicle Type: Motorcycle - Energy carrier: Diesel - Metric:
+      Miles per gallon - Have not collected this data as its always been 0.<br/>Miles
+      per gallon - Vehicle Type: Motorcycle - Energy carrier: Natural Gas - Metric:
+      Miles per gallon - Have not collected this data as its always been 0.<br/>Miles
+      per gallon - Vehicle Type: Passenger Car - Energy carrier: Plug-in hybrid EV
+      - Metric: Miles per gallon - Gas use from hybrid vehicles was not factored in
+      from 2016 through 2024, that was something I added in 2024.<br/>Miles per gallon
+      - Vehicle Type: Passenger Car - Energy carrier: Natural gas - Metric: Miles
+      per gallon - Have not collected this data as its always been 0.<br/>Miles per
+      gallon - Vehicle Type: Light Duty - Energy carrier: Natural Gas - Metric: Miles
+      per gallon - Have not collected this data as its always been 0.'
+  metrics:
+  - id: natural_gas_use
+    quantity: energy_factor
+    label:
+      en: Natural gas use
+  - id: miles_per_gallon
+    quantity: energy_factor
+    label:
+      en: Miles per gallon
+  - id: electricity_use
+    quantity: energy_factor
+    label:
+      en: Electricity use
+  updated_at: '1770724082'
+  units:
+    Natural gas use: scf/Mile
+    Electricity use: kWh/Mile
+    Miles per gallon: MPG
