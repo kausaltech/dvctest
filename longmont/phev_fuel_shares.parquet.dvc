@@ -1,5 +1,5 @@
 outs:
-- md5: 8a859aa0d604215a703a54ceaa69a74a
+- md5: 0b4debb14620dc105c1122c39c6ef255
   size: 4026
   hash: md5
   path: phev_fuel_shares.parquet
@@ -12,6 +12,6 @@ meta:
     quantity: fraction
     label:
       en: Value
-  updated_at: '1770724077'
+  updated_at: '1770725541'
   units:
     Value: '%'
