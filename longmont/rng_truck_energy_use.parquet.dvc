@@ -1,0 +1,17 @@
+outs:
+- md5: 041783585cacd648e24e03850e36ef69
+  size: 4106
+  hash: md5
+  path: rng_truck_energy_use.parquet
+meta:
+  name:
+    en: RNG truck energy use
+  identifier: rng_truck_energy_use
+  metrics:
+  - id: default
+    quantity: energy
+    label:
+      en: Value
+  updated_at: '1770807045'
+  units:
+    Value: scf/a

@@ -73,3 +73,4 @@
 /non_biogenic_ghg_emission_index.parquet
 /phev_fuel_shares.parquet
 /transportation_energy_factors.parquet
+/rng_truck_energy_use.parquet
