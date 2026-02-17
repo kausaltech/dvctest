@@ -1,6 +1,6 @@
 outs:
-- md5: d2e3ff420be8fa2c274473b6f5395586
-  size: 4912
+- md5: bbd5d8d8465d0eb91594c8cf51c91c8f
+  size: 4990
   hash: md5
   path: vehicle_kilometers.parquet
 meta:
@@ -16,5 +16,7 @@ meta:
     quantity: data_quality
     label:
       de: Data quality
-  updated_at: '1771331732'
-  units: {}
+  updated_at: '1771331971'
+  units:
+    value: Mpkm/a
+    quality: dimensionless
