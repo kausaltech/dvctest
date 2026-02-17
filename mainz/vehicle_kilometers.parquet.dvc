@@ -1,0 +1,20 @@
+outs:
+- md5: d2e3ff420be8fa2c274473b6f5395586
+  size: 4912
+  hash: md5
+  path: vehicle_kilometers.parquet
+meta:
+  name:
+    de: Vehicle kilometers
+  identifier: vehicle_kilometers
+  metrics:
+  - id: value
+    quantity: mileage
+    label:
+      de: Vehicle km travelled
+  - id: quality
+    quantity: data_quality
+    label:
+      de: Data quality
+  updated_at: '1771331732'
+  units: {}

@@ -2,3 +2,4 @@
 /historic_emissions.parquet
 /energy_costs.parquet
 /historical_emissions.parquet
+/vehicle_kilometers.parquet
