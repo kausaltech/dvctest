@@ -1,0 +1,15 @@
+outs:
+- md5: aef575fe7342ffe3b4cd4ea6e1ffc149
+  size: 4750
+  hash: md5
+  path: solid_waste.parquet
+meta:
+  name:
+    en: Solid Waste
+  identifier: solid_waste
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t_co2e/a
