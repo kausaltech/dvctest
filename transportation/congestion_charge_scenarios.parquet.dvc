@@ -1,17 +1,12 @@
 outs:
-- md5: af70c96fa141fc2e912276ebd0bb9af5
-  size: 3259
+- md5: 0d5d2efb0eda686fe7c454aaab22f8c1
+  size: 3083
   hash: md5
   path: congestion_charge_scenarios.parquet
 meta:
   name:
     en: Congestion charge scenarios
   identifier: congestion_charge_scenarios
-  metrics:
-  - id: default
-    quantity: price
-    label:
-      en: Value
-  updated_at: '1768103048'
+  updated_at: '1771681604'
   units:
-    Value: EUR/trip
+    Value: €/v
