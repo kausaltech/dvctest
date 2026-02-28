@@ -1,0 +1,26 @@
+outs:
+- md5: f2e66bec54746b4724a76eb42d1a7d10
+  size: 9596
+  hash: md5
+  path: vehicle_energy.parquet
+meta:
+  name:
+    de: Vehicle energy
+  identifier: vehicle_energy
+  metrics:
+  - id: vehicle_energy
+    column_id: Value
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: Vehicle energy
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: dimensionless
+    label:
+      de: Data quality
+  updated_at: '1772283736'
+  units:
+    Value: MWh/a
+    quality: dimensionless
