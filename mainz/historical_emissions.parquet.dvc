@@ -1,25 +1,26 @@
 outs:
-- md5: 5b56319e1239e4bef0ee752215cda576
-  size: 12377
+- md5: 75a60d39204d6a86076ec6fbb9d61e44
+  size: 13255
   hash: md5
   path: historical_emissions.parquet
 meta:
   name:
-    de: historical_emissions
+    de: Historical emissions
   identifier: historical_emissions
-  description:
-    de: 'Value - Sector: Gewerbe, Handel, Dienstleistungen - Energy_Carrier: Benzin
-      - Metric: Value - Data source not defined.'
   metrics:
-  - id: quality_of_data
-    quantity: quality_of_data
-    label:
-      de: Quality of data
-  - id: default
+  - id: emissions
+    column_id: value
     quantity: emissions
+    unit: tCO2e/a
     label:
-      de: Value
-  updated_at: '1770280399'
+      de: Emissions
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: dimensionless
+    label:
+      de: Data quality
+  updated_at: '1772274657'
   units:
-    Value: kt_CO2e/a
-    Quality of data: dimensionless
+    value: tCO2e/a
+    quality: dimensionless
