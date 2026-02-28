@@ -24,3 +24,4 @@
 /energy_factor.parquet
 /load_per_vehicle.parquet
 /final_energy.parquet
+/passenger_kilometers.parquet
