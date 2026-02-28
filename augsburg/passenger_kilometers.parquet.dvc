@@ -1,5 +1,5 @@
 outs:
-- md5: ddfdba1d48020638f2d86ca3b32ada6f
+- md5: 9915e0dbc0323ed9082e1df68cf45cb8
   size: 6103
   hash: md5
   path: passenger_kilometers.parquet
@@ -20,7 +20,7 @@ meta:
     unit: dimensionless
     label:
       de: Data quality
-  updated_at: '1772283288'
+  updated_at: '1772283444'
   units:
     Value: Mpkm/a
     quality: dimensionless
