@@ -1,0 +1,26 @@
+outs:
+- md5: 3f664e46dbe81bcc29109d171aebc960
+  size: 6853
+  hash: md5
+  path: passenger_kilometers.parquet
+meta:
+  name:
+    de: Passenger kilometers
+  identifier: passenger_kilometers
+  metrics:
+  - id: passenger_kilometers
+    column_id: Value
+    quantity: mileage
+    unit: Mpkm/a
+    label:
+      de: Passenger kilometers
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: dimensionless
+    label:
+      de: Data quality
+  updated_at: '1772283885'
+  units:
+    Value: Mpkm/a
+    quality: dimensionless
