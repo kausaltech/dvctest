@@ -27,3 +27,4 @@
 /passenger_kilometers.parquet
 /vehicle_energy.parquet
 /gemeindefeine_fahrleistungen_strassenverkehr.parquet
+/other_transport_energy.parquet

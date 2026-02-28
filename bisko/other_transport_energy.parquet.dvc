@@ -1,0 +1,13 @@
+outs:
+- md5: 9c77952230a77a87f7a50b39fcc0b613
+  size: 416953
+  hash: md5
+  path: other_transport_energy.parquet
+meta:
+  name:
+    de: Gemeindefeine Endenergieverbrauch Schiene Wasser Luft nach Antriebsart
+  identifier: 
+    gemeindefeine_endenergieverbrauch_schiene_wasser_luft_nach_antriebsart
+  updated_at: '1772295605'
+  units:
+    energy: MWh/a
