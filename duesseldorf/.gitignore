@@ -6,3 +6,4 @@
 /transport_energy.parquet
 /historical_emissions.parquet
 /passenger_kilometers.parquet
+/vehicle_energy.parquet
