@@ -5,3 +5,4 @@
 /energy_costs.parquet
 /transport_energy.parquet
 /historical_emissions.parquet
+/passenger_kilometers.parquet
