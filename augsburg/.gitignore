@@ -1,3 +1,4 @@
 /final_energy.parquet
 /passenger_kilometers.parquet
 /vehicle_energy.parquet
+/historical_emissions.parquet
