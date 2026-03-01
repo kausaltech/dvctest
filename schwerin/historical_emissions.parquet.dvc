@@ -1,6 +1,6 @@
 outs:
-- md5: 5575f66847a40f43aec77bcad3983b73
-  size: 12350
+- md5: 18fdfcdeac400494c26f5c1977001c98
+  size: 11078
   hash: md5
   path: historical_emissions.parquet
 meta:
@@ -11,7 +11,7 @@ meta:
   - id: emissions
     column_id: Value
     quantity: emissions
-    unit: tCO2e/a
+    unit: t_CO2e/a
     label:
       de: Emissions
   - id: quality
@@ -20,7 +20,7 @@ meta:
     unit: dimensionless
     label:
       de: Data quality
-  updated_at: '1772283727'
+  updated_at: '1772372367'
   units:
-    Value: tCO2e/a
+    Value: t_CO2e/a
     quality: dimensionless
