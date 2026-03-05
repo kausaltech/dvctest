@@ -1,0 +1,31 @@
+outs:
+- md5: cf17c4087ebad799bfb9a76275283d4e
+  size: 8895
+  hash: md5
+  path: emission_reduction_potential_total.parquet
+meta:
+  name:
+    de: Emission reduction potential total
+  identifier: emission_reduction_potential_total
+  description:
+    de: 'Nach Realisierung als direkte Maßnahme (Effizienzsteigerung bei Beteiligungen
+      bzw. IkKa DS18 darstellen)<br/>Korrekter wäre: Auswirkung auf Emissionsfaktor
+      Strom zu ermitteln, aber in der Auswirkung gleich<br/>Korrekter wäre: Auswirkung
+      auf Emissionsfaktor Strom zu ermitteln, aber in der Auswirkung gleich<br/>Korrekter
+      wäre: Auswirkung auf Emissionsfaktor Strom zu ermitteln, aber in der Auswirkung
+      gleich<br/>Korrekter wäre: Alle Energieträger & Anteile an PKW(alle Energieträger),
+      ggf. möglich nach Erstellung THG Bilanz<br/>Annahme ist, dass durch Informationskampagnen,
+      Berufliche Weiterbildung, Klimaschutz bei Kommunalentscheidungen (& ggf. zu
+      einem späteren Zeitpunkt Inititiven in allen Sektoren im Rahmen des Kliaschutz-Fonds)
+      sektorübergreifend wirken <br/>Korrekter wäre: Auswirkungen auf Emissionsfaktor
+      Fernwärme zu ermitteln, aber in der Auswirkung gleich'
+  metrics:
+  - id: reduction_potential
+    column_id: Value
+    quantity: emissions
+    unit: t_CO2e/a
+    label:
+      de: Emission Reduction Potential
+  updated_at: '1772707605'
+  units:
+    Value: t_CO2e/a
