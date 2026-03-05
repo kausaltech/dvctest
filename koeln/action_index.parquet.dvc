@@ -1,6 +1,6 @@
 outs:
-- md5: 685b5479bab5c934dfcf315e9cc8a7f9
-  size: 7327
+- md5: f31838ea519c9129a82ca6abbf805e37
+  size: 7874
   hash: md5
   path: action_index.parquet
 meta:
@@ -14,6 +14,6 @@ meta:
     unit: dimensionless
     label:
       de: Action index
-  updated_at: '1772707941'
+  updated_at: '1772716263'
   units:
     Value: dimensionless
