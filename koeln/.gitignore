@@ -22,3 +22,4 @@
 /emission_reduction_potential_total.parquet
 /action_index.parquet
 /emission_factors.parquet
+/vehicle_energy_by_type.parquet

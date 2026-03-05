@@ -1,0 +1,19 @@
+outs:
+- md5: b4f73435d1fa86117311842ba5d559cd
+  size: 10594
+  hash: md5
+  path: vehicle_energy_by_type.parquet
+meta:
+  name:
+    de: Vehicle energy by type
+  identifier: vehicle_energy_by_type
+  metrics:
+  - id: energy
+    column_id: Value
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: Endenergieverbrauch
+  updated_at: '1772707966'
+  units:
+    Value: MWh/a
