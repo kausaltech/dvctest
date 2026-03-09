@@ -1,19 +1,26 @@
 outs:
-- md5: 6daa2386b1296a52d9122d5f5e59f49f
-  size: 7874
+- md5: 6dafe983db6379d1e2f2c011d0eb7868
+  size: 7783
   hash: md5
   path: action_index.parquet
 meta:
   name:
-    de: Action index
+    de: action_index
   identifier: action_index
   metrics:
-  - id: action_index
-    column_id: Value
+  - id: transport
+    column_id: transport
     quantity: fraction
     unit: dimensionless
     label:
-      de: Action index
-  updated_at: '1772717426'
+      de: transport
+  - id: stationary
+    column_id: stationary
+    quantity: fraction
+    unit: dimensionless
+    label:
+      de: stationary
+  updated_at: '1773034214'
   units:
-    Value: dimensionless
+    stationary: dimensionless
+    transport: dimensionless
