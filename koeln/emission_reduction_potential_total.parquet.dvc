@@ -1,31 +1,44 @@
 outs:
-- md5: 8a67f00a815bff826a902b379112fe29
-  size: 9449
+- md5: 52ea7cd7be7c61ae7fee61f547c261a3
+  size: 10390
   hash: md5
   path: emission_reduction_potential_total.parquet
 meta:
   name:
-    de: Emission reduction potential total
+    de: emission_reduction_potential_total
   identifier: emission_reduction_potential_total
   description:
-    de: 'Nach Realisierung als direkte Maßnahme (Effizienzsteigerung bei Beteiligungen
-      bzw. IkKa DS18 darstellen)<br/>Korrekter wäre: Auswirkung auf Emissionsfaktor
-      Strom zu ermitteln, aber in der Auswirkung gleich<br/>Korrekter wäre: Auswirkung
-      auf Emissionsfaktor Strom zu ermitteln, aber in der Auswirkung gleich<br/>Korrekter
-      wäre: Auswirkung auf Emissionsfaktor Strom zu ermitteln, aber in der Auswirkung
-      gleich<br/>Korrekter wäre: Alle Energieträger & Anteile an PKW(alle Energieträger),
-      ggf. möglich nach Erstellung THG Bilanz<br/>Annahme ist, dass durch Informationskampagnen,
+    de: 'Emission reduction potential - action: Wasser-/Abwasserreduktion & Anlageneffizienz
+      - sector: Abfall & (Ab)wasser - Metric: Emission reduction potential - Nach
+      Realisierung als direkte Maßnahme (Effizienzsteigerung bei Beteiligungen bzw.
+      IkKa DS18 darstellen)<br/>Emission reduction potential - action: Erneuerbare
+      Stromerzeugung durch kleine dezentrale Anlagen - sector: Strom - Metric: Emission
+      reduction potential - Korrekter wäre: Auswirkung auf Emissionsfaktor Strom zu
+      ermitteln, aber in der Auswirkung gleich<br/>Emission reduction potential -
+      action: Erneuerbare Stromerzeugung in der Fläche - sector: Strom - Metric: Emission
+      reduction potential - Korrekter wäre: Auswirkung auf Emissionsfaktor Strom zu
+      ermitteln, aber in der Auswirkung gleich<br/>Emission reduction potential -
+      action: Erneuerbare Stromerzeugung durch Kraftwerke - sector: Strom - Metric:
+      Emission reduction potential - Korrekter wäre: Auswirkung auf Emissionsfaktor
+      Strom zu ermitteln, aber in der Auswirkung gleich<br/>Emission reduction potential
+      - action: THG neutrale Verwaltung - Scope 1 & 2 - sector: THG-neutrale Verwaltung
+      - Metric: Emission reduction potential - Korrekter wäre: Alle Energieträger
+      & Anteile an PKW(alle Energieträger), ggf. möglich nach Erstellung THG Bilanz<br/>Emission
+      reduction potential - action: Übergreifende Klimaschutzaspekte - sector: Übergreifend
+      - Metric: Emission reduction potential - Annahme ist, dass durch Informationskampagnen,
       Berufliche Weiterbildung, Klimaschutz bei Kommunalentscheidungen (& ggf. zu
       einem späteren Zeitpunkt Inititiven in allen Sektoren im Rahmen des Kliaschutz-Fonds)
-      sektorübergreifend wirken <br/>Korrekter wäre: Auswirkungen auf Emissionsfaktor
-      Fernwärme zu ermitteln, aber in der Auswirkung gleich'
+      sektorübergreifend wirken <br/>Emission reduction potential - action: Wärmequellenerschließung
+      für Wärmenetze - sector: Wärme - Metric: Emission reduction potential - Korrekter
+      wäre: Auswirkungen auf Emissionsfaktor Fernwärme zu ermitteln, aber in der Auswirkung
+      gleich'
   metrics:
-  - id: reduction_potential
-    column_id: Value
+  - id: emission_reduction_potential
+    column_id: emission_reduction_potential
     quantity: emissions
-    unit: t_co2e/a
+    unit: ''
     label:
-      de: Emission Reduction Potential
-  updated_at: '1772717406'
+      de: Emission reduction potential
+  updated_at: '1773040083'
   units:
-    Value: t_co2e/a
+    Emission reduction potential: t_co2e/a
