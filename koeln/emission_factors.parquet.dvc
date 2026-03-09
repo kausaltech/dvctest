@@ -1,19 +1,19 @@
 outs:
-- md5: a922fdc47459b94982001f88d84d07d9
-  size: 5467
+- md5: 7373b0235fb453cbeb801e118ba5ef97
+  size: 5140
   hash: md5
   path: emission_factors.parquet
 meta:
   name:
-    de: Emission factors
+    de: emission_factors
   identifier: emission_factors
   metrics:
-  - id: emission_factor
-    column_id: Value
+  - id: emissionsfaktoren
+    column_id: emissionsfaktoren
     quantity: emission_factor
-    unit: kg_CO2e/kWh
+    unit: ''
     label:
       de: Emissionsfaktoren
-  updated_at: '1772707960'
+  updated_at: '1773040772'
   units:
-    Value: kg_CO2e/kWh
+    Emissionsfaktoren: kg_co2e/kWh
