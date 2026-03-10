@@ -1,0 +1,19 @@
+outs:
+- md5: 40c5945bd2bf4dbdc61d6744db9fd60b
+  size: 14527
+  hash: md5
+  path: stationary_energy_by_type.parquet
+meta:
+  name:
+    de: stationary_energy_by_type
+  identifier: stationary_energy_by_type
+  metrics:
+  - id: stationary_energy_use_by_type
+    column_id: stationary_energy_use_by_type
+    quantity: energy
+    unit: ''
+    label:
+      de: Stationary energy use by type
+  updated_at: '1773149718'
+  units:
+    Stationary energy use by type: MWh/a
