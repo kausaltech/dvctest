@@ -1,47 +1,16 @@
 outs:
-- md5: 55151687e7f67645cfda941fab630f7f
-  size: 12516
+- md5: 61c149050d9c4f46fd8c639046c1c711
+  size: 11241
   hash: md5
   path: transport.parquet
 meta:
   name:
     fi: transport
   identifier: transport
-  metrics:
-  - id: sahkohenkiloautojen_kasvu
-    quantity: amount
-    label:
-      fi: Sähköhenkilöautojen kasvu
-  - id: henkiloautojen_maara
-    quantity: amount
-    label:
-      fi: Henkilöautojen määrä
-  - id: jakeluvelvoite
-    quantity: fraction
-    label:
-      fi: Jakeluvelvoite
-  - id: liikenteen_fossiilisten_polttoaineiden_korvaaminen
-    quantity: fraction
-    label:
-      fi: Liikenteen fossiilisten polttoaineiden korvaaminen
-  - id: tieliikenteen_suorite_ennuste
-    quantity: energy
-    label:
-      fi: Tieliikenteen suorite-ennuste
-  - id: tieliikenteen_paastokertoimen_ennuste
-    quantity: emission_factor
-    label:
-      fi: Tieliikenteen päästökertoimen ennuste
-  - id: kuorma_autoliikenteen_kerroin
-    quantity: emissions
-    label:
-      fi: Kuorma-autoliikenteen kerroin
-  updated_at: '1743687169'
+  updated_at: '1773233953'
   units:
-    jakeluvelvoite: dimensionless
+    henkiloautojen_maara: v
+    sahkohenkiloautojen_kasvu: v
     tieliikenteen_paastokertoimen_ennuste: g/kWh
-    liikenteen_fossiilisten_polttoaineiden_korvaaminen: dimensionless
-    henkiloautojen_maara: vehicles
-    sahkohenkiloautojen_kasvu: vehicles
-    kuorma_autoliikenteen_kerroin: kt/a
     tieliikenteen_suorite_ennuste: GWh/a
+    kuorma_autoliikenteen_kerroin: kt/a
