@@ -1,34 +1,14 @@
 outs:
-- md5: 2084140c49af6b662f1bdd990f289469
-  size: 8432
+- md5: 1cc3a7c801a2fe9e8b7ac2962e73e93f
+  size: 6729
   hash: md5
   path: liikenteen_uudet_toimenpiteet.parquet
 meta:
   name:
-    fi: Liikenteen uudet toimenpiteet
+    fi: liikenteen_uudet_toimenpiteet
   identifier: liikenteen_uudet_toimenpiteet
-  description:
-    fi: 'Suorite - Metric: Suorite - Vehicle type: cars - Economic sector: residential
-      - Action: city_center_sustainable_transport_priority - Tietorakenne saatu Mikko
-      Kangasmäeltä sähköpostilla 2025-11-10<br/>Suorite - Metric: Suorite - Vehicle
-      type: cars - Economic sector: residential - Action: urban_space_study_active_mobility
-      - Toimenpiteen luvut ovat skenaarion arvoja, jossa tämä toimenpide on päällä
-      ja muut ovat pois.'
-  metrics:
-  - id: paastokerroin
-    quantity: emission_factor
-    label:
-      fi: Päästökerroin
-  - id: suorite
-    quantity: mileage
-    label:
-      fi: Suorite
-  - id: toteutuskustannus
-    quantity: currency
-    label:
-      fi: Toteutuskustannus
-  updated_at: '1763929944'
+  updated_at: '1773233933'
   units:
-    Suorite: Mvkm/a
-    Päästökerroin: g/vkm
-    Toteutuskustannus: kEUR/a
+    Päästökerroin: g/vehicle_km
+    Toteutuskustannus: k€/a
+    Suorite: Mvehicle_km/a
