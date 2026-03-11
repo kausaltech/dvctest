@@ -1,0 +1,16 @@
+outs:
+- md5: 0d7dc684a06b7c95e972228b8273f2a0
+  size: 11264
+  hash: md5
+  path: espootransport.parquet
+meta:
+  name:
+    fi: espoo/transport
+  identifier: espootransport
+  updated_at: '1773231432'
+  units:
+    tieliikenteen_suorite_ennuste: GWh/a
+    sahkohenkiloautojen_kasvu: v
+    kuorma_autoliikenteen_kerroin: kt/a
+    tieliikenteen_paastokertoimen_ennuste: g/kWh
+    henkiloautojen_maara: v
