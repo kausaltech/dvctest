@@ -1,0 +1,12 @@
+outs:
+- md5: 8afdb01f32f817df6a15d01e4e151a2c
+  size: 3956
+  hash: md5
+  path: espootieliikenteen_ajoneuvosuorite.parquet
+meta:
+  name:
+    fi: espoo/tieliikenteen_ajoneuvosuorite
+  identifier: espootieliikenteen_ajoneuvosuorite
+  updated_at: '1773231460'
+  units:
+    ajoneuvosuorite: Mvehicle_km/a
