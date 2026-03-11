@@ -1,0 +1,14 @@
+outs:
+- md5: 2bf4d76005871325d77de2c1e336425e
+  size: 6749
+  hash: md5
+  path: espooliikenteen_uudet_toimenpiteet.parquet
+meta:
+  name:
+    fi: espoo/liikenteen_uudet_toimenpiteet
+  identifier: espooliikenteen_uudet_toimenpiteet
+  updated_at: '1773231444'
+  units:
+    Toteutuskustannus: k€/a
+    Päästökerroin: g/vehicle_km
+    Suorite: Mvehicle_km/a
