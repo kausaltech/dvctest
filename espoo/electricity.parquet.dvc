@@ -1,17 +1,18 @@
 outs:
-- md5: dff86b22d888d04138bd9c80c5170cd2
-  size: 10345
+- md5: 40d259e157935d2eaf6b5d1af878bc4b
+  size: 10308
   hash: md5
   path: electricity.parquet
 meta:
   name:
     fi: electricity
   identifier: electricity
-  updated_at: '1773239787'
+  updated_at: '1773240016'
   units:
-    suurten_toimijoiden_sahkonkulutus: GWh/a
-    arvio_aurinkosahkon_tuotantomaarasta_gwh: GWh/a
-    kansallinen_sahkontuotanto_puhdistuu: t/GWh
     sahkon_kysyntaennuste_twh: TWh/a
+    vihrean_sahkon_jakauma: dimensionless
+    arvio_aurinkosahkon_tuotantomaarasta_gwh: GWh/a
     ei_lammityssahkon_kulutus_henkea_kohti: kWh/cap/a
+    kansallinen_sahkontuotanto_puhdistuu: t/GWh
+    suurten_toimijoiden_sahkonkulutus: GWh/a
     muutos_kulutussahkon_kaytossa_asuminen: GWh/a
