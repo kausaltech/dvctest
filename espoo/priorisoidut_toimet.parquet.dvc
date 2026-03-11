@@ -1,22 +1,13 @@
 outs:
-- md5: 840f5d8c14b904b40de504facda8bb1a
-  size: 3476
+- md5: fc1ebb977221cff685c683a6594fd559
+  size: 3074
   hash: md5
   path: priorisoidut_toimet.parquet
 meta:
   name:
-    fi: Priorisoidut toimet
+    fi: priorisoidut_toimet
   identifier: priorisoidut_toimet
-  metrics:
-  - id: aktiviteetti
-    quantity: fraction
-    label:
-      fi: Aktiviteetti
-  - id: paastokerroin
-    quantity: fraction
-    label:
-      fi: Päästökerroin
-  updated_at: '1755595572'
+  updated_at: '1773233924'
   units:
-    aktiviteetti: '%'
     paastokerroin: '%'
+    aktiviteetti: '%'
