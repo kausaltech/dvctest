@@ -1,0 +1,13 @@
+outs:
+- md5: d18de79ed5df317db3f641b7b6acd2f7
+  size: 3097
+  hash: md5
+  path: espoopriorisoidut_toimet.parquet
+meta:
+  name:
+    fi: espoo/priorisoidut_toimet
+  identifier: espoopriorisoidut_toimet
+  updated_at: '1773231423'
+  units:
+    paastokerroin: '%'
+    aktiviteetti: '%'
