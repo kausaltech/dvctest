@@ -1,0 +1,12 @@
+outs:
+- md5: c60293abe27e251d23bfd2fcec4de427
+  size: 3695
+  hash: md5
+  path: espoojatteenkasittelyn_paastot_ja_ennuste.parquet
+meta:
+  name:
+    fi: espoo/jatteenkasittelyn_paastot_ja_ennuste
+  identifier: espoojatteenkasittelyn_paastot_ja_ennuste
+  updated_at: '1773231427'
+  units:
+    jatteenkasittelyn_paastot: kt/a
