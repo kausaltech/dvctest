@@ -1,5 +1,5 @@
 outs:
-- md5: 1374d25c3fbddd73ec2b047204254d12
+- md5: 0359a644c051067db2e88edfa816aaec
   size: 3660
   hash: md5
   path: jatteenkasittelyn_paastot_ja_ennuste.parquet
@@ -7,6 +7,6 @@ meta:
   name:
     fi: jatteenkasittelyn_paastot_ja_ennuste
   identifier: jatteenkasittelyn_paastot_ja_ennuste
-  updated_at: '1773239077'
+  updated_at: '1773239771'
   units:
     jatteenkasittelyn_paastot: kt/a
