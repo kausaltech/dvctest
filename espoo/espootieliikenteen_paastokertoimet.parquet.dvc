@@ -1,0 +1,12 @@
+outs:
+- md5: 95f13a45ae534e39194902bfe1a88b50
+  size: 4480
+  hash: md5
+  path: espootieliikenteen_paastokertoimet.parquet
+meta:
+  name:
+    fi: espoo/tieliikenteen_paastokertoimet
+  identifier: espootieliikenteen_paastokertoimet
+  updated_at: '1773231436'
+  units:
+    paastokerroin: g/vehicle_km
