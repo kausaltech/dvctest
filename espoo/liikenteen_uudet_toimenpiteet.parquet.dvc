@@ -1,5 +1,5 @@
 outs:
-- md5: 1cc3a7c801a2fe9e8b7ac2962e73e93f
+- md5: b0099928fb523e7e820e69f7bbb8b192
   size: 6729
   hash: md5
   path: liikenteen_uudet_toimenpiteet.parquet
@@ -7,8 +7,8 @@ meta:
   name:
     fi: liikenteen_uudet_toimenpiteet
   identifier: liikenteen_uudet_toimenpiteet
-  updated_at: '1773233933'
+  updated_at: '1773239103'
   units:
-    Päästökerroin: g/vehicle_km
     Toteutuskustannus: k€/a
     Suorite: Mvehicle_km/a
+    Päästökerroin: g/vehicle_km
