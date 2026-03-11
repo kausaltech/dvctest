@@ -1,5 +1,5 @@
 outs:
-- md5: 9c56b3097ddea31080357d40bb763a10
+- md5: 44cb456d3bb2dd81f45a2328ae023225
   size: 3932
   hash: md5
   path: tieliikenteen_ajoneuvosuorite.parquet
@@ -7,6 +7,6 @@ meta:
   name:
     fi: tieliikenteen_ajoneuvosuorite
   identifier: tieliikenteen_ajoneuvosuorite
-  updated_at: '1773239086'
+  updated_at: '1773239766'
   units:
     ajoneuvosuorite: Mvehicle_km/a
