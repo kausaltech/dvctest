@@ -1,0 +1,12 @@
+outs:
+- md5: bdd46070a7123f3e9f538ddff99e2b82
+  size: 2919
+  hash: md5
+  path: espoovaestoennuste.parquet
+meta:
+  name:
+    fi: espoo/vaestoennuste
+  identifier: espoovaestoennuste
+  updated_at: '1773231452'
+  units:
+    population: cap
