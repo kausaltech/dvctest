@@ -1,0 +1,12 @@
+outs:
+- md5: 5f7cf849438e02dad31a11377a077032
+  size: 3260
+  hash: md5
+  path: espoohiilidioksidin_hinta.parquet
+meta:
+  name:
+    fi: espoo/hiilidioksidin_hinta
+  identifier: espoohiilidioksidin_hinta
+  updated_at: '1773231440'
+  units:
+    Value: €/t
