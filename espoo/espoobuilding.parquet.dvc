@@ -1,0 +1,13 @@
+outs:
+- md5: 1339c242252777e13b762d253a1c5241
+  size: 6747
+  hash: md5
+  path: espoobuilding.parquet
+meta:
+  name:
+    fi: espoo/building
+  identifier: espoobuilding
+  updated_at: '1773231448'
+  units:
+    kaukolammon_paastokerrointavoite: g/kWh
+    kaupungin_oman_rakennuskannan_energiankulutuksen_vahennys: GWh/a
