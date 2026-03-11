@@ -1,47 +1,17 @@
 outs:
-- md5: 53c58017b526055dda67c43f411679f8
-  size: 11900
+- md5: 0de75c683800b2ec967deb78082ba847
+  size: 10345
   hash: md5
   path: electricity.parquet
 meta:
   name:
     fi: electricity
   identifier: electricity
-  metrics:
-  - id: kansallinen_sahkontuotanto_puhdistuu
-    quantity: emission_factor
-    label:
-      fi: kansallinen_sahkontuotanto_puhdistuu
-  - id: arvio_aurinkosahkon_tuotantomaarasta_gwh
-    quantity: energy
-    label:
-      fi: arvio_aurinkosahkon_tuotantomaarasta_gwh
-  - id: suurten_toimijoiden_sahkonkulutus
-    quantity: energy
-    label:
-      fi: suurten_toimijoiden_sahkonkulutus
-  - id: ei_lammityssahkon_kulutus_henkea_kohti
-    quantity: energy
-    label:
-      fi: ei_lammityssahkon_kulutus_henkea_kohti
-  - id: sahkon_kysyntaennuste_twh
-    quantity: energy
-    label:
-      fi: sahkon_kysyntaennuste_twh
-  - id: muutos_kulutussahkon_kaytossa_asuminen
-    quantity: energy
-    label:
-      fi: muutos_kulutussahkon_kaytossa_asuminen
-  - id: vihrean_sahkon_jakauma
-    quantity: ratio
-    label:
-      fi: vihrean_sahkon_jakauma
-  updated_at: '1745490761'
+  updated_at: '1773233929'
   units:
-    muutos_kulutussahkon_kaytossa_asuminen: GWh/a
-    suurten_toimijoiden_sahkonkulutus: GWh/a
     sahkon_kysyntaennuste_twh: TWh/a
+    muutos_kulutussahkon_kaytossa_asuminen: GWh/a
+    ei_lammityssahkon_kulutus_henkea_kohti: kWh/cap/a
+    suurten_toimijoiden_sahkonkulutus: GWh/a
     arvio_aurinkosahkon_tuotantomaarasta_gwh: GWh/a
     kansallinen_sahkontuotanto_puhdistuu: t/GWh
-    vihrean_sahkon_jakauma: dimensionless
-    ei_lammityssahkon_kulutus_henkea_kohti: kWh/cap/a
