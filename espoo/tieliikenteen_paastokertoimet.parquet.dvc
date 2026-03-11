@@ -1,5 +1,5 @@
 outs:
-- md5: c177bf62838173759513f79ae7e052dc
+- md5: 1e09d1cbe998e866fd3ae52d763033cc
   size: 4460
   hash: md5
   path: tieliikenteen_paastokertoimet.parquet
@@ -7,6 +7,6 @@ meta:
   name:
     fi: tieliikenteen_paastokertoimet
   identifier: tieliikenteen_paastokertoimet
-  updated_at: '1773239090'
+  updated_at: '1773239775'
   units:
     paastokerroin: g/vehicle_km
