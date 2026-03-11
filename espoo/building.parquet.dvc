@@ -1,22 +1,13 @@
 outs:
-- md5: 6480732a6d2a94d9390c8192dd089d8e
-  size: 6825
+- md5: 71a2b03a6fbd0d18c739025b39205e48
+  size: 6724
   hash: md5
   path: building.parquet
 meta:
   name:
     fi: building
   identifier: building
-  metrics:
-  - id: kaupungin_oman_rakennuskannan_energiankulutuksen_vahennys
-    quantity: energy
-    label:
-      fi: Kaupungin oman rakennuskannan energiankulutuksen vähennys
-  - id: kaukolammon_paastokerrointavoite
-    quantity: emission_factor
-    label:
-      fi: Kaukolämmön päästökerrointavoite
-  updated_at: '1743687153'
+  updated_at: '1773233937'
   units:
     kaupungin_oman_rakennuskannan_energiankulutuksen_vahennys: GWh/a
     kaukolammon_paastokerrointavoite: g/kWh
