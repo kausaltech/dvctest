@@ -1,5 +1,5 @@
 outs:
-- md5: f625f97804abddfa466e23df679a8f73
+- md5: cf9b85844ff2e8705acafcc6dc1a6ba4
   size: 6724
   hash: md5
   path: building.parquet
@@ -7,7 +7,7 @@ meta:
   name:
     fi: building
   identifier: building
-  updated_at: '1773239795'
+  updated_at: '1773239984'
   units:
-    kaupungin_oman_rakennuskannan_energiankulutuksen_vahennys: GWh/a
     kaukolammon_paastokerrointavoite: g/kWh
+    kaupungin_oman_rakennuskannan_energiankulutuksen_vahennys: GWh/a
