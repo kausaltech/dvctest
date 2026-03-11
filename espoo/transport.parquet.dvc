@@ -1,16 +1,18 @@
 outs:
-- md5: f6a580e32461f93f48ff3a56cbcff642
-  size: 11241
+- md5: 5ba2ee20241b74830d53951d1c694501
+  size: 11179
   hash: md5
   path: transport.parquet
 meta:
   name:
     fi: transport
   identifier: transport
-  updated_at: '1773239804'
+  updated_at: '1773240004'
   units:
-    tieliikenteen_paastokertoimen_ennuste: g/kWh
+    jakeluvelvoite: dimensionless
     sahkohenkiloautojen_kasvu: v
+    liikenteen_fossiilisten_polttoaineiden_korvaaminen: dimensionless
+    tieliikenteen_paastokertoimen_ennuste: g/kWh
     henkiloautojen_maara: v
-    kuorma_autoliikenteen_kerroin: kt/a
     tieliikenteen_suorite_ennuste: GWh/a
+    kuorma_autoliikenteen_kerroin: kt/a
