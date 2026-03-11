@@ -1,5 +1,5 @@
 outs:
-- md5: fc1ebb977221cff685c683a6594fd559
+- md5: 47f3aaab21bbb250e19bd52bc4beefe3
   size: 3074
   hash: md5
   path: priorisoidut_toimet.parquet
@@ -7,7 +7,7 @@ meta:
   name:
     fi: priorisoidut_toimet
   identifier: priorisoidut_toimet
-  updated_at: '1773233924'
+  updated_at: '1773239065'
   units:
-    paastokerroin: '%'
     aktiviteetti: '%'
+    paastokerroin: '%'
