@@ -1,5 +1,5 @@
 outs:
-- md5: ed6e44b0a2125e53075265c544eaf204
+- md5: 75579460051c5c3044298bf07983dc1e
   size: 3229
   hash: md5
   path: hiilidioksidin_hinta.parquet
@@ -7,6 +7,6 @@ meta:
   name:
     fi: hiilidioksidin_hinta
   identifier: hiilidioksidin_hinta
-  updated_at: '1773239783'
+  updated_at: '1773240012'
   units:
     Value: €/t
