@@ -1,0 +1,17 @@
+outs:
+- md5: fbbb81582936b3c0bd7616104029860f
+  size: 10364
+  hash: md5
+  path: espooelectricity.parquet
+meta:
+  name:
+    fi: espoo/electricity
+  identifier: espooelectricity
+  updated_at: '1773231456'
+  units:
+    ei_lammityssahkon_kulutus_henkea_kohti: kWh/cap/a
+    suurten_toimijoiden_sahkonkulutus: GWh/a
+    arvio_aurinkosahkon_tuotantomaarasta_gwh: GWh/a
+    sahkon_kysyntaennuste_twh: TWh/a
+    muutos_kulutussahkon_kaytossa_asuminen: GWh/a
+    kansallinen_sahkontuotanto_puhdistuu: t/GWh
