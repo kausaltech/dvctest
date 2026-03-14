@@ -1,0 +1,246 @@
+outs:
+- md5: 3d8925fd6e0ac4918c24ef3f410c788c
+  size: 52858
+  hash: md5
+  path: electricity.parquet
+meta:
+  name:
+    en: Electricity
+  identifier: electricity
+  description:
+    en: "Average electricity use for lighting & appliances - Metric: Average electricity
+      use for lighting & appliances - Energy carrier: electricity - UUID: fa4c1349-48c2-469c-ad04-f3c61ca599ff
+      - Average EU28. Odysee-Mure (2015). Energy Efficiency Trends and Policies in
+      the Household and Tertiary Sectors<br/>Total electricity demand within city
+      boundaries - Metric: Total electricity demand within city boundaries - Energy
+      carrier: electricity - UUID: 5f7c8175-d3ae-4e05-9179-325b84934ead - 2104<br/>Share
+      of total electricity demand produced by fossil/renewables - Metric: Share of
+      total electricity demand produced by fossil/renewables - Energy carrier: electricity
+      - Fuel type: non_fossil - UUID: b132697d-6a72-476c-aed5-d3fa3886d943 - Spanish
+      national electricty consumption - Embers European Electricity Review (2019)<br/>Share
+      of total electricity demand produced by fossil/renewables - Metric: Share of
+      total electricity demand produced by fossil/renewables - Energy carrier: electricity
+      - Fuel type: fossil - UUID: 82c7d588-6369-4db8-b961-c83a93d1ae42 - Spanish national
+      electricty consumption - Embers European Electricity Review (2019)<br/>Share
+      of total electricity demand produced by fossil/renewables - Metric: Share of
+      total electricity demand produced by fossil/renewables - Energy carrier: electricity
+      - Fuel type: other - UUID: 9bebc7be-cc99-4edb-9932-a4465baa4748 - Spanish national
+      electricty consumption - Embers European Electricity Review (2019)<br/>Emission
+      factors from electricity generation - Metric: Emission factors from electricity
+      generation - Pollutant: co2 - Energy carrier: electricity - UUID: c549ff9f-91d0-48d8-b1f2-c014eaca748b
+      - Weighted average based on Spanish national grid mix (lines 165-167)<br/>Emission
+      factors from electricity generation - Metric: Emission factors from electricity
+      generation - Pollutant: nox - Energy carrier: electricity - UUID: 7165c4b8-76a9-4d8a-b437-55f6099dd1ac
+      - Calculated based on Eurostat data, DATASET: Air pollutants by source sector
+      (source: EEA) [env_air_emis] & DATASET: Supply, transformation and consumption
+      of electricity [nrg_cb_e]<br/>Emission factors from electricity generation -
+      Metric: Emission factors from electricity generation - Pollutant: pm25_combustion
+      - Energy carrier: electricity - UUID: 22545669-4941-445a-bac5-290acf43b110 -
+      Calculated based on Eurostat data, DATASET: Air pollutants by source sector
+      (source: EEA) [env_air_emis] & DATASET: Supply, transformation and consumption
+      of electricity [nrg_cb_e]<br/>Emission factors from electricity generation -
+      Metric: Emission factors from electricity generation - Pollutant: pm10_combustion
+      - Energy carrier: electricity - UUID: 93b7feab-da6a-4f33-8726-2ca7c96046b6 -
+      Calculated based on Eurostat data, DATASET: Air pollutants by source sector
+      (source: EEA) [env_air_emis] & DATASET: Supply, transformation and consumption
+      of electricity [nrg_cb_e]<br/>Spot price electricity - Metric: Spot price electricity
+      - Energy carrier: electricity - UUID: d7cbcdbd-9e5a-415e-a37a-5c3eefa26982 -
+      2022 spot price average<br/>Retail price of electricity - Metric: Retail price
+      of electricity - Energy carrier: electricity - UUID: 0bfef6a2-7d17-4cc7-8524-fd429cb9c4bf
+      - 2022 retail price of to align with spot price on line 177<br/>Share of current
+      fossil production replaced by renewables (or nuclear) - Metric: Share of current
+      fossil production replaced by renewables (or nuclear) - Energy carrier: electricity
+      - Fuel type: fossil - UUID: 18b9b8ac-cd73-4551-8628-16c6f4fbc649 - Spanish national
+      forecast assumption<br/>Distribution of type of new renewables - Metric: Distribution
+      of type of new renewables - Energy carrier: electricity - Fuel type: local_pv
+      - UUID: a5e9c291-9686-44a9-a09b-bd8d4adea53f - Spanish national forecast assumption<br/>Distribution
+      of type of new renewables - Metric: Distribution of type of new renewables -
+      Energy carrier: electricity - Fuel type: centralised_pv - UUID: ad4bf140-bfdc-476d-85f8-a898f21edf81
+      - Spanish national forecast assumption<br/>Operating cost for renewables - Metric:
+      Operating cost for renewables - Cost type: grid_stability - Energy carrier:
+      electricity - Fuel type: local_pv - Material Economics analysis based on Agora
+      Energiewender, ’The Integration Costs of Wind and Solar Power’, 2015; Hirth,
+      Lion, Falko Ueckerdt, och Ottmar Edenhofer. ”Integration Costs Revisited – An
+      Economic Framework for Wind and Solar Variability”. Renewable Energy 74 (februari
+      2015): 925–39. <br/>Operating cost for renewables - Metric: Operating cost for
+      renewables - Cost type: grid_stability - Energy carrier: electricity - Fuel
+      type: centralised_pv - Material Economics analysis based on Agora Energiewender,
+      ’The Integration Costs of Wind and Solar Power’, 2015; Hirth, Lion, Falko Ueckerdt,
+      och Ottmar Edenhofer. ”Integration Costs Revisited – An Economic Framework for
+      Wind and Solar Variability”. Renewable Energy 74 (februari 2015): 925–39. <br/>Operating
+      cost for renewables - Metric: Operating cost for renewables - Cost type: opex
+      - Energy carrier: electricity - Fuel type: local_pv - Weighted average OPEX<br/>Operating
+      cost for renewables - Metric: Operating cost for renewables - Cost type: opex
+      - Energy carrier: electricity - Fuel type: centralised_pv - Lazard, Lazard's
+      levelized cost of energy - version 12.0 (2018)<br/>solar panel costs - Metric:
+      solar panel costs - Cost type: capex - Stakeholder: citizens - Fuel type: local_pv
+      - According to the ECV, the proportion of renting households in 2018 amounted
+      to 23.6% in Madrid. Cities own some buildings. Assume investments are made by
+      the owner<br/>solar panel costs - Metric: solar panel costs - Cost type: capex
+      - Stakeholder: property_owners - Fuel type: local_pv - Do we need to confirm
+      with cities?<br/>solar panel costs - Metric: solar panel costs - Cost type:
+      capex - Stakeholder: cities - Fuel type: local_pv - Yes<br/>solar panel costs
+      - Metric: solar panel costs - Cost type: capex - Stakeholder: utilities - Fuel
+      type: local_pv - Source: https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/InformesBoletinesRevistas/ArticulosAnaliticos/19/T3/descargar/Files/be1903-art25e.pdf<br/>solar
+      panel costs - Metric: solar panel costs - Cost type: capex - Stakeholder: citizens
+      - Fuel type: centralised_pv - Rationale<br/>solar panel costs - Metric: solar
+      panel costs - Cost type: capex - Stakeholder: property_owners - Fuel type: centralised_pv
+      - While the city might require utilities to develop a utility scale source,
+      the utilities will need to stand for the up front investments. They will however
+      then distribute this through PPAs, etc. City stand for some of the costs through
+      lower land prices<br/>solar panel costs - Metric: solar panel costs - Cost type:
+      capex - Stakeholder: cities - Fuel type: centralised_pv - Do we need to confirm
+      with cities?<br/>solar panel costs - Metric: solar panel costs - Cost type:
+      capex - Stakeholder: healthcare_providers - Fuel type: centralised_pv - Yes<br/>solar
+      panel costs - Metric: solar panel costs - Cost type: opex - Stakeholder: citizens
+      - Fuel type: local_pv - Rationale<br/>solar panel costs - Metric: solar panel
+      costs - Cost type: opex - Stakeholder: property_owners - Fuel type: local_pv
+      - Citizens benefit from lower energy bills given that in existing residential
+      buildings rents are often controlled in some form. Property owners get some
+      of the benefits from being able to increase the rents on non-residential buildings
+      and receive revenues from sold electricity<br/>solar panel costs - Metric: solar
+      panel costs - Cost type: opex - Stakeholder: cities - Fuel type: local_pv -
+      Do we need to confirm with cities?<br/>solar panel costs - Metric: solar panel
+      costs - Cost type: opex - Stakeholder: healthcare_providers - Fuel type: local_pv
+      - Yes<br/>solar panel costs - Metric: solar panel costs - Cost type: opex -
+      Stakeholder: citizens - Fuel type: centralised_pv - Rationale<br/>solar panel
+      costs - Metric: solar panel costs - Cost type: opex - Stakeholder: property_owners
+      - Fuel type: centralised_pv - Utilities operate the utility solar/wind and will
+      receive the benefits<br/>solar panel costs - Metric: solar panel costs - Cost
+      type: opex - Stakeholder: cities - Fuel type: centralised_pv - Do we need to
+      confirm with cities?<br/>solar panel costs - Metric: solar panel costs - Cost
+      type: opex - Stakeholder: healthcare_providers - Fuel type: centralised_pv -
+      Yes<br/>fossil/current electricity supply - Metric: fossil/current electricity
+      supply - Cost type: opex - Stakeholder: citizens - Rationale<br/>fossil/current
+      electricity supply - Metric: fossil/current electricity supply - Cost type:
+      opex - Stakeholder: property_owners - Utilities operate the current electricity
+      system and will receive the benefits<br/>fossil/current electricity supply -
+      Metric: fossil/current electricity supply - Cost type: opex - Stakeholder: cities
+      - Do we need to confirm with cities?<br/>fossil/current electricity supply -
+      Metric: fossil/current electricity supply - Cost type: opex - Stakeholder: healthcare_providers
+      - Yes<br/>Jobs created per MW - Metric: Jobs created per MW - Energy carrier:
+      electricity - Dvorak, et. al. (2017). Renewable energy investment and job creation;
+      a cross-sectoral assessment for the Czech Republic with reference to EU benchmarks<br/>PV:
+      Upfront investment cost - Metric: PV: Upfront investment cost - Cost type: capex
+      - Energy carrier: electricity - Fuel type: local_pv - Calculated in the NetZeroCities
+      excel<br/>PV: Upfront investment cost - Metric: PV: Upfront investment cost
+      - Cost type: capex - Energy carrier: electricity - Fuel type: centralised_pv
+      - Calculated in the NetZeroCities excel<br/>Efficiency improvements for each
+      renovation - Metric: Efficiency improvements for each renovation - Energy carrier:
+      electricity - Efficiency programme: minor_improvements - Cantzler et. al.(2018).
+      A policy spotlight on energy efficiency in appliances & lights could see big
+      climate gains<br/>Efficiency improvements for each renovation - Metric: Efficiency
+      improvements for each renovation - Energy carrier: electricity - Efficiency
+      programme: aggressive_improvements - Odysee-Mure (2019). Energy consumption
+      of appliances and lighting per dwelling. https://www.odyssee-mure.eu/publications/efficiency-by-sector/households/electrical-appliances.html"
+  metrics:
+  - id: distribution_of_type_of_new_renewables
+    column_id: distribution_of_type_of_new_renewables
+    quantity: fraction
+    unit: ''
+    label:
+      en: Distribution of type of new renewables
+  - id: solar_panel_costs
+    column_id: solar_panel_costs
+    quantity: fraction
+    unit: ''
+    label:
+      en: solar panel costs
+  - id: total_electricity_demand_within_city_boundaries
+    column_id: total_electricity_demand_within_city_boundaries
+    quantity: energy
+    unit: ''
+    label:
+      en: Total electricity demand within city boundaries
+  - id: emission_factors_from_electricity_generation
+    column_id: emission_factors_from_electricity_generation
+    quantity: emission_factor
+    unit: ''
+    label:
+      en: Emission factors from electricity generation
+  - id: pv_upfront_investment_cost
+    column_id: pv_upfront_investment_cost
+    quantity: unit_price
+    unit: ''
+    label:
+      en: 'PV: Upfront investment cost'
+  - id: efficiency_improvements_for_each_renovation
+    column_id: efficiency_improvements_for_each_renovation
+    quantity: fraction
+    unit: ''
+    label:
+      en: Efficiency improvements for each renovation
+  - id: assumed_uptime_of_windsolar
+    column_id: assumed_uptime_of_windsolar
+    quantity: ratio
+    unit: ''
+    label:
+      en: Assumed uptime of wind/solar
+  - id: jobs_created_per_mw
+    column_id: jobs_created_per_mw
+    quantity: demand_factor
+    unit: ''
+    label:
+      en: Jobs created per MW
+  - id: fossilcurrent_electricity_supply
+    column_id: fossilcurrent_electricity_supply
+    quantity: fraction
+    unit: ''
+    label:
+      en: fossil/current electricity supply
+  - id: average_electricity_use_for_lighting_appliances
+    column_id: average_electricity_use_for_lighting_appliances
+    quantity: energy_factor
+    unit: ''
+    label:
+      en: Average electricity use for lighting & appliances
+  - id: share_of_total_electricity_demand_produced_by_fossilrenewables
+    column_id: share_of_total_electricity_demand_produced_by_fossilrenewables
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of total electricity demand produced by fossil/renewables
+  - id: share_of_current_fossil_production_replaced_by_renewables_or_nuclear
+    column_id: 
+      share_of_current_fossil_production_replaced_by_renewables_or_nuclear
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of current fossil production replaced by renewables (or nuclear)
+  - id: operating_cost_for_renewables
+    column_id: operating_cost_for_renewables
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Operating cost for renewables
+  - id: spot_price_electricity
+    column_id: spot_price_electricity
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Spot price electricity
+  - id: retail_price_of_electricity
+    column_id: retail_price_of_electricity
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Retail price of electricity
+  updated_at: '1773464794'
+  units:
+    fossil/current electricity supply: dimensionless
+    solar panel costs: dimensionless
+    Average electricity use for lighting & appliances: kWh/m**2/a
+    Total electricity demand within city boundaries: GWh/a
+    Retail price of electricity: EUR/kWh
+    Assumed uptime of wind/solar: h/a
+    Jobs created per MW: jobs/MW
+    Share of current fossil production replaced by renewables (or nuclear): 
+      dimensionless
+    'PV: Upfront investment cost': EUR/MWh
+    Emission factors from electricity generation: g/kWh
+    Operating cost for renewables: EUR/MWh
+    Efficiency improvements for each renovation: dimensionless
+    Distribution of type of new renewables: dimensionless
+    Spot price electricity: EUR/MWh
+    Share of total electricity demand produced by fossil/renewables: 
+      dimensionless
