@@ -1,0 +1,152 @@
+outs:
+- md5: 4736f4f0ff821545dd7e394ede488158
+  size: 31784
+  hash: md5
+  path: buildings_heating_fuel_tech.parquet
+meta:
+  name:
+    en: Buildings Heating Fuel Tech
+  identifier: buildings_heating_fuel_tech
+  description:
+    en: "Total heating demand (space heating + domestic hot water + heat for cooking)
+      - Metric: Total heating demand (space heating + domestic hot water + heat for
+      cooking) - UUID: 0ae5fb06-48a4-4774-9799-ccfa4e8f44a5 - 1593<br/>Heating technologies
+      - Metric: Heating technologies - Heating type: district_heating - UUID: 83080b15-af7d-44e9-bab2-cefe151879b3
+      - Valencia - 2019<br/>Heating technologies - Metric: Heating technologies -
+      Heating type: local_heating - UUID: b38b5eb7-fb3c-4cfe-999e-29a349d302cd - Valencia
+      - 2019<br/>Share of heating fuel - Metric: Share of heating fuel - Energy carrier:
+      fossil - Heating type: district_heating - Fuel type: fossil - UUID: 3b58ecda-77bb-4ac6-80bf-7f802442bbb4
+      - Valencia - 2019<br/>Share of heating fuel - Metric: Share of heating fuel
+      - Energy carrier: electricity - Heating type: district_heating - Fuel type:
+      heat_pump - UUID: ef9b2521-c413-4513-8251-a80700d2e558 - Valencia - 2019<br/>Share
+      of heating fuel - Metric: Share of heating fuel - Energy carrier: bioenergy
+      - Heating type: district_heating - Fuel type: non_fossil - UUID: d1053dcd-fecf-4b2d-9b02-f9fefe02effc
+      - Valencia - 2019<br/>Share of heating fuel - Metric: Share of heating fuel
+      - Energy carrier: waste - Heating type: district_heating - Fuel type: mixed
+      - UUID: 612e6a3c-81fa-4af2-9c04-18ef39778b91 - Valencia - 2019<br/>Share of
+      waste used in district heating that is fossil / non-fossil - Metric: Share of
+      waste used in district heating that is fossil / non-fossil - Energy carrier:
+      waste - Heating type: district_heating - Fuel type: fossil - UUID: 26a0df38-6711-4590-9283-aa519dfa4e45
+      - Valencia - 2019<br/>Share of waste used in district heating that is fossil
+      / non-fossil - Metric: Share of waste used in district heating that is fossil
+      / non-fossil - Energy carrier: waste - Heating type: district_heating - Fuel
+      type: non_fossil - UUID: d926a4e8-e8a4-4f8e-848b-1bee6092cd38 - Valencia - 2019<br/>Share
+      of heating fuel - Metric: Share of heating fuel - Energy carrier: fossil - Heating
+      type: local_heating - Fuel type: fossil - UUID: 16e07a92-6437-4eb2-bc6e-8dc0de375dcd
+      - Valencia - 2019<br/>Share of heating fuel - Metric: Share of heating fuel
+      - Energy carrier: electricity - Heating type: local_heating - Fuel type: heat_pump
+      - UUID: 804ac52f-8c7a-4b79-a56a-ed50f62ba8ad - Valencia - 2019<br/>Share of
+      heating fuel - Metric: Share of heating fuel - Energy carrier: bioenergy - Heating
+      type: local_heating - Fuel type: non_fossil - UUID: c8091681-cc83-416c-b4d2-7965b441e94e
+      - Valencia - 2019<br/>Retail price of heating - Metric: Retail price of heating
+      - UUID: 01ead87d-7f61-49fd-b80f-fbc0a736eda5 - 2022 retail price average<br/>Heating
+      technologies in 2030 - Metric: Heating technologies in 2030 - Heating type:
+      district_heating - UUID: 1995ad66-0a44-4d9a-911d-f6052103a8a3 - Valencia forecast
+      assumption - 2030<br/>Heating technologies in 2030 - Metric: Heating technologies
+      in 2030 - Heating type: local_heating - UUID: ae0f812f-b3bf-4eb8-8a85-d591ff19c3fd
+      - Valencia forecast assumption - 2030<br/>Share of heating in 2030 - Metric:
+      Share of heating in 2030 - Energy carrier: fossil - Heating type: district_heating
+      - Fuel type: fossil - UUID: 85d468d4-951c-49a7-8b6f-52283af9cbed - Valencia
+      forecast assumption - 2030<br/>Share of heating in 2030 - Metric: Share of heating
+      in 2030 - Energy carrier: electricity - Heating type: district_heating - Fuel
+      type: heat_pump - UUID: 77c7e3fe-52fb-42cc-80dc-f8456115c8ae - Valencia forecast
+      assumption - 2030<br/>Share of heating in 2030 - Metric: Share of heating in
+      2030 - Energy carrier: bioenergy - Heating type: district_heating - Fuel type:
+      non_fossil - UUID: cd988bf5-b6ce-436a-8af4-3d4b49fbb5ed - Valencia forecast
+      assumption - 2030<br/>Share of heating in 2030 - Metric: Share of heating in
+      2030 - Energy carrier: waste - Heating type: district_heating - Fuel type: mixed
+      - UUID: b9bbce97-4fec-44a8-980c-d78fb446cc76 - Valencia forecast assumption
+      - 2030<br/>Share of waste in 2030 used in district heating that is fossil /
+      non-fossil - Metric: Share of waste in 2030 used in district heating that is
+      fossil / non-fossil - Energy carrier: waste - Heating type: district_heating
+      - Fuel type: fossil - UUID: 75e49bd5-adff-408b-99d3-3630a63eecba - Valencia
+      forecast assumption - 2030<br/>Share of waste in 2030 used in district heating
+      that is fossil / non-fossil - Metric: Share of waste in 2030 used in district
+      heating that is fossil / non-fossil - Energy carrier: waste - Heating type:
+      district_heating - Fuel type: non_fossil - UUID: c74c6acc-f9bf-43f4-bf5e-1af86541a92f
+      - Valencia forecast assumption - 2030<br/>Share of heating in 2030 - Metric:
+      Share of heating in 2030 - Energy carrier: fossil - Heating type: local_heating
+      - Fuel type: fossil - UUID: 653ef9da-2820-4de1-bb3e-1c85f76eab35 - Valencia
+      forecast assumption - 2030<br/>Share of heating in 2030 - Metric: Share of heating
+      in 2030 - Energy carrier: electricity - Heating type: local_heating - Fuel type:
+      heat_pump - UUID: 7443c2c6-9218-4c4a-8fe3-523a43548003 - Valencia forecast assumption
+      - 2030<br/>Share of heating in 2030 - Metric: Share of heating in 2030 - Energy
+      carrier: bioenergy - Heating type: local_heating - Fuel type: non_fossil - UUID:
+      1d58badb-c62c-4c1b-9824-e092b305746e - Valencia forecast assumption - 2030<br/>Efficiency
+      of heat pumps - Metric: Efficiency of heat pumps - Energy carrier: electricity
+      - Fuel type: heat_pump - Campillo, J., et al., \"Electricity Demand Impact from
+      Increased use\nof Ground Sourced Heat Pumps\" (2012). https://www.diva-portal.org/smash/get/diva2:583489/FULLTEXT01.pdf"
+  metrics:
+  - id: total_heating_demand_space_heating_domestic_hot_water_heat_for_cooking
+    column_id: 
+      total_heating_demand_space_heating_domestic_hot_water_heat_for_cooking
+    quantity: energy
+    unit: ''
+    label:
+      en: Total heating demand (space heating + domestic hot water + heat for 
+        cooking)
+  - id: heating_technologies
+    column_id: heating_technologies
+    quantity: fraction
+    unit: ''
+    label:
+      en: Heating technologies
+  - id: efficiency_of_heat_pumps
+    column_id: efficiency_of_heat_pumps
+    quantity: energy_factor
+    unit: ''
+    label:
+      en: Efficiency of heat pumps
+  - id: heating_technologies_in_2030
+    column_id: heating_technologies_in_2030
+    quantity: fraction
+    unit: ''
+    label:
+      en: Heating technologies in 2030
+  - id: share_of_heating_fuel
+    column_id: share_of_heating_fuel
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of heating fuel
+  - id: 
+      share_of_waste_in_2030_used_in_district_heating_that_is_fossil_non_fossil
+    column_id: 
+      share_of_waste_in_2030_used_in_district_heating_that_is_fossil_non_fossil
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of waste in 2030 used in district heating that is fossil / 
+        non-fossil
+  - id: retail_price_of_heating
+    column_id: retail_price_of_heating
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Retail price of heating
+  - id: share_of_waste_used_in_district_heating_that_is_fossil_non_fossil
+    column_id: share_of_waste_used_in_district_heating_that_is_fossil_non_fossil
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of waste used in district heating that is fossil / non-fossil
+  - id: share_of_heating_in_2030
+    column_id: share_of_heating_in_2030
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of heating in 2030
+  updated_at: '1773464800'
+  units:
+    Share of heating in 2030: dimensionless
+    Efficiency of heat pumps: MWh/MWh
+    Share of waste used in district heating that is fossil / non-fossil: 
+      dimensionless
+    Retail price of heating: EUR/MWh
+    Total heating demand (space heating + domestic hot water + heat for cooking): 
+      GWh/a
+    Heating technologies in 2030: dimensionless
+    Share of heating fuel: dimensionless
+    Share of waste in 2030 used in district heating that is fossil / non-fossil: 
+      dimensionless
+    Heating technologies: dimensionless
