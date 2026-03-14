@@ -1,19 +1,22 @@
 outs:
-- md5: 12f01b7562bd0fb54378c069064b5cc8
-  size: 8870
+- md5: ede60a0445e5f06495bf47e6d74ad423
+  size: 8987
   hash: md5
   path: actions.parquet
 meta:
   name:
     en: Actions
+    de: Maßnahmen
   identifier: actions
   metrics:
   - id: currency
     label:
       en: Currency
+      de: Kosten
   - id: emissions
     label:
       en: Emissions
+      de: Emissionen
   units:
     currency: EUR/a
     emissions: kg_co2e/a
