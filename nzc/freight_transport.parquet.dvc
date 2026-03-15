@@ -1,0 +1,149 @@
+outs:
+- md5: 592f85620e8f547c78dbaf750a6805cd
+  size: 32765
+  hash: md5
+  path: freight_transport.parquet
+meta:
+  name:
+    en: Freight Transport
+  identifier: freight_transport
+  description:
+    en: 'Share of fleet fully electric (not including hybrids) - Transport mode: cars
+      - Energy carrier: electricity - UUID: 2be6f9ef-1745-40bf-9498-e9eeb4fdb984 -
+      Metric: Share of fleet fully electric (not including hybrids) - Eurostat, DATASET:
+      Passenger cars, by type of motor energy [road_eqs_carpda]<br/>Total transportation
+      need within city - Road freight... - Transport mode: light_trucks - UUID: beac92cf-c0c5-4921-8019-1a464d2a4fc0
+      - Metric: Total transportation need within city - Road freight... - 115<br/>Total
+      transportation need within city - Road freight... - Transport mode: heavy_trucks
+      - UUID: 3f433a95-e490-48c5-b629-3cffa0a132bb - Metric: Total transportation
+      need within city - Road freight... - 329<br/>Average utilisation - Transport
+      mode: light_trucks - UUID: 0e5da0b5-1a7a-49e6-88d3-481eb8819916 - Metric: Average
+      utilisation - Average utilisation urban trucks, based on ACEA (2010) Commercial
+      vehicles and CO2<br/>Average utilisation - Transport mode: heavy_trucks - UUID:
+      8a8b40eb-1848-48cd-9f61-0043ff158d7a - Metric: Average utilisation - Average
+      utilisation urban trucks, based on ACEA (2010) Commercial vehicles and CO2<br/>Number
+      of trucks registered within city - Transport mode: light_trucks - UUID: 3ec0915e-acc1-4fa4-b728-ee3c5051714f
+      - Metric: Number of trucks registered within city - 17244<br/>Number of trucks
+      registered within city - Transport mode: heavy_trucks - UUID: be4a0009-a06f-4b69-a22c-babf4c616980
+      - Metric: Number of trucks registered within city - 4311<br/>Utilisation of
+      trucks in decarbonisation scenario - Transport mode: light_trucks - UUID: b74849a8-692a-4020-b337-7dbbc0c93227
+      - Metric: Utilisation of trucks in decarbonisation scenario - Assuming light
+      trucks can reach average urban distribution today. The "normal" utilisation
+      rate is 45% for trucks used for urban distribution, and 70% for trucks used
+      for long distance, according to ACEA (2010) Commercial vehicles and CO2<br/>Utilisation
+      of trucks in decarbonisation scenario - Transport mode: heavy_trucks - UUID:
+      0071013d-6a8e-4a92-ba23-28e85b247a15 - Metric: Utilisation of trucks in decarbonisation
+      scenario - Assuming heavy duty trucks can reach almost same rate as long-haul
+      today (60% out of 70%). According to the ACEA report, the "normal" utilisation
+      rate is 45% for trucks used for urban distribution, and 70% for trucks used
+      for long distance<br/>New truck emission factor - Pollutant: co2 - Transport
+      mode: light_trucks - Metric: New truck emission factor - European commission
+      (2019) - Reducing CO2 emissions from vans. https://ec.europa.eu/clima/policies/transport/vehicles/vans_de
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>Fuel
+      consumption change of 1% utilisation change - Transport mode: light_trucks -
+      Metric: Fuel consumption change of 1% utilisation change - https://www.motiva.fi/files/1027/2006_HDEnergy_summaryreport_eng_final.pdf<br/>Fleet
+      average consumption - Transport mode: light_trucks - Energy carrier: petrol_diesel
+      - Metric: Fleet average consumption - https://theicct.org/sites/default/files/publications/ICCT_ChinaLCVassessment-2010_20141021_0.pdf<br/>Max
+      load weight - Transport mode: light_trucks - Metric: Max load weight - https://www.acea.be/uploads/publications/20101013_Commercial_Vehicles__CO2.pdf<br/>Max
+      load weight - Transport mode: heavy_trucks - Metric: Max load weight - https://www.acea.be/uploads/publications/20101013_Commercial_Vehicles__CO2.pdf<br/>Freight
+      transport Noise - Cost type: noise - Transport mode: light_trucks - Metric:
+      Freight transport Noise - Essen et. al. (2019). Handbook on the external costs
+      of transport. For European Commission Directorate-General for Mobility and Transport<br/>Freight
+      transport Noise - Cost type: noise - Transport mode: heavy_trucks - Metric:
+      Freight transport Noise - Essen et. al. (2019). Handbook on the external costs
+      of transport. For European Commission Directorate-General for Mobility and Transport<br/>Freight
+      transport Traffic accidents - Cost type: accidents - Transport mode: light_trucks
+      - Metric: Freight transport Traffic accidents - Essen et. al. (2019). Handbook
+      on the external costs of transport. For European Commission Directorate-General
+      for Mobility and Transport<br/>Freight transport Traffic accidents - Cost type:
+      accidents - Transport mode: heavy_trucks - Metric: Freight transport Traffic
+      accidents - Essen et. al. (2019). Handbook on the external costs of transport.
+      For European Commission Directorate-General for Mobility and Transport'
+  metrics:
+  - id: share_of_fleet_fully_electric_not_including_hybrids
+    column_id: share_of_fleet_fully_electric_not_including_hybrids
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of fleet fully electric (not including hybrids)
+  - id: freight_labour_cost_fraction
+    column_id: freight_labour_cost_fraction
+    quantity: fraction
+    unit: ''
+    label:
+      en: Freight labour cost fraction
+  - id: freight_transport_noise
+    column_id: freight_transport_noise
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Freight transport Noise
+  - id: utilisation_of_trucks_in_decarbonisation_scenario
+    column_id: utilisation_of_trucks_in_decarbonisation_scenario
+    quantity: fraction
+    unit: ''
+    label:
+      en: Utilisation of trucks in decarbonisation scenario
+  - id: number_of_trucks_registered_within_city
+    column_id: number_of_trucks_registered_within_city
+    quantity: number
+    unit: ''
+    label:
+      en: Number of trucks registered within city
+  - id: fleet_average_consumption
+    column_id: fleet_average_consumption
+    quantity: energy_factor
+    unit: ''
+    label:
+      en: Fleet average consumption
+  - id: total_transportation_need_within_city_road_freight
+    column_id: total_transportation_need_within_city_road_freight
+    quantity: freight_mileage
+    unit: ''
+    label:
+      en: Total transportation need within city - Road freight...
+  - id: average_utilisation
+    column_id: average_utilisation
+    quantity: fraction
+    unit: ''
+    label:
+      en: Average utilisation
+  - id: fuel_consumption_change_of_1_utilisation_change
+    column_id: fuel_consumption_change_of_1_utilisation_change
+    quantity: fraction
+    unit: ''
+    label:
+      en: Fuel consumption change of 1% utilisation change
+  - id: freight_transport_traffic_accidents
+    column_id: freight_transport_traffic_accidents
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Freight transport Traffic accidents
+  - id: max_load_weight
+    column_id: max_load_weight
+    quantity: mass
+    unit: ''
+    label:
+      en: Max load weight
+  - id: new_truck_emission_factor
+    column_id: new_truck_emission_factor
+    quantity: emission_factor
+    unit: ''
+    label:
+      en: New truck emission factor
+  updated_at: '1773553451'
+  units:
+    Fuel consumption change of 1% utilisation change: 1/%
+    Utilisation of trucks in decarbonisation scenario: dimensionless
+    New truck emission factor: g/vkm
+    Max load weight: tkm/vkm
+    Average utilisation: dimensionless
+    Fleet average consumption: cl/vkm
+    Total transportation need within city - Road freight...: Mtkm/a
+    Freight transport Traffic accidents: EUR/tkm
+    Share of fleet fully electric (not including hybrids): dimensionless
+    Freight transport Noise: EUR/tkm
+    Freight labour cost fraction: dimensionless
+    Number of trucks registered within city: vehicles
