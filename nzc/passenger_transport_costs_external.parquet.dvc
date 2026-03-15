@@ -1,0 +1,110 @@
+outs:
+- md5: 7206f8e63d60d2ee168739f9eed0dfda
+  size: 22977
+  hash: md5
+  path: passenger_transport_costs_external.parquet
+meta:
+  name:
+    en: Passenger Transport Costs External
+  identifier: passenger_transport_costs_external
+  description:
+    en: 'distribution of co-benefits - Cost type: air_pollution - Stakeholder: citizens
+      - Metric: distribution of co-benefits - Majority attributed to healthcare given
+      a large amount of the damages caused by air pollution is a cost that the healthcare
+      system needs to bear. Some is also attributed to citizens (improved well-being,
+      reduced sick days, longer life)<br/>distribution of co-benefits - Cost type:
+      air_pollution - Stakeholder: property_owners - Metric: distribution of co-benefits
+      - Do we need to confirm with cities?<br/>distribution of co-benefits - Cost
+      type: air_pollution - Stakeholder: cities - Metric: distribution of co-benefits
+      - Yes<br/>distribution of co-benefits - Cost type: noise - Stakeholder: citizens
+      - Metric: distribution of co-benefits - Majority attributed to citizens given
+      majority of benefits include increased psychological well-being. This also results
+      in some cost savings for healthcare<br/>distribution of co-benefits - Cost type:
+      noise - Stakeholder: property_owners - Metric: distribution of co-benefits -
+      Do we need to confirm with cities?<br/>distribution of co-benefits - Cost type:
+      noise - Stakeholder: cities - Metric: distribution of co-benefits - Yes<br/>distribution
+      of co-benefits - Cost type: accidents - Stakeholder: citizens - Metric: distribution
+      of co-benefits - Majority attributed to healthcare given a large amount of the
+      damages caused by traffic accidents is a cost that the healthcare system needs
+      to bear. Some is also attributed to citizens (improved well-being, reduced sick
+      days, longer life). We attribute costs related to police, ambulance, etc. is
+      included in the healthcare costs. Costs of closing roads, etc. is not included<br/>distribution
+      of co-benefits - Cost type: accidents - Stakeholder: property_owners - Metric:
+      distribution of co-benefits - Do we need to confirm with cities?<br/>distribution
+      of co-benefits - Cost type: accidents - Stakeholder: cities - Metric: distribution
+      of co-benefits - Yes<br/>distribution of co-benefits - Cost type: health - Stakeholder:
+      citizens - Metric: distribution of co-benefits - Majority attributed to citizens
+      given majority of benefits include increased physical and psychological well-being.
+      This also results in some cost savings for healthcare<br/>distribution of co-benefits
+      - Cost type: health - Stakeholder: property_owners - Metric: distribution of
+      co-benefits - Do we need to confirm with cities?<br/>distribution of co-benefits
+      - Cost type: health - Stakeholder: cities - Metric: distribution of co-benefits
+      - Yes<br/>Air pollution unit price - Pollutant: nox - Cost type: air_pollution
+      - Area distance: inside - Metric: Air pollution unit price - Essen et. al. (2019).
+      Handbook on the external costs of transport. For European Commission Directorate-General
+      for Mobility and Transport<br/>Air pollution unit price - Pollutant: nox - Cost
+      type: air_pollution - Area distance: outside - Metric: Air pollution unit price
+      - Essen et. al. (2019). Handbook on the external costs of transport. For European
+      Commission Directorate-General for Mobility and Transport<br/>Air pollution
+      unit price - Pollutant: pm25 - Cost type: air_pollution - Area distance: metropolitan
+      - Metric: Air pollution unit price - Essen et. al. (2019). Handbook on the external
+      costs of transport. For European Commission Directorate-General for Mobility
+      and Transport<br/>Air pollution unit price - Pollutant: pm25 - Cost type: air_pollution
+      - Area distance: inside - Metric: Air pollution unit price - Essen et. al. (2019).
+      Handbook on the external costs of transport. For European Commission Directorate-General
+      for Mobility and Transport<br/>Air pollution unit price - Pollutant: pm25 -
+      Cost type: air_pollution - Area distance: outside - Metric: Air pollution unit
+      price - Essen et. al. (2019). Handbook on the external costs of transport. For
+      European Commission Directorate-General for Mobility and Transport<br/>Air pollution
+      unit price - Pollutant: pm10 - Cost type: air_pollution - Area distance: average
+      - Metric: Air pollution unit price - Essen et. al. (2019). Handbook on the external
+      costs of transport. For European Commission Directorate-General for Mobility
+      and Transport<br/>Air pollution unit price - Pollutant: pm10 - Cost type: air_pollution
+      - Area distance: outside - Metric: Air pollution unit price - Essen et. al.
+      (2019). Handbook on the external costs of transport. For European Commission
+      Directorate-General for Mobility and Transport<br/>Noise - Cost type: noise
+      - Transport mode: cars - Metric: Noise - Essen et. al. (2019). Handbook on the
+      external costs of transport. For European Commission Directorate-General for
+      Mobility and Transport<br/>Noise - Cost type: noise - Transport mode: buses
+      - Metric: Noise - Essen et. al. (2019). Handbook on the external costs of transport.
+      For European Commission Directorate-General for Mobility and Transport<br/>Noise
+      - Cost type: noise - Transport mode: trains - Metric: Noise - Essen et. al.
+      (2019). Handbook on the external costs of transport. For European Commission
+      Directorate-General for Mobility and Transport<br/>Traffic accidents - Cost
+      type: accidents - Transport mode: cars - Metric: Traffic accidents - Essen et.
+      al. (2019). Handbook on the external costs of transport. For European Commission
+      Directorate-General for Mobility and Transport<br/>Traffic accidents - Cost
+      type: accidents - Transport mode: buses - Metric: Traffic accidents - Essen
+      et. al. (2019). Handbook on the external costs of transport. For European Commission
+      Directorate-General for Mobility and Transport'
+  metrics:
+  - id: noise
+    column_id: noise
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Noise
+  - id: air_pollution_unit_price
+    column_id: air_pollution_unit_price
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Air pollution unit price
+  - id: traffic_accidents
+    column_id: traffic_accidents
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Traffic accidents
+  - id: distribution_of_co_benefits
+    column_id: distribution_of_co_benefits
+    quantity: fraction
+    unit: ''
+    label:
+      en: distribution of co-benefits
+  updated_at: '1773553464'
+  units:
+    Noise: EUR/pkm
+    distribution of co-benefits: dimensionless
+    Traffic accidents: EUR/pkm
+    Air pollution unit price: EUR/t

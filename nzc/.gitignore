@@ -15,3 +15,4 @@
 /buildings_heating_costs.parquet
 /freight_transport.parquet
 /waste_management.parquet
+/passenger_transport_costs_external.parquet
