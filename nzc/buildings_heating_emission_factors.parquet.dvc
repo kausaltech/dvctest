@@ -1,0 +1,47 @@
+outs:
+- md5: 42e75f9c282fa91088fd268337932d36
+  size: 10808
+  hash: md5
+  path: buildings_heating_emission_factors.parquet
+meta:
+  name:
+    en: Buildings Heating Emission Factors
+  identifier: buildings_heating_emission_factors
+  description:
+    en: 'Emission factors from heat production - Metric: Emission factors from heat
+      production - Pollutant: co2 - Heating type: district_heating - UUID: d178d6ca-ac4b-4e6f-871f-9a79555cb2de
+      - Weighted average based on Valencia 2019 District Heating fuel mix (rows 130-133)<br/>Emission
+      factors from heat production - Metric: Emission factors from heat production
+      - Pollutant: nox - Heating type: district_heating - UUID: fae64934-4d43-4b58-9ee4-9f7b37cd7335
+      - Assumption based on data for Italy <br/>Emission factors from heat production
+      - Metric: Emission factors from heat production - Pollutant: pm25_combustion
+      - Heating type: district_heating - UUID: 501d46fa-6d86-422f-a818-b712612995c4
+      - Assumption based on data for Italy <br/>Emission factors from heat production
+      - Metric: Emission factors from heat production - Pollutant: pm10_combustion
+      - Heating type: district_heating - UUID: f8d3b736-1fe9-49ce-851b-d881f11d8a89
+      - Assumption based on data for Italy <br/>Emission factors from heat production
+      - Metric: Emission factors from heat production - Pollutant: co2 - Heating type:
+      local_heating - UUID: 8b5c3adb-307c-4bd1-8b9f-1d6e01c34c50 - Weighted average
+      based on Valencia 2019 Local Heating fuel mix (rows 141-143)<br/>Emission factors
+      from heat production - Metric: Emission factors from heat production - Pollutant:
+      nox - Heating type: local_heating - UUID: 00924063-1dd8-43b1-a118-f3e29edbecf7
+      - Atmospheric emissions Inventory of Madrid City, 2017. SNAP 02: residential,
+      commercial and institutional buildings<br/>Emission factors from heat production
+      - Metric: Emission factors from heat production - Pollutant: pm25_combustion
+      - Heating type: local_heating - UUID: 22dcb86a-4523-466d-be25-8b2fe4a58c20 -
+      Atmospheric emissions Inventory of Madrid City, 2017. SNAP 02: residential,
+      commercial and institutional buildings<br/>Emission factors from heat production
+      - Metric: Emission factors from heat production - Pollutant: pm10_combustion
+      - Heating type: local_heating - UUID: e1069a45-21db-4210-96a3-71210c7a9cf8 -
+      Atmospheric emissions Inventory of Madrid City, 2017. SNAP 02: residential,
+      commercial and institutional buildings'
+  metrics:
+  - id: emission_factors_from_heat_production
+    column_id: emission_factors_from_heat_production
+    quantity: emission_factor
+    unit: ''
+    label:
+      en: Emission factors from heat production
+  updated_at: '1773550398'
+  units:
+    Emission factors from heat production: g/kWh

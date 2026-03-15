@@ -7,3 +7,4 @@
 /passenger_transport_costs_walking_pt.parquet
 /passenger_transport_emissions.parquet
 /buildings_materials_costs.parquet
+/buildings_heating_emission_factors.parquet
