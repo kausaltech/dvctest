@@ -1,5 +1,5 @@
 outs:
-- md5: 01cc9277765b0b8c1e69426fcacac4ad
+- md5: b284127fff111d97050438b023c135b4
   size: 30073
   hash: md5
   path: buildings_heating_fuel_tech.parquet
@@ -75,24 +75,36 @@ meta:
       - Campillo, J., et al., \"Electricity Demand Impact from Increased use\nof Ground
       Sourced Heat Pumps\" (2012). https://www.diva-portal.org/smash/get/diva2:583489/FULLTEXT01.pdf"
   metrics:
-  - id: total_heating_demand_space_heating_domestic_hot_w
-    column_id: total_heating_demand_space_heating_domestic_hot_w
-    quantity: energy
-    unit: ''
-    label:
-      en: Total heating demand (space heating + domestic hot w...
-  - id: efficiency_of_heat_pumps
-    column_id: efficiency_of_heat_pumps
-    quantity: energy_factor
-    unit: ''
-    label:
-      en: Efficiency of heat pumps
   - id: heating_technologies_in_2030
     column_id: heating_technologies_in_2030
     quantity: fraction
     unit: ''
     label:
       en: Heating technologies in 2030
+  - id: heating_technologies
+    column_id: heating_technologies
+    quantity: fraction
+    unit: ''
+    label:
+      en: Heating technologies
+  - id: total_heating_demand_space_heating_domestic_hot_w
+    column_id: total_heating_demand_space_heating_domestic_hot_w
+    quantity: energy
+    unit: ''
+    label:
+      en: Total heating demand (space heating + domestic hot w...
+  - id: share_of_waste_used_in_district_heating_that_is_foss
+    column_id: share_of_waste_used_in_district_heating_that_is_foss
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of waste used in district heating that is foss...
+  - id: efficiency_of_heat_pumps
+    column_id: efficiency_of_heat_pumps
+    quantity: energy_factor
+    unit: ''
+    label:
+      en: Efficiency of heat pumps
   - id: retail_price_of_heating
     column_id: retail_price_of_heating
     quantity: unit_price
@@ -105,38 +117,26 @@ meta:
     unit: ''
     label:
       en: Share of heating in 2030
-  - id: share_of_heating_fuel
-    column_id: share_of_heating_fuel
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of heating fuel
   - id: share_of_waste_in_2030_used_in_district_heating_that
     column_id: share_of_waste_in_2030_used_in_district_heating_that
     quantity: fraction
     unit: ''
     label:
       en: Share of waste in 2030 used in district heating that...
-  - id: share_of_waste_used_in_district_heating_that_is_foss
-    column_id: share_of_waste_used_in_district_heating_that_is_foss
+  - id: share_of_heating_fuel
+    column_id: share_of_heating_fuel
     quantity: fraction
     unit: ''
     label:
-      en: Share of waste used in district heating that is foss...
-  - id: heating_technologies
-    column_id: heating_technologies
-    quantity: fraction
-    unit: ''
-    label:
-      en: Heating technologies
-  updated_at: '1773601253'
+      en: Share of heating fuel
+  updated_at: '1773601497'
   units:
-    Share of heating in 2030: dimensionless
-    Total heating demand (space heating + domestic hot w...: GWh/a
-    Share of heating fuel: dimensionless
-    Share of waste used in district heating that is foss...: dimensionless
     Retail price of heating: EUR/MWh
-    Share of waste in 2030 used in district heating that...: dimensionless
-    Efficiency of heat pumps: MWh/MWh
+    Share of heating fuel: dimensionless
+    Total heating demand (space heating + domestic hot w...: GWh/a
     Heating technologies: dimensionless
     Heating technologies in 2030: dimensionless
+    Share of waste used in district heating that is foss...: dimensionless
+    Share of heating in 2030: dimensionless
+    Efficiency of heat pumps: MWh/MWh
+    Share of waste in 2030 used in district heating that...: dimensionless
