@@ -1,0 +1,163 @@
+outs:
+- md5: 6f7f86c634485cc152ad2c3acdf62d35
+  size: 35235
+  hash: md5
+  path: transport_actions.parquet
+meta:
+  name:
+    en: Transport Actions
+  identifier: transport_actions
+  description:
+    en: 'Transportation need reduction by 2030 from urban pla... - UUID: ca90a93d-5299-42ee-b7c0-909f308e62c9
+      - Metric: Transportation need reduction by 2030 from urban pla... - Valencia
+      forecast assumption - 2030<br/>Reduced Pkm cars + motorcycles by 2030 - UUID:
+      232d8a0e-028a-4556-9c9f-aef1f4e48e94 - Metric: Reduced Pkm cars + motorcycles
+      by 2030 - Valencia forecast assumption - 2030<br/>1.3 Car pooling - Transport
+      mode: cars - UUID: a5e20d5c-8bd2-4fde-bffb-b032e851ba02 - Metric: 1.3 Car pooling
+      - Valencia forecast assumption - 2030<br/>Electrification of transport fleet
+      - Transport mode: cars - Energy carrier: electricity - Parameter: Max impact
+      - UUID: 3ac9c202-fd4e-4c7b-b313-4ff4af8d3c1c - Metric: Electrification of transport
+      fleet - Valencia forecast assumption - 2040<br/>Electrification of transport
+      fleet - Transport mode: cars - Energy carrier: electricity - Parameter: Max
+      year - UUID: 56f01fa8-6c81-4bed-91cf-436d410e3b9a - Metric: Electrification
+      of transport fleet - Valencia forecast assumption - 2040<br/>Expected procurement
+      schedule for buses - Transport mode: buses - Energy carrier: electricity - UUID:
+      d37af4da-2007-4d1c-9a36-a19204b3f2b2 - Metric: Expected procurement schedule
+      for buses - 2019<br/>Expected procurement schedule for buses - Transport mode:
+      buses - Energy carrier: electricity - UUID: 10528e2b-bec7-4d02-9ef9-ff665d6cc7a1
+      - Metric: Expected procurement schedule for buses - Valencia forecast assumption<br/>Expected
+      procurement schedule for buses - Transport mode: buses - Energy carrier: electricity
+      - UUID: 5216b4fa-f58a-458a-943b-f576bb679b7a - Metric: Expected procurement
+      schedule for buses - 2021<br/>Expected procurement schedule for buses - Transport
+      mode: buses - Energy carrier: electricity - UUID: c4e0bb4f-a7da-4e04-9bcc-01526769b8d5
+      - Metric: Expected procurement schedule for buses - 2022<br/>Expected procurement
+      schedule for buses - Transport mode: buses - Energy carrier: electricity - UUID:
+      ec005e1f-d6bd-4114-859c-b2c30f4e9dad - Metric: Expected procurement schedule
+      for buses - 2023<br/>Expected procurement schedule for buses - Transport mode:
+      buses - Energy carrier: electricity - UUID: 081823a8-67a7-455c-908f-96cc6a36f657
+      - Metric: Expected procurement schedule for buses - 2024<br/>Expected procurement
+      schedule for buses - Transport mode: buses - Energy carrier: electricity - UUID:
+      85facd22-07bb-41a7-88b7-6e90d76c5683 - Metric: Expected procurement schedule
+      for buses - 2025<br/>Expected procurement schedule for buses - Transport mode:
+      buses - Energy carrier: electricity - UUID: 7f0a41e3-b53a-4c1b-b81d-d493a70ec606
+      - Metric: Expected procurement schedule for buses - 2026<br/>Expected procurement
+      schedule for buses - Transport mode: buses - Energy carrier: electricity - UUID:
+      457adea4-fb53-4e3e-8e2a-b6492637f891 - Metric: Expected procurement schedule
+      for buses - 2027<br/>Expected procurement schedule for buses - Transport mode:
+      buses - Energy carrier: electricity - UUID: ff1c126d-5134-437d-9d4d-1237ca1512e8
+      - Metric: Expected procurement schedule for buses - 2028<br/>Expected procurement
+      schedule for buses - Transport mode: buses - Energy carrier: electricity - UUID:
+      3c7ee4f9-6822-43b2-8c23-ba969bdc6f56 - Metric: Expected procurement schedule
+      for buses - 2029<br/>Expected procurement schedule for buses - Transport mode:
+      buses - Energy carrier: electricity - UUID: 9d381c8c-7c34-4058-a69c-1b06e8117c89
+      - Metric: Expected procurement schedule for buses - 2030<br/>Expected procurement
+      schedule for buses - Transport mode: buses - Energy carrier: electricity - UUID:
+      23500b19-e1c8-448c-bcd9-613d86075013 - Metric: Expected procurement schedule
+      for buses - 2031<br/>Expected procurement schedule for buses - Transport mode:
+      buses - Energy carrier: electricity - UUID: fb637c61-8efa-4c14-9060-dd5a7fbe37c1
+      - Metric: Expected procurement schedule for buses - 2032<br/>Expected procurement
+      schedule for buses - Transport mode: buses - Energy carrier: electricity - UUID:
+      8ec62cb2-d0a2-4864-97e7-18e337c6cec3 - Metric: Expected procurement schedule
+      for buses - 2033<br/>Expected procurement schedule for buses - Transport mode:
+      buses - Energy carrier: electricity - UUID: 2b0657f5-b719-45f1-a971-9a7d0c39a20a
+      - Metric: Expected procurement schedule for buses - 2034<br/>Expected procurement
+      schedule for buses - Transport mode: buses - Energy carrier: electricity - UUID:
+      5745a666-c42e-4aae-85b8-9c1f47c2ba70 - Metric: Expected procurement schedule
+      for buses - 2035<br/>Expected procurement schedule for buses - Transport mode:
+      buses - Energy carrier: electricity - UUID: a5571d08-27e2-4cc7-a19a-c115dafd6770
+      - Metric: Expected procurement schedule for buses - 2036<br/>Expected procurement
+      schedule for buses - Transport mode: buses - Energy carrier: electricity - UUID:
+      6343b468-3fbf-45c9-b5e4-98f84202283b - Metric: Expected procurement schedule
+      for buses - 2037<br/>Expected procurement schedule for buses - Transport mode:
+      buses - Energy carrier: electricity - UUID: ad64a167-8e81-4a85-9e57-b019cb9f32ce
+      - Metric: Expected procurement schedule for buses - 2038<br/>Expected procurement
+      schedule for buses - Transport mode: buses - Energy carrier: electricity - UUID:
+      220f6b38-7460-43b0-bb93-4e9d42e11a9e - Metric: Expected procurement schedule
+      for buses - 2039<br/>Expected procurement schedule for buses - Transport mode:
+      buses - Energy carrier: electricity - UUID: d39d14be-395f-493a-90d1-d0e6afaad5fd
+      - Metric: Expected procurement schedule for buses - 2040<br/>Expected procurement
+      schedule for buses - Transport mode: buses - Energy carrier: electricity - UUID:
+      25916c83-2771-40f2-bc75-0d9158b6b255 - Metric: Expected procurement schedule
+      for buses - 2041<br/>Expected procurement schedule for buses - Transport mode:
+      buses - Energy carrier: electricity - UUID: e221e31a-6c28-4004-8bef-a535718d4e19
+      - Metric: Expected procurement schedule for buses - 2042<br/>Expected procurement
+      schedule for buses - Transport mode: buses - Energy carrier: electricity - UUID:
+      3c2361f1-84b3-400a-81dc-bfd020ef729a - Metric: Expected procurement schedule
+      for buses - 2043<br/>Expected procurement schedule for buses - Transport mode:
+      buses - Energy carrier: electricity - UUID: c12d76f2-025b-45f1-ac7a-e3885648c6fc
+      - Metric: Expected procurement schedule for buses - 2044<br/>Expected procurement
+      schedule for buses - Transport mode: buses - Energy carrier: electricity - UUID:
+      b9a36837-3f18-493e-82ca-58f1000df369 - Metric: Expected procurement schedule
+      for buses - 2045<br/>Expected procurement schedule for buses - Transport mode:
+      buses - Energy carrier: electricity - UUID: c7637789-f1c8-4f4d-bd71-8dc2c38fa2dc
+      - Metric: Expected procurement schedule for buses - 2046<br/>Expected procurement
+      schedule for buses - Transport mode: buses - Energy carrier: electricity - UUID:
+      6886da52-d07e-45b0-9433-15ff2cfc0cfe - Metric: Expected procurement schedule
+      for buses - 2047<br/>Expected procurement schedule for buses - Transport mode:
+      buses - Energy carrier: electricity - UUID: 83329334-9e0b-4e8b-99e5-e6c8e9988aa4
+      - Metric: Expected procurement schedule for buses - 2048<br/>Expected procurement
+      schedule for buses - Transport mode: buses - Energy carrier: electricity - UUID:
+      eebac18a-ff19-4c76-bb17-98f9128d35a5 - Metric: Expected procurement schedule
+      for buses - 2049<br/>Expected procurement schedule for buses - Transport mode:
+      buses - Energy carrier: electricity - UUID: a4782bc9-63ba-4f7d-b1d0-da3489457848
+      - Metric: Expected procurement schedule for buses - 2050<br/>Reduction of total
+      distance travelled through route ... - UUID: eae9054e-4e44-4a8e-abb9-7181ecca9a0c
+      - Metric: Reduction of total distance travelled through route ... - IEA (2018)
+      - The future of trucks Implications for energy & the environment https://ec.europa.eu/clima/sites/clima/files/events/docs/0121/iea_en.pdf<br/>Electrification
+      of transport fleet - Transport mode: light_trucks - Energy carrier: electricity
+      - Parameter: Max impact - UUID: eb7fc66c-1e68-4f1c-9a75-49cd9c174b17 - Metric:
+      Electrification of transport fleet - Valencia forecast assumption - 2040<br/>Electrification
+      of transport fleet - Transport mode: light_trucks - Energy carrier: electricity
+      - Parameter: Max year - UUID: 04088784-13d6-484b-9248-5571877492df - Metric:
+      Electrification of transport fleet - Valencia forecast assumption - 2040<br/>Electrification
+      of transport fleet - Transport mode: heavy_trucks - Energy carrier: electricity
+      - Parameter: Max impact - UUID: 269337bc-3908-44f4-8435-ae6f84248756 - Metric:
+      Electrification of transport fleet - Valencia forecast assumption - 2040<br/>Electrification
+      of transport fleet - Transport mode: heavy_trucks - Energy carrier: electricity
+      - Parameter: Max year - UUID: d1cb6ee0-dffb-4132-9aff-05a1fe78bd75 - Metric:
+      Electrification of transport fleet - Valencia forecast assumption - 2040'
+  metrics:
+  - id: reduction_of_total_distance_travelled_through_route_
+    column_id: reduction_of_total_distance_travelled_through_route_
+    quantity: fraction
+    unit: ''
+    label:
+      en: Reduction of total distance travelled through route ...
+  - id: reduced_pkm_cars_motorcycles_by_2030
+    column_id: reduced_pkm_cars_motorcycles_by_2030
+    quantity: fraction
+    unit: ''
+    label:
+      en: Reduced Pkm cars + motorcycles by 2030
+  - id: expected_procurement_schedule_for_buses
+    column_id: expected_procurement_schedule_for_buses
+    quantity: fraction
+    unit: ''
+    label:
+      en: Expected procurement schedule for buses
+  - id: transportation_need_reduction_by_2030_from_urban_pla
+    column_id: transportation_need_reduction_by_2030_from_urban_pla
+    quantity: fraction
+    unit: ''
+    label:
+      en: Transportation need reduction by 2030 from urban pla...
+  - id: electrification_of_transport_fleet
+    column_id: electrification_of_transport_fleet
+    quantity: fraction
+    unit: ''
+    label:
+      en: Electrification of transport fleet
+  - id: 13_car_pooling
+    column_id: 13_car_pooling
+    quantity: fraction
+    unit: ''
+    label:
+      en: 1.3 Car pooling
+  updated_at: '1773553481'
+  units:
+    Reduced Pkm cars + motorcycles by 2030: dimensionless
+    Transportation need reduction by 2030 from urban pla...: dimensionless
+    1.3 Car pooling: dimensionless
+    Reduction of total distance travelled through route ...: dimensionless
+    Electrification of transport fleet: dimensionless
+    Expected procurement schedule for buses: 1/a
