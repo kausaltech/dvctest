@@ -1,5 +1,5 @@
 outs:
-- md5: 1c50d64c0904275a559f91168428bfc9
+- md5: 2d20c3fc03b1cdfb8570681359e30095
   size: 22977
   hash: md5
   path: passenger_transport_costs_external.parquet
@@ -78,6 +78,18 @@ meta:
       et. al. (2019). Handbook on the external costs of transport. For European Commission
       Directorate-General for Mobility and Transport'
   metrics:
+  - id: distribution_of_co_benefits
+    column_id: distribution_of_co_benefits
+    quantity: fraction
+    unit: ''
+    label:
+      en: distribution of co-benefits
+  - id: traffic_accidents
+    column_id: traffic_accidents
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Traffic accidents
   - id: noise
     column_id: noise
     quantity: unit_price
@@ -90,21 +102,9 @@ meta:
     unit: ''
     label:
       en: Air pollution unit price
-  - id: traffic_accidents
-    column_id: traffic_accidents
-    quantity: unit_price
-    unit: ''
-    label:
-      en: Traffic accidents
-  - id: distribution_of_co_benefits
-    column_id: distribution_of_co_benefits
-    quantity: fraction
-    unit: ''
-    label:
-      en: distribution of co-benefits
-  updated_at: '1773553750'
+  updated_at: '1773601525'
   units:
-    Air pollution unit price: EUR/t
     Noise: EUR/pkm
-    Traffic accidents: EUR/pkm
+    Air pollution unit price: EUR/t
     distribution of co-benefits: dimensionless
+    Traffic accidents: EUR/pkm
