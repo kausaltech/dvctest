@@ -1,5 +1,5 @@
 outs:
-- md5: 0dea457c71a89e2533725d4cb3dc8b72
+- md5: f47c28dfa9e1702befdfc64222a176f2
   size: 16169
   hash: md5
   path: passenger_transport_costs_walking_pt.parquet
@@ -49,12 +49,6 @@ meta:
     unit: ''
     label:
       en: Total Average cost of cycling/walking
-  - id: public_transport_operation_costs
-    column_id: public_transport_operation_costs
-    quantity: fraction
-    unit: ''
-    label:
-      en: public transport operation costs
   - id: average_value_of_increased_walkingcycling
     column_id: average_value_of_increased_walkingcycling
     quantity: unit_price
@@ -67,10 +61,16 @@ meta:
     unit: ''
     label:
       en: investment costs in walking & cycling
-  updated_at: '1773601412'
+  - id: public_transport_operation_costs
+    column_id: public_transport_operation_costs
+    quantity: fraction
+    unit: ''
+    label:
+      en: public transport operation costs
+  updated_at: '1773601558'
   units:
+    investment costs in walking & cycling: dimensionless
+    Total Average cost of cycling/walking: EUR/pkm
+    Average value of increased walking/cycling: EUR/pkm
     fuel unit price: EUR/l
     public transport operation costs: dimensionless
-    investment costs in walking & cycling: dimensionless
-    Average value of increased walking/cycling: EUR/pkm
-    Total Average cost of cycling/walking: EUR/pkm
