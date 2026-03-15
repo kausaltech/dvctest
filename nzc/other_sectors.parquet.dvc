@@ -1,0 +1,51 @@
+outs:
+- md5: b903a0929ea547e4f6284fddd3a99826
+  size: 14521
+  hash: md5
+  path: other_sectors.parquet
+meta:
+  name:
+    en: Other Sectors
+  identifier: other_sectors
+  description:
+    en: 'Emissions from other sectors - Cost type: Industry (IPPU) - Ghg: co2e - UUID:
+      fbf3fa68-30be-47c5-a368-decd9d6f16e2 - Metric: Emissions from other sectors
+      - 63<br/>Emissions from other sectors - Cost type: Agriculture (AFOLU) - Ghg:
+      co2e - UUID: a08d4504-a43c-4dc1-ac2d-27d7aef5c241 - Metric: Emissions from other
+      sectors - 135<br/>Emissions from other sectors - Cost type: Other sources -
+      Ghg: co2e - UUID: 58c99d80-8b05-4573-8291-9252560414fd - Metric: Emissions from
+      other sectors - 43<br/>Value of CO2 reduction - Cost type: co2_cost - Ghg: co2
+      - Metric: Value of CO2 reduction - Essen et. al. (2019). Handbook on the external
+      costs of transport. For European Commission Directorate-General for Mobility
+      and Transport. Central case for short and medium term emissions (up to 2030) '
+  metrics:
+  - id: air_pollutant_distance_index
+    column_id: air_pollutant_distance_index
+    quantity: fraction
+    unit: ''
+    label:
+      en: Air pollutant distance index
+  - id: emissions_from_other_sectors
+    column_id: emissions_from_other_sectors
+    quantity: emissions
+    unit: ''
+    label:
+      en: Emissions from other sectors
+  - id: value_of_co2_reduction
+    column_id: value_of_co2_reduction
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Value of CO2 reduction
+  - id: aggregated_cost_types
+    column_id: aggregated_cost_types
+    quantity: fraction
+    unit: ''
+    label:
+      en: Aggregated cost types
+  updated_at: '1773553468'
+  units:
+    Emissions from other sectors: kt/a
+    Air pollutant distance index: dimensionless
+    Value of CO2 reduction: EUR/t
+    Aggregated cost types: dimensionless
