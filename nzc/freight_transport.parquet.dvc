@@ -1,6 +1,6 @@
 outs:
-- md5: 23726be7da7153b9f40aec40b466f4ae
-  size: 32765
+- md5: 0456cd8412f01e92d031ef25419d3539
+  size: 32135
   hash: md5
   path: freight_transport.parquet
 meta:
@@ -8,23 +8,20 @@ meta:
     en: Freight Transport
   identifier: freight_transport
   description:
-    en: 'Share of fleet fully electric (not including hybrids) - Transport mode: cars
-      - Energy carrier: electricity - UUID: 2be6f9ef-1745-40bf-9498-e9eeb4fdb984 -
-      Metric: Share of fleet fully electric (not including hybrids) - Eurostat, DATASET:
-      Passenger cars, by type of motor energy [road_eqs_carpda]<br/>Total transportation
-      need within city - Road freight... - Transport mode: light_trucks - UUID: beac92cf-c0c5-4921-8019-1a464d2a4fc0
-      - Metric: Total transportation need within city - Road freight... - 115<br/>Total
-      transportation need within city - Road freight... - Transport mode: heavy_trucks
-      - UUID: 3f433a95-e490-48c5-b629-3cffa0a132bb - Metric: Total transportation
-      need within city - Road freight... - 329<br/>Average utilisation - Transport
-      mode: light_trucks - UUID: 0e5da0b5-1a7a-49e6-88d3-481eb8819916 - Metric: Average
+    en: 'Total transportation need within city - Road freight... - Transport mode:
+      light_trucks - UUID: beac92cf-c0c5-4921-8019-1a464d2a4fc0 - Metric: Total transportation
+      need within city - Road freight... - 115<br/>Total transportation need within
+      city - Road freight... - Transport mode: heavy_trucks - UUID: 3f433a95-e490-48c5-b629-3cffa0a132bb
+      - Metric: Total transportation need within city - Road freight... - 329<br/>Average
+      utilisation - Transport mode: light_trucks - UUID: 0e5da0b5-1a7a-49e6-88d3-481eb8819916
+      - Metric: Average utilisation - Average utilisation urban trucks, based on ACEA
+      (2010) Commercial vehicles and CO2<br/>Average utilisation - Transport mode:
+      heavy_trucks - UUID: 8a8b40eb-1848-48cd-9f61-0043ff158d7a - Metric: Average
       utilisation - Average utilisation urban trucks, based on ACEA (2010) Commercial
-      vehicles and CO2<br/>Average utilisation - Transport mode: heavy_trucks - UUID:
-      8a8b40eb-1848-48cd-9f61-0043ff158d7a - Metric: Average utilisation - Average
-      utilisation urban trucks, based on ACEA (2010) Commercial vehicles and CO2<br/>Number
-      of trucks registered within city - Transport mode: light_trucks - UUID: 3ec0915e-acc1-4fa4-b728-ee3c5051714f
-      - Metric: Number of trucks registered within city - 17244<br/>Number of trucks
-      registered within city - Transport mode: heavy_trucks - UUID: be4a0009-a06f-4b69-a22c-babf4c616980
+      vehicles and CO2<br/>Number of trucks registered within city - Transport mode:
+      light_trucks - UUID: 3ec0915e-acc1-4fa4-b728-ee3c5051714f - Metric: Number of
+      trucks registered within city - 17244<br/>Number of trucks registered within
+      city - Transport mode: heavy_trucks - UUID: be4a0009-a06f-4b69-a22c-babf4c616980
       - Metric: Number of trucks registered within city - 4311<br/>Utilisation of
       trucks in decarbonisation scenario - Transport mode: light_trucks - UUID: b74849a8-692a-4020-b337-7dbbc0c93227
       - Metric: Utilisation of trucks in decarbonisation scenario - Assuming light
@@ -61,60 +58,60 @@ meta:
       accidents - Essen et. al. (2019). Handbook on the external costs of transport.
       For European Commission Directorate-General for Mobility and Transport'
   metrics:
-  - id: new_truck_emission_factor
-    column_id: new_truck_emission_factor
-    quantity: emission_factor
-    unit: ''
-    label:
-      en: New truck emission factor
-  - id: utilisation_of_trucks_in_decarbonisation_scenario
-    column_id: utilisation_of_trucks_in_decarbonisation_scenario
-    quantity: fraction
-    unit: ''
-    label:
-      en: Utilisation of trucks in decarbonisation scenario
-  - id: freight_transport_traffic_accidents
-    column_id: freight_transport_traffic_accidents
-    quantity: unit_price
-    unit: ''
-    label:
-      en: Freight transport Traffic accidents
-  - id: freight_labour_cost_fraction
-    column_id: freight_labour_cost_fraction
-    quantity: fraction
-    unit: ''
-    label:
-      en: Freight labour cost fraction
-  - id: fleet_average_consumption
-    column_id: fleet_average_consumption
-    quantity: energy_factor
-    unit: ''
-    label:
-      en: Fleet average consumption
-  - id: share_of_fleet_fully_electric_not_including_hybrids
-    column_id: share_of_fleet_fully_electric_not_including_hybrids
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of fleet fully electric (not including hybrids)
-  - id: freight_transport_noise
-    column_id: freight_transport_noise
-    quantity: unit_price
-    unit: ''
-    label:
-      en: Freight transport Noise
   - id: max_load_weight
     column_id: max_load_weight
     quantity: mass
     unit: ''
     label:
       en: Max load weight
+  - id: fleet_average_consumption
+    column_id: fleet_average_consumption
+    quantity: energy_factor
+    unit: ''
+    label:
+      en: Fleet average consumption
+  - id: freight_transport_noise
+    column_id: freight_transport_noise
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Freight transport Noise
+  - id: fuel_consumption_change_of_1_utilisation_change
+    column_id: fuel_consumption_change_of_1_utilisation_change
+    quantity: fraction
+    unit: ''
+    label:
+      en: Fuel consumption change of 1% utilisation change
+  - id: share_of_trucks_fully_electric_not_including_hybrids
+    column_id: share_of_trucks_fully_electric_not_including_hybrids
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of trucks fully electric (not including hybrids)
+  - id: freight_labour_cost_fraction
+    column_id: freight_labour_cost_fraction
+    quantity: fraction
+    unit: ''
+    label:
+      en: Freight labour cost fraction
+  - id: freight_transport_traffic_accidents
+    column_id: freight_transport_traffic_accidents
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Freight transport Traffic accidents
   - id: number_of_trucks_registered_within_city
     column_id: number_of_trucks_registered_within_city
     quantity: number
     unit: ''
     label:
       en: Number of trucks registered within city
+  - id: utilisation_of_trucks_in_decarbonisation_scenario
+    column_id: utilisation_of_trucks_in_decarbonisation_scenario
+    quantity: fraction
+    unit: ''
+    label:
+      en: Utilisation of trucks in decarbonisation scenario
   - id: average_utilisation
     column_id: average_utilisation
     quantity: fraction
@@ -127,23 +124,23 @@ meta:
     unit: ''
     label:
       en: Total transportation need within city - Road freight...
-  - id: fuel_consumption_change_of_1_utilisation_change
-    column_id: fuel_consumption_change_of_1_utilisation_change
-    quantity: fraction
+  - id: new_truck_emission_factor
+    column_id: new_truck_emission_factor
+    quantity: emission_factor
     unit: ''
     label:
-      en: Fuel consumption change of 1% utilisation change
-  updated_at: '1773601493'
+      en: New truck emission factor
+  updated_at: '1773606044'
   units:
-    Share of fleet fully electric (not including hybrids): dimensionless
-    Fuel consumption change of 1% utilisation change: 1/%
-    New truck emission factor: g/vkm
-    Total transportation need within city - Road freight...: Mtkm/a
-    Freight labour cost fraction: dimensionless
-    Number of trucks registered within city: vehicles
-    Max load weight: tkm/vkm
-    Freight transport Noise: EUR/tkm
-    Freight transport Traffic accidents: EUR/tkm
     Fleet average consumption: cl/vkm
     Average utilisation: dimensionless
+    Max load weight: tkm/vkm
+    Number of trucks registered within city: vehicles
+    Share of trucks fully electric (not including hybrids): dimensionless
+    Freight labour cost fraction: dimensionless
     Utilisation of trucks in decarbonisation scenario: dimensionless
+    Total transportation need within city - Road freight...: Mtkm/a
+    Freight transport Traffic accidents: EUR/tkm
+    Freight transport Noise: EUR/tkm
+    New truck emission factor: g/vkm
+    Fuel consumption change of 1% utilisation change: 1/%
