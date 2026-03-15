@@ -1,5 +1,5 @@
 outs:
-- md5: 4631ee48a33a8e760eef71663ebcc866
+- md5: b094933eddbefe7b3604490a72833e03
   size: 5071
   hash: md5
   path: population.parquet
@@ -23,7 +23,7 @@ meta:
     unit: ''
     label:
       en: Expected annual population growth (up until 2030)
-  updated_at: '1773553737'
+  updated_at: '1773601566'
   units:
-    Expected annual population growth (up until 2030): 1/a
     Population: inh
+    Expected annual population growth (up until 2030): 1/a
