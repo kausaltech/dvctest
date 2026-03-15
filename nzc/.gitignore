@@ -8,3 +8,5 @@
 /passenger_transport_emissions.parquet
 /buildings_materials_costs.parquet
 /buildings_heating_emission_factors.parquet
+/building_actions.parquet
+/waste_recycling_shares.parquet

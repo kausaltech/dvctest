@@ -1,0 +1,145 @@
+outs:
+- md5: d97dd78af145e8f7b20f2303db7ae8f2
+  size: 31979
+  hash: md5
+  path: waste_recycling_shares.parquet
+meta:
+  name:
+    en: Waste Recycling Shares
+  identifier: waste_recycling_shares
+  description:
+    en: 'Share recycling/incineration/landfill - Waste type: paper - Waste treatment:
+      other - UUID: 8077d362-bfa3-499d-be1b-43c8a12585cd - Metric: Share recycling/incineration/landfill
+      - Eurostat, DATASET: Packaging waste by waste management operations and waste
+      flow [env_waspac]<br/>Share recycling/incineration/landfill - Waste type: paper
+      - Waste treatment: incinerated - UUID: ac12d659-f0bf-4d39-80f1-4147e51a46dc
+      - Metric: Share recycling/incineration/landfill - Eurostat, DATASET: Packaging
+      waste by waste management operations and waste flow [env_waspac]<br/>Share recycling/incineration/landfill
+      - Waste type: paper - Waste treatment: recycled - UUID: 9c8f2a75-700a-4b06-a5ba-2ccf11a21912
+      - Metric: Share recycling/incineration/landfill - Eurostat, DATASET: Packaging
+      waste by waste management operations and waste flow [env_waspac]<br/>Share recycling/incineration/landfill
+      - Waste type: metal - Waste treatment: other - UUID: 79c231c5-6725-4492-850b-33106acf5264
+      - Metric: Share recycling/incineration/landfill - Eurostat, DATASET: Packaging
+      waste by waste management operations and waste flow [env_waspac]<br/>Share recycling/incineration/landfill
+      - Waste type: metal - Waste treatment: incinerated - UUID: adabf20f-7503-4ea7-9f36-e69d78412eab
+      - Metric: Share recycling/incineration/landfill - Eurostat, DATASET: Packaging
+      waste by waste management operations and waste flow [env_waspac]<br/>Share recycling/incineration/landfill
+      - Waste type: metal - Waste treatment: recycled - UUID: a9d3c192-d3ea-466e-bc9e-e1a5042f8fb8
+      - Metric: Share recycling/incineration/landfill - Eurostat, DATASET: Packaging
+      waste by waste management operations and waste flow [env_waspac]<br/>Share recycling/incineration/landfill
+      - Waste type: plastics - Waste treatment: other - UUID: 7671834a-dcc0-480f-94ab-34697908eb38
+      - Metric: Share recycling/incineration/landfill - Eurostat, DATASET: Packaging
+      waste by waste management operations and waste flow [env_waspac]<br/>Share recycling/incineration/landfill
+      - Waste type: plastics - Waste treatment: incinerated - UUID: 450a1d56-9cbf-4cc3-a63f-31d83738fbb3
+      - Metric: Share recycling/incineration/landfill - Eurostat, DATASET: Packaging
+      waste by waste management operations and waste flow [env_waspac]<br/>Share recycling/incineration/landfill
+      - Waste type: plastics - Waste treatment: recycled - UUID: 108ac7ab-47f7-485b-9a4e-e28addc350d2
+      - Metric: Share recycling/incineration/landfill - Eurostat, DATASET: Packaging
+      waste by waste management operations and waste flow [env_waspac]<br/>Share recycling/incineration/landfill
+      - Waste type: glass - Waste treatment: other - UUID: c61ebd61-0099-4c92-902d-df870e93f79d
+      - Metric: Share recycling/incineration/landfill - Eurostat, DATASET: Packaging
+      waste by waste management operations and waste flow [env_waspac]<br/>Share recycling/incineration/landfill
+      - Waste type: glass - Waste treatment: incinerated - UUID: 10dc9a05-1520-4897-a018-41c488af3af4
+      - Metric: Share recycling/incineration/landfill - Eurostat, DATASET: Packaging
+      waste by waste management operations and waste flow [env_waspac]<br/>Share recycling/incineration/landfill
+      - Waste type: glass - Waste treatment: recycled - UUID: 0183c182-97ea-407b-a578-1fc1377998c9
+      - Metric: Share recycling/incineration/landfill - Eurostat, DATASET: Packaging
+      waste by waste management operations and waste flow [env_waspac]<br/>Share recycling/incineration/landfill
+      - Waste type: organic_waste - Waste treatment: other - UUID: 0f264270-1095-401b-bc2b-620ea801d4d1
+      - Metric: Share recycling/incineration/landfill - Calculated based on Eurostat,
+      DATASET: Municipal waste by waste management operations [env_wasmun] & Gershman,
+      Brickner & Bratton, Inc (2016) - European Technology Overview: Anaerobic Digestion
+      (AD) of the Organic Fraction of the MSW. http://gbbinc.com/wp-content/uploads/2016/05/ArsovaRutgers2016.pdf<br/>Share
+      recycling/incineration/landfill - Waste type: organic_waste - Waste treatment:
+      incinerated - UUID: 6bec5047-6031-4cf0-84f3-4790fa61cd42 - Metric: Share recycling/incineration/landfill
+      - Calculated based on Eurostat, DATASET: Municipal waste by waste management
+      operations [env_wasmun] & Gershman, Brickner & Bratton, Inc (2016) - European
+      Technology Overview: Anaerobic Digestion (AD) of the Organic Fraction of the
+      MSW. http://gbbinc.com/wp-content/uploads/2016/05/ArsovaRutgers2016.pdf<br/>Share
+      recycling/incineration/landfill - Waste type: organic_waste - Waste treatment:
+      recycled - UUID: 80da9465-abe8-48ae-af13-7d9c648631af - Metric: Share recycling/incineration/landfill
+      - Calculated based on Eurostat, DATASET: Municipal waste by waste management
+      operations [env_wasmun] & Gershman, Brickner & Bratton, Inc (2016) - European
+      Technology Overview: Anaerobic Digestion (AD) of the Organic Fraction of the
+      MSW. http://gbbinc.com/wp-content/uploads/2016/05/ArsovaRutgers2016.pdf<br/>Share
+      recycling/incineration/landfill - Waste type: other_waste - Waste treatment:
+      other - UUID: 0c256bb4-8133-45a7-9f3d-c65c552393ea - Metric: Share recycling/incineration/landfill
+      - Calculated based on Eurostat, DATASET: Municipal waste by waste management
+      operations [env_wasmun] & Gershman, Brickner & Bratton, Inc (2016) - European
+      Technology Overview: Anaerobic Digestion (AD) of the Organic Fraction of the
+      MSW. http://gbbinc.com/wp-content/uploads/2016/05/ArsovaRutgers2016.pdf<br/>Share
+      recycling/incineration/landfill - Waste type: other_waste - Waste treatment:
+      incinerated - UUID: 5de62b62-8996-4c2a-8dea-e379354600e0 - Metric: Share recycling/incineration/landfill
+      - Calculated based on Eurostat, DATASET: Municipal waste by waste management
+      operations [env_wasmun] & Gershman, Brickner & Bratton, Inc (2016) - European
+      Technology Overview: Anaerobic Digestion (AD) of the Organic Fraction of the
+      MSW. http://gbbinc.com/wp-content/uploads/2016/05/ArsovaRutgers2016.pdf<br/>Share
+      recycling/incineration/landfill - Waste type: other_waste - Waste treatment:
+      recycled - UUID: 109924c8-95c6-458d-b97b-6a872569dd41 - Metric: Share recycling/incineration/landfill
+      - Calculated based on Eurostat, DATASET: Municipal waste by waste management
+      operations [env_wasmun] & Gershman, Brickner & Bratton, Inc (2016) - European
+      Technology Overview: Anaerobic Digestion (AD) of the Organic Fraction of the
+      MSW. http://gbbinc.com/wp-content/uploads/2016/05/ArsovaRutgers2016.pdf<br/>Share
+      recycling/incineration/landfill baseline - Waste type: paper - Waste treatment:
+      other - Metric: Share recycling/incineration/landfill baseline - Eurostat, DATASET:
+      Packaging waste by waste management operations and waste flow [env_waspac]<br/>Share
+      recycling/incineration/landfill baseline - Waste type: paper - Waste treatment:
+      incinerated - Metric: Share recycling/incineration/landfill baseline - Eurostat,
+      DATASET: Packaging waste by waste management operations and waste flow [env_waspac]<br/>Share
+      recycling/incineration/landfill baseline - Waste type: paper - Waste treatment:
+      recycled - Metric: Share recycling/incineration/landfill baseline - Eurostat,
+      DATASET: Packaging waste by waste management operations and waste flow [env_waspac]<br/>Share
+      recycling/incineration/landfill baseline - Waste type: metal - Waste treatment:
+      other - Metric: Share recycling/incineration/landfill baseline - Calculated
+      based on Eurostat, DATASET: Municipal waste by waste management operations [env_wasmun]
+      & Gershman, Brickner & Bratton, Inc (2016) - European Technology Overview: Anaerobic
+      Digestion (AD) of the Organic Fraction of the MSW. http://gbbinc.com/wp-content/uploads/2016/05/ArsovaRutgers2016.pdf<br/>Share
+      recycling/incineration/landfill baseline - Waste type: metal - Waste treatment:
+      incinerated - Metric: Share recycling/incineration/landfill baseline - Calculated
+      based on Eurostat, DATASET: Municipal waste by waste management operations [env_wasmun]
+      & Gershman, Brickner & Bratton, Inc (2016) - European Technology Overview: Anaerobic
+      Digestion (AD) of the Organic Fraction of the MSW. http://gbbinc.com/wp-content/uploads/2016/05/ArsovaRutgers2016.pdf<br/>Share
+      recycling/incineration/landfill baseline - Waste type: metal - Waste treatment:
+      recycled - Metric: Share recycling/incineration/landfill baseline - Calculated
+      based on Eurostat, DATASET: Municipal waste by waste management operations [env_wasmun]
+      & Gershman, Brickner & Bratton, Inc (2016) - European Technology Overview: Anaerobic
+      Digestion (AD) of the Organic Fraction of the MSW. http://gbbinc.com/wp-content/uploads/2016/05/ArsovaRutgers2016.pdf<br/>Share
+      recycling/incineration/landfill baseline - Waste type: plastics - Waste treatment:
+      other - Metric: Share recycling/incineration/landfill baseline - Calculated
+      based on Eurostat, DATASET: Municipal waste by waste management operations [env_wasmun]
+      & Gershman, Brickner & Bratton, Inc (2016) - European Technology Overview: Anaerobic
+      Digestion (AD) of the Organic Fraction of the MSW. http://gbbinc.com/wp-content/uploads/2016/05/ArsovaRutgers2016.pdf<br/>Share
+      recycling/incineration/landfill baseline - Waste type: plastics - Waste treatment:
+      incinerated - Metric: Share recycling/incineration/landfill baseline - Calculated
+      based on Eurostat, DATASET: Municipal waste by waste management operations [env_wasmun]
+      & Gershman, Brickner & Bratton, Inc (2016) - European Technology Overview: Anaerobic
+      Digestion (AD) of the Organic Fraction of the MSW. http://gbbinc.com/wp-content/uploads/2016/05/ArsovaRutgers2016.pdf<br/>Share
+      recycling/incineration/landfill baseline - Waste type: plastics - Waste treatment:
+      recycled - Metric: Share recycling/incineration/landfill baseline - Calculated
+      based on Eurostat, DATASET: Municipal waste by waste management operations [env_wasmun]
+      & Gershman, Brickner & Bratton, Inc (2016) - European Technology Overview: Anaerobic
+      Digestion (AD) of the Organic Fraction of the MSW. http://gbbinc.com/wp-content/uploads/2016/05/ArsovaRutgers2016.pdf<br/>Share
+      recycling/incineration/landfill baseline - Waste type: glass - Waste treatment:
+      incinerated - Metric: Share recycling/incineration/landfill baseline - Atmospheric
+      emissions Inventory of Madrid City, 2017. Including emissions from auxiliary
+      fuel. Only  fossil CO2<br/>Share recycling/incineration/landfill baseline -
+      Waste type: glass - Waste treatment: recycled - Metric: Share recycling/incineration/landfill
+      baseline - Atmospheric emissions Inventory of Madrid City, 2017. Including emissions
+      from auxiliary fuel'
+  metrics:
+  - id: share_recyclingincinerationlandfill
+    column_id: share_recyclingincinerationlandfill
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share recycling/incineration/landfill
+  - id: share_recyclingincinerationlandfill_baseline
+    column_id: share_recyclingincinerationlandfill_baseline
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share recycling/incineration/landfill baseline
+  updated_at: '1773553062'
+  units:
+    Share recycling/incineration/landfill baseline: dimensionless
+    Share recycling/incineration/landfill: dimensionless
