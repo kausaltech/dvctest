@@ -1,5 +1,5 @@
 outs:
-- md5: 592f85620e8f547c78dbaf750a6805cd
+- md5: 74890f263cf634e67dcc103de7a6eede
   size: 32765
   hash: md5
   path: freight_transport.parquet
@@ -61,6 +61,60 @@ meta:
       accidents - Essen et. al. (2019). Handbook on the external costs of transport.
       For European Commission Directorate-General for Mobility and Transport'
   metrics:
+  - id: new_truck_emission_factor
+    column_id: new_truck_emission_factor
+    quantity: emission_factor
+    unit: ''
+    label:
+      en: New truck emission factor
+  - id: total_transportation_need_within_city_road_freight
+    column_id: total_transportation_need_within_city_road_freight
+    quantity: freight_mileage
+    unit: ''
+    label:
+      en: Total transportation need within city - Road freight...
+  - id: fleet_average_consumption
+    column_id: fleet_average_consumption
+    quantity: energy_factor
+    unit: ''
+    label:
+      en: Fleet average consumption
+  - id: utilisation_of_trucks_in_decarbonisation_scenario
+    column_id: utilisation_of_trucks_in_decarbonisation_scenario
+    quantity: fraction
+    unit: ''
+    label:
+      en: Utilisation of trucks in decarbonisation scenario
+  - id: freight_transport_traffic_accidents
+    column_id: freight_transport_traffic_accidents
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Freight transport Traffic accidents
+  - id: freight_transport_noise
+    column_id: freight_transport_noise
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Freight transport Noise
+  - id: fuel_consumption_change_of_1_utilisation_change
+    column_id: fuel_consumption_change_of_1_utilisation_change
+    quantity: fraction
+    unit: ''
+    label:
+      en: Fuel consumption change of 1% utilisation change
+  - id: max_load_weight
+    column_id: max_load_weight
+    quantity: mass
+    unit: ''
+    label:
+      en: Max load weight
+  - id: average_utilisation
+    column_id: average_utilisation
+    quantity: fraction
+    unit: ''
+    label:
+      en: Average utilisation
   - id: share_of_fleet_fully_electric_not_including_hybrids
     column_id: share_of_fleet_fully_electric_not_including_hybrids
     quantity: fraction
@@ -73,77 +127,23 @@ meta:
     unit: ''
     label:
       en: Freight labour cost fraction
-  - id: freight_transport_noise
-    column_id: freight_transport_noise
-    quantity: unit_price
-    unit: ''
-    label:
-      en: Freight transport Noise
-  - id: utilisation_of_trucks_in_decarbonisation_scenario
-    column_id: utilisation_of_trucks_in_decarbonisation_scenario
-    quantity: fraction
-    unit: ''
-    label:
-      en: Utilisation of trucks in decarbonisation scenario
   - id: number_of_trucks_registered_within_city
     column_id: number_of_trucks_registered_within_city
     quantity: number
     unit: ''
     label:
       en: Number of trucks registered within city
-  - id: fleet_average_consumption
-    column_id: fleet_average_consumption
-    quantity: energy_factor
-    unit: ''
-    label:
-      en: Fleet average consumption
-  - id: total_transportation_need_within_city_road_freight
-    column_id: total_transportation_need_within_city_road_freight
-    quantity: freight_mileage
-    unit: ''
-    label:
-      en: Total transportation need within city - Road freight...
-  - id: average_utilisation
-    column_id: average_utilisation
-    quantity: fraction
-    unit: ''
-    label:
-      en: Average utilisation
-  - id: fuel_consumption_change_of_1_utilisation_change
-    column_id: fuel_consumption_change_of_1_utilisation_change
-    quantity: fraction
-    unit: ''
-    label:
-      en: Fuel consumption change of 1% utilisation change
-  - id: freight_transport_traffic_accidents
-    column_id: freight_transport_traffic_accidents
-    quantity: unit_price
-    unit: ''
-    label:
-      en: Freight transport Traffic accidents
-  - id: max_load_weight
-    column_id: max_load_weight
-    quantity: mass
-    unit: ''
-    label:
-      en: Max load weight
-  - id: new_truck_emission_factor
-    column_id: new_truck_emission_factor
-    quantity: emission_factor
-    unit: ''
-    label:
-      en: New truck emission factor
-  updated_at: '1773553451'
+  updated_at: '1773553803'
   units:
-    Fuel consumption change of 1% utilisation change: 1/%
-    Utilisation of trucks in decarbonisation scenario: dimensionless
     New truck emission factor: g/vkm
-    Max load weight: tkm/vkm
+    Utilisation of trucks in decarbonisation scenario: dimensionless
     Average utilisation: dimensionless
-    Fleet average consumption: cl/vkm
-    Total transportation need within city - Road freight...: Mtkm/a
-    Freight transport Traffic accidents: EUR/tkm
     Share of fleet fully electric (not including hybrids): dimensionless
+    Max load weight: tkm/vkm
+    Total transportation need within city - Road freight...: Mtkm/a
+    Fleet average consumption: cl/vkm
     Freight transport Noise: EUR/tkm
-    Freight labour cost fraction: dimensionless
     Number of trucks registered within city: vehicles
+    Fuel consumption change of 1% utilisation change: 1/%
+    Freight transport Traffic accidents: EUR/tkm
+    Freight labour cost fraction: dimensionless
