@@ -1,0 +1,194 @@
+outs:
+- md5: cb257f480d372021394663de9c0c9a39
+  size: 41666
+  hash: md5
+  path: passenger_transport_costs_ownership.parquet
+meta:
+  name:
+    en: Passenger Transport Costs Ownership
+  identifier: passenger_transport_costs_ownership
+  description:
+    en: "Cost of driving a car per kilometre (excluding fuel) - Cost type: fuel -
+      Transport mode: cars - Metric: Cost of driving a car per kilometre (excluding
+      fuel) - Victoria Transport Policy Institute (2017) - Transportation Cost and
+      Benefit Analysis II – Vehicle Costs.  https://www.vtpi.org/tca/tca0501.pdf<br/>Cost
+      of driving a car per kilometre (excluding fuel) - Cost type: maintenance - Transport
+      mode: cars - Metric: Cost of driving a car per kilometre (excluding fuel) -
+      Victoria Transport Policy Institute (2017) - Transportation Cost and Benefit
+      Analysis II – Vehicle Costs.  https://www.vtpi.org/tca/tca0501.pdf<br/>Cost
+      of driving a car per kilometre (excluding fuel) - Cost type: tires - Transport
+      mode: cars - Metric: Cost of driving a car per kilometre (excluding fuel) -
+      Victoria Transport Policy Institute (2017) - Transportation Cost and Benefit
+      Analysis II – Vehicle Costs.  https://www.vtpi.org/tca/tca0501.pdf<br/>Cost
+      of driving a car per kilometre (excluding fuel) - Cost type: depreciation -
+      Transport mode: cars - Metric: Cost of driving a car per kilometre (excluding
+      fuel) - Victoria Transport Policy Institute (2017) - Transportation Cost and
+      Benefit Analysis II – Vehicle Costs.  https://www.vtpi.org/tca/tca0501.pdf<br/>Charging
+      infrastructure costs - Cost type: Home-charging infrastructure - Transport mode:
+      cars - Energy carrier: electricity - Metric: Charging infrastructure costs -
+      The International Council on Clean Transportation (2019) - Estimating electric
+      vehicle charging infrastructure costs across major U.S. metropolitan areas.
+      https://theicct.org/sites/default/files/publications/ICCT_EV_Charging_Cost_20190813.pdf<br/>Charging
+      infrastructure costs - Cost type: Public & workplace infrastructure - Transport
+      mode: cars - Energy carrier: electricity - Metric: Charging infrastructure costs
+      - The International Council on Clean Transportation (2019) - Estimating electric
+      vehicle charging infrastructure costs across major U.S. metropolitan areas.
+      https://theicct.org/sites/default/files/publications/ICCT_EV_Charging_Cost_20190813.pdf<br/>Additional
+      costs for electric vehicles - Cost type: capex - Transport mode: cars - Energy
+      carrier: electricity - Metric: Additional costs for electric vehicles - Based
+      on The International Council on Clean Transportation (2019) - Estimating electric
+      vehicle charging infrastructure costs across major U.S. metropolitan areas.
+      https://theicct.org/sites/default/files/publications/ICCT_EV_Charging_Cost_20190813.pdf<br/>Total
+      cost of ownership - Transport mode: buses - Metric: Total cost of ownership
+      - Swedish Association of Local Authorities and Regions (2017). Kollektivtrafikens
+      kostnadsutveckling – en överblick<br/>Total cost of ownership shares - Cost
+      type: capex - Transport mode: buses - Metric: Total cost of ownership shares
+      - Columbia University (2016). Electric Bus Analysis for New York City Transit.
+      http://www.columbia.edu/~ja3041/Electric%20Bus%20Analysis%20for%20NYC%20Transit%20by%20J%20Aber%20Columbia%20University%20-%20May%202016.pdf<br/>Total
+      cost of ownership shares - Cost type: opex - Transport mode: buses - Metric:
+      Total cost of ownership shares - Columbia University (2016). Electric Bus Analysis
+      for New York City Transit. http://www.columbia.edu/~ja3041/Electric%20Bus%20Analysis%20for%20NYC%20Transit%20by%20J%20Aber%20Columbia%20University%20-%20May%202016.pdf<br/>Additional
+      costs for electric vehicles - Cost type: capex - Transport mode: buses - Energy
+      carrier: electricity - Metric: Additional costs for electric vehicles - Assuming
+      same cost as for heavy trucks, based on European Climate Foundation (2018) -
+      Trucking into a Greener Future: the economic impact of decarbonizing goods vehicles
+      in Europe. https://europeanclimate.org/wp-content/uploads/2018/09/Trucking-into-a-greener-future-Technical-2018-v1.1.pdf<br/>Additional
+      costs for electric vehicles rate - Cost type: capex - Transport mode: buses
+      - Energy carrier: electricity - Metric: Additional costs for electric vehicles
+      rate - Assuming same cost as for heavy trucks, based on European Climate Foundation
+      (2018) - Trucking into a Greener Future: the economic impact of decarbonizing
+      goods vehicles in Europe. https://europeanclimate.org/wp-content/uploads/2018/09/Trucking-into-a-greener-future-Technical-2018-v1.1.pdf<br/>Charging
+      infrastructure costs - Cost type: Charging infrastructure costs - Transport
+      mode: buses - Energy carrier: electricity - Metric: Charging infrastructure
+      costs - Assuming same cost as for heavy trucks, based on European Climate Foundation
+      (2018) - Trucking into a Greener Future: the economic impact of decarbonizing
+      goods vehicles in Europe. https://europeanclimate.org/wp-content/uploads/2018/09/Trucking-into-a-greener-future-Technical-2018-v1.1.pdf<br/>Total
+      cost of ownership - Transport mode: Metro/tram - Metric: Total cost of ownership
+      - Swedish Association of Local Authorities and Regions (2017). Kollektivtrafikens
+      kostnadsutveckling – en överblick<br/>Total cost of ownership shares - Cost
+      type: capex - Transport mode: Metro/tram - Metric: Total cost of ownership shares
+      - Yaping & Xingchen (2016). Life Cycle Cost Analysis of Urban Rail Transit Vehicle.
+      https://www.semanticscholar.org/paper/Life-Cycle-Cost-Analysis-of-Urban-Rail-Transit-Yaping-Xingchen/ecd815c9ab6afe43efb8a8a7cbfc29c49507a88f<br/>Total
+      cost of ownership shares - Cost type: opex - Transport mode: Metro/tram - Metric:
+      Total cost of ownership shares - Yaping & Xingchen (2016). Life Cycle Cost Analysis
+      of Urban Rail Transit Vehicle. https://www.semanticscholar.org/paper/Life-Cycle-Cost-Analysis-of-Urban-Rail-Transit-Yaping-Xingchen/ecd815c9ab6afe43efb8a8a7cbfc29c49507a88f<br/>Total
+      cost of ownership - Transport mode: light_trucks - Metric: Total cost of ownership
+      - Macharis et. Al. (2013) - Electric versus conventional vehicles for logistics:
+      A total cost of ownership<br/>Total cost of ownership - Transport mode: heavy_trucks
+      - Metric: Total cost of ownership - Ernst & Young (2015) - Own or lease? Are
+      you making the right choise for your truck fleet? https://www.slideshare.net/AndrewSiciliano/ernst-young-total-cost-of-ownership<br/>Additional
+      costs for electric vehicles - Cost type: capex - Transport mode: light_trucks
+      - Energy carrier: electricity - Metric: Additional costs for electric vehicles
+      - Lebeau et. Al. (2015) - Electrifying light commercial vehicles for city logistics?
+      A total cost of\nownership analysis. https://www.researchgate.net/profile/Philippe_Lebeau/publication/283026136_Electrifying_light_commercial_vehicles_for_city_logistics_A_total_cost_of_ownership_analysis/links/5630bf7708ae336c42eb562c/Electrifying-light-commercial-vehicles-for-city-logistics-A-total-cost-of-ownership-analysis.pdf<br/>Additional
+      costs for electric vehicles - Cost type: capex - Transport mode: heavy_trucks
+      - Energy carrier: electricity - Metric: Additional costs for electric vehicles
+      - Based on European Climate Foundation (2018) - Trucking into a Greener Future:
+      the economic impact of decarbonizing goods vehicles in Europe. https://europeanclimate.org/wp-content/uploads/2018/09/Trucking-into-a-greener-future-Technical-2018-v1.1.pdf<br/>Additional
+      costs for electric vehicles rate - Cost type: capex - Transport mode: heavy_trucks
+      - Energy carrier: electricity - Metric: Additional costs for electric vehicles
+      rate - Based on European Climate Foundation (2018) - Trucking into a Greener
+      Future: the economic impact of decarbonizing goods vehicles in Europe. https://europeanclimate.org/wp-content/uploads/2018/09/Trucking-into-a-greener-future-Technical-2018-v1.1.pdf<br/>Additional
+      costs for electric vehicles - Cost type: Charging infrastructure costs - Transport
+      mode: light_trucks - Energy carrier: electricity - Metric: Additional costs
+      for electric vehicles - Assuming charging infrastructure cost of 150% of that
+      of passenger cars, based on The International Council on Clean Transportation
+      (2019) - Estimating electric vehicle charging infrastructure costs across major
+      U.S. metropolitan areas. https://theicct.org/sites/default/files/publications/ICCT_EV_Charging_Cost_20190813.pdf<br/>Additional
+      costs for electric vehicles rate - Cost type: Charging infrastructure costs
+      - Transport mode: light_trucks - Energy carrier: electricity - Metric: Additional
+      costs for electric vehicles rate - Assuming same average decrease in cost of
+      that of passenger cars, based on The International Council on Clean Transportation
+      (2019) - Estimating electric vehicle charging infrastructure costs across major
+      U.S. metropolitan areas. https://theicct.org/sites/default/files/publications/ICCT_EV_Charging_Cost_20190813.pdf<br/>Additional
+      costs for electric vehicles - Cost type: Charging infrastructure costs - Transport
+      mode: heavy_trucks - Energy carrier: electricity - Metric: Additional costs
+      for electric vehicles - Based on European Climate Foundation (2018) - Trucking
+      into a Greener Future: the economic impact of decarbonizing goods vehicles in
+      Europe. https://europeanclimate.org/wp-content/uploads/2018/09/Trucking-into-a-greener-future-Technical-2018-v1.1.pdf<br/>Additional
+      costs for electric vehicles rate - Cost type: Charging infrastructure costs
+      - Transport mode: heavy_trucks - Energy carrier: electricity - Metric: Additional
+      costs for electric vehicles rate - Based on European Climate Foundation (2018)
+      - Trucking into a Greener Future: the economic impact of decarbonizing goods
+      vehicles in Europe. https://europeanclimate.org/wp-content/uploads/2018/09/Trucking-into-a-greener-future-Technical-2018-v1.1.pdf<br/>ev
+      charging infrastructure - Cost type: capex - Transport mode: cars - Energy carrier:
+      electricity - Stakeholder: citizens - Metric: ev charging infrastructure - Assuming
+      costs are split equally between citizens and property owners, as well as some
+      for cities as citizens primarily stand for home charging while property owners
+      primarily stand for workplace and some public areas (e.g. privately run parking
+      areas). Cities will stand for some public charging infrastructure. At the moment,
+      the city does not finance public charging infrastructure, just gives concessions
+      and let the free market take care of it. So a 5% share at the most seems more
+      reasonable. Based on discussion with Eli Nomes<br/>ev charging infrastructure
+      - Cost type: capex - Transport mode: cars - Energy carrier: electricity - Stakeholder:
+      property_owners - Metric: ev charging infrastructure - Do we need to confirm
+      with cities?<br/>ev charging infrastructure - Cost type: capex - Transport mode:
+      cars - Energy carrier: electricity - Stakeholder: cities - Metric: ev charging
+      infrastructure - Yes<br/>up-front costs for EVs - Cost type: capex - Transport
+      mode: cars - Energy carrier: electricity - Stakeholder: citizens - Metric: up-front
+      costs for EVs - We assume 100% given that the amount of personal cars owned
+      by the city and other stakeholders is minimal<br/>up-front costs for EVs - Cost
+      type: capex - Transport mode: cars - Energy carrier: electricity - Stakeholder:
+      property_owners - Metric: up-front costs for EVs - Do we need to confirm with
+      cities?<br/>up-front costs for EVs - Cost type: capex - Transport mode: cars
+      - Energy carrier: electricity - Stakeholder: cities - Metric: up-front costs
+      for EVs - No"
+  metrics:
+  - id: total_cost_of_ownership
+    column_id: total_cost_of_ownership
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Total cost of ownership
+  - id: additional_costs_for_electric_vehicles_rate
+    column_id: additional_costs_for_electric_vehicles_rate
+    quantity: rate
+    unit: ''
+    label:
+      en: Additional costs for electric vehicles rate
+  - id: cost_of_driving_a_car_per_kilometre_excluding_fuel
+    column_id: cost_of_driving_a_car_per_kilometre_excluding_fuel
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Cost of driving a car per kilometre (excluding fuel)
+  - id: charging_infrastructure_costs
+    column_id: charging_infrastructure_costs
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Charging infrastructure costs
+  - id: ev_charging_infrastructure
+    column_id: ev_charging_infrastructure
+    quantity: fraction
+    unit: ''
+    label:
+      en: ev charging infrastructure
+  - id: additional_costs_for_electric_vehicles
+    column_id: additional_costs_for_electric_vehicles
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Additional costs for electric vehicles
+  - id: up_front_costs_for_evs
+    column_id: up_front_costs_for_evs
+    quantity: fraction
+    unit: ''
+    label:
+      en: up-front costs for EVs
+  - id: total_cost_of_ownership_shares
+    column_id: total_cost_of_ownership_shares
+    quantity: fraction
+    unit: ''
+    label:
+      en: Total cost of ownership shares
+  updated_at: '1773553476'
+  units:
+    up-front costs for EVs: dimensionless
+    Cost of driving a car per kilometre (excluding fuel): EUR/vkm
+    ev charging infrastructure: dimensionless
+    Charging infrastructure costs: EUR/v
+    Additional costs for electric vehicles rate: 1/a
+    Total cost of ownership shares: dimensionless
+    Total cost of ownership: EUR/vkm
+    Additional costs for electric vehicles: EUR/v
