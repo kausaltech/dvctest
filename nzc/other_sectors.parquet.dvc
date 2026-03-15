@@ -1,5 +1,5 @@
 outs:
-- md5: b494281803a33aeecf7ee55dde92069a
+- md5: 570629554d576aca4aa0e9d7b82ec1c0
   size: 14521
   hash: md5
   path: other_sectors.parquet
@@ -19,33 +19,33 @@ meta:
       costs of transport. For European Commission Directorate-General for Mobility
       and Transport. Central case for short and medium term emissions (up to 2030) '
   metrics:
-  - id: value_of_co2_reduction
-    column_id: value_of_co2_reduction
-    quantity: unit_price
-    unit: ''
-    label:
-      en: Value of CO2 reduction
   - id: emissions_from_other_sectors
     column_id: emissions_from_other_sectors
     quantity: emissions
     unit: ''
     label:
       en: Emissions from other sectors
-  - id: aggregated_cost_types
-    column_id: aggregated_cost_types
-    quantity: fraction
-    unit: ''
-    label:
-      en: Aggregated cost types
   - id: air_pollutant_distance_index
     column_id: air_pollutant_distance_index
     quantity: fraction
     unit: ''
     label:
       en: Air pollutant distance index
-  updated_at: '1773553767'
+  - id: value_of_co2_reduction
+    column_id: value_of_co2_reduction
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Value of CO2 reduction
+  - id: aggregated_cost_types
+    column_id: aggregated_cost_types
+    quantity: fraction
+    unit: ''
+    label:
+      en: Aggregated cost types
+  updated_at: '1773601505'
   units:
-    Emissions from other sectors: kt/a
+    Air pollutant distance index: dimensionless
     Aggregated cost types: dimensionless
     Value of CO2 reduction: EUR/t
-    Air pollutant distance index: dimensionless
+    Emissions from other sectors: kt/a
