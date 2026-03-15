@@ -1,5 +1,5 @@
 outs:
-- md5: 9fadc8af91f3924b713c3b2b0976b109
+- md5: 962aa9d32de8d6be6796125260e2ddf2
   size: 4040
   hash: md5
   path: other_actions.parquet
@@ -14,6 +14,6 @@ meta:
     unit: ''
     label:
       en: Reduced CO2e emissions committed by Industry, Agricu...
-  updated_at: '1773553437'
+  updated_at: '1773553759'
   units:
     Reduced CO2e emissions committed by Industry, Agricu...: dimensionless
