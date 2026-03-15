@@ -1,0 +1,149 @@
+outs:
+- md5: 67ef438f33d6fc5be137953cdd703858
+  size: 32394
+  hash: md5
+  path: waste_management.parquet
+meta:
+  name:
+    en: Waste Management
+  identifier: waste_management
+  description:
+    en: "Total collected waste within city boundaries by type - Waste type: paper
+      - UUID: 372c2783-4bf1-413c-b1b3-6f3565502b7e - Metric: Total collected waste
+      within city boundaries by type - 67124<br/>Total collected waste within city
+      boundaries by type - Waste type: metal - UUID: 4936856c-18bc-4169-b313-cbc41eb36d2a
+      - Metric: Total collected waste within city boundaries by type - 13651<br/>Total
+      collected waste within city boundaries by type - Waste type: plastics - UUID:
+      095a8cf9-3b6b-4354-af80-6c66daf69a07 - Metric: Total collected waste within
+      city boundaries by type - 55495<br/>Total collected waste within city boundaries
+      by type - Waste type: glass - UUID: 961df23f-bf66-4091-81f6-b0dd106843a9 - Metric:
+      Total collected waste within city boundaries by type - 28186<br/>Total collected
+      waste within city boundaries by type - Waste type: organic_waste - UUID: 43507336-9c1a-4f27-bbd8-67dec958a11e
+      - Metric: Total collected waste within city boundaries by type - 136323<br/>Total
+      collected waste within city boundaries by type - Waste type: other_waste - UUID:
+      30b8f580-389a-4b1d-9f7f-34bf9bdfb0eb - Metric: Total collected waste within
+      city boundaries by type - 78818<br/>Emission factors from waste management -
+      Pollutant: co2 - Energy carrier: waste - Waste treatment: incinerated - UUID:
+      2c0c3a96-5f4b-4ce1-8e2d-8e6637d611ff - Metric: Emission factors from waste management
+      - Atmospheric emissions Inventory of Madrid City, 2017. Including emissions
+      from auxiliary fuel. Only  fossil CO2<br/>Emission factors from waste management
+      - Pollutant: nox - Energy carrier: waste - Waste treatment: incinerated - UUID:
+      f9721db6-29dc-4a14-abb9-1cd644d05b39 - Metric: Emission factors from waste management
+      - Atmospheric emissions Inventory of Madrid City, 2017. Including emissions
+      from auxiliary fuel<br/>Emission factors from waste management - Pollutant:
+      pm25_combustion - Energy carrier: waste - Waste treatment: incinerated - UUID:
+      2fe95f5c-5895-4239-a3f9-64425da2e6e4 - Metric: Emission factors from waste management
+      - Atmospheric emissions Inventory of Madrid City, 2017. Including emissions
+      from auxiliary fuel<br/>Emission factors from waste management - Pollutant:
+      pm10_combustion - Energy carrier: waste - Waste treatment: incinerated - UUID:
+      90fb1c6f-d882-4995-96bf-d2e190c406e4 - Metric: Emission factors from waste management
+      - Atmospheric emissions Inventory of Madrid City, 2017. Including emissions
+      from auxiliary fuel<br/>Prices of sorted waste - Cost type: sales - Energy carrier:
+      waste - Waste type: paper - Metric: Prices of sorted waste - Eurostat (2019)
+      - Recycling – secondary material price indicator<br/>Prices of sorted waste
+      - Cost type: sales - Energy carrier: waste - Waste type: metal - Metric: Prices
+      of sorted waste - BDSV (2019) - BDSV Durchschnittliche Lagerverkaufspreise.
+      https://www.bdsv.org/fileadmin/user_upload/bdsv_preise_2019_08_bundesweit.pdf<br/>Prices
+      of sorted waste - Cost type: sales - Energy carrier: waste - Waste type: plastics
+      - Metric: Prices of sorted waste - Eurostat (2019) - Recycling – secondary material
+      price indicator<br/>Prices of sorted waste - Cost type: sales - Energy carrier:
+      waste - Waste type: glass - Metric: Prices of sorted waste - Eurostat (2019)
+      - Recycling – secondary material price indicator<br/>Prices of sorted waste
+      - Cost type: sales - Energy carrier: waste - Waste type: organic_waste - Metric:
+      Prices of sorted waste - European Commission (2001) - Costs for Municipal Waste
+      Management\nin the EU <br/>Waste management costs - Cost type: capex - Energy
+      carrier: waste - Waste treatment: landfill - Metric: Waste management costs
+      - European Commission (2001) - Costs for Municipal Waste Management\nin the
+      EU <br/>Waste management costs - Cost type: opex - Energy carrier: waste - Waste
+      treatment: landfill - Metric: Waste management costs - European Commission (2001)
+      - Costs for Municipal Waste Management\nin the EU <br/>Waste management costs
+      - Cost type: capex - Energy carrier: waste - Waste treatment: incinerated -
+      Metric: Waste management costs - European Commission (2001) - Costs for Municipal
+      Waste Management\nin the EU <br/>Waste management costs - Cost type: opex -
+      Energy carrier: waste - Waste treatment: incinerated - Metric: Waste management
+      costs - European Commission (2001) - Costs for Municipal Waste Management\n\
+      in the EU <br/>Waste management costs - Cost type: capex - Energy carrier: waste
+      - Waste treatment: composting - Metric: Waste management costs - European Commission
+      (2001) - Costs for Municipal Waste Management\nin the EU <br/>Waste management
+      costs - Cost type: opex - Energy carrier: waste - Waste treatment: composting
+      - Metric: Waste management costs - European Commission (2001) - Costs for Municipal
+      Waste Management\nin the EU <br/>Waste management costs - Cost type: capex -
+      Energy carrier: waste - Waste treatment: sorting - Metric: Waste management
+      costs - Union for the Mediterranean (2014) - Waste Management Costs & Financing
+      and Options for Cost Recovery<br/>Waste management costs - Cost type: opex -
+      Energy carrier: waste - Waste treatment: sorting - Metric: Waste management
+      costs - Union for the Mediterranean (2014) - Waste Management Costs & Financing
+      and Options for Cost Recovery<br/>Waste management costs - Cost type: capex
+      - Energy carrier: waste - Waste treatment: plastic_sorting - Metric: Waste management
+      costs - European Commission (2001) - Costs for Municipal Waste Management\n\
+      in the EU <br/>Waste management costs - Cost type: opex - Energy carrier: waste
+      - Waste treatment: plastic_sorting - Metric: Waste management costs - European
+      Commission (2001) - Costs for Municipal Waste Management\nin the EU <br/>waste
+      recycling - Cost type: capex - Stakeholder: citizens - Metric: waste recycling
+      - Rationale<br/>waste recycling - Cost type: capex - Stakeholder: property_owners
+      - Metric: waste recycling - Cities typically own and operate the waste recycling
+      schemes<br/>waste recycling - Cost type: capex - Stakeholder: cities - Metric:
+      waste recycling - Do we need to confirm with cities?<br/>waste recycling - Cost
+      type: capex - Stakeholder: healthcare_providers - Metric: waste recycling -
+      Yes<br/>waste recycling - Cost type: opex - Stakeholder: citizens - Metric:
+      waste recycling - Rationale<br/>waste recycling - Cost type: opex - Stakeholder:
+      property_owners - Metric: waste recycling - Cities typically own and operate
+      the waste recycling schemes<br/>waste recycling - Cost type: opex - Stakeholder:
+      cities - Metric: waste recycling - Do we need to confirm with cities?<br/>waste
+      recycling - Cost type: opex - Stakeholder: healthcare_providers - Metric: waste
+      recycling - Yes<br/>waste emission factor - Pollutant: co2 - Waste type: mixed_waste
+      - Waste treatment: landfill - Metric: waste emission factor - <---- Data for
+      Sweden (higher in the rest of Europé). The value is calculated based on data
+      from the \"Categorisation\" sheet<br/>waste emission factor - Pollutant: co2
+      - Waste type: paper - Waste treatment: landfill - Metric: waste emission factor
+      - https://www.ivl.se/download/18.343dc99d14e8bb0f58b75c7/1445517446481/B1924.pdf<br/>waste
+      emission factor - Pollutant: co2 - Waste type: organic_waste - Waste treatment:
+      landfill - Metric: waste emission factor - https://tufts.app.box.com/s/4nclf2d5o76lu682rroxvgz92b2bcn4e<br/>waste
+      emission factor - Pollutant: co2 - Waste type: other_waste - Waste treatment:
+      landfill - Metric: waste emission factor - Assuming 50% of other materials as
+      average of paper/organic, other 50% non-emitting in landfill"
+  metrics:
+  - id: total_collected_waste_within_city_boundaries_by_type
+    column_id: total_collected_waste_within_city_boundaries_by_type
+    quantity: mass
+    unit: ''
+    label:
+      en: Total collected waste within city boundaries by type
+  - id: waste_recycling
+    column_id: waste_recycling
+    quantity: fraction
+    unit: ''
+    label:
+      en: waste recycling
+  - id: emission_factors_from_waste_management
+    column_id: emission_factors_from_waste_management
+    quantity: emission_factor
+    unit: ''
+    label:
+      en: Emission factors from waste management
+  - id: waste_management_costs
+    column_id: waste_management_costs
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Waste management costs
+  - id: waste_emission_factor
+    column_id: waste_emission_factor
+    quantity: emission_factor
+    unit: ''
+    label:
+      en: waste emission factor
+  - id: prices_of_sorted_waste
+    column_id: prices_of_sorted_waste
+    quantity: unit_price
+    unit: ''
+    label:
+      en: Prices of sorted waste
+  updated_at: '1773553460'
+  units:
+    Prices of sorted waste: EUR/t
+    waste emission factor: t/t
+    Waste management costs: EUR/t
+    Emission factors from waste management: kg/t
+    waste recycling: dimensionless
+    Total collected waste within city boundaries by type: t/a
