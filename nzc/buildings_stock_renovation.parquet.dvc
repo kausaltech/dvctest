@@ -1,5 +1,5 @@
 outs:
-- md5: 7da8eb8ed2d63a95dc80c840a2dc3172
+- md5: e284a32fdbe1d9fa2b3739053c8b5a85
   size: 33914
   hash: md5
   path: buildings_stock_renovation.parquet
@@ -63,54 +63,42 @@ meta:
       Parliament (2016) - Boosting Building Renovaton: What Potential and value for
       Europe? http://www.europarl.europa.eu/RegData/etudes/STUD/2016/587326/IPOL_STU(2016)587326_EN.pdf"
   metrics:
-  - id: share_of_new_buildings_built_with_high_energy_effici
-    column_id: share_of_new_buildings_built_with_high_energy_effici
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of new buildings built with high energy effici...
-  - id: improvement_in_energy_efficiency_relative_to_minimum
-    column_id: improvement_in_energy_efficiency_relative_to_minimum
-    quantity: fraction
-    unit: ''
-    label:
-      en: Improvement in energy efficiency relative to minimum...
-  - id: share_of_building_stock_renovated_each_year
-    column_id: share_of_building_stock_renovated_each_year
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of building stock renovated each year
-  - id: demolition_rate_existing_buildings
-    column_id: demolition_rate_existing_buildings
-    quantity: fraction
-    unit: ''
-    label:
-      en: Demolition rate existing buildings
   - id: energy_efficiency_improvements_from_building_renovat
     column_id: energy_efficiency_improvements_from_building_renovat
     quantity: fraction
     unit: ''
     label:
       en: Energy efficiency improvements from building renovat...
-  - id: total_floor_area_residental_non_residential
-    column_id: total_floor_area_residental_non_residential
-    quantity: floor_area
+  - id: tonnes_material_used_in_for_new_buildings_2010
+    column_id: tonnes_material_used_in_for_new_buildings_2010
+    quantity: mass
     unit: ''
     label:
-      en: Total floor area (residental & non-residential)
-  - id: energy_use_intensity
-    column_id: energy_use_intensity
-    quantity: energy_factor
+      en: Tonnes material used in for new buildings (2010)
+  - id: share_of_building_stock_renovated_each_year
+    column_id: share_of_building_stock_renovated_each_year
+    quantity: fraction
     unit: ''
     label:
-      en: energy use intensity
+      en: Share of building stock renovated each year
   - id: share_of_new_buildings_built
     column_id: share_of_new_buildings_built
     quantity: fraction
     unit: ''
     label:
       en: Share of new buildings built
+  - id: renovations_actual_share_of_market_in_baseline_scenario
+    column_id: renovations_actual_share_of_market_in_baseline_scenario
+    quantity: fraction
+    unit: ''
+    label:
+      en: Renovations Actual share of market in baseline scenario
+  - id: demolition_rate_existing_buildings
+    column_id: demolition_rate_existing_buildings
+    quantity: fraction
+    unit: ''
+    label:
+      en: Demolition rate existing buildings
   - id: renovation_rate_decarbonisation_scenario
     column_id: renovation_rate_decarbonisation_scenario
     quantity: fraction
@@ -123,36 +111,48 @@ meta:
     unit: ''
     label:
       en: Assumed share of type of renovation in lever
-  - id: tonnes_material_used_in_for_new_buildings_2010
-    column_id: tonnes_material_used_in_for_new_buildings_2010
-    quantity: mass
-    unit: ''
-    label:
-      en: Tonnes material used in for new buildings (2010)
-  - id: renovations_actual_share_of_market_in_baseline_scenario
-    column_id: renovations_actual_share_of_market_in_baseline_scenario
+  - id: improvement_in_energy_efficiency_relative_to_minimum
+    column_id: improvement_in_energy_efficiency_relative_to_minimum
     quantity: fraction
     unit: ''
     label:
-      en: Renovations Actual share of market in baseline scenario
+      en: Improvement in energy efficiency relative to minimum...
   - id: 33_efficient_lighting_appliances
     column_id: 33_efficient_lighting_appliances
     quantity: fraction
     unit: ''
     label:
       en: 3.3 Efficient lighting & appliances
-  updated_at: '1773601232'
+  - id: total_floor_area_residental_non_residential
+    column_id: total_floor_area_residental_non_residential
+    quantity: floor_area
+    unit: ''
+    label:
+      en: Total floor area (residental & non-residential)
+  - id: share_of_new_buildings_built_with_high_energy_effici
+    column_id: share_of_new_buildings_built_with_high_energy_effici
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of new buildings built with high energy effici...
+  - id: energy_use_intensity
+    column_id: energy_use_intensity
+    quantity: energy_factor
+    unit: ''
+    label:
+      en: energy use intensity
+  updated_at: '1773601513'
   units:
-    Share of new buildings built with high energy effici...: dimensionless
-    Total floor area (residental & non-residential): ksqm
-    Assumed share of type of renovation in lever: dimensionless
-    energy use intensity: kWh/m**2/a
-    Renovation rate - decarbonisation scenario: 1/a
     3.3 Efficient lighting & appliances: 1/a
+    energy use intensity: kWh/m**2/a
+    Total floor area (residental & non-residential): ksqm
+    Energy efficiency improvements from building renovat...: dimensionless
     Improvement in energy efficiency relative to minimum...: dimensionless
     Share of building stock renovated each year: 1/a
-    Energy efficiency improvements from building renovat...: dimensionless
-    Demolition rate existing buildings: 1/a
-    Renovations Actual share of market in baseline scenario: dimensionless
     Tonnes material used in for new buildings (2010): t/m**2
     Share of new buildings built: dimensionless
+    Assumed share of type of renovation in lever: dimensionless
+    Renovation rate - decarbonisation scenario: 1/a
+    Share of new buildings built with high energy effici...: dimensionless
+    Renovations Actual share of market in baseline scenario: dimensionless
+    Demolition rate existing buildings: 1/a
