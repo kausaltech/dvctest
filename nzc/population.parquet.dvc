@@ -1,5 +1,5 @@
 outs:
-- md5: f42a643d8a0db819a79b7129ea51a12f
+- md5: 4631ee48a33a8e760eef71663ebcc866
   size: 5071
   hash: md5
   path: population.parquet
@@ -11,19 +11,19 @@ meta:
     en: 'Population - UUID: 3779efa4-9eb0-4f4b-b5d5-eb510461bed8 - Metric: Population
       - 801545'
   metrics:
-  - id: expected_annual_population_growth_up_until_2030
-    column_id: expected_annual_population_growth_up_until_2030
-    quantity: rate
-    unit: ''
-    label:
-      en: Expected annual population growth (up until 2030)
   - id: population
     column_id: population
     quantity: population
     unit: ''
     label:
       en: Population
-  updated_at: '1773553429'
+  - id: expected_annual_population_growth_up_until_2030
+    column_id: expected_annual_population_growth_up_until_2030
+    quantity: rate
+    unit: ''
+    label:
+      en: Expected annual population growth (up until 2030)
+  updated_at: '1773553737'
   units:
-    Population: inh
     Expected annual population growth (up until 2030): 1/a
+    Population: inh
