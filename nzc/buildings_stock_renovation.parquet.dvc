@@ -1,0 +1,158 @@
+outs:
+- md5: 35d8037129520f03db91dc355d7e7623
+  size: 33914
+  hash: md5
+  path: buildings_stock_renovation.parquet
+meta:
+  name:
+    en: Buildings Stock Renovation
+  identifier: buildings_stock_renovation
+  description:
+    en: "Total floor area (residental & non-residential) - Building energy class:
+      old_no_renovations - UUID: ada6b0d9-4da0-420e-9e0b-adf7d19421b2 - Metric: Total
+      floor area (residental & non-residential) - 76514<br/>energy use intensity -
+      Building energy class: old_no_renovations - UUID: 70c95faa-24d8-490f-9eac-b9423a6bf155
+      - Metric: energy use intensity - Average EU28. Odysee-Mure (2015). Energy Efficiency
+      Trends and Policies in the Household and Tertiary Sectors<br/>Share of building
+      stock renovated each year - Building energy class: old_no_renovations - UUID:
+      f0401b8f-b988-45f8-bb09-252c33ce330f - Metric: Share of building stock renovated
+      each year - BPIE (2011) - \"Europe's buildings under the microscope\". http://bpie.eu/wp-content/uploads/2015/10/HR_EU_B_under_microscope_study.pdf<br/>energy
+      use intensity - Building energy class: new_standard - UUID: db0f57bc-7503-488b-ac7c-1472ad02d0d8
+      - Metric: energy use intensity - Madrid standard since 2019<br/>Renovation rate
+      - decarbonisation scenario - Building energy class: old_no_renovations - UUID:
+      e81fd757-26b7-44d5-9f83-75f47d8c0689 - Metric: Renovation rate - decarbonisation
+      scenario - Assumption, based on BPIE (2011) - \"Europe's buildings under the
+      microscope\". http://bpie.eu/wp-content/uploads/2015/10/HR_EU_B_under_microscope_study.pdf<br/>Assumed
+      share of type of renovation in lever - Building energy class: minor_renovation
+      - UUID: f9364412-c739-4434-9e19-4522b2da4e06 - Metric: Assumed share of type
+      of renovation in lever - Valencia forecast assumption - 2030<br/>Assumed share
+      of type of renovation in lever - Building energy class: major_renovation - UUID:
+      923f6daa-7c57-4a56-89e3-8ff94e4f92a6 - Metric: Assumed share of type of renovation
+      in lever - Valencia forecast assumption - 2030<br/>Improvement in energy efficiency
+      relative to minimum... - Building energy class: new_top_performance - UUID:
+      9177ce9e-96c3-45eb-b709-8a59cc01eaab - Metric: Improvement in energy efficiency
+      relative to minimum... - Valencia forecast assumption - 2030<br/>Share of new
+      buildings built with high energy effici... - Building energy class: new_standard
+      - UUID: 9a705041-71cc-4f90-8afc-fe2ec0f4b331 - Metric: Share of new buildings
+      built with high energy effici... - Valencia forecast assumption - 2030<br/>Share
+      of new buildings built with high energy effici... - Building energy class: new_top_performance
+      - UUID: a5165c4f-29d7-4d54-9e80-e385c867eabc - Metric: Share of new buildings
+      built with high energy effici... - Valencia forecast assumption - 2030<br/>3.3
+      Efficient lighting & appliances - Energy carrier: electricity - UUID: 05367c8a-10ca-47a4-887b-27d39ad1990a
+      - Metric: 3.3 Efficient lighting & appliances - Assumption, based on BPIE (2011)
+      - \"Europe's buildings under the microscope\". http://bpie.eu/wp-content/uploads/2015/10/HR_EU_B_under_microscope_study.pdf<br/>Demolition
+      rate existing buildings - Building energy class: old_no_renovations - Metric:
+      Demolition rate existing buildings - BPIE (2011) - \"Europe's buildings under
+      the microscope\". http://bpie.eu/wp-content/uploads/2015/10/HR_EU_B_under_microscope_study.pdf<br/>Energy
+      efficiency improvements from building renovat... - Building energy class: minor_renovation
+      - Metric: Energy efficiency improvements from building renovat... - European
+      Parliament (2016) - Boosting Building Renovaton: What Potential and value for
+      Europe? http://www.europarl.europa.eu/RegData/etudes/STUD/2016/587326/IPOL_STU(2016)587326_EN.pdf<br/>Energy
+      efficiency improvements from building renovat... - Building energy class: major_renovation
+      - Metric: Energy efficiency improvements from building renovat... - European
+      Parliament (2016) - Boosting Building Renovaton: What Potential and value for
+      Europe? http://www.europarl.europa.eu/RegData/etudes/STUD/2016/587326/IPOL_STU(2016)587326_EN.pdf<br/>Tonnes
+      material used in for new buildings (2010) - Metric: Tonnes material used in
+      for new buildings (2010) - Material Economics analysis in The Circular Economy
+      (2018)<br/>Renovations Actual share of market in baseline scenario - Building
+      energy class: minor_renovation - Metric: Renovations Actual share of market
+      in baseline scenario - European Parliament (2016) - Boosting Building Renovaton:
+      What Potential and value for Europe? http://www.europarl.europa.eu/RegData/etudes/STUD/2016/587326/IPOL_STU(2016)587326_EN.pdf<br/>Renovations
+      Actual share of market in baseline scenario - Building energy class: major_renovation
+      - Metric: Renovations Actual share of market in baseline scenario - European
+      Parliament (2016) - Boosting Building Renovaton: What Potential and value for
+      Europe? http://www.europarl.europa.eu/RegData/etudes/STUD/2016/587326/IPOL_STU(2016)587326_EN.pdf"
+  metrics:
+  - id: share_of_new_buildings_built
+    column_id: share_of_new_buildings_built
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of new buildings built
+  - id: renovations_actual_share_of_market_in_baseline_scenario
+    column_id: renovations_actual_share_of_market_in_baseline_scenario
+    quantity: fraction
+    unit: ''
+    label:
+      en: Renovations Actual share of market in baseline scenario
+  - id: tonnes_material_used_in_for_new_buildings_2010
+    column_id: tonnes_material_used_in_for_new_buildings_2010
+    quantity: mass
+    unit: ''
+    label:
+      en: Tonnes material used in for new buildings (2010)
+  - id: energy_use_intensity
+    column_id: energy_use_intensity
+    quantity: energy_factor
+    unit: ''
+    label:
+      en: energy use intensity
+  - id: assumed_share_of_type_of_renovation_in_lever
+    column_id: assumed_share_of_type_of_renovation_in_lever
+    quantity: fraction
+    unit: ''
+    label:
+      en: Assumed share of type of renovation in lever
+  - id: improvement_in_energy_efficiency_relative_to_minimum
+    column_id: improvement_in_energy_efficiency_relative_to_minimum
+    quantity: fraction
+    unit: ''
+    label:
+      en: Improvement in energy efficiency relative to minimum...
+  - id: 33_efficient_lighting_appliances
+    column_id: 33_efficient_lighting_appliances
+    quantity: fraction
+    unit: ''
+    label:
+      en: 3.3 Efficient lighting & appliances
+  - id: total_floor_area_residental_non_residential
+    column_id: total_floor_area_residental_non_residential
+    quantity: floor_area
+    unit: ''
+    label:
+      en: Total floor area (residental & non-residential)
+  - id: share_of_building_stock_renovated_each_year
+    column_id: share_of_building_stock_renovated_each_year
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of building stock renovated each year
+  - id: energy_efficiency_improvements_from_building_renovat
+    column_id: energy_efficiency_improvements_from_building_renovat
+    quantity: fraction
+    unit: ''
+    label:
+      en: Energy efficiency improvements from building renovat...
+  - id: renovation_rate_decarbonisation_scenario
+    column_id: renovation_rate_decarbonisation_scenario
+    quantity: fraction
+    unit: ''
+    label:
+      en: Renovation rate - decarbonisation scenario
+  - id: share_of_new_buildings_built_with_high_energy_effici
+    column_id: share_of_new_buildings_built_with_high_energy_effici
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of new buildings built with high energy effici...
+  - id: demolition_rate_existing_buildings
+    column_id: demolition_rate_existing_buildings
+    quantity: fraction
+    unit: ''
+    label:
+      en: Demolition rate existing buildings
+  updated_at: '1773553723'
+  units:
+    Share of new buildings built with high energy effici...: dimensionless
+    Renovation rate - decarbonisation scenario: 1/a
+    Improvement in energy efficiency relative to minimum...: dimensionless
+    Demolition rate existing buildings: 1/a
+    Energy efficiency improvements from building renovat...: dimensionless
+    Share of new buildings built: dimensionless
+    Renovations Actual share of market in baseline scenario: dimensionless
+    energy use intensity: kWh/m**2/a
+    Share of building stock renovated each year: 1/a
+    Assumed share of type of renovation in lever: dimensionless
+    3.3 Efficient lighting & appliances: 1/a
+    Tonnes material used in for new buildings (2010): t/m**2
+    Total floor area (residental & non-residential): ksqm
