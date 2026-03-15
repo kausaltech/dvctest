@@ -1,5 +1,5 @@
 outs:
-- md5: 6ffd8871f2b61b8039a38461575a5d75
+- md5: 850251ee9be5351c5f73e2497bf7bdb2
   size: 18222
   hash: md5
   path: waste_recycling_goal.parquet
@@ -76,6 +76,6 @@ meta:
     unit: ''
     label:
       en: 5.1. Increased recycling of waste
-  updated_at: '1773601249'
+  updated_at: '1773601534'
   units:
     5.1. Increased recycling of waste: dimensionless
