@@ -1,0 +1,23 @@
+outs:
+- md5: b83e52a63b9a0d7c1002177dd668bc2b
+  size: 4058
+  hash: md5
+  path: quality_criteria.parquet
+meta:
+  name:
+    de: Quality criteria
+  identifier: quality_criteria
+  description:
+    de: 'Requirement - Metric: Requirement - energy_carrier: electricity - Grid-bound
+      energy carriers (electricity, gas, district heating) MUST be quality A (regional
+      primary data), i.e. > 0.99'
+  metrics:
+  - id: requirement
+    column_id: requirement
+    quantity: fraction
+    unit: ''
+    label:
+      de: Requirement
+  updated_at: '1773750318'
+  units:
+    Requirement: dimensionless
