@@ -1,6 +1,6 @@
 outs:
-- md5: b83e52a63b9a0d7c1002177dd668bc2b
-  size: 4058
+- md5: 8ac71f4caaf45bef2422f90a7cfe4eb5
+  size: 4936
   hash: md5
   path: quality_criteria.parquet
 meta:
@@ -8,9 +8,9 @@ meta:
     de: Quality criteria
   identifier: quality_criteria
   description:
-    de: 'Requirement - Metric: Requirement - energy_carrier: electricity - Grid-bound
-      energy carriers (electricity, gas, district heating) MUST be quality A (regional
-      primary data), i.e. > 0.99'
+    de: 'Requirement - Metric: Requirement - sector: Private Households - energy_carrier:
+      electricity - Grid-bound energy carriers (electricity, gas, district heating)
+      MUST be quality A (regional primary data), i.e. > 0.99'
   metrics:
   - id: requirement
     column_id: requirement
@@ -18,6 +18,6 @@ meta:
     unit: ''
     label:
       de: Requirement
-  updated_at: '1773750318'
+  updated_at: '1773756704'
   units:
     Requirement: dimensionless
