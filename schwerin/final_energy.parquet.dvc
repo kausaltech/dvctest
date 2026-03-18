@@ -1,12 +1,12 @@
 outs:
-- md5: 7d11aab22153b761f4ac1e2c8e98da59
-  size: 11627
+- md5: 02c0610e9b244ebc49b7322890601ab5
+  size: 11697
   hash: md5
   path: final_energy.parquet
 meta:
   name:
-    de: Final energy
-  identifier: final_energy
+    de: Endenergie
+  identifier: endenergie
   metrics:
   - id: energy
     column_id: Value
@@ -20,7 +20,7 @@ meta:
     unit: dimensionless
     label:
       de: Data quality
-  updated_at: '1772283722'
+  updated_at: '1773820982'
   units:
     Value: MWh/a
     quality: dimensionless
