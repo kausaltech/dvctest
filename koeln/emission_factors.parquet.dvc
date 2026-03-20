@@ -1,5 +1,5 @@
 outs:
-- md5: d8947d6d42f6c513a78e88422a81767f
+- md5: 80e391a0734b50cbd10c638c4661b18e
   size: 5140
   hash: md5
   path: emission_factors.parquet
@@ -14,6 +14,6 @@ meta:
     unit: ''
     label:
       de: Emissionsfaktoren
-  updated_at: '1774034056'
+  updated_at: '1774038737'
   units:
     Emissionsfaktoren: kg_co2e/kWh
