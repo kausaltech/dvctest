@@ -25,3 +25,4 @@
 /vehicle_energy_by_type.parquet
 /stationary_energy_by_type.parquet
 /energy_by_type.parquet
+/historical_emissions.parquet

@@ -1,0 +1,19 @@
+outs:
+- md5: d52965359f0492c23c9b30ac077d394d
+  size: 9246
+  hash: md5
+  path: historical_emissions.parquet
+meta:
+  name:
+    de: Historical emissions
+  identifier: historical_emissions
+  metrics:
+  - id: emissions
+    column_id: emissions
+    quantity: emissions
+    unit: ''
+    label:
+      de: Emissions
+  updated_at: '1774037606'
+  units:
+    Emissions: t/a
