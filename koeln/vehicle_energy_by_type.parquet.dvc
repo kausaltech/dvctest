@@ -1,5 +1,5 @@
 outs:
-- md5: 4052ce824e953c42f60d569a09479d93
+- md5: ea61aaf9dc352bd22853287c470bda80
   size: 8200
   hash: md5
   path: vehicle_energy_by_type.parquet
@@ -14,6 +14,6 @@ meta:
     unit: ''
     label:
       de: Vehicle end energy use by type
-  updated_at: '1773041316'
+  updated_at: '1774034127'
   units:
     Vehicle end energy use by type: MWh/a
