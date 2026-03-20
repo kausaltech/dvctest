@@ -1,0 +1,26 @@
+outs:
+- md5: 90379761a8119466df7bbc5ebbbc8d8b
+  size: 19914
+  hash: md5
+  path: energy_by_type.parquet
+meta:
+  name:
+    de: energy_by_type
+  identifier: energy_by_type
+  metrics:
+  - id: vehicle_end_energy_use_by_type
+    column_id: vehicle_end_energy_use_by_type
+    quantity: energy
+    unit: ''
+    label:
+      de: Vehicle end energy use by type
+  - id: stationary_energy_use_by_type
+    column_id: stationary_energy_use_by_type
+    quantity: energy
+    unit: ''
+    label:
+      de: Stationary energy use by type
+  updated_at: '1774037156'
+  units:
+    Stationary energy use by type: MWh/a
+    Vehicle end energy use by type: MWh/a

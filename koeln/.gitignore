@@ -24,3 +24,4 @@
 /emission_factors.parquet
 /vehicle_energy_by_type.parquet
 /stationary_energy_by_type.parquet
+/energy_by_type.parquet
