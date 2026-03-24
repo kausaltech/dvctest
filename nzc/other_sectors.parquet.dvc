@@ -1,6 +1,6 @@
 outs:
-- md5: efcb3c4fd77846741ea3218cfb5cf2a7
-  size: 13674
+- md5: c965636ab0b36ddcfe9ac8e0da6a75df
+  size: 14737
   hash: md5
   path: other_sectors.parquet
 meta:
@@ -25,27 +25,27 @@ meta:
     unit: EUR/t
     label:
       en: Value of CO2 reduction
-  - id: emissions_from_other_sectors
-    column_id: emissions_from_other_sectors
-    quantity: emissions
-    unit: kt/a
-    label:
-      en: Emissions from other sectors
   - id: air_pollutant_distance_index
     column_id: air_pollutant_distance_index
     quantity: fraction
     unit: dimensionless
     label:
       en: Air pollutant distance index
+  - id: emissions_from_other_sectors
+    column_id: emissions_from_other_sectors
+    quantity: emissions
+    unit: kt/a
+    label:
+      en: Emissions from other sectors
   - id: aggregated_cost_types
     column_id: aggregated_cost_types
     quantity: fraction
     unit: dimensionless
     label:
       en: Aggregated cost types
-  updated_at: '1774347167'
+  updated_at: '1774349656'
   units:
     value_of_co2_reduction: EUR/t
+    aggregated_cost_types: dimensionless
     emissions_from_other_sectors: kt/a
     air_pollutant_distance_index: dimensionless
-    aggregated_cost_types: dimensionless
