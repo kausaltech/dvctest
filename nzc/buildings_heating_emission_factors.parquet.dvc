@@ -1,6 +1,6 @@
 outs:
-- md5: 930f3de614001ad26dc580e3e62de738
-  size: 10507
+- md5: f9f5114e2a2fb47ab2f0d9b05d408004
+  size: 10950
   hash: md5
   path: buildings_heating_emission_factors.parquet
 meta:
@@ -42,6 +42,6 @@ meta:
     unit: g/kWh
     label:
       en: Emission factors from heat production
-  updated_at: '1774347146'
+  updated_at: '1774349682'
   units:
     emission_factors_from_heat_production: g/kWh
