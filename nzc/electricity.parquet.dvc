@@ -1,6 +1,6 @@
 outs:
-- md5: 376793fae8d4eb9e11566d27f51cda32
-  size: 51806
+- md5: 981c7471aa0a8acb472869024c334af6
+  size: 51149
   hash: md5
   path: electricity.parquet
 meta:
@@ -132,110 +132,110 @@ meta:
       - Metric: Efficiency improvements for each renovation - Odysee-Mure (2019).
       Energy consumption of appliances and lighting per dwelling. https://www.odyssee-mure.eu/publications/efficiency-by-sector/households/electrical-appliances.html"
   metrics:
-  - id: total_electricity_demand_within_city_boundaries
-    column_id: total_electricity_demand_within_city_boundaries
-    quantity: energy
-    unit: ''
-    label:
-      en: Total electricity demand within city boundaries
-  - id: share_of_current_fossil_production_replaced_by_renew
-    column_id: share_of_current_fossil_production_replaced_by_renew
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of current fossil production replaced by renew...
-  - id: retail_price_of_electricity
-    column_id: retail_price_of_electricity
-    quantity: unit_price
-    unit: ''
-    label:
-      en: Retail price of electricity
-  - id: pv_upfront_investment_cost
-    column_id: pv_upfront_investment_cost
-    quantity: unit_price
-    unit: ''
-    label:
-      en: 'PV: Upfront investment cost'
-  - id: distribution_of_type_of_new_renewables
-    column_id: distribution_of_type_of_new_renewables
-    quantity: fraction
-    unit: ''
-    label:
-      en: Distribution of type of new renewables
-  - id: efficiency_improvements_for_each_renovation
-    column_id: efficiency_improvements_for_each_renovation
-    quantity: fraction
-    unit: ''
-    label:
-      en: Efficiency improvements for each renovation
-  - id: share_of_total_electricity_demand_produced_by_fossil
-    column_id: share_of_total_electricity_demand_produced_by_fossil
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of total electricity demand produced by fossil...
-  - id: assumed_uptime_of_windsolar
-    column_id: assumed_uptime_of_windsolar
-    quantity: ratio
-    unit: ''
-    label:
-      en: Assumed uptime of wind/solar
-  - id: fossilcurrent_electricity_supply
-    column_id: fossilcurrent_electricity_supply
-    quantity: fraction
-    unit: ''
-    label:
-      en: fossil/current electricity supply
-  - id: solar_panel_costs
-    column_id: solar_panel_costs
-    quantity: fraction
-    unit: ''
-    label:
-      en: solar panel costs
-  - id: average_electricity_use_for_lighting_appliances
-    column_id: average_electricity_use_for_lighting_appliances
-    quantity: energy_factor
-    unit: ''
-    label:
-      en: Average electricity use for lighting & appliances
   - id: jobs_created_per_mw
     column_id: jobs_created_per_mw
     quantity: demand_factor
-    unit: ''
+    unit: jobs/MW
     label:
       en: Jobs created per MW
+  - id: retail_price_of_electricity
+    column_id: retail_price_of_electricity
+    quantity: unit_price
+    unit: EUR/kWh
+    label:
+      en: Retail price of electricity
+  - id: efficiency_improvements_for_each_renovation
+    column_id: efficiency_improvements_for_each_renovation
+    quantity: fraction
+    unit: dimensionless
+    label:
+      en: Efficiency improvements for each renovation
   - id: operating_cost_for_renewables
     column_id: operating_cost_for_renewables
     quantity: unit_price
-    unit: ''
+    unit: EUR/MWh
     label:
       en: Operating cost for renewables
+  - id: solar_panel_costs
+    column_id: solar_panel_costs
+    quantity: fraction
+    unit: dimensionless
+    label:
+      en: solar panel costs
+  - id: fossilcurrent_electricity_supply
+    column_id: fossilcurrent_electricity_supply
+    quantity: fraction
+    unit: dimensionless
+    label:
+      en: fossil/current electricity supply
   - id: spot_price_electricity
     column_id: spot_price_electricity
     quantity: unit_price
-    unit: ''
+    unit: EUR/MWh
     label:
       en: Spot price electricity
   - id: emission_factors_from_electricity_generation
     column_id: emission_factors_from_electricity_generation
     quantity: emission_factor
-    unit: ''
+    unit: g/kWh
     label:
       en: Emission factors from electricity generation
-  updated_at: '1773601517'
+  - id: distribution_of_type_of_new_renewables
+    column_id: distribution_of_type_of_new_renewables
+    quantity: fraction
+    unit: dimensionless
+    label:
+      en: Distribution of type of new renewables
+  - id: pv_upfront_investment_cost
+    column_id: pv_upfront_investment_cost
+    quantity: unit_price
+    unit: EUR/MWh
+    label:
+      en: 'PV: Upfront investment cost'
+  - id: average_electricity_use_for_lighting_appliances
+    column_id: average_electricity_use_for_lighting_appliances
+    quantity: energy_factor
+    unit: kWh/m**2/a
+    label:
+      en: Average electricity use for lighting & appliances
+  - id: assumed_uptime_of_windsolar
+    column_id: assumed_uptime_of_windsolar
+    quantity: ratio
+    unit: h/a
+    label:
+      en: Assumed uptime of wind/solar
+  - id: share_of_total_electricity_demand_produced_by_fossil
+    column_id: share_of_total_electricity_demand_produced_by_fossil
+    quantity: fraction
+    unit: dimensionless
+    label:
+      en: Share of total electricity demand produced by fossil...
+  - id: share_of_current_fossil_production_replaced_by_renew
+    column_id: share_of_current_fossil_production_replaced_by_renew
+    quantity: fraction
+    unit: dimensionless
+    label:
+      en: Share of current fossil production replaced by renew...
+  - id: total_electricity_demand_within_city_boundaries
+    column_id: total_electricity_demand_within_city_boundaries
+    quantity: energy
+    unit: GWh/a
+    label:
+      en: Total electricity demand within city boundaries
+  updated_at: '1774347137'
   units:
-    Assumed uptime of wind/solar: h/a
-    Operating cost for renewables: EUR/MWh
-    Spot price electricity: EUR/MWh
-    Total electricity demand within city boundaries: GWh/a
-    Jobs created per MW: jobs/MW
-    fossil/current electricity supply: dimensionless
-    Share of current fossil production replaced by renew...: dimensionless
-    Share of total electricity demand produced by fossil...: dimensionless
-    Emission factors from electricity generation: g/kWh
-    'PV: Upfront investment cost': EUR/MWh
-    solar panel costs: dimensionless
-    Distribution of type of new renewables: dimensionless
-    Efficiency improvements for each renovation: dimensionless
-    Retail price of electricity: EUR/kWh
-    Average electricity use for lighting & appliances: kWh/m**2/a
+    assumed_uptime_of_windsolar: h/a
+    operating_cost_for_renewables: EUR/MWh
+    jobs_created_per_mw: jobs/MW
+    average_electricity_use_for_lighting_appliances: kWh/m**2/a
+    solar_panel_costs: dimensionless
+    retail_price_of_electricity: EUR/kWh
+    fossilcurrent_electricity_supply: dimensionless
+    emission_factors_from_electricity_generation: g/kWh
+    spot_price_electricity: EUR/MWh
+    total_electricity_demand_within_city_boundaries: GWh/a
+    share_of_total_electricity_demand_produced_by_fossil: dimensionless
+    share_of_current_fossil_production_replaced_by_renew: dimensionless
+    distribution_of_type_of_new_renewables: dimensionless
+    efficiency_improvements_for_each_renovation: dimensionless
+    pv_upfront_investment_cost: EUR/MWh
