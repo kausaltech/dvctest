@@ -1,6 +1,6 @@
 outs:
-- md5: 4c63260b0af69ac3d1203a019e8c0730
-  size: 27733
+- md5: 513cd3f25bdf96484bfff5e9f3a81c6e
+  size: 28471
   hash: md5
   path: passenger_transport_emissions.parquet
 meta:
@@ -116,8 +116,8 @@ meta:
     unit: g/vkm
     label:
       en: new fleet emission factor
-  updated_at: '1774347142'
+  updated_at: '1774349631'
   units:
-    transport_emission_factors: g/vkm
     new_fleet_emission_factor: g/vkm
     transport_pollutant_split: dimensionless
+    transport_emission_factors: g/vkm
