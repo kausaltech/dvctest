@@ -1,6 +1,6 @@
 outs:
-- md5: b9ecfbaa0ad1d402b81bbfc7c20e62e2
-  size: 31569
+- md5: f42c583446c48cd60564ec595f3163d8
+  size: 32608
   hash: md5
   path: waste_management.parquet
 meta:
@@ -103,18 +103,30 @@ meta:
       landfill - Metric: waste emission factor - Assuming 50% of other materials as
       average of paper/organic, other 50% non-emitting in landfill"
   metrics:
-  - id: emission_factors_from_waste_management
-    column_id: emission_factors_from_waste_management
+  - id: waste_emission_factor
+    column_id: waste_emission_factor
     quantity: emission_factor
-    unit: kg/t
+    unit: t/t
     label:
-      en: Emission factors from waste management
+      en: waste emission factor
   - id: waste_management_costs
     column_id: waste_management_costs
     quantity: unit_price
     unit: EUR/t
     label:
       en: Waste management costs
+  - id: total_collected_waste_within_city_boundaries_by_type
+    column_id: total_collected_waste_within_city_boundaries_by_type
+    quantity: mass
+    unit: t/a
+    label:
+      en: Total collected waste within city boundaries by type
+  - id: emission_factors_from_waste_management
+    column_id: emission_factors_from_waste_management
+    quantity: emission_factor
+    unit: kg/t
+    label:
+      en: Emission factors from waste management
   - id: prices_of_sorted_waste
     column_id: prices_of_sorted_waste
     quantity: unit_price
@@ -127,23 +139,11 @@ meta:
     unit: dimensionless
     label:
       en: waste recycling
-  - id: total_collected_waste_within_city_boundaries_by_type
-    column_id: total_collected_waste_within_city_boundaries_by_type
-    quantity: mass
-    unit: t/a
-    label:
-      en: Total collected waste within city boundaries by type
-  - id: waste_emission_factor
-    column_id: waste_emission_factor
-    quantity: emission_factor
-    unit: t/t
-    label:
-      en: waste emission factor
-  updated_at: '1774347201'
+  updated_at: '1774349625'
   units:
     prices_of_sorted_waste: EUR/t
     waste_management_costs: EUR/t
-    emission_factors_from_waste_management: kg/t
-    waste_emission_factor: t/t
-    total_collected_waste_within_city_boundaries_by_type: t/a
     waste_recycling: dimensionless
+    waste_emission_factor: t/t
+    emission_factors_from_waste_management: kg/t
+    total_collected_waste_within_city_boundaries_by_type: t/a
