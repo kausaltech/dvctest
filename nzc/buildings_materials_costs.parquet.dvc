@@ -1,6 +1,6 @@
 outs:
-- md5: f8d120ebc74a484da7dbc0a6f80a5bdb
-  size: 35587
+- md5: 0729f26083cd5fa784410873603d5c3e
+  size: 34951
   hash: md5
   path: buildings_materials_costs.parquet
 meta:
@@ -78,82 +78,82 @@ meta:
       Efficiency Potential of the European Building Stock. Based on assumed cost of
       €500 per appliance"
   metrics:
-  - id: cost_of_energy_renovations
-    column_id: cost_of_energy_renovations
-    quantity: unit_price
-    unit: ''
-    label:
-      en: Cost of energy renovations
-  - id: building_costs_new_buildings
-    column_id: building_costs_new_buildings
-    quantity: unit_price
-    unit: ''
-    label:
-      en: Building costs - new buildings
-  - id: investment_costs_in_new_buildings
-    column_id: investment_costs_in_new_buildings
-    quantity: fraction
-    unit: ''
-    label:
-      en: investment costs in new buildings
-  - id: cost_of_efficiency_programme_per_m2
-    column_id: cost_of_efficiency_programme_per_m2
-    quantity: unit_price
-    unit: ''
-    label:
-      en: Cost of efficiency programme per m2
   - id: production_costs_per_tonne
     column_id: production_costs_per_tonne
     quantity: unit_price
-    unit: ''
+    unit: EUR/t
     label:
       en: Production costs per tonne
-  - id: tonnes_material_used_for_renovations
-    column_id: tonnes_material_used_for_renovations
-    quantity: mass
-    unit: ''
+  - id: cost_of_energy_renovations
+    column_id: cost_of_energy_renovations
+    quantity: unit_price
+    unit: EUR/m**2
     label:
-      en: Tonnes material used for renovations
-  - id: building_renovation_investments
-    column_id: building_renovation_investments
-    quantity: fraction
-    unit: ''
-    label:
-      en: building renovation investments
+      en: Cost of energy renovations
   - id: assumed_share_of_type_of_efficiency_programme_for_lever
     column_id: assumed_share_of_type_of_efficiency_programme_for_lever
     quantity: fraction
-    unit: ''
+    unit: dimensionless
     label:
       en: Assumed share of type of efficiency programme for lever
   - id: jobs_created_by_investment_in_renovation
     column_id: jobs_created_by_investment_in_renovation
     quantity: unit_price
-    unit: ''
+    unit: jobs/(MEUR/a)
     label:
       en: Jobs created by investment in renovation
-  - id: materials_as_share_of_total_mass
-    column_id: materials_as_share_of_total_mass
+  - id: investment_costs_in_new_buildings
+    column_id: investment_costs_in_new_buildings
     quantity: fraction
-    unit: ''
+    unit: dimensionless
     label:
-      en: Materials as share of total mass
+      en: investment costs in new buildings
   - id: current_share_of_type_of_efficiency_programme
     column_id: current_share_of_type_of_efficiency_programme
     quantity: fraction
-    unit: ''
+    unit: dimensionless
     label:
       en: Current share of type of efficiency programme
-  updated_at: '1773601550'
+  - id: materials_as_share_of_total_mass
+    column_id: materials_as_share_of_total_mass
+    quantity: fraction
+    unit: dimensionless
+    label:
+      en: Materials as share of total mass
+  - id: building_renovation_investments
+    column_id: building_renovation_investments
+    quantity: fraction
+    unit: dimensionless
+    label:
+      en: building renovation investments
+  - id: cost_of_efficiency_programme_per_m2
+    column_id: cost_of_efficiency_programme_per_m2
+    quantity: unit_price
+    unit: EUR/m**2
+    label:
+      en: Cost of efficiency programme per m2
+  - id: building_costs_new_buildings
+    column_id: building_costs_new_buildings
+    quantity: unit_price
+    unit: EUR/m**2
+    label:
+      en: Building costs - new buildings
+  - id: tonnes_material_used_for_renovations
+    column_id: tonnes_material_used_for_renovations
+    quantity: mass
+    unit: t/m**2
+    label:
+      en: Tonnes material used for renovations
+  updated_at: '1774347171'
   units:
-    Assumed share of type of efficiency programme for lever: dimensionless
-    building renovation investments: dimensionless
-    Current share of type of efficiency programme: dimensionless
-    Materials as share of total mass: dimensionless
-    Building costs - new buildings: EUR/m**2
-    Jobs created by investment in renovation: jobs/(MEUR/a)
-    investment costs in new buildings: dimensionless
-    Production costs per tonne: EUR/t
-    Tonnes material used for renovations: t/m**2
-    Cost of efficiency programme per m2: EUR/m**2
-    Cost of energy renovations: EUR/m**2
+    assumed_share_of_type_of_efficiency_programme_for_lever: dimensionless
+    current_share_of_type_of_efficiency_programme: dimensionless
+    cost_of_energy_renovations: EUR/m**2
+    materials_as_share_of_total_mass: dimensionless
+    production_costs_per_tonne: EUR/t
+    building_costs_new_buildings: EUR/m**2
+    jobs_created_by_investment_in_renovation: jobs/(MEUR/a)
+    building_renovation_investments: dimensionless
+    investment_costs_in_new_buildings: dimensionless
+    tonnes_material_used_for_renovations: t/m**2
+    cost_of_efficiency_programme_per_m2: EUR/m**2
