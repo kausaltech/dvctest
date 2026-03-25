@@ -26,3 +26,4 @@
 /stationary_energy_by_type.parquet
 /energy_by_type.parquet
 /historical_emissions.parquet
+/transport_energy_by_energy_carrier.parquet

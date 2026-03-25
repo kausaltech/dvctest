@@ -1,0 +1,19 @@
+outs:
+- md5: 783ffb1d98764e51fc1ddce3dc75da5c
+  size: 4456
+  hash: md5
+  path: transport_energy_by_energy_carrier.parquet
+meta:
+  name:
+    de: transport_energy_by_energy_carrier
+  identifier: transport_energy_by_energy_carrier
+  metrics:
+  - id: final_energy_use
+    column_id: final_energy_use
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: Final energy use
+  updated_at: '1774456437'
+  units:
+    final_energy_use: MWh/a
