@@ -1,5 +1,5 @@
 outs:
-- md5: 783ffb1d98764e51fc1ddce3dc75da5c
+- md5: d43810bf09705c88fc353f28600f59ad
   size: 4456
   hash: md5
   path: transport_energy_by_energy_carrier.parquet
@@ -14,6 +14,6 @@ meta:
     unit: MWh/a
     label:
       de: Final energy use
-  updated_at: '1774456437'
+  updated_at: '1775352469'
   units:
     final_energy_use: MWh/a
