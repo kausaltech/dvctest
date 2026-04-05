@@ -1,6 +1,6 @@
 outs:
-- md5: 173c91c99bd7e2df389f5956085bb1d0
-  size: 10390
+- md5: f84650cc4ef1b57b2c5f72b306545e1e
+  size: 10406
   hash: md5
   path: emission_reduction_potential_total.parquet
 meta:
@@ -36,9 +36,9 @@ meta:
   - id: emission_reduction_potential
     column_id: emission_reduction_potential
     quantity: emissions
-    unit: ''
+    unit: t_co2e/a
     label:
       de: Emission reduction potential
-  updated_at: '1774038696'
+  updated_at: '1775352476'
   units:
-    Emission reduction potential: t_co2e/a
+    emission_reduction_potential: t_co2e/a
