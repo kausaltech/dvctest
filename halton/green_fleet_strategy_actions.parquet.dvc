@@ -1,0 +1,19 @@
+outs:
+- md5: 86a02e2bacf483a377b0d4e8deebe4b9
+  size: 6516
+  hash: md5
+  path: green_fleet_strategy_actions.parquet
+meta:
+  name:
+    en: Green Fleet Strategy Actions
+  identifier: green_fleet_strategy_actions
+  metrics:
+  - id: energy
+    label:
+      en: Energy
+  - id: reduction
+    label:
+      en: Reduction
+  units:
+    reduction: '%'
+    energy: kWh/a
