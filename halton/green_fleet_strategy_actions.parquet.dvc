@@ -1,6 +1,6 @@
 outs:
-- md5: 86a02e2bacf483a377b0d4e8deebe4b9
-  size: 6516
+- md5: f94a0145ef5bc2bac22287508756a3e6
+  size: 6590
   hash: md5
   path: green_fleet_strategy_actions.parquet
 meta:
@@ -15,5 +15,5 @@ meta:
     label:
       en: Reduction
   units:
-    reduction: '%'
     energy: kWh/a
+    reduction: '%'
