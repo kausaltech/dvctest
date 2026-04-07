@@ -1,0 +1,23 @@
+outs:
+- md5: f193f51d1a59b1fda913ad015c74e26f
+  size: 6457
+  hash: md5
+  path: planned_action_shares.parquet
+meta:
+  name:
+    de: Planned action shares
+  identifier: planned_action_shares
+  description:
+    de: 'Shares - Metric: Shares<br/>Shares - Metric: Shares<br/>Shares - Metric:
+      Shares<br/>Shares - Metric: Shares<br/>Shares - Metric: Shares<br/>Shares -
+      Metric: Shares'
+  metrics:
+  - id: shares
+    column_id: shares
+    quantity: fraction
+    unit: dimensionless
+    label:
+      de: Shares
+  updated_at: '1775556164'
+  units:
+    shares: dimensionless
