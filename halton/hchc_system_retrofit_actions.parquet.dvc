@@ -1,6 +1,6 @@
 outs:
-- md5: 2f08a096c6341ce83db8e222ff343d5e
-  size: 8556
+- md5: f78aea48f3b6bfed6e85fc0b43d65b07
+  size: 9999
   hash: md5
   path: hchc_system_retrofit_actions.parquet
 meta:
