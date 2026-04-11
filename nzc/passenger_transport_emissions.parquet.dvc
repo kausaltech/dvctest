@@ -1,5 +1,5 @@
 outs:
-- md5: 513cd3f25bdf96484bfff5e9f3a81c6e
+- md5: d9a427e39578f3bc43caf92ecea078de
   size: 28471
   hash: md5
   path: passenger_transport_emissions.parquet
@@ -98,6 +98,12 @@ meta:
       carrier: petrol_diesel - Metric: transport pollutant split - Naturvårdsverket
       (2019) - Utsläpp av små partiklar (PM10) till luft. https://www.naturvardsverket.se/Sa-mar-miljon/Statistik-A-O/Partiklar-PM10-utslapp-till-luft/'
   metrics:
+  - id: new_fleet_emission_factor
+    column_id: new_fleet_emission_factor
+    quantity: emission_factor
+    unit: g/vkm
+    label:
+      en: new fleet emission factor
   - id: transport_emission_factors
     column_id: transport_emission_factors
     quantity: emission_factor
@@ -110,14 +116,8 @@ meta:
     unit: dimensionless
     label:
       en: transport pollutant split
-  - id: new_fleet_emission_factor
-    column_id: new_fleet_emission_factor
-    quantity: emission_factor
-    unit: g/vkm
-    label:
-      en: new fleet emission factor
-  updated_at: '1774349631'
+  updated_at: '1775902770'
   units:
-    new_fleet_emission_factor: g/vkm
-    transport_pollutant_split: dimensionless
     transport_emission_factors: g/vkm
+    transport_pollutant_split: dimensionless
+    new_fleet_emission_factor: g/vkm
