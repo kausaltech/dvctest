@@ -2,3 +2,4 @@
 /historical_emissions.parquet
 /passenger_kilometers.parquet
 /vehicle_energy.parquet
+/zielphad.parquet
