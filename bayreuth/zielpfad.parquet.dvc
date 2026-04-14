@@ -1,6 +1,6 @@
 outs:
-- md5: f9b528b9c89f91f5bace76b502e78d7a
-  size: 4475
+- md5: 1e30edc8d2da5a03554798d0561c9940
+  size: 2680
   hash: md5
   path: zielpfad.parquet
 meta:
@@ -14,6 +14,6 @@ meta:
     unit: dimensionless
     label:
       de: Zielpfad
-  updated_at: '1776157917'
+  updated_at: '1776160870'
   units:
     zielpfad: dimensionless
