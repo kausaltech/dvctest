@@ -1,0 +1,19 @@
+outs:
+- md5: dc5b593690ad96b308fbb866af19f530
+  size: 4455
+  hash: md5
+  path: zielpfad.parquet
+meta:
+  name:
+    de: Zielpfad
+  identifier: zielpfad
+  metrics:
+  - id: zielphad
+    column_id: zielphad
+    quantity: emissions
+    unit: kt_CO2e/a
+    label:
+      de: Zielphad
+  updated_at: '1776155567'
+  units:
+    zielphad: kt_CO2e/a
