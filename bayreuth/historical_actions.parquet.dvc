@@ -1,12 +1,12 @@
 outs:
-- md5: 50c11388345964f707ceaab4f61bb0b0
-  size: 3166
+- md5: c21e84c22d71d9e0491c25ac8d229941
+  size: 3303
   hash: md5
   path: historical_actions.parquet
 meta:
   name:
     de: Historical actions
   identifier: historical_actions
-  updated_at: '1776780426'
+  updated_at: '1776780836'
   units:
-    emissions: t_co2e/a
+    default: t_co2e/a
