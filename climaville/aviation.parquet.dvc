@@ -1,0 +1,13 @@
+outs:
+- md5: 991cfe332c5dddaaaacfbd31495054ff
+  size: 5992
+  hash: md5
+  path: aviation.parquet
+meta:
+  name:
+    en: aviation
+  identifier: aviation
+  updated_at: '1776771480'
+  units:
+    energy: TJ/a
+    emissions: t/a
