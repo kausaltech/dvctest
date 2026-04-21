@@ -1,0 +1,15 @@
+outs:
+- md5: 3c995529c8d68e9fd344f51c6e974f47
+  size: 9705
+  hash: md5
+  path: energy_actions.parquet
+meta:
+  name:
+    en: energy_actions
+  identifier: energy_actions
+  updated_at: '1776771461'
+  units:
+    currency: DKK/a
+    emissions: t/a
+    area: ha
+    energy: TJ/a
