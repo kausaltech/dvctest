@@ -1,0 +1,14 @@
+outs:
+- md5: 6d32d90cc5f49f19dcfa6e9c40f601d2
+  size: 7820
+  hash: md5
+  path: transportation_actions.parquet
+meta:
+  name:
+    en: transportation_actions
+  identifier: transportation_actions
+  updated_at: '1776771437'
+  units:
+    energy: TJ/a
+    currency: DKK/a
+    mileage: km/a
