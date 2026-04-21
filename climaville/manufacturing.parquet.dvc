@@ -1,0 +1,13 @@
+outs:
+- md5: 94c6097f0585db6da11cc13959404300
+  size: 6010
+  hash: md5
+  path: manufacturing.parquet
+meta:
+  name:
+    en: manufacturing
+  identifier: manufacturing
+  updated_at: '1776771485'
+  units:
+    energy: TJ/a
+    emissions: t/a
