@@ -1,0 +1,13 @@
+outs:
+- md5: 51b06d08515369b0fbf213af74924ee2
+  size: 5790
+  hash: md5
+  path: waste_actions.parquet
+meta:
+  name:
+    en: waste_actions
+  identifier: waste_actions
+  updated_at: '1776771456'
+  units:
+    emissions: t/a
+    currency: DKK/a

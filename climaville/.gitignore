@@ -5,3 +5,4 @@
 /emission_factors_energy.parquet
 /waterborne_transportation.parquet
 /ippu.parquet
+/waste_actions.parquet
