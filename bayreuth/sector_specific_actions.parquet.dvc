@@ -1,0 +1,12 @@
+outs:
+- md5: 6f4ece52f8f3ea12c1c2b0f73dc5fc31
+  size: 3490
+  hash: md5
+  path: sector_specific_actions.parquet
+meta:
+  name:
+    de: Sector-specific actions
+  identifier: sector_specific_actions
+  updated_at: '1776780418'
+  units:
+    emissions: t_co2e/a
