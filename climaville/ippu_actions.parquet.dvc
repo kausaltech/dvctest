@@ -1,0 +1,13 @@
+outs:
+- md5: 219835586e24548720d5c173e0a20a73
+  size: 5880
+  hash: md5
+  path: ippu_actions.parquet
+meta:
+  name:
+    en: ippu_actions
+  identifier: ippu_actions
+  updated_at: '1776771418'
+  units:
+    currency: DKK/a
+    emissions: t/a
