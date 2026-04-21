@@ -1,0 +1,14 @@
+outs:
+- md5: 6973bea35ec39f8ce276d6e1eb0be8c7
+  size: 6707
+  hash: md5
+  path: livestock.parquet
+meta:
+  name:
+    en: livestock
+  identifier: livestock
+  updated_at: '1776771471'
+  units:
+    emissions: t/a
+    emission_factor: t/count/a
+    number: count
