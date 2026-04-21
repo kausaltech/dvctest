@@ -1,0 +1,14 @@
+outs:
+- md5: ad8e6a7bc0275ab05b996dba520af7fd
+  size: 8762
+  hash: md5
+  path: combined_heat_and_power.parquet
+meta:
+  name:
+    en: combined_heat_and_power
+  identifier: combined_heat_and_power
+  updated_at: '1776771506'
+  units:
+    energy: TJ/a
+    energy_factor: dimensionless
+    emissions: t/a
