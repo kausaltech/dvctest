@@ -1,0 +1,12 @@
+outs:
+- md5: ef56ac3618c452a70da273dfad90243c
+  size: 3945
+  hash: md5
+  path: ippu.parquet
+meta:
+  name:
+    en: ippu
+  identifier: ippu
+  updated_at: '1776771451'
+  units:
+    emissions: t/a
