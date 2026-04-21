@@ -1,0 +1,14 @@
+outs:
+- md5: 7fd7d4f141696f011dd78ca95c296324
+  size: 7709
+  hash: md5
+  path: afolu_actions.parquet
+meta:
+  name:
+    en: afolu_actions
+  identifier: afolu_actions
+  updated_at: '1776771495'
+  units:
+    emissions: t/a
+    area: ha
+    currency: DKK/a
