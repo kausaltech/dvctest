@@ -1,0 +1,12 @@
+outs:
+- md5: 5bc4465d3cb6538a8424f66356704edf
+  size: 5487
+  hash: md5
+  path: nonroad_energy.parquet
+meta:
+  name:
+    en: nonroad_energy
+  identifier: nonroad_energy
+  updated_at: '1776771426'
+  units:
+    emissions: t/a
