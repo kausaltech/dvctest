@@ -1,0 +1,12 @@
+outs:
+- md5: acdd200629af63daaf6366ee2369ef2c
+  size: 3607
+  hash: md5
+  path: biogenic_shares.parquet
+meta:
+  name:
+    en: biogenic_shares
+  identifier: biogenic_shares
+  updated_at: '1776771521'
+  units:
+    fraction: '%'

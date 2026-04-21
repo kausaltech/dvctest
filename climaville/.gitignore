@@ -18,3 +18,4 @@
 /combined_heat_and_power.parquet
 /emission_factors_transportation.parquet
 /waste.parquet
+/biogenic_shares.parquet
