@@ -2,3 +2,4 @@
 /nonroad_energy.parquet
 /onroad_transportation.parquet
 /transportation_actions.parquet
+/emission_factors_energy.parquet

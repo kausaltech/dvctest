@@ -1,0 +1,12 @@
+outs:
+- md5: d42a6e1aa45a1ad8d51b4e14946177cc
+  size: 5283
+  hash: md5
+  path: emission_factors_energy.parquet
+meta:
+  name:
+    en: emission_factors__energy
+  identifier: emission_factors_energy
+  updated_at: '1776771442'
+  units:
+    emission_factor: t/TJ
