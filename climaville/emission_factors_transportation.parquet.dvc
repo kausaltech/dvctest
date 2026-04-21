@@ -1,0 +1,12 @@
+outs:
+- md5: 1268cdd4d011933d45f6bbaaca06ffb0
+  size: 6630
+  hash: md5
+  path: emission_factors_transportation.parquet
+meta:
+  name:
+    en: emission_factors__transportation
+  identifier: emission_factors_transportation
+  updated_at: '1776771511'
+  units:
+    emission_factor: g/km
