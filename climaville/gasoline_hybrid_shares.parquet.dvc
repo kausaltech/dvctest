@@ -1,0 +1,12 @@
+outs:
+- md5: c4f25612667699de46feb5360a72cdb7
+  size: 4315
+  hash: md5
+  path: gasoline_hybrid_shares.parquet
+meta:
+  name:
+    en: gasoline_hybrid_shares
+  identifier: gasoline_hybrid_shares
+  updated_at: '1776771526'
+  units:
+    fraction: '%'
