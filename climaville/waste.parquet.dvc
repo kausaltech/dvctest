@@ -1,0 +1,12 @@
+outs:
+- md5: 01f8ef61238aa03216e82bf2fb676420
+  size: 4168
+  hash: md5
+  path: waste.parquet
+meta:
+  name:
+    en: waste
+  identifier: waste
+  updated_at: '1776771515'
+  units:
+    emissions: t/a
