@@ -1,27 +1,5 @@
 outs:
-- md5: c5ae627c8963864b8c897c3c5664ec0e
-  size: 24352
+- md5: 58a06f65ed24d68b847e1dd14db2f3d9
+  size: 23835
   hash: md5
   path: placeholders_yearly.parquet
-meta:
-  name:
-    en: ''
-  identifier: ''
-  index_columns:
-  - UUID
-  - Year
-  - 0_ccv
-  - 0_min
-  - 0_max
-  - 1_ccv
-  - 1_min
-  - 1_max
-  - 2_ccv
-  - 2_min
-  - 2_max
-  - 3_ccv
-  - 3_min
-  - 3_max
-  - PerCapita
-  updated_at: '1777091290'
-  units: {}
