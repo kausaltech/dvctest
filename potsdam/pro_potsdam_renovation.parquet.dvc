@@ -1,0 +1,29 @@
+outs:
+- md5: 575bbc38f740315b03d72ac6714e0610
+  size: 4668
+  hash: md5
+  path: pro_potsdam_renovation.parquet
+meta:
+  name:
+    de: pro_potsdam_renovation
+  identifier: pro_potsdam_renovation
+  metrics:
+  - id: energy_reduction
+    column_id: energy_reduction
+    quantity: energy
+    unit: kWh/m²/a
+    label:
+      de: energy_reduction
+  - id: additional_cost
+    column_id: additional_cost
+    quantity: unit_price
+    unit: €/m²/month
+    label:
+      de: additional_cost
+  index_columns:
+  - action
+  - Year
+  updated_at: '1777275425'
+  units:
+    additional_cost: EUR/m**2/month
+    energy_reduction: kWh/m**2/a
