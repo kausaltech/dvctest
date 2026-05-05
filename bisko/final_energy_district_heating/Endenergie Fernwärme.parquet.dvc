@@ -1,0 +1,24 @@
+outs:
+- md5: df6ce75ae489f1b7453f6c71e386a958
+  size: 5688
+  hash: md5
+  path: Endenergie Fernwärme.parquet
+meta:
+  name:
+    de: Endenergie Fernwärme
+  identifier: bisko/final_energy_district_heating/Endenergie Fernwärme
+  metrics:
+  - id: default
+    column_id: default
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: Value
+  index_columns:
+  - energy_carrier
+  - upstream_included
+  - per_what_energy
+  - Year
+  updated_at: '1777954013'
+  units:
+    default: MWh/a
