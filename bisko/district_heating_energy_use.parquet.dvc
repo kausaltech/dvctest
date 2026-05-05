@@ -1,0 +1,24 @@
+outs:
+- md5: cc98c1ca202bdf6d2e6d8512417737f0
+  size: 5630
+  hash: md5
+  path: district_heating_energy_use.parquet
+meta:
+  name:
+    de: district_heating_energy_use
+  identifier: bisko/district_heating_energy_use
+  metrics:
+  - id: default
+    column_id: default
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: Value
+  index_columns:
+  - energy_carrier
+  - upstream_included
+  - per_what_energy
+  - Year
+  updated_at: '1777954486'
+  units:
+    default: MWh/a
