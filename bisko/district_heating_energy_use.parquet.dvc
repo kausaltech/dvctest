@@ -1,6 +1,6 @@
 outs:
-- md5: cc98c1ca202bdf6d2e6d8512417737f0
-  size: 5630
+- md5: fe9a47103dc147043b859f9cf08da72d
+  size: 5603
   hash: md5
   path: district_heating_energy_use.parquet
 meta:
@@ -19,6 +19,6 @@ meta:
   - upstream_included
   - per_what_energy
   - Year
-  updated_at: '1777954486'
+  updated_at: '1777954901'
   units:
     default: MWh/a
