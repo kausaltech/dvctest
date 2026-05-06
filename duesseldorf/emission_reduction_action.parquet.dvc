@@ -1,0 +1,22 @@
+outs:
+- md5: 389840f79110d91b736cce2979d15ab8
+  size: 3717
+  hash: md5
+  path: emission_reduction_action.parquet
+meta:
+  name:
+    de: emission_reduction_action
+  identifier: duesseldorf/emission_reduction_action
+  metrics:
+  - id: ratio
+    column_id: ratio
+    quantity: ratio
+    unit: ''
+    label:
+      de: ratio
+  index_columns:
+  - sector
+  - Year
+  updated_at: '1778094696'
+  units:
+    ratio: dimensionless

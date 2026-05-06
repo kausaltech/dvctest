@@ -7,3 +7,4 @@
 /historical_emissions.parquet
 /passenger_kilometers.parquet
 /vehicle_energy.parquet
+/emission_reduction_action.parquet
