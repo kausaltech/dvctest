@@ -1,6 +1,6 @@
 outs:
-- md5: 389840f79110d91b736cce2979d15ab8
-  size: 3717
+- md5: 24dbffa7126a78e4fb0177c9648265d5
+  size: 3768
   hash: md5
   path: emission_reduction_action.parquet
 meta:
@@ -17,6 +17,6 @@ meta:
   index_columns:
   - sector
   - Year
-  updated_at: '1778094696'
+  updated_at: '1778095581'
   units:
     ratio: dimensionless
