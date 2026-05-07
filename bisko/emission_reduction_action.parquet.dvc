@@ -1,0 +1,22 @@
+outs:
+- md5: f629a1f9e94700404d6dba2dc6ad0e66
+  size: 3708
+  hash: md5
+  path: emission_reduction_action.parquet
+meta:
+  name:
+    de: emission_reduction_action
+  identifier: bisko/emission_reduction_action
+  metrics:
+  - id: fraction
+    column_id: fraction
+    quantity: fraction
+    unit: ''
+    label:
+      de: fraction
+  index_columns:
+  - sector
+  - Year
+  updated_at: '1778155977'
+  units:
+    fraction: dimensionless
