@@ -1,0 +1,22 @@
+outs:
+- md5: 1c5b96bf2eeb0d536bb4d62cbe742855
+  size: 3711
+  hash: md5
+  path: emission_reduction_action.parquet
+meta:
+  name:
+    de: emission_reduction_action
+  identifier: beyreuth/emission_reduction_action
+  metrics:
+  - id: fraction
+    column_id: fraction
+    quantity: fraction
+    unit: ''
+    label:
+      de: fraction
+  index_columns:
+  - sector
+  - Year
+  updated_at: '1778156078'
+  units:
+    fraction: dimensionless
