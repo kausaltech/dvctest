@@ -1,0 +1,22 @@
+outs:
+- md5: c738c29ae94dfe02909ba4c563bbadd6
+  size: 3627
+  hash: md5
+  path: sinks.parquet
+meta:
+  name:
+    de: sinks
+  identifier: bayreuth/sinks
+  metrics:
+  - id: emissions
+    column_id: emissions
+    quantity: emissions
+    unit: kt_co2e/a
+    label:
+      de: emissions
+  index_columns:
+  - sector
+  - Year
+  updated_at: '1778126986'
+  units:
+    emissions: kt_co2e/a
