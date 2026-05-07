@@ -1,6 +1,6 @@
 outs:
-- md5: c738c29ae94dfe02909ba4c563bbadd6
-  size: 3627
+- md5: 9da1e0619785188f2bb4b83be4ed68cc
+  size: 3617
   hash: md5
   path: sinks.parquet
 meta:
@@ -11,12 +11,12 @@ meta:
   - id: emissions
     column_id: emissions
     quantity: emissions
-    unit: kt_co2e/a
+    unit: t_CO2e/a
     label:
       de: emissions
   index_columns:
   - sector
   - Year
-  updated_at: '1778126986'
+  updated_at: '1778127442'
   units:
-    emissions: kt_co2e/a
+    emissions: t_co2e/a
