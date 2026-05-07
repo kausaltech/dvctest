@@ -7,3 +7,4 @@
 /sector_specific_actions.parquet
 /historical_actions.parquet
 /sinks.parquet
+/emission_reduction_action.parquet
