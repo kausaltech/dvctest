@@ -1,5 +1,27 @@
 outs:
-- md5: 5b29037dc4a35983a947f92f32f073e7
-  size: 29858
+- md5: fce200b00c9e90409f29917b2aa89916
+  size: 28833
   hash: md5
   path: placeholders_yearly.parquet
+meta:
+  name:
+    en: NZC Placeholders Yearly
+  identifier: nzc/placeholders_yearly
+  index_columns:
+  - UUID
+  - Year
+  - PerCapita
+  updated_at: '1778301383'
+  units:
+    0_ccv: ''
+    0_min: ''
+    0_max: ''
+    1_ccv: ''
+    1_min: ''
+    1_max: ''
+    2_ccv: ''
+    2_min: ''
+    2_max: ''
+    3_ccv: ''
+    3_min: ''
+    3_max: ''
