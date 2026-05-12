@@ -1,5 +1,5 @@
 outs:
-- md5: 65da61566ba5a8975b9d58ad9ecf4d21
-  size: 28238
+- md5: 8c510817220aab6604f2fc403e6cfd01
+  size: 29594
   hash: md5
   path: placeholders_yearly.parquet
