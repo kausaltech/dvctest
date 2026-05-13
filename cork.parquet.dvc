@@ -1,0 +1,76 @@
+outs:
+- md5: dce0e6a8e6e73f164f47eeb319c717ac
+  size: 72354
+  hash: md5
+  path: cork.parquet
+meta:
+  name:
+    en: ''
+  identifier: cork
+  index_columns:
+  - Sector
+  - Pollutant
+  - Transport pollutant
+  - Scope
+  - Cost type
+  - Aggregated cost type
+  - Ghg
+  - Transport mode
+  - Energy carrier
+  - Stakeholder
+  - Building energy class
+  - Efficiency programme
+  - Heating type
+  - Fuel type
+  - Waste type
+  - Waste treatment
+  - City area
+  - Area distance
+  - Diet
+  - Material
+  - Parameter
+  - Country
+  - Quantity
+  - Unit
+  - UUID
+  - Is_action
+  - Description
+  - '0'
+  - '1'
+  - '2018'
+  - '2019'
+  - '2020'
+  - '2021'
+  - '2022'
+  - '2023'
+  - '2024'
+  - '2025'
+  - '2026'
+  - '2027'
+  - '2028'
+  - '2029'
+  - '100'
+  - '2030'
+  - '2031'
+  - '2032'
+  - '2033'
+  - '2034'
+  - '2035'
+  - '2036'
+  - '2037'
+  - '2038'
+  - '2039'
+  - '2040'
+  - '2041'
+  - '2042'
+  - '2043'
+  - '2044'
+  - '2045'
+  - '2046'
+  - '2047'
+  - '2048'
+  - '2049'
+  - '2050'
+  - '2051'
+  updated_at: '1778675205'
+  units: {}
