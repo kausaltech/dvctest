@@ -1,6 +1,6 @@
 outs:
-- md5: f0d5e160235cdc83b507c8c748787f29
-  size: 5227
+- md5: 98c223254f35a57f6827cdb821173a0b
+  size: 4746
   hash: md5
   path: welfare_outcomes.parquet
 meta:
@@ -18,7 +18,6 @@ meta:
   - Year
   - stakeholder
   - cost_type
-  - forecast
-  updated_at: '1778739186'
+  updated_at: '1778739457'
   units:
     fraction: dimensionless
