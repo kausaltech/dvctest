@@ -1,0 +1,24 @@
+outs:
+- md5: 2aeb884b6a2ab4e011f70681471eef0c
+  size: 5227
+  hash: md5
+  path: Welfare outcomes.parquet
+meta:
+  name:
+    en: Welfare outcomes
+  identifier: transportation/Welfare outcomes
+  metrics:
+  - id: fraction
+    column_id: fraction
+    quantity: fraction
+    unit: ''
+    label:
+      en: fraction
+  index_columns:
+  - Year
+  - stakeholder
+  - cost_type
+  - forecast
+  updated_at: '1778739127'
+  units:
+    fraction: dimensionless
