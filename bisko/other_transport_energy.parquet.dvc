@@ -1,6 +1,6 @@
 outs:
-- md5: e05f0698865223f682fb922cbd0bc723
-  size: 7260361
+- md5: 7a0a15dc61604f695d66e8d1d5125f30
+  size: 7253981
   hash: md5
   path: other_transport_energy.parquet
 meta:
@@ -21,6 +21,6 @@ meta:
   - vehicle_type
   - energy_carrier
   - Year
-  updated_at: '1779180294'
+  updated_at: '1779181052'
   units:
     energy: MWh/a
