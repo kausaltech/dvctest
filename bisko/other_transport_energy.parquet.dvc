@@ -1,13 +1,26 @@
 outs:
-- md5: 9c77952230a77a87f7a50b39fcc0b613
-  size: 416953
+- md5: 774970747e1af6d16b6a0eaf9a61e07f
+  size: 7260367
   hash: md5
   path: other_transport_energy.parquet
 meta:
   name:
-    de: Gemeindefeine Endenergieverbrauch Schiene Wasser Luft nach Antriebsart
-  identifier: 
-    gemeindefeine_endenergieverbrauch_schiene_wasser_luft_nach_antriebsart
-  updated_at: '1772295605'
+    de: other_transport_energy
+  identifier: bisko/other_transport_energy
+  metrics:
+  - id: default
+    column_id: default
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: Value
+  index_columns:
+  - district
+  - ags
+  - municipality
+  - vehicle_type
+  - energy_carrier
+  - Year
+  updated_at: '1779179479'
   units:
-    energy: MWh/a
+    default: MWh/a
