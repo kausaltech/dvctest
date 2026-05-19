@@ -1,6 +1,6 @@
 outs:
-- md5: c2ea30c694d1152eeb66cf2647005c7a
-  size: 23000643
+- md5: 01a01a39d6ec56fb268bb7994cc9779f
+  size: 22990113
   hash: md5
   path: gemeindefeine_fahrleistungen_strassenverkehr.parquet
 meta:
@@ -21,6 +21,6 @@ meta:
   - vehicle_type
   - road_type
   - Year
-  updated_at: '1779180283'
+  updated_at: '1779181041'
   units:
     mileage: Mvkm/a
