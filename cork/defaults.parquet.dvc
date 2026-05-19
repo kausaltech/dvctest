@@ -1,6 +1,6 @@
 outs:
-- md5: 8b20121a0e73d6fd71acead0d667eedd
-  size: 56106
+- md5: 272da9a8fc513f5a352ee812b54f0fcb
+  size: 40857
   hash: md5
   path: defaults.parquet
 meta:
@@ -33,9 +33,7 @@ meta:
   - Quantity
   - Unit
   - UUID
-  - Is_action
-  - Description
   - Year
   - Value
-  updated_at: '1779205397'
+  updated_at: '1779211848'
   units: {}
