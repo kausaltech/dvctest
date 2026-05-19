@@ -1,11 +1,36 @@
 outs:
-- md5: 80c575e1843c9cac41d671511f381199
-  size: 39925
+- md5: b81cb8f9d99fbb10736023a7e06b2e46
+  size: 40800
   hash: md5
   path: defaults.parquet
 meta:
   name:
     en: ''
   identifier: cork/defaults
-  updated_at: '1779212368'
+  index_columns:
+  - Sector
+  - Pollutant
+  - Transport pollutant
+  - Scope
+  - Cost type
+  - Aggregated cost type
+  - Ghg
+  - Transport mode
+  - Energy carrier
+  - Stakeholder
+  - Building energy class
+  - Efficiency programme
+  - Heating type
+  - Fuel type
+  - Waste type
+  - Waste treatment
+  - City area
+  - Area distance
+  - Diet
+  - Material
+  - Parameter
+  - Country
+  - Quantity
+  - Year
+  updated_at: '1779216772'
   units: {}
