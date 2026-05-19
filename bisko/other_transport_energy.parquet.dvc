@@ -1,6 +1,6 @@
 outs:
-- md5: 774970747e1af6d16b6a0eaf9a61e07f
-  size: 7260367
+- md5: e05f0698865223f682fb922cbd0bc723
+  size: 7260361
   hash: md5
   path: other_transport_energy.parquet
 meta:
@@ -8,12 +8,12 @@ meta:
     de: other_transport_energy
   identifier: bisko/other_transport_energy
   metrics:
-  - id: default
-    column_id: default
+  - id: energy
+    column_id: energy
     quantity: energy
     unit: MWh/a
     label:
-      de: Value
+      de: energy
   index_columns:
   - district
   - ags
@@ -21,6 +21,6 @@ meta:
   - vehicle_type
   - energy_carrier
   - Year
-  updated_at: '1779179479'
+  updated_at: '1779180294'
   units:
-    default: MWh/a
+    energy: MWh/a
