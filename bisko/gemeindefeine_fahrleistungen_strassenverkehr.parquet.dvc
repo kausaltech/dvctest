@@ -1,12 +1,26 @@
 outs:
-- md5: a2dfbf658b61d14d01f06947160ca4d2
-  size: 1555579
+- md5: a539700bc9e35d24ca7baaff9d2ddfd6
+  size: 23000641
   hash: md5
   path: gemeindefeine_fahrleistungen_strassenverkehr.parquet
 meta:
   name:
-    de: Gemeindefeine Fahrleistungen Straßenverkehr
-  identifier: gemeindefeine_fahrleistungen_straenverkehr
-  updated_at: '1772294929'
+    de: gemeindefeine_fahrleistungen_strassenverkehr
+  identifier: bisko/gemeindefeine_fahrleistungen_strassenverkehr
+  metrics:
+  - id: default
+    column_id: default
+    quantity: mileage
+    unit: Mvehicle_km/a
+    label:
+      de: Value
+  index_columns:
+  - district
+  - ags
+  - municipality
+  - vehicle_type
+  - road_type
+  - Year
+  updated_at: '1779179467'
   units:
-    mileage: Mvehicle_km/a
+    default: Mvkm/a
