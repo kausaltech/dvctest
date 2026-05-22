@@ -1,0 +1,51 @@
+outs:
+- md5: d285df3aa6e75106a9e1de198da9df76
+  size: 14052
+  hash: md5
+  path: agriculture.parquet
+meta:
+  name:
+    en: Agriculture
+  identifier: agriculture
+  metrics:
+  - id: area
+    label:
+      en: Area
+  - id: emission_factor
+    label:
+      en: Emission Factor
+  - id: emission_factor_livestock
+    label:
+      en: Emission Factor (Livestock)
+  - id: emission_factor_pumps
+    label:
+      en: Emission Factor (Pumps)
+  - id: emission_factor_rice
+    label:
+      en: Emission Factor (Rice)
+  - id: fraction
+    label:
+      en: Fraction
+  - id: mass
+    label:
+      en: Mass
+  - id: mass_per_area
+    label:
+      en: Mass (per Area)
+  - id: number
+    label:
+      en: Number
+  - id: volume
+    label:
+      en: Volume
+  units:
+    emission_factor: t/t
+    emission_factor_rice: g/ha
+    mass: t/a
+    area: acre/a
+    volume: gal/a
+    number: count
+    emission_factor_pumps: g/gal
+    emission_factor_livestock: kg/count/a
+    mass_per_area: g/ha
+    fraction: acre/acre
