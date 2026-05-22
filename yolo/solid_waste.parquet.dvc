@@ -1,6 +1,6 @@
 outs:
-- md5: aef575fe7342ffe3b4cd4ea6e1ffc149
-  size: 4750
+- md5: 0fe94392e72485fd51a03fd13c6a0282
+  size: 3607
   hash: md5
   path: solid_waste.parquet
 meta:
