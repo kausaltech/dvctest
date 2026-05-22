@@ -1,0 +1,15 @@
+outs:
+- md5: b25e245e6e9192dcb3a8ee14904ba056
+  size: 2960
+  hash: md5
+  path: global_warming_potential.parquet
+meta:
+  name:
+    en: Global Warming Potential
+  identifier: global_warming_potential
+  metrics:
+  - id: factor
+    label:
+      en: Factor
+  units:
+    factor: t_co2e/t
