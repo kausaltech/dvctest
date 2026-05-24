@@ -1,6 +1,6 @@
 outs:
-- md5: 36da1c67b251ad4fda122fadc21cb399
-  size: 41978
+- md5: 581a9f3694294ea128475de058a3af3d
+  size: 42068
   hash: md5
   path: defaults.parquet
 meta:
@@ -32,5 +32,5 @@ meta:
   - Country
   - Quantity
   - Year
-  updated_at: '1779389902'
+  updated_at: '1779635963'
   units: {}
