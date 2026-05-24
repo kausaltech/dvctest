@@ -1,0 +1,19 @@
+outs:
+- md5: 854079733c183a81fac5c94a03c27815
+  size: 4466
+  hash: md5
+  path: water.parquet
+meta:
+  name:
+    en: Water
+  identifier: water
+  metrics:
+  - id: energy_factor
+    label:
+      en: Energy Factor
+  - id: volume
+    label:
+      en: Volume
+  units:
+    energy_factor: kWh/Mgal
+    volume: Mgal/a
