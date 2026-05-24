@@ -1,0 +1,15 @@
+outs:
+- md5: 4cb2135c199ca601ecbac7e306159f2f
+  size: 4898
+  hash: md5
+  path: energy_emission_factors.parquet
+meta:
+  name:
+    en: Energy Emission Factors
+  identifier: energy_emission_factors
+  metrics:
+  - id: emission_factor
+    label:
+      en: Emission Factor
+  units:
+    emission_factor: lbs/MWh
