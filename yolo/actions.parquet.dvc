@@ -1,6 +1,6 @@
 outs:
-- md5: 8f5664e5a3ccb83cf29a97ba1a136ba4
-  size: 8338
+- md5: baa1c890a900dca35dd7556e5fa9723a
+  size: 7005
   hash: md5
   path: actions.parquet
 meta:
@@ -17,11 +17,7 @@ meta:
   - id: fraction
     label:
       en: Fraction
-  - id: fraction_evs
-    label:
-      en: Fraction (EVs)
   units:
-    emissions: t_co2e/a
-    fraction: '%'
-    fraction_evs: '%'
     factor: kWh/kWh
+    fraction: '%'
+    emissions: t_co2e/a
