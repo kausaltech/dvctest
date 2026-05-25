@@ -1,5 +1,5 @@
 outs:
-- md5: a87606dca45fdb88bc292eb88e01e184
+- md5: 7c9cacf93789276d9caf0d0b9d8a6de6
   size: 5773
   hash: md5
   path: social_housing.parquet
@@ -8,35 +8,35 @@ meta:
     en: social_housing
   identifier: cork/social_housing
   metrics:
-  - id: actual_costs
-    column_id: actual_costs
-    quantity: currency
-    unit: €
-    label:
-      en: actual_costs
-  - id: floor_area
-    column_id: floor_area
-    quantity: floor_area
-    unit: m²
-    label:
-      en: floor_area
-  - id: carbon_saving
-    column_id: carbon_saving
-    quantity: emissions
-    unit: kg/m²/a
-    label:
-      en: carbon_saving
   - id: energy_saving
     column_id: energy_saving
     quantity: energy
     unit: kWh/m²/a
     label:
       en: energy_saving
+  - id: floor_area
+    column_id: floor_area
+    quantity: floor_area
+    unit: m²
+    label:
+      en: floor_area
+  - id: actual_costs
+    column_id: actual_costs
+    quantity: currency
+    unit: €
+    label:
+      en: actual_costs
+  - id: carbon_saving
+    column_id: carbon_saving
+    quantity: emissions
+    unit: kg/m²/a
+    label:
+      en: carbon_saving
   index_columns:
   - Year
-  updated_at: '1779701711'
+  updated_at: '1779702428'
   units:
     carbon_saving: kg/m**2/a
+    floor_area: m**2
     energy_saving: kWh/m**2/a
     actual_costs: EUR
-    floor_area: m**2
