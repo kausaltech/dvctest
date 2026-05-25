@@ -1,0 +1,22 @@
+outs:
+- md5: 5f7f35f9c6be4ec63b23e7a9819715d3
+  size: 3578
+  hash: md5
+  path: active_mobility.parquet
+meta:
+  name:
+    en: active_mobility
+  identifier: cork/active_mobility
+  metrics:
+  - id: mileage
+    column_id: mileage
+    quantity: mileage
+    unit: Mkm/a
+    label:
+      en: mileage
+  index_columns:
+  - transport_mode
+  - Year
+  updated_at: '1779688094'
+  units:
+    mileage: Mkm/a
