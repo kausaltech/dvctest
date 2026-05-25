@@ -1,6 +1,6 @@
 outs:
-- md5: 4cd7f1106171dbc729040c09b4183f52
-  size: 3580
+- md5: ab9cd14e11e4c464781da2a38aa082b9
+  size: 3588
   hash: md5
   path: active_mobility.parquet
 meta:
@@ -17,6 +17,6 @@ meta:
   index_columns:
   - transport_mode
   - Year
-  updated_at: '1779688423'
+  updated_at: '1779688705'
   units:
     mileage: Mpkm/a
