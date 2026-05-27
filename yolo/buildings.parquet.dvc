@@ -1,0 +1,19 @@
+outs:
+- md5: 24b9f5d29159c9c52bce9ba77ad2b002
+  size: 6926
+  hash: md5
+  path: buildings.parquet
+meta:
+  name:
+    en: Buildings
+  identifier: buildings
+  metrics:
+  - id: energy
+    label:
+      en: Energy
+  - id: fuel_consumption
+    label:
+      en: Fuel Consumption
+  units:
+    fuel_consumption: therms/a
+    energy: kWh/a
