@@ -1,0 +1,22 @@
+outs:
+- md5: c50d06818d15ad1e8d03d57f448904e1
+  size: 4088
+  hash: md5
+  path: final_energy.parquet
+meta:
+  name:
+    de: final_energy
+  identifier: muenchen/final_energy
+  metrics:
+  - id: energy
+    column_id: energy
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: energy
+  index_columns:
+  - energietrager
+  - Year
+  updated_at: '1779892795'
+  units:
+    energy: MWh/a
