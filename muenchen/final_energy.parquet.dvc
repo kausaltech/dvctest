@@ -1,6 +1,6 @@
 outs:
-- md5: 78b9bcaeb6a3b69ffd037106c07460a3
-  size: 5004
+- md5: 7eab4ac90a4860219428ab6f083f4339
+  size: 5101
   hash: md5
   path: final_energy.parquet
 meta:
@@ -18,6 +18,6 @@ meta:
   - sector
   - energy_carrier
   - Year
-  updated_at: '1779893656'
+  updated_at: '1779905052'
   units:
     energy: MWh/a
