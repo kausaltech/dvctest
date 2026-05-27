@@ -1,6 +1,6 @@
 outs:
-- md5: 3f078794d742d6af6a5a333fd1049ea4
-  size: 9885
+- md5: 195295320e16366fa1c0c7d471367809
+  size: 9887
   hash: md5
   path: onroad_transportation.parquet
 meta:
@@ -21,7 +21,7 @@ meta:
     label:
       en: Mileage
   units:
-    fraction: '%'
-    emission_factor: t_co2e/mile
     mileage: miles/day
+    emission_factor: t_co2e/mile
     factor: day/a
+    fraction: '%'
