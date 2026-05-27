@@ -1,6 +1,6 @@
 outs:
-- md5: c50d06818d15ad1e8d03d57f448904e1
-  size: 4088
+- md5: af167e703849008041253831c9e3189c
+  size: 4827
   hash: md5
   path: final_energy.parquet
 meta:
@@ -15,8 +15,9 @@ meta:
     label:
       de: energy
   index_columns:
+  - sector
   - energietrager
   - Year
-  updated_at: '1779892795'
+  updated_at: '1779893250'
   units:
     energy: MWh/a
