@@ -1,0 +1,15 @@
+outs:
+- md5: abd6a88ea7fa105d4ad23d2dd441b4ad
+  size: 4032
+  hash: md5
+  path: offroad_equipment.parquet
+meta:
+  name:
+    en: Off-Road Equipment
+  identifier: offroad_equipment
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t_co2e/a
