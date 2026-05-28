@@ -1,6 +1,6 @@
 outs:
-- md5: 7eab4ac90a4860219428ab6f083f4339
-  size: 5101
+- md5: 0ea45f028cc59f70d8b7a8d9354e133f
+  size: 5988
   hash: md5
   path: final_energy.parquet
 meta:
@@ -8,16 +8,23 @@ meta:
     de: final_energy
   identifier: muenchen/final_energy
   metrics:
-  - id: energy
-    column_id: energy
+  - id: default
+    column_id: default
     quantity: energy
     unit: MWh/a
     label:
-      de: energy
+      de: Value
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: quality
   index_columns:
   - sector
   - energy_carrier
   - Year
-  updated_at: '1779905052'
+  updated_at: '1779945707'
   units:
-    energy: MWh/a
+    default: MWh/a
+    quality: dimensionless
