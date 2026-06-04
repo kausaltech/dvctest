@@ -1,5 +1,19 @@
 outs:
-- md5: 5e9315fcedc187668cdf746ab73841a7
-  size: 20891
+- md5: 074d1ed94c055f810817acf9698b0c01
+  size: 24882
   hash: md5
   path: placeholders.parquet
+meta:
+  name:
+    en: ''
+  identifier: nzc/placeholders
+  index_columns:
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - PerCapita
+  - Measure
+  - UUID
+  updated_at: '1780593409'
+  units: {}
