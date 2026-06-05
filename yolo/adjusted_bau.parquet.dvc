@@ -1,0 +1,15 @@
+outs:
+- md5: ee7cd14e740e737205843908d86532aa
+  size: 4850
+  hash: md5
+  path: adjusted_bau.parquet
+meta:
+  name:
+    en: Adjusted BAU
+  identifier: adjusted_bau
+  metrics:
+  - id: emission_factor
+    label:
+      en: Emission Factor
+  units:
+    emission_factor: lbs/MWh
