@@ -1,5 +1,5 @@
 outs:
-- md5: 8d7bea13b854d5c1b39f1d64cd0eec40
+- md5: 4e3a8392c4c6fd2ea5a98bf437a05166
   size: 9340
   hash: md5
   path: adjusted_bau.parquet
@@ -15,5 +15,5 @@ meta:
     label:
       en: Emission Factor (Transportation)
   units:
-    emission_factor_electricity: lbs/MWh
     emission_factor_transportation: t_co2e/mile
+    emission_factor_electricity: lbs/MWh
