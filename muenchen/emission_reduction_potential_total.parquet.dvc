@@ -1,0 +1,23 @@
+outs:
+- md5: 3aec92bc405bbe25101f283d97c81c7d
+  size: 9342
+  hash: md5
+  path: emission_reduction_potential_total.parquet
+meta:
+  name:
+    de: emission_reduction_potential_total
+  identifier: muenchen/emission_reduction_potential_total
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: emissions
+    unit: kt_co2e/a
+    label:
+      de: Value
+  index_columns:
+  - sector
+  - action
+  - Year
+  updated_at: '1780718508'
+  units:
+    Value: kt_co2e/a
