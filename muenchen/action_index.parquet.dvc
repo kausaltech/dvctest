@@ -1,0 +1,25 @@
+outs:
+- md5: a27640942c58bc8917174994bcfd1fa4
+  size: 7865
+  hash: md5
+  path: action_index.parquet
+meta:
+  name:
+    de: action_index
+  identifier: muenchen/action_index
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: fraction
+    unit: ''
+    label:
+      de: Value
+  index_columns:
+  - energy_carrier
+  - sector
+  - vehicle_type
+  - action
+  - Year
+  updated_at: '1780718497'
+  units:
+    Value: dimensionless
