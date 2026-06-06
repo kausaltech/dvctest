@@ -1,0 +1,23 @@
+outs:
+- md5: 6d1753c8012bf2e3a1499353a581ff62
+  size: 18122
+  hash: md5
+  path: energy_costs.parquet
+meta:
+  name:
+    de: energy_costs
+  identifier: muenchen/energy_costs
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: currency
+    unit: M€/a
+    label:
+      de: Value
+  index_columns:
+  - energy_carrier
+  - sector
+  - Year
+  updated_at: '1780718512'
+  units:
+    Value: M€/a
