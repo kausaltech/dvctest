@@ -1,0 +1,25 @@
+outs:
+- md5: 9e61ffaf86c4657e8c770bcfc81a7ee5
+  size: 6480
+  hash: md5
+  path: planned_action_shares.parquet
+meta:
+  name:
+    de: planned_action_shares
+  identifier: muenchen/planned_action_shares
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: fraction
+    unit: ''
+    label:
+      de: Value
+  index_columns:
+  - energy_carrier
+  - sector
+  - vehicle_type
+  - action
+  - Year
+  updated_at: '1780718517'
+  units:
+    Value: dimensionless
