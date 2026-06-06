@@ -1,0 +1,23 @@
+outs:
+- md5: 5a8c0c32a725184cf3fd25a35aaa3867
+  size: 18107
+  hash: md5
+  path: energy_costs.parquet
+meta:
+  name:
+    de: energy_costs
+  identifier: bisko/energy_costs
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: currency
+    unit: M€/a
+    label:
+      de: Value
+  index_columns:
+  - energy_carrier
+  - sector
+  - Year
+  updated_at: '1780719149'
+  units:
+    Value: M€/a
