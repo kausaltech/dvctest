@@ -1,0 +1,24 @@
+outs:
+- md5: 864a1d17fb04304fb8181249a4d92a03
+  size: 6913
+  hash: md5
+  path: direkte_massnahmen_ikka.parquet
+meta:
+  name:
+    de: direkte_massnahmen_ikka
+  identifier: muenchen/direkte_massnahmen_ikka
+  metrics:
+  - id: emissions
+    column_id: emissions
+    quantity: emissions
+    unit: kt/a
+    label:
+      de: emissions
+  index_columns:
+  - energy_carrier
+  - sector
+  - action
+  - Year
+  updated_at: '1780718503'
+  units:
+    emissions: kt/a
