@@ -34,3 +34,4 @@
 /district_heating_energy_use.parquet
 /emission_reduction_action.parquet
 /energy_costs.parquet
+/other_emissions.parquet

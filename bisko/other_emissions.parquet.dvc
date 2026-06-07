@@ -1,0 +1,23 @@
+outs:
+- md5: 1ccc41e1f63e008d81481290ade42cff
+  size: 4367
+  hash: md5
+  path: other_emissions.parquet
+meta:
+  name:
+    de: other_emissions
+  identifier: bisko/other_emissions
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: emissions
+    unit: kt_co2e/a
+    label:
+      de: Value
+  index_columns:
+  - energy_carrier
+  - sector
+  - Year
+  updated_at: '1780813429'
+  units:
+    Value: kt_co2e/a
