@@ -1,0 +1,23 @@
+outs:
+- md5: 953e8778196679d8b89ad22a567e4860
+  size: 4370
+  hash: md5
+  path: other_emissions.parquet
+meta:
+  name:
+    de: other_emissions
+  identifier: muenchen/other_emissions
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: emissions
+    unit: kt_co2e/a
+    label:
+      de: Value
+  index_columns:
+  - energy_carrier
+  - sector
+  - Year
+  updated_at: '1780813543'
+  units:
+    Value: kt_co2e/a
