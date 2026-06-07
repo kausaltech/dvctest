@@ -1,0 +1,23 @@
+outs:
+- md5: 2ba3748dfabf7443079fd5b6ddb491c2
+  size: 4632
+  hash: md5
+  path: final_energy_quality.parquet
+meta:
+  name:
+    de: final_energy_quality
+  identifier: muenchen/final_energy_quality
+  metrics:
+  - id: wert
+    column_id: wert
+    quantity: fraction
+    unit: ''
+    label:
+      de: Wert
+  index_columns:
+  - energy_carrier
+  - sector
+  - Year
+  updated_at: '1780842108'
+  units:
+    wert: dimensionless
