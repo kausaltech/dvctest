@@ -1,0 +1,15 @@
+outs:
+- md5: 20a16b772663cfebcdaf06a58f739fe9
+  size: 4658
+  hash: md5
+  path: community_inventory.parquet
+meta:
+  name:
+    en: Community Inventory
+  identifier: community_inventory
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t_co2e/a
