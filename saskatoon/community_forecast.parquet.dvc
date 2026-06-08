@@ -1,0 +1,15 @@
+outs:
+- md5: 2e9b946992f978923bdb259b82fc4874
+  size: 11243
+  hash: md5
+  path: community_forecast.parquet
+meta:
+  name:
+    en: Community Forecast
+  identifier: community_forecast
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  units:
+    emissions: t_co2e/a
