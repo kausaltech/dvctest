@@ -1,6 +1,6 @@
 outs:
-- md5: 3c6d89d3d0c39fe76da3bc90afc934b5
-  size: 5024
+- md5: b4a3c8160588b1f36ff54985f31e2a2a
+  size: 5085
   hash: md5
   path: endenergie.parquet
 meta:
@@ -18,6 +18,6 @@ meta:
   - sector
   - energy_carrier
   - Year
-  updated_at: '1780914565'
+  updated_at: '1780915537'
   units:
     Value: MWh/a
