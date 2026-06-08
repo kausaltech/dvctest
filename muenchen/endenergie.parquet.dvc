@@ -1,0 +1,23 @@
+outs:
+- md5: 3c6d89d3d0c39fe76da3bc90afc934b5
+  size: 5024
+  hash: md5
+  path: endenergie.parquet
+meta:
+  name:
+    de: endenergie
+  identifier: muenchen/endenergie
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: emissions
+    unit: MWh/a
+    label:
+      de: Value
+  index_columns:
+  - sector
+  - energy_carrier
+  - Year
+  updated_at: '1780914565'
+  units:
+    Value: MWh/a
