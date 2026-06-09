@@ -1,0 +1,23 @@
+outs:
+- md5: b19a7dec93b49336345ab8c080bb6ae0
+  size: 4397
+  hash: md5
+  path: other_activity.parquet
+meta:
+  name:
+    de: other_activity
+  identifier: muenchen/other_activity
+  metrics:
+  - id: wert
+    column_id: wert
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: Wert
+  index_columns:
+  - energy_carrier
+  - sector
+  - Year
+  updated_at: '1780978985'
+  units:
+    wert: MWh/a
