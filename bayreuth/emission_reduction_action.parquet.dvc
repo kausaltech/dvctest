@@ -1,5 +1,5 @@
 outs:
-- md5: 029fcb55eb332b750980b54722a3c1b4
+- md5: 6ab52da9bb7fb5b4b3497cbdadcc2575
   size: 4727
   hash: md5
   path: emission_reduction_action.parquet
@@ -8,22 +8,22 @@ meta:
     de: emission_reduction_action
   identifier: bayreuth/emission_reduction_action
   metrics:
-  - id: action
-    column_id: action
-    quantity: emissions
-    unit: t_CO2e/a
-    label:
-      de: action
   - id: baseline
     column_id: baseline
     quantity: fraction
     unit: ''
     label:
       de: baseline
+  - id: action
+    column_id: action
+    quantity: emissions
+    unit: t_CO2e/a
+    label:
+      de: action
   index_columns:
   - sector
   - Year
-  updated_at: '1779977551'
+  updated_at: '1780984151'
   units:
     baseline: dimensionless
     action: t_co2e/a
