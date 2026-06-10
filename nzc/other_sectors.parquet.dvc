@@ -1,6 +1,6 @@
 outs:
-- md5: f5b8b5e74822e2e65f428f31a94b71cf
-  size: 11501
+- md5: 8bab265f7cef2ad2f8df3bd3a9f5f105
+  size: 11462
   hash: md5
   path: other_sectors.parquet
 meta:
@@ -17,9 +17,9 @@ meta:
   - ghg
   - heating_type
   - area_distance
-  - aggregated_cost_types
-  - air_pollutant_distance_index
-  updated_at: '1781119323'
+  updated_at: '1781121421'
   units:
-    emissions_from_other_sectors: kt/a
+    aggregated_cost_types: dimensionless
+    air_pollutant_distance_index: dimensionless
     value_of_co2_reduction: €/t
+    emissions_from_other_sectors: kt/a
