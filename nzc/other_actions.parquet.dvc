@@ -1,19 +1,22 @@
 outs:
-- md5: 31c877677963530d49390c5537901f5c
-  size: 4194
+- md5: 3ec0976d56a93e189eb4528180bf3484
+  size: 4300
   hash: md5
   path: other_actions.parquet
 meta:
   name:
     en: Other Actions
-  identifier: other_actions
+  identifier: nzc/other_actions
   metrics:
   - id: reduced_co2e_emissions_committed_by_industry_agricu
     column_id: reduced_co2e_emissions_committed_by_industry_agricu
     quantity: fraction
-    unit: dimensionless
+    unit: ''
     label:
       en: Reduced CO2e emissions committed by Industry, Agricu...
-  updated_at: '1774349703'
+  index_columns:
+  - Year
+  - uuid
+  updated_at: '1781118128'
   units:
     reduced_co2e_emissions_committed_by_industry_agricu: dimensionless
