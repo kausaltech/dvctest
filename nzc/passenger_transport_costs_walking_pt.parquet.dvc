@@ -1,6 +1,6 @@
 outs:
-- md5: 9243a1206fd5a6087fc6cc7782321c9f
-  size: 8718
+- md5: 1f3315e275e62b718665c292a314af28
+  size: 8641
   hash: md5
   path: passenger_transport_costs_walking_pt.parquet
 meta:
@@ -12,10 +12,10 @@ meta:
   - cost_type
   - transport_mode
   - stakeholder
-  - public_transport_operation_costs
-  - investment_costs_in_walking_cycling
-  updated_at: '1781119337'
+  updated_at: '1781121436'
   units:
-    total_average_cost_of_cyclingwalking: €/pkm
+    investment_costs_in_walking_cycling: dimensionless
     fuel_unit_price: €/l
+    total_average_cost_of_cyclingwalking: €/pkm
     average_value_of_increased_walkingcycling: €/pkm
+    public_transport_operation_costs: dimensionless
