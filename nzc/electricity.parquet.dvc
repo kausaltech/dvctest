@@ -1,12 +1,12 @@
 outs:
-- md5: 6b5cb893e23c77b2ef1e23c46c042b4a
+- md5: f63c3c26f895493890df533a19b773c7
   size: 21669
   hash: md5
-  path: Electricity.parquet
+  path: electricity.parquet
 meta:
   name:
     en: Electricity
-  identifier: nzc/Electricity
+  identifier: nzc/electricity
   index_columns:
   - Year
   - uuid
@@ -22,14 +22,14 @@ meta:
   - share_of_total_electricity_demand_produced_by_fossil
   - distribution_of_type_of_new_renewables
   - share_of_current_fossil_production_replaced_by_renew
-  updated_at: '1781117632'
+  updated_at: '1781118133'
   units:
-    retail_price_of_electricity: €/kWh
     total_electricity_demand_within_city_boundaries: GWh/a
-    operating_cost_for_renewables: €/MWh
-    emission_factors_from_electricity_generation: g/kWh
-    pv_upfront_investment_cost: €/MWh
     jobs_created_per_mw: fte/MW
-    average_electricity_use_for_lighting_appliances: kWh/m²/a
     spot_price_electricity: €/MWh
+    emission_factors_from_electricity_generation: g/kWh
+    average_electricity_use_for_lighting_appliances: kWh/m²/a
     assumed_uptime_of_windsolar: h/a
+    pv_upfront_investment_cost: €/MWh
+    operating_cost_for_renewables: €/MWh
+    retail_price_of_electricity: €/kWh
