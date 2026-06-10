@@ -1,5 +1,5 @@
 outs:
-- md5: a5e55b03b0eb2621fe7c03a3e406a943
+- md5: 1b1998142147c27ecbd7fe79b049603e
   size: 21739
   hash: md5
   path: electricity.parquet
@@ -22,14 +22,14 @@ meta:
   - share_of_total_electricity_demand_produced_by_fossil
   - distribution_of_type_of_new_renewables
   - share_of_current_fossil_production_replaced_by_renew
-  updated_at: '1781118807'
+  updated_at: '1781119314'
   units:
+    jobs_created_per_mw: fte/MW
+    pv_upfront_investment_cost: €/MWh
     assumed_uptime_of_windsolar: h/a
     spot_price_electricity: €/MWh
     emission_factors_from_electricity_generation: g/kWh
-    retail_price_of_electricity: €/kWh
-    operating_cost_for_renewables: €/MWh
-    pv_upfront_investment_cost: €/MWh
-    average_electricity_use_for_lighting_appliances: kWh/m²/a
-    jobs_created_per_mw: fte/MW
     total_electricity_demand_within_city_boundaries: GWh/a
+    operating_cost_for_renewables: €/MWh
+    retail_price_of_electricity: €/kWh
+    average_electricity_use_for_lighting_appliances: kWh/m²/a
