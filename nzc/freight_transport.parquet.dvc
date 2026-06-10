@@ -1,30 +1,30 @@
 outs:
-- md5: 314c7069f7d552211fb2711d8975d8c0
-  size: 17399
+- md5: 142e67a0b5a1b9a7db35f70eb6c90e3a
+  size: 17312
   hash: md5
   path: freight_transport.parquet
 meta:
   name:
-    en: freight_transport
+    en: Freight Transport
   identifier: nzc/freight_transport
   index_columns:
-  - cost_type
-  - energy_carrier
+  - Year
   - uuid
   - pollutant
+  - cost_type
   - transport_mode
-  - Year
+  - energy_carrier
   - share_of_trucks_fully_electric_not_including_hybrids
   - average_utilisation
   - freight_labour_cost_fraction
   - utilisation_of_trucks_in_decarbonisation_scenario
-  updated_at: '1781082802'
+  updated_at: '1781118140'
   units:
-    new_truck_emission_factor: g/vehicle_km
-    freight_transport_traffic_accidents: €/tkm
-    number_of_trucks_registered_within_city: v
-    freight_transport_noise: €/tkm
-    fuel_consumption_change_of_1_utilisation_change: 1/%
     fleet_average_consumption: cl/vehicle_km
+    fuel_consumption_change_of_1_utilisation_change: 1/%
     total_transportation_need_within_city_road_freight: Mtkm/a
+    new_truck_emission_factor: g/vehicle_km
+    freight_transport_noise: €/tkm
+    number_of_trucks_registered_within_city: v
+    freight_transport_traffic_accidents: €/tkm
     max_load_weight: tkm/vehicle_km
