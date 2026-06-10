@@ -1,0 +1,321 @@
+outs:
+- md5: 0c1ed52234e9084782b981d4c0ee20c8
+  size: 66901
+  hash: md5
+  path: Passenger Transport Emissions.parquet
+meta:
+  name:
+    en: Passenger Transport Emissions
+  identifier: nzc/Passenger Transport Emissions
+  description:
+    en: 'Transport Emission factors - UUID: e7b12aeb-e591-4cba-96e7-9901fb95d0fb -
+      Metric: Transport Emission factors - Transport pollutant: co2 - Transport mode:
+      cars - Calculated based on Eurostat data, DATASET: Greenhouse gas emissions
+      by source sector (source: EEA) [env_air_gge] & DATASET: Motor vehicle movements
+      on national territory, by vehicles registration [road_tf_vehmov]<br/>Transport
+      Emission factors - UUID: 1a328799-4774-4901-be1f-e6b46fb84ef7 - Metric: Transport
+      Emission factors - Transport pollutant: nox - Transport mode: cars - Calculated
+      based on Eurostat data, DATASET: Air pollutants by source sector (source: EEA)
+      [env_air_emis] & DATASET: Motor vehicle movements on national territory, by
+      vehicles registration [road_tf_vehmov]<br/>Transport Emission factors - UUID:
+      8e9c2502-128f-4368-ad09-debb8d2e06c8 - Metric: Transport Emission factors -
+      Transport pollutant: pm25 - Transport mode: cars - Calculated based on Eurostat
+      data, DATASET: Air pollutants by source sector (source: EEA) [env_air_emis]
+      & DATASET: Motor vehicle movements on national territory, by vehicles registration
+      [road_tf_vehmov]<br/>Transport Emission factors - UUID: ac14daee-a60e-445a-b56b-bc0600e9788d
+      - Metric: Transport Emission factors - Transport pollutant: pm10 - Transport
+      mode: cars - Calculated based on Eurostat data, DATASET: Air pollutants by source
+      sector (source: EEA) [env_air_emis] & DATASET: Motor vehicle movements on national
+      territory, by vehicles registration [road_tf_vehmov]<br/>Transport Emission
+      factors - UUID: e2f0c38d-5b98-4634-8faf-ea07caae26a5 - Metric: Transport Emission
+      factors - Transport pollutant: co2 - Transport mode: buses - Atmospheric emissions
+      Inventory of Madrid City, 2017. Municipal buses + other buses<br/>Transport
+      Emission factors - UUID: 80414475-5306-4e66-8ff9-c15f346c61fe - Metric: Transport
+      Emission factors - Transport pollutant: nox - Transport mode: buses - Atmospheric
+      emissions Inventory of Madrid City, 2017. Municipal buses + other buses<br/>Transport
+      Emission factors - UUID: 56ad8ce0-a583-4011-846d-ad44cbc92052 - Metric: Transport
+      Emission factors - Transport pollutant: pm25 - Transport mode: buses - Atmospheric
+      emissions Inventory of Madrid City, 2017. Municipal buses + other buses. Including
+      tyre wear and brake wear. Not including road wear <br/>Transport Emission factors
+      - UUID: 5c1b815c-6c13-4303-b9ff-f641cd725c4e - Metric: Transport Emission factors
+      - Transport pollutant: pm10 - Transport mode: buses - Atmospheric emissions
+      Inventory of Madrid City, 2017. Municipal buses + other buses. Including tyre
+      wear and brake wear. Not including road wear <br/>Transport Emission factors
+      - UUID: f431fe40-d06f-4cc3-8d33-d4ee116105db - Metric: Transport Emission factors
+      - Transport pollutant: co2 - Transport mode: light_trucks - Atmospheric emissions
+      Inventory of Madrid City, 2017.<br/>Transport Emission factors - UUID: 51626bc7-17ca-4086-bca8-6ad806bbc224
+      - Metric: Transport Emission factors - Transport pollutant: nox - Transport
+      mode: light_trucks - Calculated based on Eurostat data, DATASET: Air pollutants
+      by source sector (source: EEA) [env_air_emis] & DATASET: Motor vehicle movements
+      on national territory, by vehicles registration [road_tf_vehmov]<br/>Transport
+      Emission factors - UUID: 11d16a62-2f77-437c-b586-3a86586edac6 - Metric: Transport
+      Emission factors - Transport pollutant: pm25 - Transport mode: light_trucks
+      - Calculated based on Eurostat data, DATASET: Air pollutants by source sector
+      (source: EEA) [env_air_emis] & DATASET: Motor vehicle movements on national
+      territory, by vehicles registration [road_tf_vehmov]<br/>Transport Emission
+      factors - UUID: 46fdb8f7-3125-4689-be93-7b1c03abf98c - Metric: Transport Emission
+      factors - Transport pollutant: pm10 - Transport mode: light_trucks - Calculated
+      based on Eurostat data, DATASET: Air pollutants by source sector (source: EEA)
+      [env_air_emis] & DATASET: Motor vehicle movements on national territory, by
+      vehicles registration [road_tf_vehmov]<br/>Transport Emission factors - UUID:
+      df758173-b169-46d5-b859-94f67ea0c20b - Metric: Transport Emission factors -
+      Transport pollutant: co2 - Transport mode: heavy_trucks - Atmospheric emissions
+      Inventory of Madrid City, 2017.<br/>Transport Emission factors - UUID: 00005eaf-8435-4048-8950-ae010dc6ee5e
+      - Metric: Transport Emission factors - Transport pollutant: nox - Transport
+      mode: heavy_trucks - Calculated based on Eurostat data, DATASET: Air pollutants
+      by source sector (source: EEA) [env_air_emis] & DATASET: Motor vehicle movements
+      on national territory, by vehicles registration [road_tf_vehmov]<br/>Transport
+      Emission factors - UUID: 6be10a46-8b31-46a5-a454-42b30d7f3e6f - Metric: Transport
+      Emission factors - Transport pollutant: pm25 - Transport mode: heavy_trucks
+      - Calculated based on Eurostat data, DATASET: Air pollutants by source sector
+      (source: EEA) [env_air_emis] & DATASET: Motor vehicle movements on national
+      territory, by vehicles registration [road_tf_vehmov]<br/>Transport Emission
+      factors - UUID: fd2e2ed0-26de-4ca4-afa5-889e6cceb9fa - Metric: Transport Emission
+      factors - Transport pollutant: pm10 - Transport mode: heavy_trucks - Calculated
+      based on Eurostat data, DATASET: Air pollutants by source sector (source: EEA)
+      [env_air_emis] & DATASET: Motor vehicle movements on national territory, by
+      vehicles registration [road_tf_vehmov]<br/>new fleet emission factor - Metric:
+      new fleet emission factor - Transport pollutant: pm25 - Transport mode: cars
+      - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      pm10 - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: buses - CO2 för EURO: https://www.transportmeasures.org/wp-content/uploads/2014/07/NTM_Nylund_290414.pdf<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: buses - EURO 5 standard<br/>new fleet emission factor
+      - Metric: new fleet emission factor - Transport pollutant: pm25 - Transport
+      mode: buses - EURO 5 standard<br/>new fleet emission factor - Metric: new fleet
+      emission factor - Transport pollutant: pm10 - Transport mode: buses - EURO 5
+      standard<br/>transport pollutant split - Metric: transport pollutant split -
+      Pollutant: pm25_wear_tear - Transport pollutant: pm25 - Energy carrier: petrol_diesel
+      - Naturvårdsverket (2019) - Utsläpp av små partiklar (PM2,5) till luft. https://www.naturvardsverket.se/Sa-mar-miljon/Statistik-A-O/Partiklar-PM25-utslapp-till-luft/<br/>transport
+      pollutant split - Metric: transport pollutant split - Pollutant: pm10_wear_tear
+      - Transport pollutant: pm10 - Energy carrier: petrol_diesel - Naturvårdsverket
+      (2019) - Utsläpp av små partiklar (PM10) till luft. https://www.naturvardsverket.se/Sa-mar-miljon/Statistik-A-O/Partiklar-PM10-utslapp-till-luft/<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      co2 - Transport mode: cars - European commission (2019) - Reducing CO2 emissions
+      from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en
+      European commission (2019) - Post-2020 CO2 emission performance standards for
+      cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
+      fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
+      nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php'
+  metrics:
+  - id: transport_emission_factors
+    column_id: transport_emission_factors
+    quantity: emission_factor
+    unit: g/vehicle_km
+    label:
+      en: Transport Emission factors
+  - id: transport_pollutant_split
+    column_id: transport_pollutant_split
+    quantity: fraction
+    unit: ''
+    label:
+      en: transport pollutant split
+  - id: new_fleet_emission_factor
+    column_id: new_fleet_emission_factor
+    quantity: emission_factor
+    unit: g/vehicle_km
+    label:
+      en: new fleet emission factor
+  index_columns:
+  - Year
+  - uuid
+  - pollutant
+  - transport_pollutant
+  - transport_mode
+  - energy_carrier
+  updated_at: '1781117584'
+  units:
+    new_fleet_emission_factor: g/vkm
+    transport_emission_factors: g/vkm
+    transport_pollutant_split: dimensionless
