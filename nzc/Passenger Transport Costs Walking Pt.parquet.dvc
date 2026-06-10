@@ -1,0 +1,21 @@
+outs:
+- md5: 41f67bc04d086a65a756b551fe3de362
+  size: 8650
+  hash: md5
+  path: Passenger Transport Costs Walking Pt.parquet
+meta:
+  name:
+    en: Passenger Transport Costs Walking Pt
+  identifier: nzc/Passenger Transport Costs Walking Pt
+  index_columns:
+  - Year
+  - cost_type
+  - transport_mode
+  - stakeholder
+  - public_transport_operation_costs
+  - investment_costs_in_walking_cycling
+  updated_at: '1781117656'
+  units:
+    total_average_cost_of_cyclingwalking: €/pkm
+    fuel_unit_price: €/l
+    average_value_of_increased_walkingcycling: €/pkm
