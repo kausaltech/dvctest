@@ -1,5 +1,5 @@
 outs:
-- md5: 84340103c1cca0a075612eb9e8074d4c
+- md5: d6ca9b3a93231db4777e0ec7d9bc8a92
   size: 66968
   hash: md5
   path: passenger_transport_emissions.parquet
@@ -289,24 +289,24 @@ meta:
       fleet emission factor - Metric: new fleet emission factor - Transport pollutant:
       nox - Transport mode: cars - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php'
   metrics:
-  - id: new_fleet_emission_factor
-    column_id: new_fleet_emission_factor
-    quantity: emission_factor
-    unit: g/vehicle_km
-    label:
-      en: new fleet emission factor
-  - id: transport_pollutant_split
-    column_id: transport_pollutant_split
-    quantity: fraction
-    unit: ''
-    label:
-      en: transport pollutant split
   - id: transport_emission_factors
     column_id: transport_emission_factors
     quantity: emission_factor
     unit: g/vehicle_km
     label:
       en: Transport Emission factors
+  - id: transport_pollutant_split
+    column_id: transport_pollutant_split
+    quantity: fraction
+    unit: ''
+    label:
+      en: transport pollutant split
+  - id: new_fleet_emission_factor
+    column_id: new_fleet_emission_factor
+    quantity: emission_factor
+    unit: g/vehicle_km
+    label:
+      en: new fleet emission factor
   index_columns:
   - Year
   - uuid
@@ -314,7 +314,7 @@ meta:
   - transport_pollutant
   - transport_mode
   - energy_carrier
-  updated_at: '1781118759'
+  updated_at: '1781119264'
   units:
     transport_pollutant_split: dimensionless
     transport_emission_factors: g/vkm
