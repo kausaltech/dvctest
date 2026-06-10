@@ -1,6 +1,6 @@
 outs:
-- md5: 3d1495ff827ff3b8deb9b5949923c874
-  size: 12284
+- md5: 80263fe4ad95a33aefe35a663e943313
+  size: 12213
   hash: md5
   path: passenger_transport_costs_ownership.parquet
 meta:
@@ -13,13 +13,13 @@ meta:
   - transport_mode
   - energy_carrier
   - stakeholder
-  - ev_charging_infrastructure
-  - total_cost_of_ownership_shares
-  - up_front_costs_for_evs
-  updated_at: '1781119333'
+  updated_at: '1781121431'
   units:
-    charging_infrastructure_costs: €/v
-    additional_costs_for_electric_vehicles: €/v
-    additional_costs_for_electric_vehicles_rate: 1/a
-    total_cost_of_ownership: €/vehicle_km
+    up_front_costs_for_evs: dimensionless
     cost_of_driving_a_car_per_kilometre_excluding_fuel: €/vehicle_km
+    charging_infrastructure_costs: €/v
+    total_cost_of_ownership_shares: dimensionless
+    additional_costs_for_electric_vehicles_rate: 1/a
+    additional_costs_for_electric_vehicles: €/v
+    total_cost_of_ownership: €/vehicle_km
+    ev_charging_infrastructure: dimensionless
