@@ -1,0 +1,21 @@
+outs:
+- md5: cd3b1c21323861a3d796519581c60125
+  size: 3467
+  hash: md5
+  path: Building Actions.parquet
+meta:
+  name:
+    en: Building Actions
+  identifier: nzc/Building Actions
+  metrics:
+  - id: 344_top_performance_standard_improvement_compared_
+    column_id: 344_top_performance_standard_improvement_compared_
+    quantity: fraction
+    unit: ''
+    label:
+      en: 3.4.4 Top performance standard improvement compared ...
+  index_columns:
+  - Year
+  updated_at: '1781117617'
+  units:
+    344_top_performance_standard_improvement_compared_: dimensionless
