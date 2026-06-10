@@ -1,6 +1,6 @@
 outs:
-- md5: 142e67a0b5a1b9a7db35f70eb6c90e3a
-  size: 17312
+- md5: 409ae75620eae8b0d0e8ceca6505a899
+  size: 17378
   hash: md5
   path: freight_transport.parquet
 meta:
@@ -18,13 +18,13 @@ meta:
   - average_utilisation
   - freight_labour_cost_fraction
   - utilisation_of_trucks_in_decarbonisation_scenario
-  updated_at: '1781118140'
+  updated_at: '1781118812'
   units:
-    fleet_average_consumption: cl/vehicle_km
-    fuel_consumption_change_of_1_utilisation_change: 1/%
-    total_transportation_need_within_city_road_freight: Mtkm/a
-    new_truck_emission_factor: g/vehicle_km
     freight_transport_noise: €/tkm
-    number_of_trucks_registered_within_city: v
-    freight_transport_traffic_accidents: €/tkm
+    total_transportation_need_within_city_road_freight: Mtkm/a
     max_load_weight: tkm/vehicle_km
+    freight_transport_traffic_accidents: €/tkm
+    number_of_trucks_registered_within_city: v
+    fleet_average_consumption: cl/vehicle_km
+    new_truck_emission_factor: g/vehicle_km
+    fuel_consumption_change_of_1_utilisation_change: 1/%
