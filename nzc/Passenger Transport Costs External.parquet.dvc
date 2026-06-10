@@ -1,0 +1,22 @@
+outs:
+- md5: d53582fdb01e18bfbd770d1cfc5aa919
+  size: 8877
+  hash: md5
+  path: Passenger Transport Costs External.parquet
+meta:
+  name:
+    en: Passenger Transport Costs External
+  identifier: nzc/Passenger Transport Costs External
+  index_columns:
+  - Year
+  - pollutant
+  - cost_type
+  - transport_mode
+  - stakeholder
+  - area_distance
+  - distribution_of_co_benefits
+  updated_at: '1781117646'
+  units:
+    noise: €/pkm
+    traffic_accidents: €/pkm
+    air_pollution_unit_price: €/t
