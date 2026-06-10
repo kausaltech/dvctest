@@ -1,6 +1,6 @@
 outs:
-- md5: 9eefb6aa2dc87102d9c9167fa7fcd173
-  size: 8946
+- md5: 4733f9340ae4bb1567fd4dcdbeedcea3
+  size: 8924
   hash: md5
   path: passenger_transport_costs_external.parquet
 meta:
@@ -14,9 +14,9 @@ meta:
   - transport_mode
   - stakeholder
   - area_distance
-  - distribution_of_co_benefits
-  updated_at: '1781119328'
+  updated_at: '1781121426'
   units:
+    distribution_of_co_benefits: dimensionless
     traffic_accidents: €/pkm
-    air_pollution_unit_price: €/t
     noise: €/pkm
+    air_pollution_unit_price: €/t
