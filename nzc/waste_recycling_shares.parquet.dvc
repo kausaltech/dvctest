@@ -1,5 +1,5 @@
 outs:
-- md5: 975b9cf7663664e1ac37c771e784152b
+- md5: c04909c22d0627d194b9e795fc842e5e
   size: 32323
   hash: md5
   path: waste_recycling_shares.parquet
@@ -127,24 +127,24 @@ meta:
       recycled - Atmospheric emissions Inventory of Madrid City, 2017. Including emissions
       from auxiliary fuel'
   metrics:
-  - id: share_recyclingincinerationlandfill
-    column_id: share_recyclingincinerationlandfill
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share recycling/incineration/landfill
   - id: share_recyclingincinerationlandfill_baseline
     column_id: share_recyclingincinerationlandfill_baseline
     quantity: fraction
     unit: ''
     label:
       en: Share recycling/incineration/landfill baseline
+  - id: share_recyclingincinerationlandfill
+    column_id: share_recyclingincinerationlandfill
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share recycling/incineration/landfill
   index_columns:
   - Year
   - uuid
   - waste_type
   - waste_treatment
-  updated_at: '1781118778'
+  updated_at: '1781119284'
   units:
     share_recyclingincinerationlandfill_baseline: dimensionless
     share_recyclingincinerationlandfill: dimensionless
