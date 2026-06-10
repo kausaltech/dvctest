@@ -1,0 +1,25 @@
+outs:
+- md5: 4a0f610c7337b51ee8734e47edb0cd7b
+  size: 12218
+  hash: md5
+  path: Passenger Transport Costs Ownership.parquet
+meta:
+  name:
+    en: Passenger Transport Costs Ownership
+  identifier: nzc/Passenger Transport Costs Ownership
+  index_columns:
+  - Year
+  - cost_type
+  - transport_mode
+  - energy_carrier
+  - stakeholder
+  - ev_charging_infrastructure
+  - total_cost_of_ownership_shares
+  - up_front_costs_for_evs
+  updated_at: '1781117651'
+  units:
+    cost_of_driving_a_car_per_kilometre_excluding_fuel: €/vehicle_km
+    additional_costs_for_electric_vehicles_rate: 1/a
+    charging_infrastructure_costs: €/v
+    total_cost_of_ownership: €/vehicle_km
+    additional_costs_for_electric_vehicles: €/v
