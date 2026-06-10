@@ -1,29 +1,32 @@
 outs:
-- md5: 7107d5a05b8f005141a6ccfbf2b0fbe5
-  size: 5226
+- md5: a540dbc4043e8453e0885123a4079979
+  size: 5358
   hash: md5
-  path: population.parquet
+  path: Population.parquet
 meta:
   name:
     en: Population
-  identifier: population
+  identifier: nzc/Population
   description:
     en: 'Population - UUID: 3779efa4-9eb0-4f4b-b5d5-eb510461bed8 - Metric: Population
       - 801545'
   metrics:
-  - id: population
-    column_id: population
-    quantity: population
-    unit: inh
-    label:
-      en: Population
   - id: expected_annual_population_growth_up_until_2030
     column_id: expected_annual_population_growth_up_until_2030
     quantity: rate
     unit: 1/a
     label:
       en: Expected annual population growth (up until 2030)
-  updated_at: '1774349652'
+  - id: population
+    column_id: population
+    quantity: population
+    unit: cap
+    label:
+      en: Population
+  index_columns:
+  - Year
+  - uuid
+  updated_at: '1781117286'
   units:
     expected_annual_population_growth_up_until_2030: 1/a
     population: inh
