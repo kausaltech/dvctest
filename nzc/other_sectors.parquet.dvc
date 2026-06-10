@@ -1,25 +1,25 @@
 outs:
-- md5: 916025ef7741961cc0740f3f72a3e16e
-  size: 11471
+- md5: 1cfadf3dc8ea3ea003bcc3636f59a9d9
+  size: 11431
   hash: md5
   path: other_sectors.parquet
 meta:
   name:
-    en: other_sectors
+    en: Other Sectors
   identifier: nzc/other_sectors
   index_columns:
-  - scope
-  - cost_type
-  - heating_type
+  - Year
   - uuid
   - pollutant
+  - scope
+  - cost_type
   - aggregated_cost_type
-  - greenhouse_gas
+  - ghg
+  - heating_type
   - area_distance
-  - Year
   - aggregated_cost_types
   - air_pollutant_distance_index
-  updated_at: '1781082807'
+  updated_at: '1781118145'
   units:
-    value_of_co2_reduction: €/t
     emissions_from_other_sectors: kt/a
+    value_of_co2_reduction: €/t
