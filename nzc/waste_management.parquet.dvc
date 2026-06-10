@@ -1,26 +1,26 @@
 outs:
-- md5: f4e340d42f3769635f11f79a2855ae41
-  size: 12805
+- md5: 51dff611a00b0a0ad3c5e222f342092a
+  size: 12748
   hash: md5
   path: waste_management.parquet
 meta:
   name:
-    en: waste_management
+    en: Waste Management
   identifier: nzc/waste_management
   index_columns:
+  - Year
+  - uuid
+  - pollutant
   - cost_type
   - energy_carrier
   - stakeholder
-  - uuid
-  - pollutant
   - waste_type
   - waste_treatment
-  - Year
   - waste_recycling
   - waste_emission_factor
-  updated_at: '1781082829'
+  updated_at: '1781118165'
   units:
     prices_of_sorted_waste: €/t
+    emission_factors_from_waste_management: kg/t
     total_collected_waste_within_city_boundaries_by_type: t/a
     waste_management_costs: €/t
-    emission_factors_from_waste_management: kg/t
