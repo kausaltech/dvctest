@@ -1,6 +1,6 @@
 outs:
-- md5: 51dff611a00b0a0ad3c5e222f342092a
-  size: 12748
+- md5: 96eb772b3e88ffff27b0547704827fea
+  size: 12813
   hash: md5
   path: waste_management.parquet
 meta:
@@ -18,9 +18,9 @@ meta:
   - waste_treatment
   - waste_recycling
   - waste_emission_factor
-  updated_at: '1781118165'
+  updated_at: '1781118836'
   units:
+    waste_management_costs: €/t
+    total_collected_waste_within_city_boundaries_by_type: t/a
     prices_of_sorted_waste: €/t
     emission_factors_from_waste_management: kg/t
-    total_collected_waste_within_city_boundaries_by_type: t/a
-    waste_management_costs: €/t
