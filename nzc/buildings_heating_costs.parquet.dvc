@@ -1,5 +1,5 @@
 outs:
-- md5: 8b47e1957121a44bf36e9a15b23d7d5e
+- md5: 30a520a8a06e829cecb54d0942b4c66e
   size: 32205
   hash: md5
   path: buildings_heating_costs.parquet
@@ -103,36 +103,36 @@ meta:
     unit: €/MWh
     label:
       en: Un-levelized capital cost of heating
-  - id: scope_of_energy_carriers
-    column_id: scope_of_energy_carriers
-    quantity: fraction
-    unit: ''
-    label:
-      en: Scope of energy carriers
-  - id: un_levelised_costs_of_decarbonised_heating
-    column_id: un_levelised_costs_of_decarbonised_heating
-    quantity: unit_price
-    unit: €/MWh
-    label:
-      en: (Un-levelised) costs of Decarbonised heating
   - id: heating_costs
     column_id: heating_costs
     quantity: fraction
     unit: ''
     label:
       en: heating costs
-  - id: un_levelized_capital_cost_of_heating_network
-    column_id: un_levelized_capital_cost_of_heating_network
+  - id: un_levelised_costs_of_decarbonised_heating
+    column_id: un_levelised_costs_of_decarbonised_heating
     quantity: unit_price
     unit: €/MWh
     label:
-      en: Un-levelized capital cost of heating network
+      en: (Un-levelised) costs of Decarbonised heating
+  - id: scope_of_energy_carriers
+    column_id: scope_of_energy_carriers
+    quantity: fraction
+    unit: ''
+    label:
+      en: Scope of energy carriers
   - id: share_of_current_fossil_production_that_would_need_t
     column_id: share_of_current_fossil_production_that_would_need_t
     quantity: fraction
     unit: ''
     label:
       en: Share of current fossil production that would need t...
+  - id: un_levelized_capital_cost_of_heating_network
+    column_id: un_levelized_capital_cost_of_heating_network
+    quantity: unit_price
+    unit: €/MWh
+    label:
+      en: Un-levelized capital cost of heating network
   index_columns:
   - Year
   - uuid
@@ -141,11 +141,11 @@ meta:
   - energy_carrier
   - stakeholder
   - heating_type
-  updated_at: '1781118797'
+  updated_at: '1781119304'
   units:
-    un_levelised_costs_of_decarbonised_heating: EUR/MWh
-    heating_costs: dimensionless
-    un_levelized_capital_cost_of_heating: EUR/MWh
-    un_levelized_capital_cost_of_heating_network: EUR/MWh
-    scope_of_energy_carriers: dimensionless
     share_of_current_fossil_production_that_would_need_t: dimensionless
+    un_levelized_capital_cost_of_heating: EUR/MWh
+    heating_costs: dimensionless
+    scope_of_energy_carriers: dimensionless
+    un_levelized_capital_cost_of_heating_network: EUR/MWh
+    un_levelised_costs_of_decarbonised_heating: EUR/MWh
