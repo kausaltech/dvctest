@@ -1,6 +1,6 @@
 outs:
-- md5: 1cfadf3dc8ea3ea003bcc3636f59a9d9
-  size: 11431
+- md5: a0ea3daac1699771b8d93f0f1ab7a6b7
+  size: 11501
   hash: md5
   path: other_sectors.parquet
 meta:
@@ -19,7 +19,7 @@ meta:
   - area_distance
   - aggregated_cost_types
   - air_pollutant_distance_index
-  updated_at: '1781118145'
+  updated_at: '1781118817'
   units:
     emissions_from_other_sectors: kt/a
     value_of_co2_reduction: €/t
