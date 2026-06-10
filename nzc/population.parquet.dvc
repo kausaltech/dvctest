@@ -1,5 +1,5 @@
 outs:
-- md5: 0429abbd9ac52663fb5d1e8dd038a326
+- md5: 9c116663837195c5302a309f72c9f61c
   size: 5432
   hash: md5
   path: population.parquet
@@ -26,7 +26,7 @@ meta:
   index_columns:
   - Year
   - uuid
-  updated_at: '1781119253'
+  updated_at: '1781121353'
   units:
-    population: inh
     expected_annual_population_growth_up_until_2030: 1/a
+    population: inh
