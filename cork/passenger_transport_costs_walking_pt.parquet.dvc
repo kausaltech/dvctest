@@ -1,0 +1,82 @@
+outs:
+- md5: ccf649d44eae35ed72303ca6be948403
+  size: 16492
+  hash: md5
+  path: passenger_transport_costs_walking_pt.parquet
+meta:
+  name:
+    en: Passenger Transport Costs Walking Pt
+  identifier: cork/passenger_transport_costs_walking_pt
+  description:
+    en: 'fuel unit price - Cost type: opex - 1: 1.22 - Metric: fuel unit price - Eurostat
+      (2019) - Electricity prices for household consumers<br/>Total Average cost of
+      cycling/walking - Cost type: capex - Transport mode: walking - 1: 0.01937903953
+      - Metric: Total Average cost of cycling/walking - Gössling et.al. (2018). The
+      social cost of automobility, cycling and walking in the European Union. https://www.researchgate.net/publication/330184791_The_Social_Cost_of_Automobility_Cycling_and_Walking_in_the_European_Union.
+      Victoria Transport Policy Institute (2017): Transportation Cost and Benefit
+      Analysis II – Vehicle Costs. https://www.vtpi.org/tca/tca0501.pdf<br/>investment
+      costs in walking & cycling - Cost type: capex - Transport mode: walking - Stakeholder:
+      citizens - 1: 0.9 - Metric: investment costs in walking & cycling - Rationale<br/>investment
+      costs in walking & cycling - Cost type: capex - Transport mode: walking - Stakeholder:
+      property_owners - 1: 0.0 - Metric: investment costs in walking & cycling - Majority
+      of investment costs attributed to citizens as while cities pay for infrastructure
+      (0.002 €/km), private persons pay for bicycles, gear, etc. (0.017 €/km)<br/>investment
+      costs in walking & cycling - Cost type: capex - Transport mode: walking - Stakeholder:
+      cities - 1: 0.1 - Metric: investment costs in walking & cycling - Do we need
+      to confirm with cities?<br/>investment costs in walking & cycling - Cost type:
+      capex - Transport mode: walking - Stakeholder: healthcare_providers - 1: 0.0
+      - Metric: investment costs in walking & cycling - Yes<br/>public transport operation
+      costs - Cost type: opex - Transport mode: public_transport - Stakeholder: citizens
+      - 1: 0.0 - Metric: public transport operation costs - Rationale<br/>public transport
+      operation costs - Cost type: opex - Transport mode: public_transport - Stakeholder:
+      property_owners - 1: 0.0 - Metric: public transport operation costs - Assuming
+      transport operators taking full costs (however citizens using public transport
+      often pay for some of OPEX - Very dependent on city)<br/>public transport operation
+      costs - Cost type: opex - Transport mode: public_transport - Stakeholder: cities
+      - 1: 0.0 - Metric: public transport operation costs - Do we need to confirm
+      with cities?<br/>public transport operation costs - Cost type: opex - Transport
+      mode: public_transport - Stakeholder: healthcare_providers - 1: 0.0 - Metric:
+      public transport operation costs - Yes'
+  metrics:
+  - id: total_average_cost_of_cyclingwalking
+    column_id: total_average_cost_of_cyclingwalking
+    quantity: unit_price
+    unit: €/pkm
+    label:
+      en: Total Average cost of cycling/walking
+  - id: fuel_unit_price
+    column_id: fuel_unit_price
+    quantity: unit_price
+    unit: €/l
+    label:
+      en: fuel unit price
+  - id: investment_costs_in_walking_cycling
+    column_id: investment_costs_in_walking_cycling
+    quantity: fraction
+    unit: ''
+    label:
+      en: investment costs in walking & cycling
+  - id: public_transport_operation_costs
+    column_id: public_transport_operation_costs
+    quantity: fraction
+    unit: ''
+    label:
+      en: public transport operation costs
+  - id: average_value_of_increased_walkingcycling
+    column_id: average_value_of_increased_walkingcycling
+    quantity: unit_price
+    unit: €/pkm
+    label:
+      en: Average value of increased walking/cycling
+  index_columns:
+  - cost_type
+  - transport_mode
+  - stakeholder
+  - Year
+  updated_at: '1782459425'
+  units:
+    average_value_of_increased_walkingcycling: EUR/pkm
+    investment_costs_in_walking_cycling: dimensionless
+    public_transport_operation_costs: dimensionless
+    total_average_cost_of_cyclingwalking: EUR/pkm
+    fuel_unit_price: EUR/l
