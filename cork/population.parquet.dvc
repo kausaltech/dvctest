@@ -1,0 +1,32 @@
+outs:
+- md5: e5cd84019806213841000f1c1e7c1cd7
+  size: 5326
+  hash: md5
+  path: population.parquet
+meta:
+  name:
+    en: Population
+  identifier: cork/population
+  description:
+    en: 'Population - UUID: 3779efa4-9eb0-4f4b-b5d5-eb510461bed8 - 1: 227062.6582
+      - Metric: Population - 801545'
+  metrics:
+  - id: expected_annual_population_growth_up_until_2030
+    column_id: expected_annual_population_growth_up_until_2030
+    quantity: rate
+    unit: 1/a
+    label:
+      en: Expected annual population growth (up until 2030)
+  - id: population
+    column_id: population
+    quantity: population
+    unit: cap
+    label:
+      en: Population
+  index_columns:
+  - uuid
+  - Year
+  updated_at: '1782459205'
+  units:
+    population: inh
+    expected_annual_population_growth_up_until_2030: 1/a
