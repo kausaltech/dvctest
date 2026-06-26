@@ -11,3 +11,4 @@
 /buildings_stock_renovation.parquet
 /electricity.parquet
 /buildings_heating_fuel_tech.parquet
+/buildings_heating_emission_factors.parquet
