@@ -1,0 +1,22 @@
+outs:
+- md5: ef763888e356be3e9161990de3fe45c1
+  size: 4221
+  hash: md5
+  path: other_actions.parquet
+meta:
+  name:
+    en: Other Actions
+  identifier: cork/other_actions
+  metrics:
+  - id: reduced_co2e_emissions_committed_by_industry_agricu
+    column_id: reduced_co2e_emissions_committed_by_industry_agricu
+    quantity: fraction
+    unit: ''
+    label:
+      en: Reduced CO2e emissions committed by Industry, Agricu...
+  index_columns:
+  - uuid
+  - Year
+  updated_at: '1782459420'
+  units:
+    reduced_co2e_emissions_committed_by_industry_agricu: dimensionless
