@@ -1,0 +1,21 @@
+outs:
+- md5: 16d2dffc00e27def956709070652a79b
+  size: 3556
+  hash: md5
+  path: building_actions.parquet
+meta:
+  name:
+    en: Building Actions
+  identifier: cork/building_actions
+  metrics:
+  - id: 344_top_performance_standard_improvement_compared_
+    column_id: 344_top_performance_standard_improvement_compared_
+    quantity: fraction
+    unit: ''
+    label:
+      en: 3.4.4 Top performance standard improvement compared ...
+  index_columns:
+  - Year
+  updated_at: '1782459405'
+  units:
+    344_top_performance_standard_improvement_compared_: dimensionless

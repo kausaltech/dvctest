@@ -17,3 +17,4 @@
 /other_sectors.parquet
 /transport_actions.parquet
 /buildings_materials_costs.parquet
+/building_actions.parquet
