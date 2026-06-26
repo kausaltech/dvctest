@@ -1,0 +1,24 @@
+outs:
+- md5: 72adce6753353a913f5dca1fd40ec75b
+  size: 4903
+  hash: md5
+  path: incidence.parquet
+meta:
+  name:
+    en: Incidence
+  identifier: hia/incidence
+  metrics:
+  - id: incidence
+    column_id: incidence
+    quantity: incidence
+    unit: case/py
+    label:
+      en: Incidence
+  index_columns:
+  - response
+  - place
+  - population
+  - Year
+  updated_at: '1782489358'
+  units:
+    incidence: case/personyear
