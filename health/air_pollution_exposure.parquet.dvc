@@ -1,0 +1,22 @@
+outs:
+- md5: 6840a583388f8cae99ec045aa7b6b193
+  size: 3948
+  hash: md5
+  path: air_pollution_exposure.parquet
+meta:
+  name:
+    en: placeholders/Air pollution exposure
+  identifier: health/air_pollution_exposure
+  metrics:
+  - id: air_pollution_exposure
+    column_id: air_pollution_exposure
+    quantity: exposure
+    unit: µg/m³
+    label:
+      en: Air pollution exposure
+  index_columns:
+  - Year
+  - pollutant
+  updated_at: '1782535926'
+  units:
+    air_pollution_exposure: ug/m**3
