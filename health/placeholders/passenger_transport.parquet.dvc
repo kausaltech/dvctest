@@ -1,0 +1,22 @@
+outs:
+- md5: eae6dedffaea48707f3da011b9270800
+  size: 3982
+  hash: md5
+  path: passenger_transport.parquet
+meta:
+  name:
+    en: placeholders/Passenger transport
+  identifier: health/placeholders/passenger_transport
+  metrics:
+  - id: passenger_transport
+    column_id: passenger_transport
+    quantity: mileage
+    unit: Mpkm/a
+    label:
+      en: Passenger transport
+  index_columns:
+  - Year
+  - transport_mode
+  updated_at: '1782540967'
+  units:
+    passenger_transport: Mpkm/a
