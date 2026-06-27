@@ -1,0 +1,60 @@
+outs:
+- md5: 76f8cb20949efa2f504b21ff90f67f65
+  size: 9971
+  hash: md5
+  path: air_pollution_erf.parquet
+meta:
+  name:
+    en: Air pollution ERF
+  identifier: health/air_pollution_erf
+  metrics:
+  - id: threshold
+    column_id: threshold
+    quantity: exposure_response
+    unit: µg/m³
+    label:
+      en: Threshold
+  - id: eurcase
+    column_id: eurcase
+    quantity: exposure_response
+    unit: €/case
+    label:
+      en: EUR/case
+  - id: dalycase
+    column_id: dalycase
+    quantity: exposure_response
+    unit: DALY/case
+    label:
+      en: DALY/case
+  - id: rr_min
+    column_id: rr_min
+    quantity: exposure_response
+    unit: ''
+    label:
+      en: Rr_min
+  - id: period
+    column_id: period
+    quantity: exposure_response
+    unit: a
+    label:
+      en: Period
+  - id: beta
+    column_id: beta
+    quantity: exposure_response
+    unit: m³/µg
+    label:
+      en: Beta
+  index_columns:
+  - Year
+  - pollutant
+  - response
+  - route
+  - er_function
+  updated_at: '1782534575'
+  units:
+    dalycase: DALY/case
+    eurcase: EUR/case
+    beta: m**3/ug
+    rr_min: dimensionless
+    threshold: ug/m**3
+    period: a
