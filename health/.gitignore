@@ -8,3 +8,4 @@
 /health_outcome_unit_price.parquet
 /responses_vs_cost_types.parquet
 /transport_emissions.parquet
+/power_plant_emissions.parquet
