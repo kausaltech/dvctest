@@ -1,0 +1,22 @@
+outs:
+- md5: 46ddd17ed1651906d8da1fee52d19609
+  size: 4082
+  hash: md5
+  path: health_outcome_unit_price.parquet
+meta:
+  name:
+    en: Health outcome unit price
+  identifier: health/health_outcome_unit_price
+  metrics:
+  - id: health_outcome_unit_price
+    column_id: health_outcome_unit_price
+    quantity: unit_price
+    unit: €/case
+    label:
+      en: Health outcome unit price
+  index_columns:
+  - Year
+  - response
+  updated_at: '1782535907'
+  units:
+    health_outcome_unit_price: EUR/case
