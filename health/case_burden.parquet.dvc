@@ -1,5 +1,5 @@
 outs:
-- md5: 0f5ae74e9391923cd435572ea6220e87
+- md5: 3837ffffdf49b951e9513f9debc61f2f
   size: 3800
   hash: md5
   path: case_burden.parquet
@@ -17,6 +17,6 @@ meta:
   index_columns:
   - Year
   - response
-  updated_at: '1782534714'
+  updated_at: '1782534853'
   units:
     case_burden: DALY/case
