@@ -1,0 +1,24 @@
+outs:
+- md5: bcd11f9037c944916014d72db0b1fe1f
+  size: 5473
+  hash: md5
+  path: intake_fraction.parquet
+meta:
+  name:
+    en: Intake fraction
+  identifier: health/intake_fraction
+  metrics:
+  - id: intake_fraction
+    column_id: intake_fraction
+    quantity: fraction
+    unit: ppm
+    label:
+      en: Intake fraction
+  index_columns:
+  - Year
+  - pollutant
+  - emission_height
+  - population_density
+  updated_at: '1782533767'
+  units:
+    intake_fraction: ppm
