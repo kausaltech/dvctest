@@ -1,0 +1,22 @@
+outs:
+- md5: 87f54210ec41dfd2b624bec27bb0f799
+  size: 3800
+  hash: md5
+  path: case_burden.parquet
+meta:
+  name:
+    en: Case burden
+  identifier: health/case_burden
+  metrics:
+  - id: case_burden
+    column_id: case_burden
+    quantity: case_burden
+    unit: DALY/case
+    label:
+      en: Case burden
+  index_columns:
+  - Year
+  - response
+  updated_at: '1782533777'
+  units:
+    case_burden: DALY/case
