@@ -1,5 +1,5 @@
 outs:
-- md5: 25bae24b195b4d79ee74ee76418b4b99
+- md5: 30cabdd8223f1a18eef5682dd9683ab7
   size: 6499
   hash: md5
   path: active_mobility.parquet
@@ -14,24 +14,24 @@ meta:
     unit: km/h
     label:
       en: Average speed
-  - id: fraction_of_movers
-    column_id: fraction_of_movers
-    quantity: fraction
-    unit: ''
-    label:
-      en: Fraction of movers
   - id: moving_distance
     column_id: moving_distance
     quantity: mileage
     unit: km/cap/d
     label:
       en: Moving distance
+  - id: fraction_of_movers
+    column_id: fraction_of_movers
+    quantity: fraction
+    unit: ''
+    label:
+      en: Fraction of movers
   index_columns:
   - Year
   - transport_mode
   - age
-  updated_at: '1782534565'
+  updated_at: '1782534719'
   units:
-    moving_distance: km/person/d
-    average_speed: km/h
     fraction_of_movers: dimensionless
+    average_speed: km/h
+    moving_distance: km/person/d
