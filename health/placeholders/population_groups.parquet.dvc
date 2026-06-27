@@ -1,0 +1,22 @@
+outs:
+- md5: 5427945fccfbaa5df3d856edc36be4e9
+  size: 3783
+  hash: md5
+  path: population_groups.parquet
+meta:
+  name:
+    en: placeholders/Population groups
+  identifier: health/placeholders/population_groups
+  metrics:
+  - id: population_groups
+    column_id: population_groups
+    quantity: population
+    unit: cap
+    label:
+      en: Population groups
+  index_columns:
+  - Year
+  - age
+  updated_at: '1782540992'
+  units:
+    population_groups: inh
