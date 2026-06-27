@@ -1,5 +1,5 @@
 outs:
-- md5: 1b05f50da10b237fdf6217971c52e981
+- md5: a468baac8eac158f838dc635dfe03388
   size: 6499
   hash: md5
   path: active_mobility.parquet
@@ -30,7 +30,7 @@ meta:
   - Year
   - transport_mode
   - age
-  updated_at: '1782533782'
+  updated_at: '1782533940'
   units:
     average_speed: km/h
     fraction_of_movers: dimensionless
