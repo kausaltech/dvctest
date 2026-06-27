@@ -1,5 +1,5 @@
 outs:
-- md5: 9711136d603bdac543aa7958dbadb25c
+- md5: 0723117ba92102dfcb30b46c0a771f43
   size: 9971
   hash: md5
   path: air_pollution_erf.parquet
@@ -8,30 +8,12 @@ meta:
     en: Air pollution ERF
   identifier: health/air_pollution_erf
   metrics:
-  - id: eurcase
-    column_id: eurcase
-    quantity: exposure_response
-    unit: €/case
-    label:
-      en: EUR/case
   - id: rr_min
     column_id: rr_min
     quantity: exposure_response
     unit: ''
     label:
       en: Rr_min
-  - id: dalycase
-    column_id: dalycase
-    quantity: exposure_response
-    unit: DALY/case
-    label:
-      en: DALY/case
-  - id: threshold
-    column_id: threshold
-    quantity: exposure_response
-    unit: µg/m³
-    label:
-      en: Threshold
   - id: period
     column_id: period
     quantity: exposure_response
@@ -44,17 +26,35 @@ meta:
     unit: m³/µg
     label:
       en: Beta
+  - id: dalycase
+    column_id: dalycase
+    quantity: exposure_response
+    unit: DALY/case
+    label:
+      en: DALY/case
+  - id: threshold
+    column_id: threshold
+    quantity: exposure_response
+    unit: µg/m³
+    label:
+      en: Threshold
+  - id: eurcase
+    column_id: eurcase
+    quantity: exposure_response
+    unit: €/case
+    label:
+      en: EUR/case
   index_columns:
   - Year
   - pollutant
   - response
   - route
   - er_function
-  updated_at: '1782534728'
+  updated_at: '1782534867'
   units:
-    eurcase: EUR/case
-    beta: m**3/ug
-    dalycase: DALY/case
-    period: a
-    threshold: ug/m**3
     rr_min: dimensionless
+    threshold: ug/m**3
+    eurcase: EUR/case
+    dalycase: DALY/case
+    beta: m**3/ug
+    period: a
