@@ -1,5 +1,5 @@
 outs:
-- md5: ee3ff76dfa4265e7ad11f5b5c5a233bd
+- md5: 19a62bc24f1a4d39ead850eeedf9d824
   size: 3750
   hash: md5
   path: population_groups.parquet
@@ -17,6 +17,6 @@ meta:
   index_columns:
   - Year
   - age
-  updated_at: '1782534848'
+  updated_at: '1782535878'
   units:
     population_groups: inh
