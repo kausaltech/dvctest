@@ -1,0 +1,21 @@
+outs:
+- md5: 171f6da4d0557082a2feba579db0d692
+  size: 3190
+  hash: md5
+  path: power_plant_emissions.parquet
+meta:
+  name:
+    en: placeholders/Power plant emissions
+  identifier: health/placeholders/power_plant_emissions
+  metrics:
+  - id: power_plant_emissions
+    column_id: power_plant_emissions
+    quantity: emissions
+    unit: kt/a
+    label:
+      en: Power plant emissions
+  index_columns:
+  - Year
+  updated_at: '1782540901'
+  units:
+    power_plant_emissions: kt/a
