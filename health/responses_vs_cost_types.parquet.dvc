@@ -1,0 +1,23 @@
+outs:
+- md5: e4f1d0870b65c5592086d1702d24879e
+  size: 4844
+  hash: md5
+  path: responses_vs_cost_types.parquet
+meta:
+  name:
+    en: Responses vs cost types
+  identifier: health/responses_vs_cost_types
+  metrics:
+  - id: responses_vs_cost_types
+    column_id: responses_vs_cost_types
+    quantity: fraction
+    unit: ''
+    label:
+      en: Responses vs cost types
+  index_columns:
+  - Year
+  - response
+  - cost_type
+  updated_at: '1782535912'
+  units:
+    responses_vs_cost_types: dimensionless

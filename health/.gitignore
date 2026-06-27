@@ -6,3 +6,4 @@
 /air_pollution_erf.parquet
 /heat_health_factor.parquet
 /health_outcome_unit_price.parquet
+/responses_vs_cost_types.parquet
