@@ -1,0 +1,23 @@
+outs:
+- md5: 560a008f98ecb25cc761c70071d2fcbc
+  size: 4946
+  hash: md5
+  path: heat_health_factor.parquet
+meta:
+  name:
+    en: HEAT health factor
+  identifier: health/heat_health_factor
+  metrics:
+  - id: heat_health_factor
+    column_id: heat_health_factor
+    quantity: exposure_response
+    unit: cap·d·incidence_unit/min
+    label:
+      en: HEAT health factor
+  index_columns:
+  - Year
+  - response
+  - transport_mode
+  updated_at: '1782535902'
+  units:
+    heat_health_factor: incidence_unit/(min/d/person)
