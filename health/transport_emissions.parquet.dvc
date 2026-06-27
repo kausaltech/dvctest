@@ -1,0 +1,21 @@
+outs:
+- md5: 9df00e2174abf0d1144b7a30ae0b101e
+  size: 3127
+  hash: md5
+  path: transport_emissions.parquet
+meta:
+  name:
+    en: placeholders/Transport emissions
+  identifier: health/transport_emissions
+  metrics:
+  - id: transport_emissions
+    column_id: transport_emissions
+    quantity: emissions
+    unit: kt/a
+    label:
+      en: Transport emissions
+  index_columns:
+  - Year
+  updated_at: '1782535916'
+  units:
+    transport_emissions: kt/a
