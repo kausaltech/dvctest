@@ -1,5 +1,5 @@
 outs:
-- md5: 40929bfd1fe058155e334c1372189760
+- md5: 6c610dcec5b88a6e84d3a25ce35bfdd7
   size: 4905
   hash: md5
   path: incidence.parquet
@@ -19,6 +19,6 @@ meta:
   - response
   - place
   - population
-  updated_at: '1782533944'
+  updated_at: '1782534570'
   units:
     incidence: case/personyear
