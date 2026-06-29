@@ -1,6 +1,6 @@
 outs:
-- md5: f9f6e8ba3360c7d22e1a9b213c1b5ef6
-  size: 33063
+- md5: 3ec493261ce9b0b5915d6eb167d5382a
+  size: 33454
   hash: md5
   path: buildings_heating_costs.parquet
 meta:
@@ -10,106 +10,106 @@ meta:
   description:
     en: 'Share of current fossil production that would need t... - Energy carrier:
       fossil - Heating type: district_heating - UUID: 619aa8c7-c144-4392-91d0-c4e472f0fc6a
-      - 1: 1.0 - Metric: Share of current fossil production that would need t... -
-      Valencia forecast assumption - 2030<br/>Share of current fossil production that
-      would need t... - Energy carrier: fossil - Heating type: local_heating - UUID:
-      1022da3a-c71a-4734-aef7-f00e90cdc81b - 1: 0.5 - Metric: Share of current fossil
-      production that would need t... - Assumption, based on an assumed lifetime of
-      ~20 years<br/>heating costs - Cost type: capex - Stakeholder: citizens - Heating
-      type: district_heating - 1: 0.0 - Metric: heating costs - Rationale<br/>heating
+      - 2023: 1.0 - Metric: Share of current fossil production that would need t...
+      - Valencia forecast assumption - 2030<br/>Share of current fossil production
+      that would need t... - Energy carrier: fossil - Heating type: local_heating
+      - UUID: 1022da3a-c71a-4734-aef7-f00e90cdc81b - 2023: 0.5 - Metric: Share of
+      current fossil production that would need t... - Assumption, based on an assumed
+      lifetime of ~20 years<br/>heating costs - Cost type: capex - Stakeholder: citizens
+      - Heating type: district_heating - 2023: 0.0 - Metric: heating costs - Rationale<br/>heating
       costs - Cost type: capex - Stakeholder: property_owners - Heating type: district_heating
-      - 1: 0.0 - Metric: heating costs - Utilities will primarily need to stand for
-      the investments made to expand & decarbonise district heating as they typically
+      - 2023: 0.0 - Metric: heating costs - Utilities will primarily need to stand
+      for the investments made to expand & decarbonise district heating as they typically
       own it. Cities will likely share a minority of the costs <br/>heating costs
       - Cost type: capex - Stakeholder: cities - Heating type: district_heating -
-      1: 0.2 - Metric: heating costs - Do we need to confirm with cities?<br/>heating
+      2023: 0.2 - Metric: heating costs - Do we need to confirm with cities?<br/>heating
       costs - Cost type: capex - Stakeholder: healthcare_providers - Heating type:
-      district_heating - 1: 0.0 - Metric: heating costs - Yes<br/>heating costs -
-      Cost type: capex - Stakeholder: citizens - Heating type: local_heating - 1:
+      district_heating - 2023: 0.0 - Metric: heating costs - Yes<br/>heating costs
+      - Cost type: capex - Stakeholder: citizens - Heating type: local_heating - 2023:
       0.7 - Metric: heating costs - Rationale<br/>heating costs - Cost type: capex
-      - Stakeholder: property_owners - Heating type: local_heating - 1: 0.25 - Metric:
-      heating costs - According to the ECV, the proportion of renting households in
-      2018 amounted to 23.6% in Madrid. Cities own some buildings. Assume investments
+      - Stakeholder: property_owners - Heating type: local_heating - 2023: 0.25 -
+      Metric: heating costs - According to the ECV, the proportion of renting households
+      in 2018 amounted to 23.6% in Madrid. Cities own some buildings. Assume investments
       are made by the owner<br/>heating costs - Cost type: capex - Stakeholder: cities
-      - Heating type: local_heating - 1: 0.05 - Metric: heating costs - Do we need
+      - Heating type: local_heating - 2023: 0.05 - Metric: heating costs - Do we need
       to confirm with cities?<br/>heating costs - Cost type: capex - Stakeholder:
-      healthcare_providers - Heating type: local_heating - 1: 0.0 - Metric: heating
+      healthcare_providers - Heating type: local_heating - 2023: 0.0 - Metric: heating
       costs - Yes<br/>heating costs - Cost type: capex - Stakeholder: utilities -
-      Heating type: local_heating - 1: 0.0 - Metric: heating costs - Source: https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/InformesBoletinesRevistas/ArticulosAnaliticos/19/T3/descargar/Files/be1903-art25e.pdf<br/>heating
+      Heating type: local_heating - 2023: 0.0 - Metric: heating costs - Source: https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/InformesBoletinesRevistas/ArticulosAnaliticos/19/T3/descargar/Files/be1903-art25e.pdf<br/>heating
       costs - Cost type: opex - Stakeholder: citizens - Heating type: district_heating
-      - 1: 0.0 - Metric: heating costs - Rationale<br/>heating costs - Cost type:
-      opex - Stakeholder: property_owners - Heating type: district_heating - 1: 0.0
-      - Metric: heating costs - Utilities operate the district heating system and
-      will receive the benefits<br/>heating costs - Cost type: opex - Stakeholder:
-      cities - Heating type: district_heating - 1: 0.0 - Metric: heating costs - Do
-      we need to confirm with cities?<br/>heating costs - Cost type: opex - Stakeholder:
-      healthcare_providers - Heating type: district_heating - 1: 0.0 - Metric: heating
-      costs - Yes<br/>heating costs - Cost type: opex - Stakeholder: citizens - Heating
-      type: local_heating - 1: 0.7 - Metric: heating costs - Rationale<br/>heating
+      - 2023: 0.0 - Metric: heating costs - Rationale<br/>heating costs - Cost type:
+      opex - Stakeholder: property_owners - Heating type: district_heating - 2023:
+      0.0 - Metric: heating costs - Utilities operate the district heating system
+      and will receive the benefits<br/>heating costs - Cost type: opex - Stakeholder:
+      cities - Heating type: district_heating - 2023: 0.0 - Metric: heating costs
+      - Do we need to confirm with cities?<br/>heating costs - Cost type: opex - Stakeholder:
+      healthcare_providers - Heating type: district_heating - 2023: 0.0 - Metric:
+      heating costs - Yes<br/>heating costs - Cost type: opex - Stakeholder: citizens
+      - Heating type: local_heating - 2023: 0.7 - Metric: heating costs - Rationale<br/>heating
       costs - Cost type: opex - Stakeholder: property_owners - Heating type: local_heating
-      - 1: 0.25 - Metric: heating costs - Citizens mainly benefit from lower energy
+      - 2023: 0.25 - Metric: heating costs - Citizens mainly benefit from lower energy
       bills given that in existing residential buildings rents are often controlled
       in some form. Property owners get some of the benefits from being able to increase
       the rents on non-residential buildings<br/>heating costs - Cost type: opex -
-      Stakeholder: cities - Heating type: local_heating - 1: 0.05 - Metric: heating
+      Stakeholder: cities - Heating type: local_heating - 2023: 0.05 - Metric: heating
       costs - Do we need to confirm with cities?<br/>heating costs - Cost type: opex
-      - Stakeholder: healthcare_providers - Heating type: local_heating - 1: 0.0 -
-      Metric: heating costs - Yes<br/>(Un-levelised) costs of Decarbonised heating
+      - Stakeholder: healthcare_providers - Heating type: local_heating - 2023: 0.0
+      - Metric: heating costs - Yes<br/>(Un-levelised) costs of Decarbonised heating
       - Cost type: opex - Energy carrier: fossil - Heating type: district_heating
-      - 1: 65.55830533 - Metric: (Un-levelised) costs of Decarbonised heating - Calculated
-      based on average costs in Europe.<br/>(Un-levelised) costs of Decarbonised heating
-      - Cost type: opex - Energy carrier: electricity - Heating type: district_heating
-      - 1: 40.50413574 - Metric: (Un-levelised) costs of Decarbonised heating - Calculated
-      based on average costs in Europe.<br/>(Un-levelised) costs of Decarbonised heating
-      - Cost type: opex - Energy carrier: bioenergy - Heating type: district_heating
-      - 1: 81.76500451 - Metric: (Un-levelised) costs of Decarbonised heating - Calculated
-      based on average costs in Europe.<br/>(Un-levelised) costs of Decarbonised heating
-      - Cost type: opex - Energy carrier: waste - Heating type: district_heating -
-      1: -17.17783991 - Metric: (Un-levelised) costs of Decarbonised heating - Calculated
-      based on average costs in Europe.<br/>(Un-levelised) costs of Decarbonised heating
-      - Cost type: opex - Energy carrier: fossil - Heating type: local_heating - 1:
-      73.71336501 - Metric: (Un-levelised) costs of Decarbonised heating - Calculated
-      based on average costs in Europe.<br/>(Un-levelised) costs of Decarbonised heating
-      - Cost type: opex - Energy carrier: electricity - Heating type: local_heating
-      - 1: 61.43158784 - Metric: (Un-levelised) costs of Decarbonised heating - Calculated
-      based on average costs in Europe.<br/>(Un-levelised) costs of Decarbonised heating
-      - Cost type: opex - Energy carrier: bioenergy - Heating type: local_heating
-      - 1: 46.7888036 - Metric: (Un-levelised) costs of Decarbonised heating - Calculated
-      based on average costs in Europe.<br/>Un-levelized capital cost of heating -
-      Cost type: capex - Energy carrier: fossil - Heating type: district_heating -
-      1: 445.6507862 - Metric: Un-levelized capital cost of heating - Assumption<br/>Un-levelized
+      - 2023: 65.55830533 - Metric: (Un-levelised) costs of Decarbonised heating -
+      Calculated based on average costs in Europe.<br/>(Un-levelised) costs of Decarbonised
+      heating - Cost type: opex - Energy carrier: electricity - Heating type: district_heating
+      - 2023: 40.50413574 - Metric: (Un-levelised) costs of Decarbonised heating -
+      Calculated based on average costs in Europe.<br/>(Un-levelised) costs of Decarbonised
+      heating - Cost type: opex - Energy carrier: bioenergy - Heating type: district_heating
+      - 2023: 81.76500451 - Metric: (Un-levelised) costs of Decarbonised heating -
+      Calculated based on average costs in Europe.<br/>(Un-levelised) costs of Decarbonised
+      heating - Cost type: opex - Energy carrier: waste - Heating type: district_heating
+      - 2023: -17.17783991 - Metric: (Un-levelised) costs of Decarbonised heating
+      - Calculated based on average costs in Europe.<br/>(Un-levelised) costs of Decarbonised
+      heating - Cost type: opex - Energy carrier: fossil - Heating type: local_heating
+      - 2023: 73.71336501 - Metric: (Un-levelised) costs of Decarbonised heating -
+      Calculated based on average costs in Europe.<br/>(Un-levelised) costs of Decarbonised
+      heating - Cost type: opex - Energy carrier: electricity - Heating type: local_heating
+      - 2023: 61.43158784 - Metric: (Un-levelised) costs of Decarbonised heating -
+      Calculated based on average costs in Europe.<br/>(Un-levelised) costs of Decarbonised
+      heating - Cost type: opex - Energy carrier: bioenergy - Heating type: local_heating
+      - 2023: 46.7888036 - Metric: (Un-levelised) costs of Decarbonised heating -
+      Calculated based on average costs in Europe.<br/>Un-levelized capital cost of
+      heating - Cost type: capex - Energy carrier: fossil - Heating type: district_heating
+      - 2023: 445.6507862 - Metric: Un-levelized capital cost of heating - Assumption<br/>Un-levelized
       capital cost of heating - Cost type: capex - Energy carrier: electricity - Heating
-      type: district_heating - 1: 346.8362945 - Metric: Un-levelized capital cost
+      type: district_heating - 2023: 346.8362945 - Metric: Un-levelized capital cost
       of heating - An air source heat pump has a lifetime of 20 years. Source: Popovski,
       E., et al., "Technical and economic feasibility of sustainable heating and cooling
       supply options in southern European municipalities-A case study for Matosinhos,
       Portugal" (2018), https://www.isi.fraunhofer.de/content/dam/isi/dokumente/ccx/2018/Technical%20and%20economic%20feasability.pdf<br/>Un-levelized
       capital cost of heating - Cost type: capex - Energy carrier: bioenergy - Heating
-      type: district_heating - 1: 369.7187484 - Metric: Un-levelized capital cost
+      type: district_heating - 2023: 369.7187484 - Metric: Un-levelized capital cost
       of heating - Assumption<br/>Un-levelized capital cost of heating - Cost type:
-      capex - Energy carrier: waste - Heating type: district_heating - 1: 459.7059263
+      capex - Energy carrier: waste - Heating type: district_heating - 2023: 459.7059263
       - Metric: Un-levelized capital cost of heating - Assumption<br/>Un-levelized
       capital cost of heating network - Cost type: network - Heating type: district_heating
-      - 1: 1430.823471 - Metric: Un-levelized capital cost of heating network - Euroheat
-      (2012) - Energy Distribution: District Heating and Cooling - DHC. https://www.euroheat.org/wp-content/uploads/2016/04/UP-RES_M6_District_Heating_and_Cooling.pdf<br/>Un-levelized
+      - 2023: 1430.823471 - Metric: Un-levelized capital cost of heating network -
+      Euroheat (2012) - Energy Distribution: District Heating and Cooling - DHC. https://www.euroheat.org/wp-content/uploads/2016/04/UP-RES_M6_District_Heating_and_Cooling.pdf<br/>Un-levelized
       capital cost of heating - Cost type: capex - Energy carrier: fossil - Heating
-      type: local_heating - 1: 238.3203281 - Metric: Un-levelized capital cost of
-      heating - Assumption<br/>Un-levelized capital cost of heating - Cost type: capex
-      - Energy carrier: electricity - Heating type: local_heating - 1: 320.2515111
+      type: local_heating - 2023: 238.3203281 - Metric: Un-levelized capital cost
+      of heating - Assumption<br/>Un-levelized capital cost of heating - Cost type:
+      capex - Energy carrier: electricity - Heating type: local_heating - 2023: 320.2515111
       - Metric: Un-levelized capital cost of heating - An air source heat pump has
       a lifetime of 20 years. Source: Popovski, E., et al., "Technical and economic
       feasibility of sustainable heating and cooling supply options in southern European
       municipalities-A case study for Matosinhos, Portugal" (2018), https://www.isi.fraunhofer.de/content/dam/isi/dokumente/ccx/2018/Technical%20and%20economic%20feasability.pdf<br/>Un-levelized
       capital cost of heating - Cost type: capex - Energy carrier: bioenergy - Heating
-      type: local_heating - 1: 219.4658718 - Metric: Un-levelized capital cost of
-      heating - Assumption'
+      type: local_heating - 2023: 219.4658718 - Metric: Un-levelized capital cost
+      of heating - Assumption'
   metrics:
-  - id: un_levelized_capital_cost_of_heating
-    column_id: un_levelized_capital_cost_of_heating
+  - id: un_levelized_capital_cost_of_heating_network
+    column_id: un_levelized_capital_cost_of_heating_network
     quantity: unit_price
     unit: €/MWh
     label:
-      en: Un-levelized capital cost of heating
+      en: Un-levelized capital cost of heating network
   - id: share_of_current_fossil_production_that_would_need_t
     column_id: share_of_current_fossil_production_that_would_need_t
     quantity: fraction
@@ -122,24 +122,24 @@ meta:
     unit: €/MWh
     label:
       en: (Un-levelised) costs of Decarbonised heating
-  - id: heating_costs
-    column_id: heating_costs
-    quantity: fraction
-    unit: ''
+  - id: un_levelized_capital_cost_of_heating
+    column_id: un_levelized_capital_cost_of_heating
+    quantity: unit_price
+    unit: €/MWh
     label:
-      en: heating costs
+      en: Un-levelized capital cost of heating
   - id: scope_of_energy_carriers
     column_id: scope_of_energy_carriers
     quantity: fraction
     unit: ''
     label:
       en: Scope of energy carriers
-  - id: un_levelized_capital_cost_of_heating_network
-    column_id: un_levelized_capital_cost_of_heating_network
-    quantity: unit_price
-    unit: €/MWh
+  - id: heating_costs
+    column_id: heating_costs
+    quantity: fraction
+    unit: ''
     label:
-      en: Un-levelized capital cost of heating network
+      en: heating costs
   index_columns:
   - scope
   - cost_type
@@ -148,11 +148,11 @@ meta:
   - heating_type
   - uuid
   - Year
-  updated_at: '1782459409'
+  updated_at: '1782739422'
   units:
-    un_levelized_capital_cost_of_heating: EUR/MWh
+    un_levelised_costs_of_decarbonised_heating: EUR/MWh
     heating_costs: dimensionless
-    share_of_current_fossil_production_that_would_need_t: dimensionless
     scope_of_energy_carriers: dimensionless
     un_levelized_capital_cost_of_heating_network: EUR/MWh
-    un_levelised_costs_of_decarbonised_heating: EUR/MWh
+    share_of_current_fossil_production_that_would_need_t: dimensionless
+    un_levelized_capital_cost_of_heating: EUR/MWh
