@@ -1,6 +1,6 @@
 outs:
-- md5: 0a9a43f93a4e8b98e8c8a8847594b81b
-  size: 5326
+- md5: 243cb60c971b3aaa5dadf96f1010c939
+  size: 5486
   hash: md5
   path: population.parquet
 meta:
@@ -8,7 +8,7 @@ meta:
     en: Population
   identifier: cork/population
   description:
-    en: 'Population - UUID: 3779efa4-9eb0-4f4b-b5d5-eb510461bed8 - 1: 227062.6582
+    en: 'Population - UUID: 3779efa4-9eb0-4f4b-b5d5-eb510461bed8 - 2023: 227062.6582
       - Metric: Population - 801545'
   metrics:
   - id: expected_annual_population_growth_up_until_2030
@@ -26,7 +26,7 @@ meta:
   index_columns:
   - uuid
   - Year
-  updated_at: '1782459340'
+  updated_at: '1782739352'
   units:
     population: inh
     expected_annual_population_growth_up_until_2030: 1/a
