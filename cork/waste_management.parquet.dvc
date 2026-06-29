@@ -1,6 +1,6 @@
 outs:
-- md5: 2a1e199bc59455cae01c5984d82d423c
-  size: 33758
+- md5: 5a0d01c6e3a1e2bfb028c72e0e46c7df
+  size: 34154
   hash: md5
   path: waste_management.parquet
 meta:
@@ -9,104 +9,105 @@ meta:
   identifier: cork/waste_management
   description:
     en: "Total collected waste within city boundaries by type - Waste type: paper
-      - UUID: 372c2783-4bf1-413c-b1b3-6f3565502b7e - 1: 68669.48206 - Metric: Total
+      - UUID: 372c2783-4bf1-413c-b1b3-6f3565502b7e - 2023: 68669.48206 - Metric: Total
       collected waste within city boundaries by type - 67124<br/>Total collected waste
       within city boundaries by type - Waste type: metal - UUID: 4936856c-18bc-4169-b313-cbc41eb36d2a
-      - 1: 13965.30451 - Metric: Total collected waste within city boundaries by type
-      - 13651<br/>Total collected waste within city boundaries by type - Waste type:
-      plastics - UUID: 095a8cf9-3b6b-4354-af80-6c66daf69a07 - 1: 56772.73266 - Metric:
-      Total collected waste within city boundaries by type - 55495<br/>Total collected
-      waste within city boundaries by type - Waste type: glass - UUID: 961df23f-bf66-4091-81f6-b0dd106843a9
-      - 1: 28834.96248 - Metric: Total collected waste within city boundaries by type
-      - 28186<br/>Total collected waste within city boundaries by type - Waste type:
-      organic_waste - UUID: 43507336-9c1a-4f27-bbd8-67dec958a11e - 1: 139461.7395
+      - 2023: 13965.30451 - Metric: Total collected waste within city boundaries by
+      type - 13651<br/>Total collected waste within city boundaries by type - Waste
+      type: plastics - UUID: 095a8cf9-3b6b-4354-af80-6c66daf69a07 - 2023: 56772.73266
+      - Metric: Total collected waste within city boundaries by type - 55495<br/>Total
+      collected waste within city boundaries by type - Waste type: glass - UUID: 961df23f-bf66-4091-81f6-b0dd106843a9
+      - 2023: 28834.96248 - Metric: Total collected waste within city boundaries by
+      type - 28186<br/>Total collected waste within city boundaries by type - Waste
+      type: organic_waste - UUID: 43507336-9c1a-4f27-bbd8-67dec958a11e - 2023: 139461.7395
       - Metric: Total collected waste within city boundaries by type - 136323<br/>Total
       collected waste within city boundaries by type - Waste type: other_waste - UUID:
-      30b8f580-389a-4b1d-9f7f-34bf9bdfb0eb - 1: 1.0 - Metric: Total collected waste
+      30b8f580-389a-4b1d-9f7f-34bf9bdfb0eb - 2023: 1.0 - Metric: Total collected waste
       within city boundaries by type - 78818<br/>Emission factors from waste management
       - Pollutant: co2 - Energy carrier: waste - Waste treatment: incinerated - UUID:
-      2c0c3a96-5f4b-4ce1-8e2d-8e6637d611ff - 1: 1.0 - Metric: Emission factors from
-      waste management - Atmospheric emissions Inventory of Madrid City, 2017. Including
-      emissions from auxiliary fuel. Only  fossil CO2<br/>Emission factors from waste
-      management - Pollutant: nox - Energy carrier: waste - Waste treatment: incinerated
-      - UUID: f9721db6-29dc-4a14-abb9-1cd644d05b39 - 1: 0.5318 - Metric: Emission
-      factors from waste management - Atmospheric emissions Inventory of Madrid City,
-      2017. Including emissions from auxiliary fuel<br/>Emission factors from waste
-      management - Pollutant: pm25_combustion - Energy carrier: waste - Waste treatment:
-      incinerated - UUID: 2fe95f5c-5895-4239-a3f9-64425da2e6e4 - 1: 0.0015 - Metric:
+      2c0c3a96-5f4b-4ce1-8e2d-8e6637d611ff - 2023: 1.0 - Metric: Emission factors
+      from waste management - Atmospheric emissions Inventory of Madrid City, 2017.
+      Including emissions from auxiliary fuel. Only  fossil CO2<br/>Emission factors
+      from waste management - Pollutant: nox - Energy carrier: waste - Waste treatment:
+      incinerated - UUID: f9721db6-29dc-4a14-abb9-1cd644d05b39 - 2023: 0.5318 - Metric:
       Emission factors from waste management - Atmospheric emissions Inventory of
       Madrid City, 2017. Including emissions from auxiliary fuel<br/>Emission factors
-      from waste management - Pollutant: pm10_combustion - Energy carrier: waste -
-      Waste treatment: incinerated - UUID: 90fb1c6f-d882-4995-96bf-d2e190c406e4 -
-      1: 0.0015 - Metric: Emission factors from waste management - Atmospheric emissions
-      Inventory of Madrid City, 2017. Including emissions from auxiliary fuel<br/>Prices
-      of sorted waste - Cost type: sales - Energy carrier: waste - Waste type: paper
-      - 1: 158.0 - Metric: Prices of sorted waste - Eurostat (2019) - Recycling –
-      secondary material price indicator<br/>Prices of sorted waste - Cost type: sales
-      - Energy carrier: waste - Waste type: metal - 1: 192.8428571 - Metric: Prices
-      of sorted waste - BDSV (2019) - BDSV Durchschnittliche Lagerverkaufspreise.
-      https://www.bdsv.org/fileadmin/user_upload/bdsv_preise_2019_08_bundesweit.pdf<br/>Prices
+      from waste management - Pollutant: pm25_combustion - Energy carrier: waste -
+      Waste treatment: incinerated - UUID: 2fe95f5c-5895-4239-a3f9-64425da2e6e4 -
+      2023: 0.0015 - Metric: Emission factors from waste management - Atmospheric
+      emissions Inventory of Madrid City, 2017. Including emissions from auxiliary
+      fuel<br/>Emission factors from waste management - Pollutant: pm10_combustion
+      - Energy carrier: waste - Waste treatment: incinerated - UUID: 90fb1c6f-d882-4995-96bf-d2e190c406e4
+      - 2023: 0.0015 - Metric: Emission factors from waste management - Atmospheric
+      emissions Inventory of Madrid City, 2017. Including emissions from auxiliary
+      fuel<br/>Prices of sorted waste - Cost type: sales - Energy carrier: waste -
+      Waste type: paper - 2023: 158.0 - Metric: Prices of sorted waste - Eurostat
+      (2019) - Recycling – secondary material price indicator<br/>Prices of sorted
+      waste - Cost type: sales - Energy carrier: waste - Waste type: metal - 2023:
+      192.8428571 - Metric: Prices of sorted waste - BDSV (2019) - BDSV Durchschnittliche
+      Lagerverkaufspreise. https://www.bdsv.org/fileadmin/user_upload/bdsv_preise_2019_08_bundesweit.pdf<br/>Prices
       of sorted waste - Cost type: sales - Energy carrier: waste - Waste type: plastics
-      - 1: 315.0 - Metric: Prices of sorted waste - Eurostat (2019) - Recycling –
-      secondary material price indicator<br/>Prices of sorted waste - Cost type: sales
-      - Energy carrier: waste - Waste type: glass - 1: 52.0 - Metric: Prices of sorted
-      waste - Eurostat (2019) - Recycling – secondary material price indicator<br/>Prices
+      - 2023: 315.0 - Metric: Prices of sorted waste - Eurostat (2019) - Recycling
+      – secondary material price indicator<br/>Prices of sorted waste - Cost type:
+      sales - Energy carrier: waste - Waste type: glass - 2023: 52.0 - Metric: Prices
+      of sorted waste - Eurostat (2019) - Recycling – secondary material price indicator<br/>Prices
       of sorted waste - Cost type: sales - Energy carrier: waste - Waste type: organic_waste
-      - 1: 10.0 - Metric: Prices of sorted waste - European Commission (2001) - Costs
+      - 2023: 10.0 - Metric: Prices of sorted waste - European Commission (2001) -
+      Costs for Municipal Waste Management\nin the EU <br/>Waste management costs
+      - Cost type: capex - Energy carrier: waste - Waste treatment: landfill - 2023:
+      17.81 - Metric: Waste management costs - European Commission (2001) - Costs
       for Municipal Waste Management\nin the EU <br/>Waste management costs - Cost
-      type: capex - Energy carrier: waste - Waste treatment: landfill - 1: 17.81 -
-      Metric: Waste management costs - European Commission (2001) - Costs for Municipal
-      Waste Management\nin the EU <br/>Waste management costs - Cost type: opex -
-      Energy carrier: waste - Waste treatment: landfill - 1: 10.97 - Metric: Waste
+      type: opex - Energy carrier: waste - Waste treatment: landfill - 2023: 10.97
+      - Metric: Waste management costs - European Commission (2001) - Costs for Municipal
+      Waste Management\nin the EU <br/>Waste management costs - Cost type: capex -
+      Energy carrier: waste - Waste treatment: incinerated - 2023: 35.83 - Metric:
+      Waste management costs - European Commission (2001) - Costs for Municipal Waste
+      Management\nin the EU <br/>Waste management costs - Cost type: opex - Energy
+      carrier: waste - Waste treatment: incinerated - 2023: 39.395 - Metric: Waste
       management costs - European Commission (2001) - Costs for Municipal Waste Management\n\
       in the EU <br/>Waste management costs - Cost type: capex - Energy carrier: waste
-      - Waste treatment: incinerated - 1: 35.83 - Metric: Waste management costs -
-      European Commission (2001) - Costs for Municipal Waste Management\nin the EU
-      <br/>Waste management costs - Cost type: opex - Energy carrier: waste - Waste
-      treatment: incinerated - 1: 39.395 - Metric: Waste management costs - European
+      - Waste treatment: composting - 2023: 20.99 - Metric: Waste management costs
+      - European Commission (2001) - Costs for Municipal Waste Management\nin the
+      EU <br/>Waste management costs - Cost type: opex - Energy carrier: waste - Waste
+      treatment: composting - 2023: 31.93 - Metric: Waste management costs - European
       Commission (2001) - Costs for Municipal Waste Management\nin the EU <br/>Waste
       management costs - Cost type: capex - Energy carrier: waste - Waste treatment:
-      composting - 1: 20.99 - Metric: Waste management costs - European Commission
-      (2001) - Costs for Municipal Waste Management\nin the EU <br/>Waste management
-      costs - Cost type: opex - Energy carrier: waste - Waste treatment: composting
-      - 1: 31.93 - Metric: Waste management costs - European Commission (2001) - Costs
-      for Municipal Waste Management\nin the EU <br/>Waste management costs - Cost
-      type: capex - Energy carrier: waste - Waste treatment: sorting - 1: 76.55083144
-      - Metric: Waste management costs - Union for the Mediterranean (2014) - Waste
-      Management Costs & Financing and Options for Cost Recovery<br/>Waste management
-      costs - Cost type: opex - Energy carrier: waste - Waste treatment: sorting -
-      1: 116.4491686 - Metric: Waste management costs - Union for the Mediterranean
-      (2014) - Waste Management Costs & Financing and Options for Cost Recovery<br/>Waste
-      management costs - Cost type: capex - Energy carrier: waste - Waste treatment:
-      plastic_sorting - 1: 107.8851096 - Metric: Waste management costs - European
-      Commission (2001) - Costs for Municipal Waste Management\nin the EU <br/>Waste
-      management costs - Cost type: opex - Energy carrier: waste - Waste treatment:
-      plastic_sorting - 1: 164.1148904 - Metric: Waste management costs - European
-      Commission (2001) - Costs for Municipal Waste Management\nin the EU <br/>waste
-      recycling - Cost type: capex - Stakeholder: citizens - 1: 0.0 - Metric: waste
-      recycling - Rationale<br/>waste recycling - Cost type: capex - Stakeholder:
-      property_owners - 1: 0.0 - Metric: waste recycling - Cities typically own and
-      operate the waste recycling schemes<br/>waste recycling - Cost type: capex -
-      Stakeholder: cities - 1: 1.0 - Metric: waste recycling - Do we need to confirm
-      with cities?<br/>waste recycling - Cost type: capex - Stakeholder: healthcare_providers
-      - 1: 0.0 - Metric: waste recycling - Yes<br/>waste recycling - Cost type: opex
-      - Stakeholder: citizens - 1: 0.0 - Metric: waste recycling - Rationale<br/>waste
-      recycling - Cost type: opex - Stakeholder: property_owners - 1: 0.0 - Metric:
-      waste recycling - Cities typically own and operate the waste recycling schemes<br/>waste
-      recycling - Cost type: opex - Stakeholder: cities - 1: 1.0 - Metric: waste recycling
+      sorting - 2023: 76.55083144 - Metric: Waste management costs - Union for the
+      Mediterranean (2014) - Waste Management Costs & Financing and Options for Cost
+      Recovery<br/>Waste management costs - Cost type: opex - Energy carrier: waste
+      - Waste treatment: sorting - 2023: 116.4491686 - Metric: Waste management costs
+      - Union for the Mediterranean (2014) - Waste Management Costs & Financing and
+      Options for Cost Recovery<br/>Waste management costs - Cost type: capex - Energy
+      carrier: waste - Waste treatment: plastic_sorting - 2023: 107.8851096 - Metric:
+      Waste management costs - European Commission (2001) - Costs for Municipal Waste
+      Management\nin the EU <br/>Waste management costs - Cost type: opex - Energy
+      carrier: waste - Waste treatment: plastic_sorting - 2023: 164.1148904 - Metric:
+      Waste management costs - European Commission (2001) - Costs for Municipal Waste
+      Management\nin the EU <br/>waste recycling - Cost type: capex - Stakeholder:
+      citizens - 2023: 0.0 - Metric: waste recycling - Rationale<br/>waste recycling
+      - Cost type: capex - Stakeholder: property_owners - 2023: 0.0 - Metric: waste
+      recycling - Cities typically own and operate the waste recycling schemes<br/>waste
+      recycling - Cost type: capex - Stakeholder: cities - 2023: 1.0 - Metric: waste
+      recycling - Do we need to confirm with cities?<br/>waste recycling - Cost type:
+      capex - Stakeholder: healthcare_providers - 2023: 0.0 - Metric: waste recycling
+      - Yes<br/>waste recycling - Cost type: opex - Stakeholder: citizens - 2023:
+      0.0 - Metric: waste recycling - Rationale<br/>waste recycling - Cost type: opex
+      - Stakeholder: property_owners - 2023: 0.0 - Metric: waste recycling - Cities
+      typically own and operate the waste recycling schemes<br/>waste recycling -
+      Cost type: opex - Stakeholder: cities - 2023: 1.0 - Metric: waste recycling
       - Do we need to confirm with cities?<br/>waste recycling - Cost type: opex -
-      Stakeholder: healthcare_providers - 1: 0.0 - Metric: waste recycling - Yes<br/>waste
+      Stakeholder: healthcare_providers - 2023: 0.0 - Metric: waste recycling - Yes<br/>waste
       emission factor - Pollutant: co2 - Waste type: mixed_waste - Waste treatment:
-      landfill - 1: 0.0862192009 - Metric: waste emission factor - <---- Data for
+      landfill - 2023: 0.0862192009 - Metric: waste emission factor - <---- Data for
       Sweden (higher in the rest of Europé). The value is calculated based on data
       from the \"Categorisation\" sheet<br/>waste emission factor - Pollutant: co2
-      - Waste type: paper - Waste treatment: landfill - 1: 0.308 - Metric: waste emission
-      factor - https://www.ivl.se/download/18.343dc99d14e8bb0f58b75c7/1445517446481/B1924.pdf<br/>waste
+      - Waste type: paper - Waste treatment: landfill - 2023: 0.308 - Metric: waste
+      emission factor - https://www.ivl.se/download/18.343dc99d14e8bb0f58b75c7/1445517446481/B1924.pdf<br/>waste
       emission factor - Pollutant: co2 - Waste type: organic_waste - Waste treatment:
-      landfill - 1: 0.6613894083 - Metric: waste emission factor - https://tufts.app.box.com/s/4nclf2d5o76lu682rroxvgz92b2bcn4e<br/>waste
+      landfill - 2023: 0.6613894083 - Metric: waste emission factor - https://tufts.app.box.com/s/4nclf2d5o76lu682rroxvgz92b2bcn4e<br/>waste
       emission factor - Pollutant: co2 - Waste type: other_waste - Waste treatment:
-      landfill - 1: 0.2423473521 - Metric: waste emission factor - Assuming 50% of
-      other materials as average of paper/organic, other 50% non-emitting in landfill"
+      landfill - 2023: 0.2423473521 - Metric: waste emission factor - Assuming 50%
+      of other materials as average of paper/organic, other 50% non-emitting in landfill"
   metrics:
   - id: waste_emission_factor
     column_id: waste_emission_factor
@@ -114,36 +115,36 @@ meta:
     unit: ''
     label:
       en: waste emission factor
-  - id: total_collected_waste_within_city_boundaries_by_type
-    column_id: total_collected_waste_within_city_boundaries_by_type
-    quantity: mass
-    unit: t/a
-    label:
-      en: Total collected waste within city boundaries by type
-  - id: prices_of_sorted_waste
-    column_id: prices_of_sorted_waste
-    quantity: unit_price
-    unit: €/t
-    label:
-      en: Prices of sorted waste
-  - id: emission_factors_from_waste_management
-    column_id: emission_factors_from_waste_management
-    quantity: emission_factor
-    unit: kg/t
-    label:
-      en: Emission factors from waste management
   - id: waste_recycling
     column_id: waste_recycling
     quantity: fraction
     unit: ''
     label:
       en: waste recycling
+  - id: emission_factors_from_waste_management
+    column_id: emission_factors_from_waste_management
+    quantity: emission_factor
+    unit: kg/t
+    label:
+      en: Emission factors from waste management
+  - id: prices_of_sorted_waste
+    column_id: prices_of_sorted_waste
+    quantity: unit_price
+    unit: €/t
+    label:
+      en: Prices of sorted waste
   - id: waste_management_costs
     column_id: waste_management_costs
     quantity: unit_price
     unit: €/t
     label:
       en: Waste management costs
+  - id: total_collected_waste_within_city_boundaries_by_type
+    column_id: total_collected_waste_within_city_boundaries_by_type
+    quantity: mass
+    unit: t/a
+    label:
+      en: Total collected waste within city boundaries by type
   index_columns:
   - pollutant
   - cost_type
@@ -153,11 +154,11 @@ meta:
   - waste_treatment
   - uuid
   - Year
-  updated_at: '1782459379'
+  updated_at: '1782739392'
   units:
-    waste_management_costs: EUR/t
-    prices_of_sorted_waste: EUR/t
     total_collected_waste_within_city_boundaries_by_type: t/a
     emission_factors_from_waste_management: kg/t
     waste_recycling: dimensionless
+    prices_of_sorted_waste: EUR/t
     waste_emission_factor: t/t
+    waste_management_costs: EUR/t
