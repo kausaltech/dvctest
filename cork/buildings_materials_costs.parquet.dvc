@@ -1,6 +1,6 @@
 outs:
-- md5: c6f60cdd10300fbf36a4b976cbf4a125
-  size: 36706
+- md5: eca9d27029839354784d0a23ade67d61
+  size: 37008
   hash: md5
   path: buildings_materials_costs.parquet
 meta:
@@ -10,143 +10,145 @@ meta:
   description:
     en: "Assumed share of type of efficiency programme for lever - Energy carrier:
       electricity - Efficiency programme: minor_improvements - UUID: 53e3a91f-eb90-4dc1-ad22-1799bd50ed04
-      - 101: 0 - 2051: 0 - Metric: Assumed share of type of efficiency programme for
-      lever - Valencia forecast assumption - 2030<br/>Assumed share of type of efficiency
-      programme for lever - Energy carrier: electricity - Efficiency programme: aggressive_improvements
-      - UUID: 577bf77b-825e-43ac-a210-cb2653dc6983 - 101: 1 - 2051: 1 - Metric: Assumed
-      share of type of efficiency programme for lever - Valencia forecast assumption
-      - 2030<br/>Building costs - new buildings - Building energy class: new_standard
-      - 1: 1074.0 - Metric: Building costs - new buildings - ZEBRA2020, \"Deliverable
-      5.1: nZEB technology solutions, cost assessment and performance\", https://www.zebra2020.eu/website/wp-content/uploads/2014/08/Zebra2020_Deliverable-5.1_Report.pdf<br/>Building
-      costs - new buildings - Building energy class: new_top_performance - 1: 1222.33332
+      - 2030: 0 - 2051: 0 - Metric: Assumed share of type of efficiency programme
+      for lever - Valencia forecast assumption - 2030<br/>Assumed share of type of
+      efficiency programme for lever - Energy carrier: electricity - Efficiency programme:
+      aggressive_improvements - UUID: 577bf77b-825e-43ac-a210-cb2653dc6983 - 2030:
+      1 - 2051: 1 - Metric: Assumed share of type of efficiency programme for lever
+      - Valencia forecast assumption - 2030<br/>Building costs - new buildings - Building
+      energy class: new_standard - 2023: 1074.0 - Metric: Building costs - new buildings
+      - ZEBRA2020, \"Deliverable 5.1: nZEB technology solutions, cost assessment and
+      performance\", https://www.zebra2020.eu/website/wp-content/uploads/2014/08/Zebra2020_Deliverable-5.1_Report.pdf<br/>Building
+      costs - new buildings - Building energy class: new_top_performance - 2023: 1222.33332
       - Metric: Building costs - new buildings - ZEBRA2020, \"Deliverable 5.1: nZEB
       technology solutions, cost assessment and performance\", https://www.zebra2020.eu/website/wp-content/uploads/2014/08/Zebra2020_Deliverable-5.1_Report.pdf<br/>Cost
       of energy renovations - Cost type: infrastructure_costs - Building energy class:
-      minor_renovation - 1: 56.70397678 - Metric: Cost of energy renovations - BPIE
-      (2011) - \"Europe's buildings under the microscope\". http://bpie.eu/wp-content/uploads/2015/10/HR_EU_B_under_microscope_study.pdf<br/>Cost
+      minor_renovation - 2023: 56.70397678 - Metric: Cost of energy renovations -
+      BPIE (2011) - \"Europe's buildings under the microscope\". http://bpie.eu/wp-content/uploads/2015/10/HR_EU_B_under_microscope_study.pdf<br/>Cost
       of energy renovations - Cost type: infrastructure_costs - Building energy class:
-      major_renovation - 1: 124.9267365 - Metric: Cost of energy renovations - BPIE
-      (2011) - \"Europe's buildings under the microscope\". http://bpie.eu/wp-content/uploads/2015/10/HR_EU_B_under_microscope_study.pdf<br/>building
+      major_renovation - 2023: 124.9267365 - Metric: Cost of energy renovations -
+      BPIE (2011) - \"Europe's buildings under the microscope\". http://bpie.eu/wp-content/uploads/2015/10/HR_EU_B_under_microscope_study.pdf<br/>building
       renovation investments - Cost type: infrastructure_costs - Stakeholder: citizens
-      - 1: 0.7 - Metric: building renovation investments - According to the ECV, the
-      proportion of renting households in 2018 amounted to 23.6% in Madrid. Cities
+      - 2023: 0.7 - Metric: building renovation investments - According to the ECV,
+      the proportion of renting households in 2018 amounted to 23.6% in Madrid. Cities
       own some buildings. Assume investments are made by the owner<br/>building renovation
       investments - Cost type: infrastructure_costs - Stakeholder: property_owners
-      - 1: 0.25 - Metric: building renovation investments - Do we need to confirm
+      - 2023: 0.25 - Metric: building renovation investments - Do we need to confirm
       with cities?<br/>building renovation investments - Cost type: infrastructure_costs
-      - Stakeholder: cities - 1: 0.05 - Metric: building renovation investments -
-      Yes<br/>building renovation investments - Cost type: infrastructure_costs -
-      Stakeholder: transport_operators - 1: 0.0 - Metric: building renovation investments
-      - Source: https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/InformesBoletinesRevistas/ArticulosAnaliticos/19/T3/descargar/Files/be1903-art25e.pdf<br/>investment
-      costs in new buildings - Cost type: capex - Stakeholder: citizens - 1: 0.3 -
-      Metric: investment costs in new buildings - Property owners stand for a larger
+      - Stakeholder: cities - 2023: 0.05 - Metric: building renovation investments
+      - Yes<br/>building renovation investments - Cost type: infrastructure_costs
+      - Stakeholder: transport_operators - 2023: 0.0 - Metric: building renovation
+      investments - Source: https://www.bde.es/f/webbde/SES/Secciones/Publicaciones/InformesBoletinesRevistas/ArticulosAnaliticos/19/T3/descargar/Files/be1903-art25e.pdf<br/>investment
+      costs in new buildings - Cost type: capex - Stakeholder: citizens - 2023: 0.3
+      - Metric: investment costs in new buildings - Property owners stand for a larger
       amount of up front investments in new buildings given its often a property developer
       that pays. These costs are eventually distributed through Yeser prices for apartments/houses
       and Yeser rents, which is not reflected here. Cities will take part of this
       cost through Noer land prices<br/>investment costs in new buildings - Cost type:
-      capex - Stakeholder: property_owners - 1: 0.6 - Metric: investment costs in
-      new buildings - Do we need to confirm with cities?<br/>investment costs in new
-      buildings - Cost type: capex - Stakeholder: cities - 1: 0.1 - Metric: investment
-      costs in new buildings - Yes<br/>Materials as share of total mass - Material:
-      concrete - 1: 0.4171748531 - Metric: Materials as share of total mass - http://ec.europa.eu/environment/eussd/pdf/Resource%20efficiency%20in%20the%20building%20sector.pdf<br/>Tonnes
-      material used for renovations - Building energy class: minor_renovation - 1:
+      capex - Stakeholder: property_owners - 2023: 0.6 - Metric: investment costs
+      in new buildings - Do we need to confirm with cities?<br/>investment costs in
+      new buildings - Cost type: capex - Stakeholder: cities - 2023: 0.1 - Metric:
+      investment costs in new buildings - Yes<br/>Materials as share of total mass
+      - Material: concrete - 2023: 0.4171748531 - Metric: Materials as share of total
+      mass - http://ec.europa.eu/environment/eussd/pdf/Resource%20efficiency%20in%20the%20building%20sector.pdf<br/>Tonnes
+      material used for renovations - Building energy class: minor_renovation - 2023:
       0.06135046777 - Metric: Tonnes material used for renovations - Material Economics
       analysis in The Circular Economy (2018)<br/>Tonnes material used for renovations
-      - Building energy class: moderate_renovation - 1: 0.9202570166 - Metric: Tonnes
-      material used for renovations - Material Economics analysis in The Circular
-      Economy (2018)<br/>Tonnes material used for renovations - Building energy class:
-      major_renovation - 1: 1.840514033 - Metric: Tonnes material used for renovations
-      - Material Economics analysis in The Circular Economy (2018)<br/>Tonnes material
-      used for renovations - Building energy class: nzeb - 1: 2.76077105 - Metric:
+      - Building energy class: moderate_renovation - 2023: 0.9202570166 - Metric:
       Tonnes material used for renovations - Material Economics analysis in The Circular
-      Economy (2018)<br/>Production costs per tonne - Material: concrete - 1: 15.3
+      Economy (2018)<br/>Tonnes material used for renovations - Building energy class:
+      major_renovation - 2023: 1.840514033 - Metric: Tonnes material used for renovations
+      - Material Economics analysis in The Circular Economy (2018)<br/>Tonnes material
+      used for renovations - Building energy class: nzeb - 2023: 2.76077105 - Metric:
+      Tonnes material used for renovations - Material Economics analysis in The Circular
+      Economy (2018)<br/>Production costs per tonne - Material: concrete - 2023: 15.3
       - Metric: Production costs per tonne - Material Economics (2019) - Industrial
       Transformation 2050. Pathways to Net-Zero Emissions from EU Heavy Industry<br/>Production
-      costs per tonne - Material: steel - 1: 547.0 - Metric: Production costs per
+      costs per tonne - Material: steel - 2023: 547.0 - Metric: Production costs per
       tonne - Material Economics (2019) - Industrial Transformation 2050. Pathways
       to Net-Zero Emissions from EU Heavy Industry<br/>Production costs per tonne
-      - Material: plastics - 1: 1242.0 - Metric: Production costs per tonne - Material
+      - Material: plastics - 2023: 1242.0 - Metric: Production costs per tonne - Material
       Economics (2019) - Industrial Transformation 2050. Pathways to Net-Zero Emissions
-      from EU Heavy Industry<br/>Jobs created by investment in renovation - 1: 18.0
-      - Metric: Jobs created by investment in renovation - Source: Cuchi & Sweatman
+      from EU Heavy Industry<br/>Jobs created by investment in renovation - 2023:
+      18.0 - Metric: Jobs created by investment in renovation - Source: Cuchi & Sweatman
       (2011); A NATIONAL PERSPECTIVE ON SPAIN’S BUILDINGS SECTOR A ROADMAP FOR A NEW
       HOUSING SECTOR<br/>Cost of efficiency programme per m2 - Cost type: capex -
-      Energy carrier: electricity - Efficiency programme: minor_improvements - 1:
+      Energy carrier: electricity - Efficiency programme: minor_improvements - 2023:
       6.5 - Metric: Cost of efficiency programme per m2 - Dinh et. al. (2013). Energy
       Efficiency Potential of the European Building Stock. Based on assumed cost of
       replacing one light bulb of 7€ and that buildings on average have one light
       bulb per 12 m2<br/>Cost of efficiency programme per m2 - Cost type: capex -
       Energy carrier: electricity - Efficiency programme: aggressive_improvements
-      - 1: 24.26 - Metric: Cost of efficiency programme per m2 - Dinh et. al. (2013).
+      - 2023: 24.26 - Metric: Cost of efficiency programme per m2 - Dinh et. al. (2013).
       Energy Efficiency Potential of the European Building Stock. Based on assumed
       cost of €500 per appliance"
   metrics:
-  - id: tonnes_material_used_for_renovations
-    column_id: tonnes_material_used_for_renovations
-    quantity: mass
-    unit: t/m²
-    label:
-      en: Tonnes material used for renovations
   - id: investment_costs_in_new_buildings
     column_id: investment_costs_in_new_buildings
     quantity: fraction
     unit: ''
     label:
       en: investment costs in new buildings
-  - id: cost_of_energy_renovations
-    column_id: cost_of_energy_renovations
-    quantity: unit_price
-    unit: €/m²
-    label:
-      en: Cost of energy renovations
-  - id: cost_of_efficiency_programme_per_m2
-    column_id: cost_of_efficiency_programme_per_m2
-    quantity: unit_price
-    unit: €/m²
-    label:
-      en: Cost of efficiency programme per m2
-  - id: building_renovation_investments
-    column_id: building_renovation_investments
-    quantity: fraction
-    unit: ''
-    label:
-      en: building renovation investments
-  - id: jobs_created_by_investment_in_renovation
-    column_id: jobs_created_by_investment_in_renovation
-    quantity: unit_price
-    unit: fte·a/M€
-    label:
-      en: Jobs created by investment in renovation
-  - id: production_costs_per_tonne
-    column_id: production_costs_per_tonne
-    quantity: unit_price
-    unit: €/t
-    label:
-      en: Production costs per tonne
-  - id: current_share_of_type_of_efficiency_programme
-    column_id: current_share_of_type_of_efficiency_programme
-    quantity: fraction
-    unit: ''
-    label:
-      en: Current share of type of efficiency programme
-  - id: assumed_share_of_type_of_efficiency_programme_for_lever
-    column_id: assumed_share_of_type_of_efficiency_programme_for_lever
-    quantity: fraction
-    unit: ''
-    label:
-      en: Assumed share of type of efficiency programme for lever
-  - id: building_costs_new_buildings
-    column_id: building_costs_new_buildings
-    quantity: unit_price
-    unit: €/m²
-    label:
-      en: Building costs - new buildings
   - id: materials_as_share_of_total_mass
     column_id: materials_as_share_of_total_mass
     quantity: fraction
     unit: ''
     label:
       en: Materials as share of total mass
+  - id: cost_of_efficiency_programme_per_m2
+    column_id: cost_of_efficiency_programme_per_m2
+    quantity: unit_price
+    unit: €/m²
+    label:
+      en: Cost of efficiency programme per m2
+  - id: production_costs_per_tonne
+    column_id: production_costs_per_tonne
+    quantity: unit_price
+    unit: €/t
+    label:
+      en: Production costs per tonne
+  - id: jobs_created_by_investment_in_renovation
+    column_id: jobs_created_by_investment_in_renovation
+    quantity: unit_price
+    unit: fte·a/M€
+    label:
+      en: Jobs created by investment in renovation
+  - id: current_share_of_type_of_efficiency_programme
+    column_id: current_share_of_type_of_efficiency_programme
+    quantity: fraction
+    unit: ''
+    label:
+      en: Current share of type of efficiency programme
+  - id: cost_of_energy_renovations
+    column_id: cost_of_energy_renovations
+    quantity: unit_price
+    unit: €/m²
+    label:
+      en: Cost of energy renovations
+  - id: assumed_share_of_type_of_efficiency_programme_for_lever
+    column_id: assumed_share_of_type_of_efficiency_programme_for_lever
+    quantity: fraction
+    unit: ''
+    label:
+      en: Assumed share of type of efficiency programme for lever
+  - id: tonnes_material_used_for_renovations
+    column_id: tonnes_material_used_for_renovations
+    quantity: mass
+    unit: t/m²
+    label:
+      en: Tonnes material used for renovations
+  - id: building_costs_new_buildings
+    column_id: building_costs_new_buildings
+    quantity: unit_price
+    unit: €/m²
+    label:
+      en: Building costs - new buildings
+  - id: building_renovation_investments
+    column_id: building_renovation_investments
+    quantity: fraction
+    unit: ''
+    label:
+      en: building renovation investments
   index_columns:
   - cost_type
   - energy_carrier
@@ -156,16 +158,16 @@ meta:
   - material
   - uuid
   - Year
-  updated_at: '1782459400'
+  updated_at: '1782739412'
   units:
-    investment_costs_in_new_buildings: dimensionless
-    cost_of_energy_renovations: EUR/m**2
-    jobs_created_by_investment_in_renovation: jobs/(MEUR/a)
-    current_share_of_type_of_efficiency_programme: dimensionless
-    building_renovation_investments: dimensionless
-    materials_as_share_of_total_mass: dimensionless
-    production_costs_per_tonne: EUR/t
-    building_costs_new_buildings: EUR/m**2
     assumed_share_of_type_of_efficiency_programme_for_lever: dimensionless
-    cost_of_efficiency_programme_per_m2: EUR/m**2
+    investment_costs_in_new_buildings: dimensionless
+    building_costs_new_buildings: EUR/m**2
+    production_costs_per_tonne: EUR/t
+    building_renovation_investments: dimensionless
+    cost_of_energy_renovations: EUR/m**2
+    current_share_of_type_of_efficiency_programme: dimensionless
+    jobs_created_by_investment_in_renovation: jobs/(MEUR/a)
     tonnes_material_used_for_renovations: t/m**2
+    materials_as_share_of_total_mass: dimensionless
+    cost_of_efficiency_programme_per_m2: EUR/m**2
