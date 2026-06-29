@@ -1,6 +1,6 @@
 outs:
-- md5: 257cd8b1a08eb33426bd76969809f46c
-  size: 31604
+- md5: d4740d1986f4c554a07771ba53fd755b
+  size: 31912
   hash: md5
   path: passenger_transport_emissions.parquet
 meta:
@@ -9,79 +9,79 @@ meta:
   identifier: cork/passenger_transport_emissions
   description:
     en: 'Transport Emission factors - Transport pollutant: co2 - Transport mode: cars
-      - UUID: e7b12aeb-e591-4cba-96e7-9901fb95d0fb - 1: 109.8221748 - Metric: Transport
+      - UUID: e7b12aeb-e591-4cba-96e7-9901fb95d0fb - 2023: 109.8221748 - Metric: Transport
       Emission factors - Calculated based on Eurostat data, DATASET: Greenhouse gas
       emissions by source sector (source: EEA) [env_air_gge] & DATASET: Motor vehicle
       movements on national territory, by vehicles registration [road_tf_vehmov]<br/>Transport
       Emission factors - Transport pollutant: nox - Transport mode: cars - UUID: 1a328799-4774-4901-be1f-e6b46fb84ef7
-      - 1: 0.61 - Metric: Transport Emission factors - Calculated based on Eurostat
+      - 2023: 0.61 - Metric: Transport Emission factors - Calculated based on Eurostat
       data, DATASET: Air pollutants by source sector (source: EEA) [env_air_emis]
       & DATASET: Motor vehicle movements on national territory, by vehicles registration
       [road_tf_vehmov]<br/>Transport Emission factors - Transport pollutant: pm25
-      - Transport mode: cars - UUID: 8e9c2502-128f-4368-ad09-debb8d2e06c8 - 1: 0.02
-      - Metric: Transport Emission factors - Calculated based on Eurostat data, DATASET:
-      Air pollutants by source sector (source: EEA) [env_air_emis] & DATASET: Motor
-      vehicle movements on national territory, by vehicles registration [road_tf_vehmov]<br/>Transport
+      - Transport mode: cars - UUID: 8e9c2502-128f-4368-ad09-debb8d2e06c8 - 2023:
+      0.02 - Metric: Transport Emission factors - Calculated based on Eurostat data,
+      DATASET: Air pollutants by source sector (source: EEA) [env_air_emis] & DATASET:
+      Motor vehicle movements on national territory, by vehicles registration [road_tf_vehmov]<br/>Transport
       Emission factors - Transport pollutant: pm10 - Transport mode: cars - UUID:
-      ac14daee-a60e-445a-b56b-bc0600e9788d - 1: 0.03 - Metric: Transport Emission
+      ac14daee-a60e-445a-b56b-bc0600e9788d - 2023: 0.03 - Metric: Transport Emission
       factors - Calculated based on Eurostat data, DATASET: Air pollutants by source
       sector (source: EEA) [env_air_emis] & DATASET: Motor vehicle movements on national
       territory, by vehicles registration [road_tf_vehmov]<br/>Transport Emission
       factors - Transport pollutant: co2 - Transport mode: buses - UUID: e2f0c38d-5b98-4634-8faf-ea07caae26a5
-      - 1: 942.9188121 - Metric: Transport Emission factors - Atmospheric emissions
+      - 2023: 942.9188121 - Metric: Transport Emission factors - Atmospheric emissions
       Inventory of Madrid City, 2017. Municipal buses + other buses<br/>Transport
       Emission factors - Transport pollutant: nox - Transport mode: buses - UUID:
-      80414475-5306-4e66-8ff9-c15f346c61fe - 1: 3.22182076 - Metric: Transport Emission
-      factors - Atmospheric emissions Inventory of Madrid City, 2017. Municipal buses
-      + other buses<br/>Transport Emission factors - Transport pollutant: pm25 - Transport
-      mode: buses - UUID: 56ad8ce0-a583-4011-846d-ad44cbc92052 - 1: 0.06833243307
-      - Metric: Transport Emission factors - Atmospheric emissions Inventory of Madrid
-      City, 2017. Municipal buses + other buses. Including tyre wear and brake wear.
-      Not including road wear <br/>Transport Emission factors - Transport pollutant:
-      pm10 - Transport mode: buses - UUID: 5c1b815c-6c13-4303-b9ff-f641cd725c4e -
-      1: 0.09527737663 - Metric: Transport Emission factors - Atmospheric emissions
+      80414475-5306-4e66-8ff9-c15f346c61fe - 2023: 3.22182076 - Metric: Transport
+      Emission factors - Atmospheric emissions Inventory of Madrid City, 2017. Municipal
+      buses + other buses<br/>Transport Emission factors - Transport pollutant: pm25
+      - Transport mode: buses - UUID: 56ad8ce0-a583-4011-846d-ad44cbc92052 - 2023:
+      0.06833243307 - Metric: Transport Emission factors - Atmospheric emissions Inventory
+      of Madrid City, 2017. Municipal buses + other buses. Including tyre wear and
+      brake wear. Not including road wear <br/>Transport Emission factors - Transport
+      pollutant: pm10 - Transport mode: buses - UUID: 5c1b815c-6c13-4303-b9ff-f641cd725c4e
+      - 2023: 0.09527737663 - Metric: Transport Emission factors - Atmospheric emissions
       Inventory of Madrid City, 2017. Municipal buses + other buses. Including tyre
       wear and brake wear. Not including road wear <br/>Transport Emission factors
       - Transport pollutant: co2 - Transport mode: light_trucks - UUID: f431fe40-d06f-4cc3-8d33-d4ee116105db
-      - 1: 72.05115293 - Metric: Transport Emission factors - Atmospheric emissions
+      - 2023: 72.05115293 - Metric: Transport Emission factors - Atmospheric emissions
       Inventory of Madrid City, 2017.<br/>Transport Emission factors - Transport pollutant:
       nox - Transport mode: light_trucks - UUID: 51626bc7-17ca-4086-bca8-6ad806bbc224
-      - 1: 0.6775258398 - Metric: Transport Emission factors - Calculated based on
-      Eurostat data, DATASET: Air pollutants by source sector (source: EEA) [env_air_emis]
+      - 2023: 0.6775258398 - Metric: Transport Emission factors - Calculated based
+      on Eurostat data, DATASET: Air pollutants by source sector (source: EEA) [env_air_emis]
       & DATASET: Motor vehicle movements on national territory, by vehicles registration
       [road_tf_vehmov]<br/>Transport Emission factors - Transport pollutant: pm25
       - Transport mode: light_trucks - UUID: 11d16a62-2f77-437c-b586-3a86586edac6
-      - 1: 0.03873877847 - Metric: Transport Emission factors - Calculated based on
-      Eurostat data, DATASET: Air pollutants by source sector (source: EEA) [env_air_emis]
+      - 2023: 0.03873877847 - Metric: Transport Emission factors - Calculated based
+      on Eurostat data, DATASET: Air pollutants by source sector (source: EEA) [env_air_emis]
       & DATASET: Motor vehicle movements on national territory, by vehicles registration
       [road_tf_vehmov]<br/>Transport Emission factors - Transport pollutant: pm10
       - Transport mode: light_trucks - UUID: 46fdb8f7-3125-4689-be93-7b1c03abf98c
-      - 1: 0.04844026434 - Metric: Transport Emission factors - Calculated based on
-      Eurostat data, DATASET: Air pollutants by source sector (source: EEA) [env_air_emis]
+      - 2023: 0.04844026434 - Metric: Transport Emission factors - Calculated based
+      on Eurostat data, DATASET: Air pollutants by source sector (source: EEA) [env_air_emis]
       & DATASET: Motor vehicle movements on national territory, by vehicles registration
       [road_tf_vehmov]<br/>Transport Emission factors - Transport pollutant: co2 -
       Transport mode: heavy_trucks - UUID: df758173-b169-46d5-b859-94f67ea0c20b -
-      1: 1610.652899 - Metric: Transport Emission factors - Atmospheric emissions
+      2023: 1610.652899 - Metric: Transport Emission factors - Atmospheric emissions
       Inventory of Madrid City, 2017.<br/>Transport Emission factors - Transport pollutant:
       nox - Transport mode: heavy_trucks - UUID: 00005eaf-8435-4048-8950-ae010dc6ee5e
-      - 1: 1.610383147 - Metric: Transport Emission factors - Calculated based on
-      Eurostat data, DATASET: Air pollutants by source sector (source: EEA) [env_air_emis]
+      - 2023: 1.610383147 - Metric: Transport Emission factors - Calculated based
+      on Eurostat data, DATASET: Air pollutants by source sector (source: EEA) [env_air_emis]
       & DATASET: Motor vehicle movements on national territory, by vehicles registration
       [road_tf_vehmov]<br/>Transport Emission factors - Transport pollutant: pm25
       - Transport mode: heavy_trucks - UUID: 6be10a46-8b31-46a5-a454-42b30d7f3e6f
-      - 1: 0.04858282643 - Metric: Transport Emission factors - Calculated based on
-      Eurostat data, DATASET: Air pollutants by source sector (source: EEA) [env_air_emis]
+      - 2023: 0.04858282643 - Metric: Transport Emission factors - Calculated based
+      on Eurostat data, DATASET: Air pollutants by source sector (source: EEA) [env_air_emis]
       & DATASET: Motor vehicle movements on national territory, by vehicles registration
       [road_tf_vehmov]<br/>Transport Emission factors - Transport pollutant: pm10
       - Transport mode: heavy_trucks - UUID: fd2e2ed0-26de-4ca4-afa5-889e6cceb9fa
-      - 1: 0.07041561093 - Metric: Transport Emission factors - Calculated based on
-      Eurostat data, DATASET: Air pollutants by source sector (source: EEA) [env_air_emis]
+      - 2023: 0.07041561093 - Metric: Transport Emission factors - Calculated based
+      on Eurostat data, DATASET: Air pollutants by source sector (source: EEA) [env_air_emis]
       & DATASET: Motor vehicle movements on national territory, by vehicles registration
       [road_tf_vehmov]<br/>new fleet emission factor - Transport pollutant: co2 -
       Transport mode: cars - 2018: 120.4 - 2019: 113.898421 - 2020: 107.396841 - 2021:
-      100.8952616 - 2022: 95.12299858 - 2023: 89.68096927 - 2024: 84.5502809 - 2025:
+      100.8952616 - 2022: 95.12299858 - 2052: 89.68096927 - 2053: 84.5502809 - 2025:
       79.7131215 - 2026: 75.15269816 - 2027: 70.85317867 - 2028: 66.79963662 - 2029:
-      62.97799953 - 2030: 59.375 - 2031: 55.97812969 - 2032: 52.77559584 - 2033: 49.75628039
+      62.97799953 - 2054: 59.375 - 2031: 55.97812969 - 2032: 52.77559584 - 2033: 49.75628039
       - 2034: 46.90970133 - 2035: 44.22597633 - 2036: 41.69578844 - 2037: 39.31035373
       - 2038: 37.06139081 - 2039: 34.94109206 - 2040: 32.94209655 - 2041: 31.05746447
       - 2042: 29.28065303 - 2043: 27.60549377 - 2044: 26.02617112 - 2045: 24.53720223
@@ -90,38 +90,32 @@ meta:
       European commission (2019) - Post-2020 CO2 emission performance standards for
       cars and vans. https://ec.europa.eu/clima/policies/transport/vehicles/regulation_en<br/>new
       fleet emission factor - Transport pollutant: nox - Transport mode: cars - 2018:
-      0.08 - 2019: 0.08 - 2020: 0.08 - 2021: 0.08 - 2022: 0.08 - 2023: 0.08 - 2024:
-      0.08 - 2025: 0.08 - 2026: 0.08 - 2027: 0.08 - 2028: 0.08 - 2029: 0.08 - 2030:
+      0.08 - 2019: 0.08 - 2020: 0.08 - 2021: 0.08 - 2022: 0.08 - 2052: 0.08 - 2053:
+      0.08 - 2025: 0.08 - 2026: 0.08 - 2027: 0.08 - 2028: 0.08 - 2029: 0.08 - 2054:
       0.08 - 2031: 0.08 - 2032: 0.08 - 2033: 0.08 - 2034: 0.08 - 2035: 0.08 - 2036:
       0.08 - 2037: 0.08 - 2038: 0.08 - 2039: 0.08 - 2040: 0.08 - 2041: 0.08 - 2042:
       0.08 - 2043: 0.08 - 2044: 0.08 - 2045: 0.08 - Metric: new fleet emission factor
       - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
-      fleet emission factor - Transport pollutant: pm25 - Transport mode: cars - 1:
+      fleet emission factor - Transport pollutant: pm25 - Transport mode: cars - 2023:
       0.005394235432 - Metric: new fleet emission factor - EU: Cars and Light Trucks.
       https://www.dieselnet.com/standards/eu/ld.php<br/>new fleet emission factor
-      - Transport pollutant: pm10 - Transport mode: cars - 1: 0.008297997661 - Metric:
-      new fleet emission factor - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
-      fleet emission factor - Transport pollutant: co2 - Transport mode: buses - 1:
+      - Transport pollutant: pm10 - Transport mode: cars - 2023: 0.008297997661 -
+      Metric: new fleet emission factor - EU: Cars and Light Trucks. https://www.dieselnet.com/standards/eu/ld.php<br/>new
+      fleet emission factor - Transport pollutant: co2 - Transport mode: buses - 2023:
       1207.0 - Metric: new fleet emission factor - CO2 för EURO: https://www.transportmeasures.org/wp-content/uploads/2014/07/NTM_Nylund_290414.pdf<br/>new
-      fleet emission factor - Transport pollutant: nox - Transport mode: buses - 1:
+      fleet emission factor - Transport pollutant: nox - Transport mode: buses - 2023:
       3.09 - Metric: new fleet emission factor - EURO 5 standard<br/>new fleet emission
-      factor - Transport pollutant: pm25 - Transport mode: buses - 1: 0.04236632508
+      factor - Transport pollutant: pm25 - Transport mode: buses - 2023: 0.04236632508
       - Metric: new fleet emission factor - EURO 5 standard<br/>new fleet emission
-      factor - Transport pollutant: pm10 - Transport mode: buses - 1: 0.003833674919
+      factor - Transport pollutant: pm10 - Transport mode: buses - 2023: 0.003833674919
       - Metric: new fleet emission factor - EURO 5 standard<br/>transport pollutant
       split - Pollutant: pm25_wear_tear - Transport pollutant: pm25 - Energy carrier:
-      petrol_diesel - 1: 0.15 - Metric: transport pollutant split - Naturvårdsverket
+      petrol_diesel - 2023: 0.15 - Metric: transport pollutant split - Naturvårdsverket
       (2019) - Utsläpp av små partiklar (PM2,5) till luft. https://www.naturvardsverket.se/Sa-mar-miljon/Statistik-A-O/Partiklar-PM25-utslapp-till-luft/<br/>transport
       pollutant split - Pollutant: pm10_wear_tear - Transport pollutant: pm10 - Energy
-      carrier: petrol_diesel - 1: 0.95 - Metric: transport pollutant split - Naturvårdsverket
+      carrier: petrol_diesel - 2023: 0.95 - Metric: transport pollutant split - Naturvårdsverket
       (2019) - Utsläpp av små partiklar (PM10) till luft. https://www.naturvardsverket.se/Sa-mar-miljon/Statistik-A-O/Partiklar-PM10-utslapp-till-luft/'
   metrics:
-  - id: transport_emission_factors
-    column_id: transport_emission_factors
-    quantity: emission_factor
-    unit: g/vehicle_km
-    label:
-      en: Transport Emission factors
   - id: new_fleet_emission_factor
     column_id: new_fleet_emission_factor
     quantity: emission_factor
@@ -134,6 +128,12 @@ meta:
     unit: ''
     label:
       en: transport pollutant split
+  - id: transport_emission_factors
+    column_id: transport_emission_factors
+    quantity: emission_factor
+    unit: g/vehicle_km
+    label:
+      en: Transport Emission factors
   index_columns:
   - pollutant
   - transport_pollutant
@@ -141,8 +141,8 @@ meta:
   - energy_carrier
   - uuid
   - Year
-  updated_at: '1782459350'
+  updated_at: '1782739363'
   units:
-    transport_pollutant_split: dimensionless
     new_fleet_emission_factor: g/vkm
     transport_emission_factors: g/vkm
+    transport_pollutant_split: dimensionless
