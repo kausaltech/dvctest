@@ -1,0 +1,24 @@
+outs:
+- md5: c79f5875898c6c2e67be7baf8e130855
+  size: 6134
+  hash: md5
+  path: buildings_heating_emission_factors.parquet
+meta:
+  name:
+    en: Buildings Heating Emission Factors
+  identifier: lappeenranta/buildings_heating_emission_factors
+  metrics:
+  - id: emission_factors_from_heat_production
+    column_id: emission_factors_from_heat_production
+    quantity: emission_factor
+    unit: g/kWh
+    label:
+      en: Emission factors from heat production
+  index_columns:
+  - uuid
+  - pollutant
+  - heating_type
+  - Year
+  updated_at: '1782966482'
+  units:
+    emission_factors_from_heat_production: g/kWh
