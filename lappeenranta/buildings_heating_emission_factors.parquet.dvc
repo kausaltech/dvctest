@@ -1,5 +1,5 @@
 outs:
-- md5: c79f5875898c6c2e67be7baf8e130855
+- md5: f22c3f0c5e2084ace90e620e359f7403
   size: 6134
   hash: md5
   path: buildings_heating_emission_factors.parquet
@@ -19,6 +19,6 @@ meta:
   - pollutant
   - heating_type
   - Year
-  updated_at: '1782966482'
+  updated_at: '1782970163'
   units:
     emission_factors_from_heat_production: g/kWh
