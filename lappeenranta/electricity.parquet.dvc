@@ -1,126 +1,35 @@
 outs:
-- md5: 2beafc1106c36eb7998e8df1d6b499b8
-  size: 28263
+- md5: 16eaeaa809d51ac1ca557fde83587e46
+  size: 21358
   hash: md5
   path: electricity.parquet
 meta:
   name:
-    en: Electricity
+    en: electricity
   identifier: lappeenranta/electricity
-  metrics:
-  - id: efficiency_improvements_for_each_renovation
-    column_id: efficiency_improvements_for_each_renovation
-    quantity: fraction
-    unit: ''
-    label:
-      en: Efficiency improvements for each renovation
-  - id: spot_price_electricity
-    column_id: spot_price_electricity
-    quantity: unit_price
-    unit: €/MWh
-    label:
-      en: Spot price electricity
-  - id: fossilcurrent_electricity_supply
-    column_id: fossilcurrent_electricity_supply
-    quantity: fraction
-    unit: ''
-    label:
-      en: fossil/current electricity supply
-  - id: jobs_created_per_mw
-    column_id: jobs_created_per_mw
-    quantity: demand_factor
-    unit: fte/MW
-    label:
-      en: Jobs created per MW
-  - id: share_of_total_electricity_demand_produced_by_fossil
-    column_id: share_of_total_electricity_demand_produced_by_fossil
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of total electricity demand produced by fossil...
-  - id: total_electricity_demand_within_city_boundaries
-    column_id: total_electricity_demand_within_city_boundaries
-    quantity: energy
-    unit: GWh/a
-    label:
-      en: Total electricity demand within city boundaries
-  - id: solar_panel_costs
-    column_id: solar_panel_costs
-    quantity: fraction
-    unit: ''
-    label:
-      en: solar panel costs
-  - id: pv_upfront_investment_cost
-    column_id: pv_upfront_investment_cost
-    quantity: unit_price
-    unit: €/MWh
-    label:
-      en: 'PV: Upfront investment cost'
-  - id: emission_factors_from_electricity_generation
-    column_id: emission_factors_from_electricity_generation
-    quantity: emission_factor
-    unit: g/kWh
-    label:
-      en: Emission factors from electricity generation
-  - id: assumed_uptime_of_windsolar
-    column_id: assumed_uptime_of_windsolar
-    quantity: ratio
-    unit: h/a
-    label:
-      en: Assumed uptime of wind/solar
-  - id: retail_price_of_electricity
-    column_id: retail_price_of_electricity
-    quantity: unit_price
-    unit: €/kWh
-    label:
-      en: Retail price of electricity
-  - id: share_of_current_fossil_production_replaced_by_renew
-    column_id: share_of_current_fossil_production_replaced_by_renew
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of current fossil production replaced by renew...
-  - id: average_electricity_use_for_lighting_appliances
-    column_id: average_electricity_use_for_lighting_appliances
-    quantity: energy_factor
-    unit: kWh/m²/a
-    label:
-      en: Average electricity use for lighting & appliances
-  - id: operating_cost_for_renewables
-    column_id: operating_cost_for_renewables
-    quantity: unit_price
-    unit: €/MWh
-    label:
-      en: Operating cost for renewables
-  - id: distribution_of_type_of_new_renewables
-    column_id: distribution_of_type_of_new_renewables
-    quantity: fraction
-    unit: ''
-    label:
-      en: Distribution of type of new renewables
   index_columns:
-  - uuid
-  - pollutant
   - cost_type
   - energy_carrier
   - stakeholder
-  - efficiency_programme
+  - uuid
+  - pollutant
   - fuel_type
+  - energy_efficiency_programme
   - Year
-  updated_at: '1782966473'
+  updated_at: '1782966930'
   units:
-    share_of_total_electricity_demand_produced_by_fossil: dimensionless
-    fossilcurrent_electricity_supply: dimensionless
-    average_electricity_use_for_lighting_appliances: kWh/m**2/a
-    pv_upfront_investment_cost: EUR/MWh
-    operating_cost_for_renewables: EUR/MWh
+    spot_price_electricity: €/MWh
     efficiency_improvements_for_each_renovation: dimensionless
-    jobs_created_per_mw: jobs/MW
-    total_electricity_demand_within_city_boundaries: GWh/a
-    distribution_of_type_of_new_renewables: dimensionless
-    emission_factors_from_electricity_generation: g/kWh
-    retail_price_of_electricity: EUR/kWh
-    share_of_current_fossil_production_replaced_by_renew: dimensionless
-    spot_price_electricity: EUR/MWh
-    solar_panel_costs: dimensionless
     assumed_uptime_of_windsolar: h/a
+    average_electricity_use_for_lighting_appliances: kWh/m²/a
+    solar_panel_costs: dimensionless
+    emission_factors_from_electricity_generation: g/kWh
+    retail_price_of_electricity: €/kWh
+    share_of_current_fossil_production_replaced_by_renew: dimensionless
+    pv_upfront_investment_cost: €/MWh
+    fossilcurrent_electricity_supply: dimensionless
+    total_electricity_demand_within_city_boundaries: GWh/a
+    operating_cost_for_renewables: €/MWh
+    distribution_of_type_of_new_renewables: dimensionless
+    share_of_total_electricity_demand_produced_by_fossil: dimensionless
+    jobs_created_per_mw: fte/MW
