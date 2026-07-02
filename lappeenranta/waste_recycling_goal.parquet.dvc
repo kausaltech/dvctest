@@ -1,0 +1,25 @@
+outs:
+- md5: 5cdd0832e148fa2aa57a8ce33d5c7488
+  size: 7285
+  hash: md5
+  path: waste_recycling_goal.parquet
+meta:
+  name:
+    en: Waste Recycling Goal
+  identifier: lappeenranta/waste_recycling_goal
+  metrics:
+  - id: 51_increased_recycling_of_waste
+    column_id: 51_increased_recycling_of_waste
+    quantity: fraction
+    unit: ''
+    label:
+      en: 5.1. Increased recycling of waste
+  index_columns:
+  - uuid
+  - waste_type
+  - waste_treatment
+  - parameter
+  - Year
+  updated_at: '1782966518'
+  units:
+    51_increased_recycling_of_waste: dimensionless

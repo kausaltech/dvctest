@@ -14,3 +14,4 @@
 /buildings_materials_costs.parquet
 /building_actions.parquet
 /buildings_heating_costs.parquet
+/waste_recycling_goal.parquet
