@@ -1,21 +1,52 @@
 outs:
-- md5: 06dc9977abbda40a7959db1c51b86e63
-  size: 8681
+- md5: 96cbca66b4f9f30a6aa5d4db0486d4b0
+  size: 10839
   hash: md5
   path: passenger_transport_costs_walking_pt.parquet
 meta:
   name:
-    en: passenger_transport_costs_walking_pt
+    en: Passenger Transport Costs Walking Pt
   identifier: lappeenranta/passenger_transport_costs_walking_pt
+  metrics:
+  - id: fuel_unit_price
+    column_id: fuel_unit_price
+    quantity: unit_price
+    unit: €/l
+    label:
+      en: fuel unit price
+  - id: public_transport_operation_costs
+    column_id: public_transport_operation_costs
+    quantity: fraction
+    unit: ''
+    label:
+      en: public transport operation costs
+  - id: investment_costs_in_walking_cycling
+    column_id: investment_costs_in_walking_cycling
+    quantity: fraction
+    unit: ''
+    label:
+      en: investment costs in walking & cycling
+  - id: average_value_of_increased_walkingcycling
+    column_id: average_value_of_increased_walkingcycling
+    quantity: unit_price
+    unit: €/pkm
+    label:
+      en: Average value of increased walking/cycling
+  - id: total_average_cost_of_cyclingwalking
+    column_id: total_average_cost_of_cyclingwalking
+    quantity: unit_price
+    unit: €/pkm
+    label:
+      en: Total Average cost of cycling/walking
   index_columns:
   - cost_type
-  - stakeholder
   - transport_mode
+  - stakeholder
   - Year
-  updated_at: '1782966953'
+  updated_at: '1782970208'
   units:
-    total_average_cost_of_cyclingwalking: €/pkm
+    total_average_cost_of_cyclingwalking: EUR/pkm
+    fuel_unit_price: EUR/l
     public_transport_operation_costs: dimensionless
-    fuel_unit_price: €/l
+    average_value_of_increased_walkingcycling: EUR/pkm
     investment_costs_in_walking_cycling: dimensionless
-    average_value_of_increased_walkingcycling: €/pkm
