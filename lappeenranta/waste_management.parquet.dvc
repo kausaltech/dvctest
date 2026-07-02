@@ -1,26 +1,63 @@
 outs:
-- md5: ee6036c56becd095ddd5f203e03b4765
-  size: 12812
+- md5: acf0acb60a23cb48e815c81e60399d76
+  size: 15165
   hash: md5
   path: waste_management.parquet
 meta:
   name:
-    en: waste_management
+    en: Waste Management
   identifier: lappeenranta/waste_management
+  metrics:
+  - id: waste_emission_factor
+    column_id: waste_emission_factor
+    quantity: emission_factor
+    unit: ''
+    label:
+      en: waste emission factor
+  - id: emission_factors_from_waste_management
+    column_id: emission_factors_from_waste_management
+    quantity: emission_factor
+    unit: kg/t
+    label:
+      en: Emission factors from waste management
+  - id: waste_recycling
+    column_id: waste_recycling
+    quantity: fraction
+    unit: ''
+    label:
+      en: waste recycling
+  - id: waste_management_costs
+    column_id: waste_management_costs
+    quantity: unit_price
+    unit: €/t
+    label:
+      en: Waste management costs
+  - id: total_collected_waste_within_city_boundaries_by_type
+    column_id: total_collected_waste_within_city_boundaries_by_type
+    quantity: mass
+    unit: t/a
+    label:
+      en: Total collected waste within city boundaries by type
+  - id: prices_of_sorted_waste
+    column_id: prices_of_sorted_waste
+    quantity: unit_price
+    unit: €/t
+    label:
+      en: Prices of sorted waste
   index_columns:
+  - uuid
+  - pollutant
   - cost_type
   - energy_carrier
   - stakeholder
-  - uuid
-  - pollutant
   - waste_type
   - waste_treatment
   - Year
-  updated_at: '1782966958'
+  updated_at: '1782970168'
   units:
-    prices_of_sorted_waste: €/t
-    waste_management_costs: €/t
     total_collected_waste_within_city_boundaries_by_type: t/a
+    waste_management_costs: EUR/t
     emission_factors_from_waste_management: kg/t
-    waste_emission_factor: dimensionless
+    prices_of_sorted_waste: EUR/t
+    waste_emission_factor: t/t
     waste_recycling: dimensionless
