@@ -1,0 +1,62 @@
+outs:
+- md5: d54f0e90aeb6e425000857549edacf71
+  size: 14648
+  hash: md5
+  path: buildings_heating_costs.parquet
+meta:
+  name:
+    en: Buildings Heating Costs
+  identifier: lappeenranta/buildings_heating_costs
+  metrics:
+  - id: un_levelised_costs_of_decarbonised_heating
+    column_id: un_levelised_costs_of_decarbonised_heating
+    quantity: unit_price
+    unit: €/MWh
+    label:
+      en: (Un-levelised) costs of Decarbonised heating
+  - id: share_of_current_fossil_production_that_would_need_t
+    column_id: share_of_current_fossil_production_that_would_need_t
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of current fossil production that would need t...
+  - id: heating_costs
+    column_id: heating_costs
+    quantity: fraction
+    unit: ''
+    label:
+      en: heating costs
+  - id: un_levelized_capital_cost_of_heating
+    column_id: un_levelized_capital_cost_of_heating
+    quantity: unit_price
+    unit: €/MWh
+    label:
+      en: Un-levelized capital cost of heating
+  - id: scope_of_energy_carriers
+    column_id: scope_of_energy_carriers
+    quantity: fraction
+    unit: ''
+    label:
+      en: Scope of energy carriers
+  - id: un_levelized_capital_cost_of_heating_network
+    column_id: un_levelized_capital_cost_of_heating_network
+    quantity: unit_price
+    unit: €/MWh
+    label:
+      en: Un-levelized capital cost of heating network
+  index_columns:
+  - uuid
+  - scope
+  - cost_type
+  - energy_carrier
+  - stakeholder
+  - heating_type
+  - Year
+  updated_at: '1782966514'
+  units:
+    un_levelised_costs_of_decarbonised_heating: EUR/MWh
+    un_levelized_capital_cost_of_heating_network: EUR/MWh
+    scope_of_energy_carriers: dimensionless
+    heating_costs: dimensionless
+    un_levelized_capital_cost_of_heating: EUR/MWh
+    share_of_current_fossil_production_that_would_need_t: dimensionless
