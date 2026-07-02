@@ -1,96 +1,30 @@
 outs:
-- md5: d9d7086237c44c46d0076b6fc1c7af4c
-  size: 20873
+- md5: 7c2f9cbae6322d3930d3cae5746a6c1d
+  size: 17232
   hash: md5
   path: freight_transport.parquet
 meta:
   name:
-    en: Freight Transport
+    en: freight_transport
   identifier: lappeenranta/freight_transport
-  metrics:
-  - id: fuel_consumption_change_of_1_utilisation_change
-    column_id: fuel_consumption_change_of_1_utilisation_change
-    quantity: fraction
-    unit: 1/%
-    label:
-      en: Fuel consumption change of 1% utilisation change
-  - id: freight_transport_traffic_accidents
-    column_id: freight_transport_traffic_accidents
-    quantity: unit_price
-    unit: €/tkm
-    label:
-      en: Freight transport Traffic accidents
-  - id: total_transportation_need_within_city_road_freight
-    column_id: total_transportation_need_within_city_road_freight
-    quantity: freight_mileage
-    unit: Mtkm/a
-    label:
-      en: Total transportation need within city - Road freight...
-  - id: freight_transport_noise
-    column_id: freight_transport_noise
-    quantity: unit_price
-    unit: €/tkm
-    label:
-      en: Freight transport Noise
-  - id: max_load_weight
-    column_id: max_load_weight
-    quantity: mass
-    unit: tkm/vehicle_km
-    label:
-      en: Max load weight
-  - id: new_truck_emission_factor
-    column_id: new_truck_emission_factor
-    quantity: emission_factor
-    unit: g/vehicle_km
-    label:
-      en: New truck emission factor
-  - id: fleet_average_consumption
-    column_id: fleet_average_consumption
-    quantity: energy_factor
-    unit: cl/vehicle_km
-    label:
-      en: Fleet average consumption
-  - id: utilisation_of_trucks_in_decarbonisation_scenario
-    column_id: utilisation_of_trucks_in_decarbonisation_scenario
-    quantity: fraction
-    unit: ''
-    label:
-      en: Utilisation of trucks in decarbonisation scenario
-  - id: freight_labour_cost_fraction
-    column_id: freight_labour_cost_fraction
-    quantity: fraction
-    unit: ''
-    label:
-      en: Freight labour cost fraction
-  - id: number_of_trucks_registered_within_city
-    column_id: number_of_trucks_registered_within_city
-    quantity: number
-    unit: v
-    label:
-      en: Number of trucks registered within city
-  - id: average_utilisation
-    column_id: average_utilisation
-    quantity: fraction
-    unit: ''
-    label:
-      en: Average utilisation
   index_columns:
+  - cost_type
+  - energy_carrier
   - uuid
   - pollutant
-  - cost_type
   - transport_mode
-  - energy_carrier
   - Year
-  updated_at: '1782966464'
+  updated_at: '1782966935'
   units:
-    number_of_trucks_registered_within_city: vehicles
-    max_load_weight: tkm/vkm
-    freight_transport_traffic_accidents: EUR/tkm
-    utilisation_of_trucks_in_decarbonisation_scenario: dimensionless
-    freight_transport_noise: EUR/tkm
-    fleet_average_consumption: cl/vkm
-    average_utilisation: dimensionless
     fuel_consumption_change_of_1_utilisation_change: 1/%
-    new_truck_emission_factor: g/vkm
+    share_of_trucks_fully_electric_not_including_hybrids: dimensionless
+    utilisation_of_trucks_in_decarbonisation_scenario: dimensionless
     total_transportation_need_within_city_road_freight: Mtkm/a
+    max_load_weight: tkm/vehicle_km
+    fleet_average_consumption: cl/vehicle_km
+    freight_transport_traffic_accidents: €/tkm
+    freight_transport_noise: €/tkm
+    average_utilisation: dimensionless
+    new_truck_emission_factor: g/vehicle_km
     freight_labour_cost_fraction: dimensionless
+    number_of_trucks_registered_within_city: v
