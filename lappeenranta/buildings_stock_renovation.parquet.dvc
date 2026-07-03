@@ -1,6 +1,6 @@
 outs:
-- md5: 204922a388ea5cf098c4ccd53e0ee318
-  size: 23231
+- md5: 7e73a9e2a074853b3eda1656c8e94509
+  size: 23233
   hash: md5
   path: buildings_stock_renovation.parquet
 meta:
@@ -8,66 +8,36 @@ meta:
     en: Buildings Stock Renovation
   identifier: lappeenranta/buildings_stock_renovation
   metrics:
-  - id: renovation_rate_decarbonisation_scenario
-    column_id: renovation_rate_decarbonisation_scenario
-    quantity: fraction
-    unit: 1/a
-    label:
-      en: Renovation rate - decarbonisation scenario
   - id: share_of_building_stock_renovated_each_year
     column_id: share_of_building_stock_renovated_each_year
     quantity: fraction
     unit: 1/a
     label:
       en: Share of building stock renovated each year
-  - id: tonnes_material_used_in_for_new_buildings_2010
-    column_id: tonnes_material_used_in_for_new_buildings_2010
-    quantity: mass
-    unit: t/m²
-    label:
-      en: Tonnes material used in for new buildings (2010)
-  - id: 33_efficient_lighting_appliances
-    column_id: 33_efficient_lighting_appliances
-    quantity: fraction
-    unit: 1/a
-    label:
-      en: 3.3 Efficient lighting & appliances
-  - id: energy_efficiency_improvements_from_building_renovat
-    column_id: energy_efficiency_improvements_from_building_renovat
+  - id: renovations_actual_share_of_market_in_baseline_scenario
+    column_id: renovations_actual_share_of_market_in_baseline_scenario
     quantity: fraction
     unit: ''
     label:
-      en: Energy efficiency improvements from building renovat...
-  - id: assumed_share_of_type_of_renovation_in_lever
-    column_id: assumed_share_of_type_of_renovation_in_lever
-    quantity: fraction
-    unit: ''
-    label:
-      en: Assumed share of type of renovation in lever
-  - id: total_floor_area_residental_non_residential
-    column_id: total_floor_area_residental_non_residential
-    quantity: floor_area
-    unit: ksqm
-    label:
-      en: Total floor area (residental & non-residential)
-  - id: energy_use_intensity
-    column_id: energy_use_intensity
-    quantity: energy_factor
-    unit: kWh/m²/a
-    label:
-      en: energy use intensity
+      en: Renovations Actual share of market in baseline scenario
   - id: share_of_new_buildings_built
     column_id: share_of_new_buildings_built
     quantity: fraction
     unit: ''
     label:
       en: Share of new buildings built
-  - id: demolition_rate_existing_buildings
-    column_id: demolition_rate_existing_buildings
-    quantity: fraction
-    unit: 1/a
+  - id: tonnes_material_used_in_for_new_buildings_2010
+    column_id: tonnes_material_used_in_for_new_buildings_2010
+    quantity: mass
+    unit: t/m²
     label:
-      en: Demolition rate existing buildings
+      en: Tonnes material used in for new buildings (2010)
+  - id: assumed_share_of_type_of_renovation_in_lever
+    column_id: assumed_share_of_type_of_renovation_in_lever
+    quantity: fraction
+    unit: ''
+    label:
+      en: Assumed share of type of renovation in lever
   - id: improvement_in_energy_efficiency_relative_to_minimum
     column_id: improvement_in_energy_efficiency_relative_to_minimum
     quantity: fraction
@@ -80,29 +50,59 @@ meta:
     unit: ''
     label:
       en: Share of new buildings built with high energy effici...
-  - id: renovations_actual_share_of_market_in_baseline_scenario
-    column_id: renovations_actual_share_of_market_in_baseline_scenario
+  - id: 33_efficient_lighting_appliances
+    column_id: 33_efficient_lighting_appliances
+    quantity: fraction
+    unit: 1/a
+    label:
+      en: 3.3 Efficient lighting & appliances
+  - id: energy_use_intensity
+    column_id: energy_use_intensity
+    quantity: energy_factor
+    unit: kWh/m²/a
+    label:
+      en: energy use intensity
+  - id: total_floor_area_residental_non_residential
+    column_id: total_floor_area_residental_non_residential
+    quantity: floor_area
+    unit: ksqm
+    label:
+      en: Total floor area (residental & non-residential)
+  - id: renovation_rate_decarbonisation_scenario
+    column_id: renovation_rate_decarbonisation_scenario
+    quantity: fraction
+    unit: 1/a
+    label:
+      en: Renovation rate - decarbonisation scenario
+  - id: energy_efficiency_improvements_from_building_renovat
+    column_id: energy_efficiency_improvements_from_building_renovat
     quantity: fraction
     unit: ''
     label:
-      en: Renovations Actual share of market in baseline scenario
+      en: Energy efficiency improvements from building renovat...
+  - id: demolition_rate_existing_buildings
+    column_id: demolition_rate_existing_buildings
+    quantity: fraction
+    unit: 1/a
+    label:
+      en: Demolition rate existing buildings
   index_columns:
   - uuid
   - energy_carrier
   - building_energy_class
   - Year
-  updated_at: '1782970150'
+  updated_at: '1783089197'
   units:
-    renovation_rate_decarbonisation_scenario: 1/a
-    33_efficient_lighting_appliances: 1/a
-    share_of_building_stock_renovated_each_year: 1/a
-    assumed_share_of_type_of_renovation_in_lever: dimensionless
-    improvement_in_energy_efficiency_relative_to_minimum: dimensionless
-    energy_efficiency_improvements_from_building_renovat: dimensionless
     demolition_rate_existing_buildings: 1/a
-    share_of_new_buildings_built: dimensionless
-    energy_use_intensity: kWh/m**2/a
-    share_of_new_buildings_built_with_high_energy_effici: dimensionless
+    33_efficient_lighting_appliances: 1/a
+    energy_efficiency_improvements_from_building_renovat: dimensionless
     tonnes_material_used_in_for_new_buildings_2010: t/m**2
-    renovations_actual_share_of_market_in_baseline_scenario: dimensionless
+    share_of_new_buildings_built: dimensionless
+    improvement_in_energy_efficiency_relative_to_minimum: dimensionless
+    assumed_share_of_type_of_renovation_in_lever: dimensionless
+    share_of_new_buildings_built_with_high_energy_effici: dimensionless
     total_floor_area_residental_non_residential: ksqm
+    energy_use_intensity: kWh/m**2/a
+    share_of_building_stock_renovated_each_year: 1/a
+    renovation_rate_decarbonisation_scenario: 1/a
+    renovations_actual_share_of_market_in_baseline_scenario: dimensionless
