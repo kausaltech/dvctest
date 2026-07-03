@@ -1,5 +1,5 @@
 outs:
-- md5: 63df93764ce70b7212971e1fa64039c0
+- md5: 699b134aa89692f190b2c5988f0fcb2c
   size: 5045
   hash: md5
   path: population.parquet
@@ -8,22 +8,22 @@ meta:
     en: Population
   identifier: lappeenranta/population
   metrics:
-  - id: expected_annual_population_growth_up_until_2030
-    column_id: expected_annual_population_growth_up_until_2030
-    quantity: rate
-    unit: 1/a
-    label:
-      en: Expected annual population growth (up until 2030)
   - id: population
     column_id: population
     quantity: population
     unit: cap
     label:
       en: Population
+  - id: expected_annual_population_growth_up_until_2030
+    column_id: expected_annual_population_growth_up_until_2030
+    quantity: rate
+    unit: 1/a
+    label:
+      en: Expected annual population growth (up until 2030)
   index_columns:
   - uuid
   - Year
-  updated_at: '1783050436'
+  updated_at: '1783050516'
   units:
     population: inh
     expected_annual_population_growth_up_until_2030: 1/a
