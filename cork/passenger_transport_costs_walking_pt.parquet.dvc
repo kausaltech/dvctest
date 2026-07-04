@@ -1,5 +1,5 @@
 outs:
-- md5: f01d6386dc188729f736880890f93266
+- md5: 4d821bd27dc7bd4ec33eb97e4ce0c45c
   size: 17905
   hash: md5
   path: passenger_transport_costs_walking_pt.parquet
@@ -40,18 +40,6 @@ meta:
       public_transport - Stakeholder: healthcare_providers - 2023: 0.0 - Metric: public
       transport operation costs - Yes'
   metrics:
-  - id: public_transport_operation_unit_price
-    column_id: public_transport_operation_unit_price
-    quantity: unit_price
-    unit: €/vehicle_km
-    label:
-      en: Public transport operation unit price
-  - id: average_value_of_increased_walkingcycling
-    column_id: average_value_of_increased_walkingcycling
-    quantity: unit_price
-    unit: €/pkm
-    label:
-      en: Average value of increased walking/cycling
   - id: fuel_unit_price
     column_id: fuel_unit_price
     quantity: unit_price
@@ -64,28 +52,40 @@ meta:
     unit: €/pkm
     label:
       en: Total Average cost of cycling/walking
-  - id: investment_costs_in_walking_cycling
-    column_id: investment_costs_in_walking_cycling
-    quantity: fraction
-    unit: ''
-    label:
-      en: investment costs in walking & cycling
   - id: public_transport_operation_costs
     column_id: public_transport_operation_costs
     quantity: fraction
     unit: ''
     label:
       en: public transport operation costs
+  - id: investment_costs_in_walking_cycling
+    column_id: investment_costs_in_walking_cycling
+    quantity: fraction
+    unit: ''
+    label:
+      en: investment costs in walking & cycling
+  - id: average_value_of_increased_walkingcycling
+    column_id: average_value_of_increased_walkingcycling
+    quantity: unit_price
+    unit: €/pkm
+    label:
+      en: Average value of increased walking/cycling
+  - id: public_transport_operation_unit_price
+    column_id: public_transport_operation_unit_price
+    quantity: unit_price
+    unit: €/vehicle_km
+    label:
+      en: Public transport operation unit price
   index_columns:
   - cost_type
   - transport_mode
   - stakeholder
   - Year
-  updated_at: '1783154009'
+  updated_at: '1783155047'
   units:
     public_transport_operation_costs: dimensionless
-    total_average_cost_of_cyclingwalking: EUR/pkm
-    public_transport_operation_unit_price: EUR/vkm
     fuel_unit_price: EUR/l
     investment_costs_in_walking_cycling: dimensionless
     average_value_of_increased_walkingcycling: EUR/pkm
+    public_transport_operation_unit_price: EUR/vkm
+    total_average_cost_of_cyclingwalking: EUR/pkm
