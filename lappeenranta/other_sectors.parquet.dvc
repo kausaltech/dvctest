@@ -1,5 +1,5 @@
 outs:
-- md5: a586fb0ce98be9f068eac92c56a21ee1
+- md5: 20f24f532f9896e8dd32ea82e8c583e6
   size: 12998
   hash: md5
   path: other_sectors.parquet
@@ -8,18 +8,6 @@ meta:
     en: Other Sectors
   identifier: lappeenranta/other_sectors
   metrics:
-  - id: emissions_from_other_sectors
-    column_id: emissions_from_other_sectors
-    quantity: emissions
-    unit: kt/a
-    label:
-      en: Emissions from other sectors
-  - id: aggregated_cost_types
-    column_id: aggregated_cost_types
-    quantity: fraction
-    unit: ''
-    label:
-      en: Aggregated cost types
   - id: value_of_co2_reduction
     column_id: value_of_co2_reduction
     quantity: unit_price
@@ -32,6 +20,18 @@ meta:
     unit: ''
     label:
       en: Air pollutant distance index
+  - id: aggregated_cost_types
+    column_id: aggregated_cost_types
+    quantity: fraction
+    unit: ''
+    label:
+      en: Aggregated cost types
+  - id: emissions_from_other_sectors
+    column_id: emissions_from_other_sectors
+    quantity: emissions
+    unit: kt/a
+    label:
+      en: Emissions from other sectors
   index_columns:
   - uuid
   - pollutant
@@ -42,9 +42,9 @@ meta:
   - heating_type
   - area_distance
   - Year
-  updated_at: '1783139880'
+  updated_at: '1783139989'
   units:
-    value_of_co2_reduction: EUR/t
-    emissions_from_other_sectors: kt/a
     aggregated_cost_types: dimensionless
+    value_of_co2_reduction: EUR/t
     air_pollutant_distance_index: dimensionless
+    emissions_from_other_sectors: kt/a
