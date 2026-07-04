@@ -1,6 +1,6 @@
 outs:
-- md5: d534195d687ad8bd1d92d38b4c9b65b1
-  size: 20837
+- md5: 4a267724206e0f56e47ba34b84e9cf75
+  size: 22461
   hash: md5
   path: freight_transport.parquet
 meta:
@@ -8,42 +8,30 @@ meta:
     en: Freight Transport
   identifier: lappeenranta/freight_transport
   metrics:
-  - id: freight_transport_noise
-    column_id: freight_transport_noise
-    quantity: unit_price
-    unit: €/tkm
+  - id: max_load_weight
+    column_id: max_load_weight
+    quantity: mass
+    unit: tkm/vehicle_km
     label:
-      en: Freight transport Noise
-  - id: freight_labour_cost_fraction
-    column_id: freight_labour_cost_fraction
-    quantity: fraction
-    unit: ''
-    label:
-      en: Freight labour cost fraction
-  - id: fleet_average_consumption
-    column_id: fleet_average_consumption
-    quantity: energy_factor
-    unit: cl/vehicle_km
-    label:
-      en: Fleet average consumption
+      en: Max load weight
   - id: total_transportation_need_within_city_road_freight
     column_id: total_transportation_need_within_city_road_freight
     quantity: freight_mileage
     unit: Mtkm/a
     label:
       en: Total transportation need within city - Road freight...
-  - id: utilisation_of_trucks_in_decarbonisation_scenario
-    column_id: utilisation_of_trucks_in_decarbonisation_scenario
+  - id: share_of_fleet_fully_electric_not_including_hybrids
+    column_id: share_of_fleet_fully_electric_not_including_hybrids
     quantity: fraction
     unit: ''
     label:
-      en: Utilisation of trucks in decarbonisation scenario
-  - id: freight_transport_traffic_accidents
-    column_id: freight_transport_traffic_accidents
-    quantity: unit_price
-    unit: €/tkm
+      en: Share of fleet fully electric (not including hybrids)
+  - id: fleet_average_consumption
+    column_id: fleet_average_consumption
+    quantity: energy_factor
+    unit: cl/vehicle_km
     label:
-      en: Freight transport Traffic accidents
+      en: Fleet average consumption
   - id: number_of_trucks_registered_within_city
     column_id: number_of_trucks_registered_within_city
     quantity: number
@@ -56,24 +44,42 @@ meta:
     unit: ''
     label:
       en: Average utilisation
-  - id: max_load_weight
-    column_id: max_load_weight
-    quantity: mass
-    unit: tkm/vehicle_km
+  - id: utilisation_of_trucks_in_decarbonisation_scenario
+    column_id: utilisation_of_trucks_in_decarbonisation_scenario
+    quantity: fraction
+    unit: ''
     label:
-      en: Max load weight
-  - id: new_truck_emission_factor
-    column_id: new_truck_emission_factor
-    quantity: emission_factor
-    unit: g/vehicle_km
+      en: Utilisation of trucks in decarbonisation scenario
+  - id: freight_transport_traffic_accidents
+    column_id: freight_transport_traffic_accidents
+    quantity: unit_price
+    unit: €/tkm
     label:
-      en: New truck emission factor
+      en: Freight transport Traffic accidents
+  - id: freight_labour_cost_fraction
+    column_id: freight_labour_cost_fraction
+    quantity: fraction
+    unit: ''
+    label:
+      en: Freight labour cost fraction
+  - id: freight_transport_noise
+    column_id: freight_transport_noise
+    quantity: unit_price
+    unit: €/tkm
+    label:
+      en: Freight transport Noise
   - id: fuel_consumption_change_of_1_utilisation_change
     column_id: fuel_consumption_change_of_1_utilisation_change
     quantity: fraction
     unit: 1/%
     label:
       en: Fuel consumption change of 1% utilisation change
+  - id: new_truck_emission_factor
+    column_id: new_truck_emission_factor
+    quantity: emission_factor
+    unit: g/vehicle_km
+    label:
+      en: New truck emission factor
   index_columns:
   - uuid
   - pollutant
@@ -81,16 +87,17 @@ meta:
   - transport_mode
   - energy_carrier
   - Year
-  updated_at: '1783089192'
+  updated_at: '1783137238'
   units:
+    max_load_weight: tkm/vkm
+    fleet_average_consumption: cl/vkm
+    number_of_trucks_registered_within_city: vehicles
+    average_utilisation: dimensionless
+    freight_transport_traffic_accidents: EUR/tkm
+    total_transportation_need_within_city_road_freight: Mtkm/a
+    freight_labour_cost_fraction: dimensionless
     utilisation_of_trucks_in_decarbonisation_scenario: dimensionless
+    fuel_consumption_change_of_1_utilisation_change: 1/%
     freight_transport_noise: EUR/tkm
     new_truck_emission_factor: g/vkm
-    freight_transport_traffic_accidents: EUR/tkm
-    freight_labour_cost_fraction: dimensionless
-    total_transportation_need_within_city_road_freight: Mtkm/a
-    fuel_consumption_change_of_1_utilisation_change: 1/%
-    number_of_trucks_registered_within_city: vehicles
-    fleet_average_consumption: cl/vkm
-    max_load_weight: tkm/vkm
-    average_utilisation: dimensionless
+    share_of_fleet_fully_electric_not_including_hybrids: dimensionless
