@@ -1,5 +1,5 @@
 outs:
-- md5: c497c3cbe55e42e6739c4686cec39a0a
+- md5: 695ca5cf767a5f125a7147019f8d86f7
   size: 10817
   hash: md5
   path: passenger_transport_emissions.parquet
@@ -8,18 +8,18 @@ meta:
     en: Passenger Transport Emissions
   identifier: lappeenranta/passenger_transport_emissions
   metrics:
-  - id: transport_pollutant_split
-    column_id: transport_pollutant_split
-    quantity: fraction
-    unit: ''
-    label:
-      en: transport pollutant split
   - id: new_fleet_emission_factor
     column_id: new_fleet_emission_factor
     quantity: emission_factor
     unit: g/vehicle_km
     label:
       en: new fleet emission factor
+  - id: transport_pollutant_split
+    column_id: transport_pollutant_split
+    quantity: fraction
+    unit: ''
+    label:
+      en: transport pollutant split
   - id: transport_emission_factors
     column_id: transport_emission_factors
     quantity: emission_factor
@@ -33,8 +33,8 @@ meta:
   - transport_mode
   - energy_carrier
   - Year
-  updated_at: '1783089187'
+  updated_at: '1783139736'
   units:
-    transport_emission_factors: g/vkm
     new_fleet_emission_factor: g/vkm
+    transport_emission_factors: g/vkm
     transport_pollutant_split: dimensionless
