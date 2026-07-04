@@ -1,5 +1,5 @@
 outs:
-- md5: c143523f0a785c80cab178b5ef308a04
+- md5: 8f8ad13034c2d4d15e7b6acdb75a3dfe
   size: 10223
   hash: md5
   path: passenger_transport_costs_external.parquet
@@ -8,18 +8,18 @@ meta:
     en: Passenger Transport Costs External
   identifier: lappeenranta/passenger_transport_costs_external
   metrics:
-  - id: distribution_of_co_benefits
-    column_id: distribution_of_co_benefits
-    quantity: fraction
-    unit: ''
-    label:
-      en: distribution of co-benefits
   - id: traffic_accidents
     column_id: traffic_accidents
     quantity: unit_price
     unit: €/pkm
     label:
       en: Traffic accidents
+  - id: distribution_of_co_benefits
+    column_id: distribution_of_co_benefits
+    quantity: fraction
+    unit: ''
+    label:
+      en: distribution of co-benefits
   - id: noise
     column_id: noise
     quantity: unit_price
@@ -39,9 +39,9 @@ meta:
   - stakeholder
   - area_distance
   - Year
-  updated_at: '1783139923'
+  updated_at: '1783140031'
   units:
-    air_pollution_unit_price: EUR/t
     distribution_of_co_benefits: dimensionless
-    traffic_accidents: EUR/pkm
     noise: EUR/pkm
+    air_pollution_unit_price: EUR/t
+    traffic_accidents: EUR/pkm
