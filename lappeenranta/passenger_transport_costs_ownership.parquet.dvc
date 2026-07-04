@@ -1,5 +1,5 @@
 outs:
-- md5: ff52e58be7d247c8ab6e1d99f47339d0
+- md5: 5c709f4e1d2320ef319663abed8d7ee4
   size: 15618
   hash: md5
   path: passenger_transport_costs_ownership.parquet
@@ -8,24 +8,12 @@ meta:
     en: Passenger Transport Costs Ownership
   identifier: lappeenranta/passenger_transport_costs_ownership
   metrics:
-  - id: additional_costs_for_electric_vehicles_rate
-    column_id: additional_costs_for_electric_vehicles_rate
-    quantity: rate
-    unit: 1/a
-    label:
-      en: Additional costs for electric vehicles rate
-  - id: total_cost_of_ownership_shares
-    column_id: total_cost_of_ownership_shares
+  - id: ev_charging_infrastructure
+    column_id: ev_charging_infrastructure
     quantity: fraction
     unit: ''
     label:
-      en: Total cost of ownership shares
-  - id: cost_of_driving_a_car_per_kilometre_excluding_fuel
-    column_id: cost_of_driving_a_car_per_kilometre_excluding_fuel
-    quantity: unit_price
-    unit: €/vehicle_km
-    label:
-      en: Cost of driving a car per kilometre (excluding fuel)
+      en: ev charging infrastructure
   - id: total_cost_of_ownership
     column_id: total_cost_of_ownership
     quantity: unit_price
@@ -38,37 +26,49 @@ meta:
     unit: ''
     label:
       en: up-front costs for EVs
-  - id: additional_costs_for_electric_vehicles
-    column_id: additional_costs_for_electric_vehicles
+  - id: cost_of_driving_a_car_per_kilometre_excluding_fuel
+    column_id: cost_of_driving_a_car_per_kilometre_excluding_fuel
     quantity: unit_price
-    unit: €/v
+    unit: €/vehicle_km
     label:
-      en: Additional costs for electric vehicles
-  - id: ev_charging_infrastructure
-    column_id: ev_charging_infrastructure
+      en: Cost of driving a car per kilometre (excluding fuel)
+  - id: additional_costs_for_electric_vehicles_rate
+    column_id: additional_costs_for_electric_vehicles_rate
+    quantity: rate
+    unit: 1/a
+    label:
+      en: Additional costs for electric vehicles rate
+  - id: total_cost_of_ownership_shares
+    column_id: total_cost_of_ownership_shares
     quantity: fraction
     unit: ''
     label:
-      en: ev charging infrastructure
+      en: Total cost of ownership shares
   - id: charging_infrastructure_costs
     column_id: charging_infrastructure_costs
     quantity: unit_price
     unit: €/v
     label:
       en: Charging infrastructure costs
+  - id: additional_costs_for_electric_vehicles
+    column_id: additional_costs_for_electric_vehicles
+    quantity: unit_price
+    unit: €/v
+    label:
+      en: Additional costs for electric vehicles
   index_columns:
   - cost_type
   - transport_mode
   - energy_carrier
   - stakeholder
   - Year
-  updated_at: '1783139919'
+  updated_at: '1783140026'
   units:
-    total_cost_of_ownership_shares: dimensionless
-    charging_infrastructure_costs: EUR/v
-    up_front_costs_for_evs: dimensionless
-    ev_charging_infrastructure: dimensionless
     additional_costs_for_electric_vehicles: EUR/v
+    up_front_costs_for_evs: dimensionless
+    charging_infrastructure_costs: EUR/v
     total_cost_of_ownership: EUR/vkm
-    cost_of_driving_a_car_per_kilometre_excluding_fuel: EUR/vkm
     additional_costs_for_electric_vehicles_rate: 1/a
+    total_cost_of_ownership_shares: dimensionless
+    cost_of_driving_a_car_per_kilometre_excluding_fuel: EUR/vkm
+    ev_charging_infrastructure: dimensionless
