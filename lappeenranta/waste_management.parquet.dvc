@@ -1,5 +1,5 @@
 outs:
-- md5: d008697f524a82883086709fbb0ce4bf
+- md5: edf46c89693457f8ba47f681785713a3
   size: 15165
   hash: md5
   path: waste_management.parquet
@@ -8,6 +8,30 @@ meta:
     en: Waste Management
   identifier: lappeenranta/waste_management
   metrics:
+  - id: waste_recycling
+    column_id: waste_recycling
+    quantity: fraction
+    unit: ''
+    label:
+      en: waste recycling
+  - id: prices_of_sorted_waste
+    column_id: prices_of_sorted_waste
+    quantity: unit_price
+    unit: €/t
+    label:
+      en: Prices of sorted waste
+  - id: waste_emission_factor
+    column_id: waste_emission_factor
+    quantity: emission_factor
+    unit: ''
+    label:
+      en: waste emission factor
+  - id: waste_management_costs
+    column_id: waste_management_costs
+    quantity: unit_price
+    unit: €/t
+    label:
+      en: Waste management costs
   - id: total_collected_waste_within_city_boundaries_by_type
     column_id: total_collected_waste_within_city_boundaries_by_type
     quantity: mass
@@ -20,30 +44,6 @@ meta:
     unit: kg/t
     label:
       en: Emission factors from waste management
-  - id: waste_management_costs
-    column_id: waste_management_costs
-    quantity: unit_price
-    unit: €/t
-    label:
-      en: Waste management costs
-  - id: prices_of_sorted_waste
-    column_id: prices_of_sorted_waste
-    quantity: unit_price
-    unit: €/t
-    label:
-      en: Prices of sorted waste
-  - id: waste_recycling
-    column_id: waste_recycling
-    quantity: fraction
-    unit: ''
-    label:
-      en: waste recycling
-  - id: waste_emission_factor
-    column_id: waste_emission_factor
-    quantity: emission_factor
-    unit: ''
-    label:
-      en: waste emission factor
   index_columns:
   - uuid
   - pollutant
@@ -53,11 +53,11 @@ meta:
   - waste_type
   - waste_treatment
   - Year
-  updated_at: '1783139764'
+  updated_at: '1783139871'
   units:
-    emission_factors_from_waste_management: kg/t
-    waste_management_costs: EUR/t
-    total_collected_waste_within_city_boundaries_by_type: t/a
-    waste_emission_factor: t/t
     waste_recycling: dimensionless
+    total_collected_waste_within_city_boundaries_by_type: t/a
+    emission_factors_from_waste_management: kg/t
+    waste_emission_factor: t/t
     prices_of_sorted_waste: EUR/t
+    waste_management_costs: EUR/t
