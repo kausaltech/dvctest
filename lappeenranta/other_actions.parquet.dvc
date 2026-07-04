@@ -1,5 +1,5 @@
 outs:
-- md5: 05a9bb3461476cc606a321d43832a334
+- md5: f3ddc46a4e65bb66e2096aa76aa74d7c
   size: 4398
   hash: md5
   path: other_actions.parquet
@@ -17,6 +17,6 @@ meta:
   index_columns:
   - uuid
   - Year
-  updated_at: '1783139803'
+  updated_at: '1783139909'
   units:
     reduced_co2e_emissions_committed_by_industry_agricu: dimensionless
