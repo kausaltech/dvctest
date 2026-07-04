@@ -1,5 +1,5 @@
 outs:
-- md5: edf46c89693457f8ba47f681785713a3
+- md5: de133c3c9ae1d9b4cd79ff2d95577cd7
   size: 15165
   hash: md5
   path: waste_management.parquet
@@ -14,6 +14,18 @@ meta:
     unit: ''
     label:
       en: waste recycling
+  - id: waste_management_costs
+    column_id: waste_management_costs
+    quantity: unit_price
+    unit: €/t
+    label:
+      en: Waste management costs
+  - id: emission_factors_from_waste_management
+    column_id: emission_factors_from_waste_management
+    quantity: emission_factor
+    unit: kg/t
+    label:
+      en: Emission factors from waste management
   - id: prices_of_sorted_waste
     column_id: prices_of_sorted_waste
     quantity: unit_price
@@ -26,24 +38,12 @@ meta:
     unit: ''
     label:
       en: waste emission factor
-  - id: waste_management_costs
-    column_id: waste_management_costs
-    quantity: unit_price
-    unit: €/t
-    label:
-      en: Waste management costs
   - id: total_collected_waste_within_city_boundaries_by_type
     column_id: total_collected_waste_within_city_boundaries_by_type
     quantity: mass
     unit: t/a
     label:
       en: Total collected waste within city boundaries by type
-  - id: emission_factors_from_waste_management
-    column_id: emission_factors_from_waste_management
-    quantity: emission_factor
-    unit: kg/t
-    label:
-      en: Emission factors from waste management
   index_columns:
   - uuid
   - pollutant
@@ -53,11 +53,11 @@ meta:
   - waste_type
   - waste_treatment
   - Year
-  updated_at: '1783139871'
+  updated_at: '1783139979'
   units:
-    waste_recycling: dimensionless
     total_collected_waste_within_city_boundaries_by_type: t/a
-    emission_factors_from_waste_management: kg/t
-    waste_emission_factor: t/t
-    prices_of_sorted_waste: EUR/t
     waste_management_costs: EUR/t
+    prices_of_sorted_waste: EUR/t
+    waste_recycling: dimensionless
+    waste_emission_factor: t/t
+    emission_factors_from_waste_management: kg/t
