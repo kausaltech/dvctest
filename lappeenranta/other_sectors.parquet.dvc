@@ -1,5 +1,5 @@
 outs:
-- md5: 143f998fe2392d8fb727e3133b102f1e
+- md5: 6330c46169266ae4b2676bd9e14834a2
   size: 12998
   hash: md5
   path: other_sectors.parquet
@@ -8,30 +8,30 @@ meta:
     en: Other Sectors
   identifier: lappeenranta/other_sectors
   metrics:
-  - id: emissions_from_other_sectors
-    column_id: emissions_from_other_sectors
-    quantity: emissions
-    unit: kt/a
-    label:
-      en: Emissions from other sectors
-  - id: value_of_co2_reduction
-    column_id: value_of_co2_reduction
-    quantity: unit_price
-    unit: €/t
-    label:
-      en: Value of CO2 reduction
-  - id: air_pollutant_distance_index
-    column_id: air_pollutant_distance_index
-    quantity: fraction
-    unit: ''
-    label:
-      en: Air pollutant distance index
   - id: aggregated_cost_types
     column_id: aggregated_cost_types
     quantity: fraction
     unit: ''
     label:
       en: Aggregated cost types
+  - id: emissions_from_other_sectors
+    column_id: emissions_from_other_sectors
+    quantity: emissions
+    unit: kt/a
+    label:
+      en: Emissions from other sectors
+  - id: air_pollutant_distance_index
+    column_id: air_pollutant_distance_index
+    quantity: fraction
+    unit: ''
+    label:
+      en: Air pollutant distance index
+  - id: value_of_co2_reduction
+    column_id: value_of_co2_reduction
+    quantity: unit_price
+    unit: €/t
+    label:
+      en: Value of CO2 reduction
   index_columns:
   - uuid
   - pollutant
@@ -42,7 +42,7 @@ meta:
   - heating_type
   - area_distance
   - Year
-  updated_at: '1783089230'
+  updated_at: '1783139774'
   units:
     air_pollutant_distance_index: dimensionless
     value_of_co2_reduction: EUR/t
