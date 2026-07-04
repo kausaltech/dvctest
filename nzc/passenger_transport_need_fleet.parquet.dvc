@@ -1,79 +1,160 @@
 outs:
-- md5: c2f1f90140874cefaacf724fea74f5f6
-  size: 24960
+- md5: 04a8bcb6207803263254062a518a9108
+  size: 45823
   hash: md5
   path: passenger_transport_need_fleet.parquet
 meta:
   name:
     en: Passenger Transport Need Fleet
   identifier: nzc/passenger_transport_need_fleet
+  description:
+    en: 'Transport need - Transport mode: cars - UUID: c3f157c0-ae56-470f-9ac7-e7ac0080626d
+      - 0: 3002.576275 - Metric: Transport need - 2935<br/>Transport need - Transport
+      mode: buses - UUID: 0791d065-3de0-4667-939f-056055677973 - 0: 481.8444379 -
+      Metric: Transport need - 471<br/>Transport need - Transport mode: trains - UUID:
+      1fe61660-fdce-4ea2-96ef-db0831dd2ee0 - 0: 475.7062922 - Metric: Transport need
+      - 465<br/>Transport need - Transport mode: walking - UUID: 53b815ee-ad74-4aad-8096-3ba19af4e6f4
+      - 0: 2063.439982 - Metric: Transport need - 2017<br/>Number of passengers per
+      vehicle - Transport mode: cars - UUID: 5d906005-023d-485f-ac27-851fabba2479
+      - 0: 1.2 - Metric: Number of passengers per vehicle - Valencia estimate - 2019<br/>Number
+      of passengers per vehicle - Transport mode: buses - UUID: 7ebdb840-c4f2-4917-a55b-f90818ce116c
+      - 0: 21.0 - Metric: Number of passengers per vehicle - Valencia estimate - 2019<br/>Number
+      of passengers per vehicle - Transport mode: trains - UUID: 1869b124-b2c4-4ce2-b7ca-dc477b957bbb
+      - 0: 40.0 - Metric: Number of passengers per vehicle - Valencia estimate - 2019<br/>Total
+      number of cars + motorcycles in city - Transport mode: cars - UUID: b8cb403d-e12e-4c79-be6c-ff2fd7c0016b
+      - 0: 360259.0248 - Metric: Total number of cars + motorcycles in city - 352151<br/>Share
+      of fleet that is less than 2 years old - Transport mode: cars - UUID: f0479ebd-e0b9-43ee-ad71-67f958529c54
+      - 0: 0.1 - Metric: Share of fleet that is less than 2 years old - Eurostat,
+      DATASET: Passenger cars, by age [road_eqs_carage]<br/>Share of fleet fully electric
+      (not including hybrids) - Transport mode: cars - Energy carrier: electricity
+      - UUID: 2be6f9ef-1745-40bf-9498-e9eeb4fdb984 - 0: 0.003 - Metric: Share of fleet
+      fully electric (not including hybrids) - Eurostat, DATASET: Passenger cars,
+      by type of motor energy [road_eqs_carpda]<br/>Number of buses in city bus fleet
+      - Transport mode: buses - UUID: 52393800-c525-4839-b651-0dea8c948003 - 0: 934.0211716
+      - Metric: Number of buses in city bus fleet - 913<br/>Share of bus fleet as
+      fully electric buses (not incl... - Transport mode: buses - Energy carrier:
+      electricity - UUID: 8a0ddf12-611d-45c0-b51b-c5722f5fb88c - 0: 0.0 - Metric:
+      Share of bus fleet as fully electric buses (not incl... - Eurostat, DATASET:
+      Motor coaches, buses and trolley buses, by type of motor energy [road_eqs_busmot]<br/>Share
+      of fleet that is less than 2 years old - Transport mode: light_trucks - UUID:
+      327a3e7e-0778-4098-b644-901533cfda3b - 0: 0.07 - Metric: Share of fleet that
+      is less than 2 years old - Eurostat, DATASET: Lorries and road tractors, by
+      age [road_eqs_lorroa]<br/>Share of fleet that is less than 2 years old - Transport
+      mode: heavy_trucks - UUID: b03bcb8c-cb77-4d7a-bed4-2a0150090aa1 - 0: 0.04 -
+      Metric: Share of fleet that is less than 2 years old - Eurostat, DATASET: Lorries
+      and road tractors, by age [road_eqs_lorroa]<br/>Share of car + motorcycle km
+      reduced shifted towards... - Transport mode: buses - UUID: 6cdd313e-1f72-4168-b48c-ed4da1d28266
+      - 0: 0.1 - 2051: 0.1 - Metric: Share of car + motorcycle km reduced shifted
+      towards... - Valencia forecast assumption - 2030<br/>Share of car + motorcycle
+      km reduced shifted towards... - Transport mode: trains - UUID: 162dc3d8-cbe0-4885-ae28-961052468b48
+      - 0: 0.6 - 2051: 0.6 - Metric: Share of car + motorcycle km reduced shifted
+      towards... - Valencia forecast assumption - 2030<br/>Share of car + motorcycle
+      km reduced shifted towards... - Transport mode: walking - UUID: dc70e30c-51dc-4a9b-934a-8eb4c26dca9b
+      - 0: 0.3 - 2051: 0.3 - Metric: Share of car + motorcycle km reduced shifted
+      towards... - Valencia forecast assumption - 2030<br/>Electrification of transport
+      fleet - Transport mode: cars - Energy carrier: electricity - Parameter: Max
+      impact - UUID: 3ac9c202-fd4e-4c7b-b313-4ff4af8d3c1c - 100: 0.35 - Metric: Electrification
+      of transport fleet - Valencia forecast assumption - 2040<br/>Electrification
+      of transport fleet - Transport mode: cars - Energy carrier: electricity - Parameter:
+      Max year - UUID: 56f01fa8-6c81-4bed-91cf-436d410e3b9a - 100: 2040 - Metric:
+      Electrification of transport fleet - Valencia forecast assumption - 2040<br/>Electrification
+      of transport fleet - Transport mode: light_trucks - Energy carrier: electricity
+      - Parameter: Max impact - UUID: eb7fc66c-1e68-4f1c-9a75-49cd9c174b17 - 100:
+      1 - Metric: Electrification of transport fleet - Valencia forecast assumption
+      - 2040<br/>Electrification of transport fleet - Transport mode: light_trucks
+      - Energy carrier: electricity - Parameter: Max year - UUID: 04088784-13d6-484b-9248-5571877492df
+      - 100: 2061 - Metric: Electrification of transport fleet - Valencia forecast
+      assumption - 2040<br/>Electrification of transport fleet - Transport mode: heavy_trucks
+      - Energy carrier: electricity - Parameter: Max impact - UUID: 269337bc-3908-44f4-8435-ae6f84248756
+      - 100: 0.6 - Metric: Electrification of transport fleet - Valencia forecast
+      assumption - 2040<br/>Electrification of transport fleet - Transport mode: heavy_trucks
+      - Energy carrier: electricity - Parameter: Max year - UUID: d1cb6ee0-dffb-4132-9aff-05a1fe78bd75
+      - 100: 2040 - Metric: Electrification of transport fleet - Valencia forecast
+      assumption - 2040<br/>transport energy factor ice petrol diesel - 0: 0.0004038461538
+      - 1: 0.0004038461538 - 2020: 0.0004038461538 - 2021: 0.0004038461538 - 2022:
+      0.0004038461538 - 2023: 0.0004038461538 - 2024: 0.0004038461538 - 2025: 0.0004038461538
+      - 2026: 0.0004038461538 - 2027: 0.0004038461538 - 2028: 0.0004038461538 - 2029:
+      0.0004038461538 - 2030: 0.0004038461538 - 2031: 0.0004038461538 - 2032: 0.0004038461538
+      - 2033: 0.0004038461538 - 2034: 0.0004038461538 - 2035: 0.0004038461538 - 2036:
+      0.0004038461538 - 2037: 0.0004038461538 - 2038: 0.0004038461538 - 2039: 0.0004038461538
+      - 2040: 0.0004038461538 - 2041: 0.0004038461538 - 2042: 0.0004038461538 - 2043:
+      0.0004038461538 - 2044: 0.0004038461538 - 2045: 0.0004038461538 - Metric: transport
+      energy factor ice petrol diesel - European commission (2019) - Reducing CO2
+      emissions from passenger cars. https://ec.europa.eu/clima/policies/transport/vehicles/cars_en<br/>Average
+      fuel consumption of buses, based on current ... - Transport mode: buses - Energy
+      carrier: petrol_diesel - 0: 0.4494117647 - Metric: Average fuel consumption
+      of buses, based on current ... -  Consumption för EURO 1-5 taget från: https://www.transportmeasures.org/wp-content/uploads/2014/07/NTM_Nylund_290414.pdf<br/>Electricity
+      consumption average vehicle - Transport mode: trains - Energy carrier: electricity
+      - 0: 7.448275862 - Metric: Electricity consumption average vehicle -  Based
+      on Shuai et. Al. (2016) - Evaluation of Strategies to Reducing Traction Energy
+      Consumption of Metro Systems Using an Optimal Train Control Simulation Model<br/>Electricity
+      consumption average vehicle - Transport mode: cars - Energy carrier: electricity
+      - 0: 0.175 - Metric: Electricity consumption average vehicle - EV database (2019)
+      - Energy consumption of full electric vehicles. https://ev-database.org/cheatsheet/energy-consumption-electric-car<br/>Electricity
+      consumption average vehicle - Transport mode: light_trucks - Energy carrier:
+      electricity - 0: 0.195 - Metric: Electricity consumption average vehicle - https://www.researchgate.net/profile/Philippe_Lebeau/publication/283026136_Electrifying_light_commercial_vehicles_for_city_logistics_A_total_cost_of_ownership_analysis/links/5630bf7708ae336c42eb562c/Electrifying-light-commercial-vehicles-for-city-logistics-A-total-cost-of-ownership-analysis.pdf<br/>Electricity
+      consumption average vehicle - Transport mode: heavy_trucks - Energy carrier:
+      electricity - 0: 1.0 - Metric: Electricity consumption average vehicle - European
+      Climate Foundation (2018) - Trucking into a Greener Future: the economic impact
+      of decarbonizing goods vehicles in Europe. https://europeanclimate.org/wp-content/uploads/2018/09/Trucking-into-a-greener-future-Technical-2018-v1.1.pdf<br/>Electricity
+      consumption average vehicle - Transport mode: buses - Energy carrier: electricity
+      - 0: 1.5 - Metric: Electricity consumption average vehicle - ElectriCity (2016)
+      - Cooperation for sustainable and attractive public transport https://www.electricitygoteborg.se/sites/default/files/content/u2318/electricity_-_cooperation_for_sustainable_and_attractive_public_transport.pdf'
   metrics:
-  - id: relative_transport_efficiency
-    column_id: relative_transport_efficiency
-    quantity: ratio
-    unit: ''
-    label:
-      en: relative transport efficiency
-  - id: transport_energy_factor_ice_petrol_diesel
-    column_id: transport_energy_factor_ice_petrol_diesel
-    quantity: emission_factor
-    unit: l/g
-    label:
-      en: transport energy factor ice petrol diesel
-  - id: average_fuel_consumption_of_buses_based_on_current_
-    column_id: average_fuel_consumption_of_buses_based_on_current_
-    quantity: energy_factor
-    unit: l/vehicle_km
-    label:
-      en: Average fuel consumption of buses, based on current ...
-  - id: share_of_fleet_that_is_less_than_2_years_old
-    column_id: share_of_fleet_that_is_less_than_2_years_old
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of fleet that is less than 2 years old
-  - id: share_of_bus_fleet_as_fully_electric_buses_not_incl
-    column_id: share_of_bus_fleet_as_fully_electric_buses_not_incl
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of bus fleet as fully electric buses (not incl...
   - id: electricity_consumption_average_vehicle
     column_id: electricity_consumption_average_vehicle
     quantity: energy_factor
     unit: kWh/vehicle_km
     label:
       en: Electricity consumption average vehicle
-  - id: share_of_car_motorcycle_km_reduced_shifted_towards
-    column_id: share_of_car_motorcycle_km_reduced_shifted_towards
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of car + motorcycle km reduced shifted towards...
   - id: share_of_fleet_fully_electric_not_including_hybrids
     column_id: share_of_fleet_fully_electric_not_including_hybrids
     quantity: fraction
     unit: ''
     label:
       en: Share of fleet fully electric (not including hybrids)
+  - id: electrification_of_transport_fleet
+    column_id: electrification_of_transport_fleet
+    quantity: fraction
+    unit: ''
+    label:
+      en: Electrification of transport fleet
+  - id: share_of_fleet_that_is_less_than_2_years_old
+    column_id: share_of_fleet_that_is_less_than_2_years_old
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of fleet that is less than 2 years old
   - id: total_number_of_cars_motorcycles_in_city
     column_id: total_number_of_cars_motorcycles_in_city
     quantity: number
     unit: v
     label:
       en: Total number of cars + motorcycles in city
+  - id: fully_electric_train_share
+    column_id: fully_electric_train_share
+    quantity: fraction
+    unit: '%'
+    label:
+      en: Fully electric train share
+  - id: average_fuel_consumption_of_buses_based_on_current_
+    column_id: average_fuel_consumption_of_buses_based_on_current_
+    quantity: energy_factor
+    unit: l/vehicle_km
+    label:
+      en: Average fuel consumption of buses, based on current ...
   - id: motorised_transport_index
     column_id: motorised_transport_index
     quantity: fraction
     unit: ''
     label:
       en: motorised transport index
-  - id: number_of_passengers_per_vehicle
-    column_id: number_of_passengers_per_vehicle
-    quantity: occupancy_factor
-    unit: p/v
+  - id: share_of_bus_fleet_as_fully_electric_buses_not_incl
+    column_id: share_of_bus_fleet_as_fully_electric_buses_not_incl
+    quantity: fraction
+    unit: ''
     label:
-      en: Number of passengers per vehicle
+      en: Share of bus fleet as fully electric buses (not incl...
   - id: transport_need
     column_id: transport_need
     quantity: mileage
@@ -82,35 +163,54 @@ meta:
       en: Transport need
   - id: number_of_buses_in_city_bus_fleet
     column_id: number_of_buses_in_city_bus_fleet
-    quantity: fraction
+    quantity: number
     unit: v
     label:
       en: Number of buses in city bus fleet
-  - id: electrification_of_transport_fleet
-    column_id: electrification_of_transport_fleet
+  - id: transport_energy_factor_ice_petrol_diesel
+    column_id: transport_energy_factor_ice_petrol_diesel
+    quantity: emission_factor
+    unit: l/g
+    label:
+      en: transport energy factor ice petrol diesel
+  - id: share_of_car_motorcycle_km_reduced_shifted_towards
+    column_id: share_of_car_motorcycle_km_reduced_shifted_towards
     quantity: fraction
     unit: ''
     label:
-      en: Electrification of transport fleet
+      en: Share of car + motorcycle km reduced shifted towards...
+  - id: number_of_passengers_per_vehicle
+    column_id: number_of_passengers_per_vehicle
+    quantity: occupancy_factor
+    unit: p/v
+    label:
+      en: Number of passengers per vehicle
+  - id: relative_transport_efficiency
+    column_id: relative_transport_efficiency
+    quantity: ratio
+    unit: ''
+    label:
+      en: relative transport efficiency
   index_columns:
-  - parameter
-  - uuid
   - transport_mode
   - energy_carrier
+  - parameter
+  - uuid
   - Year
-  updated_at: '1782308019'
+  updated_at: '1783154140'
   units:
-    transport_energy_factor_ice_petrol_diesel: l/g
-    electricity_consumption_average_vehicle: kWh/vehicle_km
-    share_of_fleet_that_is_less_than_2_years_old: dimensionless
-    relative_transport_efficiency: dimensionless
-    share_of_car_motorcycle_km_reduced_shifted_towards: dimensionless
-    share_of_bus_fleet_as_fully_electric_buses_not_incl: dimensionless
-    electrification_of_transport_fleet: dimensionless
-    number_of_passengers_per_vehicle: p/v
-    total_number_of_cars_motorcycles_in_city: v
-    motorised_transport_index: dimensionless
-    share_of_fleet_fully_electric_not_including_hybrids: dimensionless
-    average_fuel_consumption_of_buses_based_on_current_: l/vehicle_km
     transport_need: Mpkm/a
-    number_of_buses_in_city_bus_fleet: v
+    electrification_of_transport_fleet: dimensionless
+    number_of_passengers_per_vehicle: passenger/vehicle
+    number_of_buses_in_city_bus_fleet: vehicles
+    fully_electric_train_share: '%'
+    transport_energy_factor_ice_petrol_diesel: l/g
+    share_of_car_motorcycle_km_reduced_shifted_towards: dimensionless
+    total_number_of_cars_motorcycles_in_city: vehicles
+    share_of_fleet_that_is_less_than_2_years_old: dimensionless
+    share_of_bus_fleet_as_fully_electric_buses_not_incl: dimensionless
+    average_fuel_consumption_of_buses_based_on_current_: l/vkm
+    electricity_consumption_average_vehicle: kWh/vkm
+    relative_transport_efficiency: dimensionless
+    share_of_fleet_fully_electric_not_including_hybrids: dimensionless
+    motorised_transport_index: dimensionless
