@@ -1,5 +1,5 @@
 outs:
-- md5: 0600d8d2676d91dd89ffa330fe3d3913
+- md5: 3bc68ae318d63b6484fb42e7619ac2ea
   size: 25140
   hash: md5
   path: passenger_transport_need_fleet.parquet
@@ -8,30 +8,18 @@ meta:
     en: Passenger Transport Need Fleet
   identifier: lappeenranta/passenger_transport_need_fleet
   metrics:
-  - id: share_of_fleet_fully_electric_not_including_hybrids
-    column_id: share_of_fleet_fully_electric_not_including_hybrids
-    quantity: fraction
-    unit: ''
+  - id: number_of_buses_in_city_bus_fleet
+    column_id: number_of_buses_in_city_bus_fleet
+    quantity: number
+    unit: v
     label:
-      en: Share of fleet fully electric (not including hybrids)
-  - id: number_of_passengers_per_vehicle
-    column_id: number_of_passengers_per_vehicle
-    quantity: occupancy_factor
-    unit: p/v
+      en: Number of buses in city bus fleet
+  - id: electricity_consumption_average_vehicle
+    column_id: electricity_consumption_average_vehicle
+    quantity: energy_factor
+    unit: kWh/vehicle_km
     label:
-      en: Number of passengers per vehicle
-  - id: relative_transport_efficiency
-    column_id: relative_transport_efficiency
-    quantity: ratio
-    unit: ''
-    label:
-      en: relative transport efficiency
-  - id: share_of_bus_fleet_as_fully_electric_buses_not_incl
-    column_id: share_of_bus_fleet_as_fully_electric_buses_not_incl
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of bus fleet as fully electric buses (not incl...
+      en: Electricity consumption average vehicle
   - id: transport_need
     column_id: transport_need
     quantity: mileage
@@ -44,73 +32,85 @@ meta:
     unit: ''
     label:
       en: Share of car + motorcycle km reduced shifted towards...
-  - id: electricity_consumption_average_vehicle
-    column_id: electricity_consumption_average_vehicle
-    quantity: energy_factor
-    unit: kWh/vehicle_km
-    label:
-      en: Electricity consumption average vehicle
-  - id: transport_energy_factor_ice_petrol_diesel
-    column_id: transport_energy_factor_ice_petrol_diesel
-    quantity: emission_factor
-    unit: l/g
-    label:
-      en: transport energy factor ice petrol diesel
   - id: motorised_transport_index
     column_id: motorised_transport_index
     quantity: fraction
     unit: ''
     label:
       en: motorised transport index
-  - id: number_of_buses_in_city_bus_fleet
-    column_id: number_of_buses_in_city_bus_fleet
-    quantity: number
-    unit: v
+  - id: share_of_fleet_fully_electric_not_including_hybrids
+    column_id: share_of_fleet_fully_electric_not_including_hybrids
+    quantity: fraction
+    unit: ''
     label:
-      en: Number of buses in city bus fleet
+      en: Share of fleet fully electric (not including hybrids)
+  - id: share_of_bus_fleet_as_fully_electric_buses_not_incl
+    column_id: share_of_bus_fleet_as_fully_electric_buses_not_incl
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of bus fleet as fully electric buses (not incl...
   - id: average_fuel_consumption_of_buses_based_on_current_
     column_id: average_fuel_consumption_of_buses_based_on_current_
     quantity: energy_factor
     unit: l/vehicle_km
     label:
       en: Average fuel consumption of buses, based on current ...
-  - id: total_number_of_cars_motorcycles_in_city
-    column_id: total_number_of_cars_motorcycles_in_city
-    quantity: number
-    unit: v
+  - id: relative_transport_efficiency
+    column_id: relative_transport_efficiency
+    quantity: ratio
+    unit: ''
     label:
-      en: Total number of cars + motorcycles in city
+      en: relative transport efficiency
   - id: share_of_fleet_that_is_less_than_2_years_old
     column_id: share_of_fleet_that_is_less_than_2_years_old
     quantity: fraction
     unit: ''
     label:
       en: Share of fleet that is less than 2 years old
+  - id: total_number_of_cars_motorcycles_in_city
+    column_id: total_number_of_cars_motorcycles_in_city
+    quantity: number
+    unit: v
+    label:
+      en: Total number of cars + motorcycles in city
+  - id: number_of_passengers_per_vehicle
+    column_id: number_of_passengers_per_vehicle
+    quantity: occupancy_factor
+    unit: p/v
+    label:
+      en: Number of passengers per vehicle
   - id: electrification_of_transport_fleet
     column_id: electrification_of_transport_fleet
     quantity: fraction
     unit: ''
     label:
       en: Electrification of transport fleet
+  - id: transport_energy_factor_ice_petrol_diesel
+    column_id: transport_energy_factor_ice_petrol_diesel
+    quantity: emission_factor
+    unit: l/g
+    label:
+      en: transport energy factor ice petrol diesel
   index_columns:
   - uuid
   - transport_mode
   - energy_carrier
   - parameter
   - Year
-  updated_at: '1783139731'
+  updated_at: '1783139838'
   units:
-    average_fuel_consumption_of_buses_based_on_current_: l/vkm
-    motorised_transport_index: dimensionless
     transport_energy_factor_ice_petrol_diesel: l/g
-    relative_transport_efficiency: dimensionless
     share_of_car_motorcycle_km_reduced_shifted_towards: dimensionless
-    electricity_consumption_average_vehicle: kWh/vkm
+    relative_transport_efficiency: dimensionless
+    motorised_transport_index: dimensionless
     number_of_buses_in_city_bus_fleet: vehicles
-    transport_need: Mpkm/a
-    share_of_bus_fleet_as_fully_electric_buses_not_incl: dimensionless
-    total_number_of_cars_motorcycles_in_city: vehicles
-    share_of_fleet_that_is_less_than_2_years_old: dimensionless
-    number_of_passengers_per_vehicle: passenger/vehicle
-    electrification_of_transport_fleet: dimensionless
+    electricity_consumption_average_vehicle: kWh/vkm
     share_of_fleet_fully_electric_not_including_hybrids: dimensionless
+    electrification_of_transport_fleet: dimensionless
+    transport_need: Mpkm/a
+    share_of_fleet_that_is_less_than_2_years_old: dimensionless
+    share_of_bus_fleet_as_fully_electric_buses_not_incl: dimensionless
+    average_fuel_consumption_of_buses_based_on_current_: l/vkm
+    total_number_of_cars_motorcycles_in_city: vehicles
+    number_of_passengers_per_vehicle: passenger/vehicle
