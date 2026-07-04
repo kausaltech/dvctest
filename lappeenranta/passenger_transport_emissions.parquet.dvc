@@ -1,5 +1,5 @@
 outs:
-- md5: 58fbe84b6de86dd50c5f0df9e2c71660
+- md5: d1ae6979ada334aa3f900ab47e9b111d
   size: 10817
   hash: md5
   path: passenger_transport_emissions.parquet
@@ -14,18 +14,18 @@ meta:
     unit: g/vehicle_km
     label:
       en: Transport Emission factors
-  - id: transport_pollutant_split
-    column_id: transport_pollutant_split
-    quantity: fraction
-    unit: ''
-    label:
-      en: transport pollutant split
   - id: new_fleet_emission_factor
     column_id: new_fleet_emission_factor
     quantity: emission_factor
     unit: g/vehicle_km
     label:
       en: new fleet emission factor
+  - id: transport_pollutant_split
+    column_id: transport_pollutant_split
+    quantity: fraction
+    unit: ''
+    label:
+      en: transport pollutant split
   index_columns:
   - uuid
   - pollutant
@@ -33,8 +33,8 @@ meta:
   - transport_mode
   - energy_carrier
   - Year
-  updated_at: '1783139842'
+  updated_at: '1783139950'
   units:
-    transport_pollutant_split: dimensionless
-    transport_emission_factors: g/vkm
     new_fleet_emission_factor: g/vkm
+    transport_emission_factors: g/vkm
+    transport_pollutant_split: dimensionless
