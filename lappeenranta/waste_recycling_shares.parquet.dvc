@@ -1,5 +1,5 @@
 outs:
-- md5: d839242f5dd5645ba2f24dc986169675
+- md5: 2852b290e316f3577356045d3013feb2
   size: 7976
   hash: md5
   path: waste_recycling_shares.parquet
@@ -25,7 +25,7 @@ meta:
   - waste_type
   - waste_treatment
   - Year
-  updated_at: '1783089222'
+  updated_at: '1783139769'
   units:
     share_recyclingincinerationlandfill: dimensionless
     share_recyclingincinerationlandfill_baseline: dimensionless
