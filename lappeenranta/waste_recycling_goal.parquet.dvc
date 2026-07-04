@@ -1,5 +1,5 @@
 outs:
-- md5: ded576150fb0635d4e60f4dc0da8d58a
+- md5: 7a5f4a11a77cee4c6b1f09482e5189d1
   size: 7285
   hash: md5
   path: waste_recycling_goal.parquet
@@ -20,6 +20,6 @@ meta:
   - waste_treatment
   - parameter
   - Year
-  updated_at: '1783089256'
+  updated_at: '1783139798'
   units:
     51_increased_recycling_of_waste: dimensionless
