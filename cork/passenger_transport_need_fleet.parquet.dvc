@@ -1,6 +1,6 @@
 outs:
-- md5: 4dcf6da14697d0871cbecf49c9918cb9
-  size: 44507
+- md5: 0db686a49fe2abe7b0950a91fa09e55d
+  size: 44696
   hash: md5
   path: passenger_transport_need_fleet.parquet
 meta:
@@ -32,11 +32,12 @@ meta:
       - Metric: Share of fleet fully electric (not including hybrids) - Eurostat,
       DATASET: Passenger cars, by type of motor energy [road_eqs_carpda]<br/>Number
       of buses in city bus fleet - Transport mode: buses - UUID: 52393800-c525-4839-b651-0dea8c948003
-      - 2023: 125.0 - Metric: Number of buses in city bus fleet - 913<br/>Share of
-      bus fleet as fully electric buses (not incl... - Transport mode: buses - Energy
-      carrier: electricity - UUID: 8a0ddf12-611d-45c0-b51b-c5722f5fb88c - 2023: 0.0
-      - Metric: Share of bus fleet as fully electric buses (not incl... - Eurostat,
-      DATASET: Motor coaches, buses and trolley buses, by type of motor energy [road_eqs_busmot]<br/>Share
+      - 2023: 125.0 - 2024: 129 - 2025: 190 - 2026: 236 - 2027: 236 - 2028: 236 -
+      Metric: Number of buses in city bus fleet - 913<br/>Share of bus fleet as fully
+      electric buses (not incl... - Transport mode: buses - Energy carrier: electricity
+      - UUID: 8a0ddf12-611d-45c0-b51b-c5722f5fb88c - 2023: 0.0 - Metric: Share of
+      bus fleet as fully electric buses (not incl... - Eurostat, DATASET: Motor coaches,
+      buses and trolley buses, by type of motor energy [road_eqs_busmot]<br/>Share
       of fleet that is less than 2 years old - Transport mode: light_trucks - UUID:
       327a3e7e-0778-4098-b644-901533cfda3b - 2023: 0.12 - Metric: Share of fleet that
       is less than 2 years old - Eurostat, DATASET: Lorries and road tractors, by
@@ -96,60 +97,6 @@ meta:
       - 2023: 1.5 - Metric: Electricity consumption average vehicle - ElectriCity
       (2016) - Cooperation for sustainable and attractive public transport https://www.electricitygoteborg.se/sites/default/files/content/u2318/electricity_-_cooperation_for_sustainable_and_attractive_public_transport.pdf'
   metrics:
-  - id: relative_transport_efficiency
-    column_id: relative_transport_efficiency
-    quantity: ratio
-    unit: ''
-    label:
-      en: relative transport efficiency
-  - id: fully_electric_train_share
-    column_id: fully_electric_train_share
-    quantity: fraction
-    unit: '%'
-    label:
-      en: Fully electric train share
-  - id: average_fuel_consumption_of_buses_based_on_current_
-    column_id: average_fuel_consumption_of_buses_based_on_current_
-    quantity: energy_factor
-    unit: l/vehicle_km
-    label:
-      en: Average fuel consumption of buses, based on current ...
-  - id: transport_energy_factor_ice_petrol_diesel
-    column_id: transport_energy_factor_ice_petrol_diesel
-    quantity: emission_factor
-    unit: l/g
-    label:
-      en: transport energy factor ice petrol diesel
-  - id: motorised_transport_index
-    column_id: motorised_transport_index
-    quantity: fraction
-    unit: ''
-    label:
-      en: motorised transport index
-  - id: share_of_fleet_that_is_less_than_2_years_old
-    column_id: share_of_fleet_that_is_less_than_2_years_old
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of fleet that is less than 2 years old
-  - id: share_of_car_motorcycle_km_reduced_shifted_towards
-    column_id: share_of_car_motorcycle_km_reduced_shifted_towards
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of car + motorcycle km reduced shifted towards...
-  - id: share_of_fleet_fully_electric_not_including_hybrids
-    column_id: share_of_fleet_fully_electric_not_including_hybrids
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of fleet fully electric (not including hybrids)
-  - id: number_of_passengers_per_vehicle
-    column_id: number_of_passengers_per_vehicle
-    quantity: occupancy_factor
-    unit: p/v
-    label:
-      en: Number of passengers per vehicle
   - id: total_number_of_cars_motorcycles_in_city
     column_id: total_number_of_cars_motorcycles_in_city
     quantity: number
@@ -162,6 +109,54 @@ meta:
     unit: kWh/vehicle_km
     label:
       en: Electricity consumption average vehicle
+  - id: share_of_fleet_that_is_less_than_2_years_old
+    column_id: share_of_fleet_that_is_less_than_2_years_old
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of fleet that is less than 2 years old
+  - id: relative_transport_efficiency
+    column_id: relative_transport_efficiency
+    quantity: ratio
+    unit: ''
+    label:
+      en: relative transport efficiency
+  - id: share_of_fleet_fully_electric_not_including_hybrids
+    column_id: share_of_fleet_fully_electric_not_including_hybrids
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of fleet fully electric (not including hybrids)
+  - id: average_fuel_consumption_of_buses_based_on_current_
+    column_id: average_fuel_consumption_of_buses_based_on_current_
+    quantity: energy_factor
+    unit: l/vehicle_km
+    label:
+      en: Average fuel consumption of buses, based on current ...
+  - id: number_of_buses_in_city_bus_fleet
+    column_id: number_of_buses_in_city_bus_fleet
+    quantity: number
+    unit: v
+    label:
+      en: Number of buses in city bus fleet
+  - id: fully_electric_train_share
+    column_id: fully_electric_train_share
+    quantity: fraction
+    unit: '%'
+    label:
+      en: Fully electric train share
+  - id: motorised_transport_index
+    column_id: motorised_transport_index
+    quantity: fraction
+    unit: ''
+    label:
+      en: motorised transport index
+  - id: number_of_passengers_per_vehicle
+    column_id: number_of_passengers_per_vehicle
+    quantity: occupancy_factor
+    unit: p/v
+    label:
+      en: Number of passengers per vehicle
   - id: share_of_bus_fleet_as_fully_electric_buses_not_incl
     column_id: share_of_bus_fleet_as_fully_electric_buses_not_incl
     quantity: fraction
@@ -180,32 +175,38 @@ meta:
     unit: Mpkm/a
     label:
       en: Transport need
-  - id: number_of_buses_in_city_bus_fleet
-    column_id: number_of_buses_in_city_bus_fleet
-    quantity: number
-    unit: v
+  - id: share_of_car_motorcycle_km_reduced_shifted_towards
+    column_id: share_of_car_motorcycle_km_reduced_shifted_towards
+    quantity: fraction
+    unit: ''
     label:
-      en: Number of buses in city bus fleet
+      en: Share of car + motorcycle km reduced shifted towards...
+  - id: transport_energy_factor_ice_petrol_diesel
+    column_id: transport_energy_factor_ice_petrol_diesel
+    quantity: emission_factor
+    unit: l/g
+    label:
+      en: transport energy factor ice petrol diesel
   index_columns:
   - transport_mode
   - energy_carrier
   - parameter
   - uuid
   - Year
-  updated_at: '1783155064'
+  updated_at: '1783225746'
   units:
-    average_fuel_consumption_of_buses_based_on_current_: l/vkm
-    electrification_of_transport_fleet: dimensionless
-    fully_electric_train_share: '%'
-    transport_need: Mpkm/a
-    number_of_passengers_per_vehicle: passenger/vehicle
     number_of_buses_in_city_bus_fleet: vehicles
+    number_of_passengers_per_vehicle: passenger/vehicle
     share_of_car_motorcycle_km_reduced_shifted_towards: dimensionless
+    transport_need: Mpkm/a
+    average_fuel_consumption_of_buses_based_on_current_: l/vkm
     electricity_consumption_average_vehicle: kWh/vkm
-    share_of_fleet_that_is_less_than_2_years_old: dimensionless
-    total_number_of_cars_motorcycles_in_city: vehicles
-    transport_energy_factor_ice_petrol_diesel: l/g
     relative_transport_efficiency: dimensionless
-    motorised_transport_index: dimensionless
     share_of_bus_fleet_as_fully_electric_buses_not_incl: dimensionless
+    transport_energy_factor_ice_petrol_diesel: l/g
+    electrification_of_transport_fleet: dimensionless
+    motorised_transport_index: dimensionless
+    share_of_fleet_that_is_less_than_2_years_old: dimensionless
     share_of_fleet_fully_electric_not_including_hybrids: dimensionless
+    total_number_of_cars_motorcycles_in_city: vehicles
+    fully_electric_train_share: '%'
