@@ -1,0 +1,37 @@
+outs:
+- md5: d4117a8086593f0662c2cffa22cfbcf1
+  size: 5986
+  hash: md5
+  path: local_waste_emissions.parquet
+meta:
+  name:
+    en: Local waste emissions
+  identifier: cork/local_waste_emissions
+  metrics:
+  - id: energy_use
+    column_id: energy_use
+    quantity: energy
+    unit: kg/a
+    label:
+      en: Energy use
+  - id: emissions
+    column_id: emissions
+    quantity: emissions
+    unit: kg/a
+    label:
+      en: Emissions
+  - id: flaring
+    column_id: flaring
+    quantity: emissions
+    unit: kg/a
+    label:
+      en: Flaring
+  index_columns:
+  - ghg
+  - scope
+  - Year
+  updated_at: '1783320832'
+  units:
+    energy_use: kg/a
+    flaring: kg/a
+    emissions: kg/a
