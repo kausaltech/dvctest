@@ -1,6 +1,6 @@
 outs:
-- md5: a547708ae4177f8edd44728cb648b881
-  size: 110808
+- md5: 533cb75a5b97c446883ad6301d475c08
+  size: 111047
   hash: md5
   path: preprocessing_data_from_arup.parquet
 meta:
@@ -12,11 +12,11 @@ meta:
       - Source: CorkCity_BEI_v2_On-road Transport_20260323.xlsx - 2023: 288.4812283
       - On-Road Transport Emissions, all modes (Calculation!F115/F164/F189)<br/>vehicle_emissions_share
       - Metric: vehicle_emissions_share - transport_mode: cars - Source: Arup assumption
-      - 2023: 0.5657145285 - Passenger Car - share of on-road emissions (Calculation!F116)<br/>vehicle_emissions_share
+      - 2023: 56.57145285 - Passenger Car - share of on-road emissions (Calculation!F116)<br/>vehicle_emissions_share
       - Metric: vehicle_emissions_share - transport_mode: light_trucks - Source: Arup
-      assumption - 2023: 0.07707832719 - Light Duty Vehicles - share of on-road emissions
+      assumption - 2023: 7.707832719 - Light Duty Vehicles - share of on-road emissions
       (Calculation!F165)<br/>vehicle_emissions_share - Metric: vehicle_emissions_share
-      - transport_mode: heavy_trucks - Source: Arup assumption - 2023: 0.2052949368
+      - transport_mode: heavy_trucks - Source: Arup assumption - 2023: 20.52949368
       - Heavy Duty Vehicles - share of on-road emissions (Calculation!F190)<br/>bus_emissions_tco2e
       - Metric: bus_emissions_tco2e - transport_mode: buses - Source: Bus Éireann
       Fleet Transition - CorkCity - 2023: 7835 - Total carbon emissions - Buses (Calculation!F129)<br/>vehicle_km
@@ -28,10 +28,10 @@ meta:
       - Metric: goods_vehicles_number - Source: CorkCity_BEI_v2_On-road Transport_20260323.xlsx
       - 2023: 16502.42454 - Goods Vehicles - number (Calculation!F176/F201)<br/>freight_weight_class_share
       - Metric: freight_weight_class_share - transport_mode: light_trucks - Source:
-      Cork Goods Vehicles 2023.xlsx - 2023: 0.8935372684 - Share of Light Duty Transport
+      Cork Goods Vehicles 2023.xlsx - 2023: 89.35372684 - Share of Light Duty Transport
       <3.5t (Calculation!F174)<br/>freight_weight_class_share - Metric: freight_weight_class_share
       - transport_mode: heavy_trucks - Source: Cork Goods Vehicles 2023.xlsx - 2023:
-      0.1064627316 - Share of Heavy Duty Transport >3.5t (Calculation!F199)<br/>avg_km_per_goods_vehicle
+      10.64627316 - Share of Heavy Duty Transport >3.5t (Calculation!F199)<br/>avg_km_per_goods_vehicle
       - Metric: avg_km_per_goods_vehicle - Source: Road Traffic Volumes - 2023: 20929
       - Good Vehicle - Average Kilometres Travelled (Calculation!F181/F206)<br/>car_commuters_driver_and_passenger
       - Metric: car_commuters_driver_and_passenger - Source: Usually resident by means
@@ -51,7 +51,7 @@ meta:
       national_freight_demand_total - Source: Road Freight Transport Activity - 2023:
       12596 - Total transport demand (all weight) - baseline, National (Calculation!F219/F227)<br/>cork_share_of_national_fleet
       - Metric: cork_share_of_national_fleet - Source: CorkCity_BEI_v2_On-road Transport_20260323.xlsx;
-      Road Freight Transport Activity - 2023: 0.04123245576 - Cork City share of National
+      Road Freight Transport Activity - 2023: 4.123245576 - Cork City share of National
       Goods Vehicles (Calculation!F217)<br/>local_heating_by_carrier_gwh - Metric:
       local_heating_by_carrier_gwh - energy_carrier: fossil - fuel_type: fossil -
       Source: Heating and cooling in Ireland today - Space Heating and How water demand
@@ -80,9 +80,9 @@ meta:
       public_buildings_electricity_gwh - Source: GHG targets - detailed data Export.xlsx
       - 2023: 17.29835167 - Public Services Buildings - Total Energy - Net electricity
       imports (Calculation!F381)<br/>share_of_heating_demand_national - Metric: share_of_heating_demand_national
-      - Source: Energy in Ireland 2025 Report - SEAI - 2023: 0.7543476901 - Share
-      of Heating Demand - National (Calculation!F384)<br/>residential_floor_area_m2
-      - Metric: residential_floor_area_m2 - Source: CorkCity_BEI_Residential_DRAFT_20260327.xlsx
+      - Source: Energy in Ireland 2025 Report - SEAI - 2023: 75.43476901 - Share of
+      Heating Demand - National (Calculation!F384)<br/>residential_floor_area_m2 -
+      Metric: residential_floor_area_m2 - Source: CorkCity_BEI_Residential_DRAFT_20260327.xlsx
       - 2023: 4313922.273 - Residential - Floor Area, sum of detached/semi-detached/apartment
       (Calculation!F258)<br/>non_residential_floor_area_m2 - Metric: non_residential_floor_area_m2
       - Source: CorkCity_BEI_v3_Commercial and Industrial_20260325.xlsx - 2023: 1815758.663
@@ -112,7 +112,7 @@ meta:
       today (Calculation!F364)<br/>top_performance_standard_target_share - Metric:
       top_performance_standard_target_share - Source: Introduction – Technology and
       Innovation Pathways for Zero-carbon-ready Buildings by 2030 – Analysis - IEA
-      - 2030: 1 - Top performing building standard - Zero-Carbon-Emission by Target
+      - 2030: 100 - Top performing building standard - Zero-Carbon-Emission by Target
       Year (Calculation!F1033)<br/>avg_oil_price_c_per_kwh - Metric: avg_oil_price_c_per_kwh
       - Source: Energy price trends - 2023: 12.13 - Average Oil - Household fuel price
       (Calculation!F774)<br/>avg_gas_price_c_per_kwh - Metric: avg_gas_price_c_per_kwh
@@ -127,23 +127,23 @@ meta:
       - Metric: electricity_price_s2_c_per_kwh - Source: Energy price trends - 2023:
       37.48 - Average electricity price to households - S2 (Calculation!F762)<br/>modal_share_existing
       - Metric: modal_share_existing - transport_mode: walking - Source: 4. Transport
-      and Mobility | Cork City Council's Online Consultation Portal - 2023: 0.21 -
-      Walking - Modal Share - Reference Existing Year (Calculation!F888)<br/>modal_share_target_ref
+      and Mobility | Cork City Council's Online Consultation Portal - 2023: 21 - Walking
+      - Modal Share - Reference Existing Year (Calculation!F888)<br/>modal_share_target_ref
       - Metric: modal_share_target_ref - transport_mode: walking - Source: 4. Transport
-      and Mobility | Cork City Council's Online Consultation Portal - 2030: 0.21 -
-      Walking - Modal Share - Reference Target Year (Calculation!F889)<br/>modal_share_existing
+      and Mobility | Cork City Council's Online Consultation Portal - 2030: 21 - Walking
+      - Modal Share - Reference Target Year (Calculation!F889)<br/>modal_share_existing
       - Metric: modal_share_existing - transport_mode: cycling - Source: 4. Transport
-      and Mobility | Cork City Council's Online Consultation Portal - 2023: 0.01 -
-      Cycling - Modal Share - Reference Existing Year (Calculation!F892)<br/>modal_share_target_ref
+      and Mobility | Cork City Council's Online Consultation Portal - 2023: 1 - Cycling
+      - Modal Share - Reference Existing Year (Calculation!F892)<br/>modal_share_target_ref
       - Metric: modal_share_target_ref - transport_mode: cycling - Source: 4. Transport
-      and Mobility | Cork City Council's Online Consultation Portal - 2030: 0.04 -
-      Cycling - Modal Share - Reference Target Year (Calculation!F893)<br/>modal_share_existing
+      and Mobility | Cork City Council's Online Consultation Portal - 2030: 4 - Cycling
+      - Modal Share - Reference Target Year (Calculation!F893)<br/>modal_share_existing
       - Metric: modal_share_existing - transport_mode: public_transport - Source:
       4. Transport and Mobility | Cork City Council's Online Consultation Portal -
-      2023: 0.1 - Public Transport - Modal Share - Reference Existing Year (Calculation!F896)<br/>modal_share_target_ref
+      2023: 10 - Public Transport - Modal Share - Reference Existing Year (Calculation!F896)<br/>modal_share_target_ref
       - Metric: modal_share_target_ref - transport_mode: public_transport - Source:
       4. Transport and Mobility | Cork City Council's Online Consultation Portal -
-      2030: 0.257 - Public Transport - Modal Share - Reference Target Year (Calculation!F897)<br/>district_heating_target_twh
+      2030: 25.7 - Public Transport - Modal Share - Reference Target Year (Calculation!F897)<br/>district_heating_target_twh
       - Metric: district_heating_target_twh - Source: A REVIEW OF RESIDENTIAL HEAT
       DECARBONISATION IN IRELAND - 2030: 2.7 - District Heating - Target Year (Calculation!F1038)<br/>total_residential_buildings_units
       - Metric: total_residential_buildings_units - Source: CorkCity_BEI_Residential_DRAFT_20260327.xlsx
@@ -158,288 +158,288 @@ meta:
       IN IRELAND - 2030: 500000 - Total number of retrofits/renovations up to Target
       Year, National (Calculation!F1028)"
   metrics:
-  - id: modal_share_target_ref
-    column_id: modal_share_target_ref
-    quantity: fraction
-    unit: '%'
-    label:
-      en: modal_share_target_ref
-  - id: cork_kent_passenger_journeys
-    column_id: cork_kent_passenger_journeys
-    quantity: number
-    unit: Mp
-    label:
-      en: cork_kent_passenger_journeys
-  - id: commercial_electricity_gwh
-    column_id: commercial_electricity_gwh
-    quantity: energy
-    unit: GWh
-    label:
-      en: commercial_electricity_gwh
-  - id: car_commuters_driver_only
-    column_id: car_commuters_driver_only
-    quantity: number
-    unit: p
-    label:
-      en: car_commuters_driver_only
-  - id: residential_buildings_energy_gwh
-    column_id: residential_buildings_energy_gwh
-    quantity: energy
-    unit: GWh
-    label:
-      en: residential_buildings_energy_gwh
-  - id: industrial_buildings_energy_gwh
-    column_id: industrial_buildings_energy_gwh
-    quantity: energy
-    unit: GWh
-    label:
-      en: industrial_buildings_energy_gwh
-  - id: public_buildings_electricity_gwh
-    column_id: public_buildings_electricity_gwh
-    quantity: energy
-    unit: GWh
-    label:
-      en: public_buildings_electricity_gwh
   - id: share_of_heating_demand_national
     column_id: share_of_heating_demand_national
     quantity: fraction
     unit: '%'
     label:
       en: share_of_heating_demand_national
-  - id: non_residential_floor_area_m2
-    column_id: non_residential_floor_area_m2
-    quantity: floor_area
-    unit: m²
-    label:
-      en: non_residential_floor_area_m2
-  - id: total_retrofits_target
-    column_id: total_retrofits_target
-    quantity: number
-    unit: µnit
-    label:
-      en: total_retrofits_target
-  - id: cork_share_of_national_fleet
-    column_id: cork_share_of_national_fleet
-    quantity: fraction
-    unit: '%'
-    label:
-      en: cork_share_of_national_fleet
-  - id: residential_floor_area_m2
-    column_id: residential_floor_area_m2
-    quantity: floor_area
-    unit: m²
-    label:
-      en: residential_floor_area_m2
-  - id: on_road_transport_emissions_ktco2e
-    column_id: on_road_transport_emissions_ktco2e
-    quantity: emissions
-    unit: kt_CO2e
-    label:
-      en: on_road_transport_emissions_ktco2e
-  - id: total_residential_buildings_units
-    column_id: total_residential_buildings_units
-    quantity: number
-    unit: µnit
-    label:
-      en: total_residential_buildings_units
-  - id: car_commuters_driver_and_passenger
-    column_id: car_commuters_driver_and_passenger
-    quantity: number
-    unit: p
-    label:
-      en: car_commuters_driver_and_passenger
-  - id: residential_electricity_gwh
-    column_id: residential_electricity_gwh
+  - id: commercial_electricity_gwh
+    column_id: commercial_electricity_gwh
     quantity: energy
-    unit: GWh
+    unit: GWh/a
     label:
-      en: residential_electricity_gwh
+      en: commercial_electricity_gwh
   - id: district_heating_target_twh
     column_id: district_heating_target_twh
     quantity: energy
     unit: TWh
     label:
       en: district_heating_target_twh
-  - id: bus_annual_passenger_journeys
-    column_id: bus_annual_passenger_journeys
-    quantity: number
-    unit: Mp
-    label:
-      en: bus_annual_passenger_journeys
-  - id: avg_trip_distance_km
-    column_id: avg_trip_distance_km
-    quantity: mileage
-    unit: km
-    label:
-      en: avg_trip_distance_km
-  - id: avg_retrofits_per_annum_target
-    column_id: avg_retrofits_per_annum_target
-    quantity: number
-    unit: µnit/a
-    label:
-      en: avg_retrofits_per_annum_target
-  - id: buildings_built_better_than_minimum
-    column_id: buildings_built_better_than_minimum
-    quantity: number
-    unit: µnit
-    label:
-      en: buildings_built_better_than_minimum
-  - id: buildings_built_minimum_standard
-    column_id: buildings_built_minimum_standard
-    quantity: number
-    unit: µnit
-    label:
-      en: buildings_built_minimum_standard
-  - id: electricity_price_s2_c_per_kwh
-    column_id: electricity_price_s2_c_per_kwh
+  - id: avg_heating_electricity_price_c_per_kwh
+    column_id: avg_heating_electricity_price_c_per_kwh
     quantity: unit_price
-    unit: c/kWh
+    unit: c€/kWh
     label:
-      en: electricity_price_s2_c_per_kwh
+      en: avg_heating_electricity_price_c_per_kwh
+  - id: total_residential_buildings_units
+    column_id: total_residential_buildings_units
+    quantity: number
+    unit: µnit
+    label:
+      en: total_residential_buildings_units
+  - id: cork_share_of_national_fleet
+    column_id: cork_share_of_national_fleet
+    quantity: fraction
+    unit: '%'
+    label:
+      en: cork_share_of_national_fleet
+  - id: commercial_buildings_energy_gwh
+    column_id: commercial_buildings_energy_gwh
+    quantity: energy
+    unit: GWh/a
+    label:
+      en: commercial_buildings_energy_gwh
   - id: avg_wood_price_c_per_kwh
     column_id: avg_wood_price_c_per_kwh
     quantity: unit_price
-    unit: c/kWh
+    unit: c€/kWh
     label:
       en: avg_wood_price_c_per_kwh
-  - id: national_freight_demand_total
-    column_id: national_freight_demand_total
-    quantity: freight_mileage
-    unit: Mtkm
+  - id: bus_emissions_tco2e
+    column_id: bus_emissions_tco2e
+    quantity: emissions
+    unit: t/a
     label:
-      en: national_freight_demand_total
-  - id: public_buildings_natgas_gwh
-    column_id: public_buildings_natgas_gwh
-    quantity: energy
-    unit: GWh
-    label:
-      en: public_buildings_natgas_gwh
-  - id: avg_gas_price_c_per_kwh
-    column_id: avg_gas_price_c_per_kwh
-    quantity: unit_price
-    unit: c/kWh
-    label:
-      en: avg_gas_price_c_per_kwh
-  - id: public_electricity_gwh
-    column_id: public_electricity_gwh
-    quantity: energy
-    unit: GWh
-    label:
-      en: public_electricity_gwh
-  - id: total_local_heating_gwh
-    column_id: total_local_heating_gwh
-    quantity: energy
-    unit: GWh
-    label:
-      en: total_local_heating_gwh
-  - id: electricity_price_s1_c_per_kwh
-    column_id: electricity_price_s1_c_per_kwh
-    quantity: unit_price
-    unit: c/kWh
-    label:
-      en: electricity_price_s1_c_per_kwh
+      en: bus_emissions_tco2e
   - id: goods_vehicles_number
     column_id: goods_vehicles_number
     quantity: number
     unit: v
     label:
       en: goods_vehicles_number
-  - id: avg_km_per_goods_vehicle
-    column_id: avg_km_per_goods_vehicle
-    quantity: mileage
-    unit: km
-    label:
-      en: avg_km_per_goods_vehicle
-  - id: housing_units_retrofitted_per_year
-    column_id: housing_units_retrofitted_per_year
-    quantity: number
-    unit: µnit/a
-    label:
-      en: housing_units_retrofitted_per_year
-  - id: industrial_electricity_gwh
-    column_id: industrial_electricity_gwh
-    quantity: energy
-    unit: GWh
-    label:
-      en: industrial_electricity_gwh
-  - id: buildings_built_all_ber
-    column_id: buildings_built_all_ber
-    quantity: number
-    unit: µnit
-    label:
-      en: buildings_built_all_ber
-  - id: avg_oil_price_c_per_kwh
-    column_id: avg_oil_price_c_per_kwh
-    quantity: unit_price
-    unit: c/kWh
-    label:
-      en: avg_oil_price_c_per_kwh
-  - id: avg_heating_electricity_price_c_per_kwh
-    column_id: avg_heating_electricity_price_c_per_kwh
-    quantity: unit_price
-    unit: c/kWh
-    label:
-      en: avg_heating_electricity_price_c_per_kwh
-  - id: top_performance_standard_target_share
-    column_id: top_performance_standard_target_share
-    quantity: fraction
-    unit: '%'
-    label:
-      en: top_performance_standard_target_share
   - id: modal_share_existing
     column_id: modal_share_existing
     quantity: fraction
     unit: '%'
     label:
       en: modal_share_existing
-  - id: public_floor_area_m2
-    column_id: public_floor_area_m2
-    quantity: floor_area
-    unit: m²
-    label:
-      en: public_floor_area_m2
-  - id: transport_sector_electricity_gwh
-    column_id: transport_sector_electricity_gwh
-    quantity: energy
-    unit: GWh
-    label:
-      en: transport_sector_electricity_gwh
-  - id: commercial_buildings_energy_gwh
-    column_id: commercial_buildings_energy_gwh
-    quantity: energy
-    unit: GWh
-    label:
-      en: commercial_buildings_energy_gwh
-  - id: freight_weight_class_share
-    column_id: freight_weight_class_share
-    quantity: fraction
-    unit: '%'
-    label:
-      en: freight_weight_class_share
-  - id: local_heating_by_carrier_gwh
-    column_id: local_heating_by_carrier_gwh
-    quantity: energy
-    unit: GWh
-    label:
-      en: local_heating_by_carrier_gwh
-  - id: vehicle_km
-    column_id: vehicle_km
-    quantity: mileage
-    unit: vehicle_km
-    label:
-      en: vehicle_km
-  - id: bus_emissions_tco2e
-    column_id: bus_emissions_tco2e
-    quantity: emissions
-    unit: t_CO2e
-    label:
-      en: bus_emissions_tco2e
   - id: vehicle_emissions_share
     column_id: vehicle_emissions_share
     quantity: fraction
     unit: '%'
     label:
       en: vehicle_emissions_share
+  - id: modal_share_target_ref
+    column_id: modal_share_target_ref
+    quantity: fraction
+    unit: '%'
+    label:
+      en: modal_share_target_ref
+  - id: avg_retrofits_per_annum_target
+    column_id: avg_retrofits_per_annum_target
+    quantity: number
+    unit: µnit/a
+    label:
+      en: avg_retrofits_per_annum_target
+  - id: car_commuters_driver_and_passenger
+    column_id: car_commuters_driver_and_passenger
+    quantity: number
+    unit: p
+    label:
+      en: car_commuters_driver_and_passenger
+  - id: total_local_heating_gwh
+    column_id: total_local_heating_gwh
+    quantity: energy
+    unit: GWh
+    label:
+      en: total_local_heating_gwh
+  - id: car_commuters_driver_only
+    column_id: car_commuters_driver_only
+    quantity: number
+    unit: v
+    label:
+      en: car_commuters_driver_only
+  - id: public_electricity_gwh
+    column_id: public_electricity_gwh
+    quantity: energy
+    unit: GWh/a
+    label:
+      en: public_electricity_gwh
+  - id: local_heating_by_carrier_gwh
+    column_id: local_heating_by_carrier_gwh
+    quantity: energy
+    unit: GWh
+    label:
+      en: local_heating_by_carrier_gwh
+  - id: bus_annual_passenger_journeys
+    column_id: bus_annual_passenger_journeys
+    quantity: number
+    unit: Mp/a
+    label:
+      en: bus_annual_passenger_journeys
+  - id: total_retrofits_target
+    column_id: total_retrofits_target
+    quantity: number
+    unit: µnit
+    label:
+      en: total_retrofits_target
+  - id: housing_units_retrofitted_per_year
+    column_id: housing_units_retrofitted_per_year
+    quantity: number
+    unit: µnit/a
+    label:
+      en: housing_units_retrofitted_per_year
+  - id: public_buildings_electricity_gwh
+    column_id: public_buildings_electricity_gwh
+    quantity: energy
+    unit: GWh/a
+    label:
+      en: public_buildings_electricity_gwh
+  - id: vehicle_km
+    column_id: vehicle_km
+    quantity: mileage
+    unit: vehicle_km/a
+    label:
+      en: vehicle_km
+  - id: buildings_built_minimum_standard
+    column_id: buildings_built_minimum_standard
+    quantity: number
+    unit: µnit
+    label:
+      en: buildings_built_minimum_standard
+  - id: freight_weight_class_share
+    column_id: freight_weight_class_share
+    quantity: fraction
+    unit: '%'
+    label:
+      en: freight_weight_class_share
+  - id: transport_sector_electricity_gwh
+    column_id: transport_sector_electricity_gwh
+    quantity: energy
+    unit: GWh/a
+    label:
+      en: transport_sector_electricity_gwh
+  - id: national_freight_demand_total
+    column_id: national_freight_demand_total
+    quantity: freight_mileage
+    unit: Mtkm/a
+    label:
+      en: national_freight_demand_total
+  - id: avg_km_per_goods_vehicle
+    column_id: avg_km_per_goods_vehicle
+    quantity: mileage
+    unit: km/a
+    label:
+      en: avg_km_per_goods_vehicle
+  - id: residential_electricity_gwh
+    column_id: residential_electricity_gwh
+    quantity: energy
+    unit: GWh/a
+    label:
+      en: residential_electricity_gwh
+  - id: top_performance_standard_target_share
+    column_id: top_performance_standard_target_share
+    quantity: fraction
+    unit: '%'
+    label:
+      en: top_performance_standard_target_share
+  - id: industrial_buildings_energy_gwh
+    column_id: industrial_buildings_energy_gwh
+    quantity: energy
+    unit: GWh/a
+    label:
+      en: industrial_buildings_energy_gwh
+  - id: electricity_price_s2_c_per_kwh
+    column_id: electricity_price_s2_c_per_kwh
+    quantity: unit_price
+    unit: c€/kWh
+    label:
+      en: electricity_price_s2_c_per_kwh
+  - id: cork_kent_passenger_journeys
+    column_id: cork_kent_passenger_journeys
+    quantity: number
+    unit: Mp/a
+    label:
+      en: cork_kent_passenger_journeys
+  - id: electricity_price_s1_c_per_kwh
+    column_id: electricity_price_s1_c_per_kwh
+    quantity: unit_price
+    unit: c€/kWh
+    label:
+      en: electricity_price_s1_c_per_kwh
+  - id: avg_gas_price_c_per_kwh
+    column_id: avg_gas_price_c_per_kwh
+    quantity: unit_price
+    unit: c€/kWh
+    label:
+      en: avg_gas_price_c_per_kwh
+  - id: buildings_built_all_ber
+    column_id: buildings_built_all_ber
+    quantity: number
+    unit: µnit
+    label:
+      en: buildings_built_all_ber
+  - id: residential_buildings_energy_gwh
+    column_id: residential_buildings_energy_gwh
+    quantity: energy
+    unit: GWh/a
+    label:
+      en: residential_buildings_energy_gwh
+  - id: public_floor_area_m2
+    column_id: public_floor_area_m2
+    quantity: floor_area
+    unit: m²
+    label:
+      en: public_floor_area_m2
+  - id: industrial_electricity_gwh
+    column_id: industrial_electricity_gwh
+    quantity: energy
+    unit: GWh/a
+    label:
+      en: industrial_electricity_gwh
+  - id: residential_floor_area_m2
+    column_id: residential_floor_area_m2
+    quantity: floor_area
+    unit: m²
+    label:
+      en: residential_floor_area_m2
+  - id: non_residential_floor_area_m2
+    column_id: non_residential_floor_area_m2
+    quantity: floor_area
+    unit: m²
+    label:
+      en: non_residential_floor_area_m2
+  - id: avg_trip_distance_km
+    column_id: avg_trip_distance_km
+    quantity: mileage
+    unit: km
+    label:
+      en: avg_trip_distance_km
+  - id: on_road_transport_emissions_ktco2e
+    column_id: on_road_transport_emissions_ktco2e
+    quantity: emissions
+    unit: kt/a
+    label:
+      en: on_road_transport_emissions_ktco2e
+  - id: avg_oil_price_c_per_kwh
+    column_id: avg_oil_price_c_per_kwh
+    quantity: unit_price
+    unit: c€/kWh
+    label:
+      en: avg_oil_price_c_per_kwh
+  - id: public_buildings_natgas_gwh
+    column_id: public_buildings_natgas_gwh
+    quantity: energy
+    unit: GWh/a
+    label:
+      en: public_buildings_natgas_gwh
+  - id: buildings_built_better_than_minimum
+    column_id: buildings_built_better_than_minimum
+    quantity: number
+    unit: µnit
+    label:
+      en: buildings_built_better_than_minimum
   sources:
   - name: 4. Transport and Mobility | Cork City Council's Online Consultation 
       Portal
@@ -602,52 +602,52 @@ meta:
   - energy_carrier
   - fuel_type
   - Year
-  updated_at: '1783667037'
+  updated_at: '1783673749'
   units:
-    buildings_built_all_ber: unit
-    public_electricity_gwh: GWh
-    avg_km_per_goods_vehicle: km
-    share_of_heating_demand_national: '%'
-    vehicle_emissions_share: '%'
-    buildings_built_better_than_minimum: unit
-    public_floor_area_m2: m**2
-    electricity_price_s1_c_per_kwh: c/kWh
-    housing_units_retrofitted_per_year: unit/a
-    commercial_electricity_gwh: GWh
-    cork_kent_passenger_journeys: Mtrip
-    public_buildings_electricity_gwh: GWh
-    industrial_electricity_gwh: GWh
-    avg_gas_price_c_per_kwh: c/kWh
-    avg_trip_distance_km: km
-    residential_electricity_gwh: GWh
-    bus_emissions_tco2e: tCO2e
-    electricity_price_s2_c_per_kwh: c/kWh
-    national_freight_demand_total: Mtkm
-    bus_annual_passenger_journeys: Mtrip
-    total_retrofits_target: unit
-    non_residential_floor_area_m2: m**2
-    total_local_heating_gwh: GWh
-    goods_vehicles_number: vehicles
-    residential_buildings_energy_gwh: GWh
-    car_commuters_driver_and_passenger: passenger
-    avg_oil_price_c_per_kwh: c/kWh
-    local_heating_by_carrier_gwh: GWh
-    on_road_transport_emissions_ktco2e: ktCO2e
-    modal_share_target_ref: '%'
-    car_commuters_driver_only: passenger
-    buildings_built_minimum_standard: unit
-    total_residential_buildings_units: unit
-    district_heating_target_twh: TWh
+    vehicle_km: vkm/a
     cork_share_of_national_fleet: '%'
-    modal_share_existing: '%'
-    transport_sector_electricity_gwh: GWh
-    freight_weight_class_share: '%'
-    avg_heating_electricity_price_c_per_kwh: c/kWh
-    residential_floor_area_m2: m**2
-    avg_wood_price_c_per_kwh: c/kWh
-    top_performance_standard_target_share: '%'
-    vehicle_km: vkm
-    public_buildings_natgas_gwh: GWh
+    modal_share_target_ref: '%'
+    commercial_electricity_gwh: GWh/a
+    bus_annual_passenger_journeys: Mtrip/a
+    goods_vehicles_number: vehicles
+    buildings_built_all_ber: unit
+    transport_sector_electricity_gwh: GWh/a
+    residential_electricity_gwh: GWh/a
+    public_electricity_gwh: GWh/a
+    car_commuters_driver_only: vehicle
+    public_buildings_electricity_gwh: GWh/a
     avg_retrofits_per_annum_target: unit/a
-    industrial_buildings_energy_gwh: GWh
-    commercial_buildings_energy_gwh: GWh
+    cork_kent_passenger_journeys: Mtrip/a
+    car_commuters_driver_and_passenger: passenger
+    housing_units_retrofitted_per_year: unit/a
+    share_of_heating_demand_national: '%'
+    industrial_electricity_gwh: GWh/a
+    commercial_buildings_energy_gwh: GWh/a
+    total_retrofits_target: unit
+    total_residential_buildings_units: unit
+    freight_weight_class_share: '%'
+    avg_gas_price_c_per_kwh: centiEUR/kWh
+    residential_floor_area_m2: m**2
+    vehicle_emissions_share: '%'
+    avg_trip_distance_km: km
+    top_performance_standard_target_share: '%'
+    non_residential_floor_area_m2: m**2
+    avg_km_per_goods_vehicle: km/a
+    public_floor_area_m2: m**2
+    modal_share_existing: '%'
+    electricity_price_s1_c_per_kwh: centiEUR/kWh
+    total_local_heating_gwh: GWh
+    avg_heating_electricity_price_c_per_kwh: centiEUR/kWh
+    buildings_built_minimum_standard: unit
+    on_road_transport_emissions_ktco2e: kt/a
+    electricity_price_s2_c_per_kwh: centiEUR/kWh
+    avg_wood_price_c_per_kwh: centiEUR/kWh
+    local_heating_by_carrier_gwh: GWh
+    residential_buildings_energy_gwh: GWh/a
+    buildings_built_better_than_minimum: unit
+    public_buildings_natgas_gwh: GWh/a
+    industrial_buildings_energy_gwh: GWh/a
+    district_heating_target_twh: TWh
+    avg_oil_price_c_per_kwh: centiEUR/kWh
+    bus_emissions_tco2e: t/a
+    national_freight_demand_total: Mtkm/a
