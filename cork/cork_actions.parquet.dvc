@@ -1,0 +1,50 @@
+outs:
+- md5: 1c153daeee52d59a98096923a6dfe2fc
+  size: 7631
+  hash: md5
+  path: cork_actions.parquet
+meta:
+  name:
+    en: Cork actions
+  identifier: cork/cork_actions
+  metrics:
+  - id: distance
+    column_id: distance
+    quantity: distance
+    unit: Mpkm/a
+    label:
+      en: distance
+  - id: house_retrofit
+    column_id: house_retrofit
+    quantity: floor_area
+    unit: m²
+    label:
+      en: House retrofit
+  - id: mileage
+    column_id: mileage
+    quantity: mileage
+    unit: vehicle_km/a
+    label:
+      en: mileage
+  - id: currency
+    column_id: currency
+    quantity: currency
+    unit: €/a
+    label:
+      en: currency
+  - id: new_social_housing
+    column_id: new_social_housing
+    quantity: floor_area
+    unit: m²
+    label:
+      en: New social housing
+  index_columns:
+  - project
+  - Year
+  updated_at: '1783711375'
+  units:
+    currency: EUR/a
+    distance: Mpkm/a
+    mileage: vkm/a
+    new_social_housing: m**2
+    house_retrofit: m**2
