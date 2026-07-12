@@ -1,6 +1,6 @@
 outs:
-- md5: 21608b84a45fac0a9c2610949883b9e5
-  size: 20563
+- md5: c988d75fdcd35d60352eb7ea6ee33cdd
+  size: 22953
   hash: md5
   path: buildings_heating_fuel_tech.parquet
 meta:
@@ -8,30 +8,6 @@ meta:
     en: Buildings Heating Fuel Tech
   identifier: cork/buildings_heating_fuel_tech
   metrics:
-  - id: share_of_heating_in_2030
-    column_id: share_of_heating_in_2030
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of heating in 2030
-  - id: heating_technologies
-    column_id: heating_technologies
-    quantity: fraction
-    unit: ''
-    label:
-      en: Heating technologies
-  - id: share_of_heating_fuel
-    column_id: share_of_heating_fuel
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of heating fuel
-  - id: heating_technologies_in_2030
-    column_id: heating_technologies_in_2030
-    quantity: fraction
-    unit: ''
-    label:
-      en: Heating technologies in 2030
   - id: total_heating_demand_space_heating_domestic_hot_w
     column_id: total_heating_demand_space_heating_domestic_hot_w
     quantity: energy
@@ -44,53 +20,86 @@ meta:
     unit: €/MWh
     label:
       en: Retail price of heating
+  - id: heating_technologies_in_2030
+    column_id: heating_technologies_in_2030
+    quantity: fraction
+    unit: ''
+    label:
+      en: Heating technologies in 2030
+  - id: share_of_heating_in_2030
+    column_id: share_of_heating_in_2030
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of heating in 2030
   - id: share_of_waste_used_in_district_heating_that_is_foss
     column_id: share_of_waste_used_in_district_heating_that_is_foss
     quantity: fraction
     unit: ''
     label:
       en: Share of waste used in district heating that is foss...
-  - id: efficiency_of_heat_pumps
-    column_id: efficiency_of_heat_pumps
-    quantity: energy_factor
-    unit: ''
-    label:
-      en: Efficiency of heat pumps
   - id: share_of_waste_in_2030_used_in_district_heating_that
     column_id: share_of_waste_in_2030_used_in_district_heating_that
     quantity: fraction
     unit: ''
     label:
       en: Share of waste in 2030 used in district heating that...
+  - id: heating_technologies
+    column_id: heating_technologies
+    quantity: fraction
+    unit: ''
+    label:
+      en: Heating technologies
+  - id: share_of_heating_fuel
+    column_id: share_of_heating_fuel
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of heating fuel
+  - id: efficiency_of_heat_pumps
+    column_id: efficiency_of_heat_pumps
+    quantity: energy_factor
+    unit: ''
+    label:
+      en: Efficiency of heat pumps
   sources:
   - name: Energy price trends
-    authority:
-    url:
-    description:
+    authority: SEAI; info@seai.ie; +353 1 808 2100
+    url: https://www.seai.ie/data-and-insights/seai-statistics/prices
+    description: 'Attachment: Prices | Energy Statistics In Ireland | SEAI; Format:
+      .xlsx; Licensing: Publicly available; Geographic Coverage: National; Update
+      Frequency: Semi-annual; Date Last Updated: 2026-05-12 00:00:00; Updated by:
+      Arup'
   - name: Heating and cooling in Ireland today - Space Heating and How water 
       demand (SEAI)
-    authority:
-    url:
-    description:
+    authority: SEAI; info@seai.ie; +353 1 808 2100
+    url: 
+      https://www.seai.ie/sites/default/files/publications/Heating-and-Cooling-in-Ireland-Today-Supporting-Data-.xlsx
+    description: 'Format: .xlsx; Licensing: Publicly available; Geographic Coverage:
+      National; Update Frequency: Annually; Date Last Updated: 2026-05-12 00:00:00;
+      Updated by: Arup'
   - name: Minister Ryan launches report paving the way for the expansion of 
       district heating to Irish homes and businesses by 2030
-    authority:
-    url:
-    description:
+    authority: Department of Climate, Energy and the Environment, SEAI
+    url: 
+      https://www.gov.ie/en/department-of-climate-energy-and-the-environment/press-releases/minister-ryan-launches-report-paving-the-way-for-the-expansion-of-district-heating-to-irish-homes-and-businesses-by-2030/
+    description: 'Format: URL; Licensing: Publicly available; Geographic Coverage:
+      National; Update Frequency: Unknown; Date Last Updated: 2026-05-12 00:00:00;
+      Updated by: Arup'
   index_columns:
   - energy_carrier
   - heating_type
   - fuel_type
   - uuid
   - Year
-  updated_at: '1783826048'
+  updated_at: '1783830500'
   units:
+    share_of_heating_in_2030: dimensionless
+    efficiency_of_heat_pumps: MWh/MWh
+    share_of_heating_fuel: dimensionless
     heating_technologies_in_2030: dimensionless
     heating_technologies: dimensionless
-    efficiency_of_heat_pumps: MWh/MWh
     share_of_waste_used_in_district_heating_that_is_foss: dimensionless
-    retail_price_of_heating: EUR/MWh
-    share_of_heating_in_2030: dimensionless
-    total_heating_demand_space_heating_domestic_hot_w: GWh/a
     share_of_waste_in_2030_used_in_district_heating_that: dimensionless
-    share_of_heating_fuel: dimensionless
+    total_heating_demand_space_heating_domestic_hot_w: GWh/a
+    retail_price_of_heating: EUR/MWh
