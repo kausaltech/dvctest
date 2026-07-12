@@ -1,6 +1,6 @@
 outs:
-- md5: 48f413b3c1e13867a6474524ce8f0fbf
-  size: 24093
+- md5: 6586a8278e16b3ddf318fe33f13fcc43
+  size: 24617
   hash: md5
   path: freight_transport.parquet
 meta:
@@ -8,83 +8,85 @@ meta:
     en: Freight Transport
   identifier: cork/freight_transport
   metrics:
-  - id: new_truck_emission_factor
-    column_id: new_truck_emission_factor
-    quantity: emission_factor
-    unit: g/vehicle_km
-    label:
-      en: New truck emission factor
-  - id: share_of_trucks_fully_electric_not_including_hybrids
-    column_id: share_of_trucks_fully_electric_not_including_hybrids
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of trucks fully electric (not including hybrids)
   - id: fuel_consumption_change_of_1_utilisation_change
     column_id: fuel_consumption_change_of_1_utilisation_change
     quantity: fraction
     unit: 1/%
     label:
       en: Fuel consumption change of 1% utilisation change
+  - id: share_of_trucks_fully_electric_not_including_hybrids
+    column_id: share_of_trucks_fully_electric_not_including_hybrids
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of trucks fully electric (not including hybrids)
   - id: freight_labour_cost_fraction
     column_id: freight_labour_cost_fraction
     quantity: fraction
     unit: ''
     label:
       en: Freight labour cost fraction
-  - id: average_utilisation
-    column_id: average_utilisation
-    quantity: fraction
-    unit: ''
-    label:
-      en: Average utilisation
   - id: freight_transport_noise
     column_id: freight_transport_noise
     quantity: unit_price
     unit: €/tkm
     label:
       en: Freight transport Noise
-  - id: max_load_weight
-    column_id: max_load_weight
-    quantity: mass
-    unit: tkm/vehicle_km
-    label:
-      en: Max load weight
-  - id: utilisation_of_trucks_in_decarbonisation_scenario
-    column_id: utilisation_of_trucks_in_decarbonisation_scenario
-    quantity: fraction
-    unit: ''
-    label:
-      en: Utilisation of trucks in decarbonisation scenario
-  - id: freight_transport_traffic_accidents
-    column_id: freight_transport_traffic_accidents
-    quantity: unit_price
-    unit: €/tkm
-    label:
-      en: Freight transport Traffic accidents
-  - id: total_transportation_need_within_city_road_freight
-    column_id: total_transportation_need_within_city_road_freight
-    quantity: freight_mileage
-    unit: Mtkm/a
-    label:
-      en: Total transportation need within city - Road freight...
   - id: fleet_average_consumption
     column_id: fleet_average_consumption
     quantity: energy_factor
     unit: cl/vehicle_km
     label:
       en: Fleet average consumption
+  - id: utilisation_of_trucks_in_decarbonisation_scenario
+    column_id: utilisation_of_trucks_in_decarbonisation_scenario
+    quantity: fraction
+    unit: ''
+    label:
+      en: Utilisation of trucks in decarbonisation scenario
+  - id: total_transportation_need_within_city_road_freight
+    column_id: total_transportation_need_within_city_road_freight
+    quantity: freight_mileage
+    unit: Mtkm/a
+    label:
+      en: Total transportation need within city - Road freight...
+  - id: new_truck_emission_factor
+    column_id: new_truck_emission_factor
+    quantity: emission_factor
+    unit: g/vehicle_km
+    label:
+      en: New truck emission factor
+  - id: max_load_weight
+    column_id: max_load_weight
+    quantity: mass
+    unit: tkm/vehicle_km
+    label:
+      en: Max load weight
+  - id: average_utilisation
+    column_id: average_utilisation
+    quantity: fraction
+    unit: ''
+    label:
+      en: Average utilisation
   - id: number_of_trucks_registered_within_city
     column_id: number_of_trucks_registered_within_city
     quantity: number
     unit: v
     label:
       en: Number of trucks registered within city
+  - id: freight_transport_traffic_accidents
+    column_id: freight_transport_traffic_accidents
+    quantity: unit_price
+    unit: €/tkm
+    label:
+      en: Freight transport Traffic accidents
   sources:
   - name: Cork Goods Vehicles 2023.xlsx
-    authority:
+    authority: Department of Transport – Transport & Emissions Modelling
     url:
-    description:
+    description: 'Format: .xlsx; Licensing: Unknown Availability; Geographic Coverage:
+      Cork County; Update Frequency: Annually; Date Last Updated: 2026-05-12 00:00:00;
+      Updated by: Arup'
   index_columns:
   - pollutant
   - cost_type
@@ -92,17 +94,17 @@ meta:
   - energy_carrier
   - uuid
   - Year
-  updated_at: '1783826033'
+  updated_at: '1783830485'
   units:
+    number_of_trucks_registered_within_city: vehicles
     max_load_weight: tkm/vkm
     total_transportation_need_within_city_road_freight: Mtkm/a
-    freight_transport_noise: EUR/tkm
-    share_of_trucks_fully_electric_not_including_hybrids: dimensionless
-    freight_labour_cost_fraction: dimensionless
-    average_utilisation: dimensionless
     freight_transport_traffic_accidents: EUR/tkm
-    number_of_trucks_registered_within_city: vehicles
-    utilisation_of_trucks_in_decarbonisation_scenario: dimensionless
+    average_utilisation: dimensionless
     new_truck_emission_factor: g/vkm
+    utilisation_of_trucks_in_decarbonisation_scenario: dimensionless
+    freight_labour_cost_fraction: dimensionless
     fuel_consumption_change_of_1_utilisation_change: 1/%
     fleet_average_consumption: cl/vkm
+    share_of_trucks_fully_electric_not_including_hybrids: dimensionless
+    freight_transport_noise: EUR/tkm
