@@ -1,6 +1,6 @@
 outs:
-- md5: 9e2ad2d72c1d66a85933bf50ceaa8baa
-  size: 6928
+- md5: 1e54380caa6752319cd25db987c5aa8a
+  size: 7953
   hash: md5
   path: population.parquet
 meta:
@@ -23,13 +23,18 @@ meta:
   sources:
   - name: National Planning Framework - First Revision (April 2025) - Government
       of Ireland
-    authority:
-    url:
-    description:
+    authority: Department of Housing, Local Government and Heritage.; Claragh 
+      Mulhern.; forwardplanning@housing.gov.ie
+    url: 
+      https://assets.gov.ie/static/documents/18ffa1a7/1_National-Planning-Framework-First-Revision-April-2025.pdf
+    description: 'Attachment: 1_National-Planning-Framework-First-Revision-April-2025.pdf;
+      Format: .pdf; Licensing: Publicly available; Geographic Coverage: Cork City;
+      Update Frequency: 5 years; Date Last Updated: 2026-05-12 00:00:00; Updated by:
+      Arup'
   index_columns:
   - uuid
   - Year
-  updated_at: '1783826017'
+  updated_at: '1783830469'
   units:
     population: inh
     expected_annual_population_growth_up_until_2030: 1/a
