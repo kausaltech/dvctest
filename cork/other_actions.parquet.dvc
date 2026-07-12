@@ -1,6 +1,6 @@
 outs:
-- md5: bd4cbfb4f82bc135b2370a2ae4a73506
-  size: 4382
+- md5: 0f692f179311c5bf176ada5f886b397e
+  size: 5454
   hash: md5
   path: other_actions.parquet
 meta:
@@ -14,9 +14,14 @@ meta:
     unit: ''
     label:
       en: Reduced CO2e emissions committed by Industry, Agricu...
+  sources:
+  - name: Irelands_2025_GHG_Emission_Projections_2024-2055_incLULUCF
+    authority:
+    url:
+    description:
   index_columns:
   - uuid
   - Year
-  updated_at: '1782739432'
+  updated_at: '1783826099'
   units:
     reduced_co2e_emissions_committed_by_industry_agricu: dimensionless
