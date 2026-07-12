@@ -1,25 +1,12 @@
 outs:
-- md5: cc7fccb8ef60790e02652972d603529f
-  size: 15144
+- md5: 7fb70baef0c068c79b13145658842805
+  size: 15029
   hash: md5
   path: other_sectors.parquet
 meta:
   name:
     en: Other Sectors
   identifier: cork/other_sectors
-  description:
-    en: 'Emissions from other sectors - Scope: Scope 1 - Cost type: Industry (IPPU)
-      - Ghg: co2e - UUID: fbf3fa68-30be-47c5-a368-decd9d6f16e2 - 2023: 64.45052991
-      - Metric: Emissions from other sectors - 63<br/>Emissions from other sectors
-      - Scope: Scope 1 - Cost type: Agriculture (AFOLU) - Ghg: co2e - UUID: a08d4504-a43c-4dc1-ac2d-27d7aef5c241
-      - 2023: 69.96530264 - Metric: Emissions from other sectors - 135<br/>Emissions
-      from other sectors - Scope: Scope 1 - Cost type: Other sources - Ghg: co2e -
-      UUID: 58c99d80-8b05-4573-8291-9252560414fd - 2023: 4.61678716 - Metric: Emissions
-      from other sectors - 43<br/>Value of CO2 reduction - Cost type: co2_cost - Ghg:
-      co2 - 2023: 100.0 - Metric: Value of CO2 reduction - Essen et. al. (2019). Handbook
-      on the external costs of transport. For European Commission Directorate-General
-      for Mobility and Transport. Central case for short and medium term emissions
-      (up to 2030) '
   metrics:
   - id: emissions_from_other_sectors
     column_id: emissions_from_other_sectors
@@ -33,18 +20,23 @@ meta:
     unit: €/t
     label:
       en: Value of CO2 reduction
-  - id: aggregated_cost_types
-    column_id: aggregated_cost_types
-    quantity: fraction
-    unit: ''
-    label:
-      en: Aggregated cost types
   - id: air_pollutant_distance_index
     column_id: air_pollutant_distance_index
     quantity: fraction
     unit: ''
     label:
       en: Air pollutant distance index
+  - id: aggregated_cost_types
+    column_id: aggregated_cost_types
+    quantity: fraction
+    unit: ''
+    label:
+      en: Aggregated cost types
+  sources:
+  - name: CorkCity_BEI_v2_Agriculture_20260323.xlsx
+    authority:
+    url:
+    description:
   index_columns:
   - pollutant
   - scope
@@ -55,9 +47,9 @@ meta:
   - area_distance
   - uuid
   - Year
-  updated_at: '1782739402'
+  updated_at: '1783826068'
   units:
-    aggregated_cost_types: dimensionless
-    air_pollutant_distance_index: dimensionless
     emissions_from_other_sectors: kt/a
+    air_pollutant_distance_index: dimensionless
+    aggregated_cost_types: dimensionless
     value_of_co2_reduction: EUR/t
