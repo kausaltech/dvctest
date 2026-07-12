@@ -1,80 +1,12 @@
 outs:
-- md5: 64d5bc14f9aed4c037aa70fd2e6169be
-  size: 19665
+- md5: 8926f469cff2396dc45b75e855a61459
+  size: 8501
   hash: md5
   path: waste_recycling_goal.parquet
 meta:
   name:
     en: Waste Recycling Goal
   identifier: cork/waste_recycling_goal
-  description:
-    en: "5.1. Increased recycling of waste - Waste type: paper - Waste treatment:
-      recycled - Parameter: Decarbonisation scenario - UUID: 37743e60-348e-42dd-8c13-24aea2a118be
-      - 2030: 0.85 - 2051: 0.85 - Metric: 5.1. Increased recycling of waste - Assumption
-      that recycling rate stays the same as EU-levels, but landfill decreases from
-      8% to 0%<br/>5.1. Increased recycling of waste - Waste type: metal - Waste treatment:
-      other - Parameter: Decarbonisation scenario - UUID: 9ff4ebeb-6ccd-4a8e-8b81-b4f6bea06bd8
-      - 2030: 0.1 - 2051: 0.1 - Metric: 5.1. Increased recycling of waste - Based
-      on EU target for municipal waste: maximum 10% to landfill<br/>5.1. Increased
-      recycling of waste - Waste type: metal - Waste treatment: recycled - Parameter:
-      Decarbonisation scenario - UUID: 767e7ea7-0185-494b-8749-84d44949a580 - 2030:
-      0.85 - 2051: 0.85 - Metric: 5.1. Increased recycling of waste - Assumption made
-      by Material Economics that the recycling rate of metals 2030 can be the same
-      as the rate for paper is today<br/>5.1. Increased recycling of waste - Waste
-      type: plastics - Waste treatment: other - Parameter: Decarbonisation scenario
-      - UUID: 1026d3a0-b895-464b-9c3a-ce10a1e5c5aa - 2030: 0.1 - 2051: 0.1 - Metric:
-      5.1. Increased recycling of waste - Based on EU target for municipal waste:
-      maximum 10% to landfill<br/>5.1. Increased recycling of waste - Waste type:
-      plastics - Waste treatment: recycled - Parameter: Decarbonisation scenario -
-      UUID: ac9cdd26-0874-45df-afa7-739bd7307457 - 2030: 0.68 - 2051: 0.68 - Metric:
-      5.1. Increased recycling of waste - Based on the ambitious scenario from the
-      Material Economics report \"The Circular Economy - a Powerful Force for Climate
-      Mitigation\"<br/>5.1. Increased recycling of waste - Waste type: glass - Waste
-      treatment: other - Parameter: Decarbonisation scenario - UUID: 99c6d0ab-1a7a-4e1c-8f58-54bee1f1e42b
-      - 2030: 0.1 - 2051: 0.1 - Metric: 5.1. Increased recycling of waste - Based
-      on EU target for municipal waste: maximum 10% to landfill<br/>5.1. Increased
-      recycling of waste - Waste type: glass - Waste treatment: recycled - Parameter:
-      Decarbonisation scenario - UUID: 842ded5f-1c1d-43d9-a868-e8a186994360 - 2030:
-      0.85 - 2051: 0.85 - Metric: 5.1. Increased recycling of waste - Assumption made
-      by Material Economics that the recycling rate of glass 2030 can be the same
-      as the rate of paper is today<br/>5.1. Increased recycling of waste - Waste
-      type: organic_waste - Waste treatment: recycled - Parameter: Decarbonisation
-      scenario - UUID: 9557785b-f6be-44a7-a7e9-9b025e93c473 - 2030: 0.85 - 2051: 0.85
-      - Metric: 5.1. Increased recycling of waste - Assumption made by Material Economics
-      that the recycling rate of organic waste 2030 can be the same as the rate for
-      paper is today<br/>5.1. Increased recycling of waste - Waste type: paper - Waste
-      treatment: recycled - Parameter: Baseline scenario - 2030: 0.85 - 2051: 0.85
-      - Metric: 5.1. Increased recycling of waste - Based on EU target for packaging
-      waste<br/>5.1. Increased recycling of waste - Waste type: metal - Waste treatment:
-      other - Parameter: Baseline scenario - 2030: 0.03 - 2051: 0.03 - Metric: 5.1.
-      Increased recycling of waste - Today's numbers<br/>5.1. Increased recycling
-      of waste - Waste type: metal - Waste treatment: recycled - Parameter: Baseline
-      scenario - 2030: 0.97 - 2051: 0.97 - Metric: 5.1. Increased recycling of waste
-      - Today's numbers<br/>5.1. Increased recycling of waste - Waste type: plastics
-      - Waste treatment: other - Parameter: Baseline scenario - 2030: 0.1 - 2051:
-      0.1 - Metric: 5.1. Increased recycling of waste - Based on EU target for municipal
-      waste: maximum 10% to landfill<br/>5.1. Increased recycling of waste - Waste
-      type: plastics - Waste treatment: recycled - Parameter: Baseline scenario -
-      2030: 0.55 - 2051: 0.55 - Metric: 5.1. Increased recycling of waste - Based
-      on EU target for packaging waste<br/>5.1. Increased recycling of waste - Waste
-      type: glass - Waste treatment: other - Parameter: Baseline scenario - 2030:
-      0.1 - 2051: 0.1 - Metric: 5.1. Increased recycling of waste - Based on EU target
-      for municipal waste: maximum 10% to landfill<br/>5.1. Increased recycling of
-      waste - Waste type: glass - Waste treatment: recycled - Parameter: Baseline
-      scenario - 2030: 0.75 - 2051: 0.75 - Metric: 5.1. Increased recycling of waste
-      - Based on EU target for packaging waste<br/>5.1. Increased recycling of waste
-      - Waste type: organic_waste - Waste treatment: other - Parameter: Baseline scenario
-      - 2030: 0.1 - 2051: 0.1 - Metric: 5.1. Increased recycling of waste - Based
-      on EU target for municipal waste: maximum 10% to landfill<br/>5.1. Increased
-      recycling of waste - Waste type: organic_waste - Waste treatment: recycled -
-      Parameter: Baseline scenario - 2030: 0.65 - 2051: 0.65 - Metric: 5.1. Increased
-      recycling of waste - Based on EU target for municipal waste<br/>5.1. Increased
-      recycling of waste - Waste type: other_waste - Waste treatment: other - Parameter:
-      Baseline scenario - 2030: 0.1 - 2051: 0.1 - Metric: 5.1. Increased recycling
-      of waste - Based on EU target for municipal waste: maximum 10% to landfill<br/>5.1.
-      Increased recycling of waste - Waste type: other_waste - Waste treatment: recycled
-      - Parameter: Baseline scenario - 2030: 0.65 - 2051: 0.65 - Metric: 5.1. Increased
-      recycling of waste - Based on EU target for municipal waste"
   metrics:
   - id: 51_increased_recycling_of_waste
     column_id: 51_increased_recycling_of_waste
@@ -88,6 +20,6 @@ meta:
   - parameter
   - uuid
   - Year
-  updated_at: '1782739427'
+  updated_at: '1783826094'
   units:
     51_increased_recycling_of_waste: dimensionless
