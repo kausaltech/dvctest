@@ -1,6 +1,6 @@
 outs:
-- md5: af3db2056e6afc5f7864a791c991c2a7
-  size: 13672
+- md5: b73c0481e8abe0927e277310460ccc53
+  size: 14268
   hash: md5
   path: passenger_transport_emissions.parquet
 meta:
@@ -8,6 +8,12 @@ meta:
     en: Passenger Transport Emissions
   identifier: cork/passenger_transport_emissions
   metrics:
+  - id: new_fleet_emission_factor
+    column_id: new_fleet_emission_factor
+    quantity: emission_factor
+    unit: g/vehicle_km
+    label:
+      en: new fleet emission factor
   - id: transport_pollutant_split
     column_id: transport_pollutant_split
     quantity: fraction
@@ -20,17 +26,14 @@ meta:
     unit: g/vehicle_km
     label:
       en: Transport Emission factors
-  - id: new_fleet_emission_factor
-    column_id: new_fleet_emission_factor
-    quantity: emission_factor
-    unit: g/vehicle_km
-    label:
-      en: new fleet emission factor
   sources:
   - name: Bus Éireann Fleet Transition - CorkCity
-    authority:
+    authority: Bus Éireann
     url:
-    description:
+    description: 'Attachment: Bus Éireann Fleet Transition - CorkCIty.docx; Format:
+      .docx; Licensing: Unknown Availability; Geographic Coverage: Cork City; Update
+      Frequency: Based on Bus Éireann; Date Last Updated: 2026-05-12 00:00:00; Updated
+      by: Arup'
   index_columns:
   - pollutant
   - transport_pollutant
@@ -38,8 +41,8 @@ meta:
   - energy_carrier
   - uuid
   - Year
-  updated_at: '1783826028'
+  updated_at: '1783830480'
   units:
-    new_fleet_emission_factor: g/vkm
-    transport_emission_factors: g/vkm
     transport_pollutant_split: dimensionless
+    transport_emission_factors: g/vkm
+    new_fleet_emission_factor: g/vkm
