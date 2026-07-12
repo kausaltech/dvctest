@@ -1,15 +1,12 @@
 outs:
-- md5: 243cb60c971b3aaa5dadf96f1010c939
-  size: 5486
+- md5: 9e2ad2d72c1d66a85933bf50ceaa8baa
+  size: 6928
   hash: md5
   path: population.parquet
 meta:
   name:
     en: Population
   identifier: cork/population
-  description:
-    en: 'Population - UUID: 3779efa4-9eb0-4f4b-b5d5-eb510461bed8 - 2023: 227062.6582
-      - Metric: Population - 801545'
   metrics:
   - id: expected_annual_population_growth_up_until_2030
     column_id: expected_annual_population_growth_up_until_2030
@@ -23,10 +20,16 @@ meta:
     unit: cap
     label:
       en: Population
+  sources:
+  - name: National Planning Framework - First Revision (April 2025) - Government
+      of Ireland
+    authority:
+    url:
+    description:
   index_columns:
   - uuid
   - Year
-  updated_at: '1782739352'
+  updated_at: '1783826017'
   units:
     population: inh
     expected_annual_population_growth_up_until_2030: 1/a
