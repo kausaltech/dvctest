@@ -1,6 +1,6 @@
 outs:
-- md5: bf3d7c75063fd441845165dc778bc9f8
-  size: 17825
+- md5: c0601296e06a59a00cad9de2f924c4fd
+  size: 19772
   hash: md5
   path: transport_actions.parquet
 meta:
@@ -8,12 +8,6 @@ meta:
     en: Transport Actions
   identifier: cork/transport_actions
   metrics:
-  - id: electrification_of_transport_fleet
-    column_id: electrification_of_transport_fleet
-    quantity: fraction
-    unit: ''
-    label:
-      en: Electrification of transport fleet
   - id: transportation_need_reduction_by_2030_from_urban_pla
     column_id: transportation_need_reduction_by_2030_from_urban_pla
     quantity: fraction
@@ -26,6 +20,18 @@ meta:
     unit: ''
     label:
       en: Reduced Pkm cars + motorcycles by 2030
+  - id: electrification_of_transport_fleet
+    column_id: electrification_of_transport_fleet
+    quantity: fraction
+    unit: ''
+    label:
+      en: Electrification of transport fleet
+  - id: expected_procurement_schedule_for_buses
+    column_id: expected_procurement_schedule_for_buses
+    quantity: fraction
+    unit: 1/a
+    label:
+      en: Expected procurement schedule for buses
   - id: 13_car_pooling
     column_id: 13_car_pooling
     quantity: fraction
@@ -38,40 +44,41 @@ meta:
     unit: ''
     label:
       en: Reduction of total distance travelled through route ...
-  - id: expected_procurement_schedule_for_buses
-    column_id: expected_procurement_schedule_for_buses
-    quantity: fraction
-    unit: 1/a
-    label:
-      en: Expected procurement schedule for buses
   sources:
   - name: Bus Éireann Fleet Transition - CorkCity
-    authority:
+    authority: Bus Éireann
     url:
-    description:
+    description: 'Attachment: Bus Éireann Fleet Transition - CorkCIty.docx; Format:
+      .docx; Licensing: Unknown Availability; Geographic Coverage: Cork City; Update
+      Frequency: Based on Bus Éireann; Date Last Updated: 2026-05-12 00:00:00; Updated
+      by: Arup'
   - name: Climate Action Plan 2023
-    authority:
+    authority: Government of Ireland
     url:
-    description:
+    description: 'Attachment: climate-action-plan-2023-8b7dba92-f397-4163-8293-3aea656f6b5f.pdf;
+      Format: .pdf; Licensing: Publicly available; Geographic Coverage: National;
+      Date Last Updated: 2026-05-12 00:00:00; Updated by: Arup'
   - name: KPMG_Cork City Council_Forecast_VF
-    authority:
+    authority: Cork City Council
     url:
-    description:
+    description: 'Format: .xlsx; Licensing: Restricted; Geographic Coverage: Cork
+      City; Date Last Updated: 2026-05-12 00:00:00; Updated by: Arup'
   - name: National Sustainable Mobility Policy – Policies - IEA
-    authority:
-    url:
-    description:
+    authority: IEA info@iea.org
+    url: https://www.iea.org/policies/20816-national-sustainable-mobility-policy
+    description: 'Format: URL; Licensing: Publicly available; Geographic Coverage:
+      National; Date Last Updated: 2026-05-12 00:00:00; Updated by: Arup'
   index_columns:
   - transport_mode
   - energy_carrier
   - parameter
   - uuid
   - Year
-  updated_at: '1783826073'
+  updated_at: '1783830525'
   units:
-    electrification_of_transport_fleet: dimensionless
     13_car_pooling: dimensionless
     reduction_of_total_distance_travelled_through_route_: dimensionless
     reduced_pkm_cars_motorcycles_by_2030: dimensionless
-    expected_procurement_schedule_for_buses: 1/a
     transportation_need_reduction_by_2030_from_urban_pla: dimensionless
+    electrification_of_transport_fleet: dimensionless
+    expected_procurement_schedule_for_buses: 1/a
