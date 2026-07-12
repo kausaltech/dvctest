@@ -1,6 +1,6 @@
 outs:
-- md5: 6da0970cac7b4b88a4797f09854e6986
-  size: 31982
+- md5: be2aefddc9d5102ec4926ca5eec0c95f
+  size: 35679
   hash: md5
   path: electricity.parquet
 meta:
@@ -8,12 +8,30 @@ meta:
     en: Electricity
   identifier: cork/electricity
   metrics:
-  - id: jobs_created_per_mw
-    column_id: jobs_created_per_mw
-    quantity: demand_factor
-    unit: fte/MW
+  - id: assumed_uptime_of_windsolar
+    column_id: assumed_uptime_of_windsolar
+    quantity: ratio
+    unit: h/a
     label:
-      en: Jobs created per MW
+      en: Assumed uptime of wind/solar
+  - id: emission_factors_from_electricity_generation
+    column_id: emission_factors_from_electricity_generation
+    quantity: emission_factor
+    unit: g/kWh
+    label:
+      en: Emission factors from electricity generation
+  - id: efficiency_improvements_for_each_renovation
+    column_id: efficiency_improvements_for_each_renovation
+    quantity: fraction
+    unit: ''
+    label:
+      en: Efficiency improvements for each renovation
+  - id: share_of_current_fossil_production_replaced_by_renew
+    column_id: share_of_current_fossil_production_replaced_by_renew
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of current fossil production replaced by renew...
   - id: operating_cost_for_renewables
     column_id: operating_cost_for_renewables
     quantity: unit_price
@@ -26,99 +44,94 @@ meta:
     unit: ''
     label:
       en: Distribution of type of new renewables
-  - id: fossilcurrent_electricity_supply
-    column_id: fossilcurrent_electricity_supply
-    quantity: fraction
-    unit: ''
-    label:
-      en: fossil/current electricity supply
-  - id: retail_price_of_electricity
-    column_id: retail_price_of_electricity
-    quantity: unit_price
-    unit: €/kWh
-    label:
-      en: Retail price of electricity
-  - id: assumed_uptime_of_windsolar
-    column_id: assumed_uptime_of_windsolar
-    quantity: ratio
-    unit: h/a
-    label:
-      en: Assumed uptime of wind/solar
-  - id: share_of_total_electricity_demand_produced_by_fossil
-    column_id: share_of_total_electricity_demand_produced_by_fossil
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of total electricity demand produced by fossil...
-  - id: pv_upfront_investment_cost
-    column_id: pv_upfront_investment_cost
-    quantity: unit_price
-    unit: €/MWh
-    label:
-      en: 'PV: Upfront investment cost'
-  - id: total_electricity_demand_within_city_boundaries
-    column_id: total_electricity_demand_within_city_boundaries
-    quantity: energy
-    unit: GWh/a
-    label:
-      en: Total electricity demand within city boundaries
-  - id: emission_factors_from_electricity_generation
-    column_id: emission_factors_from_electricity_generation
-    quantity: emission_factor
-    unit: g/kWh
-    label:
-      en: Emission factors from electricity generation
-  - id: solar_panel_costs
-    column_id: solar_panel_costs
-    quantity: fraction
-    unit: ''
-    label:
-      en: solar panel costs
-  - id: spot_price_electricity
-    column_id: spot_price_electricity
-    quantity: unit_price
-    unit: €/MWh
-    label:
-      en: Spot price electricity
-  - id: share_of_current_fossil_production_replaced_by_renew
-    column_id: share_of_current_fossil_production_replaced_by_renew
-    quantity: fraction
-    unit: ''
-    label:
-      en: Share of current fossil production replaced by renew...
-  - id: efficiency_improvements_for_each_renovation
-    column_id: efficiency_improvements_for_each_renovation
-    quantity: fraction
-    unit: ''
-    label:
-      en: Efficiency improvements for each renovation
   - id: average_electricity_use_for_lighting_appliances
     column_id: average_electricity_use_for_lighting_appliances
     quantity: energy_factor
     unit: kWh/m²/a
     label:
       en: Average electricity use for lighting & appliances
+  - id: jobs_created_per_mw
+    column_id: jobs_created_per_mw
+    quantity: demand_factor
+    unit: fte/MW
+    label:
+      en: Jobs created per MW
+  - id: retail_price_of_electricity
+    column_id: retail_price_of_electricity
+    quantity: unit_price
+    unit: €/kWh
+    label:
+      en: Retail price of electricity
+  - id: total_electricity_demand_within_city_boundaries
+    column_id: total_electricity_demand_within_city_boundaries
+    quantity: energy
+    unit: GWh/a
+    label:
+      en: Total electricity demand within city boundaries
+  - id: spot_price_electricity
+    column_id: spot_price_electricity
+    quantity: unit_price
+    unit: €/MWh
+    label:
+      en: Spot price electricity
+  - id: solar_panel_costs
+    column_id: solar_panel_costs
+    quantity: fraction
+    unit: ''
+    label:
+      en: solar panel costs
+  - id: share_of_total_electricity_demand_produced_by_fossil
+    column_id: share_of_total_electricity_demand_produced_by_fossil
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of total electricity demand produced by fossil...
+  - id: fossilcurrent_electricity_supply
+    column_id: fossilcurrent_electricity_supply
+    quantity: fraction
+    unit: ''
+    label:
+      en: fossil/current electricity supply
+  - id: pv_upfront_investment_cost
+    column_id: pv_upfront_investment_cost
+    quantity: unit_price
+    unit: €/MWh
+    label:
+      en: 'PV: Upfront investment cost'
   sources:
   - name: Conversion factors
-    authority:
-    url:
-    description:
+    authority: SEAI; info@seai.ie; +353 1 808 2100
+    url: 
+      https://www.seai.ie/data-and-insights/seai-statistics/conversion-factors
+    description: 'Attachment: Conversion Factors | SEAI Statistics | SEAI; Format:
+      URL; Licensing: Publicly available; Geographic Coverage: National; Update Frequency:
+      Static; Date Last Updated: 2026-05-12 00:00:00; Updated by: Arup'
   - name: Energy in Ireland 2025 Report - SEAI
-    authority:
-    url:
-    description:
+    authority: SEAI; info@seai.ie; +353 1 808 2100
+    url: 
+      https://www.seai.ie/sites/default/files/publications/Energy%20in%20Ireland%202025%20v1.0%20complete.pdf
+    description: 'Attachment: Energy in Ireland 2025 v1.0 complete.pdf; Format: .pdf;
+      Licensing: Publicly available; Geographic Coverage: National; Update Frequency:
+      Annually; Date Last Updated: 2026-05-12 00:00:00; Updated by: Arup'
   - name: Energy price trends
-    authority:
-    url:
-    description:
+    authority: SEAI; info@seai.ie; +353 1 808 2100
+    url: https://www.seai.ie/data-and-insights/seai-statistics/prices
+    description: 'Attachment: Prices | Energy Statistics In Ireland | SEAI; Format:
+      .xlsx; Licensing: Publicly available; Geographic Coverage: National; Update
+      Frequency: Semi-annual; Date Last Updated: 2026-05-12 00:00:00; Updated by:
+      Arup'
   - name: Real-Time Electricity Tracker
-    authority:
-    url:
-    description:
+    authority: info@iea.org , +33 (0)1 40 57 65 00
+    url: 
+      https://www.iea.org/data-and-statistics/data-tools/real-time-electricity-tracker?from=2023-1-1&to=2023-12-31&category=price&country=IRL
+    description: 'Attachment: Real-Time Electricity Tracker – Data Tools - IEA; Format:
+      URL; Licensing: Publicly available; Geographic Coverage: National; Update Frequency:
+      Unknown; Date Last Updated: 2026-05-12 00:00:00; Updated by: Arup'
   - name: Renewables | Energy Statistics In Ireland | SEAI
-    authority:
-    url:
-    description:
+    authority: SEAI; info@seai.ie; +353 1 808 2100
+    url: https://www.seai.ie/data-and-insights/seai-statistics/renewables
+    description: 'Format: URL; Licensing: Publicly available; Geographic Coverage:
+      National; Date Last Updated: 2026-05-12 00:00:00; Updated by: Arup'
   index_columns:
   - pollutant
   - cost_type
@@ -128,20 +141,20 @@ meta:
   - fuel_type
   - uuid
   - Year
-  updated_at: '1783826043'
+  updated_at: '1783830495'
   units:
     distribution_of_type_of_new_renewables: dimensionless
-    share_of_total_electricity_demand_produced_by_fossil: dimensionless
-    assumed_uptime_of_windsolar: h/a
-    spot_price_electricity: EUR/MWh
-    emission_factors_from_electricity_generation: g/kWh
-    fossilcurrent_electricity_supply: dimensionless
+    pv_upfront_investment_cost: EUR/MWh
     efficiency_improvements_for_each_renovation: dimensionless
     operating_cost_for_renewables: EUR/MWh
+    share_of_current_fossil_production_replaced_by_renew: dimensionless
     average_electricity_use_for_lighting_appliances: kWh/m**2/a
-    total_electricity_demand_within_city_boundaries: GWh/a
+    retail_price_of_electricity: EUR/kWh
+    emission_factors_from_electricity_generation: g/kWh
     jobs_created_per_mw: jobs/MW
     solar_panel_costs: dimensionless
-    share_of_current_fossil_production_replaced_by_renew: dimensionless
-    pv_upfront_investment_cost: EUR/MWh
-    retail_price_of_electricity: EUR/kWh
+    total_electricity_demand_within_city_boundaries: GWh/a
+    assumed_uptime_of_windsolar: h/a
+    fossilcurrent_electricity_supply: dimensionless
+    share_of_total_electricity_demand_produced_by_fossil: dimensionless
+    spot_price_electricity: EUR/MWh
