@@ -1,5 +1,5 @@
 outs:
-- md5: 73ed048d52d4165869e695657f43eebc
+- md5: 6df5cc405a64e21a3480a5c3ea069fa6
   size: 16767
   hash: md5
   path: waste_management.parquet
@@ -8,18 +8,6 @@ meta:
     en: Waste Management
   identifier: cork/waste_management
   metrics:
-  - id: waste_emission_factor
-    column_id: waste_emission_factor
-    quantity: emission_factor
-    unit: ''
-    label:
-      en: waste emission factor
-  - id: waste_management_costs
-    column_id: waste_management_costs
-    quantity: unit_price
-    unit: €/t
-    label:
-      en: Waste management costs
   - id: total_collected_waste_within_city_boundaries_by_type
     column_id: total_collected_waste_within_city_boundaries_by_type
     quantity: mass
@@ -32,18 +20,30 @@ meta:
     unit: kg/t
     label:
       en: Emission factors from waste management
-  - id: prices_of_sorted_waste
-    column_id: prices_of_sorted_waste
-    quantity: unit_price
-    unit: €/t
-    label:
-      en: Prices of sorted waste
   - id: waste_recycling
     column_id: waste_recycling
     quantity: fraction
     unit: ''
     label:
       en: waste recycling
+  - id: waste_management_costs
+    column_id: waste_management_costs
+    quantity: unit_price
+    unit: €/t
+    label:
+      en: Waste management costs
+  - id: waste_emission_factor
+    column_id: waste_emission_factor
+    quantity: emission_factor
+    unit: ''
+    label:
+      en: waste emission factor
+  - id: prices_of_sorted_waste
+    column_id: prices_of_sorted_waste
+    quantity: unit_price
+    unit: €/t
+    label:
+      en: Prices of sorted waste
   index_columns:
   - pollutant
   - cost_type
@@ -53,11 +53,11 @@ meta:
   - waste_treatment
   - uuid
   - Year
-  updated_at: '1783826058'
+  updated_at: '1783830510'
   units:
-    prices_of_sorted_waste: EUR/t
-    waste_recycling: dimensionless
-    emission_factors_from_waste_management: kg/t
     waste_emission_factor: t/t
+    prices_of_sorted_waste: EUR/t
     waste_management_costs: EUR/t
+    emission_factors_from_waste_management: kg/t
     total_collected_waste_within_city_boundaries_by_type: t/a
+    waste_recycling: dimensionless
