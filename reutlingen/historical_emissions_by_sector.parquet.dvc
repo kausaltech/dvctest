@@ -1,0 +1,15 @@
+outs:
+- md5: 90a7cd5926810daddaab0f755e867106
+  size: 3887
+  hash: md5
+  path: historical_emissions_by_sector.parquet
+meta:
+  name:
+    de: historical_emissions_by_sector
+  identifier: reutlingen/historical_emissions_by_sector
+  index_columns:
+  - sector
+  - Year
+  updated_at: '1784023537'
+  units:
+    Value: t_co2e/a
