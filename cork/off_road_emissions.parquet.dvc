@@ -1,0 +1,22 @@
+outs:
+- md5: a4a73d159b9cce606f4898abb72f2c3d
+  size: 3764
+  hash: md5
+  path: off_road_emissions.parquet
+meta:
+  name:
+    en: Off-road emissions
+  identifier: cork/off_road_emissions
+  metrics:
+  - id: emissions
+    column_id: emissions
+    quantity: emissions
+    unit: kt/a
+    label:
+      en: Emissions
+  index_columns:
+  - transport_mode
+  - Year
+  updated_at: '1784005668'
+  units:
+    emissions: kt/a
