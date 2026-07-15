@@ -1,0 +1,22 @@
+outs:
+- md5: ef01d79bc72552685a05c809e677e6c8
+  size: 7130
+  hash: md5
+  path: employees_by_sector.parquet
+meta:
+  name:
+    de: employees_by_sector
+  identifier: bisko/employees_by_sector
+  metrics:
+  - id: employees
+    column_id: employees
+    quantity: employees
+    unit: cap
+    label:
+      de: employees
+  index_columns:
+  - wz_code
+  - Year
+  updated_at: '1784123869'
+  units:
+    employees: person
