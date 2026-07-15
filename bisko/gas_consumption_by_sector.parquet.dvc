@@ -1,0 +1,22 @@
+outs:
+- md5: 4260bc7499edc9831a5aa2aae13de340
+  size: 6198
+  hash: md5
+  path: gas_consumption_by_sector.parquet
+meta:
+  name:
+    de: gas_consumption_by_sector
+  identifier: bisko/gas_consumption_by_sector
+  metrics:
+  - id: energy
+    column_id: energy
+    quantity: energy
+    unit: GJ/a
+    label:
+      de: energy
+  index_columns:
+  - wz_code
+  - Year
+  updated_at: '1784123864'
+  units:
+    energy: GJ/a
