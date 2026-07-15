@@ -38,3 +38,4 @@
 /electricity_consumption_by_sector.parquet
 /gas_consumption_by_sector.parquet
 /employees_by_sector.parquet
+/establishments_by_sector.parquet

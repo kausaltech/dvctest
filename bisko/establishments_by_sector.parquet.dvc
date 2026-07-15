@@ -1,0 +1,22 @@
+outs:
+- md5: 1b6f38a3bcbce474de7fe76f8b065b4e
+  size: 5742
+  hash: md5
+  path: establishments_by_sector.parquet
+meta:
+  name:
+    de: establishments_by_sector
+  identifier: bisko/establishments_by_sector
+  metrics:
+  - id: number
+    column_id: number
+    quantity: number
+    unit: ''
+    label:
+      de: number
+  index_columns:
+  - wz_code
+  - Year
+  updated_at: '1784123873'
+  units:
+    number: dimensionless
