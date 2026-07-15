@@ -1,0 +1,22 @@
+outs:
+- md5: 03c8f12a9de2a8ff12c0e4f34ba9ac80
+  size: 7797
+  hash: md5
+  path: electricity_consumption_by_sector.parquet
+meta:
+  name:
+    de: electricity_consumption_by_sector
+  identifier: bisko/electricity_consumption_by_sector
+  metrics:
+  - id: energy
+    column_id: energy
+    quantity: energy
+    unit: GJ/a
+    label:
+      de: energy
+  index_columns:
+  - wz_code
+  - Year
+  updated_at: '1784123858'
+  units:
+    energy: GJ/a

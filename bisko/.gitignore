@@ -35,3 +35,4 @@
 /emission_reduction_action.parquet
 /energy_costs.parquet
 /other_emissions.parquet
+/electricity_consumption_by_sector.parquet
