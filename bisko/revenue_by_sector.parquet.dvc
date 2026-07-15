@@ -1,0 +1,22 @@
+outs:
+- md5: 941444c8ba7b6d4727a6788d8309bd45
+  size: 6953
+  hash: md5
+  path: revenue_by_sector.parquet
+meta:
+  name:
+    de: revenue_by_sector
+  identifier: bisko/revenue_by_sector
+  metrics:
+  - id: currency
+    column_id: currency
+    quantity: currency
+    unit: k€/a
+    label:
+      de: currency
+  index_columns:
+  - wz_code
+  - Year
+  updated_at: '1784123878'
+  units:
+    currency: kEUR/a
