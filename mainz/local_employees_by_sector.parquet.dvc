@@ -1,0 +1,22 @@
+outs:
+- md5: e7b5e687791a0a747d83b4f7e7ab3ff9
+  size: 4156
+  hash: md5
+  path: local_employees_by_sector.parquet
+meta:
+  name:
+    de: local_employees_by_sector
+  identifier: mainz/local_employees_by_sector
+  metrics:
+  - id: employees
+    column_id: employees
+    quantity: employees
+    unit: employees
+    label:
+      de: employees
+  index_columns:
+  - wz_code
+  - Year
+  updated_at: '1784126067'
+  units:
+    employees: employee
