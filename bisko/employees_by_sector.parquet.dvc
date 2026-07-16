@@ -1,6 +1,6 @@
 outs:
-- md5: 13421fc0217730e793bea34bf10644dc
-  size: 7158
+- md5: 48584037c9914be7ad5809771d02c5a1
+  size: 6940
   hash: md5
   path: employees_by_sector.parquet
 meta:
@@ -14,9 +14,6 @@ meta:
     unit: employees
     label:
       de: employees
-  index_columns:
-  - wz_code
-  - Year
-  updated_at: '1784125306'
+  updated_at: '1784214834'
   units:
     employees: employee
