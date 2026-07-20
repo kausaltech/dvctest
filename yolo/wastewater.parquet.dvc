@@ -1,0 +1,19 @@
+outs:
+- md5: 6cd75c03cab6b2415f658333dfdcaa80
+  size: 4264
+  hash: md5
+  path: wastewater.parquet
+meta:
+  name:
+    en: Wastewater
+  identifier: wastewater
+  metrics:
+  - id: population
+    label:
+      en: Population
+  - id: volume
+    label:
+      en: Volume
+  units:
+    volume: gal/a
+    population: cap
