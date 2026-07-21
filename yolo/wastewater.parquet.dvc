@@ -1,6 +1,6 @@
 outs:
-- md5: 6cd75c03cab6b2415f658333dfdcaa80
-  size: 4264
+- md5: 8d18c424c28a0c56e73d826d4bda5296
+  size: 8399
   hash: md5
   path: wastewater.parquet
 meta:
@@ -8,6 +8,18 @@ meta:
     en: Wastewater
   identifier: wastewater
   metrics:
+  - id: bod_factor
+    label:
+      en: BOD Factor
+  - id: correction_factor
+    label:
+      en: Correction Factor
+  - id: emission_factor
+    label:
+      en: Emission Factor
+  - id: energy_factor
+    label:
+      en: Energy Factor
   - id: population
     label:
       en: Population
@@ -15,5 +27,9 @@ meta:
     label:
       en: Volume
   units:
+    bod_factor: g/person/day
+    correction_factor: kg/kg
     volume: gal/a
+    energy_factor: kWh/acre foot
+    emission_factor: kg/kg
     population: cap
