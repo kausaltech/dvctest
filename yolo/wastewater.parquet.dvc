@@ -1,6 +1,6 @@
 outs:
-- md5: 8d18c424c28a0c56e73d826d4bda5296
-  size: 8399
+- md5: f3141e6831b489e5c3eb45097c1c3809
+  size: 8398
   hash: md5
   path: wastewater.parquet
 meta:
@@ -27,9 +27,9 @@ meta:
     label:
       en: Volume
   units:
-    bod_factor: g/person/day
+    emission_factor: kg/kg
+    energy_factor: kWh/(acre foot)
+    population: cap
     correction_factor: kg/kg
     volume: gal/a
-    energy_factor: kWh/acre foot
-    emission_factor: kg/kg
-    population: cap
+    bod_factor: g/cap/day
