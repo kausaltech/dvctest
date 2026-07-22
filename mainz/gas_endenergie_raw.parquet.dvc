@@ -1,0 +1,53 @@
+outs:
+- md5: 207ce30c9b8ecc443f4897db7364247a
+  size: 7811
+  hash: md5
+  path: gas_endenergie_raw.parquet
+meta:
+  name:
+    de: Erdgas Endenergie Rohdaten (EKA-RLP)
+  identifier: mainz/gas_endenergie_raw
+  description:
+    de: Erdgasverbrauch nach BISKO-Sektor (roh, aus EKA-RLP-Lieferung, kWh->MWh 
+      konvertiert) sowie der Heizwert/Brennwert-Umrechnungsfaktor (noch nicht 
+      verrechnet).
+  metrics:
+  - id: private_households
+    column_id: private_households
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: Erdgas Private Haushalte
+  - id: ghd
+    column_id: ghd
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: Erdgas GHD
+  - id: industry
+    column_id: industry
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: Erdgas Industrie
+  - id: municipal_facilities
+    column_id: municipal_facilities
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: Erdgas Kommunale Liegenschaften
+  - id: heizwert_brennwert_ratio
+    column_id: heizwert_brennwert_ratio
+    quantity: ratio
+    unit: ''
+    label:
+      de: Erdgas Heizwert/Brennwert Umrechnungsfaktor
+  index_columns:
+  - Year
+  updated_at: '1784733114'
+  units:
+    private_households: MWh/a
+    ghd: MWh/a
+    industry: MWh/a
+    municipal_facilities: MWh/a
+    heizwert_brennwert_ratio: ''
