@@ -8,3 +8,4 @@
 /local_employees_by_sector.parquet
 /gas_endenergie_raw.parquet
 /electricity_endenergie_raw.parquet
+/gas_heizwert_brennwert_ratio.parquet

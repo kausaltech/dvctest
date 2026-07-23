@@ -1,0 +1,25 @@
+outs:
+- md5: f5ba5e21767473a1461d75088e97f2bc
+  size: 3419
+  hash: md5
+  path: gas_heizwert_brennwert_ratio.parquet
+meta:
+  name:
+    de: Erdgas Heizwert/Brennwert Umrechnungsfaktor (EKA-RLP)
+  identifier: mainz/gas_heizwert_brennwert_ratio
+  description:
+    de: Konstanter Umrechnungsfaktor ~0.901 fuer alle Jahre, unverbunden bis 
+      geklaert ist ob die Sektorwerte auf Heizwert- oder Brennwert-Basis 
+      vorliegen.
+  metrics:
+  - id: ratio
+    column_id: ratio
+    quantity: ratio
+    unit: ''
+    label:
+      de: Umrechnungsfaktor
+  index_columns:
+  - Year
+  updated_at: '1784792275'
+  units:
+    ratio: ''
