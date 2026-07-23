@@ -28,3 +28,4 @@
 /preprocessing_data_from_arup.parquet
 /cork_actions.parquet
 /off_road_emissions.parquet
+/kpmg_building_data.parquet
