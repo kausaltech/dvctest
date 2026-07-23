@@ -1,6 +1,6 @@
 outs:
-- md5: d8b0115bb6495cbfa6c9e3aadd9f6713
-  size: 8193
+- md5: 1f79d6f4555271a4a8afcbd9c3d48af9
+  size: 8524
   hash: md5
   path: kpmg_building_data.parquet
 meta:
@@ -8,29 +8,30 @@ meta:
     en: KPMG building data
   identifier: cork/kpmg_building_data
   metrics:
-  - id: energy_use
-    column_id: energy_use
-    quantity: energy
-    unit: GWh/a
-    label:
-      en: Energy use
-  - id: emissions
-    column_id: emissions
-    quantity: emissions
-    unit: kt/a
-    label:
-      en: Emissions
   - id: emission_factor
     column_id: emission_factor
     quantity: emission_factor
     unit: kg/kWh
     label:
       en: Emission factor
+  - id: emissions
+    column_id: emissions
+    quantity: emissions
+    unit: kt/a
+    label:
+      en: Emissions
+  - id: energy_use
+    column_id: energy_use
+    quantity: energy
+    unit: GWh/a
+    label:
+      en: Energy use
   sources:
   - name: KPMG_Cork City Council_Residential_vF
-    authority:
+    authority: Cork City Council
     url:
-    description:
+    description: 'Format: .xlsx; Licensing: Restricted; Geographic Coverage: Cork
+      City; Date Last Updated: 2026-05-12 00:00:00; Updated by: Arup'
   - name: KPMG_CorkCity_Commercial Services and Industrial_vF
     authority: Cork City Council
     url:
@@ -40,8 +41,8 @@ meta:
   - sector
   - building_type
   - Year
-  updated_at: '1784780453'
+  updated_at: '1784780799'
   units:
-    emission_factor: kg/kWh
     emissions: kt/a
     energy_use: GWh/a
+    emission_factor: kg/kWh
