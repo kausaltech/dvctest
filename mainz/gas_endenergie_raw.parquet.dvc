@@ -1,6 +1,6 @@
 outs:
-- md5: 36f85ad77b92de120a05443bb96b5d29
-  size: 5339
+- md5: 844efc114bc3777fd5d484e96a5ae24d
+  size: 5301
   hash: md5
   path: gas_endenergie_raw.parquet
 meta:
@@ -24,10 +24,10 @@ meta:
     unit: ''
     label:
       de: Datenqualitaet
+  updated_at: '1784804198'
   index_columns:
   - Year
-  - sector
-  updated_at: '1784792275'
+  - gas_raw_category
   units:
     energy: MWh/a
     quality: ''
