@@ -1,0 +1,31 @@
+outs:
+- md5: aad1cc05429deac66ea595bffdd887c2
+  size: 7475
+  hash: md5
+  path: households_and_employees.parquet
+meta:
+  name:
+    en: Households and Employees
+  identifier: households_and_employees
+  metrics:
+  - id: factor_area_per_employee
+    label:
+      en: Factor (Area per Employee)
+  - id: factor_energy_per_area
+    label:
+      en: Factor (Energy per Area)
+  - id: factor_energy_per_household
+    label:
+      en: Factor (Energy per Household)
+  - id: number
+    label:
+      en: Number
+  - id: population
+    label:
+      en: Population
+  units:
+    number: count
+    factor_energy_per_household: kWh/count/a
+    factor_energy_per_area: kWh/ft**2/a
+    factor_area_per_employee: ft**2/cap
+    population: cap
