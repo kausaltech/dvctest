@@ -1,6 +1,6 @@
 outs:
-- md5: 7d32efd0bd0b45a4aa963a8b9e4b3a0c
-  size: 11680
+- md5: b844c1bb4c845198e1e5085da9801887
+  size: 6180
   hash: md5
   path: electricity_endenergie_raw.parquet
 meta:
@@ -9,68 +9,26 @@ meta:
   identifier: mainz/electricity_endenergie_raw
   description:
     de: Stromverbrauch nach Rohkategorie (roh, aus EKA-RLP-Lieferung, kWh->MWh 
-      konvertiert). Strom GHD+Industrie ist noch nicht in GHD/Industrie 
-      aufgeteilt; Zusatzkategorien (Strassenbeleuchtung, Waermepumpen, 
-      Waermespeicher, Land- und Forstwirtschaft, Eigene Betriebe) muessen noch 
-      den BISKO-Sektoren zugeordnet werden.
+      konvertiert), lang formatiert mit electricity_raw_category-Dimension. 
+      Datenqualitaet B (0.5) fuer alle Zeilen mit Daten (2024 Eigene Betriebe 
+      fehlt in der Quelle).
   metrics:
-  - id: private_households
-    column_id: private_households
+  - id: energy
+    column_id: energy
     quantity: energy
     unit: MWh/a
     label:
-      de: Strom Private Haushalte
-  - id: ghd_industry_combined
-    column_id: ghd_industry_combined
-    quantity: energy
-    unit: MWh/a
+      de: Strom Endenergie
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
     label:
-      de: Strom GHD+Industrie (kombiniert)
-  - id: municipal_facilities
-    column_id: municipal_facilities
-    quantity: energy
-    unit: MWh/a
-    label:
-      de: Strom Kommunale Liegenschaften
-  - id: street_lighting
-    column_id: street_lighting
-    quantity: energy
-    unit: MWh/a
-    label:
-      de: Strom Strassenbeleuchtung
-  - id: heat_pumps
-    column_id: heat_pumps
-    quantity: energy
-    unit: MWh/a
-    label:
-      de: Strom Waermepumpen
-  - id: heat_storage
-    column_id: heat_storage
-    quantity: energy
-    unit: MWh/a
-    label:
-      de: Strom Waermespeicher
-  - id: agriculture_forestry
-    column_id: agriculture_forestry
-    quantity: energy
-    unit: MWh/a
-    label:
-      de: Strom Land- und Forstwirtschaft
-  - id: own_operations
-    column_id: own_operations
-    quantity: energy
-    unit: MWh/a
-    label:
-      de: Strom Eigene Betriebe
+      de: Datenqualitaet
   index_columns:
   - Year
-  updated_at: '1784733114'
+  - electricity_raw_category
+  updated_at: '1784792275'
   units:
-    private_households: MWh/a
-    ghd_industry_combined: MWh/a
-    municipal_facilities: MWh/a
-    street_lighting: MWh/a
-    heat_pumps: MWh/a
-    heat_storage: MWh/a
-    agriculture_forestry: MWh/a
-    own_operations: MWh/a
+    energy: MWh/a
+    quality: ''
