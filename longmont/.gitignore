@@ -74,3 +74,4 @@
 /phev_fuel_shares.parquet
 /transportation_energy_factors.parquet
 /rng_truck_energy_use.parquet
+/building_actions.parquet

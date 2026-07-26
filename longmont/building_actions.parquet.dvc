@@ -1,0 +1,37 @@
+outs:
+- md5: cc5721e5f031865026ab6a1148bff39b
+  size: 7051
+  hash: md5
+  path: building_actions.parquet
+meta:
+  name:
+    en: Building actions
+  identifier: longmont/building_actions
+  metrics:
+  - id: benchmark_energy_use
+    column_id: benchmark_energy_use
+    quantity: ratio
+    unit: '%/a'
+    label:
+      en: Benchmark energy use
+  - id: updated_building_code
+    column_id: updated_building_code
+    quantity: ratio
+    unit: '%/a'
+    label:
+      en: Updated building code
+  - id: develop_beyond_building_code
+    column_id: develop_beyond_building_code
+    quantity: ratio
+    unit: '%/a'
+    label:
+      en: Develop beyond building code
+  index_columns:
+  - building_energy_class
+  - emission_sectors
+  - Year
+  updated_at: '1785062857'
+  units:
+    updated_building_code: '%/a'
+    benchmark_energy_use: '%/a'
+    develop_beyond_building_code: '%/a'
