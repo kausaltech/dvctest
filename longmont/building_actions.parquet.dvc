@@ -1,6 +1,6 @@
 outs:
-- md5: 41c62b49c356158a266f83b26c8df74d
-  size: 7063
+- md5: 7780ba3c7dd0e91ff1e826832a4f8cb2
+  size: 8646
   hash: md5
   path: building_actions.parquet
 meta:
@@ -8,30 +8,37 @@ meta:
     en: Building actions
   identifier: longmont/building_actions
   metrics:
-  - id: develop_beyond_building_code
-    column_id: develop_beyond_building_code
-    quantity: ratio
-    unit: '%/a'
-    label:
-      en: Develop beyond building code
   - id: updated_building_code
     column_id: updated_building_code
     quantity: ratio
     unit: '%/a'
     label:
       en: Updated building code
-  - id: benchmark_energy_use
-    column_id: benchmark_energy_use
+  - id: benchmark_energy_use_natural_gas
+    column_id: benchmark_energy_use_natural_gas
+    quantity: energy
+    unit: Mthm/a
+    label:
+      en: Benchmark energy use - Natural gas
+  - id: benchmark_energy_use_electricity
+    column_id: benchmark_energy_use_electricity
+    quantity: energy
+    unit: GWh/a
+    label:
+      en: Benchmark energy use - Electricity
+  - id: develop_beyond_building_code
+    column_id: develop_beyond_building_code
     quantity: ratio
     unit: '%/a'
     label:
-      en: Benchmark energy use
+      en: Develop beyond building code
   index_columns:
   - building_energy_class
   - emission_sectors
   - Year
-  updated_at: '1785063898'
+  updated_at: '1785119578'
   units:
     updated_building_code: '%/a'
+    benchmark_energy_use_electricity: GWh/a
     develop_beyond_building_code: '%/a'
-    benchmark_energy_use: '%/a'
+    benchmark_energy_use_natural_gas: Mthm/a
