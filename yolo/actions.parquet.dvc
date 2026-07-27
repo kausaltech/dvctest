@@ -1,6 +1,6 @@
 outs:
-- md5: ff8c586ef6a010ebeac382d51165a4d3
-  size: 7101
+- md5: 07b9d8cf4e7c0ae2008309af891a7dd9
+  size: 8906
   hash: md5
   path: actions.parquet
 meta:
@@ -14,10 +14,18 @@ meta:
   - id: factor
     label:
       en: Factor
+  - id: factor_electricity
+    label:
+      en: Factor (Electricity)
+  - id: factor_natural_gas
+    label:
+      en: Factor (Natural Gas)
   - id: fraction
     label:
       en: Fraction
   units:
-    fraction: '%'
-    factor: kWh/kWh
+    factor_electricity: kWh/ft**2/a
     emissions: t_co2e/a
+    factor: kWh/kWh
+    factor_natural_gas: therms/ft**2/a
+    fraction: '%'
