@@ -1,0 +1,81 @@
+outs:
+- md5: 566a806f9bdfcaa5c1ab35463eaeb950
+  size: 15293
+  hash: md5
+  path: kpmg_inventory_residuals.parquet
+meta:
+  name:
+    en: KPMG Inventory Residuals
+  identifier: cork/kpmg_inventory_residuals
+  metrics:
+  - id: ccc_buildings
+    column_id: ccc_buildings
+    quantity: emissions
+    unit: kt/a
+    label:
+      en: CCC buildings
+  - id: civic_amenity_site
+    column_id: civic_amenity_site
+    quantity: emissions
+    unit: kt/a
+    label:
+      en: Civic amenity site
+  - id: drinking_water_treatment
+    column_id: drinking_water_treatment
+    quantity: emissions
+    unit: kt/a
+    label:
+      en: Drinking water treatment
+  - id: public_services_excluding_ccc
+    column_id: public_services_excluding_ccc
+    quantity: emissions
+    unit: kt/a
+    label:
+      en: Public services excluding CCC
+  - id: wastewater_treatment
+    column_id: wastewater_treatment
+    quantity: emissions
+    unit: kt/a
+    label:
+      en: Wastewater treatment
+  - id: lulucf_net
+    column_id: lulucf_net
+    quantity: emissions
+    unit: kt/a
+    label:
+      en: LULUCF net
+  - id: ccc_transport_fuels
+    column_id: ccc_transport_fuels
+    quantity: emissions
+    unit: kt/a
+    label:
+      en: CCC transport fuels
+  sources:
+  - name: KPMG_Cork City Council_LULUCF_vF
+    authority: Cork City Council
+    url:
+    description: 'Format: .xlsx; Licensing: Restricted; Geographic Coverage: Cork
+      City; Date Last Updated: 2026-05-26 00:00:00; Updated by: Kausal'
+  - name: KPMG_Cork City Council_Waste_vF
+    authority: Cork City Council
+    url:
+    description: 'Format: .xlsx; Licensing: Restricted; Geographic Coverage: Cork
+      City; Date Last Updated: 2026-05-26 00:00:00; Updated by: Kausal'
+  - name: KPMG_Public Services_vF
+    authority: Cork City Council
+    url:
+    description: 'Format: .xlsx; Licensing: Restricted; Geographic Coverage: Cork
+      City; Date Last Updated: 2026-05-26 00:00:00; Updated by: Kausal'
+  index_columns:
+  - scope
+  - ghg
+  - Year
+  updated_at: '1785225717'
+  units:
+    lulucf_net: kt/a
+    drinking_water_treatment: kt/a
+    civic_amenity_site: kt/a
+    ccc_transport_fuels: kt/a
+    wastewater_treatment: kt/a
+    public_services_excluding_ccc: kt/a
+    ccc_buildings: kt/a
