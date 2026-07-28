@@ -1,6 +1,6 @@
 outs:
-- md5: 51299e1a12ee9b3441cdf0c9a4a971a9
-  size: 16162
+- md5: a09d2387bc6a21b92436c01cf03d7099
+  size: 17083
   hash: md5
   path: other_sectors.parquet
 meta:
@@ -34,9 +34,12 @@ meta:
       en: Air pollutant distance index
   sources:
   - name: CorkCity_BEI_v2_Agriculture_20260323.xlsx
-    authority:
-    url:
-    description:
+    authority: KPMG
+    url: 
+      http://../../../../../../:x:/r/teams/prj-31282200/Shared%20Documents/General/02%20Information%20Received/Data/KPMG_BaselineEmissionsInventory/CorkCity_BEI_v1_Agriculture_20260126.xlsx?d=w155b16fc21a84c1c980007ffd1ed3177&csf=1&web=1&e=G89P6h
+    description: 'Format: .xlsx; Licensing: Restricted; Geographic Coverage: Cork
+      City; Update Frequency: Based on KPMG; Date Last Updated: 2026-05-12 00:00:00;
+      Updated by: Arup'
   index_columns:
   - pollutant
   - scope
@@ -47,9 +50,9 @@ meta:
   - area_distance
   - uuid
   - Year
-  updated_at: '1785257511'
+  updated_at: '1785257999'
   units:
+    air_pollutant_distance_index: dimensionless
     value_of_co2_reduction: EUR/t
     emissions_from_other_sectors: kt/a
-    air_pollutant_distance_index: dimensionless
     aggregated_cost_types: dimensionless
