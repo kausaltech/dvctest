@@ -1,0 +1,48 @@
+outs:
+- md5: 3f75bf1b4370c2dc7e476c8cce7eb782
+  size: 11294
+  hash: md5
+  path: building_heat_factors.parquet
+meta:
+  name:
+    en: Building Heat Factors
+  identifier: cork/kpmg/building_heat_factors
+  metrics:
+  - id: heat_emissions
+    column_id: heat_emissions
+    quantity: emissions
+    unit: kt/a
+    label:
+      en: Heat emissions
+  - id: heat_energy_use
+    column_id: heat_energy_use
+    quantity: energy
+    unit: GWh/a
+    label:
+      en: Heat energy use
+  - id: heat_emission_factor
+    column_id: heat_emission_factor
+    quantity: emission_factor
+    unit: g/kWh
+    label:
+      en: Heat emission factor
+  sources:
+  - name: KPMG_Cork City Council_Residential_vF
+    authority: Cork City Council
+    url:
+    description: 'Format: .xlsx; Licensing: Restricted; Geographic Coverage: Cork
+      City; Date Last Updated: 2026-05-12 00:00:00; Updated by: Arup'
+  - name: KPMG_CorkCity_Commercial Services and Industrial_vF
+    authority: Cork City Council
+    url:
+    description: 'Format: .xlsx; Licensing: Restricted; Geographic Coverage: Cork
+      City; Date Last Updated: 2026-05-12 00:00:00; Updated by: Arup'
+  index_columns:
+  - building_type
+  - sector
+  - Year
+  updated_at: '1785299885'
+  units:
+    heat_energy_use: GWh/a
+    heat_emission_factor: g/kWh
+    heat_emissions: kt/a
