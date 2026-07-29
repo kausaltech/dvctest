@@ -1,6 +1,6 @@
 outs:
-- md5: efd6bd4228aa64e66e45d57923b11210
-  size: 8751
+- md5: 1fc2dd3e30476720ca93d84a7cc1d2c7
+  size: 8348
   hash: md5
   path: kpmg_glidepath.parquet
 meta:
@@ -8,18 +8,12 @@ meta:
     en: KPMG Glidepath
   identifier: cork/kpmg/kpmg_glidepath
   metrics:
-  - id: glidepath_wem
-    column_id: glidepath_wem
+  - id: glidepath
+    column_id: glidepath
     quantity: emissions
     unit: kt/a
     label:
-      en: Glidepath WEM
-  - id: glidepath_wam
-    column_id: glidepath_wam
-    quantity: emissions
-    unit: kt/a
-    label:
-      en: Glidepath WAM
+      en: Glidepath
   sources:
   - name: KPMG_Cork City Council_Forecast_VF
     authority: Cork City Council
@@ -28,8 +22,8 @@ meta:
       City; Date Last Updated: 2026-05-12 00:00:00; Updated by: Arup'
   index_columns:
   - sector
+  - measures
   - Year
-  updated_at: '1785315225'
+  updated_at: '1785317404'
   units:
-    glidepath_wem: kt/a
-    glidepath_wam: kt/a
+    glidepath: kt/a
