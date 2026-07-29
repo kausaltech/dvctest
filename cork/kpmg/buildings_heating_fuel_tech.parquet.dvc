@@ -1,0 +1,106 @@
+outs:
+- md5: 17d48e5c32a4780b2f70c0124d3bbef4
+  size: 23581
+  hash: md5
+  path: buildings_heating_fuel_tech.parquet
+meta:
+  name:
+    en: Buildings Heating Fuel Tech
+  identifier: cork/kpmg/buildings_heating_fuel_tech
+  metrics:
+  - id: share_of_waste_used_in_district_heating_that_is_foss
+    column_id: share_of_waste_used_in_district_heating_that_is_foss
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of waste used in district heating that is foss...
+  - id: efficiency_of_heat_pumps
+    column_id: efficiency_of_heat_pumps
+    quantity: energy_factor
+    unit: ''
+    label:
+      en: Efficiency of heat pumps
+  - id: share_of_heating_in_2030
+    column_id: share_of_heating_in_2030
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of heating in 2030
+  - id: total_heating_demand_space_heating_domestic_hot_w
+    column_id: total_heating_demand_space_heating_domestic_hot_w
+    quantity: energy
+    unit: GWh/a
+    label:
+      en: Total heating demand (space heating + domestic hot w...
+  - id: heating_technologies_in_2030
+    column_id: heating_technologies_in_2030
+    quantity: fraction
+    unit: ''
+    label:
+      en: Heating technologies in 2030
+  - id: heating_technologies
+    column_id: heating_technologies
+    quantity: fraction
+    unit: ''
+    label:
+      en: Heating technologies
+  - id: share_of_waste_in_2030_used_in_district_heating_that
+    column_id: share_of_waste_in_2030_used_in_district_heating_that
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of waste in 2030 used in district heating that...
+  - id: share_of_heating_fuel
+    column_id: share_of_heating_fuel
+    quantity: fraction
+    unit: ''
+    label:
+      en: Share of heating fuel
+  - id: retail_price_of_heating
+    column_id: retail_price_of_heating
+    quantity: unit_price
+    unit: €/MWh
+    label:
+      en: Retail price of heating
+  sources:
+  - name: Energy price trends
+    authority: SEAI; info@seai.ie; +353 1 808 2100
+    url: https://www.seai.ie/data-and-insights/seai-statistics/prices
+    description: 'Attachment: Prices | Energy Statistics In Ireland | SEAI; Format:
+      .xlsx; Licensing: Publicly available; Geographic Coverage: National; Update
+      Frequency: Semi-annual; Date Last Updated: 2026-05-12 00:00:00; Updated by:
+      Arup'
+  - name: Heating and cooling in Ireland today - Space Heating and How water 
+      demand (SEAI)
+    authority: SEAI; info@seai.ie; +353 1 808 2100
+    url: 
+      https://www.seai.ie/sites/default/files/publications/Heating-and-Cooling-in-Ireland-Today-Supporting-Data-.xlsx
+    description: 'Format: .xlsx; Licensing: Publicly available; Geographic Coverage:
+      National; Update Frequency: Annually; Date Last Updated: 2026-05-12 00:00:00;
+      Updated by: Arup'
+  - name: Minister Ryan launches report paving the way for the expansion of 
+      district heating to Irish homes and businesses by 2030
+    authority: Department of Climate, Energy and the Environment, SEAI
+    url: 
+      https://www.gov.ie/en/department-of-climate-energy-and-the-environment/press-releases/minister-ryan-launches-report-paving-the-way-for-the-expansion-of-district-heating-to-irish-homes-and-businesses-by-2030/
+    description: 'Format: URL; Licensing: Publicly available; Geographic Coverage:
+      National; Update Frequency: Unknown; Date Last Updated: 2026-05-12 00:00:00;
+      Updated by: Arup'
+  index_columns:
+  - energy_carrier
+  - heating_type
+  - fuel_type
+  - building_use
+  - uuid
+  - Year
+  updated_at: '1785298909'
+  units:
+    share_of_heating_fuel: dimensionless
+    efficiency_of_heat_pumps: MWh/MWh
+    total_heating_demand_space_heating_domestic_hot_w: GWh/a
+    share_of_heating_in_2030: dimensionless
+    heating_technologies_in_2030: dimensionless
+    share_of_waste_used_in_district_heating_that_is_foss: dimensionless
+    heating_technologies: dimensionless
+    share_of_waste_in_2030_used_in_district_heating_that: dimensionless
+    retail_price_of_heating: EUR/MWh
