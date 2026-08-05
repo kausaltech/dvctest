@@ -1,5 +1,5 @@
 outs:
-- md5: dc3a3b897a8bf8f86483b64197756c6c
+- md5: 14ffa6afa435349a8d7b8041c80389a6
   size: 20570
   hash: md5
   path: electricity_consumption.parquet
@@ -118,6 +118,6 @@ meta:
   - consumer_sector
   - utility
   - energy_carrier
-  updated_at: '1785951135'
+  updated_at: '1785952281'
   units:
     electricity_consumption: kWh/a
