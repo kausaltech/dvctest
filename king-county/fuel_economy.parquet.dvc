@@ -1,5 +1,5 @@
 outs:
-- md5: e5622010789fe05ab53a6a7d67a3eb70
+- md5: 3e37d9a9765f812e1338392595a3f4c4
   size: 16413
   hash: md5
   path: fuel_economy.parquet
@@ -8,6 +8,12 @@ meta:
     en: Fuel economy
   identifier: king-county/fuel_economy
   metrics:
+  - id: fuel_economy_implied
+    column_id: fuel_economy_implied
+    quantity: factor
+    unit: vehicle_miles_traveled/gal
+    label:
+      en: Fuel economy (implied)
   - id: electric_fuel_economy
     column_id: electric_fuel_economy
     quantity: factor
@@ -26,12 +32,6 @@ meta:
     unit: vehicle_miles_traveled/gal
     label:
       en: Fuel economy
-  - id: fuel_economy_implied
-    column_id: fuel_economy_implied
-    quantity: factor
-    unit: vehicle_miles_traveled/gal
-    label:
-      en: Fuel economy (implied)
   sources:
   - name: 2025 SCAP GHG Wedge Analysis
     authority: Cascadia Consulting Group for King County; 
@@ -56,9 +56,9 @@ meta:
   - energy_carrier
   - vehicle_type
   - vehicle_class
-  updated_at: '1785943243'
+  updated_at: '1785951211'
   units:
+    electric_fuel_economy_implied: VMT/kWh
     fuel_economy_implied: VMT/gal
     fuel_economy: VMT/gal
     electric_fuel_economy: VMT/kWh
-    electric_fuel_economy_implied: VMT/kWh
