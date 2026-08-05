@@ -1,5 +1,5 @@
 outs:
-- md5: 2fb051aaa30d0d154b518e479b34eaee
+- md5: 283a28910cfb054515a6310ffd583926
   size: 9397
   hash: md5
   path: scap_measure_reductions.parquet
@@ -28,6 +28,6 @@ meta:
   index_columns:
   - action
   - Year
-  updated_at: '1785951303'
+  updated_at: '1785952446'
   units:
     emission_reduction: t_co2e/a
