@@ -1,6 +1,6 @@
 outs:
-- md5: 901e1eed50dd1dedaa393ec4a09038a3
-  size: 11878
+- md5: 2c6cfabca9fcc377a1f8b3f448e02dc8
+  size: 15687
   hash: md5
   path: waste_emission_factors.parquet
 meta:
@@ -8,24 +8,30 @@ meta:
     en: Waste emission factors
   identifier: king-county/waste_emission_factors
   metrics:
-  - id: waste_transport_emission_factor
-    column_id: waste_transport_emission_factor
-    quantity: emission_factor
-    unit: t_CO2e/ST
-    label:
-      en: Waste transport emission factor
   - id: waste_fugitive_emission_factor
     column_id: waste_fugitive_emission_factor
     quantity: emission_factor
     unit: t_CO2e/ST
     label:
       en: Waste fugitive emission factor
+  - id: waste_sequestration_emission_factor
+    column_id: waste_sequestration_emission_factor
+    quantity: emission_factor
+    unit: t_CO2e/ST
+    label:
+      en: Waste sequestration emission factor
   - id: waste_disposal_emission_factor
     column_id: waste_disposal_emission_factor
     quantity: emission_factor
     unit: t_CO2e/ST
     label:
       en: Waste disposal emission factor
+  - id: waste_transport_emission_factor
+    column_id: waste_transport_emission_factor
+    quantity: emission_factor
+    unit: t_CO2e/ST
+    label:
+      en: Waste transport emission factor
   sources:
   - name: 2025 SCAP GHG Wedge Analysis
     authority: Cascadia Consulting Group for King County; 
@@ -37,12 +43,21 @@ meta:
       wedges.; Attachment: 2025_SCAP_GHG_Wedge_Analysis_Final.xlsx; Format: .xlsx;
       Geographic Coverage: Selected Washington counties; King County selected; Date
       Last Updated: 2024-09-03'
+  - name: King County GHG Emissions Trend 2007-2023
+    authority: Cascadia Consulting Group for King County; 
+      andream@cascadiaconsulting.com
+    url:
+    description: 'Appended inventory database and summary trend tables for the eight
+      King County inventory years 2007, 2008, 2015, 2017, 2019, 2020, 2022 and 2023.;
+      Attachment: King County GHG Trend 2007 - 2023.xlsx; Format: .xlsx; Geographic
+      Coverage: King County, WA and its 39 cities; Date Last Updated: 2025-11-04'
   index_columns:
   - Year
   - material_type
   - waste_treatment
-  updated_at: '1785943226'
+  updated_at: '1785951176'
   units:
-    waste_fugitive_emission_factor: t_co2e/short_ton
     waste_disposal_emission_factor: t_co2e/short_ton
     waste_transport_emission_factor: t_co2e/short_ton
+    waste_fugitive_emission_factor: t_co2e/short_ton
+    waste_sequestration_emission_factor: t_co2e/short_ton
