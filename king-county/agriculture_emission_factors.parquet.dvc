@@ -1,0 +1,41 @@
+outs:
+- md5: c7d9bd9d5c977cf3cda7c64a85bd8162
+  size: 10682
+  hash: md5
+  path: agriculture_emission_factors.parquet
+meta:
+  name:
+    en: Agriculture emission factors
+  identifier: king-county/agriculture_emission_factors
+  metrics:
+  - id: soil_management_emission_factor
+    column_id: soil_management_emission_factor
+    quantity: emission_factor
+    unit: t/acre
+    label:
+      en: Soil management emission factor
+  - id: livestock_emission_factor
+    column_id: livestock_emission_factor
+    quantity: emission_factor
+    unit: t/pieces
+    label:
+      en: Livestock emission factor
+  sources:
+  - name: 2025 SCAP GHG Wedge Analysis
+    authority: Cascadia Consulting Group for King County; 
+      andream@cascadiaconsulting.com
+    url:
+    description: 'Greenhouse gas emissions forecast and scenario planning tool for
+      the 2025 Strategic Climate Action Plan. Projects activity, emission factors
+      and emissions to 2050 under a no-action scenario and quantifies 25 named policy
+      wedges.; Attachment: 2025_SCAP_GHG_Wedge_Analysis_Final.xlsx; Format: .xlsx;
+      Geographic Coverage: Selected Washington counties; King County selected; Date
+      Last Updated: 2024-09-03'
+  index_columns:
+  - Year
+  - livestock
+  - emission_process
+  updated_at: '1785931600'
+  units:
+    soil_management_emission_factor: t/acre
+    livestock_emission_factor: t/pcs

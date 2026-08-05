@@ -17,3 +17,4 @@
 /land_use_activity.parquet
 /emissions_without_activity_basis.parquet
 /waste_emission_factors.parquet
+/agriculture_emission_factors.parquet
