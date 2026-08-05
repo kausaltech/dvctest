@@ -1,6 +1,6 @@
 outs:
-- md5: 81e83bc78c64835f5a128a0fdd3a460d
-  size: 23547
+- md5: de1e47ee1af54e72c07c1ec5a00ea503
+  size: 23569
   hash: md5
   path: emissions_without_activity_basis.parquet
 meta:
@@ -11,7 +11,7 @@ meta:
   - id: emissions
     column_id: emissions
     quantity: emissions
-    unit: t/a
+    unit: t_CO2e/a
     label:
       en: Emissions
   sources:
@@ -108,6 +108,6 @@ meta:
   - energy_carrier
   - equipment_sector
   - emission_process
-  updated_at: '1785931589'
+  updated_at: '1785933572'
   units:
-    emissions: t/a
+    emissions: t_co2e/a
