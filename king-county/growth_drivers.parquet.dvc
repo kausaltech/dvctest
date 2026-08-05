@@ -1,5 +1,5 @@
 outs:
-- md5: 2a1d9efda8b427851770186a815310a2
+- md5: fd95549ed162f0c6702ca3596cc9a661
   size: 12641
   hash: md5
   path: growth_drivers.parquet
@@ -29,6 +29,6 @@ meta:
   - consumer_sector
   - energy_carrier
   - Year
-  updated_at: '1785954630'
+  updated_at: '1785955365'
   units:
     activity_growth_driver: pcs
