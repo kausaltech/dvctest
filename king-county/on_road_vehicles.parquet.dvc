@@ -1,6 +1,6 @@
 outs:
-- md5: b26179b6d0eea43b96a2b19d0ba21e48
-  size: 16806
+- md5: fb6b7f0e064e56ad3b2971014f83d9de
+  size: 16465
   hash: md5
   path: on_road_vehicles.parquet
 meta:
@@ -64,7 +64,7 @@ meta:
   - energy_carrier
   - vehicle_type
   - vehicle_class
-  updated_at: '1785943191'
+  updated_at: '1785951158'
   units:
     vehicle_mileage: VMT/a
     electricity_consumption: kWh/a
