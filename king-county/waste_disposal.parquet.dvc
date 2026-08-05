@@ -1,5 +1,5 @@
 outs:
-- md5: 0ea6ae20df3d79f2c60afb53e2ff82a3
+- md5: ab024cd8689205c81e8493bd262ad574
   size: 19901
   hash: md5
   path: waste_disposal.parquet
@@ -87,6 +87,6 @@ meta:
   - Year
   - material_type
   - waste_treatment
-  updated_at: '1785952317'
+  updated_at: '1785954736'
   units:
     waste_tonnage: short_ton/a
