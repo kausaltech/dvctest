@@ -1,6 +1,6 @@
 outs:
-- md5: c290a839bc3a1064df030e56f3f43904
-  size: 7329
+- md5: 0f2e7bbb10f07195bba0c6380b82ac33
+  size: 7345
   hash: md5
   path: land_use_activity.parquet
 meta:
@@ -11,7 +11,7 @@ meta:
   - id: tree_cover_loss
     column_id: tree_cover_loss
     quantity: area
-    unit: acre
+    unit: acre/a
     label:
       en: Tree cover loss
   sources:
@@ -32,6 +32,6 @@ meta:
   index_columns:
   - Year
   - emission_source
-  updated_at: '1785940491'
+  updated_at: '1785943214'
   units:
-    tree_cover_loss: acre
+    tree_cover_loss: acre/a
