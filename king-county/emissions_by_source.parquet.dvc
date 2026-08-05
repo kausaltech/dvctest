@@ -1,5 +1,5 @@
 outs:
-- md5: 5e70697f66b4ecfb4bf636303d44c4cf
+- md5: c694a925187f4c909d8b516685f77ea1
   size: 10200
   hash: md5
   path: emissions_by_source.parquet
@@ -27,6 +27,6 @@ meta:
   - Year
   - sector
   - emission_source
-  updated_at: '1785955460'
+  updated_at: '1785956834'
   units:
     emissions: t_co2e/a
