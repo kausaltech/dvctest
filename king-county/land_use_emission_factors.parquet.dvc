@@ -1,5 +1,5 @@
 outs:
-- md5: f727a712dc03f2540edbfb1d86d583fb
+- md5: 8874d367be8dc781379aa6d45f1c5d73
   size: 7517
   hash: md5
   path: land_use_emission_factors.parquet
@@ -28,6 +28,6 @@ meta:
   index_columns:
   - Year
   - emission_source
-  updated_at: '1785952352'
+  updated_at: '1785954769'
   units:
     tree_loss_emission_factor: t_co2e/acre
