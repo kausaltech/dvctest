@@ -8,3 +8,4 @@
 /emissions_by_source.parquet
 /electricity_consumption.parquet
 /natural_gas_consumption.parquet
+/emission_factors.parquet

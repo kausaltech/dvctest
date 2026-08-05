@@ -1,0 +1,91 @@
+outs:
+- md5: 13557d94a9812fda9f8db7d2e8e0a034
+  size: 21301
+  hash: md5
+  path: emission_factors.parquet
+meta:
+  name:
+    en: Emission factors
+  identifier: king-county/emission_factors
+  metrics:
+  - id: electricity_emission_factor
+    column_id: electricity_emission_factor
+    quantity: emission_factor
+    unit: t/kWh
+    label:
+      en: Electricity emission factor
+  - id: natural_gas_td_emission_factor
+    column_id: natural_gas_td_emission_factor
+    quantity: emission_factor
+    unit: t/thm
+    label:
+      en: Natural gas T&D emission factor
+  - id: aviation_fuel_emission_factor
+    column_id: aviation_fuel_emission_factor
+    quantity: emission_factor
+    unit: t/gal
+    label:
+      en: Aviation fuel emission factor
+  - id: natural_gas_td_emission_factor_derived
+    column_id: natural_gas_td_emission_factor_derived
+    quantity: emission_factor
+    unit: t/thm
+    label:
+      en: Natural gas T&D emission factor (derived)
+  - id: natural_gas_fugitive_leakage_rate
+    column_id: natural_gas_fugitive_leakage_rate
+    quantity: fraction
+    unit: ''
+    label:
+      en: Natural gas fugitive leakage rate
+  - id: natural_gas_emission_factor
+    column_id: natural_gas_emission_factor
+    quantity: emission_factor
+    unit: t/thm
+    label:
+      en: Natural gas emission factor
+  - id: liquid_fuel_emission_factor
+    column_id: liquid_fuel_emission_factor
+    quantity: emission_factor
+    unit: t/gal
+    label:
+      en: Liquid fuel emission factor
+  - id: vehicle_fuel_emission_factor
+    column_id: vehicle_fuel_emission_factor
+    quantity: emission_factor
+    unit: t/gal
+    label:
+      en: Vehicle fuel emission factor
+  sources:
+  - name: 2025 SCAP GHG Wedge Analysis
+    authority: Cascadia Consulting Group for King County; 
+      andream@cascadiaconsulting.com
+    url:
+    description: 'Greenhouse gas emissions forecast and scenario planning tool for
+      the 2025 Strategic Climate Action Plan. Projects activity, emission factors
+      and emissions to 2050 under a no-action scenario and quantifies 25 named policy
+      wedges.; Attachment: 2025_SCAP_GHG_Wedge_Analysis_Final.xlsx; Format: .xlsx;
+      Geographic Coverage: Selected Washington counties; King County selected; Date
+      Last Updated: 2024-09-03'
+  - name: King County GHG Emissions Trend 2007-2023
+    authority: Cascadia Consulting Group for King County; 
+      andream@cascadiaconsulting.com
+    url:
+    description: 'Appended inventory database and summary trend tables for the eight
+      King County inventory years 2007, 2008, 2015, 2017, 2019, 2020, 2022 and 2023.;
+      Attachment: King County GHG Trend 2007 - 2023.xlsx; Format: .xlsx; Geographic
+      Coverage: King County, WA and its 39 cities; Date Last Updated: 2025-11-04'
+  index_columns:
+  - Year
+  - utility
+  - energy_carrier
+  updated_at: '1785931550'
+  units:
+    liquid_fuel_emission_factor: t/gal
+    natural_gas_emission_factor: t/therm
+    natural_gas_fugitive_leakage_rate: dimensionless
+    aviation_fuel_emission_factor: t/gal
+    vehicle_fuel_emission_factor: t/gal
+    natural_gas_td_emission_factor: t/therm
+    natural_gas_td_emission_factor_derived: t/therm
+    electricity_emission_factor: t/kWh
