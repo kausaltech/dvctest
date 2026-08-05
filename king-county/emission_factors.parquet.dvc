@@ -1,6 +1,6 @@
 outs:
-- md5: 86fa3476bb27e6f438599144b2a9d237
-  size: 22772
+- md5: 4e10b94b998c7f38c69469ac4df2eaca
+  size: 25557
   hash: md5
   path: emission_factors.parquet
 meta:
@@ -8,30 +8,30 @@ meta:
     en: Emission factors
   identifier: king-county/emission_factors
   metrics:
+  - id: natural_gas_td_emission_factor
+    column_id: natural_gas_td_emission_factor
+    quantity: emission_factor
+    unit: t_CO2e/thm
+    label:
+      en: Natural gas T&D emission factor
   - id: vehicle_fuel_emission_factor
     column_id: vehicle_fuel_emission_factor
     quantity: emission_factor
     unit: t_CO2e/gal
     label:
       en: Vehicle fuel emission factor
-  - id: electricity_emission_factor
-    column_id: electricity_emission_factor
-    quantity: emission_factor
-    unit: t_CO2e/kWh
-    label:
-      en: Electricity emission factor
-  - id: natural_gas_emission_factor
-    column_id: natural_gas_emission_factor
-    quantity: emission_factor
-    unit: t_CO2e/thm
-    label:
-      en: Natural gas emission factor
   - id: natural_gas_fugitive_leakage_rate
     column_id: natural_gas_fugitive_leakage_rate
     quantity: fraction
     unit: ''
     label:
       en: Natural gas fugitive leakage rate
+  - id: electricity_emission_factor
+    column_id: electricity_emission_factor
+    quantity: emission_factor
+    unit: t_CO2e/kWh
+    label:
+      en: Electricity emission factor
   - id: aviation_fuel_emission_factor
     column_id: aviation_fuel_emission_factor
     quantity: emission_factor
@@ -44,18 +44,24 @@ meta:
     unit: t_CO2e/thm
     label:
       en: Natural gas T&D emission factor (derived)
+  - id: transit_electricity_emission_factor_derived
+    column_id: transit_electricity_emission_factor_derived
+    quantity: emission_factor
+    unit: t_CO2e/kWh
+    label:
+      en: Transit electricity emission factor (derived)
   - id: vehicle_electricity_emission_factor
     column_id: vehicle_electricity_emission_factor
     quantity: emission_factor
     unit: t_CO2e/kWh
     label:
       en: Vehicle electricity emission factor
-  - id: natural_gas_td_emission_factor
-    column_id: natural_gas_td_emission_factor
+  - id: natural_gas_emission_factor
+    column_id: natural_gas_emission_factor
     quantity: emission_factor
     unit: t_CO2e/thm
     label:
-      en: Natural gas T&D emission factor
+      en: Natural gas emission factor
   - id: liquid_fuel_emission_factor
     column_id: liquid_fuel_emission_factor
     quantity: emission_factor
@@ -85,14 +91,16 @@ meta:
   - Year
   - utility
   - energy_carrier
-  updated_at: '1785943179'
+  - vehicle_class
+  updated_at: '1785951147'
   units:
-    natural_gas_td_emission_factor: t_co2e/therm
-    vehicle_electricity_emission_factor: t_co2e/kWh
-    natural_gas_td_emission_factor_derived: t_co2e/therm
-    liquid_fuel_emission_factor: t_co2e/gal
-    electricity_emission_factor: t_co2e/kWh
-    vehicle_fuel_emission_factor: t_co2e/gal
-    aviation_fuel_emission_factor: t_co2e/gal
     natural_gas_emission_factor: t_co2e/therm
+    vehicle_electricity_emission_factor: t_co2e/kWh
+    vehicle_fuel_emission_factor: t_co2e/gal
+    transit_electricity_emission_factor_derived: t_co2e/kWh
     natural_gas_fugitive_leakage_rate: dimensionless
+    aviation_fuel_emission_factor: t_co2e/gal
+    natural_gas_td_emission_factor_derived: t_co2e/therm
+    electricity_emission_factor: t_co2e/kWh
+    natural_gas_td_emission_factor: t_co2e/therm
+    liquid_fuel_emission_factor: t_co2e/gal
