@@ -1,5 +1,5 @@
 outs:
-- md5: 2d1859636324609c35e14eb7e15f7efc
+- md5: dd6f98c2e7fb7c350cc70ab43f1d1c94
   size: 13328
   hash: md5
   path: aviation_fuel_consumption.parquet
@@ -75,6 +75,6 @@ meta:
   - Year
   - energy_carrier
   - airport
-  updated_at: '1785951164'
+  updated_at: '1785952311'
   units:
     fuel_consumption: gal/a
