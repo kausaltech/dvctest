@@ -1,5 +1,5 @@
 outs:
-- md5: fb6b7f0e064e56ad3b2971014f83d9de
+- md5: ad05da74be52a6d073daf6d20035cc4c
   size: 16465
   hash: md5
   path: on_road_vehicles.parquet
@@ -8,12 +8,6 @@ meta:
     en: On-road vehicles
   identifier: king-county/on_road_vehicles
   metrics:
-  - id: electricity_consumption
-    column_id: electricity_consumption
-    quantity: energy
-    unit: kWh/a
-    label:
-      en: Electricity consumption
   - id: vehicle_mileage
     column_id: vehicle_mileage
     quantity: vehicle_mileage
@@ -26,6 +20,12 @@ meta:
     unit: gal/a
     label:
       en: Fuel consumption
+  - id: electricity_consumption
+    column_id: electricity_consumption
+    quantity: energy
+    unit: kWh/a
+    label:
+      en: Electricity consumption
   sources:
   - name: KC15_11_12PSRC
     authority: Data file collected by Cascadia Consulting Group for the King 
@@ -64,8 +64,8 @@ meta:
   - energy_carrier
   - vehicle_type
   - vehicle_class
-  updated_at: '1785951158'
+  updated_at: '1785952305'
   units:
-    vehicle_mileage: VMT/a
     electricity_consumption: kWh/a
+    vehicle_mileage: VMT/a
     fuel_consumption: gal/a
