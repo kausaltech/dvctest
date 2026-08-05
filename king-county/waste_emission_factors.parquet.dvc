@@ -1,6 +1,6 @@
 outs:
-- md5: d919e6724477be68fb3a30d5856efd8b
-  size: 11804
+- md5: 842050e6344746de664fa6709964f809
+  size: 11878
   hash: md5
   path: waste_emission_factors.parquet
 meta:
@@ -8,24 +8,24 @@ meta:
     en: Waste emission factors
   identifier: king-county/waste_emission_factors
   metrics:
-  - id: waste_fugitive_emission_factor
-    column_id: waste_fugitive_emission_factor
-    quantity: emission_factor
-    unit: t/ST
-    label:
-      en: Waste fugitive emission factor
   - id: waste_transport_emission_factor
     column_id: waste_transport_emission_factor
     quantity: emission_factor
-    unit: t/ST
+    unit: t_CO2e/ST
     label:
       en: Waste transport emission factor
   - id: waste_disposal_emission_factor
     column_id: waste_disposal_emission_factor
     quantity: emission_factor
-    unit: t/ST
+    unit: t_CO2e/ST
     label:
       en: Waste disposal emission factor
+  - id: waste_fugitive_emission_factor
+    column_id: waste_fugitive_emission_factor
+    quantity: emission_factor
+    unit: t_CO2e/ST
+    label:
+      en: Waste fugitive emission factor
   sources:
   - name: 2025 SCAP GHG Wedge Analysis
     authority: Cascadia Consulting Group for King County; 
@@ -41,8 +41,8 @@ meta:
   - Year
   - material_type
   - waste_treatment
-  updated_at: '1785931594'
+  updated_at: '1785933578'
   units:
-    waste_transport_emission_factor: t/short_ton
-    waste_disposal_emission_factor: t/short_ton
-    waste_fugitive_emission_factor: t/short_ton
+    waste_transport_emission_factor: t_co2e/short_ton
+    waste_fugitive_emission_factor: t_co2e/short_ton
+    waste_disposal_emission_factor: t_co2e/short_ton
