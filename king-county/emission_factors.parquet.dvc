@@ -1,6 +1,6 @@
 outs:
-- md5: 13557d94a9812fda9f8db7d2e8e0a034
-  size: 21301
+- md5: 7cbecea094b43e33b1822d0d007cbc4c
+  size: 21467
   hash: md5
   path: emission_factors.parquet
 meta:
@@ -11,51 +11,51 @@ meta:
   - id: electricity_emission_factor
     column_id: electricity_emission_factor
     quantity: emission_factor
-    unit: t/kWh
+    unit: t_CO2e/kWh
     label:
       en: Electricity emission factor
-  - id: natural_gas_td_emission_factor
-    column_id: natural_gas_td_emission_factor
+  - id: natural_gas_emission_factor
+    column_id: natural_gas_emission_factor
     quantity: emission_factor
-    unit: t/thm
+    unit: t_CO2e/thm
     label:
-      en: Natural gas T&D emission factor
+      en: Natural gas emission factor
   - id: aviation_fuel_emission_factor
     column_id: aviation_fuel_emission_factor
     quantity: emission_factor
-    unit: t/gal
+    unit: t_CO2e/gal
     label:
       en: Aviation fuel emission factor
-  - id: natural_gas_td_emission_factor_derived
-    column_id: natural_gas_td_emission_factor_derived
+  - id: vehicle_fuel_emission_factor
+    column_id: vehicle_fuel_emission_factor
     quantity: emission_factor
-    unit: t/thm
+    unit: t_CO2e/gal
     label:
-      en: Natural gas T&D emission factor (derived)
+      en: Vehicle fuel emission factor
+  - id: liquid_fuel_emission_factor
+    column_id: liquid_fuel_emission_factor
+    quantity: emission_factor
+    unit: t_CO2e/gal
+    label:
+      en: Liquid fuel emission factor
   - id: natural_gas_fugitive_leakage_rate
     column_id: natural_gas_fugitive_leakage_rate
     quantity: fraction
     unit: ''
     label:
       en: Natural gas fugitive leakage rate
-  - id: natural_gas_emission_factor
-    column_id: natural_gas_emission_factor
+  - id: natural_gas_td_emission_factor_derived
+    column_id: natural_gas_td_emission_factor_derived
     quantity: emission_factor
-    unit: t/thm
+    unit: t_CO2e/thm
     label:
-      en: Natural gas emission factor
-  - id: liquid_fuel_emission_factor
-    column_id: liquid_fuel_emission_factor
+      en: Natural gas T&D emission factor (derived)
+  - id: natural_gas_td_emission_factor
+    column_id: natural_gas_td_emission_factor
     quantity: emission_factor
-    unit: t/gal
+    unit: t_CO2e/thm
     label:
-      en: Liquid fuel emission factor
-  - id: vehicle_fuel_emission_factor
-    column_id: vehicle_fuel_emission_factor
-    quantity: emission_factor
-    unit: t/gal
-    label:
-      en: Vehicle fuel emission factor
+      en: Natural gas T&D emission factor
   sources:
   - name: 2025 SCAP GHG Wedge Analysis
     authority: Cascadia Consulting Group for King County; 
@@ -79,13 +79,13 @@ meta:
   - Year
   - utility
   - energy_carrier
-  updated_at: '1785931550'
+  updated_at: '1785933533'
   units:
-    liquid_fuel_emission_factor: t/gal
-    natural_gas_emission_factor: t/therm
+    vehicle_fuel_emission_factor: t_co2e/gal
+    natural_gas_td_emission_factor_derived: t_co2e/therm
+    natural_gas_td_emission_factor: t_co2e/therm
+    electricity_emission_factor: t_co2e/kWh
+    aviation_fuel_emission_factor: t_co2e/gal
     natural_gas_fugitive_leakage_rate: dimensionless
-    aviation_fuel_emission_factor: t/gal
-    vehicle_fuel_emission_factor: t/gal
-    natural_gas_td_emission_factor: t/therm
-    natural_gas_td_emission_factor_derived: t/therm
-    electricity_emission_factor: t/kWh
+    natural_gas_emission_factor: t_co2e/therm
+    liquid_fuel_emission_factor: t_co2e/gal
