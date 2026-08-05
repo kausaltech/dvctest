@@ -1,5 +1,5 @@
 outs:
-- md5: ba86469f012f98a972c5fa8b429f1f41
+- md5: c3a4ecaf058ec29e67ad3a6791b40202
   size: 9513
   hash: md5
   path: commercial_floor_area.parquet
@@ -28,6 +28,6 @@ meta:
   index_columns:
   - building_size
   - Year
-  updated_at: '1785951314'
+  updated_at: '1785952457'
   units:
     floor_area: ft**2
