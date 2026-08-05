@@ -10,3 +10,4 @@
 /natural_gas_consumption.parquet
 /emission_factors.parquet
 /other_fuel_consumption.parquet
+/on_road_vehicles.parquet
