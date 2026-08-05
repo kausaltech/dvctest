@@ -1,6 +1,6 @@
 outs:
-- md5: 52c922413090d8c6eee9fb7bcf3fefcb
-  size: 11854
+- md5: 8f71fcac083fe4a7546fb82d08beb7b3
+  size: 11884
   hash: md5
   path: business_as_usual_emissions.parquet
 meta:
@@ -11,7 +11,7 @@ meta:
   - id: emissions
     column_id: emissions
     quantity: emissions
-    unit: t/a
+    unit: t_CO2e/a
     label:
       en: Emissions
   sources:
@@ -30,6 +30,6 @@ meta:
   - emission_source
   - projection
   - Year
-  updated_at: '1785931471'
+  updated_at: '1785933464'
   units:
-    emissions: t/a
+    emissions: t_co2e/a
