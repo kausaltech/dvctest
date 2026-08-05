@@ -1,0 +1,32 @@
+outs:
+- md5: 8eace30c0d3b7d26815e2659b598639e
+  size: 10182
+  hash: md5
+  path: emissions_by_source.parquet
+meta:
+  name:
+    en: Emissions by source
+  identifier: king-county/emissions_by_source
+  metrics:
+  - id: emissions
+    column_id: emissions
+    quantity: emissions
+    unit: t/a
+    label:
+      en: Emissions
+  sources:
+  - name: King County GHG Emissions Trend 2007-2023
+    authority: Cascadia Consulting Group for King County; 
+      andream@cascadiaconsulting.com
+    url:
+    description: 'Appended inventory database and summary trend tables for the eight
+      King County inventory years 2007, 2008, 2015, 2017, 2019, 2020, 2022 and 2023.;
+      Attachment: King County GHG Trend 2007 - 2023.xlsx; Format: .xlsx; Geographic
+      Coverage: King County, WA and its 39 cities; Date Last Updated: 2025-11-04'
+  index_columns:
+  - Year
+  - sector
+  - emission_source
+  updated_at: '1785931534'
+  units:
+    emissions: t/a
