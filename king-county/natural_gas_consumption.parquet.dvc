@@ -1,5 +1,5 @@
 outs:
-- md5: 3eff7a488ee6e3d22af9baff3408a9f5
+- md5: 93abe82de3167dc9da6dff9d27b4e734
   size: 13110
   hash: md5
   path: natural_gas_consumption.parquet
@@ -8,18 +8,18 @@ meta:
     en: Natural gas consumption
   identifier: king-county/natural_gas_consumption
   metrics:
-  - id: natural_gas_td_losses
-    column_id: natural_gas_td_losses
-    quantity: energy
-    unit: thm/a
-    label:
-      en: Natural gas T&D losses
   - id: delivered_natural_gas
     column_id: delivered_natural_gas
     quantity: energy
     unit: thm/a
     label:
       en: Delivered natural gas
+  - id: natural_gas_td_losses
+    column_id: natural_gas_td_losses
+    quantity: energy
+    unit: thm/a
+    label:
+      en: Natural gas T&D losses
   sources:
   - name: 2022_01_02_PugetSoundEnergy.xlsx
     authority: Data file collected by Cascadia Consulting Group for the King 
@@ -58,7 +58,7 @@ meta:
   - consumer_sector
   - utility
   - energy_carrier
-  updated_at: '1785955472'
+  updated_at: '1785956846'
   units:
     delivered_natural_gas: therm/a
     natural_gas_td_losses: therm/a
