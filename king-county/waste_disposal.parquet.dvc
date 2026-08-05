@@ -1,6 +1,6 @@
 outs:
-- md5: f58f53616a7446ab36b21bf2ec072c9b
-  size: 18694
+- md5: 05726685ca2ee839dce89db625db7c64
+  size: 19508
   hash: md5
   path: waste_disposal.parquet
 meta:
@@ -85,10 +85,8 @@ meta:
       Coverage: King County, WA and its 39 cities; Date Last Updated: 2025-11-04'
   index_columns:
   - Year
-  - emission_source
-  - consumer_sector
   - material_type
   - waste_treatment
-  updated_at: '1785943202'
+  updated_at: '1785951170'
   units:
     waste_tonnage: short_ton/a
