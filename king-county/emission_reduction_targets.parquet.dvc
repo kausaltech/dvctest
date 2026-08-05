@@ -1,5 +1,5 @@
 outs:
-- md5: 21dbbfcdc23ab31dff3376444407dc6b
+- md5: 1a494141b4f86c8079f1ae03d6fca304
   size: 8024
   hash: md5
   path: emission_reduction_targets.parquet
@@ -27,6 +27,6 @@ meta:
       Last Updated: 2024-09-03'
   index_columns:
   - Year
-  updated_at: '1785933498'
+  updated_at: '1785951325'
   units:
     reduction_from_baseline: dimensionless
