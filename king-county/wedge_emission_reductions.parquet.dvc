@@ -1,6 +1,6 @@
 outs:
-- md5: f3e348e51281c914b2b260c83d93ea87
-  size: 31124
+- md5: 7360ee7ef8546b57e680f41040d430f1
+  size: 31078
   hash: md5
   path: wedge_emission_reductions.parquet
 meta:
@@ -77,6 +77,6 @@ meta:
   - action
   - policy_level
   - Year
-  updated_at: '1785952440'
+  updated_at: '1785954608'
   units:
     emission_reduction: t_co2e/a
