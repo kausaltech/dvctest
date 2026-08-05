@@ -19,3 +19,4 @@
 /waste_emission_factors.parquet
 /agriculture_emission_factors.parquet
 /land_use_emission_factors.parquet
+/fuel_economy.parquet
