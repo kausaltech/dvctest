@@ -1,0 +1,33 @@
+outs:
+- md5: 4fa96c4200a0bceb2fa186217dd19e70
+  size: 9513
+  hash: md5
+  path: commercial_floor_area.parquet
+meta:
+  name:
+    en: Commercial floor area
+  identifier: king-county/commercial_floor_area
+  metrics:
+  - id: floor_area
+    column_id: floor_area
+    quantity: floor_area
+    unit: ft²
+    label:
+      en: Floor area
+  sources:
+  - name: 2025 SCAP GHG Wedge Analysis
+    authority: Cascadia Consulting Group for King County; 
+      andream@cascadiaconsulting.com
+    url:
+    description: 'Greenhouse gas emissions forecast and scenario planning tool for
+      the 2025 Strategic Climate Action Plan. Projects activity, emission factors
+      and emissions to 2050 under a no-action scenario and quantifies 25 named policy
+      wedges.; Attachment: 2025_SCAP_GHG_Wedge_Analysis_Final.xlsx; Format: .xlsx;
+      Geographic Coverage: Selected Washington counties; King County selected; Date
+      Last Updated: 2024-09-03'
+  index_columns:
+  - building_size
+  - Year
+  updated_at: '1785931498'
+  units:
+    floor_area: ft**2
