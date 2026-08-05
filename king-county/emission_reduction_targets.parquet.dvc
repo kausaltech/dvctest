@@ -1,0 +1,32 @@
+outs:
+- md5: afde79b7e20c7cba7bd833db22ac099e
+  size: 8024
+  hash: md5
+  path: emission_reduction_targets.parquet
+meta:
+  name:
+    en: Emission reduction targets
+  identifier: king-county/emission_reduction_targets
+  metrics:
+  - id: reduction_from_baseline
+    column_id: reduction_from_baseline
+    quantity: fraction
+    unit: ''
+    label:
+      en: Reduction from baseline
+  sources:
+  - name: 2025 SCAP GHG Wedge Analysis
+    authority: Cascadia Consulting Group for King County; 
+      andream@cascadiaconsulting.com
+    url:
+    description: 'Greenhouse gas emissions forecast and scenario planning tool for
+      the 2025 Strategic Climate Action Plan. Projects activity, emission factors
+      and emissions to 2050 under a no-action scenario and quantifies 25 named policy
+      wedges.; Attachment: 2025_SCAP_GHG_Wedge_Analysis_Final.xlsx; Format: .xlsx;
+      Geographic Coverage: Selected Washington counties; King County selected; Date
+      Last Updated: 2024-09-03'
+  index_columns:
+  - Year
+  updated_at: '1785931504'
+  units:
+    reduction_from_baseline: dimensionless
