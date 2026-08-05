@@ -1,5 +1,5 @@
 outs:
-- md5: f20d313cba6e299072ed7f7a1c25d732
+- md5: 0b4533d45e01a933883d00b966f5dcc9
   size: 16465
   hash: md5
   path: on_road_vehicles.parquet
@@ -14,18 +14,18 @@ meta:
     unit: kWh/a
     label:
       en: Electricity consumption
-  - id: vehicle_mileage
-    column_id: vehicle_mileage
-    quantity: vehicle_mileage
-    unit: vehicle_miles_traveled/a
-    label:
-      en: Vehicle mileage
   - id: fuel_consumption
     column_id: fuel_consumption
     quantity: fuel_consumption
     unit: gal/a
     label:
       en: Fuel consumption
+  - id: vehicle_mileage
+    column_id: vehicle_mileage
+    quantity: vehicle_mileage
+    unit: vehicle_miles_traveled/a
+    label:
+      en: Vehicle mileage
   sources:
   - name: KC15_11_12PSRC
     authority: Data file collected by Cascadia Consulting Group for the King 
@@ -64,8 +64,8 @@ meta:
   - energy_carrier
   - vehicle_type
   - vehicle_class
-  updated_at: '1785954725'
+  updated_at: '1785955489'
   units:
+    fuel_consumption: gal/a
     vehicle_mileage: VMT/a
     electricity_consumption: kWh/a
-    fuel_consumption: gal/a
