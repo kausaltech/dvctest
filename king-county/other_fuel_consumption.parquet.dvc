@@ -1,5 +1,5 @@
 outs:
-- md5: 2068a269cef1a038bd73999c32d8b25b
+- md5: dfda4b54c020bdc4513f6758aef40da3
   size: 12001
   hash: md5
   path: other_fuel_consumption.parquet
@@ -63,6 +63,6 @@ meta:
   - Year
   - consumer_sector
   - energy_carrier
-  updated_at: '1785943186'
+  updated_at: '1785951152'
   units:
     fuel_consumption: gal/a
