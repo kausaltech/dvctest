@@ -1,5 +1,5 @@
 outs:
-- md5: 7cbecea094b43e33b1822d0d007cbc4c
+- md5: 0bcda2b440371896ebad0832a29a1dcf
   size: 21467
   hash: md5
   path: emission_factors.parquet
@@ -8,54 +8,54 @@ meta:
     en: Emission factors
   identifier: king-county/emission_factors
   metrics:
-  - id: electricity_emission_factor
-    column_id: electricity_emission_factor
-    quantity: emission_factor
-    unit: t_CO2e/kWh
-    label:
-      en: Electricity emission factor
-  - id: natural_gas_emission_factor
-    column_id: natural_gas_emission_factor
-    quantity: emission_factor
-    unit: t_CO2e/thm
-    label:
-      en: Natural gas emission factor
-  - id: aviation_fuel_emission_factor
-    column_id: aviation_fuel_emission_factor
-    quantity: emission_factor
-    unit: t_CO2e/gal
-    label:
-      en: Aviation fuel emission factor
-  - id: vehicle_fuel_emission_factor
-    column_id: vehicle_fuel_emission_factor
-    quantity: emission_factor
-    unit: t_CO2e/gal
-    label:
-      en: Vehicle fuel emission factor
-  - id: liquid_fuel_emission_factor
-    column_id: liquid_fuel_emission_factor
-    quantity: emission_factor
-    unit: t_CO2e/gal
-    label:
-      en: Liquid fuel emission factor
-  - id: natural_gas_fugitive_leakage_rate
-    column_id: natural_gas_fugitive_leakage_rate
-    quantity: fraction
-    unit: ''
-    label:
-      en: Natural gas fugitive leakage rate
   - id: natural_gas_td_emission_factor_derived
     column_id: natural_gas_td_emission_factor_derived
     quantity: emission_factor
     unit: t_CO2e/thm
     label:
       en: Natural gas T&D emission factor (derived)
+  - id: aviation_fuel_emission_factor
+    column_id: aviation_fuel_emission_factor
+    quantity: emission_factor
+    unit: t_CO2e/gal
+    label:
+      en: Aviation fuel emission factor
+  - id: natural_gas_emission_factor
+    column_id: natural_gas_emission_factor
+    quantity: emission_factor
+    unit: t_CO2e/thm
+    label:
+      en: Natural gas emission factor
   - id: natural_gas_td_emission_factor
     column_id: natural_gas_td_emission_factor
     quantity: emission_factor
     unit: t_CO2e/thm
     label:
       en: Natural gas T&D emission factor
+  - id: electricity_emission_factor
+    column_id: electricity_emission_factor
+    quantity: emission_factor
+    unit: t_CO2e/kWh
+    label:
+      en: Electricity emission factor
+  - id: liquid_fuel_emission_factor
+    column_id: liquid_fuel_emission_factor
+    quantity: emission_factor
+    unit: t_CO2e/gal
+    label:
+      en: Liquid fuel emission factor
+  - id: vehicle_fuel_emission_factor
+    column_id: vehicle_fuel_emission_factor
+    quantity: emission_factor
+    unit: t_CO2e/gal
+    label:
+      en: Vehicle fuel emission factor
+  - id: natural_gas_fugitive_leakage_rate
+    column_id: natural_gas_fugitive_leakage_rate
+    quantity: fraction
+    unit: ''
+    label:
+      en: Natural gas fugitive leakage rate
   sources:
   - name: 2025 SCAP GHG Wedge Analysis
     authority: Cascadia Consulting Group for King County; 
@@ -79,13 +79,13 @@ meta:
   - Year
   - utility
   - energy_carrier
-  updated_at: '1785933533'
+  updated_at: '1785940456'
   units:
+    natural_gas_emission_factor: t_co2e/therm
     vehicle_fuel_emission_factor: t_co2e/gal
     natural_gas_td_emission_factor_derived: t_co2e/therm
-    natural_gas_td_emission_factor: t_co2e/therm
     electricity_emission_factor: t_co2e/kWh
-    aviation_fuel_emission_factor: t_co2e/gal
-    natural_gas_fugitive_leakage_rate: dimensionless
-    natural_gas_emission_factor: t_co2e/therm
     liquid_fuel_emission_factor: t_co2e/gal
+    aviation_fuel_emission_factor: t_co2e/gal
+    natural_gas_td_emission_factor: t_co2e/therm
+    natural_gas_fugitive_leakage_rate: dimensionless
