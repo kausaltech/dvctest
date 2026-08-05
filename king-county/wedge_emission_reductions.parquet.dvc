@@ -1,0 +1,82 @@
+outs:
+- md5: 1090daad08c639028514e0b4ddd83a52
+  size: 31090
+  hash: md5
+  path: wedge_emission_reductions.parquet
+meta:
+  name:
+    en: Wedge emission reductions
+  identifier: king-county/wedge_emission_reductions
+  metrics:
+  - id: emission_reduction
+    column_id: emission_reduction
+    quantity: emissions
+    unit: t/a
+    label:
+      en: Emission reduction
+  sources:
+  - name: 2025 SCAP GHG Wedge Analysis
+    authority: Cascadia Consulting Group for King County; 
+      andream@cascadiaconsulting.com
+    url:
+    description: 'Greenhouse gas emissions forecast and scenario planning tool for
+      the 2025 Strategic Climate Action Plan. Projects activity, emission factors
+      and emissions to 2050 under a no-action scenario and quantifies 25 named policy
+      wedges.; Attachment: 2025_SCAP_GHG_Wedge_Analysis_Final.xlsx; Format: .xlsx;
+      Geographic Coverage: Selected Washington counties; King County selected; Date
+      Last Updated: 2024-09-03'
+  - name: AL_Plan_12_WSFElectrification
+    authority:
+    url:
+    description: 'WSF Electrification Plan; Sector: Plan; Short Name: WSFElectrification'
+  - name: AL_Plan_13_NWPCleanAir
+    authority:
+    url:
+    description: 'NWP Clean Air Strategy Update; Sector: Plan; Short Name: NWPCleanAir'
+  - name: AL_Plan_14_ATAG2050
+    authority:
+    url:
+    description: 'Air Transport Action Group (ATAG) 2050 Plan; Sector: Plan; Short
+      Name: ATAG2050'
+  - name: AL_Policy_01_CETA
+    authority:
+    url:
+    description: 'WA Clean Energy Transformation Act (SB 5116); Sector: Policy; Short
+      Name: CETA'
+  - name: AL_Policy_02_EnergyCode
+    authority:
+    url: https://waenergycodes.com/wsec-documents.php
+    description: 'WA Energy Code; Sector: Policy; Short Name: EnergyCode'
+  - name: AL_Policy_03_CleanBuildingsAct
+    authority:
+    url:
+    description: 'WA Clean Buildings Act (HB 1257); Sector: Policy; Short Name: CleanBuildingsAct'
+  - name: AL_Policy_04_CAFE
+    authority:
+    url:
+    description: 'Federal Vehicle Regulations; Sector: Policy; Short Name: CAFE'
+  - name: AL_Policy_05_CleanFuelStandard
+    authority:
+    url:
+    description: 'WA Clean Fuel Standard (HB 1091); Sector: Policy; Short Name: CleanFuelStandard'
+  - name: AL_Policy_07_HFC1112 AL_Policy_08_HFC1150
+    authority:
+    url:
+    description:
+  - name: AL_Policy_09_CCA
+    authority:
+    url:
+    description: 'WA Climate Commitment Act (SB 5126); Sector: Policy; Short Name:
+      CCA'
+  - name: 
+      https://www.seattle.gov/environment/climate-change/buildings-and-energy/building-emissions-performance-standard/beps-policy-development#studies
+    authority:
+    url:
+    description:
+  index_columns:
+  - action
+  - policy_level
+  - Year
+  updated_at: '1785931482'
+  units:
+    emission_reduction: t/a
