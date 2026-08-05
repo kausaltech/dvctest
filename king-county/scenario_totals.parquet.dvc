@@ -1,5 +1,5 @@
 outs:
-- md5: 82ad4a473443e88a23b0713ad2a2f3a5
+- md5: 360eddd996998133bbaf6cfb4c4f90d6
   size: 8105
   hash: md5
   path: scenario_totals.parquet
@@ -28,6 +28,6 @@ meta:
   index_columns:
   - projection
   - Year
-  updated_at: '1785955335'
+  updated_at: '1785956745'
   units:
     emissions: t_co2e/a
