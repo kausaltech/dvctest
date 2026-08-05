@@ -1,0 +1,64 @@
+outs:
+- md5: 6d929558dbf3eb3efabce0edb8daed85
+  size: 13110
+  hash: md5
+  path: natural_gas_consumption.parquet
+meta:
+  name:
+    en: Natural gas consumption
+  identifier: king-county/natural_gas_consumption
+  metrics:
+  - id: natural_gas_td_losses
+    column_id: natural_gas_td_losses
+    quantity: energy
+    unit: thm/a
+    label:
+      en: Natural gas T&D losses
+  - id: delivered_natural_gas
+    column_id: delivered_natural_gas
+    quantity: energy
+    unit: thm/a
+    label:
+      en: Delivered natural gas
+  sources:
+  - name: 2022_01_02_PugetSoundEnergy.xlsx
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: 'Underlying data file cited by the inventory database for individual
+      activity rows (2022_01_02_PugetSoundEnergy.xlsx).; Format: .xlsx'
+  - name: 2023_01_02_PugetSoundEnergy.xlsx
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: 'Underlying data file cited by the inventory database for individual
+      activity rows (2023_01_02_PugetSoundEnergy.xlsx).; Format: .xlsx'
+  - name: AL19-21-01_PSEMasterDocWithCalcs
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: Underlying data file cited by the inventory database for 
+      individual activity rows (AL19-21-01_PSEMasterDocWithCalcs).
+  - name: King County GHG Emissions Trend 2007-2023
+    authority: Cascadia Consulting Group for King County; 
+      andream@cascadiaconsulting.com
+    url:
+    description: 'Appended inventory database and summary trend tables for the eight
+      King County inventory years 2007, 2008, 2015, 2017, 2019, 2020, 2022 and 2023.;
+      Attachment: King County GHG Trend 2007 - 2023.xlsx; Format: .xlsx; Geographic
+      Coverage: King County, WA and its 39 cities; Date Last Updated: 2025-11-04'
+  - name: Retro_FugitiveNG_PSE.xlsx
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: 'Underlying data file cited by the inventory database for individual
+      activity rows (Retro_FugitiveNG_PSE.xlsx).; Format: .xlsx'
+  index_columns:
+  - Year
+  - consumer_sector
+  - utility
+  - energy_carrier
+  updated_at: '1785931545'
+  units:
+    natural_gas_td_losses: therm/a
+    delivered_natural_gas: therm/a
