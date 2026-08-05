@@ -1,5 +1,5 @@
 outs:
-- md5: 12ece852ad8da5cc7e7e44ca9b2ed522
+- md5: 98705ca9841a11d7b80473841b06501b
   size: 10940
   hash: md5
   path: growth_factors.parquet
@@ -14,18 +14,18 @@ meta:
     unit: pieces
     label:
       en: Population
-  - id: service_population
-    column_id: service_population
-    quantity: population
-    unit: pieces
-    label:
-      en: Service population
   - id: housing_units
     column_id: housing_units
     quantity: number
     unit: pieces
     label:
       en: Housing units
+  - id: service_population
+    column_id: service_population
+    quantity: population
+    unit: pieces
+    label:
+      en: Service population
   - id: employment
     column_id: employment
     quantity: employment
@@ -45,9 +45,9 @@ meta:
       Last Updated: 2024-09-03'
   index_columns:
   - Year
-  updated_at: '1785951309'
+  updated_at: '1785952451'
   units:
-    population: pcs
-    housing_units: pcs
-    employment: pcs
     service_population: pcs
+    population: pcs
+    employment: pcs
+    housing_units: pcs
