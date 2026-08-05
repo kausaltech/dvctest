@@ -1,6 +1,6 @@
 outs:
-- md5: fe63f488e6e8ce5669a6310e72e4221c
-  size: 12412
+- md5: a80198b70f64f17b3f3ef471bf12f53e
+  size: 13663
   hash: md5
   path: agriculture_activity.parquet
 meta:
@@ -8,18 +8,18 @@ meta:
     en: Agriculture activity
   identifier: king-county/agriculture_activity
   metrics:
-  - id: livestock_population
-    column_id: livestock_population
-    quantity: number
-    unit: pieces
-    label:
-      en: Livestock population
   - id: managed_soil_area
     column_id: managed_soil_area
     quantity: area
     unit: acre
     label:
       en: Managed soil area
+  - id: livestock_population
+    column_id: livestock_population
+    quantity: number
+    unit: pieces
+    label:
+      en: Livestock population
   sources:
   - name: AL19-61-13_Ag_PowerBI
     authority: Data file collected by Cascadia Consulting Group for the King 
@@ -39,6 +39,12 @@ meta:
     url:
     description: Underlying data file cited by the inventory database for 
       individual activity rows (KC15-100-01_Ag_Workbook).
+  - name: KC19-61-01_Ag_Workbook
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: Underlying data file cited by the inventory database for 
+      individual activity rows (KC19-61-01_Ag_Workbook).
   - name: King County GHG Emissions Trend 2007-2023
     authority: Cascadia Consulting Group for King County; 
       andream@cascadiaconsulting.com
@@ -51,7 +57,7 @@ meta:
   - Year
   - livestock
   - emission_process
-  updated_at: '1785954746'
+  updated_at: '1785955511'
   units:
     livestock_population: pcs
     managed_soil_area: acre
