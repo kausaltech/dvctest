@@ -1,5 +1,5 @@
 outs:
-- md5: 644bd7b796d2644540ca890d3306fd9b
+- md5: ea9f3a80a9e3b8808667f4fcf62e6ac3
   size: 10940
   hash: md5
   path: growth_factors.parquet
@@ -8,18 +8,6 @@ meta:
     en: Growth factors
   identifier: king-county/growth_factors
   metrics:
-  - id: population
-    column_id: population
-    quantity: population
-    unit: pieces
-    label:
-      en: Population
-  - id: employment
-    column_id: employment
-    quantity: employment
-    unit: pieces
-    label:
-      en: Employment
   - id: housing_units
     column_id: housing_units
     quantity: number
@@ -32,6 +20,18 @@ meta:
     unit: pieces
     label:
       en: Service population
+  - id: population
+    column_id: population
+    quantity: population
+    unit: pieces
+    label:
+      en: Population
+  - id: employment
+    column_id: employment
+    quantity: employment
+    unit: pieces
+    label:
+      en: Employment
   sources:
   - name: 2025 SCAP GHG Wedge Analysis
     authority: Cascadia Consulting Group for King County; 
@@ -45,9 +45,9 @@ meta:
       Last Updated: 2024-09-03'
   index_columns:
   - Year
-  updated_at: '1785955354'
+  updated_at: '1785956761'
   units:
-    housing_units: pcs
-    population: pcs
     service_population: pcs
+    population: pcs
     employment: pcs
+    housing_units: pcs
