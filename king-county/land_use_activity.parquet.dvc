@@ -1,5 +1,5 @@
 outs:
-- md5: c3d122e2d6ad4d2b71a1cfab5a710261
+- md5: f7b048fda3e1ea21cd6c31cb5e449f82
   size: 7345
   hash: md5
   path: land_use_activity.parquet
@@ -32,6 +32,6 @@ meta:
   index_columns:
   - Year
   - emission_source
-  updated_at: '1785954752'
+  updated_at: '1785955517'
   units:
     tree_cover_loss: acre/a
