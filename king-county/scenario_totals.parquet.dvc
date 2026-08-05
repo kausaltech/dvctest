@@ -1,0 +1,33 @@
+outs:
+- md5: bbc89327fd7992c19522bfbbc5185ded
+  size: 8083
+  hash: md5
+  path: scenario_totals.parquet
+meta:
+  name:
+    en: Scenario totals
+  identifier: king-county/scenario_totals
+  metrics:
+  - id: emissions
+    column_id: emissions
+    quantity: emissions
+    unit: t/a
+    label:
+      en: Emissions
+  sources:
+  - name: 2025 SCAP GHG Wedge Analysis
+    authority: Cascadia Consulting Group for King County; 
+      andream@cascadiaconsulting.com
+    url:
+    description: 'Greenhouse gas emissions forecast and scenario planning tool for
+      the 2025 Strategic Climate Action Plan. Projects activity, emission factors
+      and emissions to 2050 under a no-action scenario and quantifies 25 named policy
+      wedges.; Attachment: 2025_SCAP_GHG_Wedge_Analysis_Final.xlsx; Format: .xlsx;
+      Geographic Coverage: Selected Washington counties; King County selected; Date
+      Last Updated: 2024-09-03'
+  index_columns:
+  - projection
+  - Year
+  updated_at: '1785931477'
+  units:
+    emissions: t/a
