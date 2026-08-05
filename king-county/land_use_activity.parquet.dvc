@@ -1,0 +1,37 @@
+outs:
+- md5: e6a40194c7fb686e77a5c144c2d73bff
+  size: 7329
+  hash: md5
+  path: land_use_activity.parquet
+meta:
+  name:
+    en: Land use activity
+  identifier: king-county/land_use_activity
+  metrics:
+  - id: tree_cover_loss
+    column_id: tree_cover_loss
+    quantity: area
+    unit: acre
+    label:
+      en: Tree cover loss
+  sources:
+  - name: AL19-62-01_LandUseChanges_GFW
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: Underlying data file cited by the inventory database for 
+      individual activity rows (AL19-62-01_LandUseChanges_GFW).
+  - name: King County GHG Emissions Trend 2007-2023
+    authority: Cascadia Consulting Group for King County; 
+      andream@cascadiaconsulting.com
+    url:
+    description: 'Appended inventory database and summary trend tables for the eight
+      King County inventory years 2007, 2008, 2015, 2017, 2019, 2020, 2022 and 2023.;
+      Attachment: King County GHG Trend 2007 - 2023.xlsx; Format: .xlsx; Geographic
+      Coverage: King County, WA and its 39 cities; Date Last Updated: 2025-11-04'
+  index_columns:
+  - Year
+  - emission_source
+  updated_at: '1785931583'
+  units:
+    tree_cover_loss: acre
