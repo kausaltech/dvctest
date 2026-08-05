@@ -11,3 +11,4 @@
 /emission_factors.parquet
 /other_fuel_consumption.parquet
 /on_road_vehicles.parquet
+/aviation_fuel_consumption.parquet

@@ -1,0 +1,80 @@
+outs:
+- md5: dc074a300ce3aead6b9d5bd4f23b825d
+  size: 13328
+  hash: md5
+  path: aviation_fuel_consumption.parquet
+meta:
+  name:
+    en: Aviation fuel consumption
+  identifier: king-county/aviation_fuel_consumption
+  metrics:
+  - id: fuel_consumption
+    column_id: fuel_consumption
+    quantity: fuel_consumption
+    unit: gal/a
+    label:
+      en: Fuel consumption
+  sources:
+  - name: 2008_06_03_Analysis.xlsx
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: 'Underlying data file cited by the inventory database for individual
+      activity rows (2008_06_03_Analysis.xlsx).; Format: .xlsx'
+  - name: 2015_06_03_Analysis.xlsx
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: 'Underlying data file cited by the inventory database for individual
+      activity rows (2015_06_03_Analysis.xlsx).; Format: .xlsx'
+  - name: 2017_06_03_Analysis.xlsx
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: 'Underlying data file cited by the inventory database for individual
+      activity rows (2017_06_03_Analysis.xlsx).; Format: .xlsx'
+  - name: 2019_06_03_Analysis
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: Underlying data file cited by the inventory database for 
+      individual activity rows (2019_06_03_Analysis).
+  - name: 2020_06_03_Analysis.xlsx
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: 'Underlying data file cited by the inventory database for individual
+      activity rows (2020_06_03_Analysis.xlsx).; Format: .xlsx'
+  - name: 2022_06_03_Analysis.xlsx
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: 'Underlying data file cited by the inventory database for individual
+      activity rows (2022_06_03_Analysis.xlsx).; Format: .xlsx'
+  - name: 2023_06_03_Analysis.xlsx
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: 'Underlying data file cited by the inventory database for individual
+      activity rows (2023_06_03_Analysis.xlsx).; Format: .xlsx'
+  - name: AL19-14-01_AviationFuelCalcs
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: Underlying data file cited by the inventory database for 
+      individual activity rows (AL19-14-01_AviationFuelCalcs).
+  - name: King County GHG Emissions Trend 2007-2023
+    authority: Cascadia Consulting Group for King County; 
+      andream@cascadiaconsulting.com
+    url:
+    description: 'Appended inventory database and summary trend tables for the eight
+      King County inventory years 2007, 2008, 2015, 2017, 2019, 2020, 2022 and 2023.;
+      Attachment: King County GHG Trend 2007 - 2023.xlsx; Format: .xlsx; Geographic
+      Coverage: King County, WA and its 39 cities; Date Last Updated: 2025-11-04'
+  index_columns:
+  - Year
+  - energy_carrier
+  - airport
+  updated_at: '1785931567'
+  units:
+    fuel_consumption: gal/a
