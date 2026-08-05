@@ -1,0 +1,34 @@
+outs:
+- md5: bfc9e9e06151af3c9ee7b5b257b44a22
+  size: 12641
+  hash: md5
+  path: growth_drivers.parquet
+meta:
+  name:
+    en: Growth drivers
+  identifier: king-county/growth_drivers
+  metrics:
+  - id: activity_growth_driver
+    column_id: activity_growth_driver
+    quantity: population
+    unit: pieces
+    label:
+      en: Activity growth driver
+  sources:
+  - name: 2025 SCAP GHG Wedge Analysis
+    authority: Cascadia Consulting Group for King County; 
+      andream@cascadiaconsulting.com
+    url:
+    description: 'Greenhouse gas emissions forecast and scenario planning tool for
+      the 2025 Strategic Climate Action Plan. Projects activity, emission factors
+      and emissions to 2050 under a no-action scenario and quantifies 25 named policy
+      wedges.; Attachment: 2025_SCAP_GHG_Wedge_Analysis_Final.xlsx; Format: .xlsx;
+      Geographic Coverage: Selected Washington counties; King County selected; Date
+      Last Updated: 2024-09-03'
+  index_columns:
+  - consumer_sector
+  - energy_carrier
+  - Year
+  updated_at: '1785951320'
+  units:
+    activity_growth_driver: pcs
