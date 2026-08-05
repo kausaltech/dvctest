@@ -1,5 +1,5 @@
 outs:
-- md5: 5568f6c0f46f49ad09de66e34e45237e
+- md5: 12ece852ad8da5cc7e7e44ca9b2ed522
   size: 10940
   hash: md5
   path: growth_factors.parquet
@@ -8,6 +8,12 @@ meta:
     en: Growth factors
   identifier: king-county/growth_factors
   metrics:
+  - id: population
+    column_id: population
+    quantity: population
+    unit: pieces
+    label:
+      en: Population
   - id: service_population
     column_id: service_population
     quantity: population
@@ -20,12 +26,6 @@ meta:
     unit: pieces
     label:
       en: Housing units
-  - id: population
-    column_id: population
-    quantity: population
-    unit: pieces
-    label:
-      en: Population
   - id: employment
     column_id: employment
     quantity: employment
@@ -45,9 +45,9 @@ meta:
       Last Updated: 2024-09-03'
   index_columns:
   - Year
-  updated_at: '1785933487'
+  updated_at: '1785951309'
   units:
     population: pcs
     housing_units: pcs
-    service_population: pcs
     employment: pcs
+    service_population: pcs
