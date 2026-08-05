@@ -1,5 +1,5 @@
 outs:
-- md5: cade463b6cc40ce7bb73fff6704e00b6
+- md5: 64a8678e43d778d52931797849422149
   size: 14422
   hash: md5
   path: on_road_vehicles.parquet
@@ -8,18 +8,18 @@ meta:
     en: On-road vehicles
   identifier: king-county/on_road_vehicles
   metrics:
-  - id: vehicle_mileage
-    column_id: vehicle_mileage
-    quantity: vehicle_mileage
-    unit: vehicle_miles_traveled/a
-    label:
-      en: Vehicle mileage
   - id: fuel_consumption
     column_id: fuel_consumption
     quantity: fuel_consumption
     unit: gal/a
     label:
       en: Fuel consumption
+  - id: vehicle_mileage
+    column_id: vehicle_mileage
+    quantity: vehicle_mileage
+    unit: vehicle_miles_traveled/a
+    label:
+      en: Vehicle mileage
   - id: electricity_consumption
     column_id: electricity_consumption
     quantity: energy
@@ -64,8 +64,8 @@ meta:
   - energy_carrier
   - vehicle_type
   - vehicle_class
-  updated_at: '1785931561'
+  updated_at: '1785933544'
   units:
-    fuel_consumption: gal/a
-    electricity_consumption: kWh/a
     vehicle_mileage: VMT/a
+    electricity_consumption: kWh/a
+    fuel_consumption: gal/a
