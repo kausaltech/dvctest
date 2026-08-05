@@ -1,0 +1,113 @@
+outs:
+- md5: 81e83bc78c64835f5a128a0fdd3a460d
+  size: 23547
+  hash: md5
+  path: emissions_without_activity_basis.parquet
+meta:
+  name:
+    en: Emissions without activity basis
+  identifier: king-county/emissions_without_activity_basis
+  metrics:
+  - id: emissions
+    column_id: emissions
+    quantity: emissions
+    unit: t/a
+    label:
+      en: Emissions
+  sources:
+  - name: 2022_01_04_KingCounty_Cities.xlsx
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: 'Underlying data file cited by the inventory database for individual
+      activity rows (2022_01_04_KingCounty_Cities.xlsx).; Format: .xlsx'
+  - name: 2022_03_Refrigerants.xlsx
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: 'Underlying data file cited by the inventory database for individual
+      activity rows (2022_03_Refrigerants.xlsx).; Format: .xlsx'
+  - name: 2022_06_02_OffRoad.xlsx
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: 'Underlying data file cited by the inventory database for individual
+      activity rows (2022_06_02_OffRoad.xlsx).; Format: .xlsx'
+  - name: 2023_01_04_KingCounty_Cities.xlsx
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: 'Underlying data file cited by the inventory database for individual
+      activity rows (2023_01_04_KingCounty_Cities.xlsx).; Format: .xlsx'
+  - name: 2023_03_Refrigerants.xlsx
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: 'Underlying data file cited by the inventory database for individual
+      activity rows (2023_03_Refrigerants.xlsx).; Format: .xlsx'
+  - name: AL15-12-02_MOVESAnalysis2015
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: Underlying data file cited by the inventory database for 
+      individual activity rows (AL15-12-02_MOVESAnalysis2015).
+  - name: AL19-12-01_MOVESAnalysis.xlsx
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: 'Underlying data file cited by the inventory database for individual
+      activity rows (AL19-12-01_MOVESAnalysis.xlsx).; Format: .xlsx'
+  - name: AL19-30-01_IndustryEmissionCalcs
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: Underlying data file cited by the inventory database for 
+      individual activity rows (AL19-30-01_IndustryEmissionCalcs).
+  - name: AL19-62-01_LandUseChanges_GFW
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: Underlying data file cited by the inventory database for 
+      individual activity rows (AL19-62-01_LandUseChanges_GFW).
+  - name: AL19-70-01_FugitiveGases
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: Underlying data file cited by the inventory database for 
+      individual activity rows (AL19-70-01_FugitiveGases).
+  - name: KC08-15-01_MOVESAnalysis2008
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: Underlying data file cited by the inventory database for 
+      individual activity rows (KC08-15-01_MOVESAnalysis2008).
+  - name: KC17-12-02_MOVESAnalysis2017
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: Underlying data file cited by the inventory database for 
+      individual activity rows (KC17-12-02_MOVESAnalysis2017).
+  - name: King County GHG Emissions Trend 2007-2023
+    authority: Cascadia Consulting Group for King County; 
+      andream@cascadiaconsulting.com
+    url:
+    description: 'Appended inventory database and summary trend tables for the eight
+      King County inventory years 2007, 2008, 2015, 2017, 2019, 2020, 2022 and 2023.;
+      Attachment: King County GHG Trend 2007 - 2023.xlsx; Format: .xlsx; Geographic
+      Coverage: King County, WA and its 39 cities; Date Last Updated: 2025-11-04'
+  - name: Retro_WastewaterProcessEmissions
+    authority: Data file collected by Cascadia Consulting Group for the King 
+      County inventory
+    url:
+    description: Underlying data file cited by the inventory database for 
+      individual activity rows (Retro_WastewaterProcessEmissions).
+  index_columns:
+  - Year
+  - sector
+  - emission_source
+  - energy_carrier
+  - equipment_sector
+  - emission_process
+  updated_at: '1785931589'
+  units:
+    emissions: t/a
