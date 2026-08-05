@@ -1,5 +1,5 @@
 outs:
-- md5: 8ea7a89e3e55149b5947729ed25f1079
+- md5: 2528bc30447e1bc71fd33a196363b83e
   size: 13110
   hash: md5
   path: natural_gas_consumption.parquet
@@ -58,7 +58,7 @@ meta:
   - consumer_sector
   - utility
   - energy_carrier
-  updated_at: '1785943059'
+  updated_at: '1785943173'
   units:
-    delivered_natural_gas: therm/a
     natural_gas_td_losses: therm/a
+    delivered_natural_gas: therm/a
