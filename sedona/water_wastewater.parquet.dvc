@@ -1,0 +1,50 @@
+outs:
+- md5: fed4c126fa1e4e5a0a0cc0979b350364
+  size: 9804
+  hash: md5
+  path: water_wastewater.parquet
+meta:
+  name:
+    en: Water wastewater
+  identifier: sedona/water_wastewater
+  metrics:
+  - id: water_volume
+    column_id: water_volume
+    quantity: volume
+    unit: gal/a
+    label:
+      en: water_volume
+  - id: denitrification_emissions
+    column_id: denitrification_emissions
+    quantity: emissions
+    unit: t_CO2e/a
+    label:
+      en: denitrification_emissions
+  - id: water_utility_electricity_consumption
+    column_id: water_utility_electricity_consumption
+    quantity: energy
+    unit: kWh/a
+    label:
+      en: water_utility_electricity_consumption
+  sources:
+  - name: Arizona Water Company
+    authority: Arizona Water Company
+    url:
+    description: Water delivered and electricity consumed.
+  - name: City of Sedona Wastewater Treatment Plant
+    authority: City of Sedona
+    url:
+    description: 'Wastewater treated, electricity consumed, and population served
+      for denitrification. Contact: Roxanne Holland.'
+  - name: Oak Creek Water Company
+    authority: Oak Creek Water Company
+    url:
+    description: 'Water delivered and electricity consumed. Contact: Doug Bowen.'
+  index_columns:
+  - Year
+  - electricity_user
+  updated_at: '1786009207'
+  units:
+    water_utility_electricity_consumption: kWh/a
+    water_volume: gal/a
+    denitrification_emissions: t_co2e/a
