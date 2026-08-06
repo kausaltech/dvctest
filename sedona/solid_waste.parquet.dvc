@@ -1,0 +1,42 @@
+outs:
+- md5: 2ace50b7f91325bf3f9de84d006f3e04
+  size: 8314
+  hash: md5
+  path: solid_waste.parquet
+meta:
+  name:
+    en: Solid waste
+  identifier: sedona/solid_waste
+  metrics:
+  - id: per_capita_waste_generation
+    column_id: per_capita_waste_generation
+    quantity: per_capita
+    unit: lb/cap/d
+    label:
+      en: per_capita_waste_generation
+  - id: measured_waste_tonnage
+    column_id: measured_waste_tonnage
+    quantity: mass
+    unit: ST/a
+    label:
+      en: measured_waste_tonnage
+  sources:
+  - name: Kohala Center resource use and waste generation study
+    authority: The Kohala Center
+    url: 
+      https://kohalacenter.org/pdf/Research_BI_ResourceUseWasteGenerationTourism.pdf
+    description: Per-capita waste generation rate applied to both residents and 
+      visitors; a Hawaii study used as a proxy in the absence of local 
+      measurement.
+  - name: Waste Management and Taylor Waste
+    authority: Waste Management; Taylor Waste
+    url:
+    description: Front-load trash weights by customer class for ZIP 86336, first
+      collected for 2024.
+  index_columns:
+  - Year
+  - waste_source
+  updated_at: '1786009219'
+  units:
+    measured_waste_tonnage: short_ton/a
+    per_capita_waste_generation: lb/cap/d
