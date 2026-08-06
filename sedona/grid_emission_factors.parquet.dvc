@@ -1,0 +1,28 @@
+outs:
+- md5: 54826fac889beb17f0634b4c316b309f
+  size: 6212
+  hash: md5
+  path: grid_emission_factors.parquet
+meta:
+  name:
+    en: Grid emission factors
+  identifier: sedona/grid_emission_factors
+  metrics:
+  - id: grid_emission_factor
+    column_id: grid_emission_factor
+    quantity: emission_factor
+    unit: CO2e·lb/MWh
+    label:
+      en: grid_emission_factor
+  sources:
+  - name: US EPA eGRID
+    authority: US Environmental Protection Agency
+    url: https://www.epa.gov/egrid
+    description: Subregion total output emission rates for AZNM (WECC 
+      Southwest).
+  index_columns:
+  - Year
+  - electricity_user
+  updated_at: '1786009163'
+  units:
+    grid_emission_factor: lb*CO2e/MWh
