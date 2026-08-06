@@ -1,0 +1,27 @@
+outs:
+- md5: b90a4cd70a33f381e0c71d3af7bf6d4f
+  size: 5182
+  hash: md5
+  path: vehicle_miles_traveled.parquet
+meta:
+  name:
+    en: Vehicle miles traveled
+  identifier: sedona/vehicle_miles_traveled
+  metrics:
+  - id: total_vehicle_miles
+    column_id: total_vehicle_miles
+    quantity: vehicle_mileage
+    unit: vehicle_miles_traveled/a
+    label:
+      en: total_vehicle_miles
+  sources:
+  - name: Arizona Department of Transportation
+    authority: Arizona Department of Transportation
+    url:
+    description: 'Vehicle miles travelled derived from ADOT AADT GIS files clipped
+      to Sedona city limits. Contacts: Patrick Whiteford, Robert Bush, Reid Geiger.'
+  index_columns:
+  - Year
+  updated_at: '1786009180'
+  units:
+    total_vehicle_miles: VMT/a
