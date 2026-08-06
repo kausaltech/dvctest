@@ -1,0 +1,38 @@
+outs:
+- md5: fbd74726bed0ab42eb755920c99913c1
+  size: 7818
+  hash: md5
+  path: stationary_emission_factors.parquet
+meta:
+  name:
+    en: Stationary emission factors
+  identifier: sedona/stationary_emission_factors
+  metrics:
+  - id: natural_gas_emission_factor
+    column_id: natural_gas_emission_factor
+    quantity: emission_factor
+    unit: kg/MMBtu
+    label:
+      en: natural_gas_emission_factor
+  - id: global_warming_potential
+    column_id: global_warming_potential
+    quantity: ratio
+    unit: t_CO2e/t
+    label:
+      en: global_warming_potential
+  sources:
+  - name: The Climate Registry General Reporting Protocol v3.0
+    authority: The Climate Registry
+    url:
+    description: 100-year global warming potentials (IPCC AR5).
+  - name: US EPA GHG Emission Factors Hub
+    authority: US Environmental Protection Agency
+    url: https://www.epa.gov/climateleadership/ghg-emission-factors-hub
+    description: Emission Factors for Greenhouse Gas Inventories.
+  index_columns:
+  - Year
+  - greenhouse_gas
+  updated_at: '1786009156'
+  units:
+    global_warming_potential: t_co2e/t
+    natural_gas_emission_factor: kg/MMBtu
