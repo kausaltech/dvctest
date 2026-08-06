@@ -1,0 +1,27 @@
+outs:
+- md5: 70508488811cdde627fcbdebc9435ead
+  size: 5822
+  hash: md5
+  path: waste_emission_factors.parquet
+meta:
+  name:
+    en: Waste emission factors
+  identifier: sedona/waste_emission_factors
+  metrics:
+  - id: waste_emission_factor
+    column_id: waste_emission_factor
+    quantity: emission_factor
+    unit: t_CO2e/ST
+    label:
+      en: waste_emission_factor
+  sources:
+  - name: US EPA GHG Emission Factors Hub
+    authority: US Environmental Protection Agency
+    url: https://www.epa.gov/climateleadership/ghg-emission-factors-hub
+    description: Emission Factors for Greenhouse Gas Inventories.
+  index_columns:
+  - Year
+  - waste_source
+  updated_at: '1786009224'
+  units:
+    waste_emission_factor: t_co2e/short_ton
