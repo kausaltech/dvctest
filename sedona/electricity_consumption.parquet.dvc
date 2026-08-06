@@ -1,0 +1,35 @@
+outs:
+- md5: d01ffa7920128f6c5029a6986c71b8bf
+  size: 7178
+  hash: md5
+  path: electricity_consumption.parquet
+meta:
+  name:
+    en: Electricity consumption
+  identifier: sedona/electricity_consumption
+  metrics:
+  - id: electricity_consumption
+    column_id: electricity_consumption
+    quantity: energy
+    unit: kWh/a
+    label:
+      en: electricity_consumption
+  - id: excluded_electricity
+    column_id: excluded_electricity
+    quantity: energy
+    unit: kWh/a
+    label:
+      en: excluded_electricity
+  sources:
+  - name: Arizona Public Service (APS)
+    authority: Arizona Public Service
+    url:
+    description: 'Monthly billed kWh and distinct account counts by customer class
+      for ZIP 86336. Contact: Rebecca Rudd.'
+  index_columns:
+  - Year
+  - consumer_sector
+  updated_at: '1786009168'
+  units:
+    electricity_consumption: kWh/a
+    excluded_electricity: kWh/a
