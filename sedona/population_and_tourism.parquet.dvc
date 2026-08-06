@@ -1,0 +1,51 @@
+outs:
+- md5: 15d3b79e19c0da62d94a6434f422c757
+  size: 8546
+  hash: md5
+  path: population_and_tourism.parquet
+meta:
+  name:
+    en: Population and tourism
+  identifier: sedona/population_and_tourism
+  metrics:
+  - id: tourist_visits
+    column_id: tourist_visits
+    quantity: population
+    unit: cap/a
+    label:
+      en: tourist_visits
+  - id: tourist_length_of_stay
+    column_id: tourist_length_of_stay
+    quantity: number
+    unit: d
+    label:
+      en: tourist_length_of_stay
+  - id: resident_population
+    column_id: resident_population
+    quantity: population
+    unit: cap
+    label:
+      en: resident_population
+  - id: accounting_days
+    column_id: accounting_days
+    quantity: number
+    unit: d/a
+    label:
+      en: accounting_days
+  sources:
+  - name: City of Sedona tourism statistics
+    authority: City of Sedona
+    url:
+    description: Annual visitor counts and average length of stay.
+  - name: US Census Bureau
+    authority: US Census Bureau
+    url: https://www.census.gov/quickfacts/sedonacityarizona
+    description: Resident population estimates for Sedona city.
+  index_columns:
+  - Year
+  updated_at: '1786009213'
+  units:
+    resident_population: cap
+    accounting_days: d/a
+    tourist_length_of_stay: d
+    tourist_visits: cap/a
