@@ -6,3 +6,4 @@
 /vehicle_fleet.parquet
 /vehicle_emission_factors.parquet
 /aviation_fuel.parquet
+/aviation_emission_factors.parquet

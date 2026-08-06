@@ -1,0 +1,28 @@
+outs:
+- md5: 78911a232e70a58c190a1924c5b661d6
+  size: 6917
+  hash: md5
+  path: aviation_emission_factors.parquet
+meta:
+  name:
+    en: Aviation emission factors
+  identifier: sedona/aviation_emission_factors
+  metrics:
+  - id: aviation_emission_factor
+    column_id: aviation_emission_factor
+    quantity: emission_factor
+    unit: kg/gal
+    label:
+      en: aviation_emission_factor
+  sources:
+  - name: US EPA GHG Emission Factors Hub
+    authority: US Environmental Protection Agency
+    url: https://www.epa.gov/climateleadership/ghg-emission-factors-hub
+    description: Emission Factors for Greenhouse Gas Inventories.
+  index_columns:
+  - Year
+  - energy_carrier
+  - greenhouse_gas
+  updated_at: '1786009202'
+  units:
+    aviation_emission_factor: kg/gal
