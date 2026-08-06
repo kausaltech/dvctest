@@ -3,3 +3,4 @@
 /electricity_consumption.parquet
 /natural_gas_consumption.parquet
 /vehicle_miles_traveled.parquet
+/vehicle_fleet.parquet

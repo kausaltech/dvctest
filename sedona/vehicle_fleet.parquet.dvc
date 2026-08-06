@@ -1,0 +1,43 @@
+outs:
+- md5: a6e12308d74cb1ffd8490d99bdd2b6d3
+  size: 10310
+  hash: md5
+  path: vehicle_fleet.parquet
+meta:
+  name:
+    en: Vehicle fleet
+  identifier: sedona/vehicle_fleet
+  metrics:
+  - id: vehicle_share
+    column_id: vehicle_share
+    quantity: fraction
+    unit: ''
+    label:
+      en: vehicle_share
+  - id: vehicle_fuel_economy
+    column_id: vehicle_fuel_economy
+    quantity: factor
+    unit: miles_per_gallon
+    label:
+      en: vehicle_fuel_economy
+  - id: vehicle_fuel_economy_reported
+    column_id: vehicle_fuel_economy_reported
+    quantity: factor
+    unit: miles_per_gallon
+    label:
+      en: vehicle_fuel_economy_reported
+  sources:
+  - name: Arizona Department of Transportation
+    authority: Arizona Department of Transportation
+    url:
+    description: 'Vehicle miles travelled derived from ADOT AADT GIS files clipped
+      to Sedona city limits. Contacts: Patrick Whiteford, Robert Bush, Reid Geiger.'
+  index_columns:
+  - Year
+  - energy_carrier
+  - vehicle_type
+  updated_at: '1786009185'
+  units:
+    vehicle_share: dimensionless
+    vehicle_fuel_economy: MPG
+    vehicle_fuel_economy_reported: MPG
