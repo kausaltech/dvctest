@@ -4,3 +4,4 @@
 /natural_gas_consumption.parquet
 /vehicle_miles_traveled.parquet
 /vehicle_fleet.parquet
+/vehicle_emission_factors.parquet

@@ -1,0 +1,36 @@
+outs:
+- md5: 504b1076612390100df9ce98b3825cb5
+  size: 9453
+  hash: md5
+  path: vehicle_emission_factors.parquet
+meta:
+  name:
+    en: Vehicle emission factors
+  identifier: sedona/vehicle_emission_factors
+  metrics:
+  - id: mileage_emission_factor
+    column_id: mileage_emission_factor
+    quantity: emission_factor
+    unit: g/vehicle_miles_traveled
+    label:
+      en: mileage_emission_factor
+  - id: fuel_combustion_emission_factor
+    column_id: fuel_combustion_emission_factor
+    quantity: emission_factor
+    unit: kg/gal
+    label:
+      en: fuel_combustion_emission_factor
+  sources:
+  - name: US EPA GHG Emission Factors Hub
+    authority: US Environmental Protection Agency
+    url: https://www.epa.gov/climateleadership/ghg-emission-factors-hub
+    description: Emission Factors for Greenhouse Gas Inventories.
+  index_columns:
+  - Year
+  - energy_carrier
+  - vehicle_type
+  - greenhouse_gas
+  updated_at: '1786009191'
+  units:
+    fuel_combustion_emission_factor: kg/gal
+    mileage_emission_factor: g/VMT
