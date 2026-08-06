@@ -1,0 +1,28 @@
+outs:
+- md5: 63e6426f741b2dc2123d56dbba974e11
+  size: 5629
+  hash: md5
+  path: aviation_fuel.parquet
+meta:
+  name:
+    en: Aviation fuel
+  identifier: sedona/aviation_fuel
+  metrics:
+  - id: aviation_fuel_consumption
+    column_id: aviation_fuel_consumption
+    quantity: fuel_consumption
+    unit: gal/a
+    label:
+      en: aviation_fuel_consumption
+  sources:
+  - name: Sedona Airport
+    authority: Sedona Airport
+    url:
+    description: 'Monthly AvGas 100LL and Jet A fuel sales in gallons. Contact: Nelson
+      Durkee.'
+  index_columns:
+  - Year
+  - energy_carrier
+  updated_at: '1786009196'
+  units:
+    aviation_fuel_consumption: gal/a

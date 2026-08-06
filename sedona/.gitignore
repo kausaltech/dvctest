@@ -5,3 +5,4 @@
 /vehicle_miles_traveled.parquet
 /vehicle_fleet.parquet
 /vehicle_emission_factors.parquet
+/aviation_fuel.parquet
