@@ -1,0 +1,35 @@
+outs:
+- md5: a23f47ed7ccdcaeec4f4edbd8ff19da9
+  size: 7257
+  hash: md5
+  path: natural_gas_consumption.parquet
+meta:
+  name:
+    en: Natural gas consumption
+  identifier: sedona/natural_gas_consumption
+  metrics:
+  - id: premises
+    column_id: premises
+    quantity: number
+    unit: pieces
+    label:
+      en: premises
+  - id: natural_gas_consumption
+    column_id: natural_gas_consumption
+    quantity: energy
+    unit: thm/a
+    label:
+      en: natural_gas_consumption
+  sources:
+  - name: Unisource Energy Services
+    authority: Unisource Energy Services
+    url:
+    description: 'Annual therms and premises counts by service type within Sedona
+      city limits. Contact: Sara Scott.'
+  index_columns:
+  - Year
+  - gas_service_type
+  updated_at: '1786009174'
+  units:
+    premises: pcs
+    natural_gas_consumption: therm/a

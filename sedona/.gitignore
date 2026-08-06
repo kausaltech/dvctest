@@ -1,3 +1,4 @@
 /stationary_emission_factors.parquet
 /grid_emission_factors.parquet
 /electricity_consumption.parquet
+/natural_gas_consumption.parquet
