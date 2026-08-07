@@ -1,19 +1,29 @@
 outs:
-- md5: 43bc5814b4608bcc208a9908929eb580
-  size: 3932
+- md5: 7c3fae31a6fe940d9d78986c9f3662b6
+  size: 9929
   hash: md5
   path: building_energy_use_intensity_eui.parquet
 meta:
   name:
-    en: Building energy use intensity EUI
-  identifier: building_energy_use_intensity_eui
+    en: Building energy use intensity eui
+  identifier: longmont/building_energy_use_intensity_eui
   metrics:
-  - id: electricity
-    label:
-      en: electricity
   - id: natural_gas
+    column_id: natural_gas
+    quantity: consumption_factor
+    unit: thm/ft²/a
     label:
-      en: natural gas
+      en: Natural gas
+  - id: electricity
+    column_id: electricity
+    quantity: consumption_factor
+    unit: kWh/ft²/a
+    label:
+      en: Electricity
+  index_columns:
+  - emission_sectors
+  - Year
+  updated_at: '1786111705'
   units:
-    electricity: kWh/a/ft²
-    natural_gas: thm/a/ft²
+    electricity: kWh/ft**2/a
+    natural_gas: thm/ft**2/a
