@@ -1,17 +1,23 @@
 outs:
-- md5: 8da73f364856be16be77f38e84b19514
-  size: 4523
+- md5: 67b196b4540c0b149d9acd6ac0171a1c
+  size: 8641
   hash: md5
   path: energy_use_intensity_improvement.parquet
 meta:
   name:
     en: Energy use intensity improvement
-  identifier: energy_use_intensity_improvement
+  identifier: longmont/energy_use_intensity_improvement
   metrics:
-  - id: default
+  - id: energy_use_intensity_improvement
+    column_id: energy_use_intensity_improvement
     quantity: fraction
+    unit: '%'
     label:
-      en: Value
-  updated_at: '1768712757'
+      en: Energy use intensity improvement
+  index_columns:
+  - emission_sectors
+  - action
+  - Year
+  updated_at: '1786092378'
   units:
-    Value: '%'
+    energy_use_intensity_improvement: '%'
