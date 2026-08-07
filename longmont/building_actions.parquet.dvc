@@ -1,6 +1,6 @@
 outs:
-- md5: 6817b5a6537f5460a74a941d7697cb82
-  size: 12757
+- md5: 38fce95bc7319eb41f4c89f1872f13bc
+  size: 16002
   hash: md5
   path: building_actions.parquet
 meta:
@@ -20,18 +20,18 @@ meta:
     unit: '%'
     label:
       en: Updated building code new compliance
-  - id: replace_natural_gas_commercial
-    column_id: replace_natural_gas_commercial
-    quantity: ratio
-    unit: '%'
-    label:
-      en: Replace natural gas commercial
   - id: updated_building_code_renovation_rate
     column_id: updated_building_code_renovation_rate
     quantity: ratio
     unit: '%/a'
     label:
       en: Updated building code renovation rate
+  - id: develop_beyond_building_code_new_compliance
+    column_id: develop_beyond_building_code_new_compliance
+    quantity: ratio
+    unit: '%'
+    label:
+      en: Develop beyond building code new compliance
   - id: replace_natural_gas_residential
     column_id: replace_natural_gas_residential
     quantity: ratio
@@ -44,22 +44,22 @@ meta:
     unit: Mthm/a
     label:
       en: Benchmark energy use - Natural gas
-  - id: develop_beyond_building_code_new_compliance
-    column_id: develop_beyond_building_code_new_compliance
+  - id: replace_natural_gas_commercial
+    column_id: replace_natural_gas_commercial
     quantity: ratio
     unit: '%'
     label:
-      en: Develop beyond building code new compliance
+      en: Replace natural gas commercial
   index_columns:
   - building_energy_class
   - emission_sectors
   - Year
-  updated_at: '1786094666'
+  updated_at: '1786105027'
   units:
-    benchmark_energy_use_electricity: GWh/a
-    benchmark_energy_use_natural_gas: Mthm/a
     replace_natural_gas_residential: '%'
-    updated_building_code_renovation_rate: '%/a'
-    develop_beyond_building_code_new_compliance: '%'
-    replace_natural_gas_commercial: '%'
     updated_building_code_new_compliance: '%'
+    replace_natural_gas_commercial: '%'
+    benchmark_energy_use_electricity: GWh/a
+    develop_beyond_building_code_new_compliance: '%'
+    updated_building_code_renovation_rate: '%/a'
+    benchmark_energy_use_natural_gas: Mthm/a
