@@ -1,14 +1,23 @@
 outs:
-- md5: a2a2f21b0871a9bb91f6eca7a88e03b5
-  size: 3560
+- md5: 267a235565f96e34acbfa84814c6ef66
+  size: 8381
+  hash: md5
   path: transmission_and_distribution_loss.parquet
 meta:
   name:
     en: Transmission and distribution loss
-  identifier: transmission_and_distribution_loss
+  identifier: longmont/transmission_and_distribution_loss
   metrics:
   - id: fraction
+    column_id: fraction
+    quantity: fraction
+    unit: '%'
     label:
       en: Fraction
+  index_columns:
+  - energy_carrier
+  - site
+  - Year
+  updated_at: '1786110909'
   units:
     fraction: '%'
