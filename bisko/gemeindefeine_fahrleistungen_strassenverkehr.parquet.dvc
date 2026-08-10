@@ -1,6 +1,6 @@
 outs:
-- md5: 01a01a39d6ec56fb268bb7994cc9779f
-  size: 22990113
+- md5: 5088220b2b0417a29b46060622814325
+  size: 22989843
   hash: md5
   path: gemeindefeine_fahrleistungen_strassenverkehr.parquet
 meta:
@@ -14,13 +14,6 @@ meta:
     unit: Mvehicle_km/a
     label:
       de: mileage
-  index_columns:
-  - district
-  - ags
-  - municipality
-  - vehicle_type
-  - road_type
-  - Year
   updated_at: '1779181041'
   units:
     mileage: Mvkm/a
