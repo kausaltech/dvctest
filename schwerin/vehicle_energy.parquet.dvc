@@ -1,6 +1,6 @@
 outs:
-- md5: f2e66bec54746b4724a76eb42d1a7d10
-  size: 9596
+- md5: a24f1841b8248fca5ef46891acb57cb7
+  size: 9646
   hash: md5
   path: vehicle_energy.parquet
 meta:
