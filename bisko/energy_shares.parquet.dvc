@@ -1,6 +1,6 @@
 outs:
-- md5: 5bc39502dfd259bbdf703abb34ad4e3c
-  size: 13377
+- md5: d35690adbb2bf043a893ba8217d6e507
+  size: 13426
   hash: md5
   path: energy_shares.parquet
 meta:
