@@ -1,30 +1,69 @@
 outs:
-- md5: 6432a02532f4d15228624666bc6a46f4
-  size: 16070
+- md5: 11796f2a8550184e1df6bf8d1877672c
+  size: 27573
   hash: md5
   path: final_energy.parquet
 meta:
   name:
-    de: Endenergie
-  identifier: endenergie
+    de: Final energy
+  identifier: mainz/final_energy
   metrics:
-  - id: energy
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: quality
+  - id: Value
     column_id: Value
     quantity: energy
     unit: MWh/a
     label:
-      de: Energy
-  - id: quality
-    column_id: quality
-    quantity: fraction
-    unit: dimensionless
-    label:
-      de: Data quality
-  updated_at: '1784733660'
+      de: Value
+  sources:
+  - name: EKA-RLP Datenservice Strom und Gas Mainz 2014-2024
+    authority: Energieagentur Rheinland-Pfalz (EKA-RLP) -- Datenlieferservice 
+      Kommunales Klimaschutzcontrolling; bilanzierungstool@energieagentur.rlp.de
+    url:
+    description: "Annual grid-bound final energy for Mainz: electricity and natural
+      gas in kWh/a, split by consumer sector (private households, GHD, industry, municipal
+      properties, street lighting, heat pumps, night-storage heating, agriculture
+      and forestry, utility's own operations). Delivered 2026-03-31 and prepared by
+      Kausal in AUFBEREITET_EKA-RLP-Datenservice_Strom_Gas_2014-24_geliefert20260331.xlsx.
+      The electricity delivery combines GHD with industry; the split is estimated
+      (see the workbook's own note).; Attachment: AUFBEREITET_EKA-RLP-Datenservice_Strom_Gas_2014-24_geliefert20260331.xlsx;
+      Format: .xlsx; Licensing: Provided to the city for climate accounting; not public;
+      Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Annual; Date Last
+      Updated: 2026-03-31; Updated by: EKA-RLP"
+  - name: Klimaschutzplaner Export Mainz 1990-2024
+    authority: Landeshauptstadt Mainz -- Grün- und Umweltamt; export from the 
+      Klimaschutzplaner tool
+    url:
+    description: 'Historical BISKO final energy and emissions for Mainz as held in
+      the Klimaschutzplaner, exported per sector sheet (Private Haushalte, GHD/Sonstige,
+      Industrie, Kommunale Einrichtungen, Verkehr). Authoritative for 1990-2018 only:
+      from 2020 the export carries Heizöl values identical to Erdgas, zeroes Fernwärme,
+      Biomasse and Solarthermie, zeroes Kommunale Einrichtungen, and leaves 2024 empty.;
+      Attachment: 073150000000_stationaer_1990-2024_data.xlsx; Format: .xlsx; Licensing:
+      Provided to the city; not public; Geographic Coverage: Mainz (AGS 07315000);
+      Update Frequency: Superseded -- no further updates expected; Date Last Updated:
+      2026-01-27; Updated by: Landeshauptstadt Mainz'
+  - name: Schätzung Sektor-Split Strom GHD/Industrie Mainz
+    authority: Kausal
+    url:
+    description: 'Estimated share of industry within the combined GHD+industry electricity
+      consumption reported by EKA-RLP. Derived in 2026 from German industry-sector
+      energy statistics and employment statistics (national averages) applied to Mainz
+      employment by branch. Factor 0.35. The source workbook carries the instruction
+      to re-check every 2.5 to 5 years.; Attachment: Schätzung & Plausibilitätsprüfung
+      von Energieverbrauch-Sektor-Split.xlsx; Format: .xlsx; Licensing: Internal derivation;
+      Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Re-check every
+      2.5-5 years; Date Last Updated: 2026-07-22; Updated by: Kausal'
   index_columns:
   - Year
-  - sector
   - energy_carrier
+  - sector
+  updated_at: '1786458500'
   units:
     Value: MWh/a
     quality: dimensionless
