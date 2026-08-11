@@ -1,6 +1,6 @@
 outs:
-- md5: 5c8ff9c6a4117d2cfcaa7699619824f1
-  size: 4951
+- md5: b3eeb3a725d2979fc229085685feb2db
+  size: 4731
   hash: md5
   path: sector_index.parquet
 meta:
@@ -14,10 +14,6 @@ meta:
     unit: ''
     label:
       de: ratio
-  index_columns:
-  - sector
-  - energy_carrier
-  - Year
   updated_at: '1778147281'
   units:
     ratio: dimensionless
