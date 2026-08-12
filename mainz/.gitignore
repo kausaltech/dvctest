@@ -5,3 +5,4 @@
 /vehicle_kilometers.parquet
 /passenger_kilometers.parquet
 /vehicle_energy.parquet
+/municipal_balance_activity.parquet

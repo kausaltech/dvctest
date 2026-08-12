@@ -1,0 +1,86 @@
+outs:
+- md5: f4a33b1b6b68b9d94af87b7a04ed1586
+  size: 38842
+  hash: md5
+  path: municipal_balance_activity.parquet
+meta:
+  name:
+    de: Municipal balance activity
+  identifier: mainz/municipal_balance_activity
+  metrics:
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: quality
+  - id: emissions
+    column_id: emissions
+    quantity: emissions
+    unit: t/a
+    label:
+      de: emissions
+  - id: mass
+    column_id: mass
+    quantity: mass
+    unit: kg/a
+    label:
+      de: mass
+  - id: count
+    column_id: count
+    quantity: number
+    unit: pieces/a
+    label:
+      de: count
+  - id: energy
+    column_id: energy
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: energy
+  - id: volume
+    column_id: volume
+    quantity: volume
+    unit: l/a
+    label:
+      de: volume
+  - id: mileage
+    column_id: mileage
+    quantity: mileage
+    unit: pkm/a
+    label:
+      de: mileage
+  sources:
+  - name: Arqum Verwaltungsbilanz Mainz 2019-2021
+    authority: Arqum GmbH im Auftrag der Landeshauptstadt Mainz
+    url:
+    description: 'Treibhausgasbilanz der Stadtverwaltung Mainz 2019-2021 nach GHG
+      Protocol Corporate Standard, erstellt von Arqum (Arbeitsmappe vom 22.12.2022).
+      Aktivitätsdaten für zehn Bilanzkategorien (Wärme, Strom, Fuhrpark, Flüchtige
+      Gase, Dienstreisen, Arbeitswege, Beschaffung, Transport, Abfall, Veranstaltungen)
+      und neun Liegenschaftsgruppen (Objektcode-Bereiche laut Blatt "Standorte").
+      Datenquellen überwiegend SAP-Auswertungen der Gebäudewirtschaft, COS-Datenbestand
+      für den Fuhrpark, Wartungsprotokolle für Kältemittel, DB Trassenfinder und luftlinie.org
+      für Dienstreisen sowie eine statistische Erhebung für Arbeitswege. Deckt ausschließlich
+      2019-2021 ab; die Formelwerte der Arbeitsmappe sind verloren, die Eingabewerte
+      nicht.; Attachment: Arqum_Datenerhebung Mainz Kategorien Gesamt_2022-12-22.xlsm;
+      Format: .xlsm; Licensing: Im Auftrag der Stadt erstellt; nicht öffentlich; Geographic
+      Coverage: Mainz (AGS 07315000); Update Frequency: Abgeschlossen -- Nachfolgebilanz
+      2022-2024 durch Kausal; Date Last Updated: 2022-12-22; Updated by: Arqum GmbH'
+  index_columns:
+  - Year
+  - emission_source
+  - energy_carrier
+  - ghg_category
+  - municipal_facility_type
+  - scope
+  - vehicle_type
+  updated_at: '1786539169'
+  units:
+    mass: kg/a
+    emissions: t/a
+    energy: MWh/a
+    count: pcs/a
+    mileage: pkm/a
+    volume: l/a
+    quality: dimensionless
