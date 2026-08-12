@@ -1,0 +1,71 @@
+outs:
+- md5: 7fd5d51b532e3276af5eebe07210be2a
+  size: 25174
+  hash: md5
+  path: municipal_balance_emission_factors.parquet
+meta:
+  name:
+    de: Municipal balance emission factors
+  identifier: mainz/municipal_balance_emission_factors
+  metrics:
+  - id: emission_factor_per_energy
+    column_id: emission_factor_per_energy
+    quantity: emission_factor
+    unit: kg_co2e/MWh
+    label:
+      de: emission_factor_per_energy
+  - id: emission_factor_per_mileage
+    column_id: emission_factor_per_mileage
+    quantity: emission_factor
+    unit: kg_co2e/pkm
+    label:
+      de: emission_factor_per_mileage
+  - id: emission_factor_per_count
+    column_id: emission_factor_per_count
+    quantity: emission_factor
+    unit: kg_co2e/pieces
+    label:
+      de: emission_factor_per_count
+  - id: emission_factor_per_volume
+    column_id: emission_factor_per_volume
+    quantity: emission_factor
+    unit: kg_co2e/l
+    label:
+      de: emission_factor_per_volume
+  - id: emission_factor_per_mass
+    column_id: emission_factor_per_mass
+    quantity: emission_factor
+    unit: kg_co2e/kg
+    label:
+      de: emission_factor_per_mass
+  sources:
+  - name: Arqum Emissionsfaktoren Verwaltungsbilanz Mainz
+    authority: Arqum GmbH (Zusammenstellung); Primärquellen GEMIS 5.0, TREMOD 
+      6.03, UBA, DEFRA, ifeu, ADEME
+    url:
+    description: 'Emissions- und Umrechnungsfaktoren des Blattes "Emissionsfaktoren"
+      der Arqum-Arbeitsmappe: je Emissionsquelle ein Faktor pro Systemgrenze (Direkt
+      bzw. Vorkette) mit Bezugseinheit, Bilanzjahr und Primärquelle. Wärme und Strom
+      aus UBA Climate Change 37/2019 und GEMIS 5.0, Verkehr aus TREMOD 6.03 und DEFRA
+      2022, Kältemittel-GWP aus BAFU/kka, Papier aus der ifeu-Studie 2006, Verpflegung
+      aus dem KlimAktiv- bzw. EnergieAgentur-NRW-Rechner, Abfall aus GEMIS 5.0 und
+      DEFRA 2022. Kausal-spezifische Wahl des Bilanzjahres: der jüngste Faktor, dessen
+      Bilanzjahr nicht nach dem Datenjahr liegt.; Attachment: Arqum_Datenerhebung
+      Mainz Kategorien Gesamt_2022-12-22.xlsm; Format: .xlsm; Licensing: Im Auftrag
+      der Stadt zusammengestellt; Primärquellen überwiegend öffentlich; Geographic
+      Coverage: Mainz (AGS 07315000); Update Frequency: Bei Fortschreibung der Bilanz
+      zu prüfen; Date Last Updated: 2022-12-22; Updated by: Arqum GmbH'
+  index_columns:
+  - Year
+  - emission_source
+  - energy_carrier
+  - ghg_category
+  - scope
+  - vehicle_type
+  updated_at: '1786539176'
+  units:
+    emission_factor_per_mass: kg_co2e/kg
+    emission_factor_per_count: kg_co2e/pcs
+    emission_factor_per_volume: kg_co2e/l
+    emission_factor_per_mileage: kg_co2e/pkm
+    emission_factor_per_energy: kg_co2e/MWh
