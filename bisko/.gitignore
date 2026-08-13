@@ -36,3 +36,4 @@
 /energy_costs.parquet
 /other_emissions.parquet
 /chp_parameters.parquet
+/required_categories.parquet

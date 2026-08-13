@@ -1,0 +1,23 @@
+outs:
+- md5: b7b237fd21ac83f2248765c977c8127a
+  size: 5867
+  hash: md5
+  path: required_categories.parquet
+meta:
+  name:
+    de: required_categories
+  identifier: bisko/required_categories
+  metrics:
+  - id: required
+    column_id: required
+    quantity: fraction
+    unit: ''
+    label:
+      de: required
+  index_columns:
+  - sector
+  - energy_carrier
+  - Year
+  updated_at: '1786645582'
+  units:
+    required: dimensionless
