@@ -1,0 +1,28 @@
+outs:
+- md5: 6924417b078d26aca37785ae5bd18fe7
+  size: 4681
+  hash: md5
+  path: chp_parameters.parquet
+meta:
+  name:
+    de: chp_parameters
+  identifier: bisko/chp_parameters
+  metrics:
+  - id: electricity_fraction
+    column_id: electricity_fraction
+    quantity: fraction
+    unit: ''
+    label:
+      de: electricity_fraction
+  - id: t_supply
+    column_id: t_supply
+    quantity: temperature
+    unit: K
+    label:
+      de: t_supply
+  index_columns:
+  - Year
+  updated_at: '1786626659'
+  units:
+    t_supply: K
+    electricity_fraction: dimensionless
