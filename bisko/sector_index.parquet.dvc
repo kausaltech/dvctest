@@ -1,5 +1,5 @@
 outs:
-- md5: b3eeb3a725d2979fc229085685feb2db
+- md5: e09695aa13c8cc0b4183f582e3efb424
   size: 4731
   hash: md5
   path: sector_index.parquet
