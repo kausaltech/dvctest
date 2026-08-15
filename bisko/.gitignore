@@ -37,3 +37,4 @@
 /other_emissions.parquet
 /chp_parameters.parquet
 /required_categories.parquet
+/vehicle_kilometers.parquet
