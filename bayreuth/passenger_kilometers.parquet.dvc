@@ -1,5 +1,5 @@
 outs:
-- md5: 7cce1c8d83dafec381ee9a1f2fca5525
+- md5: 3b9e9fac631605202a529a72d2ad9af9
   size: 6071
   hash: md5
   path: passenger_kilometers.parquet
