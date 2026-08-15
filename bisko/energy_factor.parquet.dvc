@@ -1,6 +1,6 @@
 outs:
-- md5: f508fda5dcd06225905d142a30385220
-  size: 10378
+- md5: f65158b702e672662a56e1e5008f0960
+  size: 10416
   hash: md5
   path: energy_factor.parquet
 meta:
