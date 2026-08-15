@@ -1,6 +1,6 @@
 outs:
-- md5: 5088220b2b0417a29b46060622814325
-  size: 22989843
+- md5: 0143d20562cbb175cadd29ddec912422
+  size: 22989911
   hash: md5
   path: gemeindefeine_fahrleistungen_strassenverkehr.parquet
 meta:
