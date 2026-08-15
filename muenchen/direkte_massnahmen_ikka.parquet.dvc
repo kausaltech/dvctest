@@ -1,5 +1,5 @@
 outs:
-- md5: b20b7d8059d884b0d78d042e5b49c1de
+- md5: 92640b15fc8097bb39788684bc0237db
   size: 6674
   hash: md5
   path: direkte_massnahmen_ikka.parquet
