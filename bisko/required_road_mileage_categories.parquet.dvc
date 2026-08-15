@@ -1,0 +1,23 @@
+outs:
+- md5: 0a14660caa1fcc368c40d3530148fec0
+  size: 6169
+  hash: md5
+  path: required_road_mileage_categories.parquet
+meta:
+  name:
+    de: required_road_mileage_categories
+  identifier: bisko/required_road_mileage_categories
+  metrics:
+  - id: required
+    column_id: required
+    quantity: fraction
+    unit: ''
+    label:
+      de: required
+  index_columns:
+  - vehicle_type
+  - road_type
+  - Year
+  updated_at: '1786811329'
+  units:
+    required: dimensionless

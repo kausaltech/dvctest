@@ -38,3 +38,4 @@
 /chp_parameters.parquet
 /required_categories.parquet
 /vehicle_kilometers.parquet
+/required_road_mileage_categories.parquet
