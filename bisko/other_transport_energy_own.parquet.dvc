@@ -1,0 +1,23 @@
+outs:
+- md5: c67a4cab1c1923aa1698f6144577a722
+  size: 6277
+  hash: md5
+  path: other_transport_energy_own.parquet
+meta:
+  name:
+    de: other_transport_energy_own
+  identifier: bisko/other_transport_energy_own
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: Value
+  index_columns:
+  - vehicle_type
+  - energy_carrier
+  - Year
+  updated_at: '1787083784'
+  units:
+    Value: MWh/a
