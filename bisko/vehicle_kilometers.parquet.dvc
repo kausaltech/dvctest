@@ -1,6 +1,6 @@
 outs:
-- md5: caed4b1da09034db2be7d3789167d07b
-  size: 5878
+- md5: 6599d444b7613014fee7dca4188d316d
+  size: 6087
   hash: md5
   path: vehicle_kilometers.parquet
 meta:
@@ -18,6 +18,6 @@ meta:
   - vehicle_type
   - road_type
   - Year
-  updated_at: '1786811250'
+  updated_at: '1787083198'
   units:
     Value: Mvkm/a
