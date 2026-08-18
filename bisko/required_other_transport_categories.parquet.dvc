@@ -1,0 +1,23 @@
+outs:
+- md5: 97c872f18d943ff0a02d314d0218f175
+  size: 6100
+  hash: md5
+  path: required_other_transport_categories.parquet
+meta:
+  name:
+    de: required_other_transport_categories
+  identifier: bisko/required_other_transport_categories
+  metrics:
+  - id: required
+    column_id: required
+    quantity: fraction
+    unit: ''
+    label:
+      de: required
+  index_columns:
+  - vehicle_type
+  - energy_carrier
+  - Year
+  updated_at: '1787084268'
+  units:
+    required: dimensionless
