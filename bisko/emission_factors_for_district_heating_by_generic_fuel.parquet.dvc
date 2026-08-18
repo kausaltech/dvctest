@@ -1,17 +1,29 @@
 outs:
-- md5: adbb05acbc14c699648596dda32ebd49
-  size: 4737
+- md5: 7eefb1f8b329d67520c931e5e85c3ec1
+  size: 8469
   hash: md5
   path: emission_factors_for_district_heating_by_generic_fuel.parquet
 meta:
   name:
     de: emission_factors_for_district_heating_by_generic_fuel
-  identifier: emission_factors_for_district_heating_by_generic_fuel
+  identifier: bisko/emission_factors_for_district_heating_by_generic_fuel
   metrics:
-  - id: default
+  - id: Value
+    column_id: Value
     quantity: emission_factor
+    unit: t/MWh
     label:
       de: Value
-  updated_at: '1766216333'
+  sources:
+  - name: Emissionsfaktoren_2023_Kausal_korrigiert.xlsx / EFA_Erzeugung (ifeu, 
+      2026-01-16)
+    authority:
+    url:
+    description:
+  index_columns:
+  - energy_carrier
+  - per_what_energy
+  - Year
+  updated_at: '1787085521'
   units:
-    Value: g_co2e/kWh
+    Value: t/MWh
