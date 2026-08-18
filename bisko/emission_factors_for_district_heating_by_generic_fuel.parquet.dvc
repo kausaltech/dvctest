@@ -1,6 +1,6 @@
 outs:
-- md5: 0c9210bae077978f57c728b062d29171
-  size: 8469
+- md5: b2f108e9c2a1269e57a16b1e99afdd74
+  size: 8491
   hash: md5
   path: emission_factors_for_district_heating_by_generic_fuel.parquet
 meta:
@@ -11,7 +11,7 @@ meta:
   - id: Value
     column_id: Value
     quantity: emission_factor
-    unit: t/MWh
+    unit: t_CO2e/MWh
     label:
       de: Value
   sources:
@@ -24,6 +24,6 @@ meta:
   - energy_carrier
   - per_what_energy
   - Year
-  updated_at: '1787086288'
+  updated_at: '1787087145'
   units:
-    Value: t/MWh
+    Value: t_co2e/MWh
