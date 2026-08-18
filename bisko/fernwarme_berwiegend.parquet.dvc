@@ -1,6 +1,6 @@
 outs:
-- md5: c9686f78ee9925112f0da2028e01bf79
-  size: 7591
+- md5: d1dc60c1cf4d28ad6199f2386941a12b
+  size: 7621
   hash: md5
   path: fernwarme_berwiegend.parquet
 meta:
@@ -11,7 +11,7 @@ meta:
   - id: Value
     column_id: Value
     quantity: emission_factor
-    unit: t/MWh
+    unit: t_CO2e/MWh
     label:
       de: Value
   sources:
@@ -24,6 +24,6 @@ meta:
   - energy_carrier
   - per_what_energy
   - Year
-  updated_at: '1787084053'
+  updated_at: '1787087703'
   units:
-    Value: t/MWh
+    Value: t_co2e/MWh
