@@ -1,11 +1,12 @@
 outs:
-- md5: 6bd6027697e486f909d6ffc49352c9e9
-  size: 13464
+- md5: 49ea2c92d1841fd5940bfa2dc3edc80a
+  size: 13558
   hash: md5
   path: energieanteile_verkehr.parquet
 meta:
   name:
-    de: Energy shares
+    de: Energieanteile Verkehr
+    en: Transport energy shares
   identifier: energy_shares
   metrics:
   - id: default
