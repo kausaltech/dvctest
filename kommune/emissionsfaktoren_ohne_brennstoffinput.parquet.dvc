@@ -1,0 +1,17 @@
+outs:
+- md5: a12582ab3f160d172e3a075a17a9d875
+  size: 4876
+  hash: md5
+  path: emissionsfaktoren_ohne_brennstoffinput.parquet
+meta:
+  name:
+    de: emission_factors_without_fuel_data
+  identifier: emission_factors_without_fuel_data
+  metrics:
+  - id: default
+    quantity: emission_factor
+    label:
+      de: Value
+  updated_at: '1766216353'
+  units:
+    Value: g_co2e/kWh
