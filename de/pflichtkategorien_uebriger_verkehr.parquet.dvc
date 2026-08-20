@@ -1,0 +1,19 @@
+outs:
+- md5: 057063a16e391a8ab6ce7f4bee0d0ca8
+  size: 5898
+  hash: md5
+  path: pflichtkategorien_uebriger_verkehr.parquet
+meta:
+  name:
+    de: required_other_transport_categories
+  identifier: bisko/required_other_transport_categories
+  metrics:
+  - id: required
+    column_id: required
+    quantity: fraction
+    unit: ''
+    label:
+      de: required
+  updated_at: '1787084268'
+  units:
+    required: dimensionless
