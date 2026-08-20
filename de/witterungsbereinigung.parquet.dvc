@@ -1,0 +1,24 @@
+outs:
+- md5: e93dfa7f751228414754790a2ca152dd
+  size: 4630
+  hash: md5
+  path: witterungsbereinigung.parquet
+meta:
+  name:
+    de: weather_correction
+  identifier: bisko/weather_correction
+  description:
+    de: 'Value - Metric: Value - Sector: municipal_facilities - 1.2<br/>Value - Metric:
+      Value - Sector: private_households - 1.2<br/>Value - Metric: Value - Sector:
+      transport - 1<br/>Value - Metric: Value - Sector: commerce_trade_services -
+      1<br/>Value - Metric: Value - Sector: industry - 1'
+  metrics:
+  - id: default
+    column_id: default
+    quantity: ratio
+    unit: ''
+    label:
+      de: Value
+  updated_at: '1777962648'
+  units:
+    default: dimensionless
