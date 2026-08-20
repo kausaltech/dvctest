@@ -1,0 +1,26 @@
+outs:
+- md5: 34beb7dcb5676f48a3cb2a134a56ea80
+  size: 6899
+  hash: md5
+  path: verkehrsleistung_personen.parquet
+meta:
+  name:
+    de: Passenger kilometers
+  identifier: passenger_kilometers
+  metrics:
+  - id: passenger_kilometers
+    column_id: Value
+    quantity: mileage
+    unit: Mpkm/a
+    label:
+      de: Passenger kilometers
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: dimensionless
+    label:
+      de: Data quality
+  updated_at: '1772284591'
+  units:
+    Value: Mpkm/a
+    quality: dimensionless
