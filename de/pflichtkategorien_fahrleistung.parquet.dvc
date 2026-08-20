@@ -1,11 +1,12 @@
 outs:
-- md5: 1c29f0f9f777452055e79d112364dfc7
-  size: 5962
+- md5: 54a66adaee111013cea976067b734a87
+  size: 6059
   hash: md5
   path: pflichtkategorien_fahrleistung.parquet
 meta:
   name:
-    de: required_road_mileage_categories
+    de: Pflichtkategorien Fahrleistung
+    en: Required categories, road mileage
   identifier: bisko/required_road_mileage_categories
   metrics:
   - id: required
