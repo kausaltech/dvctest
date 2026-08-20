@@ -1,0 +1,19 @@
+outs:
+- md5: bd399a92edd65858dce2fd31bb478d33
+  size: 7253765
+  hash: md5
+  path: energieverbrauch_uebriger_verkehr.parquet
+meta:
+  name:
+    de: other_transport_energy
+  identifier: bisko/other_transport_energy
+  metrics:
+  - id: energy
+    column_id: energy
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: energy
+  updated_at: '1779181052'
+  units:
+    energy: MWh/a
