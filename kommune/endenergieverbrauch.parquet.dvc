@@ -1,11 +1,12 @@
 outs:
-- md5: e674bba201ea45bf6c6f1f21a49c1d6f
-  size: 15852
+- md5: c48925b5250f2b9ee01c0b1d78c4d86e
+  size: 15927
   hash: md5
   path: endenergieverbrauch.parquet
 meta:
   name:
-    de: Final energy
+    de: Endenergieverbrauch
+    en: End energy use
   identifier: final_energy
   metrics:
   - id: energy
