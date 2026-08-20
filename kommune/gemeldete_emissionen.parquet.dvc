@@ -1,11 +1,12 @@
 outs:
-- md5: 70303a4340ba7ddfce881a394e99b59f
-  size: 14317
+- md5: 17fb74dc3cdffb4f052a7e3792e3df56
+  size: 14385
   hash: md5
   path: gemeldete_emissionen.parquet
 meta:
   name:
-    de: Historical emissions
+    de: Gemeldete Emissionen
+    en: Reported emissions
   identifier: historical_emissions
   metrics:
   - id: emissions
