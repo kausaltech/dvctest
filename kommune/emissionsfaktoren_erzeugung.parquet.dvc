@@ -1,11 +1,12 @@
 outs:
-- md5: 713525712a52786b74d09cf40cb3e350
-  size: 5208
+- md5: ba27979cc441c138f70f53f102b3cb62
+  size: 5301
   hash: md5
   path: emissionsfaktoren_erzeugung.parquet
 meta:
   name:
-    de: electricity_production_emission_factors
+    de: Emissionsfaktoren Erzeugung (lokal)
+    en: Generation emission factors (local)
   identifier: electricity_production_emission_factors
   metrics:
   - id: default
