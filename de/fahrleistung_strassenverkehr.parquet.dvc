@@ -1,0 +1,19 @@
+outs:
+- md5: 0143d20562cbb175cadd29ddec912422
+  size: 22989911
+  hash: md5
+  path: fahrleistung_strassenverkehr.parquet
+meta:
+  name:
+    de: gemeindefeine_fahrleistungen_strassenverkehr
+  identifier: bisko/gemeindefeine_fahrleistungen_strassenverkehr
+  metrics:
+  - id: mileage
+    column_id: mileage
+    quantity: mileage
+    unit: Mvehicle_km/a
+    label:
+      de: mileage
+  updated_at: '1779181041'
+  units:
+    mileage: Mvkm/a
