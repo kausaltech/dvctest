@@ -1,11 +1,12 @@
 outs:
-- md5: 0143d20562cbb175cadd29ddec912422
-  size: 22989911
+- md5: 0e1badfacbf9a2e077f1bbfadf6e452a
+  size: 22990024
   hash: md5
   path: fahrleistung_strassenverkehr.parquet
 meta:
   name:
-    de: gemeindefeine_fahrleistungen_strassenverkehr
+    de: Fahrleistung Straßenverkehr (gemeindefein)
+    en: Road mileage (municipality defaults)
   identifier: bisko/gemeindefeine_fahrleistungen_strassenverkehr
   metrics:
   - id: mileage
