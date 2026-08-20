@@ -1,0 +1,17 @@
+outs:
+- md5: 713525712a52786b74d09cf40cb3e350
+  size: 5208
+  hash: md5
+  path: emissionsfaktoren_erzeugung.parquet
+meta:
+  name:
+    de: electricity_production_emission_factors
+  identifier: electricity_production_emission_factors
+  metrics:
+  - id: default
+    quantity: emission_factor
+    label:
+      de: Value
+  updated_at: '1766216319'
+  units:
+    Value: g_co2e/kWh
