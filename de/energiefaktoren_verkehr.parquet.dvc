@@ -1,0 +1,27 @@
+outs:
+- md5: f65158b702e672662a56e1e5008f0960
+  size: 10416
+  hash: md5
+  path: energiefaktoren_verkehr.parquet
+meta:
+  name:
+    de: Energy factor
+  identifier: energy_factor
+  metrics:
+  - id: per_seat
+    quantity: energy_factor
+    label:
+      de: Per seat
+  - id: per_person
+    quantity: energy_factor
+    label:
+      de: Per person
+  - id: default
+    quantity: energy_factor
+    label:
+      de: Value
+  updated_at: '1767348313'
+  units:
+    Value: kWh/vkm
+    Per seat: kWh/km
+    Per person: kWh/pkm
