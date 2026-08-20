@@ -1,5 +1,5 @@
 outs:
-- md5: 702c6fd75c2e2e9730112d2ec24404d4
+- md5: 3cb6f85b123d3e3ebe62b730dc69ac2c
   size: 4788
   hash: md5
   path: sektorzuordnung.parquet
@@ -7,7 +7,7 @@ meta:
   name:
     de: Sektorzuordnung
     en: Sector index
-  identifier: bisko/sector_index
+  identifier: de/sektorzuordnung
   metrics:
   - id: ratio
     column_id: ratio
