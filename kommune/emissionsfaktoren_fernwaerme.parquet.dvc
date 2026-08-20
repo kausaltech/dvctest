@@ -1,11 +1,12 @@
 outs:
-- md5: de57f832f50ef66d5ffb9ced10af5e24
-  size: 8283
+- md5: 67b6ec9ccc2056bfeab25d323186b0df
+  size: 8377
   hash: md5
   path: emissionsfaktoren_fernwaerme.parquet
 meta:
   name:
-    de: emission_factors_for_district_heating_by_generic_fuel
+    de: Emissionsfaktoren Fernwärme (lokal)
+    en: District heating emission factors (local)
   identifier: bisko/emission_factors_for_district_heating_by_generic_fuel
   metrics:
   - id: Value
