@@ -1,11 +1,12 @@
 outs:
-- md5: b6ebbdcf096d6557bed82d3a96722344
-  size: 2259
+- md5: ef369f1fb030d4c6ff1c7504260c8978
+  size: 2283
   hash: md5
   path: biodieselanteil.parquet
 meta:
   name:
-    de: Fraction of biodiesel
+    de: Biodieselanteil
+    en: Biodiesel share
   identifier: fraction_of_biodiesel
   metrics:
   - id: default
