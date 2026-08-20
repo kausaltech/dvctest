@@ -1,12 +1,11 @@
 outs:
-- md5: d7e8aed40c84889fdd89c9157d845ac7
-  size: 7553
+- md5: 505816e02bea43b424e69c78ffb2aaf8
+  size: 9092
   hash: md5
   path: emissionsfaktoren_fernwaerme.parquet
 meta:
   name:
-    de: Emissionsfaktoren Fernwärme
-    en: District heating emission factors
+    de: emissionsfaktoren_fernwaerme
   identifier: de/emissionsfaktoren_fernwaerme
   metrics:
   - id: Value
@@ -16,11 +15,21 @@ meta:
     label:
       de: Value
   sources:
-  - name: Emissionsfaktoren_2023_Kausal_korrigiert.xlsx / EFA_Erzeugung (ifeu, 
-      2026-01-16)
-    authority:
+  - name: ifeu Emissionsfaktoren Erzeugung 2023 (korrigiert)
+    authority: ifeu -- Institut für Energie- und Umweltforschung Heidelberg
     url:
-    description:
-  updated_at: '1787087703'
+    description: 'Korrigierte Emissionsfaktoren-Lieferung von ifeu, Blatt EFA_Erzeugung,
+      Zeilen "Fernwärme - überwiegend ...". Enthält die sieben Erzeugungsvarianten
+      aus BISKO-Tabelle 5 als Emissionsfaktoren je erzeugter Wärmemenge, exergetisch
+      alloziert, in t CO2e/MWh einschließlich Vorketten. Ersetzt die frühere, unkorrigierte
+      Fassung, aus der das Modell die Jahre 1990-2019 bezogen hatte.; Attachment:
+      Emissionsfaktoren_2023_Kausal_korrigiert.xlsx; Format: .xlsx; Licensing: An
+      Kausal geliefert; nicht öffentlich; Geographic Coverage: Deutschland; Update
+      Frequency: Jährlich; Date Last Updated: 2026-01-16; Updated by: ifeu'
+  index_columns:
+  - energy_carrier
+  - per_what_energy
+  - Year
+  updated_at: '1787265886'
   units:
     Value: t_co2e/MWh
