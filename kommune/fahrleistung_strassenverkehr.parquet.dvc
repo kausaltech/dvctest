@@ -1,0 +1,19 @@
+outs:
+- md5: a7ebb5b8bffcbcac537aa0b04510a108
+  size: 5896
+  hash: md5
+  path: fahrleistung_strassenverkehr.parquet
+meta:
+  name:
+    de: vehicle_kilometers
+  identifier: bisko/vehicle_kilometers
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: mileage
+    unit: Mvehicle_km/a
+    label:
+      de: Value
+  updated_at: '1787083198'
+  units:
+    Value: Mvkm/a
