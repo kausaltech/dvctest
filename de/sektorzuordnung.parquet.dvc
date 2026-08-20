@@ -1,0 +1,19 @@
+outs:
+- md5: e09695aa13c8cc0b4183f582e3efb424
+  size: 4731
+  hash: md5
+  path: sektorzuordnung.parquet
+meta:
+  name:
+    de: sector_index
+  identifier: bisko/sector_index
+  metrics:
+  - id: ratio
+    column_id: ratio
+    quantity: ratio
+    unit: ''
+    label:
+      de: ratio
+  updated_at: '1778147281'
+  units:
+    ratio: dimensionless
