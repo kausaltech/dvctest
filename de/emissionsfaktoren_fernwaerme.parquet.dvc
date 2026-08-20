@@ -1,0 +1,25 @@
+outs:
+- md5: ffe9b817678dc643278a716e8d5ebd5d
+  size: 7417
+  hash: md5
+  path: emissionsfaktoren_fernwaerme.parquet
+meta:
+  name:
+    de: fernwarme_berwiegend
+  identifier: bisko/fernwarme_berwiegend
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: emission_factor
+    unit: t_CO2e/MWh
+    label:
+      de: Value
+  sources:
+  - name: Emissionsfaktoren_2023_Kausal_korrigiert.xlsx / EFA_Erzeugung (ifeu, 
+      2026-01-16)
+    authority:
+    url:
+    description:
+  updated_at: '1787087703'
+  units:
+    Value: t_co2e/MWh
