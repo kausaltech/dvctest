@@ -1,13 +1,13 @@
 outs:
-- md5: 95011c9ebaad0042a3cb7d30094b3d39
-  size: 6274
+- md5: a011830fd3cdc2e2707487080da79ef2
+  size: 6295
   hash: md5
   path: energieverbrauch_uebriger_verkehr.parquet
 meta:
   name:
     de: Energieverbrauch übriger Verkehr (eigene Daten)
     en: Rail, water and air transport energy (own data)
-  identifier: bisko/other_transport_energy_own
+  identifier: kommune/energieverbrauch_uebriger_verkehr
   metrics:
   - id: Value
     column_id: Value
