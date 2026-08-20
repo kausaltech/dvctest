@@ -1,13 +1,13 @@
 outs:
-- md5: 5dcd77e8c45e8470abce8d299dcb1b9c
-  size: 6997
+- md5: 677308c2efe71d6b519bd7a104360a66
+  size: 7034
   hash: md5
   path: verkehrsleistung_personen.parquet
 meta:
   name:
     de: Verkehrsleistung Personen
     en: Passenger transport performance
-  identifier: passenger_kilometers
+  identifier: kommune/verkehrsleistung_personen
   metrics:
   - id: passenger_kilometers
     column_id: Value
