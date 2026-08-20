@@ -1,6 +1,6 @@
 outs:
-- md5: b6ebbdcf096d6557bed82d3a96722344
-  size: 2259
+- md5: 94f7c863821a6ca5d67d1404d49a38ba
+  size: 2960
   hash: md5
   path: biodieselanteil.parquet
 meta:
