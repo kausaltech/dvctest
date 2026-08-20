@@ -1,13 +1,13 @@
 outs:
-- md5: 30ad19c283d352d42e978f1b1a623f79
-  size: 5042
+- md5: cf0ffe30b5bba26e170dbe322c05860e
+  size: 5066
   hash: md5
   path: emissionsfaktoren_ohne_brennstoffinput.parquet
 meta:
   name:
     de: Emissionsfaktoren ohne Brennstoffinput (lokal)
     en: Emission factors without fuel input data (local)
-  identifier: emission_factors_without_fuel_data
+  identifier: kommune/emissionsfaktoren_ohne_brennstoffinput
   metrics:
   - id: default
     quantity: emission_factor
