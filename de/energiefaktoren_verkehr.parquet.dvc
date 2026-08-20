@@ -1,11 +1,12 @@
 outs:
-- md5: f65158b702e672662a56e1e5008f0960
-  size: 10416
+- md5: 5efaba21da53ca1326bdba5dfa60386d
+  size: 10512
   hash: md5
   path: energiefaktoren_verkehr.parquet
 meta:
   name:
-    de: Energy factor
+    de: Energiefaktoren Verkehr
+    en: Transport energy factors
   identifier: energy_factor
   metrics:
   - id: per_seat
