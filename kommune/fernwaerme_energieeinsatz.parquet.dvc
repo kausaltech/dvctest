@@ -1,0 +1,19 @@
+outs:
+- md5: ae631b224091115824fd0297ea5ec460
+  size: 5395
+  hash: md5
+  path: fernwaerme_energieeinsatz.parquet
+meta:
+  name:
+    de: district_heating_energy_use
+  identifier: bisko/district_heating_energy_use
+  metrics:
+  - id: default
+    column_id: default
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: Value
+  updated_at: '1777954901'
+  units:
+    default: MWh/a
