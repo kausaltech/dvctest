@@ -1,0 +1,19 @@
+outs:
+- md5: 5d9670e469438352f022486583df3524
+  size: 5652
+  hash: md5
+  path: pflichtkategorien_endenergie.parquet
+meta:
+  name:
+    de: required_categories
+  identifier: bisko/required_categories
+  metrics:
+  - id: required
+    column_id: required
+    quantity: fraction
+    unit: ''
+    label:
+      de: required
+  updated_at: '1786645582'
+  units:
+    required: dimensionless
