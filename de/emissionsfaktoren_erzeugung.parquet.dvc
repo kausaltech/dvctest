@@ -1,5 +1,5 @@
 outs:
-- md5: fcde43c053f4e4c0b97b917c285cd570
+- md5: 67b4e8e06b1498940b329aace7bbf40d
   size: 10561
   hash: md5
   path: emissionsfaktoren_erzeugung.parquet
@@ -7,7 +7,7 @@ meta:
   name:
     de: Emissionsfaktoren Erzeugung
     en: Generation emission factors
-  identifier: emissionsfaktoren_fr_erzeugung
+  identifier: de/emissionsfaktoren_erzeugung
   description:
     de: 'Value - Energy carrier: Erdgas - Upstream included: Yes - Per what energy:
       Fuel input - Metric: Value - ifeu/GEMIS<br/>Value - Energy carrier: Steinkohle
