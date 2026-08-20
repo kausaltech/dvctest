@@ -1,13 +1,13 @@
 outs:
-- md5: 1cb05e0b3c06945cbf5aa7a16e5441be
-  size: 12401
+- md5: 0d514c1ab86229cc44e96ba7a9bdf31c
+  size: 12404
   hash: md5
   path: emissionsfaktoren_endenergie.parquet
 meta:
   name:
     de: Emissionsfaktoren Endenergie
     en: End energy emission factors
-  identifier: endenergie_emissionsfaktoren
+  identifier: de/emissionsfaktoren_endenergie
   description:
     de: 'Value - Energy carrier: Strom - Upstream included: Yes - Per what energy:
       Fuel input - Metric: Value - ifeu<br/>Value - Energy carrier: Heizstrom - Upstream
