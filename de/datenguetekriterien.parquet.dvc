@@ -1,11 +1,12 @@
 outs:
-- md5: a6381cebf5e0ba7c3cc197bb0f8251bc
-  size: 4936
+- md5: b49648377894eb6cfdc871b264b87e57
+  size: 5026
   hash: md5
   path: datenguetekriterien.parquet
 meta:
   name:
-    de: Quality criteria
+    de: Datengütekriterien
+    en: Data quality criteria
   identifier: quality_criteria
   description:
     de: 'Requirement - Metric: Requirement - sector: Private Households - energy_carrier:
