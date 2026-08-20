@@ -1,13 +1,13 @@
 outs:
-- md5: a98a75c910763e9af74d978009b10c62
-  size: 5000
+- md5: 4872f20ba297be17820807c4a55da1c5
+  size: 5021
   hash: md5
   path: emissionsfaktoren_endenergie.parquet
 meta:
   name:
     de: Emissionsfaktoren Endenergie (lokal)
     en: End energy emission factors (local)
-  identifier: end_energy_emission_factors
+  identifier: kommune/emissionsfaktoren_endenergie
   metrics:
   - id: default
     quantity: emission_factor
