@@ -1,11 +1,12 @@
 outs:
-- md5: 9c597a662e2033ee350e301edb6cf205
-  size: 14493
+- md5: 16aea9ddb822387fef7ffdd9a27342fe
+  size: 14713
   hash: md5
   path: energieverbrauch_strassenverkehr.parquet
 meta:
   name:
-    de: Vehicle energy
+    de: Energieverbrauch Straßenverkehr (gemeindefein)
+    en: Road transport energy (municipality defaults)
   identifier: vehicle_energy
   metrics:
   - id: vehicle_energy
