@@ -1,0 +1,37 @@
+outs:
+- md5: 445c2bce1bc8765a8fefd3e41438db83
+  size: 11219
+  hash: md5
+  path: fernwaerme_erzeugungsvariante.parquet
+meta:
+  name:
+    de: fernwaerme_erzeugungsvariante
+  identifier: kommune/fernwaerme_erzeugungsvariante
+  metrics:
+  - id: default
+    column_id: default
+    quantity: fraction
+    unit: ''
+    label:
+      de: default
+  sources:
+  - name: Erklärung der Kommune zur überwiegenden Erzeugungsvariante
+    authority: Die bilanzierende Kommune bzw. ihr Fernwärmeversorger
+    url:
+    description: 'Erklärung der Kommune, welche Erzeugungsvariante nach BISKO-Methodenpapier
+      Tabelle 5 in ihrem Fernwärmenetz im jeweiligen Jahr überwiegt. Keine Messung
+      und keine Statistik, sondern eine Angabe der Kommune: Sie ist die einzige Stelle,
+      die den Erzeugungsmix ihres Netzes kennt. Grundlage ist Prüfschritt 6.1, Möglichkeit
+      3 des BISKO-Prüfprotokolls; zulässig nur, wenn die erklärte Variante mindestens
+      80 Prozent der Wärmeerzeugung erreicht. Die Vorlage wird leer ausgeliefert;
+      ohne Erklärung rechnet die Bilanz mit dem Standard-Fernwärmefaktor (Möglichkeit
+      2) bzw. mit eigenen Anlagendaten, sofern vorhanden (Möglichkeit 1).; Format:
+      Eingabe im Bilanzierungswerkzeug; Licensing: Kommunale Angabe; nicht öffentlich;
+      Geographic Coverage: Die jeweilige Kommune; Update Frequency: Jährlich, sofern
+      sich die überwiegende Variante ändert; Updated by: Kommune'
+  index_columns:
+  - energy_carrier
+  - Year
+  updated_at: '1787263707'
+  units:
+    default: dimensionless
