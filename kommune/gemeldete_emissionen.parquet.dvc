@@ -1,13 +1,13 @@
 outs:
-- md5: 17fb74dc3cdffb4f052a7e3792e3df56
-  size: 14385
+- md5: 15099f6c10860f2ffe0f2ec9be7dbef5
+  size: 14405
   hash: md5
   path: gemeldete_emissionen.parquet
 meta:
   name:
     de: Gemeldete Emissionen
     en: Reported emissions
-  identifier: historical_emissions
+  identifier: kommune/gemeldete_emissionen
   metrics:
   - id: emissions
     column_id: Value
