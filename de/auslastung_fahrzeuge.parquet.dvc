@@ -1,11 +1,12 @@
 outs:
-- md5: 0a0267f181b1340ce35245deccd37cf0
-  size: 5574
+- md5: 6450f140544585ea8d517ed71eb8d5f8
+  size: 5648
   hash: md5
   path: auslastung_fahrzeuge.parquet
 meta:
   name:
-    de: Load per vehicle
+    de: Auslastung der Fahrzeuge
+    en: Vehicle load
   identifier: load_per_vehicle
   metrics:
   - id: cargo
