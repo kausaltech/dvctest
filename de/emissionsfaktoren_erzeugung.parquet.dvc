@@ -1,11 +1,12 @@
 outs:
-- md5: 64c4eed0df580049f52f21892fe39371
-  size: 10489
+- md5: fcde43c053f4e4c0b97b917c285cd570
+  size: 10561
   hash: md5
   path: emissionsfaktoren_erzeugung.parquet
 meta:
   name:
-    de: Emissionsfaktoren für Erzeugung
+    de: Emissionsfaktoren Erzeugung
+    en: Generation emission factors
   identifier: emissionsfaktoren_fr_erzeugung
   description:
     de: 'Value - Energy carrier: Erdgas - Upstream included: Yes - Per what energy:
