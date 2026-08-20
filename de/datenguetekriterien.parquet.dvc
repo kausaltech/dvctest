@@ -1,13 +1,13 @@
 outs:
-- md5: b49648377894eb6cfdc871b264b87e57
-  size: 5026
+- md5: f4baff57582a7e938abb3fafaa079ae2
+  size: 5044
   hash: md5
   path: datenguetekriterien.parquet
 meta:
   name:
     de: Datengütekriterien
     en: Data quality criteria
-  identifier: quality_criteria
+  identifier: de/datenguetekriterien
   description:
     de: 'Requirement - Metric: Requirement - sector: Private Households - energy_carrier:
       electricity - Grid-bound energy carriers (electricity, gas, district heating)
