@@ -1,6 +1,6 @@
 outs:
-- md5: 56c7813ed4ccedcd160590d5d85d375a
-  size: 4050
+- md5: 71d326f404d7ef4234bcb794bed21ce6
+  size: 4610
   hash: md5
   path: kwk_anlagenparameter.parquet
 meta:
