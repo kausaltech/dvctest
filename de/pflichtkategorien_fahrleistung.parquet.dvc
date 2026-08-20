@@ -1,0 +1,19 @@
+outs:
+- md5: 1c29f0f9f777452055e79d112364dfc7
+  size: 5962
+  hash: md5
+  path: pflichtkategorien_fahrleistung.parquet
+meta:
+  name:
+    de: required_road_mileage_categories
+  identifier: bisko/required_road_mileage_categories
+  metrics:
+  - id: required
+    column_id: required
+    quantity: fraction
+    unit: ''
+    label:
+      de: required
+  updated_at: '1786811329'
+  units:
+    required: dimensionless
