@@ -1,11 +1,12 @@
 outs:
-- md5: ffe9b817678dc643278a716e8d5ebd5d
-  size: 7417
+- md5: b7bb930b7fb7d57be02f63df549babc0
+  size: 7548
   hash: md5
   path: emissionsfaktoren_fernwaerme.parquet
 meta:
   name:
-    de: fernwarme_berwiegend
+    de: Emissionsfaktoren Fernwärme
+    en: District heating emission factors
   identifier: bisko/fernwarme_berwiegend
   metrics:
   - id: Value
