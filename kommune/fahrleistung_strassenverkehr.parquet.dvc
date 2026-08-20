@@ -1,11 +1,12 @@
 outs:
-- md5: a7ebb5b8bffcbcac537aa0b04510a108
-  size: 5896
+- md5: 7a4b671f519cc32b79c8f57a39979be1
+  size: 6042
   hash: md5
   path: fahrleistung_strassenverkehr.parquet
 meta:
   name:
-    de: vehicle_kilometers
+    de: Fahrleistung Straßenverkehr (eigene Daten)
+    en: Road mileage (own data)
   identifier: bisko/vehicle_kilometers
   metrics:
   - id: Value
