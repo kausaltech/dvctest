@@ -1,11 +1,12 @@
 outs:
-- md5: 057063a16e391a8ab6ce7f4bee0d0ca8
-  size: 5898
+- md5: 92e0e738ee7c9e3efed7e9644f79f630
+  size: 6045
   hash: md5
   path: pflichtkategorien_uebriger_verkehr.parquet
 meta:
   name:
-    de: required_other_transport_categories
+    de: Pflichtkategorien übriger Verkehr
+    en: Required categories, rail, water and air transport
   identifier: bisko/required_other_transport_categories
   metrics:
   - id: required
