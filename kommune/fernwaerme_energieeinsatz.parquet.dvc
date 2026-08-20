@@ -1,5 +1,5 @@
 outs:
-- md5: 167c1113922b646564dce215ca0afce0
+- md5: c0a44ccc2859b40e26a9a040b91126b7
   size: 5500
   hash: md5
   path: fernwaerme_energieeinsatz.parquet
@@ -7,7 +7,7 @@ meta:
   name:
     de: Fernwärme-Energieeinsatz
     en: District heating energy input
-  identifier: bisko/district_heating_energy_use
+  identifier: kommune/fernwaerme_energieeinsatz
   metrics:
   - id: default
     column_id: default
