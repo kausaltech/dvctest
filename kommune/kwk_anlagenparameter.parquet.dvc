@@ -1,13 +1,12 @@
 outs:
-- md5: e445d82c58d0dcb88815733715337f04
-  size: 4126
+- md5: 56c7813ed4ccedcd160590d5d85d375a
+  size: 4050
   hash: md5
   path: kwk_anlagenparameter.parquet
 meta:
   name:
-    de: KWK-Anlagenparameter
-    en: CHP plant parameters
-  identifier: kommune/kwk_anlagenparameter
+    de: chp_parameters
+  identifier: bisko/chp_parameters
   metrics:
   - id: electricity_fraction
     column_id: electricity_fraction
