@@ -1,11 +1,12 @@
 outs:
-- md5: e93dfa7f751228414754790a2ca152dd
-  size: 4630
+- md5: 282fe0cf4c17c8eabd8caf07bf13f568
+  size: 4693
   hash: md5
   path: witterungsbereinigung.parquet
 meta:
   name:
-    de: weather_correction
+    de: Witterungsbereinigung
+    en: Weather correction
   identifier: bisko/weather_correction
   description:
     de: 'Value - Metric: Value - Sector: municipal_facilities - 1.2<br/>Value - Metric:
