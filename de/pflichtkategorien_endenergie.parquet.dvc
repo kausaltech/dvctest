@@ -1,11 +1,12 @@
 outs:
-- md5: 5d9670e469438352f022486583df3524
-  size: 5652
+- md5: 9c9794cd11fed8126365b909fe61bf14
+  size: 5766
   hash: md5
   path: pflichtkategorien_endenergie.parquet
 meta:
   name:
-    de: required_categories
+    de: Pflichtkategorien Endenergie
+    en: Required categories, end energy
   identifier: bisko/required_categories
   metrics:
   - id: required
