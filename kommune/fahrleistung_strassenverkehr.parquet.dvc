@@ -1,20 +1,30 @@
 outs:
-- md5: 167c71e6235cfb21a005971515411f63
-  size: 6066
+- md5: dbcacda775f9c380eb8e116b54f66066
+  size: 7532
   hash: md5
   path: fahrleistung_strassenverkehr.parquet
 meta:
   name:
-    de: Fahrleistung Straßenverkehr (eigene Daten)
-    en: Road mileage (own data)
+    de: fahrleistung_strassenverkehr
   identifier: kommune/fahrleistung_strassenverkehr
   metrics:
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: quality
   - id: Value
     column_id: Value
     quantity: mileage
     unit: Mvehicle_km/a
     label:
       de: Value
-  updated_at: '1787083198'
+  index_columns:
+  - vehicle_type
+  - road_type
+  - Year
+  updated_at: '1787279802'
   units:
+    quality: dimensionless
     Value: Mvkm/a
