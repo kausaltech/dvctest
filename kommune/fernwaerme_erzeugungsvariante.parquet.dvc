@@ -1,6 +1,6 @@
 outs:
-- md5: 445c2bce1bc8765a8fefd3e41438db83
-  size: 11219
+- md5: 9fe2889d95718a2c142a0314cf280226
+  size: 11621
   hash: md5
   path: fernwaerme_erzeugungsvariante.parquet
 meta:
@@ -14,6 +14,12 @@ meta:
     unit: ''
     label:
       de: default
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: quality
   sources:
   - name: Erklärung der Kommune zur überwiegenden Erzeugungsvariante
     authority: Die bilanzierende Kommune bzw. ihr Fernwärmeversorger
@@ -32,6 +38,7 @@ meta:
   index_columns:
   - energy_carrier
   - Year
-  updated_at: '1787263707'
+  updated_at: '1787279831'
   units:
     default: dimensionless
+    quality: dimensionless
