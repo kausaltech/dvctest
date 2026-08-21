@@ -1,6 +1,6 @@
 outs:
-- md5: d86a085065f0f332ba1650b0d1924b55
-  size: 12296
+- md5: edcfad5c941cac7edb31d1c582763230
+  size: 14040
   hash: md5
   path: fernwaerme_energieeinsatz.parquet
 meta:
@@ -36,7 +36,7 @@ meta:
   - per_what_energy
   - upstream_included
   - Year
-  updated_at: '1787279791'
+  updated_at: '1787285056'
   units:
     default: MWh/a
     quality: dimensionless
