@@ -1,12 +1,11 @@
 outs:
-- md5: e16199874776eafeae6e683e84de4fcc
-  size: 5780
+- md5: 59424bb86850a616c804d6a87b771680
+  size: 5731
   hash: md5
   path: pflichtkategorien_endenergie.parquet
 meta:
   name:
-    de: Pflichtkategorien Endenergie
-    en: Required categories, end energy
+    de: pflichtkategorien_endenergie
   identifier: de/pflichtkategorien_endenergie
   metrics:
   - id: required
@@ -15,6 +14,10 @@ meta:
     unit: ''
     label:
       de: required
-  updated_at: '1786645582'
+  index_columns:
+  - sector
+  - energy_carrier
+  - Year
+  updated_at: '1787275623'
   units:
     required: dimensionless
