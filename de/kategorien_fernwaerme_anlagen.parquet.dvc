@@ -1,6 +1,6 @@
 outs:
-- md5: 19a489b4168b23504331a06293410c04
-  size: 8602
+- md5: cb5dd0c7197cd796d8ff6fb0b89e0d4d
+  size: 7836
   hash: md5
   path: kategorien_fernwaerme_anlagen.parquet
 meta:
@@ -17,8 +17,7 @@ meta:
   index_columns:
   - energy_carrier
   - per_what_energy
-  - upstream_included
   - Year
-  updated_at: '1787287300'
+  updated_at: '1787287838'
   units:
     expected: dimensionless
