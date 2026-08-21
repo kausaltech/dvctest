@@ -1,0 +1,23 @@
+outs:
+- md5: 5f78e2ac418a421ce37110da568254b6
+  size: 7600
+  hash: md5
+  path: kategorien_energieverbrauch_strassenverkehr.parquet
+meta:
+  name:
+    de: kategorien_energieverbrauch_strassenverkehr
+  identifier: de/kategorien_energieverbrauch_strassenverkehr
+  metrics:
+  - id: expected
+    column_id: expected
+    quantity: fraction
+    unit: ''
+    label:
+      de: expected
+  index_columns:
+  - vehicle_type
+  - energy_carrier
+  - Year
+  updated_at: '1787287321'
+  units:
+    expected: dimensionless
