@@ -1,0 +1,22 @@
+outs:
+- md5: 5b5e3f799a324dbab9c4fa4c9a5218d7
+  size: 6615
+  hash: md5
+  path: kategorien_fernwaerme_varianten.parquet
+meta:
+  name:
+    de: kategorien_fernwaerme_varianten
+  identifier: de/kategorien_fernwaerme_varianten
+  metrics:
+  - id: expected
+    column_id: expected
+    quantity: fraction
+    unit: ''
+    label:
+      de: expected
+  index_columns:
+  - energy_carrier
+  - Year
+  updated_at: '1787287311'
+  units:
+    expected: dimensionless
