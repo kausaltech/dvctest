@@ -1,20 +1,42 @@
 outs:
-- md5: c0a44ccc2859b40e26a9a040b91126b7
-  size: 5500
+- md5: d86a085065f0f332ba1650b0d1924b55
+  size: 12296
   hash: md5
   path: fernwaerme_energieeinsatz.parquet
 meta:
   name:
-    de: Fernwärme-Energieeinsatz
-    en: District heating energy input
+    de: fernwaerme_energieeinsatz
   identifier: kommune/fernwaerme_energieeinsatz
   metrics:
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: quality
   - id: default
     column_id: default
     quantity: energy
     unit: MWh/a
     label:
-      de: Value
-  updated_at: '1777954901'
+      de: default
+  sources:
+  - name: Anlagendaten des Fernwaermeversorgers
+    authority: Fernwärmeversorger der Kommune
+    url:
+    description: 'Brennstoffeinsatz und Wärmeabgabe der Kraft-Wärme-Kopplungsanlagen
+      des kommunalen Fernwärmenetzes, je Energieträger und Jahr. Grundlage für BISKO-Möglichkeit
+      1: die exergetische Allokation nach Kriterium 6 rechnet daraus den Netzfaktor.
+      Die Vorlage wird leer ausgeliefert; ein Jahr ohne Anlagendaten wird nach Möglichkeit
+      2 oder 3 gerechnet.; Format: Eingabe im Bilanzierungswerkzeug; Licensing: Kommunale
+      Angabe; nicht öffentlich; Geographic Coverage: Die jeweilige Kommune; Update
+      Frequency: Jährlich; Date Last Updated: 2026-08-21; Updated by: Kommune'
+  index_columns:
+  - energy_carrier
+  - per_what_energy
+  - upstream_included
+  - Year
+  updated_at: '1787279791'
   units:
     default: MWh/a
+    quality: dimensionless
