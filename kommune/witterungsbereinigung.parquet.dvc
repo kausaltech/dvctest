@@ -1,0 +1,38 @@
+outs:
+- md5: 4004a3212be068941ffdd8397f4c1ff1
+  size: 9799
+  hash: md5
+  path: witterungsbereinigung.parquet
+meta:
+  name:
+    de: witterungsbereinigung
+  identifier: kommune/witterungsbereinigung
+  metrics:
+  - id: default
+    column_id: default
+    quantity: ratio
+    unit: ''
+    label:
+      de: default
+  sources:
+  - name: DWD Gradtagzahlen (Witterungsbereinigung)
+    authority: Deutscher Wetterdienst (DWD)
+    url:
+    description: 'Gradtagzahlen je Bilanzjahr im Verhältnis zum langjährigen Mittel
+      1970-2014, als Bereinigungsfaktor je Sektor. Angewendet auf die raumwärmebedingten
+      Verbräuche der Haushalte, des Sektors GHD/Sonstiges und der kommunalen Einrichtungen;
+      Industrie und Verkehr bleiben bei 1,0, da ihr Verbrauch überwiegend nicht raumwärmebedingt
+      ist. Witterungsbereinigung ist nach BISKO-Kriterium 5 nicht zulässig: Die Bilanz
+      rechnet standardmäßig ohne sie, und der Schalter "Wetterkorrektur durchführen"
+      macht das Ergebnis ausdrücklich nicht BISKO-konform. Die Werte stammten ursprünglich
+      aus einer Potsdamer Lieferung und sind als Vorbelegung zu behandeln, bis die
+      Kommune eigene Gradtagzahlen einträgt.; Format: Eingabe im Bilanzierungswerkzeug;
+      Licensing: DWD-Daten; Vorbelegung durch Kausal; Geographic Coverage: Die jeweilige
+      Kommune (Vorbelegung: Potsdam); Update Frequency: Jährlich; Date Last Updated:
+      2026-08-21; Updated by: Kausal'
+  index_columns:
+  - sector
+  - Year
+  updated_at: '1787275612'
+  units:
+    default: dimensionless

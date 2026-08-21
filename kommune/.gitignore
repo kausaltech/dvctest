@@ -10,3 +10,4 @@
 /emissionsfaktoren_ohne_brennstoffinput.parquet
 /emissionsfaktoren_fernwaerme.parquet
 /fernwaerme_erzeugungsvariante.parquet
+/witterungsbereinigung.parquet
