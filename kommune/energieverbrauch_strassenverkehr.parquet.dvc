@@ -1,0 +1,43 @@
+outs:
+- md5: 4e98ddc71582e0efa6a655478778a3ac
+  size: 11886
+  hash: md5
+  path: energieverbrauch_strassenverkehr.parquet
+meta:
+  name:
+    de: energieverbrauch_strassenverkehr
+  identifier: kommune/energieverbrauch_strassenverkehr
+  metrics:
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: quality
+  - id: Value
+    column_id: Value
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: Value
+  sources:
+  - name: Eigene Verbrauchsdaten Strassenverkehr der Kommune
+    authority: Die bilanzierende Kommune
+    url:
+    description: 'Endenergieverbrauch des Strassenverkehrs im Gemeindegebiet nach
+      Fahrzeugklasse und Energietraeger, aus eigenen Verbrauchsdaten der Kommune.
+      BISKO laesst fuer den Strassenverkehr zwei Wege zu: Fahrleistung x spezifischer
+      Verbrauch, oder der Verbrauch direkt. Dies ist der zweite. Die Vorlage wird
+      leer ausgeliefert; fuer jedes nicht befuellte Jahr gilt der gemeindefeine ifeu-Defaultwert
+      aus de/energieverbrauch_strassenverkehr.; Format: Eingabe im Bilanzierungswerkzeug;
+      Licensing: Kommunale Angabe; nicht oeffentlich; Geographic Coverage: Die jeweilige
+      Kommune; Update Frequency: Jaehrlich; Date Last Updated: 2026-08-21; Updated
+      by: Kommune'
+  index_columns:
+  - vehicle_type
+  - energy_carrier
+  - Year
+  updated_at: '1787283444'
+  units:
+    quality: dimensionless
+    Value: MWh/a
