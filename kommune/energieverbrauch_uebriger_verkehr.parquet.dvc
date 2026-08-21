@@ -1,20 +1,30 @@
 outs:
-- md5: a011830fd3cdc2e2707487080da79ef2
-  size: 6295
+- md5: b01b31fd93091c13320f4662d7f4039c
+  size: 7599
   hash: md5
   path: energieverbrauch_uebriger_verkehr.parquet
 meta:
   name:
-    de: Energieverbrauch übriger Verkehr (eigene Daten)
-    en: Rail, water and air transport energy (own data)
+    de: energieverbrauch_uebriger_verkehr
   identifier: kommune/energieverbrauch_uebriger_verkehr
   metrics:
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: quality
   - id: Value
     column_id: Value
     quantity: energy
     unit: MWh/a
     label:
       de: Value
-  updated_at: '1787083784'
+  index_columns:
+  - vehicle_type
+  - energy_carrier
+  - Year
+  updated_at: '1787279812'
   units:
     Value: MWh/a
+    quality: dimensionless
