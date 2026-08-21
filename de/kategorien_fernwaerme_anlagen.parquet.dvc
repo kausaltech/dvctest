@@ -1,0 +1,24 @@
+outs:
+- md5: 19a489b4168b23504331a06293410c04
+  size: 8602
+  hash: md5
+  path: kategorien_fernwaerme_anlagen.parquet
+meta:
+  name:
+    de: kategorien_fernwaerme_anlagen
+  identifier: de/kategorien_fernwaerme_anlagen
+  metrics:
+  - id: expected
+    column_id: expected
+    quantity: fraction
+    unit: ''
+    label:
+      de: expected
+  index_columns:
+  - energy_carrier
+  - per_what_energy
+  - upstream_included
+  - Year
+  updated_at: '1787287300'
+  units:
+    expected: dimensionless
