@@ -1,6 +1,6 @@
 outs:
-- md5: f074a04e7292452b4627e9a3c7eeeda3
-  size: 8330
+- md5: 03178feb7ec3dc3a1ffc5da6495b447e
+  size: 4707
   hash: md5
   path: kwk_anlagenparameter.parquet
 meta:
@@ -14,18 +14,6 @@ meta:
     unit: K
     label:
       de: t_supply
-  - id: quality_t_supply
-    column_id: quality_t_supply
-    quantity: fraction
-    unit: ''
-    label:
-      de: quality_t_supply
-  - id: quality_electricity_fraction
-    column_id: quality_electricity_fraction
-    quantity: fraction
-    unit: ''
-    label:
-      de: quality_electricity_fraction
   - id: electricity_fraction
     column_id: electricity_fraction
     quantity: fraction
@@ -34,9 +22,7 @@ meta:
       de: electricity_fraction
   index_columns:
   - Year
-  updated_at: '1787285085'
+  updated_at: '1787286540'
   units:
-    quality_t_supply: dimensionless
-    quality_electricity_fraction: dimensionless
     electricity_fraction: dimensionless
     t_supply: K
