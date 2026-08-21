@@ -1,6 +1,6 @@
 outs:
-- md5: dbcacda775f9c380eb8e116b54f66066
-  size: 7532
+- md5: 1c1f047b21dc15dd1a2041482e2aa49d
+  size: 8761
   hash: md5
   path: fahrleistung_strassenverkehr.parquet
 meta:
@@ -24,7 +24,7 @@ meta:
   - vehicle_type
   - road_type
   - Year
-  updated_at: '1787279802'
+  updated_at: '1787285065'
   units:
-    quality: dimensionless
     Value: Mvkm/a
+    quality: dimensionless
