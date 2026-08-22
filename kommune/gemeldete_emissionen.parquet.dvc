@@ -1,27 +1,42 @@
 outs:
-- md5: 15099f6c10860f2ffe0f2ec9be7dbef5
-  size: 14405
+- md5: 2da939f3479a7e3834509ab1bb487725
+  size: 11428
   hash: md5
   path: gemeldete_emissionen.parquet
 meta:
   name:
-    de: Gemeldete Emissionen
-    en: Reported emissions
+    de: gemeldete_emissionen
   identifier: kommune/gemeldete_emissionen
   metrics:
-  - id: emissions
+  - id: Value
     column_id: Value
     quantity: emissions
     unit: t_CO2e/a
     label:
-      de: Emissions
+      de: Value
   - id: quality
     column_id: quality
     quantity: fraction
-    unit: dimensionless
+    unit: ''
     label:
-      de: Data quality
-  updated_at: '1772377086'
+      de: quality
+  sources:
+  - name: Gemeldetes THG-Inventar der Kommune
+    authority: Die bilanzierende Kommune
+    url:
+    description: 'Die von der Kommune selbst gemeldeten Treibhausgasemissionen nach
+      Sektor und Energietraeger, so wie die Kommune sie veroeffentlicht hat. Kein
+      Bestandteil der BISKO-Bilanz: Der Datensatz dient allein dem Vergleich zwischen
+      der vom Werkzeug berechneten Bilanz und den Zahlen der Kommune, damit ein Unterschied
+      sichtbar wird. Ein gemeldetes Inventar weicht regelmaessig ab -- andere Bilanzgrenze,
+      andere Emissionsfaktoren-Fassung, nicht-energetische Sektoren enthalten, Witterungsbereinigung
+      angewendet. Die Vorlage wird leer ausgeliefert; eine leere Zelle wird im Modell
+      als Null gelesen und bedeutet "nichts gemeldet".'
+  index_columns:
+  - sector
+  - energy_carrier
+  - Year
+  updated_at: '1787371568'
   units:
-    Value: t_CO2e/a
+    Value: t_co2e/a
     quality: dimensionless
