@@ -1,6 +1,6 @@
 outs:
-- md5: d9b0de4bb3e5e08f476247ee0109f938
-  size: 7570
+- md5: 1f4354a14b5d667ae6b11fbf7559b9c5
+  size: 8233
   hash: md5
   path: kategorien_energieverbrauch_strassenverkehr.parquet
 meta:
@@ -18,6 +18,6 @@ meta:
   - vehicle_type
   - energy_carrier
   - Year
-  updated_at: '1787371588'
+  updated_at: '1787372388'
   units:
     expected: dimensionless
