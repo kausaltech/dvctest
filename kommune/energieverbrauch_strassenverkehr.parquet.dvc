@@ -1,6 +1,6 @@
 outs:
-- md5: 0e81851fa892f3949f6c9cf955c7bbe6
-  size: 14399
+- md5: a2c4c34f2f6bf80f386168be3536a0fe
+  size: 13960
   hash: md5
   path: energieverbrauch_strassenverkehr.parquet
 meta:
@@ -8,18 +8,18 @@ meta:
     de: energieverbrauch_strassenverkehr
   identifier: kommune/energieverbrauch_strassenverkehr
   metrics:
-  - id: quality
-    column_id: quality
-    quantity: fraction
-    unit: ''
-    label:
-      de: quality
   - id: Value
     column_id: Value
     quantity: energy
     unit: MWh/a
     label:
       de: Value
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: quality
   sources:
   - name: Eigene Verbrauchsdaten Strassenverkehr der Kommune
     authority: Die bilanzierende Kommune
@@ -42,7 +42,7 @@ meta:
   - vehicle_type
   - energy_carrier
   - Year
-  updated_at: '1787371578'
+  updated_at: '1787372333'
   units:
-    Value: MWh/a
     quality: dimensionless
+    Value: MWh/a
