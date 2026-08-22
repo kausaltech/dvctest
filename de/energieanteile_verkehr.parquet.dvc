@@ -1,18 +1,47 @@
 outs:
-- md5: 5572cb9fa218ec45f7fa6edfad35b150
-  size: 13594
+- md5: ea5918cca1ba018d11bd3d4735a2154d
+  size: 25229
   hash: md5
   path: energieanteile_verkehr.parquet
 meta:
   name:
-    de: Energieanteile Verkehr
-    en: Transport energy shares
+    de: energieanteile_verkehr
   identifier: de/energieanteile_verkehr
   metrics:
-  - id: default
+  - id: Value
+    column_id: Value
     quantity: fraction
+    unit: ''
     label:
       de: Value
-  updated_at: '1767348325'
+  sources:
+  - name: Kausal-Ergaenzung Energieanteile Strassenbahn
+    authority: Kausal Ltd
+    url:
+    description: 'Eine einzige Zeile, die ifeu nicht liefert: Strassen-, Stadt- und
+      U-Bahnen mit einem Stromanteil von 100 Prozent. Das ifeu-Blatt "Fahrleistungsaufteilung
+      Strasse" endet beim Linienbus, waehrend das Blatt "Verbrauchsfaktoren Strasse"
+      fuer diesen Verkehrstraeger einen Faktor von 6,54 kWh/Fzkm angibt und die gemeindefeine
+      Fahrleistung ihn ab 2022 als FL_SSU ausweist. Ohne die Zeile fiel der Verkehrstraeger
+      ganz aus der Bilanz heraus, obwohl Pruefschritt 2.2 ihn verlangt. Der Wert selbst
+      ist keine Schaetzung -- diese Bahnen fahren definitionsgemaess elektrisch --,
+      aber er ist eine Ergaenzung von Kausal und keine ifeu-Zahl und als solche kenntlich
+      zu halten. Liefert ifeu die Zeile nach, ist sie zu ersetzen.'
+  - name: ifeu Energieanteile Verkehr 2025
+    authority: ifeu -- Institut für Energie- und Umweltforschung Heidelberg
+    url:
+    description: Prozentuale Aufteilung der Fahrleistung im Strassenverkehr auf 
+      die Kraftstoffe und Strom, je Fahrzeugklasse und Strassenkategorie, 
+      1990-2023. Aus der Lieferung "Uebergabe Kausal Verkehr Faktoren Update 
+      2025", Blatt "Fahrleistungsaufteilung Strasse". Zusammen mit den 
+      Verbrauchsfaktoren (de/energiefaktoren_verkehr) traegt dieser Datensatz 
+      den BISKO-Weg Fahrleistung x spezifischer Verbrauch. Summiert sich je 
+      Fahrzeugklasse und Strassenkategorie auf 1.
+  index_columns:
+  - vehicle_type
+  - road_type
+  - energy_carrier
+  - Year
+  updated_at: '1787371557'
   units:
     Value: dimensionless
