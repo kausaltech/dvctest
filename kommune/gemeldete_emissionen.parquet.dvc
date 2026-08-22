@@ -1,6 +1,6 @@
 outs:
-- md5: 2da939f3479a7e3834509ab1bb487725
-  size: 11428
+- md5: 69cc85d90225e854b17525e2f1c6c102
+  size: 11732
   hash: md5
   path: gemeldete_emissionen.parquet
 meta:
@@ -8,18 +8,18 @@ meta:
     de: gemeldete_emissionen
   identifier: kommune/gemeldete_emissionen
   metrics:
-  - id: Value
-    column_id: Value
-    quantity: emissions
-    unit: t_CO2e/a
-    label:
-      de: Value
   - id: quality
     column_id: quality
     quantity: fraction
     unit: ''
     label:
       de: quality
+  - id: Value
+    column_id: Value
+    quantity: emissions
+    unit: t_CO2e/a
+    label:
+      de: Value
   sources:
   - name: Gemeldetes THG-Inventar der Kommune
     authority: Die bilanzierende Kommune
@@ -36,7 +36,7 @@ meta:
   - sector
   - energy_carrier
   - Year
-  updated_at: '1787371568'
+  updated_at: '1787372364'
   units:
-    Value: t_co2e/a
     quality: dimensionless
+    Value: t_co2e/a
