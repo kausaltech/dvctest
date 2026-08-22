@@ -1,6 +1,6 @@
 outs:
-- md5: 69cc85d90225e854b17525e2f1c6c102
-  size: 11732
+- md5: 3b38d28c2a685c7c39cb2390fc49851d
+  size: 12214
   hash: md5
   path: gemeldete_emissionen.parquet
 meta:
@@ -36,7 +36,7 @@ meta:
   - sector
   - energy_carrier
   - Year
-  updated_at: '1787372364'
+  updated_at: '1787373114'
   units:
     quality: dimensionless
     Value: t_co2e/a
