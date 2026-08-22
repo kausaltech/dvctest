@@ -1,6 +1,6 @@
 outs:
-- md5: 9e6a28cd1ca7614d1dded424b3b0199d
-  size: 13951
+- md5: 0e81851fa892f3949f6c9cf955c7bbe6
+  size: 14399
   hash: md5
   path: energieverbrauch_strassenverkehr.parquet
 meta:
@@ -26,18 +26,23 @@ meta:
     url:
     description: 'Endenergieverbrauch des Strassenverkehrs im Gemeindegebiet nach
       Fahrzeugklasse und Energietraeger, aus eigenen Verbrauchsdaten der Kommune.
-      BISKO laesst fuer den Strassenverkehr zwei Wege zu: Fahrleistung x spezifischer
-      Verbrauch, oder der Verbrauch direkt. Dies ist der zweite. Die Vorlage wird
-      leer ausgeliefert; fuer jedes nicht befuellte Jahr gilt der gemeindefeine ifeu-Defaultwert
-      aus de/energieverbrauch_strassenverkehr.; Format: Eingabe im Bilanzierungswerkzeug;
-      Licensing: Kommunale Angabe; nicht oeffentlich; Geographic Coverage: Die jeweilige
-      Kommune; Update Frequency: Jaehrlich; Date Last Updated: 2026-08-21; Updated
-      by: Kommune'
+      BISKO laesst fuer den Strassenverkehr zwei Wege zu (Pruefschritt 1.5): Fahrleistung
+      x spezifischer Verbrauch, oder der Verbrauch direkt. Dies ist der zweite, und
+      er ist rein kommunal -- eine nationale Rueckfallebene gibt es nicht mehr, seit
+      de/energieverbrauch_strassenverkehr am 21.08.2026 aus dem Modell entfernt wurde.
+      Nur Strassenfahrzeugklassen: die Schienenzeilen wurden am selben Tag entfernt,
+      sie gehoeren nach kommune/energieverbrauch_uebriger_verkehr und waeren hier
+      ein Doppeleintrag. Die Vorlage wird leer ausgeliefert; jedes nicht befuellte
+      Jahr wird ueber den Fahrleistungsweg gerechnet, und welchen Weg ein Jahr genommen
+      hat, weist der Knoten road_transport_energy_method_in_force aus.; Format: Eingabe
+      im Bilanzierungswerkzeug; Licensing: Kommunale Angabe; nicht oeffentlich; Geographic
+      Coverage: Die jeweilige Kommune; Update Frequency: Jaehrlich; Date Last Updated:
+      2026-08-21; Updated by: Kommune'
   index_columns:
   - vehicle_type
   - energy_carrier
   - Year
-  updated_at: '1787285095'
+  updated_at: '1787371578'
   units:
     Value: MWh/a
     quality: dimensionless
