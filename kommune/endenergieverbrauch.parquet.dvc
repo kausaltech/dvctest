@@ -1,27 +1,30 @@
 outs:
-- md5: 4010917ebe0bb34122c99c58f2b257f3
-  size: 15962
+- md5: 9a871e375a349a9d1d88d58290e36c4e
+  size: 11453
   hash: md5
   path: endenergieverbrauch.parquet
 meta:
   name:
-    de: Endenergieverbrauch
-    en: End energy use
+    de: endenergieverbrauch
   identifier: kommune/endenergieverbrauch
   metrics:
-  - id: energy
+  - id: Value
     column_id: Value
     quantity: energy
     unit: MWh/a
     label:
-      de: Energy
+      de: Value
   - id: quality
     column_id: quality
     quantity: fraction
-    unit: dimensionless
+    unit: ''
     label:
-      de: Data quality
-  updated_at: '1773819759'
+      de: quality
+  index_columns:
+  - sector
+  - energy_carrier
+  - Year
+  updated_at: '1787407474'
   units:
     Value: MWh/a
     quality: dimensionless
