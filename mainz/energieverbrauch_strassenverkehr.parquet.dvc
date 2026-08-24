@@ -1,6 +1,6 @@
 outs:
-- md5: 5ae9993f93f8f4f2768dd65127f629e0
-  size: 10193
+- md5: 731a267a49c9b7e652eb03b72a67f35f
+  size: 11969
   hash: md5
   path: energieverbrauch_strassenverkehr.parquet
 meta:
@@ -24,7 +24,7 @@ meta:
   - vehicle_type
   - energy_carrier
   - Year
-  updated_at: '1787592921'
+  updated_at: '1787601784'
   sources:
   - name: MVG Fahrleistung und Energieverbrauch Bus und Strassenbahn 2019-2024
     authority: Mainzer Mobilitaet (MVG) -- Florian Sturm; ueber Mainzer 
