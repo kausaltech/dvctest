@@ -1,0 +1,43 @@
+outs:
+- md5: 79a5a2c2018546c04400d6de017263d8
+  size: 9853
+  hash: md5
+  path: fahrleistung_strassenverkehr.parquet
+meta:
+  name:
+    de: Fahrleistung Strassenverkehr
+  identifier: mainz/fahrleistung_strassenverkehr
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: mileage
+    unit: Mvkm/a
+    label:
+      de: Fahrleistung
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: Datenguete
+  index_columns:
+  - vehicle_type
+  - road_type
+  - Year
+  updated_at: '1787592905'
+  sources:
+  - name: MVG Fahrleistung und Energieverbrauch Bus und Strassenbahn 2019-2024
+    authority: Mainzer Mobilitaet (MVG) -- Florian Sturm; ueber Mainzer 
+      Stadtwerke AG
+    url:
+    description: "Annual vehicle kilometres and final energy for the municipal public
+      transport fleet of Mainz, split by traction type (Dieselbus, Elektrobus, Brennstoffzellenbus,
+      Strassenbahn). Mileage from odometer readings (KM-Zaehler), energy from supplier
+      invoices (Rechnungen). Diesel converted with the workbook's own net calorific
+      value of 9.86 kWh/l. Delivered 2026-06-22 in VERBRAUCH_FAHRLEISTUNG_Autobus_Strassenbahn_2019-2024_StadtwerkeMainz_20260622.xlsx.;
+      Format: .xlsx; Licensing: Provided to the city for climate accounting; not public;
+      Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Annual; Date Last
+      Updated: 2026-06-22; Updated by: Mainzer Stadtwerke AG"
+  units:
+    Value: Mvkm/a
+    quality: ''

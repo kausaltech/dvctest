@@ -7,3 +7,4 @@
 /vehicle_energy.parquet
 /municipal_balance_activity.parquet
 /municipal_balance_emission_factors.parquet
+/fahrleistung_strassenverkehr.parquet
