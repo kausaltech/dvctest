@@ -1,6 +1,6 @@
 outs:
-- md5: 0467a783aa849c8dcee27a6c8c098821
-  size: 29319
+- md5: 4b4d99d6e6f6afe9b244ccde608831c4
+  size: 32279
   hash: md5
   path: final_energy.parquet
 meta:
@@ -24,7 +24,7 @@ meta:
   - sector
   - energy_carrier
   - Year
-  updated_at: '1787650473'
+  updated_at: '1787652881'
   sources:
   - name: EKA-RLP Datenservice Strom und Gas Mainz 2014-2024
     authority: Energieagentur Rheinland-Pfalz (EKA-RLP) -- Datenlieferservice 
@@ -95,6 +95,23 @@ meta:
       past the first block double-counts.; Format: .xlsx; Licensing: Provided to the
       city for climate accounting; not public; Geographic Coverage: Mainz (AGS 07315000);
       Update Frequency: Annual; Date Last Updated: 2026; Updated by: EKA-RLP"
+  - name: Interpolation Heizoel Mainz 2019-2023
+    authority: Kausal
+    url:
+    description: 'Linear interpolation of heating-oil consumption for 2019-2023 between
+      the two measured endpoints: 359583 MWh in 2018 (Klimaschutzplaner) and 247107
+      MWh in 2024 (chimney-sweep appliance register). Applied per sector; because
+      the 2024 sector split already uses the 2018 shares, this is equivalent to interpolating
+      the city total and re-splitting it. Datenguete D: these years carry no measurement
+      of their own and must rank below the 2024 cells, which are C. Caveat on the
+      record: the two endpoints come from different methods - 2018 modelled, 2024
+      counted - so part of the decline is an artefact of the method change rather
+      than a measured trend. The direction is right (oil heating is being phased out)
+      but the slope is not measured. Chosen deliberately over leaving five years empty;
+      replace as soon as the Schornsteinfeger register for 2019-2023 arrives.; Format:
+      derived; Licensing: Internal derivation; Geographic Coverage: Mainz (AGS 07315000);
+      Update Frequency: Replace when better data arrives; Date Last Updated: 2026-08-25;
+      Updated by: Kausal'
   units:
     quality: ''
     Value: MWh/a
