@@ -1,6 +1,6 @@
 outs:
-- md5: 2c8873e58d54ee55b274562e65afcde9
-  size: 7597
+- md5: 05affc9be94a307866b17fdf638a339c
+  size: 7493
   hash: md5
   path: emissionsfaktoren_endenergie.parquet
 meta:
@@ -17,11 +17,10 @@ meta:
   - upstream_included
   - per_what_energy
   - Year
-  updated_at: '1787697761'
+  updated_at: '1787699021'
   description:
-    de: "16 weitere Endenergietraeger fuer 2024 ergaenzt aus dem KSP-Portal ('THG
-      Stationaer', Kommune: Deutschland, gelesen 2026-08-26) -- Strom war bereits
-      am Vortag ergaenzt. Nahwaerme (local_heating) bewusst ausgelassen, siehe Chat-Diskussion
-      2026-08-26."
+    de: "Nahwaerme (local_heating) 2024 ergaenzt: 0,14 t CO2e/MWh, bestaetigter deutschlandweiter
+      ifeu-Defaultwert (nicht Mainz-spezifisch, trotz anfaenglicher KSP-Anzeige unter
+      'Kommune: Mainz'), 2026-08-26."
   units:
     Value: t_co2e/MWh
