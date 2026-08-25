@@ -1,6 +1,6 @@
 outs:
-- md5: 1e15e34c75d8cbbf8b990c3d8d7a14fb
-  size: 25969
+- md5: 0467a783aa849c8dcee27a6c8c098821
+  size: 29319
   hash: md5
   path: final_energy.parquet
 meta:
@@ -24,7 +24,7 @@ meta:
   - sector
   - energy_carrier
   - Year
-  updated_at: '1787648206'
+  updated_at: '1787650473'
   sources:
   - name: EKA-RLP Datenservice Strom und Gas Mainz 2014-2024
     authority: Energieagentur Rheinland-Pfalz (EKA-RLP) -- Datenlieferservice 
@@ -77,6 +77,24 @@ meta:
       Format: .xlsx; Licensing: Provided to the city for climate accounting; not public;
       Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Annual; Date Last
       Updated: 2026-06-22; Updated by: Mainzer Stadtwerke AG'
+  - name: EKA-RLP Feuerstaettendaten Mainz 2024
+    authority: Energieagentur Rheinland-Pfalz (EKA-RLP) -- Datenlieferservice 
+      Kommunales Klimaschutzcontrolling; based on the Schornsteinfeger register
+    url:
+    description: "Count of heating appliances in Mainz for 2024 by fuel (biomass,
+      natural gas, LPG, heating oil, coal) and power class, split into single-room
+      stoves and central boilers. Converted to final energy as count x mean power
+      x full-load hours using the workbook's own lookup: 8/15 kW at 250 h for single-room
+      stoves, 8/18/38/75/150 kW at 1600 h for central boilers (the BISKO / VDI 2067
+      default). City totals 2024: heating oil 247107 MWh, biomass 33207 MWh, LPG 7699
+      MWh. Applied to natural gas the same method yields 1507765 MWh against EKA-RLP's
+      metered 1764236, i.e. 85 percent, so the method under-reads by roughly a sixth.
+      The register carries no sector breakdown; the totals are split with each fuel's
+      2018 sector shares. Note the sheet holds a second table further down splitting
+      biomass into logs, pellets and wood chips, under the same row labels - reading
+      past the first block double-counts.; Format: .xlsx; Licensing: Provided to the
+      city for climate accounting; not public; Geographic Coverage: Mainz (AGS 07315000);
+      Update Frequency: Annual; Date Last Updated: 2026; Updated by: EKA-RLP"
   units:
     quality: ''
     Value: MWh/a
