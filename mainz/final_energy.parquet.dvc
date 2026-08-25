@@ -1,6 +1,6 @@
 outs:
-- md5: 4187dde69e11c6f4494c776c0d86b685
-  size: 35210
+- md5: 734db72e75a4ba06566902b9a9792534
+  size: 39689
   hash: md5
   path: final_energy.parquet
 meta:
@@ -24,8 +24,35 @@ meta:
   - sector
   - energy_carrier
   - Year
-  updated_at: '1787655513'
+  updated_at: '1787655578'
   sources:
+  - name: EKA-RLP Datenservice Strom und Gas Mainz 2014-2024
+    authority: Energieagentur Rheinland-Pfalz (EKA-RLP) -- Datenlieferservice 
+      Kommunales Klimaschutzcontrolling; bilanzierungstool@energieagentur.rlp.de
+    url:
+    description: "Annual grid-bound final energy for Mainz: electricity and natural
+      gas in kWh/a, split by consumer sector (private households, GHD, industry, municipal
+      properties, street lighting, heat pumps, night-storage heating, agriculture
+      and forestry, utility's own operations). Delivered 2026-03-31 and prepared by
+      Kausal in AUFBEREITET_EKA-RLP-Datenservice_Strom_Gas_2014-24_geliefert20260331.xlsx.
+      The electricity delivery combines GHD with industry; the split is estimated
+      (see the workbook's own note).; Attachment: AUFBEREITET_EKA-RLP-Datenservice_Strom_Gas_2014-24_geliefert20260331.xlsx;
+      Format: .xlsx; Licensing: Provided to the city for climate accounting; not public;
+      Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Annual; Date Last
+      Updated: 2026-03-31; Updated by: EKA-RLP"
+  - name: Klimaschutzplaner Export Mainz 1990-2024
+    authority: Landeshauptstadt Mainz -- Grün- und Umweltamt; export from the 
+      Klimaschutzplaner tool
+    url:
+    description: 'Historical BISKO final energy and emissions for Mainz as held in
+      the Klimaschutzplaner, exported per sector sheet (Private Haushalte, GHD/Sonstige,
+      Industrie, Kommunale Einrichtungen, Verkehr). Authoritative for 1990-2018 only:
+      from 2020 the export carries Heizöl values identical to Erdgas, zeroes Fernwärme,
+      Biomasse and Solarthermie, zeroes Kommunale Einrichtungen, and leaves 2024 empty.;
+      Attachment: 073150000000_stationaer_1990-2024_data.xlsx; Format: .xlsx; Licensing:
+      Provided to the city; not public; Geographic Coverage: Mainz (AGS 07315000);
+      Update Frequency: Superseded -- no further updates expected; Date Last Updated:
+      2026-01-27; Updated by: Landeshauptstadt Mainz'
   - name: Interpolation Biomasse und Fluessiggas Mainz 2019-2023
     authority: Kausal
     url:
