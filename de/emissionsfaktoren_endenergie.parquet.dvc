@@ -1,6 +1,6 @@
 outs:
-- md5: b2dcb84246a5b9f90714219c7c5213c5
-  size: 7593
+- md5: 2c8873e58d54ee55b274562e65afcde9
+  size: 7597
   hash: md5
   path: emissionsfaktoren_endenergie.parquet
 meta:
@@ -17,11 +17,11 @@ meta:
   - upstream_included
   - per_what_energy
   - Year
-  updated_at: '1787696498'
+  updated_at: '1787697761'
   description:
-    de: "Strom-Faktor 2024 (0,42 t CO2eq/MWh) ergaenzt aus dem KSP-Portal (Landeshauptstadt
-      Mainz, 'THG Verkehr 2024', gelesen 2026-08-26), als 'Kommune: Deutschland' ausgewiesen
-      -- bundesweiter Referenzwert. Die uebrigen sieben Traeger haben weiterhin keine
-      2024-Zeile."
+    de: "16 weitere Endenergietraeger fuer 2024 ergaenzt aus dem KSP-Portal ('THG
+      Stationaer', Kommune: Deutschland, gelesen 2026-08-26) -- Strom war bereits
+      am Vortag ergaenzt. Nahwaerme (local_heating) bewusst ausgelassen, siehe Chat-Diskussion
+      2026-08-26."
   units:
     Value: t_co2e/MWh
