@@ -1,6 +1,6 @@
 outs:
-- md5: 30abe04a2c02b7a00f7b29b5c9da95ab
-  size: 30612
+- md5: 1e15e34c75d8cbbf8b990c3d8d7a14fb
+  size: 25969
   hash: md5
   path: final_energy.parquet
 meta:
@@ -21,10 +21,10 @@ meta:
     label:
       de: Value
   index_columns:
-  - Year
-  - energy_carrier
   - sector
-  updated_at: '1787596037'
+  - energy_carrier
+  - Year
+  updated_at: '1787648206'
   sources:
   - name: EKA-RLP Datenservice Strom und Gas Mainz 2014-2024
     authority: Energieagentur Rheinland-Pfalz (EKA-RLP) -- Datenlieferservice 
