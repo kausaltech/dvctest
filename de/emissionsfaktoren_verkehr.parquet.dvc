@@ -1,23 +1,29 @@
 outs:
-- md5: 91481af2a1c7f1ae03b7ab4f4c2beb7e
-  size: 7035
+- md5: 3c6a64a379c0be6ca1f8f3285372092e
+  size: 7967
   hash: md5
   path: emissionsfaktoren_verkehr.parquet
 meta:
   name:
     de: Emissionsfaktoren Verkehr
-    en: Transport emission factors
   identifier: de/emissionsfaktoren_verkehr
   metrics:
   - id: well_to_tank
+    column_id: Well-to-tank
     quantity: emission_factor
-    label:
-      de: Well-to-tank
+    unit: g_co2e/kWh
   - id: well_to_wheel
+    column_id: Well-to-wheel
     quantity: emission_factor
-    label:
-      de: Well-to-wheel
-  updated_at: '1767348306'
+    unit: g_co2e/kWh
+  index_columns:
+  - energy_carrier
+  - Year
+  updated_at: '1787696488'
+  description:
+    de: "Erweitert um 2024 (Well-to-wheel) aus dem KSP-Portal (Landeshauptstadt Mainz,
+      'THG Verkehr 2024', gelesen 2026-08-26). Laut KSP-Zusatzinfo als 'Kommune: Deutschland'
+      ausgewiesen, also bundesweiter Referenzwert, nicht Mainz-spezifisch."
   units:
-    Well-to-wheel: g_co2e/kWh
     Well-to-tank: g_co2e/kWh
+    Well-to-wheel: g_co2e/kWh
