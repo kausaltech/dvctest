@@ -1,6 +1,6 @@
 outs:
-- md5: 0cdf7cfb5dac62acea2c097286107e1e
-  size: 39655
+- md5: 60362f9ad7815dae4a946237c2623709
+  size: 44273
   hash: md5
   path: municipal_balance_activity.parquet
 meta:
@@ -8,42 +8,42 @@ meta:
     de: Municipal balance activity
   identifier: mainz/municipal_balance_activity
   metrics:
-  - id: mass
-    column_id: mass
-    quantity: mass
-    unit: kg/a
-    label:
-      de: mass
   - id: emissions
     column_id: emissions
     quantity: emissions
     unit: t_CO2e/a
     label:
       de: emissions
-  - id: energy
-    column_id: energy
-    quantity: energy
-    unit: MWh/a
-    label:
-      de: energy
   - id: count
     column_id: count
     quantity: number
     unit: pieces/a
     label:
       de: count
-  - id: mileage
-    column_id: mileage
-    quantity: mileage
-    unit: pkm/a
+  - id: mass
+    column_id: mass
+    quantity: mass
+    unit: kg/a
     label:
-      de: mileage
+      de: mass
+  - id: energy
+    column_id: energy
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: energy
   - id: volume
     column_id: volume
     quantity: volume
     unit: l/a
     label:
       de: volume
+  - id: mileage
+    column_id: mileage
+    quantity: mileage
+    unit: pkm/a
+    label:
+      de: mileage
   - id: quality
     column_id: quality
     quantity: fraction
@@ -67,6 +67,21 @@ meta:
       Format: .xlsm; Licensing: Im Auftrag der Stadt erstellt; nicht öffentlich; Geographic
       Coverage: Mainz (AGS 07315000); Update Frequency: Abgeschlossen -- Nachfolgebilanz
       2022-2024 durch Kausal; Date Last Updated: 2022-12-22; Updated by: Arqum GmbH'
+  - name: COS-Datenbestand Kommunaler Fuhrpark Mainz 2022-2024
+    authority: Landeshauptstadt Mainz -- Fuhrparkmanagement (COS-Datenbestand)
+    url:
+    description: 'Kraftstoffverbrauch des kommunalen Fuhrparks 2022-2024 nach Jahr,
+      Fahrzeugklasse (PKW, Nutzfahrzeuge, Arbeitsgeräte) und Kraftstoff (Diesel, Benzin,
+      CNG, GTL, Wasserstoff, Elektro), mit Fahrzeugbestand, Zahl der Fahrzeuge mit
+      Tankdaten und gelieferter Datengüte (durchgehend A). Setzt das Blatt "Fuhrpark"
+      der Arqum-Arbeitsmappe fort, die 2021 endet. Elektrofahrzeuge sind enthalten,
+      tragen aber keinen Verbrauch (k.A.): die Ladepunkte werden nicht separat gemessen.
+      Ab 2024 ist der Entsorgungsbetrieb ausgegliedert, weshalb der Dieselverbrauch
+      der Nutzfahrzeuge von 1,08 Mio. auf 0,20 Mio. Liter fällt -- ein Bilanzgrenzenwechsel,
+      keine Minderung.; Attachment: VERBRAUCH_Kraftstoffe_Kommunaler_Fuhrpark_Mainz_2022-2024.xlsx;
+      Format: .xlsx; Licensing: Provided to the city for climate accounting; not public;
+      Geographic Coverage: Mainz (AGS 07315000), kommunaler Fuhrpark; Update Frequency:
+      Annual; Date Last Updated: 2026-08-17; Updated by: Landeshauptstadt Mainz'
   index_columns:
   - Year
   - emission_source
@@ -75,12 +90,12 @@ meta:
   - municipal_facility_type
   - scope
   - vehicle_type
-  updated_at: '1787666220'
+  updated_at: '1787690608'
   units:
-    emissions: t_co2e/a
     volume: l/a
-    quality: dimensionless
-    mass: kg/a
-    count: pcs/a
     mileage: pkm/a
+    count: pcs/a
+    emissions: t_co2e/a
+    quality: dimensionless
     energy: MWh/a
+    mass: kg/a
