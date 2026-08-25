@@ -1,49 +1,27 @@
 outs:
-- md5: 0d514c1ab86229cc44e96ba7a9bdf31c
-  size: 12404
+- md5: b2dcb84246a5b9f90714219c7c5213c5
+  size: 7593
   hash: md5
   path: emissionsfaktoren_endenergie.parquet
 meta:
   name:
     de: Emissionsfaktoren Endenergie
-    en: End energy emission factors
   identifier: de/emissionsfaktoren_endenergie
-  description:
-    de: 'Value - Energy carrier: Strom - Upstream included: Yes - Per what energy:
-      Fuel input - Metric: Value - ifeu<br/>Value - Energy carrier: Heizstrom - Upstream
-      included: Yes - Per what energy: Fuel input - Metric: Value - ifeu<br/>Value
-      - Energy carrier: Erdgas - Upstream included: Yes - Per what energy: Fuel input
-      - Metric: Value - UBA 2025<br/>Value - Energy carrier: Fernwärme - Upstream
-      included: Yes - Per what energy: Fuel input - Metric: Value - ifeu<br/>Value
-      - Energy carrier: Heizöl  - Upstream included: Yes - Per what energy: Fuel input
-      - Metric: Value - UBA 2025<br/>Value - Energy carrier: Flüssiggas - Upstream
-      included: Yes - Per what energy: Fuel input - Metric: Value - Gemis 5.1<br/>Value
-      - Energy carrier: Steinkohle - Upstream included: Yes - Per what energy: Fuel
-      input - Metric: Value - UBA 2025<br/>Value - Energy carrier: Braunkohle - Upstream
-      included: Yes - Per what energy: Fuel input - Metric: Value - UBA 2025<br/>Value
-      - Energy carrier: Solarthermie - Upstream included: Yes - Per what energy: Fuel
-      input - Metric: Value - UBA 2025<br/>Value - Energy carrier: Biomasse - Upstream
-      included: Yes - Per what energy: Fuel input - Metric: Value - UBA 2025<br/>Value
-      - Energy carrier: Umweltwärme - Upstream included: Yes - Per what energy: Fuel
-      input - Metric: Value - ifeu<br/>Value - Energy carrier: Sonstige Erneuerbare
-      Energieträger - Upstream included: Yes - Per what energy: Fuel input - Metric:
-      Value - ifeu<br/>Value - Energy carrier: Sonstige konventionelle Energieträger
-      - Upstream included: Yes - Per what energy: Fuel input - Metric: Value - ifeu<br/>Value
-      - Energy carrier: Nahwärme - Upstream included: Yes - Per what energy: Fuel
-      input - Metric: Value - ifeu<br/>Value - Energy carrier: Biogas - Upstream included:
-      Yes - Per what energy: Fuel input - Metric: Value - UBA 2025<br/>Value - Energy
-      carrier: Konventioneller Abwärme >90 C - Upstream included: Yes - Per what energy:
-      Fuel input - Metric: Value - ifeu<br/>Value - Energy carrier: Konventioneller
-      Abwärme <90 C - Upstream included: Yes - Per what energy: Fuel input - Metric:
-      Value - ifeu<br/>Value - Energy carrier: Erneuerbarer Abwärme >90 C - Upstream
-      included: Yes - Per what energy: Fuel input - Metric: Value - ifeu<br/>Value
-      - Energy carrier: Erneuerbarer Abwärme <90 C - Upstream included: Yes - Per
-      what energy: Fuel input - Metric: Value - ifeu'
   metrics:
   - id: default
+    column_id: Value
     quantity: emission_factor
-    label:
-      de: Value
-  updated_at: '1763881061'
+    unit: t_co2e/MWh
+  index_columns:
+  - energy_carrier
+  - upstream_included
+  - per_what_energy
+  - Year
+  updated_at: '1787696498'
+  description:
+    de: "Strom-Faktor 2024 (0,42 t CO2eq/MWh) ergaenzt aus dem KSP-Portal (Landeshauptstadt
+      Mainz, 'THG Verkehr 2024', gelesen 2026-08-26), als 'Kommune: Deutschland' ausgewiesen
+      -- bundesweiter Referenzwert. Die uebrigen sieben Traeger haben weiterhin keine
+      2024-Zeile."
   units:
     Value: t_co2e/MWh
