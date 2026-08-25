@@ -1,0 +1,34 @@
+outs:
+- md5: 79c4ac63e5cf330da876e238d6487fee
+  size: 11822
+  hash: md5
+  path: witterungsbereinigung.parquet
+meta:
+  name:
+    de: Witterungsbereinigung Mainz
+  identifier: mainz/witterungsbereinigung
+  metrics:
+  - id: default
+    column_id: default
+    quantity: ratio
+    unit: ''
+  index_columns:
+  - sector
+  - Year
+  updated_at: '1787683766'
+  sources:
+  - name: KSP-Export Witterungskorrektur Mainz 1990-2024
+    authority: Landeshauptstadt Mainz -- Gruen- und Umweltamt; dedizierte 
+      Einzelabfrage im Klimaschutzplaner
+    url:
+    description: "Final energy by stationary sector, both with and without degree-day
+      (Witterungs-) correction, 1990-2024. Used only to derive the ratio between the
+      two series per sector and year, replacing the shipped Potsdam placeholder in
+      kommune/witterungsbereinigung with Mainz's own degree days. Not used to change
+      any modelled energy value -- BISKO criterion 5 forbids the correction itself,
+      and the switch stays off regardless of these factors.; Format: xlsx; Licensing:
+      Provided to the city; not public; Geographic Coverage: Mainz (AGS 07315000);
+      Update Frequency: Superseded -- single delivery; Date Last Updated: 2026-08-25;
+      Updated by: Landeshauptstadt Mainz"
+  units:
+    default: ''
