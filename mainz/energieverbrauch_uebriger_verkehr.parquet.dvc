@@ -1,5 +1,5 @@
 outs:
-- md5: 2536c0fc552a6dcdcb319cb6df368ae6
+- md5: 187185e4286f528e3a5740b7b5b14e0f
   size: 10865
   hash: md5
   path: energieverbrauch_uebriger_verkehr.parquet
@@ -24,7 +24,7 @@ meta:
   - vehicle_type
   - energy_carrier
   - Year
-  updated_at: '1787647590'
+  updated_at: '1787647747'
   sources:
   - name: Klimaschutzplaner Export Mainz uebriger Verkehr 2019-2023
     authority: Landeshauptstadt Mainz -- Gruen- und Umweltamt; export from the 
