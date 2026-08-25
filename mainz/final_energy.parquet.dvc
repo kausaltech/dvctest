@@ -1,6 +1,6 @@
 outs:
-- md5: 734db72e75a4ba06566902b9a9792534
-  size: 39689
+- md5: d343ce0d08aac620f9cbbd864f4cf436
+  size: 41446
   hash: md5
   path: final_energy.parquet
 meta:
@@ -24,7 +24,7 @@ meta:
   - sector
   - energy_carrier
   - Year
-  updated_at: '1787655578'
+  updated_at: '1787655749'
   sources:
   - name: EKA-RLP Datenservice Strom und Gas Mainz 2014-2024
     authority: Energieagentur Rheinland-Pfalz (EKA-RLP) -- Datenlieferservice 
@@ -53,6 +53,17 @@ meta:
       Provided to the city; not public; Geographic Coverage: Mainz (AGS 07315000);
       Update Frequency: Superseded -- no further updates expected; Date Last Updated:
       2026-01-27; Updated by: Landeshauptstadt Mainz'
+  - name: Schätzung Sektor-Split Strom GHD/Industrie Mainz
+    authority: Kausal
+    url:
+    description: 'Estimated share of industry within the combined GHD+industry electricity
+      consumption reported by EKA-RLP. Derived in 2026 from German industry-sector
+      energy statistics and employment statistics (national averages) applied to Mainz
+      employment by branch. Factor 0.35. The source workbook carries the instruction
+      to re-check every 2.5 to 5 years.; Attachment: Schätzung & Plausibilitätsprüfung
+      von Energieverbrauch-Sektor-Split.xlsx; Format: .xlsx; Licensing: Internal derivation;
+      Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Re-check every
+      2.5-5 years; Date Last Updated: 2026-07-22; Updated by: Kausal'
   - name: Interpolation Biomasse und Fluessiggas Mainz 2019-2023
     authority: Kausal
     url:
