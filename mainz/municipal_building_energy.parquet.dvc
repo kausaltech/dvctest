@@ -1,6 +1,6 @@
 outs:
-- md5: bbd18dad348095349f0181e7eb54092f
-  size: 16325
+- md5: d25d2810dde6106cf263ba302fe2139c
+  size: 17172
   hash: md5
   path: municipal_building_energy.parquet
 meta:
@@ -8,18 +8,18 @@ meta:
     de: Municipal building energy
   identifier: mainz/municipal_building_energy
   metrics:
-  - id: energy
-    column_id: energy
-    quantity: energy
-    unit: kWh/a
-    label:
-      de: energy
   - id: volume
     column_id: volume
     quantity: volume
     unit: l/a
     label:
       de: volume
+  - id: energy
+    column_id: energy
+    quantity: energy
+    unit: kWh/a
+    label:
+      de: energy
   sources:
   - name: Gebäudewirtschaft Mainz SAP EVU Datenarchiv bis 2023
     authority: Landeshauptstadt Mainz -- Gebäudewirtschaft Mainz, 
@@ -40,10 +40,11 @@ meta:
   index_columns:
   - Year
   - energy_carrier
+  - ghg_category
   - municipal_facility_type
   - we_from
   - we_to
-  updated_at: '1787651032'
+  updated_at: '1787666283'
   units:
-    volume: l/a
     energy: kWh/a
+    volume: l/a
