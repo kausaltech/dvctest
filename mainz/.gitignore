@@ -10,3 +10,4 @@
 /fahrleistung_strassenverkehr.parquet
 /energieverbrauch_strassenverkehr.parquet
 /energieverbrauch_uebriger_verkehr.parquet
+/kwk_anlagenparameter.parquet

@@ -1,0 +1,44 @@
+outs:
+- md5: ecc7cf572a9d42c5290648beab8ee6eb
+  size: 10342
+  hash: md5
+  path: kwk_anlagenparameter.parquet
+meta:
+  name:
+    de: KWK-Anlagenparameter
+  identifier: mainz/kwk_anlagenparameter
+  metrics:
+  - id: electricity_fraction
+    column_id: electricity_fraction
+    quantity: fraction
+    unit: ''
+    label:
+      de: Stromanteil
+  index_columns:
+  - Year
+  updated_at: '1787660120'
+  sources:
+  - name: Mainzer Fernwaerme KWK-Anlagendaten 2021-2025
+    authority: Mainzer Fernwaerme GmbH, ueber Mainzer Stadtwerke AG
+    url:
+    description: "Annual CHP electricity for the Mainz district heating plants (KW3,
+      KW5, the KW3 steam share, MHKW and TVM), 2021-2025. The sheet offers gross and
+      net generation and provisional and final CHP electricity; the utility states
+      which applies: 'zgl. der Bilanzierung unserer FW-Emissionen/dem PEF verwende
+      ich gemaess der Berechnungsmethoden den endgueltigen KWK-Strom Netto'. That
+      figure divided by itself plus the delivered heat gives the electricity fraction
+      the exergetic allocation needs: 0.427 (2021), 0.395 (2022), 0.330 (2023), 0.334
+      (2024) - against the shared template's placeholder of 0.30. TVM's net figures
+      for 2022-2024 are MWh written into a kWh column (965/747/612 against 8.7-9.6
+      million kWh gross); the 2025 row confirms the ratio at about 11 percent either
+      way. Corrected on read; TVM is 0.3 percent of the total. The supply temperature
+      is given as a range, 90-115 C by season, and therefore lives as a slider parameter
+      on the node rather than in this dataset. The delivery starts in 2021, so 2019
+      and 2020 are left empty for the node to extend. Note the utility also says the
+      Carnot method is maintained 'nur informatorisch' for now and becomes binding
+      for district heating only during the coming year.; Format: .xlsx; Licensing:
+      Provided to the city for climate accounting; not public; Geographic Coverage:
+      Mainz (AGS 07315000); Update Frequency: Annual; Date Last Updated: 2026-08-24;
+      Updated by: Mainzer Fernwaerme GmbH"
+  units:
+    electricity_fraction: ''
