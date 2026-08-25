@@ -1,30 +1,26 @@
 outs:
-- md5: d343ce0d08aac620f9cbbd864f4cf436
-  size: 41446
+- md5: 526e884eebdf73efd55b9caefe415726
+  size: 41214
   hash: md5
   path: final_energy.parquet
 meta:
   name:
-    de: Final energy
+    de: Endenergie Mainz
   identifier: mainz/final_energy
   metrics:
   - id: quality
     column_id: quality
     quantity: fraction
     unit: ''
-    label:
-      de: quality
   - id: Value
     column_id: Value
     quantity: energy
     unit: MWh/a
-    label:
-      de: Value
   index_columns:
   - sector
   - energy_carrier
   - Year
-  updated_at: '1787655749'
+  updated_at: '1787683741'
   sources:
   - name: EKA-RLP Datenservice Strom und Gas Mainz 2014-2024
     authority: Energieagentur Rheinland-Pfalz (EKA-RLP) -- Datenlieferservice 
@@ -152,6 +148,18 @@ meta:
       Format: .xlsx; Licensing: Provided to the city for climate accounting; not public;
       Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Annual; Date Last
       Updated: 2026-06-22; Updated by: Mainzer Stadtwerke AG'
+  - name: KSP-Export Steinkohle Mainz 2017-2024
+    authority: Landeshauptstadt Mainz -- Gruen- und Umweltamt; dedizierte 
+      Einzelabfrage im Klimaschutzplaner
+    url:
+    description: 'Per-carrier KSP query for hard coal (Steinkohle) final energy by
+      sector, 2017-2024. 2017-2023 reproduce the existing Klimaschutzplaner sectoral
+      figures almost to the decimal; 2024 is the only new column, adding the year
+      the model previously held flat. The pre-existing 2019 jump in industrial coal
+      (0 to ~54 GWh) remains unexplained -- carried forward, not resolved, by this
+      delivery.; Format: xlsx; Licensing: Provided to the city; not public; Geographic
+      Coverage: Mainz (AGS 07315000); Update Frequency: Superseded -- single delivery;
+      Date Last Updated: 2026-08-25; Updated by: Landeshauptstadt Mainz'
   units:
     quality: ''
     Value: MWh/a
