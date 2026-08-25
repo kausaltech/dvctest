@@ -1,6 +1,6 @@
 outs:
-- md5: 187185e4286f528e3a5740b7b5b14e0f
-  size: 10865
+- md5: 448cd4e2dc88eedea2d84846e1212f34
+  size: 13679
   hash: md5
   path: energieverbrauch_uebriger_verkehr.parquet
 meta:
@@ -12,19 +12,15 @@ meta:
     column_id: Value
     quantity: energy
     unit: MWh/a
-    label:
-      de: Energieverbrauch
   - id: quality
     column_id: quality
     quantity: fraction
     unit: ''
-    label:
-      de: Datenguete
   index_columns:
   - vehicle_type
   - energy_carrier
   - Year
-  updated_at: '1787647747'
+  updated_at: '1787693229'
   sources:
   - name: Klimaschutzplaner Export Mainz uebriger Verkehr 2019-2023
     authority: Landeshauptstadt Mainz -- Gruen- und Umweltamt; export from the 
@@ -42,6 +38,19 @@ meta:
       in 2023.; Format: .parquet; Licensing: Provided to the city; not public; Geographic
       Coverage: Mainz (AGS 07315000); Update Frequency: Annual; Date Last Updated:
       2026-08-19; Updated by: Landeshauptstadt Mainz'
+  - name: KSP-Export Schienen- und Binnenschifffahrtsverkehr Mainz 2017-2024
+    authority: Landeshauptstadt Mainz -- Gruen- und Umweltamt; dedizierte 
+      Einzelabfragen im Klimaschutzplaner
+    url:
+    description: 'Per-mode KSP queries for rail (long-distance/local/freight, VERBRAUCH_Schienenverkehr)
+      and inland waterway shipping (VERBRAUCH_Binnenschifffahrt), 2017-2024. Used
+      only for the 2024 column; 2019-2023 already matched the existing Klimaschutzplaner-derived
+      figures and were left untouched. Quality graded C (0,25), matching the existing
+      2019-2023 convention, not the higher grade KSP itself reports for these fields
+      (see add_other_transport_2024.py).; Format: xlsx; Licensing: Provided to the
+      city; not public; Geographic Coverage: Mainz (AGS 07315000); Update Frequency:
+      Superseded -- single delivery; Date Last Updated: 2026-08-26; Updated by: Landeshauptstadt
+      Mainz'
   units:
     Value: MWh/a
     quality: ''
