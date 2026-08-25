@@ -1,5 +1,5 @@
 outs:
-- md5: 5a7e9fc49fa83baf0d1e512a458e4f76
+- md5: 0cdf7cfb5dac62acea2c097286107e1e
   size: 39655
   hash: md5
   path: municipal_balance_activity.parquet
@@ -8,30 +8,6 @@ meta:
     de: Municipal balance activity
   identifier: mainz/municipal_balance_activity
   metrics:
-  - id: mileage
-    column_id: mileage
-    quantity: mileage
-    unit: pkm/a
-    label:
-      de: mileage
-  - id: volume
-    column_id: volume
-    quantity: volume
-    unit: l/a
-    label:
-      de: volume
-  - id: count
-    column_id: count
-    quantity: number
-    unit: pieces/a
-    label:
-      de: count
-  - id: energy
-    column_id: energy
-    quantity: energy
-    unit: MWh/a
-    label:
-      de: energy
   - id: mass
     column_id: mass
     quantity: mass
@@ -44,6 +20,30 @@ meta:
     unit: t_CO2e/a
     label:
       de: emissions
+  - id: energy
+    column_id: energy
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: energy
+  - id: count
+    column_id: count
+    quantity: number
+    unit: pieces/a
+    label:
+      de: count
+  - id: mileage
+    column_id: mileage
+    quantity: mileage
+    unit: pkm/a
+    label:
+      de: mileage
+  - id: volume
+    column_id: volume
+    quantity: volume
+    unit: l/a
+    label:
+      de: volume
   - id: quality
     column_id: quality
     quantity: fraction
@@ -75,12 +75,12 @@ meta:
   - municipal_facility_type
   - scope
   - vehicle_type
-  updated_at: '1787651105'
+  updated_at: '1787666220'
   units:
-    mileage: pkm/a
-    mass: kg/a
-    count: pcs/a
+    emissions: t_co2e/a
     volume: l/a
     quality: dimensionless
+    mass: kg/a
+    count: pcs/a
+    mileage: pkm/a
     energy: MWh/a
-    emissions: t_co2e/a
