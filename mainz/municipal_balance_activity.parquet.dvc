@@ -1,6 +1,6 @@
 outs:
-- md5: fabb0d2d7aefa8a3c03c3b49f9e1f0cf
-  size: 39484
+- md5: 5a7e9fc49fa83baf0d1e512a458e4f76
+  size: 39655
   hash: md5
   path: municipal_balance_activity.parquet
 meta:
@@ -8,24 +8,6 @@ meta:
     de: Municipal balance activity
   identifier: mainz/municipal_balance_activity
   metrics:
-  - id: count
-    column_id: count
-    quantity: number
-    unit: pieces/a
-    label:
-      de: count
-  - id: quality
-    column_id: quality
-    quantity: fraction
-    unit: ''
-    label:
-      de: quality
-  - id: energy
-    column_id: energy
-    quantity: energy
-    unit: MWh/a
-    label:
-      de: energy
   - id: mileage
     column_id: mileage
     quantity: mileage
@@ -38,6 +20,18 @@ meta:
     unit: l/a
     label:
       de: volume
+  - id: count
+    column_id: count
+    quantity: number
+    unit: pieces/a
+    label:
+      de: count
+  - id: energy
+    column_id: energy
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: energy
   - id: mass
     column_id: mass
     quantity: mass
@@ -50,6 +44,12 @@ meta:
     unit: t_CO2e/a
     label:
       de: emissions
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: quality
   sources:
   - name: Arqum Verwaltungsbilanz Mainz 2019-2021
     authority: Arqum GmbH im Auftrag der Landeshauptstadt Mainz
@@ -75,12 +75,12 @@ meta:
   - municipal_facility_type
   - scope
   - vehicle_type
-  updated_at: '1786541467'
+  updated_at: '1787651105'
   units:
-    emissions: t_co2e/a
-    mass: kg/a
-    energy: MWh/a
     mileage: pkm/a
+    mass: kg/a
     count: pcs/a
     volume: l/a
     quality: dimensionless
+    energy: MWh/a
+    emissions: t_co2e/a
