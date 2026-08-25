@@ -1,5 +1,5 @@
 outs:
-- md5: 49a1d56b8aa2039703583e092f6e6563
+- md5: 99819e40c725c8b80ecac2d9556e1331
   size: 25664
   hash: md5
   path: municipal_balance_emission_factors.parquet
@@ -14,6 +14,12 @@ meta:
     unit: kg_co2e/kg
     label:
       de: emission_factor_per_mass
+  - id: emission_factor_per_mileage
+    column_id: emission_factor_per_mileage
+    quantity: emission_factor
+    unit: kg_co2e/pkm
+    label:
+      de: emission_factor_per_mileage
   - id: emission_factor_per_energy
     column_id: emission_factor_per_energy
     quantity: emission_factor
@@ -32,12 +38,6 @@ meta:
     unit: kg_co2e/pieces
     label:
       de: emission_factor_per_count
-  - id: emission_factor_per_mileage
-    column_id: emission_factor_per_mileage
-    quantity: emission_factor
-    unit: kg_co2e/pkm
-    label:
-      de: emission_factor_per_mileage
   sources:
   - name: Arqum Emissionsfaktoren Verwaltungsbilanz Mainz
     authority: Arqum GmbH (Zusammenstellung); Primärquellen GEMIS 5.0, TREMOD 
@@ -62,10 +62,10 @@ meta:
   - ghg_category
   - scope
   - vehicle_type
-  updated_at: '1787651113'
+  updated_at: '1787666227'
   units:
+    emission_factor_per_mileage: kg_co2e/pkm
+    emission_factor_per_mass: kg_co2e/kg
     emission_factor_per_volume: kg_co2e/l
     emission_factor_per_energy: kg_co2e/MWh
-    emission_factor_per_mileage: kg_co2e/pkm
     emission_factor_per_count: kg_co2e/pcs
-    emission_factor_per_mass: kg_co2e/kg
