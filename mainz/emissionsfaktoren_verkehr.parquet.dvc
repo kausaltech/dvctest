@@ -1,6 +1,6 @@
 outs:
-- md5: 128bce78c3fc4a55cceac0110fd81dee
-  size: 7770
+- md5: c561dc8c5fab824a112c27d2dc65262a
+  size: 7918
   hash: md5
   path: emissionsfaktoren_verkehr.parquet
 meta:
@@ -11,18 +11,20 @@ meta:
   - id: well_to_tank
     column_id: Well-to-tank
     quantity: emission_factor
+    unit: g_co2e/kWh
   - id: well_to_wheel
     column_id: Well-to-wheel
     quantity: emission_factor
+    unit: g_co2e/kWh
   index_columns:
   - energy_carrier
   - Year
-  updated_at: '1787693278'
+  updated_at: '1787693699'
   description:
     de: Mainz-Kopie von de/emissionsfaktoren_verkehr, erweitert um 2024 
       (Well-to-wheel) aus der KSP-Portal-Ansicht 'THG Verkehr 2024', gelesen 
       2026-08-26. Well-to-tank bleibt fuer 2024 leer, wird von keinem Knoten 
       gelesen.
   units:
-    Well-to-tank: ''
-    Well-to-wheel: ''
+    Well-to-tank: g_co2e/kWh
+    Well-to-wheel: g_co2e/kWh
