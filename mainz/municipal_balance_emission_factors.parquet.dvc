@@ -1,6 +1,6 @@
 outs:
-- md5: da4b155bb8fbb3cebf4e0a10bc9559e9
-  size: 25939
+- md5: 49a1d56b8aa2039703583e092f6e6563
+  size: 25664
   hash: md5
   path: municipal_balance_emission_factors.parquet
 meta:
@@ -8,30 +8,30 @@ meta:
     de: Municipal balance emission factors
   identifier: mainz/municipal_balance_emission_factors
   metrics:
-  - id: emission_factor_per_volume
-    column_id: emission_factor_per_volume
-    quantity: emission_factor
-    unit: kg_co2e/l
-    label:
-      de: emission_factor_per_volume
   - id: emission_factor_per_mass
     column_id: emission_factor_per_mass
     quantity: emission_factor
     unit: kg_co2e/kg
     label:
       de: emission_factor_per_mass
-  - id: emission_factor_per_count
-    column_id: emission_factor_per_count
-    quantity: emission_factor
-    unit: kg_co2e/pieces
-    label:
-      de: emission_factor_per_count
   - id: emission_factor_per_energy
     column_id: emission_factor_per_energy
     quantity: emission_factor
     unit: kg_co2e/MWh
     label:
       de: emission_factor_per_energy
+  - id: emission_factor_per_volume
+    column_id: emission_factor_per_volume
+    quantity: emission_factor
+    unit: kg_co2e/l
+    label:
+      de: emission_factor_per_volume
+  - id: emission_factor_per_count
+    column_id: emission_factor_per_count
+    quantity: emission_factor
+    unit: kg_co2e/pieces
+    label:
+      de: emission_factor_per_count
   - id: emission_factor_per_mileage
     column_id: emission_factor_per_mileage
     quantity: emission_factor
@@ -62,10 +62,10 @@ meta:
   - ghg_category
   - scope
   - vehicle_type
-  updated_at: '1786541474'
+  updated_at: '1787651113'
   units:
-    emission_factor_per_mass: kg_co2e/kg
     emission_factor_per_volume: kg_co2e/l
-    emission_factor_per_count: kg_co2e/pcs
     emission_factor_per_energy: kg_co2e/MWh
     emission_factor_per_mileage: kg_co2e/pkm
+    emission_factor_per_count: kg_co2e/pcs
+    emission_factor_per_mass: kg_co2e/kg
