@@ -1,43 +1,27 @@
 outs:
-- md5: 67b4e8e06b1498940b329aace7bbf40d
-  size: 10561
+- md5: ef5d7afb0b03a88f119650e633c2bc36
+  size: 7068
   hash: md5
   path: emissionsfaktoren_erzeugung.parquet
 meta:
   name:
     de: Emissionsfaktoren Erzeugung
-    en: Generation emission factors
   identifier: de/emissionsfaktoren_erzeugung
-  description:
-    de: 'Value - Energy carrier: Erdgas - Upstream included: Yes - Per what energy:
-      Fuel input - Metric: Value - ifeu/GEMIS<br/>Value - Energy carrier: Steinkohle
-      - Upstream included: Yes - Per what energy: Fuel input - Metric: Value - UBA
-      2025<br/>Value - Energy carrier: Braunkohle - Upstream included: Yes - Per what
-      energy: Fuel input - Metric: Value - UBA 2025<br/>Value - Energy carrier: Heizöl
-      - Upstream included: Yes - Per what energy: Fuel input - Metric: Value - ifeu/GEMIS<br/>Value
-      - Energy carrier: Abfall - Upstream included: Yes - Per what energy: Fuel input
-      - Metric: Value - ifeu<br/>Value - Energy carrier: Biogas - Upstream included:
-      Yes - Per what energy: Fuel input - Metric: Value - UBA 2025<br/>Value - Energy
-      carrier: Biomasse - Upstream included: Yes - Per what energy: Fuel input - Metric:
-      Value - UBA 2025<br/>Value - Energy carrier: Flüssiggas - Upstream included:
-      Yes - Per what energy: Fuel input - Metric: Value - GEMIS<br/>Value - Energy
-      carrier: Sonstige konventionelle Energieträger - Upstream included: Yes - Per
-      what energy: Fuel input - Metric: Value - ifeu<br/>Value - Energy carrier: Sonstige
-      Erneuerbare Energieträger - Upstream included: Yes - Per what energy: Fuel input
-      - Metric: Value - ifeu<br/>Value - Energy carrier: Fotovoltaik - Upstream included:
-      Yes - Per what energy: Electricity output - Metric: Value - UBA 2025<br/>Value
-      - Energy carrier: Wind - Upstream included: Yes - Per what energy: Electricity
-      output - Metric: Value - UBA 2025<br/>Value - Energy carrier: Wasser - Upstream
-      included: Yes - Per what energy: Electricity output - Metric: Value - UBA 2025<br/>Value
-      - Energy carrier: Biomasse - Upstream included: Yes - Per what energy: Electricity
-      output - Metric: Value - UBA 2025<br/>Value - Energy carrier: Klär- Deponie-
-      Grubengas - Upstream included: Yes - Per what energy: Electricity output - Metric:
-      Value - UBA 2025'
   metrics:
   - id: default
+    column_id: Value
     quantity: emission_factor
-    label:
-      de: Value
-  updated_at: '1763881069'
+    unit: t_co2e/MWh
+  index_columns:
+  - energy_carrier
+  - upstream_included
+  - per_what_energy
+  - Year
+  updated_at: '1787697772'
+  description:
+    de: "14 Energietraeger (fuel_input und/oder electricity_output) fuer 2024 ergaenzt
+      aus dem KSP-Portal ('THG Stationaer', Kommune: Deutschland, gelesen 2026-08-26).
+      fluessige Biomasse und Geothermie bewusst ausgelassen -- keine passende Kategorie
+      im Schema."
   units:
     Value: t_co2e/MWh
