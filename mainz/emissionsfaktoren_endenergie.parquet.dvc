@@ -1,6 +1,6 @@
 outs:
-- md5: a30ef0d3ddeb6af8189bfbfef76da96a
-  size: 7579
+- md5: 0058bf67bb80743136ada233e7ebabcb
+  size: 7650
   hash: md5
   path: emissionsfaktoren_endenergie.parquet
 meta:
@@ -11,16 +11,17 @@ meta:
   - id: default
     column_id: Value
     quantity: emission_factor
+    unit: t_co2e/MWh
   index_columns:
   - energy_carrier
   - upstream_included
   - per_what_energy
   - Year
-  updated_at: '1787693305'
+  updated_at: '1787693710'
   description:
     de: Mainz-Kopie von de/emissionsfaktoren_endenergie, erweitert um den 
-      Strom-Faktor 2024 (0,42 kg CO2eq/kWh, oeffentlicher Strommix BISKO) aus 
-      der KSP-Portal-Ansicht 'THG Verkehr 2024', gelesen 2026-08-26. Nur Strom 
+      Strom-Faktor 2024 (0,42 t CO2eq/MWh, oeffentlicher Strommix BISKO) aus der
+      KSP-Portal-Ansicht 'THG Verkehr 2024', gelesen 2026-08-26. Nur Strom 
       ergaenzt -- die uebrigen sieben Traeger haben weiterhin keine 2024-Zeile.
   units:
-    Value: ''
+    Value: t_co2e/MWh
