@@ -1,0 +1,47 @@
+outs:
+- md5: 2536c0fc552a6dcdcb319cb6df368ae6
+  size: 10865
+  hash: md5
+  path: energieverbrauch_uebriger_verkehr.parquet
+meta:
+  name:
+    de: Energieverbrauch uebriger Verkehr
+  identifier: mainz/energieverbrauch_uebriger_verkehr
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: Energieverbrauch
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: Datenguete
+  index_columns:
+  - vehicle_type
+  - energy_carrier
+  - Year
+  updated_at: '1787647590'
+  sources:
+  - name: Klimaschutzplaner Export Mainz uebriger Verkehr 2019-2023
+    authority: Landeshauptstadt Mainz -- Gruen- und Umweltamt; export from the 
+      Klimaschutzplaner tool via the ksp-extract pipeline
+    url:
+    description: 'Territorial non-road transport final energy for Mainz, 2019-2023:
+      local, long-distance and freight rail (electricity and diesel), inland waterway
+      shipping (diesel) and aviation (kerosene). Read from the Klimaschutzplaner input
+      fields EEV_SPNV_St, EEV_SPNV_D_foss, EEV_SPNV_D_bio, EEV_SPFV_St, EEV_SPFV_Kr,
+      EEV_SGV_St, EEV_SGV_Kr, EEV_BiSchi and EEV_Flug. Local-rail diesel is the sum
+      of the fossil and biogenic fields, because this dataset has no biodiesel carrier
+      for rail; that books roughly 7 percent of it as fossil. Long-distance rail diesel
+      and aviation kerosene are genuine reported zeros - the line through Mainz is
+      fully electrified and the territory has no commercial airport. The series ends
+      in 2023.; Format: .parquet; Licensing: Provided to the city; not public; Geographic
+      Coverage: Mainz (AGS 07315000); Update Frequency: Annual; Date Last Updated:
+      2026-08-19; Updated by: Landeshauptstadt Mainz'
+  units:
+    Value: MWh/a
+    quality: ''
