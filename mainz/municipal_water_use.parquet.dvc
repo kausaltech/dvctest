@@ -1,6 +1,6 @@
 outs:
-- md5: cb22ddab620d5488a3cbcdc02711328a
-  size: 10784
+- md5: 32520d09c2cdee304853363d50eb225a
+  size: 11533
   hash: md5
   path: municipal_water_use.parquet
 meta:
@@ -33,9 +33,10 @@ meta:
       Mainz (EM/690402)'
   index_columns:
   - Year
+  - ghg_category
   - municipal_facility_type
   - we_from
   - we_to
-  updated_at: '1787651069'
+  updated_at: '1787666305'
   units:
     volume: m**3/a
