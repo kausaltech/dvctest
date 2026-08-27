@@ -1,6 +1,6 @@
 outs:
-- md5: 13caa78022664ede224f49ee48ca294b
-  size: 11182
+- md5: de31839425c1ee24790aed0fb544fccd
+  size: 11593
   hash: md5
   path: witterungsbereinigung.parquet
 meta:
@@ -41,6 +41,6 @@ meta:
   index_columns:
   - sector
   - Year
-  updated_at: '1787806668'
+  updated_at: '1787807189'
   units:
     default: dimensionless
