@@ -1,0 +1,47 @@
+outs:
+- md5: aa6c4a7273135e778ea49442d80f85f9
+  size: 619792
+  hash: md5
+  path: heating_degree_days.parquet
+meta:
+  name:
+    en: heating_degree_days
+  identifier: weather/heating_degree_days/heating_degree_days
+  metrics:
+  - id: hdd_eurostat
+    column_id: hdd_eurostat
+    quantity: number
+    unit: HDD_eurostat
+    label:
+      en: hdd_eurostat
+  sources:
+  - name: Eurostat Heizgradtage (nrg_chddr2_a)
+    authority: Eurostat
+    url: 
+      https://ec.europa.eu/eurostat/databrowser/view/nrg_chddr2_a/default/table
+    description: 'Heizgradtage je Jahr und NUTS-Region aus dem Eurostat-Datensatz
+      nrg_chddr2_a ("Cooling and heating degree days by NUTS 3 region -- annual data").
+      Enthaelt alle NUTS-Ebenen von Land bis NUTS-3, ab 1980, fuer EU und EFTA; fuer
+      kreisfreie Staedte entspricht die NUTS-3-Region der Stadt selbst. Wird einmal
+      jaehrlich von data/weather/fetch_eurostat_degree_days.py geladen und als DVC-Datensatz
+      weather/heating_degree_days abgelegt; die stadtspezifischen Bereinigungsfaktoren
+      entstehen daraus in data/weather/create_degree_day_factors.py. Tagesregel: Liegt
+      die Tagesmitteltemperatur Tm bei hoechstens 15 degC, traegt der Tag (18 degC
+      - Tm) bei, sonst nichts; Jahressumme, Einheit K*day. Die deutsche Gradtagzahl
+      G20/15 (VDI 3807) verwendet dieselbe Heizgrenze von 15 degC, aber eine Raumreferenz
+      von 20 degC, ist also um rund 2 K je Heiztag groesser. Das ist keine Einheitenumrechnung:
+      Der Unterschied haengt von der Zahl der Heiztage ab und faellt je Jahr und Ort
+      anders aus. Jede Konvention hat deshalb in nodes/units.py eine eigene Pint-Dimension
+      (HDD_eurostat, HDD_vdi3807, CDD_eurostat), sodass Pint das Vermischen verweigert
+      statt es zu verbergen; in dieser Tabelle ist jede Konvention eine eigene Metrik
+      mit eigener Einheit (Metric hdd_eurostat, Unit HDD_eurostat).; Format: JSON-stat
+      API; Licensing: Eurostat open data, freie Weiterverwendung mit Quellenangabe;
+      Geographic Coverage: EU und EFTA; Update Frequency: Jaehrlich (neues Jahr etwa
+      im Mai); Date Last Updated: 2026-05-08; Updated by: Kausal'
+  index_columns:
+  - nuts
+  - region
+  - Year
+  updated_at: '1787804382'
+  units:
+    hdd_eurostat: HDD_eurostat
