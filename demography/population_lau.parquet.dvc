@@ -1,0 +1,68 @@
+outs:
+- md5: 48024fc85942a77fa17a3348ffdc6db2
+  size: 16309849
+  hash: md5
+  path: population_lau.parquet
+meta:
+  name:
+    en: population_lau
+  identifier: demography/population_lau
+  metrics:
+  - id: population
+    column_id: population
+    quantity: population
+    unit: cap
+    label:
+      en: population
+  sources:
+  - name: Eurostat GISCO Einwohnerzahl je Gemeinde (LAU)
+    authority: Eurostat GISCO
+    url: https://gisco-services.ec.europa.eu/distribution/v2/lau/
+    description: 'Einwohnerzahl je Gemeinde (LAU, Local Administrative Unit) aus den
+      Eurostat-GISCO-LAU-Veroeffentlichungen unter https://gisco-services.ec.europa.eu/distribution/v2/lau/.
+      GISCO veroeffentlicht eine Ausgabe pro Jahr, jeweils eine vollstaendige Momentaufnahme
+      aller europaeischen Gemeinden mit den Spalten GISCO_ID, CNTR_CODE, LAU_NAME
+      und POP_<Jahr>; Ausgaben 2011 bis 2024, 97.987 Gemeinden in der Ausgabe 2024.
+      Es gibt keine API und keine mehrjaehrige Datei, daher wird die Zeitreihe von
+      data/population/fetch_gisco_lau_population.py aus je einer Ausgabe pro Jahr
+      zusammengesetzt und ueber die GISCO-ID verknuepft; abgelegt als DVC-Datensatz
+      demography/population_lau. Das Modell liest die Tabelle direkt und waehlt die
+      Zeile der Gemeinde ueber den Instanzparameter lau_code (Knoten "population"
+      in configs/modules/bisko/model.yaml). Fuer Deutschland ist der nationale LAU-Schluessel
+      der AGS, DE_07315000 ist also Mainz -- dieselbe Gemeinde, die ags_number benennt.
+      GEMEINDEEBENE, NICHT NUTS-3: Eine NUTS-3-Region ist die Kommune nur bei einer
+      Kreisfreien Stadt; eine Einwohnerzahl ist eine Summe ueber eine Flaeche, sodass
+      bei einer nicht kreisfreien Kommune die Regionszahl keine Annaeherung, sondern
+      eine andere Groesse ist (DE141 ist der Landkreis Reutlingen mit 293.000 Einwohnern
+      gegenueber 118.500 in der Stadt). PRUEFUNG: Die Bevoelkerungsangaben von GISCO
+      sind je Land und Jahr lueckenhaft und stellenweise falsch, ohne dass die Datei
+      darauf hinweist -- die Ausgaben 2022 und 2023 weisen Finnland in Tausend aus
+      (Lappeenranta als 72,634 und dann 73) und Oesterreich mit einem Drittel bzw.
+      einem Dreissigstel seiner Bevoelkerung; Irland 2012 und 2019, Spanien 2014 und
+      Italien 2022-2023 fehlen weitgehend; Frankreich und Spanien fehlen in der vorlaeufigen
+      Ausgabe 2024 vollstaendig; Rumaenien liegt in jedem Jahr 15 % ueber Eurostat,
+      weil nationales Register und Eurostat-Definition tatsaechlich abweichen; ein
+      gegenueber dem Vorjahr unveraenderter Wert bedeutet, dass das Land nicht gemeldet
+      hat. Deshalb wird jede Kombination aus Land und Jahr durch Summierung der Gemeinden
+      gegen die Eurostat-Landessumme aus demo_r_pjanaggr3 geprueft und bei einer Abweichung
+      von mehr als 3 % verworfen; ein verworfenes Jahr ist eine Luecke und keine falsche
+      Zahl. Deutschland besteht die Pruefung in dreizehn der vierzehn Ausgaben (2013
+      enthielt keine deutschen Einwohnerzahlen). Enthalten sind nur die 94.321 Gemeinden
+      der neuesten Ausgabe, nicht die 132.248 aller Ausgaben, damit ein aufgeloester
+      Gemeindeschluessel nicht eine Reihe liefert, die unbemerkt vor dem Ende des
+      Zeitraums abbricht. Das Stichdatum im Jahr ist nicht ueber alle Laender einheitlich,
+      und eine Ausgabe traegt gelegentlich einen benachbarten Datenstand; das Niveau
+      eines Jahres ist daher verlaesslicher als die Veraenderung eines einzelnen Jahres.
+      Siehe data/population/README.md.; Format: CSV je Jahresausgabe; Licensing: Eurostat
+      open data, freie Weiterverwendung mit Quellenangabe; Geographic Coverage: Europa
+      auf Gemeindeebene (LAU); 97.987 Gemeinden in der Ausgabe 2024; Update Frequency:
+      Jaehrlich, eine Ausgabe je Jahr; Date Last Updated: 2026-08-28; Updated by:
+      Kausal'
+  index_columns:
+  - lau
+  - country
+  - municipality
+  - Year
+  updated_at: '1787947441'
+  units:
+    population: cap
