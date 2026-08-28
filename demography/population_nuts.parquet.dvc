@@ -1,0 +1,48 @@
+outs:
+- md5: 121c969197eba147faa31865f97019e7
+  size: 497915
+  hash: md5
+  path: population_nuts.parquet
+meta:
+  name:
+    en: population_nuts
+  identifier: demography/population_nuts
+  metrics:
+  - id: population
+    column_id: population
+    quantity: population
+    unit: cap
+    label:
+      en: population
+  sources:
+  - name: Eurostat Bevölkerung nach NUTS-3-Region (demo_r_pjanaggr3)
+    authority: Eurostat
+    url: 
+      https://ec.europa.eu/eurostat/databrowser/view/demo_r_pjanaggr3/default/table
+    description: 'Bevoelkerungsstand am 1. Januar je Jahr und NUTS-Region aus dem
+      Eurostat-Datensatz demo_r_pjanaggr3 ("Population on 1 January by broad age group,
+      sex and NUTS 3 region"), abgerufen mit sex=T und age=TOTAL, sodass je Region
+      und Jahr ein Wert vorliegt. Enthaelt alle NUTS-Ebenen von Land bis NUTS-3, ab
+      1990 (die meisten NUTS-3-Reihen ab 2000), fuer EU, EFTA, Kandidatenlaender und
+      das Vereinigte Koenigreich. Wird einmal jaehrlich von data/population/fetch_eurostat_population.py
+      geladen und als DVC-Datensatz demography/population_nuts abgelegt. KEIN MODELL
+      LIEST DIESE TABELLE. Sie hat zwei Aufgaben: Sie ist der Pruefmassstab fuer die
+      Gemeindetabelle demography/population_lau -- die Summe der Gemeinden eines Landes
+      wird gegen die hiesige Landessumme geprueft -- und der Langzeitvergleich, der
+      bis 1990 zurueckreicht, wo die Gemeindetabelle erst 2011 beginnt. Fuer die Kommune
+      selbst ist sie nicht zu verwenden: Eine NUTS-3-Region ist die Kommune nur bei
+      einer Kreisfreien Stadt, und eine Einwohnerzahl ist eine Summe ueber eine Flaeche.
+      Wo beide Tabellen dasselbe messen -- eine Kreisfreie Stadt --, stimmen sie ueberein:
+      Mainz ist von 2016 bis 2022 auf die Stelle identisch. Es handelt sich um einen
+      Bestand zu einem Zeitpunkt, nicht um einen Jahresdurchschnitt. Siehe data/population/README.md.;
+      Format: JSON-stat API; Licensing: Eurostat open data, freie Weiterverwendung
+      mit Quellenangabe; Geographic Coverage: EU, EFTA, Kandidatenländer und Vereinigtes
+      Königreich; Update Frequency: Jährlich, mit Nachmeldungen im Jahresverlauf;
+      Date Last Updated: 2026-08-25; Updated by: Kausal'
+  index_columns:
+  - nuts
+  - region
+  - Year
+  updated_at: '1787947406'
+  units:
+    population: cap
