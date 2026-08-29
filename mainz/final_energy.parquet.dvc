@@ -1,6 +1,6 @@
 outs:
-- md5: 526e884eebdf73efd55b9caefe415726
-  size: 41214
+- md5: 773fe86951a6ccca51c428b19f54e322
+  size: 43589
   hash: md5
   path: final_energy.parquet
 meta:
@@ -20,7 +20,7 @@ meta:
   - sector
   - energy_carrier
   - Year
-  updated_at: '1787683741'
+  updated_at: '1788015566'
   sources:
   - name: EKA-RLP Datenservice Strom und Gas Mainz 2014-2024
     authority: Energieagentur Rheinland-Pfalz (EKA-RLP) -- Datenlieferservice 
@@ -160,6 +160,18 @@ meta:
       delivery.; Format: xlsx; Licensing: Provided to the city; not public; Geographic
       Coverage: Mainz (AGS 07315000); Update Frequency: Superseded -- single delivery;
       Date Last Updated: 2026-08-25; Updated by: Landeshauptstadt Mainz'
+  - name: KSP-Stammdaten Mainz (citymetadata E84)
+    authority: Landeshauptstadt Mainz -- amtliche Kreis-Statistik ueber den 
+      Klimaschutzplaner
+    url:
+    description: "Feld 'Energetischer Endenergieverbrauch von Kohle, verarbeitendes
+      Gewerbe, Kreis (E84)' aus KSPMainz_citymetadata_19902023.txt, GJ. Verifiziert
+      identisch (nach GJ->MWh) mit den bereits im Modell stehenden 2019-2023er Werten
+      fuer Steinkohle/Industrie; genutzt, um 2016-2018 nachzutragen, die dieselbe
+      Statistik bereits mit echten Werten fuehrt. 1990-2015 bleiben leer, da das Feld
+      dort keine Werte hat.; Format: txt; Licensing: Provided to the city; not public;
+      Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Superseded -- single
+      delivery; Date Last Updated: 2026-08-26; Updated by: Landeshauptstadt Mainz"
   units:
     quality: ''
     Value: MWh/a
