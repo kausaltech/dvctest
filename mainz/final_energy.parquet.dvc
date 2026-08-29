@@ -1,6 +1,6 @@
 outs:
-- md5: af5e450d7598a09daa7eee3eee90d633
-  size: 44297
+- md5: af9c171ee841dfd6e914dd6613306a69
+  size: 47058
   hash: md5
   path: final_energy.parquet
 meta:
@@ -20,7 +20,7 @@ meta:
   - sector
   - energy_carrier
   - Year
-  updated_at: '1788025816'
+  updated_at: '1788025872'
   sources:
   - name: EKA-RLP Datenservice Strom und Gas Mainz 2014-2024
     authority: Energieagentur Rheinland-Pfalz (EKA-RLP) -- Datenlieferservice 
@@ -172,6 +172,23 @@ meta:
       dort keine Werte hat.; Format: txt; Licensing: Provided to the city; not public;
       Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Superseded -- single
       delivery; Date Last Updated: 2026-08-26; Updated by: Landeshauptstadt Mainz"
+  - name: Schornsteinfegerdaten KWP (Kommunale Waermeplanung), Datenabgabe 2025
+    authority: Landeshauptstadt Mainz -- Bezirksschornsteinfeger, gesammelt fuer
+      die Kommunale Waermeplanung (WPG)
+    url:
+    description: "Address-free appliance-level register (fuel, rated thermal output,
+      central vs. single-room) from 17 chimney-sweep districts, collected Jan-Mar
+      2025 (no per-row inspection year; treated as one current-status snapshot applied
+      to both 2023 and 2024). Used to replace the EKA-RLP Feuerstaettenzaehlung-based
+      estimate for heating_oil, biomass and propane -- preferred per explicit instruction,
+      since it is the underlying primary register rather than an already-aggregated
+      summary. hard_coal/natural_gas deliberately left on their existing sources (negligible
+      register coverage / already grid-metered, respectively). The parallel 'Nach
+      PLZ' export of the same register (99.9% address overlap, confirmed) was not
+      used, to avoid double-counting.; Format: csv; Licensing: Provided to the city;
+      not public; Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Superseded
+      -- single delivery; Date Last Updated: 2026-08-26; Updated by: Landeshauptstadt
+      Mainz"
   units:
     quality: ''
     Value: MWh/a
