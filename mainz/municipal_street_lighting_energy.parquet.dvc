@@ -1,0 +1,37 @@
+outs:
+- md5: 2ea117d6f7f70df35f137c15b7090f9c
+  size: 9425
+  hash: md5
+  path: municipal_street_lighting_energy.parquet
+meta:
+  name:
+    de: Municipal street lighting energy
+  identifier: mainz/municipal_street_lighting_energy
+  metrics:
+  - id: energy
+    column_id: energy
+    quantity: energy
+    unit: kWh/a
+    label:
+      de: energy
+  index_columns:
+  - Year
+  - energy_carrier
+  - ghg_category
+  - municipal_facility_type
+  updated_at: '1788122415'
+  sources:
+  - name: EKA-RLP Datenservice Strom und Gas Mainz 2014-2024
+    authority: Energieagentur Rheinland-Pfalz (EKA-RLP) -- Datenlieferservice 
+      Kommunales Klimaschutzcontrolling; bilanzierungstool@energieagentur.rlp.de
+    url:
+    description: Annual street-lighting electricity for Mainz, 2014-2024, kWh/a.
+      Billed through Mainzer Netze / Tiefbauamt rather than through the 
+      Gebaeudewirtschaft SAP-EM system municipal_building_energy comes from, 
+      which is why it is a separate dataset and node rather than an extra 
+      facility-type row there. Delivered 2026-03-31 and prepared by Kausal in 
+      AUFBEREITET_EKA-RLP-Datenservice_Strom_Gas_2014-24_geliefert20260331.xlsx,
+      sheet "Strom", column "Strom Straßenbeleuchtung". Full 2014-2024 series, 
+      no gaps; gradual decline (7.5 to 6.6 GWh) consistent with LED retrofits.
+  units:
+    energy: kWh/a
