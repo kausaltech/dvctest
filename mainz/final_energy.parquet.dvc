@@ -1,6 +1,6 @@
 outs:
-- md5: abf12158e9d056051bad923a2cf80c06
-  size: 48748
+- md5: 6832133fd601da641b46621a3a1b800c
+  size: 52298
   hash: md5
   path: final_energy.parquet
 meta:
@@ -16,7 +16,7 @@ meta:
   - sector
   - energy_carrier
   - Year
-  updated_at: '1788117968'
+  updated_at: '1788119085'
   sources:
   - name: EKA-RLP Datenservice Strom und Gas Mainz 2014-2024
     authority: Energieagentur Rheinland-Pfalz (EKA-RLP) -- Datenlieferservice 
@@ -185,6 +185,27 @@ meta:
       not public; Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Superseded
       -- single delivery; Date Last Updated: 2026-08-26; Updated by: Landeshauptstadt
       Mainz"
+  - name: Energieatlas RLP Solarthermie x BAFA-Flaechenabgleich 
+      (Kollektorflaeche) Mainz 2019-2024
+    authority: Kausal; based on Energieatlas Rheinland-Pfalz (Kollektorflaeche) 
+      und KSP-Stammdaten (BAFA-Kollektorflaeche)
+    url: 
+      https://www.energieatlas.rlp.de/earp/daten/waerme/spezialkarte-solarthermie-summe/
+    description: 'Ersetzt die reine Flaechenwachstums-Indizierung (siehe "Solarthermie
+      Mainz 2019-2024 (Energieatlas-Index)") durch einen Ertragsabgleich: KSP fuehrt
+      selbst eine Kollektorflaeche, Quelle BAFA (bundesweites Foerderregister, breiter
+      als der RLP-Landesausschnitt des Energieatlas). KSP-MWh 2018 (5.086,7) / KSP-BAFA-Flaeche
+      2018 (6.156 m2) = 826,3 kWh/m2 -- stabil und plausibel im Vergleich zu 2008-2018
+      (641-826 kWh/m2), anders als der Ertrag implizit aus der schmaleren Energieatlas-Flaeche
+      allein (1.076-1.522 kWh/m2). Dieser Ertrag auf die Energieatlas-Flaeche 2019/2020
+      angewandt: 3.555 / 3.831 MWh stadtweit. 2021-2024 unveraendert vom 2020er-Wert
+      fortgeschrieben, da die Energieatlas-Flaechendaten 2020 enden. Datenguete C
+      (vorher D) -- Wert ist weiterhin eine Hochrechnung, aber jetzt gegen eine zweite,
+      unabhaengige Flaechenquelle abgeglichen. Quelle: "Solarthermie KSP vs. Energieatlas.xlsx".;
+      Format: .xlsx; Licensing: Energieatlas RLP is public; KSP/BAFA figures provided
+      to the city; derivation internal; Geographic Coverage: Mainz (AGS 07315000);
+      Update Frequency: Replace when a full installation register is available; Date
+      Last Updated: 2026-08-30; Updated by: Kausal'
   units:
     Value: MWh
     quality: ''
