@@ -1,6 +1,6 @@
 outs:
-- md5: 121c969197eba147faa31865f97019e7
-  size: 497915
+- md5: 2dca1e4f2a15ac320e885a0c6d33d217
+  size: 496942
   hash: md5
   path: population_nuts.parquet
 meta:
@@ -39,10 +39,12 @@ meta:
       mit Quellenangabe; Geographic Coverage: EU, EFTA, Kandidatenländer und Vereinigtes
       Königreich; Update Frequency: Jährlich, mit Nachmeldungen im Jahresverlauf;
       Date Last Updated: 2026-08-25; Updated by: Kausal'
+    edition: Stand 2026-08-25
+    target: dataset
   index_columns:
   - nuts
   - region
   - Year
-  updated_at: '1787947406'
+  updated_at: '1788086593'
   units:
     population: cap
