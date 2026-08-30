@@ -1,6 +1,6 @@
 outs:
-- md5: 48024fc85942a77fa17a3348ffdc6db2
-  size: 16309849
+- md5: 6ee726aca7a959bbc9a260ec2f372261
+  size: 16302739
   hash: md5
   path: population_lau.parquet
 meta:
@@ -58,11 +58,13 @@ meta:
       auf Gemeindeebene (LAU); 97.987 Gemeinden in der Ausgabe 2024; Update Frequency:
       Jaehrlich, eine Ausgabe je Jahr; Date Last Updated: 2026-08-28; Updated by:
       Kausal'
+    edition: Ausgaben 2011-2024
+    target: dataset
   index_columns:
   - lau
   - country
   - municipality
   - Year
-  updated_at: '1787947441'
+  updated_at: '1788086604'
   units:
     population: cap
