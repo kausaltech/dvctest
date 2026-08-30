@@ -1,26 +1,22 @@
 outs:
-- md5: a7ce7a466dfb9f89523e9df77c0916cd
-  size: 47061
+- md5: abf12158e9d056051bad923a2cf80c06
+  size: 48748
   hash: md5
   path: final_energy.parquet
 meta:
   name:
-    de: Endenergie Mainz
+    de: Mainz Endenergieverbrauch nach Sektor und Energietraeger
   identifier: mainz/final_energy
   metrics:
-  - id: quality
-    column_id: quality
-    quantity: fraction
+  - column_id: Value
+    unit: MWh
+  - column_id: quality
     unit: ''
-  - id: Value
-    column_id: Value
-    quantity: energy
-    unit: MWh/a
   index_columns:
   - sector
   - energy_carrier
   - Year
-  updated_at: '1788026833'
+  updated_at: '1788117968'
   sources:
   - name: EKA-RLP Datenservice Strom und Gas Mainz 2014-2024
     authority: Energieagentur Rheinland-Pfalz (EKA-RLP) -- Datenlieferservice 
@@ -190,5 +186,5 @@ meta:
       -- single delivery; Date Last Updated: 2026-08-26; Updated by: Landeshauptstadt
       Mainz"
   units:
+    Value: MWh
     quality: ''
-    Value: MWh/a
