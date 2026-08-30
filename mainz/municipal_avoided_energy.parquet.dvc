@@ -1,0 +1,45 @@
+outs:
+- md5: 5f230a9145d3ee5ca588d3cb45e38c29
+  size: 12074
+  hash: md5
+  path: municipal_avoided_energy.parquet
+meta:
+  name:
+    de: Municipal avoided energy (BHKW + PV self-consumption)
+  identifier: mainz/municipal_avoided_energy
+  metrics:
+  - id: energy
+    column_id: energy
+    quantity: energy
+    unit: kWh/a
+    label:
+      de: energy
+  index_columns:
+  - Year
+  - ghg_category
+  - energy_carrier
+  - municipal_facility_type
+  updated_at: '1788125441'
+  sources:
+  - name: BHKW kommunale Gebäude Mainz 2013-2025
+    authority: Landeshauptstadt Mainz -- Gebäudewirtschaft Mainz
+    url:
+    description: 'Erdgasverbrauch und Strom-/Wärmeerzeugung der städtischen BHKW-Anlagen
+      (Zitadelle, Erich-Kästner-Schule, Friedrich-Ebert-Str. 57a, Windmühlenschule,
+      Turnhalle Laubenheim), 2013-2025. Nur Strom- und Wärmeerzeugung übernommen (als
+      vermiedener Bezug), nicht der Gasverbrauch -- siehe Skript-Docstring zum Doppelzählungsrisiko
+      mit municipal_building_energy. Zwei Liegenschaften ausgeschlossen: Friedrich-Ebert-Str.
+      (mehrdeutige WE-Nr 4463_2133), Turnhalle Laubenheim (sports_and_leisure_facilities,
+      außerhalb der Arqum-Verwaltungsbilanzgrenze).'
+  - name: PV-Eigenverbrauch kommunale Gebäude Mainz 2022-2025
+    authority: Landeshauptstadt Mainz -- Gebäudewirtschaft Mainz
+    url:
+    description: 'PV-Eigenverbrauch je Liegenschaft = Gesamterzeugung - Vergütungsmenge
+      (Netzeinspeisung), 2022-2025. Die meisten Anlagen sind "Volleinspeisung" (0
+      Eigenverbrauch per Definition, ausgeschlossen). Nur Kitas mit "Teileinspeisung
+      mit Eigenverbrauch" und echten Zahlen für 2022-2024 enthalten. Ausgeschlossen:
+      SC Lerchenberg (Daten "???"), IGS Europa/Kita Bruchspitze (unklarer Betreiber/keine
+      Daten), Kita Ebersheim und Kita Laubenheim MinniMax (nur 2025-Daten, außerhalb
+      maximum_historical_year=2024).'
+  units:
+    energy: kWh/a

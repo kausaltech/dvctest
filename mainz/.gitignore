@@ -16,3 +16,4 @@
 /emissionsfaktoren_endenergie.parquet
 /municipal_street_lighting_energy.parquet
 /municipal_building_energy.parquet
+/municipal_avoided_energy.parquet
