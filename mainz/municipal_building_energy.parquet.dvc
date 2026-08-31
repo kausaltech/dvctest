@@ -1,6 +1,6 @@
 outs:
-- md5: cac6a628a8e67a8bbd543a1e465f45d2
-  size: 18566
+- md5: 0095e0a61db7ee58065c75a9aaf9e3b5
+  size: 18686
   hash: md5
   path: municipal_building_energy.parquet
 meta:
@@ -37,7 +37,7 @@ meta:
       Geographic Coverage: Mainz (AGS 07315000), städtische Liegenschaften; Update
       Frequency: Annual; Date Last Updated: 2024-07-30; Updated by: Gebäudewirtschaft
       Mainz (EM/690402)'
-  updated_at: '1788125072'
+  updated_at: '1788154132'
   index_columns:
   - Year
   - energy_carrier
