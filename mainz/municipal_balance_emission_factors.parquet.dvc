@@ -1,6 +1,6 @@
 outs:
-- md5: c9f2b573b1b4dc6ee76b42ff18ab6f62
-  size: 26423
+- md5: 63b9374c4d7f3c9bae0256b42c828b74
+  size: 26826
   hash: md5
   path: municipal_balance_emission_factors.parquet
 meta:
@@ -8,18 +8,12 @@ meta:
     de: Municipal balance emission factors
   identifier: mainz/municipal_balance_emission_factors
   metrics:
-  - id: emission_factor_per_count
-    column_id: emission_factor_per_count
+  - id: emission_factor_per_mileage
+    column_id: emission_factor_per_mileage
     quantity: emission_factor
-    unit: kg_co2e/pieces
+    unit: kg_co2e/pkm
     label:
-      de: emission_factor_per_count
-  - id: emission_factor_per_mass
-    column_id: emission_factor_per_mass
-    quantity: emission_factor
-    unit: kg_co2e/kg
-    label:
-      de: emission_factor_per_mass
+      de: emission_factor_per_mileage
   - id: emission_factor_per_energy
     column_id: emission_factor_per_energy
     quantity: emission_factor
@@ -32,12 +26,18 @@ meta:
     unit: kg_co2e/l
     label:
       de: emission_factor_per_volume
-  - id: emission_factor_per_mileage
-    column_id: emission_factor_per_mileage
+  - id: emission_factor_per_count
+    column_id: emission_factor_per_count
     quantity: emission_factor
-    unit: kg_co2e/pkm
+    unit: kg_co2e/pieces
     label:
-      de: emission_factor_per_mileage
+      de: emission_factor_per_count
+  - id: emission_factor_per_mass
+    column_id: emission_factor_per_mass
+    quantity: emission_factor
+    unit: kg_co2e/kg
+    label:
+      de: emission_factor_per_mass
   sources:
   - name: Arqum Emissionsfaktoren Verwaltungsbilanz Mainz
     authority: Arqum GmbH (Zusammenstellung); Primärquellen GEMIS 5.0, TREMOD 
@@ -64,10 +64,10 @@ meta:
   - ghg_category
   - scope
   - vehicle_type
-  updated_at: '1788274139'
+  updated_at: '1788277694'
   units:
     emission_factor_per_mass: kg_co2e/kg
     emission_factor_per_count: kg_co2e/pcs
-    emission_factor_per_volume: kg_co2e/l
     emission_factor_per_energy: kg_co2e/MWh
+    emission_factor_per_volume: kg_co2e/l
     emission_factor_per_mileage: kg_co2e/pkm
