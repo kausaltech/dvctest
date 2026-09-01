@@ -1,6 +1,6 @@
 outs:
-- md5: 3f4d80692ca5dffacea58368b909807b
-  size: 29346
+- md5: 4f030a2cd1879ef9c03232bab1834026
+  size: 29294
   hash: md5
   path: final_energy.parquet
 meta:
@@ -8,18 +8,18 @@ meta:
     de: mainz/final_energy
   identifier: mainz/final_energy
   metrics:
-  - id: quality
-    column_id: quality
-    quantity: fraction
-    unit: ''
-    label:
-      de: quality
   - id: Value
     column_id: Value
     quantity: energy
     unit: MWh/a
     label:
       de: Value
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: quality
   sources:
   - name: EKA-RLP Datenservice Strom und Gas Mainz 2014-2024
     authority: Energieagentur Rheinland-Pfalz (EKA-RLP) -- Datenlieferservice 
@@ -81,7 +81,7 @@ meta:
   - Year
   - energy_carrier
   - sector
-  updated_at: '1788269506'
+  updated_at: '1788274008'
   units:
     Value: MWh/a
     quality: dimensionless
