@@ -1,211 +1,56 @@
 outs:
-- md5: 30eeab80e7c1d8df9ff0dc361d0c0db9
-  size: 52310
+- md5: 16a7984d97d548d7f8b15e95e25bd705
+  size: 24476
   hash: md5
   path: final_energy.parquet
 meta:
   name:
-    de: Mainz Endenergieverbrauch nach Sektor und Energietraeger
+    de: mainz/final_energy
   identifier: mainz/final_energy
   metrics:
-  - column_id: Value
+  - id: Value
+    column_id: Value
+    quantity: energy
     unit: MWh/a
-  - column_id: quality
+    label:
+      de: Value
+  - id: quality
+    column_id: quality
+    quantity: fraction
     unit: ''
-  index_columns:
-  - sector
-  - energy_carrier
-  - Year
-  updated_at: '1788120780'
+    label:
+      de: quality
   sources:
-  - name: EKA-RLP Datenservice Strom und Gas Mainz 2014-2024
-    authority: Energieagentur Rheinland-Pfalz (EKA-RLP) -- Datenlieferservice 
-      Kommunales Klimaschutzcontrolling; bilanzierungstool@energieagentur.rlp.de
-    url:
-    description: "Annual grid-bound final energy for Mainz: electricity and natural
-      gas in kWh/a, split by consumer sector (private households, GHD, industry, municipal
-      properties, street lighting, heat pumps, night-storage heating, agriculture
-      and forestry, utility's own operations). Delivered 2026-03-31 and prepared by
-      Kausal in AUFBEREITET_EKA-RLP-Datenservice_Strom_Gas_2014-24_geliefert20260331.xlsx.
-      The electricity delivery combines GHD with industry; the split is estimated
-      (see the workbook's own note).; Attachment: AUFBEREITET_EKA-RLP-Datenservice_Strom_Gas_2014-24_geliefert20260331.xlsx;
-      Format: .xlsx; Licensing: Provided to the city for climate accounting; not public;
-      Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Annual; Date Last
-      Updated: 2026-03-31; Updated by: EKA-RLP"
-  - name: Klimaschutzplaner Export Mainz 1990-2024
-    authority: Landeshauptstadt Mainz -- Grün- und Umweltamt; export from the 
-      Klimaschutzplaner tool
-    url:
-    description: 'Historical BISKO final energy and emissions for Mainz as held in
-      the Klimaschutzplaner, exported per sector sheet (Private Haushalte, GHD/Sonstige,
-      Industrie, Kommunale Einrichtungen, Verkehr). Authoritative for 1990-2018 only:
-      from 2020 the export carries Heizöl values identical to Erdgas, zeroes Fernwärme,
-      Biomasse and Solarthermie, zeroes Kommunale Einrichtungen, and leaves 2024 empty.;
-      Attachment: 073150000000_stationaer_1990-2024_data.xlsx; Format: .xlsx; Licensing:
-      Provided to the city; not public; Geographic Coverage: Mainz (AGS 07315000);
-      Update Frequency: Superseded -- no further updates expected; Date Last Updated:
-      2026-01-27; Updated by: Landeshauptstadt Mainz'
-  - name: Schätzung Sektor-Split Strom GHD/Industrie Mainz
-    authority: Kausal
-    url:
-    description: 'Estimated share of industry within the combined GHD+industry electricity
-      consumption reported by EKA-RLP. Derived in 2026 from German industry-sector
-      energy statistics and employment statistics (national averages) applied to Mainz
-      employment by branch. Factor 0.35. The source workbook carries the instruction
-      to re-check every 2.5 to 5 years.; Attachment: Schätzung & Plausibilitätsprüfung
-      von Energieverbrauch-Sektor-Split.xlsx; Format: .xlsx; Licensing: Internal derivation;
-      Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Re-check every
-      2.5-5 years; Date Last Updated: 2026-07-22; Updated by: Kausal'
-  - name: Interpolation Biomasse und Fluessiggas Mainz 2019-2023
-    authority: Kausal
-    url:
-    description: "Linear interpolation for 2019-2023 between the 2018 Klimaschutzplaner
-      values (biomass 77330 MWh, LPG 26997 MWh) and the 2024 chimney-sweep register
-      (biomass 33207, LPG 7699), split by each carrier's 2018 sector shares. Replaces
-      the plain zeros the Klimaschutzplaner export carries for those years, which
-      do not describe a real collapse - biomass ran 77-84 GWh through 2018 and LPG
-      27-35 GWh. Datenguete D: no measurement of its own. Replace when the Schornsteinfeger
-      register for 2019-2023 arrives.; Format: derived; Licensing: Internal derivation;
-      Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Replace when better
-      data arrives; Date Last Updated: 2026-08-25; Updated by: Kausal"
-  - name: Stadtwerke Mainz Waermepumpenstrom 2019-2024
-    authority: Mainzer Stadtwerke AG / Mainzer Netze
-    url:
-    description: 'Metered heat-pump electricity in the Mainz territory, 2019-2024:
-      2508, 3114, 4181, 5055, 4860, 5037 MWh. Converted to delivered heat by the Jahresarbeitszahl
-      of 3.2 that the model itself applies (the Leitfaden Datenbeschaffung puts it
-      between 2.8 and 3.8 and recommends 3.2). The model books the full delivered
-      heat under environmental heat and recovers the electricity from it, so electricity
-      x JAZ is the quantity it wants. Sector split taken from the 2018 shares - the
-      delivery is a city total. Delivered 2026-06-22 in VERBRAUCH_Strom_Gas_Fernwaerme_Waermepumpen_Nachtspeicher_2019-2024_StadtwerkeMainz_20260622.xlsx.;
-      Format: .xlsx; Licensing: Provided to the city for climate accounting; not public;
-      Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Annual; Date Last
-      Updated: 2026-06-22; Updated by: Mainzer Stadtwerke AG'
-  - name: Solarthermie Mainz 2019-2024 (Energieatlas-Index)
-    authority: Kausal; based on Energieatlas Rheinland-Pfalz
-    url: 
-      https://www.energieatlas.rlp.de/earp/daten/waerme/spezialkarte-solarthermie-summe/
-    description: 'The 2018 level carried forward in proportion to the growth in funded
-      solar collector area recorded by the Energieatlas Rheinland-Pfalz: 4205 m2 in
-      2018, 4302 in 2019, 4636 in 2020. NOT the Energieatlas own conversion (area
-      x Globalstrahlung x Wirkungsgrad), which covers funded installations only and
-      yields about 480 kWh/m2 against the 1210 kWh/m2 the existing series implies
-      for 2018 - using it directly would put a factor-2.5 step at 2018/2019. Area
-      data ends in 2020, so 2021-2024 hold the 2020 level. Replaces the zeros the
-      Klimaschutzplaner export carries. Datenguete D.; Format: .csv; Licensing: Energieatlas
-      RLP is public; derivation internal; Geographic Coverage: Mainz (AGS 07315000);
-      Update Frequency: Replace when a full installation register is available; Date
-      Last Updated: 2026-08-25; Updated by: Kausal'
-  - name: Interpolation Heizoel Mainz 2019-2023
-    authority: Kausal
-    url:
-    description: 'Linear interpolation of heating-oil consumption for 2019-2023 between
-      the two measured endpoints: 359583 MWh in 2018 (Klimaschutzplaner) and 247107
-      MWh in 2024 (chimney-sweep appliance register). Applied per sector; because
-      the 2024 sector split already uses the 2018 shares, this is equivalent to interpolating
-      the city total and re-splitting it. Datenguete D: these years carry no measurement
-      of their own and must rank below the 2024 cells, which are C. Caveat on the
-      record: the two endpoints come from different methods - 2018 modelled, 2024
-      counted - so part of the decline is an artefact of the method change rather
-      than a measured trend. The direction is right (oil heating is being phased out)
-      but the slope is not measured. Chosen deliberately over leaving five years empty;
-      replace as soon as the Schornsteinfeger register for 2019-2023 arrives.; Format:
-      derived; Licensing: Internal derivation; Geographic Coverage: Mainz (AGS 07315000);
-      Update Frequency: Replace when better data arrives; Date Last Updated: 2026-08-25;
-      Updated by: Kausal'
-  - name: EKA-RLP Feuerstaettendaten Mainz 2024
-    authority: Energieagentur Rheinland-Pfalz (EKA-RLP) -- Datenlieferservice 
-      Kommunales Klimaschutzcontrolling; based on the Schornsteinfeger register
-    url:
-    description: "Count of heating appliances in Mainz for 2024 by fuel (biomass,
-      natural gas, LPG, heating oil, coal) and power class, split into single-room
-      stoves and central boilers. Converted to final energy as count x mean power
-      x full-load hours using the workbook's own lookup: 8/15 kW at 250 h for single-room
-      stoves, 8/18/38/75/150 kW at 1600 h for central boilers (the BISKO / VDI 2067
-      default). City totals 2024: heating oil 247107 MWh, biomass 33207 MWh, LPG 7699
-      MWh. Applied to natural gas the same method yields 1507765 MWh against EKA-RLP's
-      metered 1764236, i.e. 85 percent, so the method under-reads by roughly a sixth.
-      The register carries no sector breakdown; the totals are split with each fuel's
-      2018 sector shares. Note the sheet holds a second table further down splitting
-      biomass into logs, pellets and wood chips, under the same row labels - reading
-      past the first block double-counts.; Format: .xlsx; Licensing: Provided to the
-      city for climate accounting; not public; Geographic Coverage: Mainz (AGS 07315000);
-      Update Frequency: Annual; Date Last Updated: 2026; Updated by: EKA-RLP"
-  - name: Stadtwerke Mainz Fernwaerme Territorium 2019-2024
-    authority: Mainzer Stadtwerke AG -- Mainzer Fernwaerme GmbH (Simon Reusch) 
-      und Mainzer Waerme Plus (Lukas Ritz)
-    url:
-    description: 'Annual district heating consumption in the Mainz territory by consumer
-      sector, as the sum of the Mainzer Fernwaerme GmbH main network and the Mainzer
-      Waerme Plus special networks (Lerchenberg, Berliner Siedlung). Main-network
-      sector split is an extrapolation from actual customer billing; the special-network
-      split applies the sector shares from the Kommunale Waermeplanung Stadtteilsteckbriefe.
-      Delivered 2026-06-22 in VERBRAUCH_Strom_Gas_Fernwaerme_Waermepumpen_Nachtspeicher_2019-2024_StadtwerkeMainz_20260622.xlsx.;
-      Format: .xlsx; Licensing: Provided to the city for climate accounting; not public;
-      Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Annual; Date Last
-      Updated: 2026-06-22; Updated by: Mainzer Stadtwerke AG'
-  - name: KSP-Export Steinkohle Mainz 2017-2024
-    authority: Landeshauptstadt Mainz -- Gruen- und Umweltamt; dedizierte 
-      Einzelabfrage im Klimaschutzplaner
-    url:
-    description: 'Per-carrier KSP query for hard coal (Steinkohle) final energy by
-      sector, 2017-2024. 2017-2023 reproduce the existing Klimaschutzplaner sectoral
-      figures almost to the decimal; 2024 is the only new column, adding the year
-      the model previously held flat. The pre-existing 2019 jump in industrial coal
-      (0 to ~54 GWh) remains unexplained -- carried forward, not resolved, by this
-      delivery.; Format: xlsx; Licensing: Provided to the city; not public; Geographic
-      Coverage: Mainz (AGS 07315000); Update Frequency: Superseded -- single delivery;
-      Date Last Updated: 2026-08-25; Updated by: Landeshauptstadt Mainz'
-  - name: KSP-Stammdaten Mainz (citymetadata E84)
-    authority: Landeshauptstadt Mainz -- amtliche Kreis-Statistik ueber den 
-      Klimaschutzplaner
-    url:
-    description: "Feld 'Energetischer Endenergieverbrauch von Kohle, verarbeitendes
-      Gewerbe, Kreis (E84)' aus KSPMainz_citymetadata_19902023.txt, GJ. Verifiziert
-      identisch (nach GJ->MWh) mit den bereits im Modell stehenden 2019-2023er Werten
-      fuer Steinkohle/Industrie; genutzt, um 2016-2018 nachzutragen, die dieselbe
-      Statistik bereits mit echten Werten fuehrt. 1990-2015 bleiben leer, da das Feld
-      dort keine Werte hat.; Format: txt; Licensing: Provided to the city; not public;
-      Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Superseded -- single
-      delivery; Date Last Updated: 2026-08-26; Updated by: Landeshauptstadt Mainz"
-  - name: Schornsteinfegerdaten KWP (Kommunale Waermeplanung), Datenabgabe 2025
-    authority: Landeshauptstadt Mainz -- Bezirksschornsteinfeger, gesammelt fuer
-      die Kommunale Waermeplanung (WPG)
-    url:
-    description: "Address-free appliance-level register (fuel, rated thermal output,
-      central vs. single-room) from 17 chimney-sweep districts, collected Jan-Mar
-      2025 (no per-row inspection year; treated as one current-status snapshot applied
-      to both 2023 and 2024). Used to replace the EKA-RLP Feuerstaettenzaehlung-based
-      estimate for heating_oil, biomass and propane -- preferred per explicit instruction,
-      since it is the underlying primary register rather than an already-aggregated
-      summary. hard_coal/natural_gas deliberately left on their existing sources (negligible
-      register coverage / already grid-metered, respectively). The parallel 'Nach
-      PLZ' export of the same register (99.9% address overlap, confirmed) was not
-      used, to avoid double-counting.; Format: csv; Licensing: Provided to the city;
-      not public; Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Superseded
-      -- single delivery; Date Last Updated: 2026-08-26; Updated by: Landeshauptstadt
-      Mainz"
   - name: Energieatlas RLP Solarthermie x BAFA-Flaechenabgleich 
       (Kollektorflaeche) Mainz 2019-2024
-    authority: Kausal; based on Energieatlas Rheinland-Pfalz (Kollektorflaeche) 
-      und KSP-Stammdaten (BAFA-Kollektorflaeche)
-    url: 
-      https://www.energieatlas.rlp.de/earp/daten/waerme/spezialkarte-solarthermie-summe/
-    description: 'Ersetzt die reine Flaechenwachstums-Indizierung (siehe "Solarthermie
-      Mainz 2019-2024 (Energieatlas-Index)") durch einen Ertragsabgleich: KSP fuehrt
-      selbst eine Kollektorflaeche, Quelle BAFA (bundesweites Foerderregister, breiter
-      als der RLP-Landesausschnitt des Energieatlas). KSP-MWh 2018 (5.086,7) / KSP-BAFA-Flaeche
-      2018 (6.156 m2) = 826,3 kWh/m2 -- stabil und plausibel im Vergleich zu 2008-2018
-      (641-826 kWh/m2), anders als der Ertrag implizit aus der schmaleren Energieatlas-Flaeche
-      allein (1.076-1.522 kWh/m2). Dieser Ertrag auf die Energieatlas-Flaeche 2019/2020
-      angewandt: 3.555 / 3.831 MWh stadtweit. 2021-2024 unveraendert vom 2020er-Wert
-      fortgeschrieben, da die Energieatlas-Flaechendaten 2020 enden. Datenguete C
-      (vorher D) -- Wert ist weiterhin eine Hochrechnung, aber jetzt gegen eine zweite,
-      unabhaengige Flaechenquelle abgeglichen. Quelle: "Solarthermie KSP vs. Energieatlas.xlsx".;
-      Format: .xlsx; Licensing: Energieatlas RLP is public; KSP/BAFA figures provided
-      to the city; derivation internal; Geographic Coverage: Mainz (AGS 07315000);
-      Update Frequency: Replace when a full installation register is available; Date
-      Last Updated: 2026-08-30; Updated by: Kausal'
+    authority:
+    url:
+    description:
+    edition:
+    target: data_point
+  - name: KSP-Export Steinkohle Mainz 2017-2024
+    authority:
+    url:
+    description:
+    edition:
+    target: data_point
+  - name: KSP-Stammdaten Mainz (citymetadata E84)
+    authority:
+    url:
+    description:
+    edition:
+    target: data_point
+  - name: Schornsteinfegerdaten KWP (Kommunale Waermeplanung), Datenabgabe 2025
+    authority:
+    url:
+    description:
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - energy_carrier
+  - sector
+  updated_at: '1788269393'
   units:
     Value: MWh/a
-    quality: ''
+    quality: dimensionless
