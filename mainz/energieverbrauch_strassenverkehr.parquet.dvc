@@ -1,66 +1,81 @@
 outs:
-- md5: 44467df99dc1a6eee1ff97f58c40cb78
-  size: 17997
+- md5: 72f348394ceba1191af24bcd8a68b763
+  size: 18917
   hash: md5
   path: energieverbrauch_strassenverkehr.parquet
 meta:
   name:
-    de: Energieverbrauch Straßenverkehr
+    de: mainz/energieverbrauch_strassenverkehr
   identifier: mainz/energieverbrauch_strassenverkehr
   metrics:
   - id: Value
     column_id: Value
     quantity: energy
     unit: MWh/a
+    label:
+      de: Value
   - id: quality
     column_id: quality
     quantity: fraction
     unit: ''
-  index_columns:
-  - vehicle_type
-  - energy_carrier
-  - Year
-  updated_at: '1787696434'
+    label:
+      de: quality
   sources:
-  - name: MVG Fahrleistung und Energieverbrauch Bus und Strassenbahn 2019-2024
-    authority: Mainzer Mobilitaet (MVG) -- Florian Sturm; ueber Mainzer 
-      Stadtwerke AG
-    url:
-    description: "Annual vehicle kilometres and final energy for the municipal public
-      transport fleet of Mainz, split by traction type (Dieselbus, Elektrobus, Brennstoffzellenbus,
-      Strassenbahn). Mileage from odometer readings (KM-Zaehler), energy from supplier
-      invoices (Rechnungen). Diesel converted with the workbook's own net calorific
-      value of 9.86 kWh/l. Delivered 2026-06-22 in VERBRAUCH_FAHRLEISTUNG_Autobus_Strassenbahn_2019-2024_StadtwerkeMainz_20260622.xlsx.;
-      Format: .xlsx; Licensing: Provided to the city for climate accounting; not public;
-      Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Annual; Date Last
-      Updated: 2026-06-22; Updated by: Mainzer Stadtwerke AG"
-  - name: Klimaschutzplaner Export Mainz Strassenverkehr 2019-2023
-    authority: Landeshauptstadt Mainz -- Gruen- und Umweltamt; export from the 
-      Klimaschutzplaner tool via the ksp-extract pipeline
-    url:
-    description: 'Territorial road-transport final energy for Mainz by vehicle class
-      and fuel, 2019-2023, read from the Klimaschutzplaner input fields EEV_<Pkw|LNF|Lkw|MZR|Lbus|Rbus>_<fuel>
-      plus EEV_SSU for tram. Local vehicle registrations extrapolated with national
-      consumption factors; the Klimaschutzplaner grades these 0.5 (Datenguete B) itself
-      and that grade is carried over rather than re-derived. Covers the four car/van/truck/motorcycle
-      classes in full. The series ends in 2023, so no 2024 value exists; the tram
-      figure for 2019 (8 MWh against 9570 in 2018 and 11958 in 2022) is corrupt in
-      the source and is taken from MVG instead.; Format: .parquet; Licensing: Provided
-      to the city; not public; Geographic Coverage: Mainz (AGS 07315000); Update Frequency:
-      Annual; Date Last Updated: 2026-08-19; Updated by: Landeshauptstadt Mainz'
   - name: KSP-Export Straßenverkehr Mainz 2017-2024
-    authority: Landeshauptstadt Mainz -- Gruen- und Umweltamt; dedizierte 
-      Einzelabfrage im Klimaschutzplaner
+    authority:
     url:
-    description: 'Per-vehicle-class KSP query (Mot. Zweiraeder, PKWs, Leichte Nutzfahrzeuge,
-      LKWs, Linienbusse, Strassen-/Stadt-/U-Bahn), 2017-2024. Used for the 2024 column
-      of mainz/energieverbrauch_strassenverkehr (32 of 38 required cells; coach_buses
-      has no sheet in this file). Quality taken at face value from KSP, matching the
-      existing 2019-2023 convention for this dataset (unlike the rail/water/air dataset,
-      where it is downgraded).; Format: xlsx; Licensing: Provided to the city; not
-      public; Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Superseded
-      -- single delivery; Date Last Updated: 2026-08-26; Updated by: Landeshauptstadt
-      Mainz'
+    description:
+    edition:
+    target: data_point
+  - name: Klimaschutzplaner Export Mainz Strassenverkehr 2019-2023
+    authority:
+    url:
+    description:
+    edition:
+    target: data_point
+  - name: MVG Fahrleistung und Energieverbrauch Bus und Strassenbahn 2019-2024
+    authority:
+    url:
+    description:
+    edition:
+    target: data_point
+  - name: Mainzer Stadtwerke Datenabfrage Klimabilanz Mainz 2019-2025
+    authority: 'Mainzer Stadtwerke AG und Tochtergesellschaften: Mainzer Netze (MN),
+      Mainzer Fernwärme (MFW), Mainzer Wärmepartner (MWP), Mainzer Verkehrsgesellschaft
+      (MVG), Mainzer Erneuerbare Energien (MEE)'
+    url:
+    description: 'Antwort der Mainzer Stadtwerke auf die Datenabfrage zur Klimabilanz,
+      Stand 22.06.2026. Je Zeile ein Datenpunkt mit Gesellschaft, Ansprechperson,
+      Einheit, Jahreswerten 2019-2024 (Erdgas zusätzlich 2025), Datenquelle, Datengüte
+      (A-D nach eigenem Schlüssel) und Kommentar. Enthält: Fernwärmeverbrauch Territorium
+      nach Sektoren (MFW, ohne Lerchenberg und Berliner Siedlung) sowie Fernwärmebezug
+      und Erdgas-/Biomethaneinsatz der Netze Lerchenberg und Berliner Siedlung (MWP);
+      Fernwärme-Erzeugungsdaten (Input Erdgas, Heizöl, Müll fossil, Müll biogen, Klärschlamm
+      gegen Output Wärme) als Grundlage eines lokalen Emissionsfaktors; gefahrene
+      Kilometer und Energieverbrauch der MVG nach Dieselbus, Elektrobus, Brennstoffzellenbus
+      und Straßenbahn; Erzeugung Windpark Ebersheim/Klein-Winternheim sowie Einspeisung
+      und Eigenverbrauch der MSW-eigenen PV-Anlagen je Liegenschaft. Die Erdgas- und
+      Stromblätter geben dieselben Mainzer-Netze-Zahlen wieder, die bereits über EKA-RLP
+      geliefert wurden, mit fünf Abweichungen -- die größte ist Strom GHD/Industrie
+      2019 (+35,0 GWh). Fossil/biogener Anteil des Mülleinsatzes ist mit exakt 50/50
+      angesetzt.; Attachment: VERBRAUCH_Strom_Gas_Fernwärme_Wärmepumpen_Nachtspeicher_2019-2024_StadtwerkeMainz_20260622.xlsx;
+      Format: .xlsx; Licensing: Der Stadt für die Klimabilanzierung zur Verfügung
+      gestellt; nicht öffentlich; Geographic Coverage: Mainz (AGS 07315000); Windpark
+      teilweise außerhalb der Stadtgrenze; Update Frequency: Jährlich zu erneuern;
+      Date Last Updated: 2026-06-22; Updated by: Mainzer Stadtwerke AG'
+    edition:
+    target: data_point
+  - name: Unverifiziert (KSP-Live-Ansicht 2026-08-26, provisorisch)
+    authority:
+    url:
+    description:
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - energy_carrier
+  - vehicle_type
+  updated_at: '1788274351'
   units:
+    quality: dimensionless
     Value: MWh/a
-    quality: ''
