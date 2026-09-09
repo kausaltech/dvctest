@@ -1,0 +1,43 @@
+outs:
+- md5: 44d26ca8ed3399963763a7089726cfc6
+  size: 12035
+  hash: md5
+  path: knsv_massnahmen_emissionsquelle.parquet
+meta:
+  name:
+    en: KNSV Massnahmen Emissionsquelle
+  identifier: mainz/knsv_massnahmen_emissionsquelle
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: fraction
+    unit: ''
+    label:
+      en: Value
+  sources:
+  - name: Arqum Maßnahmenbericht Klimaneutrale Stadtverwaltung Mainz 2035
+    authority: Arqum GmbH, Leonrodstr. 54, 80636 München -- im Auftrag der 
+      Landeshauptstadt Mainz, Projekt „Klimaneutrale Stadtverwaltung Mainz 2035"
+    url:
+    description: 'Abschlussbericht vom 16.10.2024 zum Weg der Stadtverwaltung Mainz
+      zur Klimaneutralität 2035. Enthält die erste THG-Bilanz der Verwaltung für das
+      Basisjahr 2019 sowie in Kapitel 4 zwei Zielszenarien bis 2035 mit den zugrundeliegenden
+      Maßnahmen und Annahmen (§4.1.1 Wärme, §4.1.2 Strom, §4.1.3 Fuhrpark, §4.1.4
+      Dienstreisen, §4.1.5 Arbeitswege, §4.1.6 Beschaffung, §4.1.7 Nahrungsmittel,
+      §4.1.8 Veranstaltungen, §4.1.9 Abfall). Szenario 1 ist ambitioniert, Szenario
+      2 konservativ; die Gesamtemissionen sinken von 37.982,4 t CO2e (2019) auf 10.952
+      bzw. 19.720 t CO2e im Jahr 2035. Quelle der Minderungsanteile in mainz_knsv_measures.csv.;
+      Attachment: Massnahmenbericht-Klimaneutrale-Stadtverwaltung.pdf; Format: .pdf;
+      Licensing: Der Stadt zur Verfügung gestellt; nicht öffentlich; Geographic Coverage:
+      Mainz (AGS 07315000), Stadtverwaltung als Organisation; Update Frequency: Einmalig
+      -- Abschlussbericht; Date Last Updated: 2024-10-16; Updated by: Arqum GmbH'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - emission_source
+  - measure
+  - measure_scenario
+  updated_at: '1788982920'
+  units:
+    Value: dimensionless

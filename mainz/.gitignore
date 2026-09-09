@@ -13,3 +13,4 @@
 /municipal_avoided_energy.parquet
 /energieverbrauch_strassenverkehr.parquet
 /knsv_massnahmen_bilanzkategorie.parquet
+/knsv_massnahmen_emissionsquelle.parquet
