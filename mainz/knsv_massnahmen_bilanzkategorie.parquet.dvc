@@ -1,0 +1,80 @@
+outs:
+- md5: 0b343ca1a095d59261993d3055fbdf02
+  size: 20150
+  hash: md5
+  path: knsv_massnahmen_bilanzkategorie.parquet
+meta:
+  name:
+    en: KNSV Massnahmen Bilanzkategorie
+  identifier: mainz/knsv_massnahmen_bilanzkategorie
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: fraction
+    unit: ''
+    label:
+      en: Value
+  sources:
+  - name: Arqum Maßnahmenbericht Klimaneutrale Stadtverwaltung Mainz 2035
+    authority: Arqum GmbH, Leonrodstr. 54, 80636 München -- im Auftrag der 
+      Landeshauptstadt Mainz, Projekt „Klimaneutrale Stadtverwaltung Mainz 2035"
+    url:
+    description: 'Abschlussbericht vom 16.10.2024 zum Weg der Stadtverwaltung Mainz
+      zur Klimaneutralität 2035. Enthält die erste THG-Bilanz der Verwaltung für das
+      Basisjahr 2019 sowie in Kapitel 4 zwei Zielszenarien bis 2035 mit den zugrundeliegenden
+      Maßnahmen und Annahmen (§4.1.1 Wärme, §4.1.2 Strom, §4.1.3 Fuhrpark, §4.1.4
+      Dienstreisen, §4.1.5 Arbeitswege, §4.1.6 Beschaffung, §4.1.7 Nahrungsmittel,
+      §4.1.8 Veranstaltungen, §4.1.9 Abfall). Szenario 1 ist ambitioniert, Szenario
+      2 konservativ; die Gesamtemissionen sinken von 37.982,4 t CO2e (2019) auf 10.952
+      bzw. 19.720 t CO2e im Jahr 2035. Quelle der Minderungsanteile in mainz_knsv_measures.csv.;
+      Attachment: Massnahmenbericht-Klimaneutrale-Stadtverwaltung.pdf; Format: .pdf;
+      Licensing: Der Stadt zur Verfügung gestellt; nicht öffentlich; Geographic Coverage:
+      Mainz (AGS 07315000), Stadtverwaltung als Organisation; Update Frequency: Einmalig
+      -- Abschlussbericht; Date Last Updated: 2024-10-16; Updated by: Arqum GmbH'
+    edition:
+    target: data_point
+  - name: Arqum Maßnahmensteckbriefe Klimaneutrale Stadtverwaltung Mainz 2035
+    authority: Arqum GmbH, Leonrodstr. 54, 80636 München -- im Auftrag der 
+      Landeshauptstadt Mainz
+    url:
+    description: '19 Maßnahmensteckbriefe vom 21.10.2024 in vier Handlungsbereichen
+      (übergeordnete Maßnahmen, Gebäude und Energie, Mobilität, Beschaffung und Veranstaltungen).
+      Je Steckbrief Ziele bis 2025/2030/2035, Zuständigkeit, Wesentlichkeit, Umsetzungsbausteine,
+      THG-Minderungspotenzial, Erfolgsindikatoren und Herausforderungen. Quantifiziert
+      einzelne Potenziale, die der Maßnahmenbericht offen lässt: B1 „über 1/3 der
+      Emissionen des Wärmebereichs" durch Sanierung auf den Baustandard 25 kWh/m2a,
+      B3 rund 5.000 t CO2e bei 70 % erneuerbarer Fernwärme, B5 über 6.000 t CO2e bei
+      70 % erneuerbarem Bundesstrommix, B4 durchschnittlich 10 % durch Nutzendenverhalten,
+      C4 knapp 2.000 t CO2e durch veränderten Modal Split der Arbeitswege.; Attachment:
+      Massnahmensteckbriefe-Klimaneutrale-Stadtverwaltung.pdf; Format: .pdf; Licensing:
+      Der Stadt zur Verfügung gestellt; nicht öffentlich; Geographic Coverage: Mainz
+      (AGS 07315000), Stadtverwaltung als Organisation; Update Frequency: Einmalig;
+      Date Last Updated: 2024-10-21; Updated by: Arqum GmbH'
+    edition:
+    target: data_point
+  - name: Kausal Annahme KNSV-Maßnahmen Mainz
+    authority: Kausal Ltd -- Annahme dieses Modells, keine Angabe der Quelle
+    url:
+    description: 'Kennzeichnet Werte in mainz_knsv_measures.csv, die NICHT aus dem
+      Arqum-Bericht stammen, sondern hier gesetzt oder aus dessen Angaben abgeleitet
+      wurden. Die Herleitung steht jeweils im Comment der Zeile. Betroffen sind vier
+      Maßnahmen: der Stromanteil des Baustandards (knsv_energieeffizienz_gebaeude_strom,
+      20 % -- Arqum rechnet ihn aus Flächenkennwerten des Bundesanzeigers, die hier
+      nicht vorliegen), die LED-Umrüstung der Straßenbeleuchtung (knsv_led_strassenbeleuchtung,
+      30 % -- Steckbrief B6 quantifiziert nicht), die Umrechnung der PV-Leistung in
+      einen Anteil am Strombezug (knsv_photovoltaik_eigenerzeugung) und die Umrechnung
+      des Erneuerbaren-Anteils am Bundesstrommix in eine Faktorminderung (knsv_dekarbonisierung_strommix).
+      Als eigene Quelle geführt, damit gesetzte Werte in der Bilanz nicht als Angaben
+      des Gutachters erscheinen.; Licensing: Intern; Geographic Coverage: Mainz (AGS
+      07315000); Update Frequency: Bei Bedarf -- zu ersetzen, sobald belastbare Angaben
+      vorliegen; Date Last Updated: 2026-09-09; Updated by: Kausal Ltd'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - ghg_category
+  - measure
+  - measure_scenario
+  updated_at: '1788982910'
+  units:
+    Value: dimensionless
