@@ -1,5 +1,5 @@
 outs:
-- md5: 44d26ca8ed3399963763a7089726cfc6
+- md5: c9cb674ab9f9a472f46af035dd40a954
   size: 12035
   hash: md5
   path: knsv_massnahmen_emissionsquelle.parquet
@@ -38,6 +38,6 @@ meta:
   - emission_source
   - measure
   - measure_scenario
-  updated_at: '1788982920'
+  updated_at: '1789482872'
   units:
     Value: dimensionless
