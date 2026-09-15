@@ -1,5 +1,5 @@
 outs:
-- md5: 0abdcc9aef20d329d6a658534742e2e5
+- md5: eb7cef2e51f8b2a5b1098a1f9fd789c1
   size: 15547
   hash: md5
   path: knsv_massnahmen_energietraeger.parquet
@@ -56,6 +56,6 @@ meta:
   - energy_carrier
   - measure
   - measure_scenario
-  updated_at: '1788982927'
+  updated_at: '1789482877'
   units:
     Value: dimensionless
