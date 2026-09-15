@@ -1,5 +1,5 @@
 outs:
-- md5: d7180fbce32b68d1e7e9eda444162d91
+- md5: e27129a26d9b82b81770f707211e1c8c
   size: 14143
   hash: md5
   path: knsv_massnahmen_gesamt.parquet
@@ -55,6 +55,6 @@ meta:
   - Year
   - measure
   - measure_scenario
-  updated_at: '1788982941'
+  updated_at: '1789482889'
   units:
     Value: dimensionless
