@@ -1,5 +1,5 @@
 outs:
-- md5: 05856569117c12ac87998c508493d304
+- md5: a00382209c4dbc56356a9e4c94035916
   size: 11567
   hash: md5
   path: knsv_massnahmen_fahrzeugtyp.parquet
@@ -38,6 +38,6 @@ meta:
   - measure
   - measure_scenario
   - vehicle_type
-  updated_at: '1789482883'
+  updated_at: '1789635385'
   units:
     Value: dimensionless
