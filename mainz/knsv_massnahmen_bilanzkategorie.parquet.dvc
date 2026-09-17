@@ -1,5 +1,5 @@
 outs:
-- md5: 05d7cbe2c52bdbcc90dca38fca4d2ee6
+- md5: 92a859cb6bfc121ee5744673ff801bd9
   size: 20150
   hash: md5
   path: knsv_massnahmen_bilanzkategorie.parquet
@@ -75,6 +75,6 @@ meta:
   - ghg_category
   - measure
   - measure_scenario
-  updated_at: '1789482865'
+  updated_at: '1789635368'
   units:
     Value: dimensionless
