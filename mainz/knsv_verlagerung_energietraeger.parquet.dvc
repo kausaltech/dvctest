@@ -1,5 +1,5 @@
 outs:
-- md5: 2811329c41f8281df1634ee551503813
+- md5: df8fbe64361156262d7bb45b53ddfbe1
   size: 14122
   hash: md5
   path: knsv_verlagerung_energietraeger.parquet
@@ -39,6 +39,6 @@ meta:
   - ghg_category
   - measure
   - measure_scenario
-  updated_at: '1789482894'
+  updated_at: '1789635396'
   units:
     Value: MWh/a
