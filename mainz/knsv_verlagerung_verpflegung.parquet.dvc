@@ -1,5 +1,5 @@
 outs:
-- md5: 0161f304700c40a0dcb327853b67f350
+- md5: 44d1600f370e590e7ffd8fd4cb1364b5
   size: 13969
   hash: md5
   path: knsv_verlagerung_verpflegung.parquet
@@ -40,6 +40,6 @@ meta:
   - measure
   - measure_scenario
   - municipal_facility_type
-  updated_at: '1789482900'
+  updated_at: '1789635402'
   units:
     Value: pcs/a
