@@ -1,0 +1,59 @@
+outs:
+- md5: 203b790509a3a6900a7ccca8373d7ad6
+  size: 20620
+  hash: md5
+  path: mp100_fahrleistungsminderung_verkehr.parquet
+meta:
+  name:
+    en: MP100 Fahrleistungsminderung Verkehr
+  identifier: mainz/mp100_fahrleistungsminderung_verkehr
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: mileage
+    unit: Mvehicle_km/a
+    label:
+      en: Value
+  sources:
+  - name: Kausal Annahme MP100-Maßnahmen Mainz
+    authority: Kausal Ltd -- Annahme dieses Modells, keine Angabe der Quelle
+    url:
+    description: 'Kennzeichnet Werte in mainz_mp100_measures.csv, die NICHT aus dem
+      IE-Leipzig-Szenarienvergleich oder dem Maßnahmenkatalog uebernommen, sondern
+      hier gesetzt sind, weil die Quelle die Groesse offenlaesst. Der jeweilige Grund
+      steht im Comment der betroffenen Zeile. Derzeit von keiner Zeile verwendet:
+      die Lesart von "dekarbonisierte Busflotte" (Steckbrief C 3.1) als elektrisch
+      ist am 17.09.2026 entschieden worden und steht damit als Entscheidung im Comment,
+      nicht als unbelegte Annahme.; Licensing: Annahme des Modells; mit dem Modell
+      veröffentlicht; Geographic Coverage: Mainz (AGS 07315000); Update Frequency:
+      Bei Klaerung durch die Stadt zu ersetzen; Date Last Updated: 2026-09-17; Updated
+      by: Kausal Ltd'
+    edition:
+    target: data_point
+  - name: Masterplan 100% Klimaschutz Mainz Maßnahmenkatalog 2022
+    authority: Landeshauptstadt Mainz -- Grün- und Umweltamt 
+      (67)/Masterplanmanagement
+    url:
+    description: 'Maßnahmenkatalog der Fortschreibung 2022 des Masterplans 100 % Klimaschutz
+      (201 S.), 53 Maßnahmensteckbriefe in fuenf Handlungsfeldern (A Energie, B Gebaeude,
+      C Verkehr, D Wirtschaft, E Alltag). Je Steckbrief ein Zielfeld mit Stuetzjahren
+      2025/2030/2035 sowie eine Priorisierung von THG-Minderung, kommunalem Einfluss
+      und Stakeholderrelevanz in drei Stufen. Die Priorisierung ist qualitativ: die
+      Vorlageseite des Katalogs weist THG-Minderung als gering/mittel/hoch aus und
+      haelt fest, dass eine Quantifizierung "durch Fachbuero falls quantifizierbar"
+      erfolgt. Es gibt daher keine Minderungsmengen je Maßnahme. Nur 17 Zielzeilen
+      tragen eine Zahl mit Einheit; diese sind die im Modell abbildbaren Ziele.; Attachment:
+      Massnahmenkatalog.pdf; Format: .pdf; Licensing: Beschlossenes Stadtratsdokument;
+      öffentlich; Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Zweite
+      Fortschreibung fuer 2026/2027 vorgesehen; Date Last Updated: 2022-08-23; Updated
+      by: Landeshauptstadt Mainz'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - mp100_measure
+  - road_type
+  - vehicle_type
+  updated_at: '1789676683'
+  units:
+    Value: Mvkm/a
