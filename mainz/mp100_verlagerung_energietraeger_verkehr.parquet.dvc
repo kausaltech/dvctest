@@ -1,0 +1,64 @@
+outs:
+- md5: 4ca5025e2515c5259267b1dcf5e6856e
+  size: 21901
+  hash: md5
+  path: mp100_verlagerung_energietraeger_verkehr.parquet
+meta:
+  name:
+    en: MP100 Verlagerung Energietraeger Verkehr
+  identifier: mainz/mp100_verlagerung_energietraeger_verkehr
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: fraction
+    unit: '%'
+    label:
+      en: Value
+  sources:
+  - name: IE Leipzig Szenarienvergleich Klimaneutralitaet 2035 Mainz
+    authority: Institut für Energetik und Umwelt gGmbH (IE Leipzig) im Auftrag 
+      der Landeshauptstadt Mainz
+    url:
+    description: 'Klimaneutralität 2035 -- Erste Einschätzung der Machbarkeit. Szenarienvergleich
+      (29 S., 06.01.2021). Definiert die Szenarienfamilie des Masterplans: Trend (Basisjahr
+      2014), MP-2050 (Basisjahr 2018, unveraendertes Maßnahmenpaket, Klimaneutralitaet
+      2050) und KN-2035 (Basisjahr 2018, verstaerkte und neue Maßnahmen, Klimaneutralitaet
+      2035). Tabelle 3 nennt die Annahmen je Sektor als Zahlen -- Sanierungsrate,
+      Energieproduktivitaet, Elektrifizierungsanteile, Energieversorgung -- und ist
+      die einzige quantitative Quelle fuer die Szenarien. Die Emissions- und Endenergiepfade
+      liegen nur als Datenpunktbeschriftungen der Abbildungen 6 und 7 vor, ausschliesslich
+      als Sektorsummen; die Sektoraufteilung der gestapelten Balken ist nicht beziffert.
+      Basisjahr 2018, daher ohne die Ist-Werte 2019-2024.; Attachment: REPORT2021_MainzMasterplan_Scenarios_IELeipzig.pdf;
+      Format: .pdf; Licensing: Im Auftrag der Stadt erstellt; nicht öffentlich; Geographic
+      Coverage: Mainz (AGS 07315000); Update Frequency: Abgeschlossen -- Fortschreibung
+      der Szenarien durch Kausal; Date Last Updated: 2021-01-06; Updated by: IE Leipzig'
+    edition:
+    target: data_point
+  - name: Masterplan 100% Klimaschutz Mainz Maßnahmenkatalog 2022
+    authority: Landeshauptstadt Mainz -- Grün- und Umweltamt 
+      (67)/Masterplanmanagement
+    url:
+    description: 'Maßnahmenkatalog der Fortschreibung 2022 des Masterplans 100 % Klimaschutz
+      (201 S.), 53 Maßnahmensteckbriefe in fuenf Handlungsfeldern (A Energie, B Gebaeude,
+      C Verkehr, D Wirtschaft, E Alltag). Je Steckbrief ein Zielfeld mit Stuetzjahren
+      2025/2030/2035 sowie eine Priorisierung von THG-Minderung, kommunalem Einfluss
+      und Stakeholderrelevanz in drei Stufen. Die Priorisierung ist qualitativ: die
+      Vorlageseite des Katalogs weist THG-Minderung als gering/mittel/hoch aus und
+      haelt fest, dass eine Quantifizierung "durch Fachbuero falls quantifizierbar"
+      erfolgt. Es gibt daher keine Minderungsmengen je Maßnahme. Nur 17 Zielzeilen
+      tragen eine Zahl mit Einheit; diese sind die im Modell abbildbaren Ziele.; Attachment:
+      Massnahmenkatalog.pdf; Format: .pdf; Licensing: Beschlossenes Stadtratsdokument;
+      öffentlich; Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Zweite
+      Fortschreibung fuer 2026/2027 vorgesehen; Date Last Updated: 2022-08-23; Updated
+      by: Landeshauptstadt Mainz'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - energy_carrier
+  - mp100_measure
+  - road_type
+  - vehicle_type
+  updated_at: '1789676690'
+  units:
+    Value: '%'
