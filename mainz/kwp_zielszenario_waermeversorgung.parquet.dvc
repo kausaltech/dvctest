@@ -1,0 +1,44 @@
+outs:
+- md5: a6d6f79106bbec1b9cbec2803899e3ef
+  size: 11848
+  hash: md5
+  path: kwp_zielszenario_waermeversorgung.parquet
+meta:
+  name:
+    en: KWP Zielszenario Waermeversorgung
+  identifier: mainz/kwp_zielszenario_waermeversorgung
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: energy
+    unit: MWh/a
+    label:
+      en: Value
+  sources:
+  - name: KWP Zielszenario Mainz 2040 (Kommunale Waermeplanung)
+    authority: Landeshauptstadt Mainz, Grün- und Umweltamt, Projektleitung 
+      Kommunale Wärmeplanung
+    url:
+    description: 'Target scenario of the statutory municipal heat plan (Kommunale
+      Wärmeplanung, WPG), evaluation of 2026-06-16, shared 2026-09-18. Final energy
+      for building heat by carrier, CO2, and building counts for 2024, 2030, 2035
+      and 2040: oil and gas heating to zero by 2040, the heat network from 5,021 to
+      18,392 buildings, heat pumps from none to 24,165, total heat down about 13 %.
+      Building-typology model, not metered data -- its 2024 column differs from the
+      BISKO balance (its heating gas alone exceeds the city’s entire metered gas consumption),
+      so only its relative path is used. Its CO2 table is deliberately not imported:
+      it implies a district-heating factor of about 4.4 g/kWh against the BISKO default
+      of 260 g/kWh.; Attachment: KWP 2026-06-16 Auswertung Mainz Zielszenario 2040
+      kopie.xlsx; Format: .xlsx; Licensing: Municipal planning document; not public;
+      Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Per heat-plan revision
+      (WPG: at least every five years); Date Last Updated: 2026-06-16; Updated by:
+      Landeshauptstadt Mainz, Grün- und Umweltamt'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - energy_carrier
+  - sector
+  updated_at: '1789721748'
+  units:
+    Value: MWh/a
