@@ -1,5 +1,5 @@
 outs:
-- md5: a6d6f79106bbec1b9cbec2803899e3ef
+- md5: e1adb476f703e91c2dfb9ceed13d0eb8
   size: 11848
   hash: md5
   path: kwp_zielszenario_waermeversorgung.parquet
@@ -39,6 +39,6 @@ meta:
   - Year
   - energy_carrier
   - sector
-  updated_at: '1789721748'
+  updated_at: '1789724942'
   units:
     Value: MWh/a
