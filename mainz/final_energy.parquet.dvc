@@ -1,6 +1,6 @@
 outs:
-- md5: 4f030a2cd1879ef9c03232bab1834026
-  size: 29294
+- md5: e97f91b65723aa00537933611f2aaba2
+  size: 39396
   hash: md5
   path: final_energy.parquet
 meta:
@@ -65,23 +65,66 @@ meta:
       Industrie, Kommunale Einrichtungen, Verkehr). Authoritative for 1990-2018 only:
       from 2020 the export carries Heizöl values identical to Erdgas, zeroes Fernwärme,
       Biomasse and Solarthermie, zeroes Kommunale Einrichtungen, and leaves 2024 empty.;
-      Attachment: 073150000000_stationaer_1990-2024_data.xlsx; Format: .xlsx; Licensing:
+      Attachment: Stationär_1990-2023_KSP_Gesamtbilanz.xlsx; Format: .xlsx; Licensing:
       Provided to the city; not public; Geographic Coverage: Mainz (AGS 07315000);
       Update Frequency: Superseded -- no further updates expected; Date Last Updated:
       2026-01-27; Updated by: Landeshauptstadt Mainz'
     edition:
     target: data_point
-  - name: Schornsteinfegerdaten KWP (Kommunale Waermeplanung), Datenabgabe 2025
-    authority:
+  - name: Schornsteinfeger-Datenservice Mainz 2024 (Feuerstätten)
+    authority: Schornsteinfegerinnung / Datenservice Rheinland-Pfalz via 
+      Landeshauptstadt Mainz
     url:
-    description:
+    description: "Register of heating appliances in Mainz for 2024: counts of single-room
+      and central appliances by fuel (biomass -- split into logs, pellets and chips
+      -- natural gas, LPG, heating oil, coal) and by rated capacity class. Delivered
+      2026-03-31. Contains no sector breakdown and no consumption; final energy is
+      derived from mean capacity and default full-load hours given in the workbook's
+      own Lookup sheet.; Attachment: KESSELANZAHL_Feuerstätten_Mainz_2024_EKA-RLP-Datenservice.xlsx;
+      Format: .xlsx; Licensing: Provided to the city for climate accounting; not public;
+      Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Annual (2024 is
+      the first year delivered); Date Last Updated: 2026-03-31; Updated by: Datenservice
+      Rheinland-Pfalz"
+    edition:
+    target: data_point
+  - name: Schornsteinfeger-Kehrbuchdaten Mainz 2023 (Feuerstätten)
+    authority: Bevollmächtigte Bezirksschornsteinfeger Mainz via 
+      Landeshauptstadt Mainz, Grün- und Umweltamt (Kommunale Wärmeplanung)
+    url:
+    description: 'Chimney-sweep register (Kehrbuch) counts of heating appliances in
+      Mainz for 2023, by fuel (biomass, natural gas, LPG, heating oil, coal) and rated
+      capacity class, single-room and central appliances separately. Delivered 2026-09-14.
+      Same table shape as the 2024 EKA-RLP delivery but without its biomass-by-type
+      sub-table and without the Lookup sheet, so the conversion to final energy uses
+      the parameters of that workbook. Contains no sector breakdown and no consumption.;
+      Attachment: 20260914_Mainz_Schornsteinfeger_2023.xlsx; Format: .xlsx; Licensing:
+      Collected by the city under WPG § 11 for the municipal heat plan (Kommunale
+      Wärmeplanung); not public; Geographic Coverage: Mainz (AGS 07315000); Update
+      Frequency: Annual; Date Last Updated: 2026-09-14; Updated by: Landeshauptstadt
+      Mainz, Grün- und Umweltamt'
+    edition:
+    target: data_point
+  - name: Schornsteinfeger-Kehrbuchdaten Mainz 2024-2025 (Feuerstätten)
+    authority: Bevollmächtigte Bezirksschornsteinfeger Mainz via 
+      Landeshauptstadt Mainz, Grün- und Umweltamt (Kommunale Wärmeplanung)
+    url:
+    description: 'Chimney-sweep register (Kehrbuch) counts of heating appliances in
+      Mainz for 2024 and 2025, same structure as the 2023 delivery. Delivered 2026-09-10.
+      Its 2024 block is identical, appliance for appliance, to the 2024 EKA-RLP Datenservice
+      workbook, which the extractor asserts; both are therefore named on the 2024
+      rows. The 2025 block is read and reported but not published, because the model’s
+      history ends in 2024.; Attachment: 20260910_Mainz_Schornsteinfeger_2024_2025.xlsx;
+      Format: .xlsx; Licensing: Collected by the city under WPG § 11 for the municipal
+      heat plan (Kommunale Wärmeplanung); not public; Geographic Coverage: Mainz (AGS
+      07315000); Update Frequency: Annual; Date Last Updated: 2026-09-10; Updated
+      by: Landeshauptstadt Mainz, Grün- und Umweltamt'
     edition:
     target: data_point
   index_columns:
   - Year
   - energy_carrier
   - sector
-  updated_at: '1788274008'
+  updated_at: '1789723589'
   units:
     Value: MWh/a
     quality: dimensionless
