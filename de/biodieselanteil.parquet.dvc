@@ -1,6 +1,6 @@
 outs:
-- md5: 5cc86df80e74dfcbae557295561b5c91
-  size: 2996
+- md5: 55fe0075d46aa1931ede038f01e7c97b
+  size: 4997
   hash: md5
   path: biodieselanteil.parquet
 meta:
@@ -14,5 +14,25 @@ meta:
     label:
       de: Value
   updated_at: '1767348296'
+  sources:
+  - name: ifeu Bioanteile Schiene-Schiff 2025
+    authority: ifeu -- Institut für Energie- und Umweltforschung Heidelberg
+    url:
+    description: 'Blatt "Bioanteile Schiene-Schiff" derselben Lieferung: Anteil des
+      Biodiesels am gesamten Dieselabsatz in Prozent, je Jahr 1990-2023. Eine einzige
+      Zeile; sie trennt den fossilen vom biogenen Anteil des Dieselverbrauchs bei
+      Schiene und Binnenschiff, für die keine getrennten Verbrauchsdaten vorliegen.;
+      Attachment: Übergabe Kausal Verkehr Faktoren Update 2025 final.xlsx; Format:
+      .xlsx; Licensing: An Kausal geliefert; nicht öffentlich; Geographic Coverage:
+      Deutschland; Update Frequency: Jährlich; Date Last Updated: 2025; Updated by:
+      ifeu'
+    edition:
+    target: dataset
+  index_columns:
+  - kind: range
+    name:
+    start: 0
+    stop: 34
+    step: 1
   units:
     Value: dimensionless
