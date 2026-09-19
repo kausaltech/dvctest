@@ -1,0 +1,56 @@
+outs:
+- md5: 7d4e2c874b56fbfc9f129c8a664f82f9
+  size: 13663
+  hash: md5
+  path: fernwaerme_erzeugungsvariante.parquet
+meta:
+  name:
+    en: Fernwaerme Erzeugungsvariante
+  identifier: mainz/fernwaerme_erzeugungsvariante
+  metrics:
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      en: quality
+  - id: default
+    column_id: default
+    quantity: fraction
+    unit: ''
+    label:
+      en: default
+  sources:
+  - name: Mainzer Stadtwerke Datenabfrage Klimabilanz Mainz 2019-2025
+    authority: 'Mainzer Stadtwerke AG und Tochtergesellschaften: Mainzer Netze (MN),
+      Mainzer Fernwärme (MFW), Mainzer Wärmepartner (MWP), Mainzer Verkehrsgesellschaft
+      (MVG), Mainzer Erneuerbare Energien (MEE)'
+    url:
+    description: 'Antwort der Mainzer Stadtwerke auf die Datenabfrage zur Klimabilanz,
+      Stand 22.06.2026. Je Zeile ein Datenpunkt mit Gesellschaft, Ansprechperson,
+      Einheit, Jahreswerten 2019-2024 (Erdgas zusätzlich 2025), Datenquelle, Datengüte
+      (A-D nach eigenem Schlüssel) und Kommentar. Enthält: Fernwärmeverbrauch Territorium
+      nach Sektoren (MFW, ohne Lerchenberg und Berliner Siedlung) sowie Fernwärmebezug
+      und Erdgas-/Biomethaneinsatz der Netze Lerchenberg und Berliner Siedlung (MWP);
+      Fernwärme-Erzeugungsdaten (Input Erdgas, Heizöl, Müll fossil, Müll biogen, Klärschlamm
+      gegen Output Wärme) als Grundlage eines lokalen Emissionsfaktors; gefahrene
+      Kilometer und Energieverbrauch der MVG nach Dieselbus, Elektrobus, Brennstoffzellenbus
+      und Straßenbahn; Erzeugung Windpark Ebersheim/Klein-Winternheim sowie Einspeisung
+      und Eigenverbrauch der MSW-eigenen PV-Anlagen je Liegenschaft. Die Erdgas- und
+      Stromblätter geben dieselben Mainzer-Netze-Zahlen wieder, die bereits über EKA-RLP
+      geliefert wurden, mit fünf Abweichungen -- die größte ist Strom GHD/Industrie
+      2019 (+35,0 GWh). Fossil/biogener Anteil des Mülleinsatzes ist mit exakt 50/50
+      angesetzt.; Attachment: VERBRAUCH_Strom_Gas_Fernwärme_Wärmepumpen_Nachtspeicher_2019-2024_StadtwerkeMainz_20260622.xlsx;
+      Format: .xlsx; Licensing: Der Stadt für die Klimabilanzierung zur Verfügung
+      gestellt; nicht öffentlich; Geographic Coverage: Mainz (AGS 07315000); Windpark
+      teilweise außerhalb der Stadtgrenze; Update Frequency: Jährlich zu erneuern;
+      Date Last Updated: 2026-06-22; Updated by: Mainzer Stadtwerke AG'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - energy_carrier
+  updated_at: '1789788980'
+  units:
+    default: dimensionless
+    quality: dimensionless
