@@ -1,6 +1,6 @@
 outs:
-- md5: 531c22e01f50b2d3c7563cfb7495c895
-  size: 5663
+- md5: ff83ebd8c36e142ce318850147264bb4
+  size: 7751
   hash: md5
   path: auslastung_fahrzeuge.parquet
 meta:
@@ -18,6 +18,23 @@ meta:
     label:
       de: Passengers
   updated_at: '1767409134'
+  sources:
+  - name: ifeu Fahrzeugbelegung 2025
+    authority: ifeu -- Institut für Energie- und Umweltforschung Heidelberg
+    url:
+    description: 'Blatt "Fahrzeugbelegung" derselben Lieferung: mittlere Besetzung
+      in Personen je Fahrzeug und mittlere Ladung in Tonnen je Fahrzeug, je Verkehrsmittel
+      und Jahr 1990-2023. Kein Bestandteil der Bilanz: die Werte rechnen Fahrleistung
+      in Verkehrsleistung (pkm, tkm) um, die BISKO nicht bilanziert, aber Prüfschritt
+      2.3 zur Einordnung erwartet.; Attachment: Übergabe Kausal Verkehr Faktoren Update
+      2025 final.xlsx; Format: .xlsx; Licensing: An Kausal geliefert; nicht öffentlich;
+      Geographic Coverage: Deutschland; Update Frequency: Jährlich; Date Last Updated:
+      2025; Updated by: ifeu'
+    edition:
+    target: dataset
+  index_columns:
+  - vehicle_type
+  - Year
   units:
     Passengers: passenger/vehicle
     Cargo: t/vehicle
