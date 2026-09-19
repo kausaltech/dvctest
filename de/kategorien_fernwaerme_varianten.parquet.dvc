@@ -1,6 +1,6 @@
 outs:
-- md5: 5b5e3f799a324dbab9c4fa4c9a5218d7
-  size: 6615
+- md5: 546077ab89c29c9194f0750086fa98d1
+  size: 9245
   hash: md5
   path: kategorien_fernwaerme_varianten.parquet
 meta:
@@ -14,9 +14,26 @@ meta:
     unit: ''
     label:
       de: expected
+  updated_at: '1787287311'
+  sources:
+  - name: Kausal-Register der berichteten Kombinationen
+    authority: Kausal Ltd
+    url:
+    description: 'Maschinenlesbares Register der Zellen, über die die Verfügbarkeitsknoten
+      berichten -- welche Kombinationen in der Eingabemaske erscheinen sollen, auch
+      wenn sie leer sind. Keine Pflichtangaben: ohne dieses Register nimmt ein DataAvailabilityNode
+      seine Kombinationen aus den Daten, sodass eine vollständig leere Vorlage nichts
+      zu berichten hat und eine fehlende Zelle unsichtbar bleibt statt als 0 zu erscheinen.
+      Abgeleitet aus dem BISKO-Methodenpapier Juli 2024 und Prüfschritt 7.1. Gesperrt
+      aus demselben Grund wie die Pflichtkategorien: wer die geprüften Daten bearbeiten
+      darf, darf nicht die Liste des Geprüften bearbeiten.; Attachment: modules/bisko/required_categories/;
+      Format: .csv; Licensing: Kausal-eigene Aufbereitung des öffentlichen Standards;
+      Geographic Coverage: Deutschland; Update Frequency: Bei Änderung des Standards
+      oder der Prüfprotokolle; Date Last Updated: 2026-09-19; Updated by: Kausal Ltd'
+    edition:
+    target: dataset
   index_columns:
   - energy_carrier
   - Year
-  updated_at: '1787287311'
   units:
     expected: dimensionless
