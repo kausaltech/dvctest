@@ -1,6 +1,6 @@
 outs:
-- md5: be9b4b05786f897c99fa8daffc83a841
-  size: 8820
+- md5: cff5c1b0eeddfa0677f4abf25f216105
+  size: 10857
   hash: md5
   path: energieverbrauch_uebriger_verkehr.parquet
 meta:
@@ -20,11 +20,26 @@ meta:
     unit: ''
     label:
       de: quality
+  updated_at: '1787285075'
+  sources:
+  - name: Eigene Verbrauchsdaten uebriger Verkehr der Kommune
+    authority: Die bilanzierende Kommune
+    url:
+    description: 'Endenergieverbrauch von Schiene, Binnenschifffahrt und Luftverkehr
+      im Gemeindegebiet, je Verkehrsmittel und Energieträger (Prüfschritte 1.5 und
+      2.2): Nah-, Fern- und Güterverkehr der Schiene jeweils elektrisch und mit Diesel,
+      Binnenschiffsgüterverkehr mit Diesel, gewerblicher Luftverkehr mit Kerosin.
+      Ersetzt in den Jahren, die er abdeckt, die ifeu-Defaultdaten. Ein Eintrag darf
+      auch Null sein -- das ist eine Angabe und keine Lücke.; Format: Eingabe im Bilanzierungswerkzeug;
+      Licensing: Kommunale Angabe; nicht öffentlich; Geographic Coverage: Die jeweilige
+      Kommune; Update Frequency: Jährlich; Date Last Updated: 2026-08-21; Updated
+      by: Kommune'
+    edition:
+    target: dataset
   index_columns:
   - vehicle_type
   - energy_carrier
   - Year
-  updated_at: '1787285075'
   units:
     Value: MWh/a
     quality: dimensionless
