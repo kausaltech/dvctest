@@ -1,6 +1,6 @@
 outs:
-- md5: 9a55c82b9f5e427bf6b35fc5c384e297
-  size: 17797
+- md5: cdad6a9933529c4fa4ef19532686f917
+  size: 17881
   hash: md5
   path: ie_leipzig_szenarien_verkehr.parquet
 meta:
@@ -46,6 +46,6 @@ meta:
   - energy_carrier
   - ie_szenario
   - vehicle_type
-  updated_at: '1789805495'
+  updated_at: '1789806430'
   units:
     Value: MWh/a
