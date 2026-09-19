@@ -1,6 +1,6 @@
 outs:
-- md5: 1c1f047b21dc15dd1a2041482e2aa49d
-  size: 8761
+- md5: aa45d01f634c5411e9fd198ad3b50a6b
+  size: 10776
   hash: md5
   path: fahrleistung_strassenverkehr.parquet
 meta:
@@ -20,11 +20,26 @@ meta:
     unit: Mvehicle_km/a
     label:
       de: Value
+  updated_at: '1787285065'
+  sources:
+  - name: Eigene Fahrleistungsdaten der Kommune
+    authority: Die bilanzierende Kommune
+    url:
+    description: 'Fahrleistung im Gemeindegebiet nach Fahrzeugklasse und Straßenkategorie
+      (Prüfschritte 2.2 und 2.3), sowie die Verkehrsleistung in Personenkilometern.
+      Die Fahrleistung ersetzt in den Jahren, die sie abdeckt, die gemeindefeinen
+      ifeu-Defaultdaten; die Verkehrsleistung geht nicht in die Bilanz ein und dient
+      der Einordnung. Die Vorlagen werden leer ausgeliefert -- eine Kommune, die sich
+      auf die BISKO-Defaultdaten stützt, liefert hier zu Recht nichts.; Format: Eingabe
+      im Bilanzierungswerkzeug; Licensing: Kommunale Angabe; nicht öffentlich; Geographic
+      Coverage: Die jeweilige Kommune; Update Frequency: Jährlich; Date Last Updated:
+      2026-08-21; Updated by: Kommune'
+    edition:
+    target: dataset
   index_columns:
   - vehicle_type
   - road_type
   - Year
-  updated_at: '1787285065'
   units:
     Value: Mvkm/a
     quality: dimensionless
