@@ -1,6 +1,6 @@
 outs:
-- md5: 4000d3f6eaf717af22f5330f6d0c1b92
-  size: 5297
+- md5: e860e4470ef4fb0350d5d683e83dbebf
+  size: 9018
   hash: md5
   path: emissionsfaktoren_erzeugung.parquet
 meta:
@@ -14,5 +14,32 @@ meta:
     label:
       de: Value
   updated_at: '1766216319'
+  sources:
+  - name: Lokale Kopie der ifeu-Faktortabellen
+    authority: 'Die bilanzierende Kommune (Ausgangswerte: ifeu)'
+    url:
+    description: 'Lokale, durch die Stadt-Administration bearbeitbare Kopien der drei
+      nationalen ifeu-Faktortabellen (Endenergie, Erzeugung, ohne Brennstoffinput).
+      Sie sind Momentaufnahmen der nationalen Tabellen zum Zeitpunkt ihrer Anlage
+      und werden nicht automatisch mit ihnen fortgeschrieben: eine nationale Tabelle
+      kann Energieträger enthalten, die hier fehlen. Stand 19.09.2026 führt die lokale
+      Erzeugungstabelle 10 Brennstoff-Energieträger gegenüber 18 in der nationalen.
+      Ob und wie weit eine lokale Kopie abweicht, ist eine Frage an die jeweilige
+      Instanz und nicht an diese Lieferung. Über den Schalter "nationale vs. lokale
+      Werte" wählbar. WICHTIG: Eine Bilanz, die die lokalen Werte verwendet, ist nicht
+      BISKO-konform -- die Prüfschritte 3.2, 4.3 und 6.2 verlangen die nationalen
+      Faktoren, und is_bisko_compliant fällt auf 0, sobald der Schalter umgelegt wird.
+      Für die Fernwärme gibt es aus demselben Grund gar keine lokale Tabelle: Kriterium
+      6 verlangt eine exergetische Herleitung, und ein eingetragener Faktor ist keine.;
+      Format: Eingabe im Bilanzierungswerkzeug; Licensing: Kommunale Angabe; nicht
+      öffentlich; Geographic Coverage: Die jeweilige Kommune; Update Frequency: Nur
+      bei bewusster lokaler Abweichung; Date Last Updated: 2026-09-19; Updated by:
+      Kommune'
+    edition:
+    target: dataset
+  index_columns:
+  - per_what_energy
+  - energy_carrier
+  - Year
   units:
     Value: g_co2e/kWh
