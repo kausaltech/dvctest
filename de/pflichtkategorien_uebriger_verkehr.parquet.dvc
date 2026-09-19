@@ -1,6 +1,6 @@
 outs:
-- md5: 3ccf9d607846a272a333c42e28b1938c
-  size: 6033
+- md5: 31bd99fe130ccad4cca44d1e62c19f1a
+  size: 8928
   hash: md5
   path: pflichtkategorien_uebriger_verkehr.parquet
 meta:
@@ -16,5 +16,27 @@ meta:
     label:
       de: required
   updated_at: '1787084268'
+  sources:
+  - name: Kausal-Register der BISKO-Pflichtkategorien
+    authority: Kausal Ltd
+    url:
+    description: 'Maschinenlesbares Register der Zellen, die eine BISKO-Bilanz enthalten
+      muss, abgeleitet aus dem BISKO-Methodenpapier Juli 2024 und den Prüfprotokollen
+      der beiden Prüfläufe (16.06.2026 und 21.08.2026). Keine Datenlieferung, sondern
+      die Kodierung einer Anforderung: der Vollständigkeitstest liest daraus, welche
+      Sektor-Energieträger-, Fahrzeug-Straßen- und Verkehrsmittel-Kombinationen vorhanden
+      sein müssen. Die per-Teilsektor-Lesart wurde von Difu am 19.08.2026 bestätigt.
+      Gesperrt, weil eine Kommune, die das Register bearbeiten könnte, eine unvollständige
+      Bilanz als konform ausweisen lassen könnte.; Attachment: modules/bisko/required_categories/,
+      modules/bisko/other_transport/; Format: .csv; Licensing: Kausal-eigene Aufbereitung
+      des öffentlichen Standards; Geographic Coverage: Deutschland; Update Frequency:
+      Bei Änderung des Standards oder der Prüfprotokolle; Date Last Updated: 2026-08-21;
+      Updated by: Kausal Ltd'
+    edition:
+    target: dataset
+  index_columns:
+  - vehicle_type
+  - energy_carrier
+  - Year
   units:
     required: dimensionless
