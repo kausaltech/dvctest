@@ -1,6 +1,6 @@
 outs:
-- md5: 05affc9be94a307866b17fdf638a339c
-  size: 7493
+- md5: 8368473d677d92f5902c9ded11651f63
+  size: 10012
   hash: md5
   path: emissionsfaktoren_endenergie.parquet
 meta:
@@ -12,15 +12,31 @@ meta:
     column_id: Value
     quantity: emission_factor
     unit: t_co2e/MWh
-  index_columns:
-  - energy_carrier
-  - upstream_included
-  - per_what_energy
-  - Year
   updated_at: '1787699021'
   description:
     de: "Nahwaerme (local_heating) 2024 ergaenzt: 0,14 t CO2e/MWh, bestaetigter deutschlandweiter
       ifeu-Defaultwert (nicht Mainz-spezifisch, trotz anfaenglicher KSP-Anzeige unter
       'Kommune: Mainz'), 2026-08-26."
+  sources:
+  - name: ifeu Emissionsfaktoren Endenergie 2023
+    authority: ifeu -- Institut für Energie- und Umweltforschung Heidelberg
+    url:
+    description: 'Endenergie-Emissionsfaktoren der ifeu-Lieferung, Blatt EFA_Energieverbrauch:
+      je Energieträger ein Faktor pro Endenergieverbrauch in t CO2e/MWh, einschließlich
+      Äquivalente und Vorketten, 1990-2024. Enthält den Bundesstrommix, den BISKO
+      für den Stromverbrauch vorschreibt (Kriterium 4.3), sowie die vier Abwärmeklassen.
+      Das Blatt ist in der korrigierten und der unkorrigierten Lieferung Zeile für
+      Zeile identisch; die Korrektur vom Januar 2026 betraf allein das Blatt EFA_Erzeugung.
+      Nahwärme 2024 wurde am 26.08.2026 ergänzt (0,14 t CO2e/MWh, bundesweiter ifeu-Defaultwert).;
+      Attachment: Emissionsfaktoren_2023_Kausal_korrigiert.xlsx; Format: .xlsx; Licensing:
+      An Kausal geliefert; nicht öffentlich; Geographic Coverage: Deutschland; Update
+      Frequency: Jährlich; Date Last Updated: 2026-01-16; Updated by: ifeu'
+    edition:
+    target: dataset
+  index_columns:
+  - energy_carrier
+  - upstream_included
+  - per_what_energy
+  - Year
   units:
     Value: t_co2e/MWh
