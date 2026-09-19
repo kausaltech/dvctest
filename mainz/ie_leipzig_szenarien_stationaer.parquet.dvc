@@ -1,6 +1,6 @@
 outs:
-- md5: d442a7d60840244d0efcce572aafea09
-  size: 20807
+- md5: 8b32020913fcae62d5a5383fd6caa0cf
+  size: 20813
   hash: md5
   path: ie_leipzig_szenarien_stationaer.parquet
 meta:
@@ -46,6 +46,6 @@ meta:
   - energy_carrier
   - ie_szenario
   - sector
-  updated_at: '1789805486'
+  updated_at: '1789806420'
   units:
     Value: MWh/a
