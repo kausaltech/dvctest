@@ -1,6 +1,6 @@
 outs:
-- md5: 7c3f41a8874be17784dc0a3c35c12640
-  size: 10549
+- md5: da745cb23a22c48fd152cda1add56492
+  size: 12959
   hash: md5
   path: energiefaktoren_verkehr.parquet
 meta:
@@ -22,6 +22,26 @@ meta:
     label:
       de: Value
   updated_at: '1767348313'
+  sources:
+  - name: ifeu Verbrauchsfaktoren Strasse 2025
+    authority: ifeu -- Institut für Energie- und Umweltforschung Heidelberg
+    url:
+    description: 'Blatt "Verbrauchsfaktoren Straße" derselben Lieferung: spezifischer
+      Endenergieverbrauch in kWh/Fz-km, je Fahrzeugklasse, Straßenkategorie (AB/AO/IO)
+      und Kraftstoff, 1990-2023. Zusammen mit den Energieanteilen (de/energieanteile_verkehr)
+      wandelt das die Fahrleistung in Endenergie um -- der Fahrleistungsweg des Prüfschritts
+      1.5. Die Spalten "Per person" und "Per seat" sind daraus und aus der Fahrzeugbelegung
+      abgeleitet und gehen nicht in die Bilanz ein.; Attachment: Übergabe Kausal Verkehr
+      Faktoren Update 2025 final.xlsx; Format: .xlsx; Licensing: An Kausal geliefert;
+      nicht öffentlich; Geographic Coverage: Deutschland; Update Frequency: Jährlich;
+      Date Last Updated: 2025; Updated by: ifeu'
+    edition:
+    target: dataset
+  index_columns:
+  - vehicle_type
+  - road_type
+  - energy_carrier
+  - Year
   units:
     Value: kWh/vkm
     Per seat: kWh/km
