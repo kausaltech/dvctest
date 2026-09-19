@@ -1,27 +1,57 @@
 outs:
-- md5: ef5d7afb0b03a88f119650e633c2bc36
-  size: 7068
+- md5: 004891175740a8395a8f6bcf764c9717
+  size: 16981
   hash: md5
   path: emissionsfaktoren_erzeugung.parquet
 meta:
   name:
-    de: Emissionsfaktoren Erzeugung
+    de: emissionsfaktoren_erzeugung
   identifier: de/emissionsfaktoren_erzeugung
   metrics:
-  - id: default
+  - id: Value
     column_id: Value
     quantity: emission_factor
-    unit: t_co2e/MWh
+    unit: t_CO2e/MWh
+    label:
+      de: Value
+  sources:
+  - name: ifeu Emissionsfaktoren Endenergie 2023 (Uebernahme in die 
+      Erzeugungstabelle)
+    authority: ifeu -- Institut für Energie- und Umweltforschung Heidelberg
+    url:
+    description: 'Dieselbe ifeu-Lieferung wie "ifeu Emissionsfaktoren Endenergie 2023",
+      Blatt EFA_Energieverbrauch, hier als Herkunft einzelner Zeilen der Erzeugungstabelle.
+      Für acht Energieträger -- Strom, Heizstrom, Umweltwärme, Solarthermie und die
+      vier Abwärmeklassen -- führt ifeu keinen eigenen Erzeugungsfaktor, weil es keine
+      Brennstoffe sind: einen von ihrem Endenergiefaktor abweichenden Erzeugungsfaktor
+      gibt es für sie nicht. Übernommen, damit BISKO-Möglichkeit 1 auch ein Wärmenetz
+      bewerten kann, das Abwärme, Solarthermie, Umweltwärme oder Strom einsetzt; ohne
+      diese Zeilen fällt solche Wärme still aus der Multiplikation heraus und wäre
+      emissionsfrei. Wo ifeu beide Faktoren angibt, gilt der Erzeugungswert und es
+      wird nichts übernommen.; Attachment: Emissionsfaktoren_2023_Kausal_korrigiert.xlsx;
+      Format: .xlsx; Licensing: An Kausal geliefert; nicht öffentlich; Geographic
+      Coverage: Deutschland; Update Frequency: Jährlich; Date Last Updated: 2026-01-16;
+      Updated by: ifeu'
+    edition:
+    target: data_point
+  - name: ifeu Emissionsfaktoren Erzeugung 2023 (korrigiert)
+    authority: ifeu -- Institut für Energie- und Umweltforschung Heidelberg
+    url:
+    description: 'Korrigierte Emissionsfaktoren-Lieferung von ifeu, Blatt EFA_Erzeugung,
+      Zeilen "Fernwärme - überwiegend ...". Enthält die sieben Erzeugungsvarianten
+      aus BISKO-Tabelle 5 als Emissionsfaktoren je erzeugter Wärmemenge, exergetisch
+      alloziert, in t CO2e/MWh einschließlich Vorketten. Ersetzt die frühere, unkorrigierte
+      Fassung, aus der das Modell die Jahre 1990-2019 bezogen hatte.; Attachment:
+      Emissionsfaktoren_2023_Kausal_korrigiert.xlsx; Format: .xlsx; Licensing: An
+      Kausal geliefert; nicht öffentlich; Geographic Coverage: Deutschland; Update
+      Frequency: Jährlich; Date Last Updated: 2026-01-16; Updated by: ifeu'
+    edition:
+    target: data_point
   index_columns:
-  - energy_carrier
-  - upstream_included
-  - per_what_energy
   - Year
-  updated_at: '1787697772'
-  description:
-    de: "14 Energietraeger (fuel_input und/oder electricity_output) fuer 2024 ergaenzt
-      aus dem KSP-Portal ('THG Stationaer', Kommune: Deutschland, gelesen 2026-08-26).
-      fluessige Biomasse und Geothermie bewusst ausgelassen -- keine passende Kategorie
-      im Schema."
+  - energy_carrier
+  - per_what_energy
+  - upstream_included
+  updated_at: '1789827154'
   units:
     Value: t_co2e/MWh
