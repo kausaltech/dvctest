@@ -1,6 +1,6 @@
 outs:
-- md5: 7552fcc3fcb7851a18861245edbe4b1f
-  size: 5778
+- md5: 9de8febe3dba5eb858adabf3ffaeeb55
+  size: 8000
   hash: md5
   path: emissionsfaktoren_ohne_brennstoffinput.parquet
 meta:
@@ -14,5 +14,24 @@ meta:
     label:
       de: Value
   updated_at: '1763881065'
+  sources:
+  - name: ifeu Emissionsfaktoren ohne Brennstoffinput 2023
+    authority: ifeu -- Institut für Energie- und Umweltforschung Heidelberg
+    url:
+    description: 'Blatt EFA_Erzeugung der ifeu-Lieferung, Block "Emissionsfaktoren
+      ohne Brennstoffinputinformationen": produktbezogene Faktoren je erzeugter Strom-
+      oder Wärmemenge in t CO2e/MWh, für Anlagen, deren Brennstoffeinsatz und Produktaufteilung
+      nicht bekannt sind. Die Faktoren eines Energieträgers dürfen daher nicht summiert
+      werden; Strom und Wärme sind getrennt zu rechnen.; Attachment: Emissionsfaktoren_2023_Kausal_korrigiert.xlsx;
+      Format: .xlsx; Licensing: An Kausal geliefert; nicht öffentlich; Geographic
+      Coverage: Deutschland; Update Frequency: Jährlich; Date Last Updated: 2026-01-16;
+      Updated by: ifeu'
+    edition:
+    target: dataset
+  index_columns:
+  - energy_carrier
+  - upstream_included
+  - per_what_energy
+  - Year
   units:
     Value: t_co2e/MWh
