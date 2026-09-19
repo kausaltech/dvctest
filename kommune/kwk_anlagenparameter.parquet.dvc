@@ -1,6 +1,6 @@
 outs:
-- md5: 03178feb7ec3dc3a1ffc5da6495b447e
-  size: 4707
+- md5: b8b59741acf7bfb120bdb158386b813e
+  size: 6849
   hash: md5
   path: kwk_anlagenparameter.parquet
 meta:
@@ -20,9 +20,24 @@ meta:
     unit: ''
     label:
       de: electricity_fraction
+  updated_at: '1787286540'
+  sources:
+  - name: KWK-Anlagenparameter des Fernwaermeversorgers
+    authority: Fernwärmeversorger der Kommune
+    url:
+    description: 'Stromanteil an der Erzeugung und Vorlauftemperatur des Fernwärmenetzes,
+      je Jahr. Zusammen mit dem Brennstoffeinsatz (kommune/fernwaerme_energieeinsatz)
+      sind das die Eingaben der exergetischen Allokation nach BISKO-Kriterium 6; die
+      Rücklauftemperatur ist mit 283 K im Code festgelegt und nicht eingebbar. Die
+      Vorlage enthält Platzhalter (0,3 und 373 K), die eine Kommune durch eigene Angaben
+      ersetzt. Beide Größen ändern sich mit der Fahrweise der Anlage von Jahr zu Jahr.;
+      Format: Eingabe im Bilanzierungswerkzeug; Licensing: Kommunale Angabe; nicht
+      öffentlich; Geographic Coverage: Die jeweilige Kommune; Update Frequency: Jährlich;
+      Date Last Updated: 2026-08-21; Updated by: Kommune'
+    edition:
+    target: dataset
   index_columns:
   - Year
-  updated_at: '1787286540'
   units:
     electricity_fraction: dimensionless
     t_supply: K
