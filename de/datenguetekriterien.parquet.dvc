@@ -1,6 +1,6 @@
 outs:
-- md5: f4baff57582a7e938abb3fafaa079ae2
-  size: 5044
+- md5: 279da86e99961440811605f6249f36b9
+  size: 7773
   hash: md5
   path: datenguetekriterien.parquet
 meta:
@@ -20,5 +20,26 @@ meta:
     label:
       de: Requirement
   updated_at: '1773756704'
+  sources:
+  - name: BISKO-Methodenpapier Juli 2024
+    authority: Agentur für kommunalen Klimaschutz am Deutschen Institut für 
+      Urbanistik gGmbH (Difu), im Auftrag des Bundesministeriums für Wirtschaft 
+      und Klimaschutz (BMWK)
+    url:
+    description: 'Fünfte, aktualisierte Auflage des BISKO-Methodenpapiers, Juli 2024,
+      verfasst von ifeu und der Agentur für kommunalen Klimaschutz. Der Standard selbst,
+      nicht eine Datenlieferung: die Datengütekriterien stammen aus §3.4 (Güte A regionale
+      Primärdaten = 100 %, B Hochrechnung = 50 %, C regionale Kennwerte = 25 %, D
+      bundesweite Kennwerte = 0 %), und die Anforderung, dass netzgebundene Energieträger
+      Güte A erreichen müssen, aus Prüfschritt 1.3.; Attachment: Agentur_Methodenpapier_BISKO_Juli-24.pdf;
+      Format: .pdf; Licensing: Öffentlich; Geographic Coverage: Deutschland; Update
+      Frequency: Unregelmäßig; fünfte Auflage 2024; Date Last Updated: 2024-07; Updated
+      by: Agentur für kommunalen Klimaschutz'
+    edition:
+    target: dataset
+  index_columns:
+  - sector
+  - energy_carrier
+  - Year
   units:
     Requirement: dimensionless
