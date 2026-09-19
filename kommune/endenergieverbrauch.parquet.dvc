@@ -1,6 +1,6 @@
 outs:
-- md5: 9a871e375a349a9d1d88d58290e36c4e
-  size: 11453
+- md5: e03b9dee5ed8fe7f2e64dd633dbd3826
+  size: 13637
   hash: md5
   path: endenergieverbrauch.parquet
 meta:
@@ -20,11 +20,26 @@ meta:
     unit: ''
     label:
       de: quality
+  updated_at: '1787407474'
+  sources:
+  - name: Endenergieverbrauch der Kommune
+    authority: Die bilanzierende Kommune
+    url:
+    description: 'Endenergieverbrauch der vier stationären Sektoren -- private Haushalte,
+      GHD/Sonstiges, Industrie und kommunale Einrichtungen -- je Energieträger und
+      Jahr, aus den Daten der Kommune und ihrer Netzbetreiber. Die Kerntabelle der
+      BISKO-Bilanz: die stationären Emissionen sind dieser Verbrauch mal die Emissionsfaktoren.
+      Die Vorlage wird leer ausgeliefert. Je Zelle wird zusätzlich eine Datengüte
+      A-D erfasst (Prüfschritt 7.1); netzgebundene Energieträger müssen Güte A erreichen
+      (Prüfschritt 1.3).; Format: Eingabe im Bilanzierungswerkzeug; Licensing: Kommunale
+      Angabe; nicht öffentlich; Geographic Coverage: Die jeweilige Kommune; Update
+      Frequency: Jährlich; Date Last Updated: 2026-08-22; Updated by: Kommune'
+    edition:
+    target: dataset
   index_columns:
   - sector
   - energy_carrier
   - Year
-  updated_at: '1787407474'
   units:
     Value: MWh/a
     quality: dimensionless
