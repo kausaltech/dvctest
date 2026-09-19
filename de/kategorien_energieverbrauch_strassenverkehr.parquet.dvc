@@ -1,6 +1,6 @@
 outs:
-- md5: 1f4354a14b5d667ae6b11fbf7559b9c5
-  size: 8233
+- md5: 2653c7fd7c8eb623f5c63410c240b51a
+  size: 10863
   hash: md5
   path: kategorien_energieverbrauch_strassenverkehr.parquet
 meta:
@@ -14,10 +14,27 @@ meta:
     unit: ''
     label:
       de: expected
+  updated_at: '1787372388'
+  sources:
+  - name: Kausal-Register der berichteten Kombinationen
+    authority: Kausal Ltd
+    url:
+    description: 'Maschinenlesbares Register der Zellen, über die die Verfügbarkeitsknoten
+      berichten -- welche Kombinationen in der Eingabemaske erscheinen sollen, auch
+      wenn sie leer sind. Keine Pflichtangaben: ohne dieses Register nimmt ein DataAvailabilityNode
+      seine Kombinationen aus den Daten, sodass eine vollständig leere Vorlage nichts
+      zu berichten hat und eine fehlende Zelle unsichtbar bleibt statt als 0 zu erscheinen.
+      Abgeleitet aus dem BISKO-Methodenpapier Juli 2024 und Prüfschritt 7.1. Gesperrt
+      aus demselben Grund wie die Pflichtkategorien: wer die geprüften Daten bearbeiten
+      darf, darf nicht die Liste des Geprüften bearbeiten.; Attachment: modules/bisko/required_categories/;
+      Format: .csv; Licensing: Kausal-eigene Aufbereitung des öffentlichen Standards;
+      Geographic Coverage: Deutschland; Update Frequency: Bei Änderung des Standards
+      oder der Prüfprotokolle; Date Last Updated: 2026-09-19; Updated by: Kausal Ltd'
+    edition:
+    target: dataset
   index_columns:
   - vehicle_type
   - energy_carrier
   - Year
-  updated_at: '1787372388'
   units:
     expected: dimensionless
