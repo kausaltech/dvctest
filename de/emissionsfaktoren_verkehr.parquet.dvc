@@ -1,6 +1,6 @@
 outs:
-- md5: 3c6a64a379c0be6ca1f8f3285372092e
-  size: 7967
+- md5: 1d93161bc9febe59b67f93dc6c4891bc
+  size: 9723
   hash: md5
   path: emissionsfaktoren_verkehr.parquet
 meta:
@@ -16,14 +16,27 @@ meta:
     column_id: Well-to-wheel
     quantity: emission_factor
     unit: g_co2e/kWh
-  index_columns:
-  - energy_carrier
-  - Year
   updated_at: '1787696488'
   description:
     de: "Erweitert um 2024 (Well-to-wheel) aus dem KSP-Portal (Landeshauptstadt Mainz,
       'THG Verkehr 2024', gelesen 2026-08-26). Laut KSP-Zusatzinfo als 'Kommune: Deutschland'
       ausgewiesen, also bundesweiter Referenzwert, nicht Mainz-spezifisch."
+  sources:
+  - name: ifeu THG-Faktoren Kraftstoffe 2025
+    authority: ifeu -- Institut für Energie- und Umweltforschung Heidelberg
+    url:
+    description: 'Blatt "THG-EFA Kraftstoffe" der Lieferung "Übergabe Kausal Verkehr
+      Faktoren Update 2025": Treibhausgasfaktoren der Kraftstoffe in g CO2e/kWh, je
+      Kraftstoff und Jahr 1990-2023, sowohl well-to-wheel als auch well-to-tank. BISKO
+      rechnet den Verkehr well-to-wheel (Kriterium 4.3).; Attachment: Übergabe Kausal
+      Verkehr Faktoren Update 2025 final.xlsx; Format: .xlsx; Licensing: An Kausal
+      geliefert; nicht öffentlich; Geographic Coverage: Deutschland; Update Frequency:
+      Jährlich; Date Last Updated: 2025; Updated by: ifeu'
+    edition:
+    target: dataset
+  index_columns:
+  - energy_carrier
+  - Year
   units:
     Well-to-tank: g_co2e/kWh
     Well-to-wheel: g_co2e/kWh
