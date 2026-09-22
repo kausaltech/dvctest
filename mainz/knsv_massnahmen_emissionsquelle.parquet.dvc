@@ -1,11 +1,11 @@
 outs:
-- md5: 441cdb325f39fc63c27f5fff2274d8f8
-  size: 12035
+- md5: 8287ad7fc8385eaf428c40a592f7cb11
+  size: 11620
   hash: md5
   path: knsv_massnahmen_emissionsquelle.parquet
 meta:
   name:
-    en: KNSV Massnahmen Emissionsquelle
+    de: KNSV Massnahmen Emissionsquelle
   identifier: mainz/knsv_massnahmen_emissionsquelle
   metrics:
   - id: Value
@@ -13,7 +13,7 @@ meta:
     quantity: fraction
     unit: ''
     label:
-      en: Value
+      de: Value
   sources:
   - name: Arqum Maßnahmenbericht Klimaneutrale Stadtverwaltung Mainz 2035
     authority: Arqum GmbH, Leonrodstr. 54, 80636 München -- im Auftrag der 
@@ -38,6 +38,6 @@ meta:
   - emission_source
   - measure
   - measure_scenario
-  updated_at: '1789635374'
+  updated_at: '1790111329'
   units:
     Value: dimensionless
