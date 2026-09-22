@@ -1,11 +1,11 @@
 outs:
-- md5: a00382209c4dbc56356a9e4c94035916
-  size: 11567
+- md5: 15695edb8ae0508eca7ed9c8305ee117
+  size: 11141
   hash: md5
   path: knsv_massnahmen_fahrzeugtyp.parquet
 meta:
   name:
-    en: KNSV Massnahmen Fahrzeugtyp
+    de: KNSV Massnahmen Fahrzeugtyp
   identifier: mainz/knsv_massnahmen_fahrzeugtyp
   metrics:
   - id: Value
@@ -13,7 +13,7 @@ meta:
     quantity: fraction
     unit: ''
     label:
-      en: Value
+      de: Value
   sources:
   - name: Arqum Maßnahmenbericht Klimaneutrale Stadtverwaltung Mainz 2035
     authority: Arqum GmbH, Leonrodstr. 54, 80636 München -- im Auftrag der 
@@ -38,6 +38,6 @@ meta:
   - measure
   - measure_scenario
   - vehicle_type
-  updated_at: '1789635385'
+  updated_at: '1790111346'
   units:
     Value: dimensionless
