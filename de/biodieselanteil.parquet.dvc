@@ -28,11 +28,5 @@ meta:
       ifeu'
     edition:
     target: dataset
-  index_columns:
-  - kind: range
-    name:
-    start: 0
-    stop: 34
-    step: 1
   units:
     Value: dimensionless
