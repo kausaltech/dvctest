@@ -1,5 +1,5 @@
 outs:
-- md5: 9e3a1d11f5f95eb40d30652110568294
+- md5: be49fc325e3d25dc3120c220b95d65c1
   size: 26515
   hash: md5
   path: zielpfad_fernwaerme.parquet
@@ -80,6 +80,6 @@ meta:
   - Year
   - energy_carrier
   - zielpfad_measure
-  updated_at: '1790105760'
+  updated_at: '1790111235'
   units:
     Value: dimensionless
