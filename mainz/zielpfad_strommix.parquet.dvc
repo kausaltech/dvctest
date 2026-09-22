@@ -1,6 +1,6 @@
 outs:
-- md5: 0bf619e8e05bfa1ad71b5ecee205b872
-  size: 21144
+- md5: 63106c240b90455bfc64123f20458cb8
+  size: 22609
   hash: md5
   path: zielpfad_strommix.parquet
 meta:
@@ -75,6 +75,6 @@ meta:
   - energy_carrier
   - zielpfad_measure
   - zielpfad_variante
-  updated_at: '1790105777'
+  updated_at: '1790111254'
   units:
     Value: dimensionless
