@@ -1,5 +1,5 @@
 outs:
-- md5: 10beded1cc0b372930f76b4bb2cb6f03
+- md5: fcd430260dffbd3f73984ce9e793b65f
   size: 17336
   hash: md5
   path: zielpfad_stationaer.parquet
@@ -55,6 +55,6 @@ meta:
   - energy_carrier
   - sector
   - zielpfad_measure
-  updated_at: '1790105638'
+  updated_at: '1790105768'
   units:
     Value: MWh/a
