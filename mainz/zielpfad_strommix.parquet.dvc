@@ -1,0 +1,80 @@
+outs:
+- md5: 0bf619e8e05bfa1ad71b5ecee205b872
+  size: 21144
+  hash: md5
+  path: zielpfad_strommix.parquet
+meta:
+  name:
+    de: Zielpfad Strommix
+  identifier: mainz/zielpfad_strommix
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: fraction
+    unit: ''
+    label:
+      de: Value
+  sources:
+  - name: Bundesrecht Klimaschutzziele (KSG, EEG, WPG, EU-Flottenverordnungen)
+    authority: Bundesrepublik Deutschland; Europäische Union
+    url: https://www.gesetze-im-internet.de/ksg/
+    description: 'Die gesetzlichen Zielvorgaben, aus denen die Zielpfad-Maßnahmen
+      ihre Stuetzpunkte beziehen: § 3 Abs. 2 Bundes-Klimaschutzgesetz (Netto-Treibhausgasneutralitaet
+      2045), § 1 Abs. 2 Erneuerbare-Energien-Gesetz (Strom "vor dem Jahr 2035 nahezu
+      treibhausgasneutral"), § 29 Waermeplanungsgesetz (Waermenetze ab 2030 zu 30
+      %, ab 2040 zu 80 % und ab 2045 vollstaendig aus erneuerbaren Energien oder unvermeidbarer
+      Abwaerme), Verordnung (EU) 2024/1610 (CO2-Flottengrenzwerte schwere Nutzfahrzeuge)
+      und Verordnung (EU) 2023/851 (leichte Nutzfahrzeuge, ab 2035 nur noch emissionsfreie
+      Neuzulassungen). Die Gesetze setzen Ziele, keine Emissionsfaktoren; die Umrechnung
+      in Faktorpfade und in Anteile gefahrener Kilometer steht im Comment der jeweiligen
+      Zeile und ist als Annahme gekennzeichnet.; Format: Rechtstext; Licensing: Amtliches
+      Werk, gemeinfrei (§ 5 UrhG); Geographic Coverage: Deutschland / Europäische
+      Union; Update Frequency: Bei Gesetzesaenderung; Date Last Updated: 2026-09-22;
+      Updated by: Kausal Ltd'
+    edition:
+    target: data_point
+  - name: KWP Zielszenario Mainz 2040 (Kommunale Waermeplanung)
+    authority: Landeshauptstadt Mainz, Grün- und Umweltamt, Projektleitung 
+      Kommunale Wärmeplanung
+    url:
+    description: 'Target scenario of the statutory municipal heat plan (Kommunale
+      Wärmeplanung, WPG), evaluation of 2026-06-16, shared 2026-09-18. Final energy
+      for building heat by carrier, CO2, and building counts for 2024, 2030, 2035
+      and 2040: oil and gas heating to zero by 2040, the heat network from 5,021 to
+      18,392 buildings, heat pumps from none to 24,165, total heat down about 13 %.
+      Building-typology model, not metered data -- its 2024 column differs from the
+      BISKO balance (its heating gas alone exceeds the city’s entire metered gas consumption),
+      so only its relative path is used. Its CO2 table is deliberately not imported:
+      it implies a district-heating factor of about 4.4 g/kWh against the BISKO default
+      of 260 g/kWh.; Attachment: KWP 2026-06-16 Auswertung Mainz Zielszenario 2040
+      kopie.xlsx; Format: .xlsx; Licensing: Municipal planning document; not public;
+      Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Per heat-plan revision
+      (WPG: at least every five years); Date Last Updated: 2026-06-16; Updated by:
+      Landeshauptstadt Mainz, Grün- und Umweltamt'
+    edition:
+    target: data_point
+  - name: Kausal Annahme Zielpfad-Maßnahmen Mainz
+    authority: Kausal Ltd -- Annahme dieses Modells, keine Angabe der Quelle
+    url:
+    description: 'Kennzeichnet Werte in mainz_zielpfad_measures.csv, die NICHT aus
+      einem Gesetz, aus der Kommunalen Waermeplanung oder aus einer Datenlieferung
+      uebernommen, sondern hier gesetzt sind, weil die Quelle die Groesse offenlaesst.
+      Der jeweilige Grund steht im Comment der betroffenen Zeile. Die vier gewichtigsten:
+      der Restfaktor von 10 g CO2e/kWh fuer klimaneutralen Strom ab 2045 und von 5
+      % fuer klimaneutrale Fernwaerme, beide fuer die Vorkette; der Abstand zwischen
+      den EU-Flottengrenzwerten fuer Neufahrzeuge und dem Anteil elektrisch gefahrener
+      Kilometer; und die Annahme, dass elektrische Prozesswaerme denselben Nutzwaermebedarf
+      mit 70 % der Endenergie eines Kohleofens deckt.; Licensing: Annahme des Modells;
+      mit dem Modell veröffentlicht; Geographic Coverage: Mainz (AGS 07315000); Update
+      Frequency: Bei Klaerung durch die Stadt zu ersetzen; Date Last Updated: 2026-09-22;
+      Updated by: Kausal Ltd'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - energy_carrier
+  - zielpfad_measure
+  - zielpfad_variante
+  updated_at: '1790105777'
+  units:
+    Value: dimensionless
