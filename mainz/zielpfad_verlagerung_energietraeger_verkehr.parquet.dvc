@@ -1,0 +1,61 @@
+outs:
+- md5: 6da93ff2609563c4cae7bc3dcecb3ad9
+  size: 23083
+  hash: md5
+  path: zielpfad_verlagerung_energietraeger_verkehr.parquet
+meta:
+  name:
+    de: Zielpfad Verlagerung Energietraeger Verkehr
+  identifier: mainz/zielpfad_verlagerung_energietraeger_verkehr
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: fraction
+    unit: '%'
+    label:
+      de: Value
+  sources:
+  - name: Bundesrecht Klimaschutzziele (KSG, EEG, WPG, EU-Flottenverordnungen)
+    authority: Bundesrepublik Deutschland; Europäische Union
+    url: https://www.gesetze-im-internet.de/ksg/
+    description: 'Die gesetzlichen Zielvorgaben, aus denen die Zielpfad-Maßnahmen
+      ihre Stuetzpunkte beziehen: § 3 Abs. 2 Bundes-Klimaschutzgesetz (Netto-Treibhausgasneutralitaet
+      2045), § 1 Abs. 2 Erneuerbare-Energien-Gesetz (Strom "vor dem Jahr 2035 nahezu
+      treibhausgasneutral"), § 29 Waermeplanungsgesetz (Waermenetze ab 2030 zu 30
+      %, ab 2040 zu 80 % und ab 2045 vollstaendig aus erneuerbaren Energien oder unvermeidbarer
+      Abwaerme), Verordnung (EU) 2024/1610 (CO2-Flottengrenzwerte schwere Nutzfahrzeuge)
+      und Verordnung (EU) 2023/851 (leichte Nutzfahrzeuge, ab 2035 nur noch emissionsfreie
+      Neuzulassungen). Die Gesetze setzen Ziele, keine Emissionsfaktoren; die Umrechnung
+      in Faktorpfade und in Anteile gefahrener Kilometer steht im Comment der jeweiligen
+      Zeile und ist als Annahme gekennzeichnet.; Format: Rechtstext; Licensing: Amtliches
+      Werk, gemeinfrei (§ 5 UrhG); Geographic Coverage: Deutschland / Europäische
+      Union; Update Frequency: Bei Gesetzesaenderung; Date Last Updated: 2026-09-22;
+      Updated by: Kausal Ltd'
+    edition:
+    target: data_point
+  - name: Kausal Annahme Zielpfad-Maßnahmen Mainz
+    authority: Kausal Ltd -- Annahme dieses Modells, keine Angabe der Quelle
+    url:
+    description: 'Kennzeichnet Werte in mainz_zielpfad_measures.csv, die NICHT aus
+      einem Gesetz, aus der Kommunalen Waermeplanung oder aus einer Datenlieferung
+      uebernommen, sondern hier gesetzt sind, weil die Quelle die Groesse offenlaesst.
+      Der jeweilige Grund steht im Comment der betroffenen Zeile. Die vier gewichtigsten:
+      der Restfaktor von 10 g CO2e/kWh fuer klimaneutralen Strom ab 2045 und von 5
+      % fuer klimaneutrale Fernwaerme, beide fuer die Vorkette; der Abstand zwischen
+      den EU-Flottengrenzwerten fuer Neufahrzeuge und dem Anteil elektrisch gefahrener
+      Kilometer; und die Annahme, dass elektrische Prozesswaerme denselben Nutzwaermebedarf
+      mit 70 % der Endenergie eines Kohleofens deckt.; Licensing: Annahme des Modells;
+      mit dem Modell veröffentlicht; Geographic Coverage: Mainz (AGS 07315000); Update
+      Frequency: Bei Klaerung durch die Stadt zu ersetzen; Date Last Updated: 2026-09-22;
+      Updated by: Kausal Ltd'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - energy_carrier
+  - road_type
+  - vehicle_type
+  - zielpfad_measure
+  updated_at: '1790089673'
+  units:
+    Value: '%'
