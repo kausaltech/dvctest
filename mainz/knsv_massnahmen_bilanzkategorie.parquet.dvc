@@ -1,11 +1,11 @@
 outs:
-- md5: 92a859cb6bfc121ee5744673ff801bd9
-  size: 20150
+- md5: 2a57374073ea1f40f90fe7b060181aa4
+  size: 19719
   hash: md5
   path: knsv_massnahmen_bilanzkategorie.parquet
 meta:
   name:
-    en: KNSV Massnahmen Bilanzkategorie
+    de: KNSV Massnahmen Bilanzkategorie
   identifier: mainz/knsv_massnahmen_bilanzkategorie
   metrics:
   - id: Value
@@ -13,7 +13,7 @@ meta:
     quantity: fraction
     unit: ''
     label:
-      en: Value
+      de: Value
   sources:
   - name: Arqum Maßnahmenbericht Klimaneutrale Stadtverwaltung Mainz 2035
     authority: Arqum GmbH, Leonrodstr. 54, 80636 München -- im Auftrag der 
@@ -75,6 +75,6 @@ meta:
   - ghg_category
   - measure
   - measure_scenario
-  updated_at: '1789635368'
+  updated_at: '1790111321'
   units:
     Value: dimensionless
