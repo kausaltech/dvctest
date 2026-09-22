@@ -1,5 +1,5 @@
 outs:
-- md5: 112e2a03ee51a87778ffb56741dc18ff
+- md5: 8cab4fdca62397ddcbf437286628a618
   size: 23228
   hash: md5
   path: zielpfad_verlagerung_energietraeger_verkehr.parquet
@@ -56,6 +56,6 @@ meta:
   - road_type
   - vehicle_type
   - zielpfad_measure
-  updated_at: '1790105785'
+  updated_at: '1790111264'
   units:
     Value: '%'
