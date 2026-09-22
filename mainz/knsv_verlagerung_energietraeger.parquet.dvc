@@ -1,11 +1,11 @@
 outs:
-- md5: df8fbe64361156262d7bb45b53ddfbe1
-  size: 14122
+- md5: 27963c1ef1af3f99a6f9567d98a099e8
+  size: 13692
   hash: md5
   path: knsv_verlagerung_energietraeger.parquet
 meta:
   name:
-    en: KNSV Verlagerung Energietraeger
+    de: KNSV Verlagerung Energietraeger
   identifier: mainz/knsv_verlagerung_energietraeger
   metrics:
   - id: Value
@@ -13,7 +13,7 @@ meta:
     quantity: energy
     unit: MWh/a
     label:
-      en: Value
+      de: Value
   sources:
   - name: Arqum Maßnahmenbericht Klimaneutrale Stadtverwaltung Mainz 2035
     authority: Arqum GmbH, Leonrodstr. 54, 80636 München -- im Auftrag der 
@@ -39,6 +39,6 @@ meta:
   - ghg_category
   - measure
   - measure_scenario
-  updated_at: '1789635396'
+  updated_at: '1790111362'
   units:
     Value: MWh/a
