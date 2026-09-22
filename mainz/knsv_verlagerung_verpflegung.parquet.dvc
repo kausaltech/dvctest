@@ -1,11 +1,11 @@
 outs:
-- md5: 44d1600f370e590e7ffd8fd4cb1364b5
-  size: 13969
+- md5: d3479e5ad204968674384c46d41aeef6
+  size: 13543
   hash: md5
   path: knsv_verlagerung_verpflegung.parquet
 meta:
   name:
-    en: KNSV Verlagerung Verpflegung
+    de: KNSV Verlagerung Verpflegung
   identifier: mainz/knsv_verlagerung_verpflegung
   metrics:
   - id: Value
@@ -13,7 +13,7 @@ meta:
     quantity: number
     unit: pieces/a
     label:
-      en: Value
+      de: Value
   sources:
   - name: Arqum Maßnahmenbericht Klimaneutrale Stadtverwaltung Mainz 2035
     authority: Arqum GmbH, Leonrodstr. 54, 80636 München -- im Auftrag der 
@@ -40,6 +40,6 @@ meta:
   - measure
   - measure_scenario
   - municipal_facility_type
-  updated_at: '1789635402'
+  updated_at: '1790111371'
   units:
     Value: pcs/a
