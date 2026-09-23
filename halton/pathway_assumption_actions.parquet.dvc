@@ -1,0 +1,19 @@
+outs:
+- md5: 223ff440e84f8daa141f9c5c9a7a30bc
+  size: 4436
+  hash: md5
+  path: pathway_assumption_actions.parquet
+meta:
+  name:
+    en: Pathway Assumption Actions
+  identifier: pathway_assumption_actions
+  metrics:
+  - id: emissions
+    label:
+      en: Emissions
+  - id: fraction
+    label:
+      en: Fraction
+  units:
+    emissions: t_co2e/a
+    fraction: '%'
