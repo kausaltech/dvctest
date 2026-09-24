@@ -1,0 +1,55 @@
+outs:
+- md5: 1a55b5ca26178426925f476ad415abd5
+  size: 21941
+  hash: md5
+  path: energiepreise.parquet
+meta:
+  name:
+    de: Energiepreise
+  identifier: mainz/energiepreise
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: unit_price
+    unit: €/MWh
+    label:
+      de: Value
+  sources:
+  - name: Kausal Annahme Energiekosten Mainz
+    authority: Kausal Ltd
+    url:
+    description: 'Assumptions made by Kausal to derive energy prices and the CO2 price
+      path for the Mainz energy-cost indicator: gap-filling rules for prices the Klimaschutz-Planer
+      export does not carry, zero fuel price for carriers that are not purchased,
+      and the CO2 price held at 65 EUR per tonne from 2026. Each row states which
+      rule applies.; Format: Assumption; Licensing: Public; Geographic Coverage: Mainz;
+      Update Frequency: As needed; Date Last Updated: 2026-09-24; Updated by: Kausal'
+    edition:
+    target: data_point
+  - name: Klimaschutz-Planer Energiekosten Mainz 1990-2023
+    authority: Landeshauptstadt Mainz -- Grün- und Umweltamt; export from the 
+      Klimaschutz-Planer tool
+    url:
+    description: 'Energy costs in EUR and final energy in MWh by energy carrier and
+      sector, not weather-corrected, 1990-2023, exported from the Klimaschutz-Planer
+      for Mainz. The ratio of the two in each cell is the price the tool applies to
+      that carrier and sector in that year (its national price table), in nominal
+      euros. Used for prices only: the quantities in this export are unreliable from
+      2019 (see Klimaschutzplaner Export Mainz 1990-2024), but each price is a cost
+      divided by the quantity of the same cell, so the fault in the quantity cancels.
+      Whether the table includes VAT is not documented in the export.; Attachment:
+      KSPMainz_energycosts_by_energycarriers-sectors_EUR_notweathcorr_19902023.txt;
+      KSPMainz_finalenergyuse_by_energycarriers-sectors_MWh_notweathcorr_19902023.txt;
+      Format: .txt; Licensing: Provided to the city; not public; Geographic Coverage:
+      Germany (national price table), applied to Mainz; Update Frequency: Superseded
+      -- no further updates expected; Date Last Updated: 2026-02-13; Updated by: Landeshauptstadt
+      Mainz'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - energy_carrier
+  - sector
+  updated_at: '1790240874'
+  units:
+    Value: EUR/MWh
