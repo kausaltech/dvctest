@@ -1,11 +1,11 @@
 outs:
-- md5: 203b790509a3a6900a7ccca8373d7ad6
-  size: 20620
+- md5: 0aeb107ed5d6fef911b944cf999c71f6
+  size: 20765
   hash: md5
   path: mp100_fahrleistungsminderung_verkehr.parquet
 meta:
   name:
-    en: MP100 Fahrleistungsminderung Verkehr
+    de: MP100 Fahrleistungsminderung Verkehr
   identifier: mainz/mp100_fahrleistungsminderung_verkehr
   metrics:
   - id: Value
@@ -13,21 +13,23 @@ meta:
     quantity: mileage
     unit: Mvehicle_km/a
     label:
-      en: Value
+      de: Value
   sources:
   - name: Kausal Annahme MP100-Maßnahmen Mainz
     authority: Kausal Ltd -- Annahme dieses Modells, keine Angabe der Quelle
     url:
-    description: 'Kennzeichnet Werte in mainz_mp100_measures.csv, die NICHT aus dem
-      IE-Leipzig-Szenarienvergleich oder dem Maßnahmenkatalog uebernommen, sondern
-      hier gesetzt sind, weil die Quelle die Groesse offenlaesst. Der jeweilige Grund
-      steht im Comment der betroffenen Zeile. Derzeit von keiner Zeile verwendet:
-      die Lesart von "dekarbonisierte Busflotte" (Steckbrief C 3.1) als elektrisch
-      ist am 17.09.2026 entschieden worden und steht damit als Entscheidung im Comment,
-      nicht als unbelegte Annahme.; Licensing: Annahme des Modells; mit dem Modell
-      veröffentlicht; Geographic Coverage: Mainz (AGS 07315000); Update Frequency:
-      Bei Klaerung durch die Stadt zu ersetzen; Date Last Updated: 2026-09-17; Updated
-      by: Kausal Ltd'
+    description: 'Kennzeichnet Werte in mainz_mp100_measures.csv und mainz_solaroffensive.csv,
+      die NICHT aus dem IE-Leipzig-Szenarienvergleich oder dem Maßnahmenkatalog uebernommen,
+      sondern hier gesetzt sind, weil die Quelle die Groesse offenlaesst. Der jeweilige
+      Grund steht im Comment der betroffenen Zeile. In mainz_solaroffensive.csv verwendet
+      fuer die Lesart des Ziels "30 % Anteil an Stromerzeugung" als 30 % des Stromverbrauchs
+      und fuer den linearen Pfad zwischen den Zielen 2025 und 2035. In mainz_mp100_measures.csv
+      von keiner Zeile verwendet: die Lesart von "dekarbonisierte Busflotte" (Steckbrief
+      C 3.1) als elektrisch ist am 17.09.2026 entschieden worden und steht damit als
+      Entscheidung im Comment, nicht als unbelegte Annahme.; Licensing: Annahme des
+      Modells; mit dem Modell veröffentlicht; Geographic Coverage: Mainz (AGS 07315000);
+      Update Frequency: Bei Klaerung durch die Stadt zu ersetzen; Date Last Updated:
+      2026-09-17; Updated by: Kausal Ltd'
     edition:
     target: data_point
   - name: Masterplan 100% Klimaschutz Mainz Maßnahmenkatalog 2022
@@ -54,6 +56,6 @@ meta:
   - mp100_measure
   - road_type
   - vehicle_type
-  updated_at: '1789676683'
+  updated_at: '1790238088'
   units:
     Value: Mvkm/a
