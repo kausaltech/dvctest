@@ -1,11 +1,11 @@
 outs:
-- md5: 4ca5025e2515c5259267b1dcf5e6856e
-  size: 21901
+- md5: 7947828697e2a2a1b667af5fad3efb17
+  size: 23554
   hash: md5
   path: mp100_verlagerung_energietraeger_verkehr.parquet
 meta:
   name:
-    en: MP100 Verlagerung Energietraeger Verkehr
+    de: MP100 Verlagerung Energietraeger Verkehr
   identifier: mainz/mp100_verlagerung_energietraeger_verkehr
   metrics:
   - id: Value
@@ -13,7 +13,7 @@ meta:
     quantity: fraction
     unit: '%'
     label:
-      en: Value
+      de: Value
   sources:
   - name: IE Leipzig Szenarienvergleich Klimaneutralitaet 2035 Mainz
     authority: Institut für Energetik und Umwelt gGmbH (IE Leipzig) im Auftrag 
@@ -28,10 +28,17 @@ meta:
       die einzige quantitative Quelle fuer die Szenarien. Die Emissions- und Endenergiepfade
       liegen nur als Datenpunktbeschriftungen der Abbildungen 6 und 7 vor, ausschliesslich
       als Sektorsummen; die Sektoraufteilung der gestapelten Balken ist nicht beziffert.
-      Basisjahr 2018, daher ohne die Ist-Werte 2019-2024.; Attachment: REPORT2021_MainzMasterplan_Scenarios_IELeipzig.pdf;
-      Format: .pdf; Licensing: Im Auftrag der Stadt erstellt; nicht öffentlich; Geographic
-      Coverage: Mainz (AGS 07315000); Update Frequency: Abgeschlossen -- Fortschreibung
-      der Szenarien durch Kausal; Date Last Updated: 2021-01-06; Updated by: IE Leipzig'
+      Basisjahr 2018, daher ohne die Ist-Werte 2019-2024. Die Sektorabbildungen 8
+      (Haushalte), 9 (Industrie), 10 (GHD) und 11 (Verkehr) zeigen den Endenergieverbrauch
+      je Energietraeger nur als Balkenhoehe; die Balkensummen sind beziffert, die
+      Segmente nicht. Diese Segmente wurden am 17./18.09.2026 von Hand am gedruckten
+      Diagramm in Millimetern gemessen und in models/mainz/ie_leipzig_scenarios.csv
+      abgelegt: die Messung bestimmt nur die Anteile, das Niveau stammt aus der bezifferten
+      Balkensumme. Es sind Messwerte, keine veroeffentlichten Zahlen.; Attachment:
+      REPORT2021_MainzMasterplan_Scenarios_IELeipzig.pdf; Format: .pdf; Licensing:
+      Im Auftrag der Stadt erstellt; nicht öffentlich; Geographic Coverage: Mainz
+      (AGS 07315000); Update Frequency: Abgeschlossen -- Fortschreibung der Szenarien
+      durch Kausal; Date Last Updated: 2021-01-06; Updated by: IE Leipzig'
     edition:
     target: data_point
   - name: Masterplan 100% Klimaschutz Mainz Maßnahmenkatalog 2022
@@ -59,6 +66,6 @@ meta:
   - mp100_measure
   - road_type
   - vehicle_type
-  updated_at: '1789676690'
+  updated_at: '1790238097'
   units:
     Value: '%'
