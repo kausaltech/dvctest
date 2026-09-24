@@ -1,5 +1,5 @@
 outs:
-- md5: b5c81453612be14c59915ee231b9ac6e
+- md5: 49f00547295d17830438a4dc1c1f2fbd
   size: 14464
   hash: md5
   path: energiepreise_verkehr.parquet
@@ -51,6 +51,6 @@ meta:
   - Year
   - energy_carrier
   - vehicle_type
-  updated_at: '1790255687'
+  updated_at: '1790256211'
   units:
     Value: EUR/MWh
