@@ -1,6 +1,6 @@
 outs:
-- md5: 0abee97a5a3cdc7d849f9b66d8c7504a
-  size: 16283
+- md5: 3e0f302444e6727b36f0d1e0406a0d8a
+  size: 16386
   hash: md5
   path: co2_preis_brennstoffe.parquet
 meta:
@@ -59,9 +59,9 @@ meta:
     target: data_point
   index_columns:
   - Year
-  updated_at: '1790255669'
+  updated_at: '1790256193'
   units:
-    ets2_active: dimensionless
+    co2_price_high_addition: EUR/t_co2e
     co2_price: EUR/t_co2e
     co2_price_increase: EUR/t_co2e
-    co2_price_high_addition: EUR/t_co2e
+    ets2_active: dimensionless
