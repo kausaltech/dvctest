@@ -1,5 +1,5 @@
 outs:
-- md5: 1237fedb00bb243c5224441b531e96ce
+- md5: 6293ffb6e9c037e44f3f0f6884b6af08
   size: 9326
   hash: md5
   path: brennstoff_co2_faktoren.parquet
@@ -42,6 +42,6 @@ meta:
   index_columns:
   - Year
   - energy_carrier
-  updated_at: '1790240857'
+  updated_at: '1790246563'
   units:
     Value: t_co2e/MWh
