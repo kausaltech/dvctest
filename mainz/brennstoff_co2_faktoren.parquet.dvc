@@ -1,0 +1,47 @@
+outs:
+- md5: 1237fedb00bb243c5224441b531e96ce
+  size: 9326
+  hash: md5
+  path: brennstoff_co2_faktoren.parquet
+meta:
+  name:
+    de: Brennstoff-CO2-Faktoren
+  identifier: mainz/brennstoff_co2_faktoren
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: emission_factor
+    unit: t_CO2e/MWh
+    label:
+      de: Value
+  sources:
+  - name: EBeV 2030 Anlage 2 Teil 4 Standardemissionsfaktoren
+    authority: Emissionsberichterstattungsverordnung 2030 (EBeV 2030), Anlage 2 
+      Teil 4
+    url: https://www.gesetze-im-internet.de/ebev_2030/anlage_2.html
+    description: 'Standard CO2 emission factors of fuels under the BEHG, per GJ of
+      net calorific value: natural gas 0.0558, LPG 0.0655, light heating oil 0.074,
+      diesel 0.074, petrol 0.0729, hard coal (Feinkohlen) 0.0936, lignite briquettes
+      0.0992 t CO2/GJ. Converted here to t CO2 per MWh (x 3.6). These are combustion
+      factors, not the BISKO life-cycle factors of the balance.; Format: Legal text;
+      Licensing: Public; Geographic Coverage: Germany; Update Frequency: On amendment;
+      Date Last Updated: 2026-09-24; Updated by: Kausal'
+    edition:
+    target: data_point
+  - name: Kausal Annahme Energiekosten Mainz
+    authority: Kausal Ltd
+    url:
+    description: 'Assumptions made by Kausal to derive energy prices and the CO2 price
+      path for the Mainz energy-cost indicator: gap-filling rules for prices the Klimaschutz-Planer
+      export does not carry, zero fuel price for carriers that are not purchased,
+      and the CO2 price held at 65 EUR per tonne from 2026. Each row states which
+      rule applies.; Format: Assumption; Licensing: Public; Geographic Coverage: Mainz;
+      Update Frequency: As needed; Date Last Updated: 2026-09-24; Updated by: Kausal'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - energy_carrier
+  updated_at: '1790240857'
+  units:
+    Value: t_co2e/MWh
