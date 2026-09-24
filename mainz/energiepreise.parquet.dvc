@@ -1,6 +1,6 @@
 outs:
-- md5: 1a55b5ca26178426925f476ad415abd5
-  size: 21941
+- md5: 034c88582c563e7e650f06028b19c01c
+  size: 23637
   hash: md5
   path: energiepreise.parquet
 meta:
@@ -37,8 +37,9 @@ meta:
       euros. Used for prices only: the quantities in this export are unreliable from
       2019 (see Klimaschutzplaner Export Mainz 1990-2024), but each price is a cost
       divided by the quantity of the same cell, so the fault in the quantity cancels.
-      Whether the table includes VAT is not documented in the export.; Attachment:
-      KSPMainz_energycosts_by_energycarriers-sectors_EUR_notweathcorr_19902023.txt;
+      The prices are net of VAT: the export does not say so, but diesel at 145.0 EUR/MWh
+      is 1.45 EUR/l before VAT against the ADAC 2023 average of 1.722 EUR/l with it,
+      and petrol and household electricity agree the same way.; Attachment: KSPMainz_energycosts_by_energycarriers-sectors_EUR_notweathcorr_19902023.txt;
       KSPMainz_finalenergyuse_by_energycarriers-sectors_MWh_notweathcorr_19902023.txt;
       Format: .txt; Licensing: Provided to the city; not public; Geographic Coverage:
       Germany (national price table), applied to Mainz; Update Frequency: Superseded
@@ -50,6 +51,6 @@ meta:
   - Year
   - energy_carrier
   - sector
-  updated_at: '1790240874'
+  updated_at: '1790246582'
   units:
     Value: EUR/MWh
