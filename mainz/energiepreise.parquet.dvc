@@ -1,6 +1,6 @@
 outs:
-- md5: 034c88582c563e7e650f06028b19c01c
-  size: 23637
+- md5: 3236c377aeac3ca3955132a5aef54107
+  size: 29898
   hash: md5
   path: energiepreise.parquet
 meta:
@@ -15,6 +15,32 @@ meta:
     label:
       de: Value
   sources:
+  - name: BEHG § 10 CO2-Preis Brennstoffe
+    authority: Brennstoffemissionshandelsgesetz (BEHG), § 10 Abs. 2
+    url: https://www.gesetze-im-internet.de/behg/__10.html
+    description: 'National CO2 price on heating and road fuels: fixed price 25 / 30
+      / 30 / 45 / 55 EUR per tonne of CO2 for 2021 / 2022 / 2023 / 2024 / 2025, and
+      a price corridor of 55-65 EUR per tonne for 2026. For 2027 the price mechanism
+      is under revision (freeze at the 2026 corridor, or a market-based fixed price
+      coupled to EU ETS1); from 2028 the EU ETS2 applies (start postponed from 2027).
+      Summary of the legal state: Stiftung Umweltenergierecht, Update CO2-Bepreisung,
+      05.12.2025.; Format: Legal text; Licensing: Public; Geographic Coverage: Germany;
+      Update Frequency: On amendment; Date Last Updated: 2025-12-05; Updated by: Kausal'
+    edition:
+    target: data_point
+  - name: EBeV 2030 Anlage 2 Teil 4 Standardemissionsfaktoren
+    authority: Emissionsberichterstattungsverordnung 2030 (EBeV 2030), Anlage 2 
+      Teil 4
+    url: https://www.gesetze-im-internet.de/ebev_2030/anlage_2.html
+    description: 'Standard CO2 emission factors of fuels under the BEHG, per GJ of
+      net calorific value: natural gas 0.0558, LPG 0.0655, light heating oil 0.074,
+      diesel 0.074, petrol 0.0729, hard coal (Feinkohlen) 0.0936, lignite briquettes
+      0.0992 t CO2/GJ. Converted here to t CO2 per MWh (x 3.6). These are combustion
+      factors, not the BISKO life-cycle factors of the balance.; Format: Legal text;
+      Licensing: Public; Geographic Coverage: Germany; Update Frequency: On amendment;
+      Date Last Updated: 2026-09-24; Updated by: Kausal'
+    edition:
+    target: data_point
   - name: Kausal Annahme Energiekosten Mainz
     authority: Kausal Ltd
     url:
@@ -47,10 +73,26 @@ meta:
       Mainz'
     edition:
     target: data_point
+  - name: Kohlenimporteure Jahresbericht 2024 Kesselkohle frei Grenze
+    authority: Verein der Kohlenimporteure e.V., Jahresbericht 2024, 
+      Tabellenteil (after Statistisches Bundesamt, Statistik der 
+      Kohlenwirtschaft, BAFA)
+    url: 
+      https://www.kohlenimporteure.de/files/user_upload/jahresberichte/Jahresbericht-2024-Tabellenteil.pdf
+    description: 'Price of steam coal (Kesselkohle) from third countries, free German
+      border, in EUR per tonne of hard coal equivalent (t SKE), annual, 1957-2023:
+      2019 79, 2020 63, 2021 119, 2022 376, 2023 213 EUR/t SKE. Converted here at
+      8.141 MWh per t SKE. The Klimaschutz-Planer industrial hard coal price equals
+      this series for 2019 and 2020 and was not updated afterwards. Border price:
+      excludes transport to the plant.; Format: .pdf; Licensing: Public; Geographic
+      Coverage: Germany; Update Frequency: Annual; Date Last Updated: 2026-09-24;
+      Updated by: Kausal'
+    edition:
+    target: data_point
   index_columns:
   - Year
   - energy_carrier
   - sector
-  updated_at: '1790246582'
+  updated_at: '1790252896'
   units:
     Value: EUR/MWh
