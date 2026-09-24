@@ -1,6 +1,6 @@
 outs:
-- md5: 6a8f5ba2eaf23f6e173de50077b8165b
-  size: 11182
+- md5: 7cb28e6cfae8db704b1a29f2b68be6e5
+  size: 12133
   hash: md5
   path: co2_preis_brennstoffe.parquet
 meta:
@@ -14,18 +14,24 @@ meta:
     unit: €/t_CO2e
     label:
       de: co2_price_increase
-  - id: co2_price_high_addition
-    column_id: co2_price_high_addition
-    quantity: unit_price
-    unit: €/t_CO2e
-    label:
-      de: co2_price_high_addition
   - id: co2_price
     column_id: co2_price
     quantity: unit_price
     unit: €/t_CO2e
     label:
       de: co2_price
+  - id: ets2_active
+    column_id: ets2_active
+    quantity: fraction
+    unit: ''
+    label:
+      de: ets2_active
+  - id: co2_price_high_addition
+    column_id: co2_price_high_addition
+    quantity: unit_price
+    unit: €/t_CO2e
+    label:
+      de: co2_price_high_addition
   sources:
   - name: BEHG § 10 CO2-Preis Brennstoffe
     authority: Brennstoffemissionshandelsgesetz (BEHG), § 10 Abs. 2
@@ -53,8 +59,9 @@ meta:
     target: data_point
   index_columns:
   - Year
-  updated_at: '1790246573'
+  updated_at: '1790252887'
   units:
-    co2_price_high_addition: EUR/t_co2e
+    ets2_active: dimensionless
     co2_price: EUR/t_co2e
+    co2_price_high_addition: EUR/t_co2e
     co2_price_increase: EUR/t_co2e
