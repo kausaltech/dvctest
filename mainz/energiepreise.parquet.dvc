@@ -1,5 +1,5 @@
 outs:
-- md5: 7a59321d00ac85a75311a5ca56e59185
+- md5: 20f532aac42f5174aeeb8de59a5d9e4a
   size: 29898
   hash: md5
   path: energiepreise.parquet
@@ -93,6 +93,6 @@ meta:
   - Year
   - energy_carrier
   - sector
-  updated_at: '1790255677'
+  updated_at: '1790256202'
   units:
     Value: EUR/MWh
