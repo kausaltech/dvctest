@@ -1,6 +1,6 @@
 outs:
-- md5: 05b43b7090ae82d519b5c129d9683ab0
-  size: 44273
+- md5: 7eb4571dc11316f9372f239b5cf943e5
+  size: 44345
   hash: md5
   path: municipal_balance_activity.parquet
 meta:
@@ -14,18 +14,6 @@ meta:
     unit: kg/a
     label:
       de: mass
-  - id: count
-    column_id: count
-    quantity: number
-    unit: pieces/a
-    label:
-      de: count
-  - id: mileage
-    column_id: mileage
-    quantity: mileage
-    unit: pkm/a
-    label:
-      de: mileage
   - id: emissions
     column_id: emissions
     quantity: emissions
@@ -38,18 +26,30 @@ meta:
     unit: ''
     label:
       de: quality
-  - id: volume
-    column_id: volume
-    quantity: volume
-    unit: l/a
+  - id: count
+    column_id: count
+    quantity: number
+    unit: pieces/a
     label:
-      de: volume
+      de: count
   - id: energy
     column_id: energy
     quantity: energy
     unit: MWh/a
     label:
       de: energy
+  - id: mileage
+    column_id: mileage
+    quantity: mileage
+    unit: pkm/a
+    label:
+      de: mileage
+  - id: volume
+    column_id: volume
+    quantity: volume
+    unit: l/a
+    label:
+      de: volume
   sources:
   - name: Arqum Verwaltungsbilanz Mainz 2019-2021
     authority: Arqum GmbH im Auftrag der Landeshauptstadt Mainz
@@ -67,6 +67,8 @@ meta:
       Format: .xlsm; Licensing: Im Auftrag der Stadt erstellt; nicht öffentlich; Geographic
       Coverage: Mainz (AGS 07315000); Update Frequency: Abgeschlossen -- Nachfolgebilanz
       2022-2024 durch Kausal; Date Last Updated: 2022-12-22; Updated by: Arqum GmbH'
+    edition:
+    target: data_point
   - name: COS-Datenbestand Kommunaler Fuhrpark Mainz 2022-2024
     authority: Landeshauptstadt Mainz -- Fuhrparkmanagement (COS-Datenbestand)
     url:
@@ -82,6 +84,8 @@ meta:
       Format: .xlsx; Licensing: Provided to the city for climate accounting; not public;
       Geographic Coverage: Mainz (AGS 07315000), kommunaler Fuhrpark; Update Frequency:
       Annual; Date Last Updated: 2026-08-17; Updated by: Landeshauptstadt Mainz'
+    edition:
+    target: data_point
   index_columns:
   - Year
   - emission_source
@@ -90,12 +94,12 @@ meta:
   - municipal_facility_type
   - scope
   - vehicle_type
-  updated_at: '1787746264'
+  updated_at: '1790329716'
   units:
-    mass: kg/a
-    volume: l/a
-    energy: MWh/a
     mileage: pkm/a
-    quality: dimensionless
+    volume: l/a
+    mass: kg/a
+    energy: MWh/a
     count: pcs/a
     emissions: t_co2e/a
+    quality: dimensionless
