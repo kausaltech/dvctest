@@ -1,0 +1,41 @@
+outs:
+- md5: c13e61f783a1ceb58a139c23a7e3b8c6
+  size: 8324
+  hash: md5
+  path: kwk_anlagenparameter.parquet
+meta:
+  name:
+    de: kwk_anlagenparameter
+  identifier: pruefstadt/kwk_anlagenparameter
+  metrics:
+  - id: electricity_fraction
+    column_id: electricity_fraction
+    quantity: fraction
+    unit: ''
+    label:
+      de: electricity_fraction
+  - id: t_supply
+    column_id: t_supply
+    quantity: temperature
+    unit: K
+    label:
+      de: t_supply
+  sources:
+  - name: Kausal Demonstrationswerte BISKO-Prüfung
+    authority: Kausal Oy
+    url:
+    description: 'Erfundene Anlagendaten eines Erdgas-GuD-Heizkraftwerks für die Prüfinstanz
+      pruefstadt-bisko, nur für das Jahr 2023. Sie dienen allein dazu, der Zertifizierungsstelle
+      BISKO-Möglichkeit 1 (exergetische Allokation aus eigenen Anlagendaten) mit Stromanteil
+      und Vorlauftemperatur rechnend vorzuführen. Keine Messung, keiner realen Kommune
+      zuzuordnen.; Format: .csv; Licensing: Kausal; nur Demonstration; Geographic
+      Coverage: Prüfstadt (fiktiv); Update Frequency: Einmalig; Date Last Updated:
+      2026-09-29; Updated by: Kausal'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  updated_at: '1790675166'
+  units:
+    t_supply: K
+    electricity_fraction: dimensionless
