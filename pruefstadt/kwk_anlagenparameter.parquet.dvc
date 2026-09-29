@@ -1,6 +1,6 @@
 outs:
-- md5: c13e61f783a1ceb58a139c23a7e3b8c6
-  size: 8324
+- md5: 46cf1dc37ec29232f0f47df3ca78828c
+  size: 8655
   hash: md5
   path: kwk_anlagenparameter.parquet
 meta:
@@ -8,18 +8,18 @@ meta:
     de: kwk_anlagenparameter
   identifier: pruefstadt/kwk_anlagenparameter
   metrics:
-  - id: electricity_fraction
-    column_id: electricity_fraction
-    quantity: fraction
-    unit: ''
-    label:
-      de: electricity_fraction
   - id: t_supply
     column_id: t_supply
     quantity: temperature
     unit: K
     label:
       de: t_supply
+  - id: electricity_fraction
+    column_id: electricity_fraction
+    quantity: fraction
+    unit: ''
+    label:
+      de: electricity_fraction
   sources:
   - name: Kausal Demonstrationswerte BISKO-Prüfung
     authority: Kausal Oy
@@ -35,7 +35,7 @@ meta:
     target: data_point
   index_columns:
   - Year
-  updated_at: '1790675166'
+  updated_at: '1790679026'
   units:
-    t_supply: K
     electricity_fraction: dimensionless
+    t_supply: K
