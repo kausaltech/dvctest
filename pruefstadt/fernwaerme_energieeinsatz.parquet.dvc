@@ -1,6 +1,6 @@
 outs:
-- md5: ae8e56db640fea5ff0e7548b8d8491c6
-  size: 10892
+- md5: d0c72fc9457be91c84894d1d167826ea
+  size: 11497
   hash: md5
   path: fernwaerme_energieeinsatz.parquet
 meta:
@@ -8,18 +8,18 @@ meta:
     de: fernwaerme_energieeinsatz
   identifier: pruefstadt/fernwaerme_energieeinsatz
   metrics:
-  - id: quality
-    column_id: quality
-    quantity: fraction
-    unit: ''
-    label:
-      de: quality
   - id: default
     column_id: default
     quantity: energy
     unit: MWh/a
     label:
       de: default
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: quality
   sources:
   - name: Kausal Demonstrationswerte BISKO-Prüfung
     authority: Kausal Oy
@@ -38,7 +38,7 @@ meta:
   - per_what_energy
   - upstream_included
   - Year
-  updated_at: '1790675083'
+  updated_at: '1790679055'
   units:
-    default: MWh/a
     quality: dimensionless
+    default: MWh/a
