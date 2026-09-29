@@ -1,11 +1,11 @@
 outs:
-- md5: ecc7cf572a9d42c5290648beab8ee6eb
-  size: 10342
+- md5: 91384fc30c7585ecad821ede657e8b8c
+  size: 8727
   hash: md5
   path: kwk_anlagenparameter.parquet
 meta:
   name:
-    de: KWK-Anlagenparameter
+    de: kwk_anlagenparameter
   identifier: mainz/kwk_anlagenparameter
   metrics:
   - id: electricity_fraction
@@ -13,32 +13,30 @@ meta:
     quantity: fraction
     unit: ''
     label:
-      de: Stromanteil
-  index_columns:
-  - Year
-  updated_at: '1787660120'
+      de: electricity_fraction
+  - id: t_supply
+    column_id: t_supply
+    quantity: temperature
+    unit: K
+    label:
+      de: t_supply
   sources:
   - name: Mainzer Fernwaerme KWK-Anlagendaten 2021-2025
     authority: Mainzer Fernwaerme GmbH, ueber Mainzer Stadtwerke AG
     url:
-    description: "Annual CHP electricity for the Mainz district heating plants (KW3,
-      KW5, the KW3 steam share, MHKW and TVM), 2021-2025. The sheet offers gross and
-      net generation and provisional and final CHP electricity; the utility states
-      which applies: 'zgl. der Bilanzierung unserer FW-Emissionen/dem PEF verwende
-      ich gemaess der Berechnungsmethoden den endgueltigen KWK-Strom Netto'. That
-      figure divided by itself plus the delivered heat gives the electricity fraction
-      the exergetic allocation needs: 0.427 (2021), 0.395 (2022), 0.330 (2023), 0.334
-      (2024) - against the shared template's placeholder of 0.30. TVM's net figures
-      for 2022-2024 are MWh written into a kWh column (965/747/612 against 8.7-9.6
-      million kWh gross); the 2025 row confirms the ratio at about 11 percent either
-      way. Corrected on read; TVM is 0.3 percent of the total. The supply temperature
-      is given as a range, 90-115 C by season, and therefore lives as a slider parameter
-      on the node rather than in this dataset. The delivery starts in 2021, so 2019
-      and 2020 are left empty for the node to extend. Note the utility also says the
-      Carnot method is maintained 'nur informatorisch' for now and becomes binding
-      for district heating only during the coming year.; Format: .xlsx; Licensing:
-      Provided to the city for climate accounting; not public; Geographic Coverage:
-      Mainz (AGS 07315000); Update Frequency: Annual; Date Last Updated: 2026-08-24;
-      Updated by: Mainzer Fernwaerme GmbH"
+    description: 'KWK-Stromerzeugung der Anlagen KW3, KW5, MHKW und TVM 2021-2025
+      (brutto, netto, vorlaeufiger und endgueltiger KWK-Strom, in kWh) mit dem Hinweis
+      zur Vorlauftemperatur (90-115 Grad C). Grundlage des Stromanteils und der Vorlauftemperatur
+      fuer die exergetische Allokation nach BISKO-Kriterium 6; die Waermeabgabe stammt
+      aus der Datenabfrage der Stadtwerke vom 22.06.2026.; Attachment: ERZEUGUNG_exergetischeAllokation_KWK-Anlagen_2021-2025_MainzerFernwärme_20260824.xlsx;
+      Format: .xlsx; Licensing: An Kausal geliefert; nicht öffentlich; Geographic
+      Coverage: Mainz; Update Frequency: Jährlich; Date Last Updated: 2026-08-24;
+      Updated by: Mainzer Fernwaerme'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  updated_at: '1790678665'
   units:
-    electricity_fraction: ''
+    electricity_fraction: dimensionless
+    t_supply: K
