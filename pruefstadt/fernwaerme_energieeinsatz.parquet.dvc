@@ -1,0 +1,44 @@
+outs:
+- md5: ae8e56db640fea5ff0e7548b8d8491c6
+  size: 10892
+  hash: md5
+  path: fernwaerme_energieeinsatz.parquet
+meta:
+  name:
+    de: fernwaerme_energieeinsatz
+  identifier: pruefstadt/fernwaerme_energieeinsatz
+  metrics:
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: quality
+  - id: default
+    column_id: default
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: default
+  sources:
+  - name: Kausal Demonstrationswerte BISKO-Prüfung
+    authority: Kausal Oy
+    url:
+    description: 'Erfundene Anlagendaten eines Erdgas-GuD-Heizkraftwerks für die Prüfinstanz
+      pruefstadt-bisko, nur für das Jahr 2023. Sie dienen allein dazu, der Zertifizierungsstelle
+      BISKO-Möglichkeit 1 (exergetische Allokation aus eigenen Anlagendaten) mit Stromanteil
+      und Vorlauftemperatur rechnend vorzuführen. Keine Messung, keiner realen Kommune
+      zuzuordnen.; Format: .csv; Licensing: Kausal; nur Demonstration; Geographic
+      Coverage: Prüfstadt (fiktiv); Update Frequency: Einmalig; Date Last Updated:
+      2026-09-29; Updated by: Kausal'
+    edition:
+    target: data_point
+  index_columns:
+  - energy_carrier
+  - per_what_energy
+  - upstream_included
+  - Year
+  updated_at: '1790675083'
+  units:
+    default: MWh/a
+    quality: dimensionless
