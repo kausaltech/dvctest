@@ -1,6 +1,6 @@
 outs:
-- md5: 91384fc30c7585ecad821ede657e8b8c
-  size: 8727
+- md5: 201d06a6d0d6f6b48f2f57da709e12cb
+  size: 10080
   hash: md5
   path: kwk_anlagenparameter.parquet
 meta:
@@ -36,7 +36,7 @@ meta:
     target: data_point
   index_columns:
   - Year
-  updated_at: '1790678665'
+  updated_at: '1790678989'
   units:
-    electricity_fraction: dimensionless
     t_supply: K
+    electricity_fraction: dimensionless
