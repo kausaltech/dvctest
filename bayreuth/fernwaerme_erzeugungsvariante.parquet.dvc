@@ -1,0 +1,45 @@
+outs:
+- md5: 18ccd01c00a5f19982959a16331afdbe
+  size: 10616
+  hash: md5
+  path: fernwaerme_erzeugungsvariante.parquet
+meta:
+  name:
+    de: Fernwaerme Erzeugungsvariante
+  identifier: bayreuth/fernwaerme_erzeugungsvariante
+  metrics:
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: quality
+  - id: default
+    column_id: default
+    quantity: fraction
+    unit: ''
+    label:
+      de: default
+  sources:
+  - name: Bayreuth data sinks and district heating
+    authority: Stadt Bayreuth -- Klimaschutzmanagement; district heating figures
+      from the two Stadtwerke networks
+    url:
+    description: 'Two sheets. sinks: maximum sink per land-use class (forest, agricultural
+      land, recreational areas, other green space) from assumed NEE and areas for
+      1990 and 2010. district heating: delivered district heat 2020-2024 by BISKO
+      sector, and generation inputs (natural gas, electricity, pellets) and outputs
+      (heat, electricity). The source named by the Asana tasks for Senken subdivisions
+      and for correct district-heating values.; Attachment: Bayreuth data sinks and
+      district heating.xlsx; Format: .xlsx; Licensing: Provided by the city; not public;
+      Geographic Coverage: Bayreuth (AGS 09462000); Update Frequency: Irregular; Date
+      Last Updated: 2026-09-30; Updated by: Stadt Bayreuth'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - energy_carrier
+  updated_at: '1790796891'
+  units:
+    default: dimensionless
+    quality: dimensionless
