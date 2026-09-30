@@ -1,0 +1,47 @@
+outs:
+- md5: d48ee6b874387f895d5478506ebe48a8
+  size: 9329
+  hash: md5
+  path: sinks_by_land_use.parquet
+meta:
+  name:
+    de: Sinks by land use
+  identifier: bayreuth/sinks_by_land_use
+  metrics:
+  - id: area
+    column_id: area
+    quantity: area
+    unit: ha
+    label:
+      de: area
+  - id: sink_factor
+    column_id: sink_factor
+    quantity: emission_factor
+    unit: t_CO2e/ha/a
+    label:
+      de: sink_factor
+  sources:
+  - name: Bayreuth Zielpfad Gesamtstadt (city workbook)
+    authority: Stadt Bayreuth -- Klimaschutzmanagement
+    url:
+    description: "The city's workbook with four sheets: Zielpfad neu THG (measured
+      emissions 2019-2024 by Wärme/Strom/Verkehr, the 2021 linear target path, and
+      the new sector target path 2025-2040, all in t CO2e/a), Messwerte Endenergie,
+      Zielpfad_2021 and Senken. Read by scripts/extract_zielpfad.py and scripts/create_zielpfad_csv.py
+      (Zielpfad neu THG only). The Drive folder holds it twice, byte-identical, as
+      Zielpfad Gesamtstadt Aug2026.xlsx and Zielpfad Gesamtstadt NEU.xlsx. Against
+      the April edition (client-archive/) Zielpfad neu THG and Messwerte Endenergie
+      are unchanged; Senken now gives areas for 1990 and 2010 instead of 2019 and
+      2020, and Zielpfad_2021 changes in one cell.; Attachment: Zielpfad Gesamtstadt
+      Aug2026.xlsx; Format: .xlsx; Licensing: Provided by the city; not public; Geographic
+      Coverage: Bayreuth (AGS 09462000); Update Frequency: Irregular; Date Last Updated:
+      2026-07-15; Updated by: Stadt Bayreuth"
+    edition:
+    target: data_point
+  index_columns:
+  - land_use
+  - Year
+  updated_at: '1790785289'
+  units:
+    area: ha
+    sink_factor: t_co2e/ha/a
