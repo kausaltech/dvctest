@@ -1,6 +1,6 @@
 outs:
-- md5: e97f91b65723aa00537933611f2aaba2
-  size: 39396
+- md5: 16a3cedd0492db84a9e6124997fd815e
+  size: 39543
   hash: md5
   path: final_energy.parquet
 meta:
@@ -51,6 +51,12 @@ meta:
     edition:
     target: data_point
   - name: KSP-Stammdaten Mainz (citymetadata E84)
+    authority:
+    url:
+    description:
+    edition:
+    target: data_point
+  - name: Kausal, explizite Null für BISKO-Pflichtkategorie
     authority:
     url:
     description:
@@ -124,7 +130,7 @@ meta:
   - Year
   - energy_carrier
   - sector
-  updated_at: '1789723589'
+  updated_at: '1790772365'
   units:
-    Value: MWh/a
     quality: dimensionless
+    Value: MWh/a
