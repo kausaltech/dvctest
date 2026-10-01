@@ -1,5 +1,5 @@
 outs:
-- md5: 18ccd01c00a5f19982959a16331afdbe
+- md5: f933296d2c139da521163bcd1168785a
   size: 10616
   hash: md5
   path: fernwaerme_erzeugungsvariante.parquet
@@ -39,7 +39,7 @@ meta:
   index_columns:
   - Year
   - energy_carrier
-  updated_at: '1790796891'
+  updated_at: '1790828498'
   units:
-    default: dimensionless
     quality: dimensionless
+    default: dimensionless
