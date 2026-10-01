@@ -1,6 +1,6 @@
 outs:
-- md5: c320647e9ad3fbd8d8adce4485ba5a76
-  size: 10530
+- md5: f188f82ef5d2c65fffb6008d01e9983d
+  size: 10555
   hash: md5
   path: zielpfad_massnahmen.parquet
 meta:
@@ -36,6 +36,6 @@ meta:
   - Year
   - sector
   - energy_carrier
-  updated_at: '1790828744'
+  updated_at: '1790835054'
   units:
     emissions: kt_co2e/a
