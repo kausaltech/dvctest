@@ -1,26 +1,45 @@
 outs:
-- md5: 71076de38356e9a8a2b76b5c3709ba8a
-  size: 11817
+- md5: e18a7701430575c5a50ba2c28df15cdb
+  size: 14306
   hash: md5
   path: final_energy.parquet
 meta:
   name:
-    de: Endenergie
-  identifier: endenergie
+    de: Final energy
+  identifier: bayreuth/final_energy
   metrics:
-  - id: energy
+  - id: Value
     column_id: Value
     quantity: energy
     unit: MWh/a
     label:
-      de: Energy
+      de: Value
   - id: quality
     column_id: quality
     quantity: fraction
-    unit: dimensionless
+    unit: ''
     label:
-      de: Data quality
-  updated_at: '1773820836'
+      de: quality
+  sources:
+  - name: Klimaschutz-Planer Eingabe export Bayreuth
+    authority: Klima-Bündnis Klimaschutz-Planer -- data of Stadt Bayreuth
+    url:
+    description: "JSON dump of Bayreuth's Klimaschutz-Planer input data (keyed by
+      AGS 094620000000): energy-carrier values and fields per sector and year with
+      data quality, and its flattened parquet (year, value, quality, unit, field_key,
+      field_label, energy_carrier_group, origin). The edition in client/KSP Export
+      is dated 2026-02-18; a later dump of 2026-02-28 that was in kausal-paths/data/bayreuth
+      is in client-archive/ksp.; Attachment: ksp-bayreuth-eingabe.json; Format: .json;
+      Licensing: Provided to the city; not public; Geographic Coverage: Bayreuth (AGS
+      09462000); Update Frequency: Annual; Date Last Updated: 2026-02-18; Updated
+      by: Stadt Bayreuth"
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - sector
+  - energy_carrier
+  updated_at: '1790862033'
   units:
-    Value: MWh/a
     quality: dimensionless
+    Value: MWh/a
