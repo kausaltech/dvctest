@@ -10,3 +10,4 @@
 /emission_reduction_action.parquet
 /sinks_by_land_use.parquet
 /fernwaerme_erzeugungsvariante.parquet
+/zielpfad_massnahmen.parquet
