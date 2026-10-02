@@ -1,5 +1,5 @@
 outs:
-- md5: 9d9e2a814afde16b64827203303ba3da
+- md5: 33c8b4cea2787b8b3a008e0be73a08c3
   size: 6837
   hash: md5
   path: witterungsbereinigung_eurostat.parquet
@@ -24,6 +24,6 @@ meta:
   index_columns:
   - sector
   - Year
-  updated_at: '1790960226'
+  updated_at: '1790960550'
   units:
     default: dimensionless
