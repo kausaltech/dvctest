@@ -1,0 +1,43 @@
+outs:
+- md5: 975ea228848279e70096666f1359a973
+  size: 8684
+  hash: md5
+  path: fairer_anteil_flaeche.parquet
+meta:
+  name:
+    de: Fairer Anteil Flaeche
+  identifier: mainz/fairer_anteil_flaeche
+  metrics:
+  - id: mainz
+    column_id: mainz
+    quantity: area
+    unit: km²
+    label:
+      de: mainz
+  - id: deutschland
+    column_id: deutschland
+    quantity: area
+    unit: km²
+    label:
+      de: deutschland
+  sources:
+  - name: Eurostat GISCO LAU 2024 Einwohner und Fläche
+    authority: Eurostat GISCO
+    url: https://gisco-services.ec.europa.eu/distribution/v2/lau/
+    description: 'Ausgabe 2024 des europaeischen Gemeindeverzeichnisses (LAU), Spalten
+      POP_2024 und AREA_KM2. Mainz (DE_07315000): 222.889 Einwohner, 97,64 km2. Die
+      Flaeche Deutschlands ist die Summe der 10.978 deutschen Gemeinden derselben
+      Ausgabe (357.188 km2), damit beide Seiten des Flaechenschluessels aus derselben
+      Geometrie stammen. Dieselbe Quelle wie der DVC-Datensatz demography/population_lau,
+      aus dem der Knoten Einwohnerzahl liest. Verwendet in mainz_fairer_anteil.csv.;
+      Format: CSV je Jahresausgabe; Licensing: Eurostat open data, freie Weiterverwendung
+      mit Quellenangabe; Geographic Coverage: Europa auf Gemeindeebene (LAU); Update
+      Frequency: Jaehrlich; Date Last Updated: 2026-10-04; Updated by: Kausal Ltd'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  updated_at: '1791129805'
+  units:
+    mainz: km**2
+    deutschland: km**2
