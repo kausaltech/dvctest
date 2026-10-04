@@ -1,0 +1,57 @@
+outs:
+- md5: 42e47234d180f3c778a7a89038840e82
+  size: 11135
+  hash: md5
+  path: fairer_anteil_stromverbrauch.parquet
+meta:
+  name:
+    de: Fairer Anteil Stromverbrauch
+  identifier: mainz/fairer_anteil_stromverbrauch
+  metrics:
+  - id: mainz
+    column_id: mainz
+    quantity: energy
+    unit: GWh/a
+    label:
+      de: mainz
+  - id: deutschland
+    column_id: deutschland
+    quantity: energy
+    unit: GWh/a
+    label:
+      de: deutschland
+  sources:
+  - name: EKA-RLP Datenservice Strom und Gas Mainz 2014-2024
+    authority: Energieagentur Rheinland-Pfalz (EKA-RLP) -- Datenlieferservice 
+      Kommunales Klimaschutzcontrolling; bilanzierungstool@energieagentur.rlp.de
+    url:
+    description: "Annual grid-bound final energy for Mainz: electricity and natural
+      gas in kWh/a, split by consumer sector (private households, GHD, industry, municipal
+      properties, street lighting, heat pumps, night-storage heating, agriculture
+      and forestry, utility's own operations). Delivered 2026-03-31 and prepared by
+      Kausal in VERBRAUCH_Strom_Gas_Mainz_2014-2024_AUFBEREITET_EKA-RLP-Datenservice_geliefert20260331.xlsx.
+      The electricity delivery combines GHD with industry; the split is estimated
+      (see the workbook's own note).; Attachment: VERBRAUCH_Strom_Gas_Mainz_2014-2024_AUFBEREITET_EKA-RLP-Datenservice_geliefert20260331.xlsx;
+      Format: .xlsx; Licensing: Provided to the city for climate accounting; not public;
+      Geographic Coverage: Mainz (AGS 07315000); Update Frequency: Annual; Date Last
+      Updated: 2026-03-31; Updated by: EKA-RLP"
+    edition:
+    target: data_point
+  - name: Eurostat nrg_bal_c Endenergieverbrauch Strom Deutschland
+    authority: Eurostat
+    url: https://ec.europa.eu/eurostat/databrowser/view/nrg_bal_c/default/table
+    description: 'Vollstaendige Energiebilanzen, Endenergieverbrauch fuer energetische
+      Zwecke (nrg_bal FC_E) von Strom (siec E7000) in Deutschland, GWh. 2024: 471.794
+      GWh, abgerufen am 04.10.2026 (Datenstand 27.08.2026). Verwendet als nationale
+      Bezugsgroesse des Verteilungsschluessels Stromverbrauch in mainz_fairer_anteil.csv.;
+      Format: JSON-stat API; Licensing: Eurostat open data, freie Weiterverwendung
+      mit Quellenangabe; Geographic Coverage: Deutschland; Update Frequency: Jaehrlich;
+      Date Last Updated: 2026-10-04; Updated by: Kausal Ltd'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  updated_at: '1791129818'
+  units:
+    deutschland: GWh/a
+    mainz: GWh/a
