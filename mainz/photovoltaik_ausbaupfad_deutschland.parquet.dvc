@@ -1,0 +1,70 @@
+outs:
+- md5: c19166f275b5df53764da8bb2c97022a
+  size: 12809
+  hash: md5
+  path: photovoltaik_ausbaupfad_deutschland.parquet
+meta:
+  name:
+    de: Photovoltaik Ausbaupfad Deutschland
+  identifier: mainz/photovoltaik_ausbaupfad_deutschland
+  metrics:
+  - id: capacity
+    column_id: capacity
+    quantity: activity
+    unit: MW
+    label:
+      de: capacity
+  sources:
+  - name: EEG 2023 § 4 Ausbaupfad Solaranlagen
+    authority: Bundesrepublik Deutschland
+    url: https://www.gesetze-im-internet.de/eeg_2014/__4.html
+    description: '§ 4 Nr. 3 Erneuerbare-Energien-Gesetz 2023: Steigerung der installierten
+      Leistung von Solaranlagen auf 88 GW im Jahr 2024, 128 GW 2026, 172 GW 2028,
+      215 GW 2030, 309 GW 2035 und 400 GW 2040 sowie den Erhalt dieser Leistung nach
+      2040. § 4 Satz 2: Zubau auf, an oder in Gebaeuden und Laermschutzwaenden mindestens
+      im Umfang des Zubaus von Freiflaechenanlagen und Anlagen auf sonstigen baulichen
+      Anlagen wird angestrebt. Wortlaut abgerufen am 04.10.2026. Verwendet in mainz_fairer_anteil.csv.;
+      Format: Rechtstext; Licensing: Amtliches Werk, gemeinfrei (§ 5 UrhG); Geographic
+      Coverage: Deutschland; Update Frequency: Bei Gesetzesaenderung; Date Last Updated:
+      2026-10-04; Updated by: Kausal Ltd'
+    edition:
+    target: data_point
+  - name: Eurostat nrg_inf_epcrw Photovoltaik-Leistung Deutschland
+    authority: Eurostat
+    url: 
+      https://ec.europa.eu/eurostat/databrowser/view/nrg_inf_epcrw/default/table
+    description: 'Installierte elektrische Leistung von Anlagen erneuerbarer Energien,
+      hier Photovoltaik (siec RA420) fuer Deutschland in MW, 2010-2024, abgerufen
+      am 04.10.2026 (Datenstand 21.08.2026). Ab 2022 weist Eurostat die Leistung getrennt
+      als Wechselstrom- (CAP_NET_ELC_AC) und Gleichstrom-Nennleistung (CAP_NET_ELC_DC)
+      aus, und die unbezeichnete Reihe CAP_NET_ELC folgt dann dem Wechselstromwert.
+      Verwendet wird bis 2021 CAP_NET_ELC und ab 2022 CAP_NET_ELC_DC, weil beide 2021
+      uebereinstimmen und die Ziele des EEG wie der Mainzer Bestand in Modul-Nennleistung
+      (MWp) angegeben sind. Verwendet in mainz_fairer_anteil.csv.; Format: JSON-stat
+      API; Licensing: Eurostat open data, freie Weiterverwendung mit Quellenangabe;
+      Geographic Coverage: Deutschland; Update Frequency: Jaehrlich; Date Last Updated:
+      2026-10-04; Updated by: Kausal Ltd'
+    edition:
+    target: data_point
+  - name: Kausal Werturteil Fairer Anteil Mainz
+    authority: Kausal Ltd -- Werturteil und Annahme dieses Modells, keine Angabe
+      der Quelle
+    url:
+    description: 'Kennzeichnet in mainz_fairer_anteil.csv die Werte, die keine Messung
+      und kein Gesetzestext sind, sondern eine Entscheidung dieses Modells: die lineare
+      Interpolation zwischen den Stuetzjahren des EEG-Ausbaupfads und die Lesart des
+      § 4 Satz 2 EEG, nach der eine Stadt nur ihren Anteil an der Gebaeudehaelfte
+      des Photovoltaikausbaus schuldet. Die Wahl des Verteilungsschluessels selbst
+      (Einwohner, Stromverbrauch, Flaeche) ist ebenfalls ein Werturteil; sie steht
+      nicht in den Daten, sondern im Modell, das alle Schluessel nebeneinander zeigt.
+      Nur im Entwicklungsmodell mainz-dev, nicht im veroeffentlichten Treibhausgas-Monitor.;
+      Licensing: Annahme des Modells; mit dem Modell veröffentlicht; Geographic Coverage:
+      Mainz (AGS 07315000); Update Frequency: Bei Entscheidung der Stadt zu ersetzen;
+      Date Last Updated: 2026-10-04; Updated by: Kausal Ltd'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  updated_at: '1791129830'
+  units:
+    capacity: MW
