@@ -1,0 +1,53 @@
+outs:
+- md5: 2b0a6a1d39c2b16706686fc12a99d7eb
+  size: 10373
+  hash: md5
+  path: fairer_anteil_dachanteil_photovoltaik.parquet
+meta:
+  name:
+    de: Fairer Anteil Dachanteil Photovoltaik
+  identifier: mainz/fairer_anteil_dachanteil_photovoltaik
+  metrics:
+  - id: share
+    column_id: share
+    quantity: fraction
+    unit: '%'
+    label:
+      de: share
+  sources:
+  - name: EEG 2023 § 4 Ausbaupfad Solaranlagen
+    authority: Bundesrepublik Deutschland
+    url: https://www.gesetze-im-internet.de/eeg_2014/__4.html
+    description: '§ 4 Nr. 3 Erneuerbare-Energien-Gesetz 2023: Steigerung der installierten
+      Leistung von Solaranlagen auf 88 GW im Jahr 2024, 128 GW 2026, 172 GW 2028,
+      215 GW 2030, 309 GW 2035 und 400 GW 2040 sowie den Erhalt dieser Leistung nach
+      2040. § 4 Satz 2: Zubau auf, an oder in Gebaeuden und Laermschutzwaenden mindestens
+      im Umfang des Zubaus von Freiflaechenanlagen und Anlagen auf sonstigen baulichen
+      Anlagen wird angestrebt. Wortlaut abgerufen am 04.10.2026. Verwendet in mainz_fairer_anteil.csv.;
+      Format: Rechtstext; Licensing: Amtliches Werk, gemeinfrei (§ 5 UrhG); Geographic
+      Coverage: Deutschland; Update Frequency: Bei Gesetzesaenderung; Date Last Updated:
+      2026-10-04; Updated by: Kausal Ltd'
+    edition:
+    target: data_point
+  - name: Kausal Werturteil Fairer Anteil Mainz
+    authority: Kausal Ltd -- Werturteil und Annahme dieses Modells, keine Angabe
+      der Quelle
+    url:
+    description: 'Kennzeichnet in mainz_fairer_anteil.csv die Werte, die keine Messung
+      und kein Gesetzestext sind, sondern eine Entscheidung dieses Modells: die lineare
+      Interpolation zwischen den Stuetzjahren des EEG-Ausbaupfads und die Lesart des
+      § 4 Satz 2 EEG, nach der eine Stadt nur ihren Anteil an der Gebaeudehaelfte
+      des Photovoltaikausbaus schuldet. Die Wahl des Verteilungsschluessels selbst
+      (Einwohner, Stromverbrauch, Flaeche) ist ebenfalls ein Werturteil; sie steht
+      nicht in den Daten, sondern im Modell, das alle Schluessel nebeneinander zeigt.
+      Nur im Entwicklungsmodell mainz-dev, nicht im veroeffentlichten Treibhausgas-Monitor.;
+      Licensing: Annahme des Modells; mit dem Modell veröffentlicht; Geographic Coverage:
+      Mainz (AGS 07315000); Update Frequency: Bei Entscheidung der Stadt zu ersetzen;
+      Date Last Updated: 2026-10-04; Updated by: Kausal Ltd'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  updated_at: '1791129780'
+  units:
+    share: '%'
