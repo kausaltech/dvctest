@@ -1,0 +1,49 @@
+outs:
+- md5: c269d14a76c8b0c829f91f0613981e09
+  size: 12539
+  hash: md5
+  path: global_co2_budget.parquet
+meta:
+  name:
+    en: Global CO2 budget
+  identifier: fair_share/global_co2_budget
+  metrics:
+  - id: budget
+    column_id: budget
+    quantity: emissions
+    unit: Gt_CO2e
+    label:
+      en: budget
+  sources:
+  - name: IPCC AR6 WG1 SPM Table SPM.2 remaining carbon budgets
+    authority: Intergovernmental Panel on Climate Change (IPCC) -- Working Group
+      I
+    url: https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/
+    description: 'Estimated remaining CO2 budgets from 1 January 2020 for limiting
+      global warming to 1.5, 1.7 and 2.0 °C above 1850-1900 at 17, 33, 50, 67 and
+      83 % likelihood (Table SPM.2 of the Summary for Policymakers, Climate Change
+      2021: The Physical Science Basis). Gt CO2, including land-use CO2. Approved
+      line by line by governments.; Format: Table in PDF; Licensing: IPCC terms of
+      use (reproduction with attribution); Geographic Coverage: World; Update Frequency:
+      Assessment cycle (AR6 2021; AR7 expected 2028-2029); Date Last Updated: 2021-08-09;
+      Updated by: IPCC'
+    edition:
+    target: data_point
+  - name: Kausal interpolation of the IPCC remaining carbon budgets
+    authority: Kausal Ltd
+    url:
+    description: "Linear interpolation of IPCC AR6 Table SPM.2 to a grid of 0.1 °C
+      and 1 percentage point of likelihood, so that the model's sliders always find
+      a row. The tabulated rows are unchanged; an interpolated row is approximate,
+      because the budget is not linear in likelihood. Made by modules/fair-share/scripts/create_fair_share_budget.py.;
+      Geographic Coverage: World; Update Frequency: On rebuild; Date Last Updated:
+      2026-10-06; Updated by: Kausal"
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - likelihood
+  - temperature_limit
+  updated_at: '1791274710'
+  units:
+    budget: Gt_co2e
