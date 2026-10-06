@@ -1,0 +1,57 @@
+outs:
+- md5: 9618afe361f7205756b63c2c44d637e3
+  size: 10198
+  hash: md5
+  path: national_co2_key.parquet
+meta:
+  name:
+    en: National CO2 key
+  identifier: fair_share/national_co2_key
+  metrics:
+  - id: emissions
+    column_id: emissions
+    quantity: emissions
+    unit: Mt_CO2e/a
+    label:
+      en: emissions
+  - id: population_world
+    column_id: population_world
+    quantity: population
+    unit: cap
+    label:
+      en: population_world
+  - id: population
+    column_id: population
+    quantity: population
+    unit: cap
+    label:
+      en: population
+  - id: emissions_world
+    column_id: emissions_world
+    quantity: emissions
+    unit: Mt_CO2e/a
+    label:
+      en: emissions_world
+  sources:
+  - name: Our World in Data CO2 dataset (Global Carbon Budget 2025)
+    authority: Our World in Data (Global Change Data Lab); emissions from the 
+      Global Carbon Project
+    url: https://github.com/owid/co2-data
+    description: 'owid-co2-data.csv: annual fossil and industry CO2 (column co2, Mt,
+      territorial, excluding land use) from the Global Carbon Budget 2025, and long-run
+      population (UN World Population Prospects from 1950, HYDE and Gapminder before).
+      Retrieved 2026-10-06 by modules/fair-share/scripts/fetch_owid_co2.py; the subset
+      used is inputs/owid_co2.csv.; Attachment: inputs/owid_co2.csv; Format: .csv;
+      Licensing: CC BY 4.0; Geographic Coverage: World and countries (present borders);
+      Update Frequency: Annual; Date Last Updated: 2026-10-06; Updated by: Kausal'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - country
+  updated_at: '1791274721'
+  units:
+    population_world: cap
+    population: cap
+    emissions_world: Mt_co2e/a
+    emissions: Mt_co2e/a
