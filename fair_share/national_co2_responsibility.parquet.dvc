@@ -1,0 +1,44 @@
+outs:
+- md5: fbf77ab2206b7662d9657568e6f05d71
+  size: 9571
+  hash: md5
+  path: national_co2_responsibility.parquet
+meta:
+  name:
+    en: National CO2 responsibility
+  identifier: fair_share/national_co2_responsibility
+  metrics:
+  - id: historical_emissions
+    column_id: historical_emissions
+    quantity: emissions
+    unit: Mt_CO2e
+    label:
+      en: historical_emissions
+  - id: equal_per_capita_entitlement
+    column_id: equal_per_capita_entitlement
+    quantity: emissions
+    unit: Mt_CO2e
+    label:
+      en: equal_per_capita_entitlement
+  sources:
+  - name: Our World in Data CO2 dataset (Global Carbon Budget 2025)
+    authority: Our World in Data (Global Change Data Lab); emissions from the 
+      Global Carbon Project
+    url: https://github.com/owid/co2-data
+    description: 'owid-co2-data.csv: annual fossil and industry CO2 (column co2, Mt,
+      territorial, excluding land use) from the Global Carbon Budget 2025, and long-run
+      population (UN World Population Prospects from 1950, HYDE and Gapminder before).
+      Retrieved 2026-10-06 by modules/fair-share/scripts/fetch_owid_co2.py; the subset
+      used is inputs/owid_co2.csv.; Attachment: inputs/owid_co2.csv; Format: .csv;
+      Licensing: CC BY 4.0; Geographic Coverage: World and countries (present borders);
+      Update Frequency: Annual; Date Last Updated: 2026-10-06; Updated by: Kausal'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - country
+  - start_year
+  updated_at: '1791274729'
+  units:
+    historical_emissions: Mt_co2e
+    equal_per_capita_entitlement: Mt_co2e
