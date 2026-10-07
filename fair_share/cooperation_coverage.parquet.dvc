@@ -1,0 +1,83 @@
+outs:
+- md5: 24835d5a93a92d9cf2b865872353c888
+  size: 16362
+  hash: md5
+  path: cooperation_coverage.parquet
+meta:
+  name:
+    en: Cooperation coverage
+  identifier: fair_share/cooperation_coverage
+  metrics:
+  - id: coverage
+    column_id: coverage
+    quantity: fraction
+    unit: '%'
+    label:
+      en: coverage
+  sources:
+  - name: Kausal analysis of countries with falling emissions
+    authority: Kausal Ltd
+    url:
+    description: 'Share of world fossil CO2 in each year 1990-2024 from countries
+      whose five-year mean emissions are at least 10 % below their highest earlier
+      five-year mean, computed from the OWID country series (inputs/owid_co2_all_countries.csv,
+      every country with an ISO alpha-3 code). Made by modules/fair-share/scripts/create_objections_data.py.;
+      Attachment: inputs/owid_co2_all_countries.csv; Format: .csv; Geographic Coverage:
+      World; Update Frequency: On rebuild; Date Last Updated: 2026-10-07; Updated
+      by: Kausal'
+    edition:
+    target: data_point
+  - name: Kausal interpolation of carbon pricing coverage
+    authority: Kausal Ltd
+    url:
+    description: 'Linear interpolation of the World Bank coverage series for years
+      without an overall figure in the editions used (2022). Made by modules/fair-share/scripts/create_objections_data.py.;
+      Geographic Coverage: World; Update Frequency: On rebuild; Date Last Updated:
+      2026-10-07; Updated by: Kausal'
+    edition:
+    target: data_point
+  - name: Net Zero Tracker Net Zero Stocktake 2025
+    authority: Net Zero Tracker (Energy & Climate Intelligence Unit, Data-Driven
+      EnviroLab, NewClimate Institute, Oxford Net Zero)
+    url: 
+      https://netzeroclimate.org/wp-content/uploads/2025/09/Net_Zero_Stocktake_2025.pdf
+    description: 'Net Zero Stocktake 2025 (September 2025), section 3.2: 137 of 198
+      national governments have net zero targets, covering at least 74 % of global
+      GHG emissions; coverage down 13 percentage points from 2024, mainly because
+      the United States abandoned its target; 67 % of targets in law or formal policy.;
+      Format: PDF; Licensing: Attribution; Geographic Coverage: World; Update Frequency:
+      Annual; Date Last Updated: 2025-09; Updated by: Net Zero Tracker'
+    edition:
+    target: data_point
+  - name: Our World in Data CO2 dataset (Global Carbon Budget 2025)
+    authority: Our World in Data (Global Change Data Lab); emissions from the 
+      Global Carbon Project
+    url: https://github.com/owid/co2-data
+    description: 'owid-co2-data.csv: annual fossil and industry CO2 (column co2, Mt,
+      territorial, excluding land use) from the Global Carbon Budget 2025, and long-run
+      population (UN World Population Prospects from 1950, HYDE and Gapminder before).
+      Retrieved 2026-10-06 by modules/fair-share/scripts/fetch_owid_co2.py; the subset
+      used is inputs/owid_co2.csv.; Attachment: inputs/owid_co2.csv; Format: .csv;
+      Licensing: CC BY 4.0; Geographic Coverage: World and countries (present borders);
+      Update Frequency: Annual; Date Last Updated: 2026-10-06; Updated by: Kausal'
+    edition:
+    target: data_point
+  - name: World Bank State and Trends of Carbon Pricing
+    authority: World Bank Group
+    url: 
+      https://www.worldbank.org/en/publication/state-and-trends-of-carbon-pricing
+    description: 'Annual report on carbon taxes and emissions trading systems in operation
+      on 1 April of the edition year. Share of global GHG emissions covered: 21.5
+      % (2021 edition), about 23 % (2023), about 24 % (2024), about 28 % (2025, press
+      release of 10 June 2025). The 2022 edition: less than 4 % of global emissions
+      priced in the range needed by 2030 for the Paris temperature goal.; Format:
+      PDF / web; Licensing: CC BY 3.0 IGO; Geographic Coverage: World; Update Frequency:
+      Annual; Date Last Updated: 2025-06-10; Updated by: World Bank'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - cooperation_criterion
+  updated_at: '1791375638'
+  units:
+    coverage: '%'
