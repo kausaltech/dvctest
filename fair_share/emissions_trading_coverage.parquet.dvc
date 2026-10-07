@@ -1,0 +1,52 @@
+outs:
+- md5: b6eeff5b43378ef3d9ffac588c312cff
+  size: 13141
+  hash: md5
+  path: emissions_trading_coverage.parquet
+meta:
+  name:
+    en: Emissions trading coverage
+  identifier: fair_share/emissions_trading_coverage
+  metrics:
+  - id: share
+    column_id: share
+    quantity: fraction
+    unit: '%'
+    label:
+      en: share
+  sources:
+  - name: EU ETS Directive 2003/87/EC and German Fuel Emissions Trading Act 
+      (BEHG)
+    authority: European Union; Federal Republic of Germany
+    url: https://eur-lex.europa.eu/eli/dir/2003/87/oj
+    description: 'Scope of the EU emissions trading system for power, heat, industry
+      and aviation (EU ETS1, since 2005; aviation since 2012), of the emissions trading
+      system for buildings and road transport (EU ETS2, chapter IVa, inserted by Directive
+      (EU) 2023/959; start postponed from 2027 to 2028 by the agreement of 5 November
+      2025), and of the German Brennstoffemissionshandelsgesetz (BEHG): fixed prices
+      2021-2025 (25, 30, 30, 45, 55 EUR/t), price corridor 55-65 EUR/t in 2026-2027.;
+      Format: Legal text; Licensing: Public; Geographic Coverage: EU / Germany; Update
+      Frequency: On amendment; Date Last Updated: 2026-10-07; Updated by: Kausal'
+    edition:
+    target: data_point
+  - name: Kausal assignment of BISKO energy carriers to emissions trading 
+      systems
+    authority: Kausal Ltd
+    url:
+    description: 'Which trading system covers the emissions of each BISKO sector and
+      energy carrier by year. Assigns to a cap whatever could plausibly be called
+      capped (industrial fuels and district heating to EU ETS1, upstream emissions
+      with their carrier), so the assignment grants the waterbed objection rather
+      than understating it. Made by modules/fair-share/scripts/create_objections_data.py.;
+      Geographic Coverage: Germany; Update Frequency: On rebuild; Date Last Updated:
+      2026-10-07; Updated by: Kausal'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - emissions_trading_system
+  - energy_carrier
+  - sector
+  updated_at: '1791375647'
+  units:
+    share: '%'
