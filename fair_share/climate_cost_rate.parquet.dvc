@@ -1,0 +1,48 @@
+outs:
+- md5: 567e65489800cd386a78fdb1f6e5910c
+  size: 10436
+  hash: md5
+  path: climate_cost_rate.parquet
+meta:
+  name:
+    en: Climate cost rate
+  identifier: fair_share/climate_cost_rate
+  metrics:
+  - id: cost_rate
+    column_id: cost_rate
+    quantity: unit_price
+    unit: €/t_CO2e
+    label:
+      en: cost_rate
+  sources:
+  - name: Kausal interpolation of the UBA climate cost rates
+    authority: Kausal Ltd
+    url:
+    description: 'Linear interpolation of UBA Methodenkonvention 4.0 Table 1 to every
+      year 2020-2050, as the handbook recommends. Tabulated years unchanged. Made
+      by modules/fair-share/scripts/create_objections_data.py.; Geographic Coverage:
+      World; Update Frequency: On rebuild; Date Last Updated: 2026-10-07; Updated
+      by: Kausal'
+    edition:
+    target: data_point
+  - name: UBA Methodenkonvention 4.0 Kostensätze
+    authority: Umweltbundesamt (German Environment Agency)
+    url: https://www.umweltbundesamt.de/publikationen/handbuch-umweltkosten
+    description: 'Handbuch Umweltkosten – Methodenkonvention 4.0 / Handbook on Environmental
+      Value Factors, Methodological Convention 4.0 (February 2026), Table 1: social
+      cost of CO2 and CO2-eq in EUR2025 per tonne by year of emission (2020, 2025-2030,
+      2040, 2050), at 0 % and 1 % pure rate of time preference. Adapted GIVE model
+      (Rennert et al. 2022; Anthoff 2025) with equity weighting. UBA recommends the
+      0 % value as the main one and the 1 % value as sensitivity, and linear interpolation
+      between tabulated years.; Format: PDF; Licensing: UBA terms of use (reproduction
+      with attribution); Geographic Coverage: World (damages); emissions anywhere;
+      Update Frequency: Irregular (3.1 2020; 3.2 2024; 4.0 2026); Date Last Updated:
+      2026-02; Updated by: UBA'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - pure_time_preference
+  updated_at: '1791375629'
+  units:
+    cost_rate: EUR/t_co2e
