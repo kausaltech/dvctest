@@ -1,6 +1,6 @@
 outs:
-- md5: 393c10254bf751e83cc04c1a1fb29adb
-  size: 8795
+- md5: 444b0c8c0f31570327cc3e170750f30d
+  size: 8367
   hash: md5
   path: emissionsfaktoren_ohne_brennstoffinput.parquet
 meta:

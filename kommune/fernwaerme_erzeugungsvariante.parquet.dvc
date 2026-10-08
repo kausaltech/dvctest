@@ -1,11 +1,12 @@
 outs:
-- md5: c63cccb73f74e75bcb63d73011bb152d
-  size: 13674
+- md5: 79b5b59800a545b8edac6859656781a2
+  size: 13360
   hash: md5
   path: fernwaerme_erzeugungsvariante.parquet
 meta:
   name:
-    de: fernwaerme_erzeugungsvariante
+    de: Fernwärme Erzeugungsvariante
+    en: District heating generation variant
   identifier: kommune/fernwaerme_erzeugungsvariante
   metrics:
   - id: default
@@ -35,10 +36,10 @@ meta:
       Eingabe im Bilanzierungswerkzeug; Licensing: Kommunale Angabe; nicht öffentlich;
       Geographic Coverage: Die jeweilige Kommune; Update Frequency: Jährlich, sofern
       sich die überwiegende Variante ändert; Updated by: Kommune'
+  updated_at: '1787285046'
   index_columns:
   - energy_carrier
   - Year
-  updated_at: '1787285046'
   units:
     default: dimensionless
     quality: dimensionless

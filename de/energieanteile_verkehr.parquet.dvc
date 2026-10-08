@@ -1,11 +1,12 @@
 outs:
-- md5: ea5918cca1ba018d11bd3d4735a2154d
-  size: 25229
+- md5: 7bc25bb4109577c1b034dbcd4bfbb38e
+  size: 24886
   hash: md5
   path: energieanteile_verkehr.parquet
 meta:
   name:
-    de: energieanteile_verkehr
+    de: Energieanteile Verkehr
+    en: Transport energy shares
   identifier: de/energieanteile_verkehr
   metrics:
   - id: Value
@@ -37,11 +38,11 @@ meta:
       Verbrauchsfaktoren (de/energiefaktoren_verkehr) traegt dieser Datensatz 
       den BISKO-Weg Fahrleistung x spezifischer Verbrauch. Summiert sich je 
       Fahrzeugklasse und Strassenkategorie auf 1.
+  updated_at: '1787371557'
   index_columns:
   - vehicle_type
   - road_type
   - energy_carrier
   - Year
-  updated_at: '1787371557'
   units:
     Value: dimensionless

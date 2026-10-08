@@ -1,11 +1,12 @@
 outs:
-- md5: 004891175740a8395a8f6bcf764c9717
-  size: 16981
+- md5: 4d22965324af73b069e75402d1ddde69
+  size: 16643
   hash: md5
   path: emissionsfaktoren_erzeugung.parquet
 meta:
   name:
-    de: emissionsfaktoren_erzeugung
+    de: Emissionsfaktoren Erzeugung
+    en: Generation emission factors
   identifier: de/emissionsfaktoren_erzeugung
   metrics:
   - id: Value
@@ -47,11 +48,11 @@ meta:
       Frequency: Jährlich; Date Last Updated: 2026-01-16; Updated by: ifeu'
     edition:
     target: data_point
+  updated_at: '1789827154'
   index_columns:
   - Year
   - energy_carrier
   - per_what_energy
   - upstream_included
-  updated_at: '1789827154'
   units:
     Value: t_co2e/MWh

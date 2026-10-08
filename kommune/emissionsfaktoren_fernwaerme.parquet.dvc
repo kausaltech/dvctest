@@ -1,11 +1,12 @@
 outs:
-- md5: c76fda5e5508f678dfb967547cd33bce
-  size: 9825
+- md5: 4dc99f154b02d50bff2c1cf47da11dc3
+  size: 9533
   hash: md5
   path: emissionsfaktoren_fernwaerme.parquet
 meta:
   name:
-    de: emissionsfaktoren_fernwaerme
+    de: Emissionsfaktoren Fernwärme (lokal)
+    en: District heating emission factors (local)
   identifier: kommune/emissionsfaktoren_fernwaerme
   metrics:
   - id: Value
@@ -26,10 +27,10 @@ meta:
       Emissionsfaktoren_2023_Kausal_korrigiert.xlsx; Format: .xlsx; Licensing: An
       Kausal geliefert; nicht öffentlich; Geographic Coverage: Deutschland; Update
       Frequency: Jährlich; Date Last Updated: 2026-01-16; Updated by: ifeu'
+  updated_at: '1787265901'
   index_columns:
   - energy_carrier
   - per_what_energy
   - Year
-  updated_at: '1787265901'
   units:
     Value: t_co2e/MWh

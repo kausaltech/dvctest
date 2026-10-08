@@ -1,11 +1,12 @@
 outs:
-- md5: 1d93161bc9febe59b67f93dc6c4891bc
-  size: 9723
+- md5: e941533d63f98ec87e104f1dcb1edd5b
+  size: 9372
   hash: md5
   path: emissionsfaktoren_verkehr.parquet
 meta:
   name:
     de: Emissionsfaktoren Verkehr
+    en: Transport emission factors
   identifier: de/emissionsfaktoren_verkehr
   metrics:
   - id: well_to_tank

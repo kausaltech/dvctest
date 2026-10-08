@@ -1,11 +1,12 @@
 outs:
-- md5: 546077ab89c29c9194f0750086fa98d1
-  size: 9245
+- md5: 1e11104ba1ab51a7e2f50cdc8194fee5
+  size: 8988
   hash: md5
   path: kategorien_fernwaerme_varianten.parquet
 meta:
   name:
-    de: kategorien_fernwaerme_varianten
+    de: Kategorien Fernwärme-Erzeugungsvarianten
+    en: Categories, district heating generation variants
   identifier: de/kategorien_fernwaerme_varianten
   metrics:
   - id: expected

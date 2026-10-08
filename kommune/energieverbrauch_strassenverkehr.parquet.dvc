@@ -1,11 +1,12 @@
 outs:
-- md5: a2c4c34f2f6bf80f386168be3536a0fe
-  size: 13960
+- md5: 59842cc2aa13668612d08d40acf3d08b
+  size: 13625
   hash: md5
   path: energieverbrauch_strassenverkehr.parquet
 meta:
   name:
-    de: energieverbrauch_strassenverkehr
+    de: Energieverbrauch Straßenverkehr
+    en: Road transport energy use
   identifier: kommune/energieverbrauch_strassenverkehr
   metrics:
   - id: Value
@@ -38,11 +39,11 @@ meta:
       im Bilanzierungswerkzeug; Licensing: Kommunale Angabe; nicht oeffentlich; Geographic
       Coverage: Die jeweilige Kommune; Update Frequency: Jaehrlich; Date Last Updated:
       2026-08-21; Updated by: Kommune'
+  updated_at: '1787372333'
   index_columns:
   - vehicle_type
   - energy_carrier
   - Year
-  updated_at: '1787372333'
   units:
     quality: dimensionless
     Value: MWh/a

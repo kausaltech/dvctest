@@ -1,11 +1,12 @@
 outs:
-- md5: aa45d01f634c5411e9fd198ad3b50a6b
-  size: 10776
+- md5: fa6f94cf12cd9079309980713cda78ba
+  size: 10420
   hash: md5
   path: fahrleistung_strassenverkehr.parquet
 meta:
   name:
-    de: fahrleistung_strassenverkehr
+    de: Fahrleistung Straßenverkehr
+    en: Road mileage
   identifier: kommune/fahrleistung_strassenverkehr
   metrics:
   - id: quality

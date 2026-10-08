@@ -1,11 +1,12 @@
 outs:
-- md5: 4004a3212be068941ffdd8397f4c1ff1
-  size: 9799
+- md5: 6b87ea7a204f799f50b08bb4f13d931e
+  size: 9476
   hash: md5
   path: witterungsbereinigung.parquet
 meta:
   name:
-    de: witterungsbereinigung
+    de: Witterungsbereinigung (lokal)
+    en: Weather correction (local)
   identifier: kommune/witterungsbereinigung
   metrics:
   - id: default
@@ -30,9 +31,9 @@ meta:
       Licensing: DWD-Daten; Vorbelegung durch Kausal; Geographic Coverage: Die jeweilige
       Kommune (Vorbelegung: Potsdam); Update Frequency: Jährlich; Date Last Updated:
       2026-08-21; Updated by: Kausal'
+  updated_at: '1787275612'
   index_columns:
   - sector
   - Year
-  updated_at: '1787275612'
   units:
     default: dimensionless

@@ -1,11 +1,12 @@
 outs:
-- md5: cff5c1b0eeddfa0677f4abf25f216105
-  size: 10857
+- md5: 974fb25747125e603f7586925df228cb
+  size: 10558
   hash: md5
   path: energieverbrauch_uebriger_verkehr.parquet
 meta:
   name:
-    de: energieverbrauch_uebriger_verkehr
+    de: Energieverbrauch übriger Verkehr
+    en: Rail, water and air transport energy use
   identifier: kommune/energieverbrauch_uebriger_verkehr
   metrics:
   - id: Value

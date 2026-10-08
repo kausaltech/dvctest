@@ -1,11 +1,12 @@
 outs:
-- md5: b8b59741acf7bfb120bdb158386b813e
-  size: 6849
+- md5: ec94dfd5325febc685091a149844ed7c
+  size: 6498
   hash: md5
   path: kwk_anlagenparameter.parquet
 meta:
   name:
-    de: kwk_anlagenparameter
+    de: KWK-Anlagenparameter
+    en: CHP plant parameters
   identifier: kommune/kwk_anlagenparameter
   metrics:
   - id: t_supply

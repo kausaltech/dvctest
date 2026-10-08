@@ -1,6 +1,6 @@
 outs:
-- md5: 3cb6f85b123d3e3ebe62b730dc69ac2c
-  size: 4788
+- md5: ac22f5a6d7e55b4d72189c139d6f1ca5
+  size: 4557
   hash: md5
   path: sektorzuordnung.parquet
 meta:
@@ -16,5 +16,9 @@ meta:
     label:
       de: ratio
   updated_at: '1778147281'
+  index_columns:
+  - sector
+  - energy_carrier
+  - Year
   units:
     ratio: dimensionless

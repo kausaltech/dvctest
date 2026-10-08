@@ -1,11 +1,12 @@
 outs:
-- md5: 3b38d28c2a685c7c39cb2390fc49851d
-  size: 12214
+- md5: 165ebb14e07daebaf21886e8c35699c0
+  size: 11858
   hash: md5
   path: gemeldete_emissionen.parquet
 meta:
   name:
-    de: gemeldete_emissionen
+    de: Gemeldete Emissionen
+    en: Reported emissions
   identifier: kommune/gemeldete_emissionen
   metrics:
   - id: quality
@@ -32,11 +33,11 @@ meta:
       andere Emissionsfaktoren-Fassung, nicht-energetische Sektoren enthalten, Witterungsbereinigung
       angewendet. Die Vorlage wird leer ausgeliefert; eine leere Zelle wird im Modell
       als Null gelesen und bedeutet "nichts gemeldet".'
+  updated_at: '1787373114'
   index_columns:
   - sector
   - energy_carrier
   - Year
-  updated_at: '1787373114'
   units:
     quality: dimensionless
     Value: t_co2e/a

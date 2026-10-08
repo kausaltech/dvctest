@@ -1,11 +1,12 @@
 outs:
-- md5: 2653c7fd7c8eb623f5c63410c240b51a
-  size: 10863
+- md5: 5bd890e5407453287a0ca0148704574f
+  size: 10560
   hash: md5
   path: kategorien_energieverbrauch_strassenverkehr.parquet
 meta:
   name:
-    de: kategorien_energieverbrauch_strassenverkehr
+    de: Kategorien Energieverbrauch Straßenverkehr
+    en: Categories, road transport energy use
   identifier: de/kategorien_energieverbrauch_strassenverkehr
   metrics:
   - id: expected

@@ -1,11 +1,12 @@
 outs:
-- md5: bb18583372b8c6649c45c1e29c0ea0e8
-  size: 12008
+- md5: 4d530ae2672190e2b7f16b0838eb8d16
+  size: 11689
   hash: md5
   path: kategorien_fernwaerme_anlagen.parquet
 meta:
   name:
-    de: kategorien_fernwaerme_anlagen
+    de: Kategorien Fernwärme-Anlagen
+    en: Categories, district heating plants
   identifier: de/kategorien_fernwaerme_anlagen
   metrics:
   - id: expected
@@ -31,10 +32,10 @@ meta:
       oder der Prüfprotokolle; Date Last Updated: 2026-09-19; Updated by: Kausal Ltd'
     edition:
     target: dataset
+  updated_at: '1789827388'
   index_columns:
   - energy_carrier
   - per_what_energy
   - Year
-  updated_at: '1789827388'
   units:
     expected: dimensionless

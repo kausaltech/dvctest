@@ -1,11 +1,12 @@
 outs:
-- md5: a884356ca1f44742fde8ac62e7a6451a
-  size: 14798
+- md5: 17b30606e03280c259834c8e1d8ddda4
+  size: 14471
   hash: md5
   path: fernwaerme_energieeinsatz.parquet
 meta:
   name:
-    de: fernwaerme_energieeinsatz
+    de: Fernwärme Energieeinsatz
+    en: District heating fuel input
   identifier: kommune/fernwaerme_energieeinsatz
   metrics:
   - id: default
@@ -33,12 +34,12 @@ meta:
       Frequency: Jährlich; Date Last Updated: 2026-08-21; Updated by: Kommune'
     edition:
     target: data_point
+  updated_at: '1789827697'
   index_columns:
   - energy_carrier
   - per_what_energy
   - upstream_included
   - Year
-  updated_at: '1789827697'
   units:
     default: MWh/a
     quality: dimensionless

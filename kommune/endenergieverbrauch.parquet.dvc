@@ -1,11 +1,12 @@
 outs:
-- md5: e03b9dee5ed8fe7f2e64dd633dbd3826
-  size: 13637
+- md5: 1bc2e388170c3aae291f3ffffbc81611
+  size: 13297
   hash: md5
   path: endenergieverbrauch.parquet
 meta:
   name:
-    de: endenergieverbrauch
+    de: Endenergieverbrauch
+    en: Final energy consumption
   identifier: kommune/endenergieverbrauch
   metrics:
   - id: Value
