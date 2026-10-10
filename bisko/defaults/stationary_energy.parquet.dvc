@@ -1,0 +1,38 @@
+outs:
+- md5: 9d2b417e5332a4be43363a52d69913e4
+  size: 1604774
+  hash: md5
+  path: stationary_energy.parquet
+meta:
+  identifier: bisko/defaults/stationary_energy
+  index_columns:
+  - ags
+  - sector
+  - energy_carrier
+  - Year
+  metrics:
+  - column_id: Value
+    id: Value
+    unit: MWh/a
+    quantity: energy
+    label:
+      de: Endenergieverbrauch
+      en: Final energy use
+  name:
+    de: Stationäre Endenergie-Vorgabewerte
+    en: Stationary final-energy defaults
+  units:
+    Value: MWh/a
+  sources:
+  - name: Stationary final-energy defaults
+    authority: Kausal
+    description: "Municipal geography is as of 31 December 2024. 2023 stationary sector
+      totals and grid deliveries converted to sector-by-carrier defaults using the
+      same Mainz 2018 prior as load_bisko_demo. Electricity uses grid deliveries;
+      the remainder uses the prior's other-carrier proportions. Municipalities where
+      any sector has grid deliveries exceeding its total stationary energy are excluded
+      entirely: 123 excluded, 3530 eligible. Cells are synthetic estimates; source
+      and prior hashes and upstream estimation details are retained in provenance.
+      RLP calibration transfer and within-association allocations are unvalidated;
+      empirical ranges describe upstream quantities, not carrier-cell confidence intervals."
+    target: dataset

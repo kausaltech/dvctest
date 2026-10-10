@@ -1,0 +1,30 @@
+outs:
+- md5: fc7f2cba35272b3fbe5f74b75b8a6369
+  size: 756
+  hash: md5
+  path: bevoelkerung.parquet
+meta:
+  identifier: kommune/bevoelkerung
+  index_columns:
+  - Year
+  metrics:
+  - column_id: population
+    id: population
+    unit: cap
+    quantity: population
+    label:
+      de: Einwohnerzahl
+      en: Population
+  name:
+    de: Einwohnerzahl
+    en: Municipal population
+  units:
+    population: cap
+  sources:
+  - name: Municipal population
+    authority: Kausal
+    description: Empty editable municipal population input. Activation supplies 
+      values from bisko/defaults/population at the published template's DVC pin.
+      Subsequent refreshes preserve municipal overrides. This file contains a 
+      null template cell, not a population observation.
+    target: dataset

@@ -1,0 +1,33 @@
+outs:
+- md5: e8e7379d7161fd450367468999fb8ec9
+  size: 474413
+  hash: md5
+  path: population.parquet
+meta:
+  identifier: bisko/defaults/population
+  index_columns:
+  - ags
+  - Year
+  metrics:
+  - column_id: population
+    id: population
+    unit: cap
+    quantity: population
+    label:
+      de: Einwohnerzahl
+      en: Population
+  name:
+    de: Bevölkerungs-Vorgabewerte
+    en: Population defaults
+  units:
+    population: cap
+  sources:
+  - name: Population defaults
+    authority: Kausal
+    description: Official municipality population observations from 2000 through 2025
+      and the default official projections for Niedersachsen (trend), Rheinland-Pfalz
+      (projection) and Brandenburg (middle). Supplied years are interpolated linearly
+      and held constant after the final projection through 2045. Association projections
+      use the latest common observed member shares; integer allocation preserves totals.
+      Source editions, URLs, hashes and derivation are recorded in each row's provenance.
+    target: dataset
