@@ -1,6 +1,6 @@
 outs:
-- md5: e8ca309b1db89182a65377ca1ff8334e
-  size: 16412
+- md5: 030b3782ddfe0d09e7ba4b7c43269171
+  size: 17603
   hash: md5
   path: fuel_economy.parquet
 meta:
@@ -14,12 +14,6 @@ meta:
     unit: vehicle_miles_traveled/kWh
     label:
       en: Electric fuel economy (implied)
-  - id: fuel_economy
-    column_id: fuel_economy
-    quantity: factor
-    unit: vehicle_miles_traveled/gal
-    label:
-      en: Fuel economy
   - id: electric_fuel_economy
     column_id: electric_fuel_economy
     quantity: factor
@@ -32,6 +26,18 @@ meta:
     unit: vehicle_miles_traveled/gal
     label:
       en: Fuel economy (implied)
+  - id: electric_fuel_economy_assumed
+    column_id: electric_fuel_economy_assumed
+    quantity: factor
+    unit: vehicle_miles_traveled/kWh
+    label:
+      en: Electric fuel economy (assumed)
+  - id: fuel_economy
+    column_id: fuel_economy
+    quantity: factor
+    unit: vehicle_miles_traveled/gal
+    label:
+      en: Fuel economy
   sources:
   - name: 2025 SCAP GHG Wedge Analysis
     authority: Cascadia Consulting Group for King County; 
@@ -43,6 +49,8 @@ meta:
       wedges.; Attachment: 2025_SCAP_GHG_Wedge_Analysis_Final.xlsx; Format: .xlsx;
       Geographic Coverage: Selected Washington counties; King County selected; Date
       Last Updated: 2024-09-03'
+    edition:
+    target: data_point
   - name: King County GHG Emissions Trend 2007-2023
     authority: Cascadia Consulting Group for King County; 
       andream@cascadiaconsulting.com
@@ -51,14 +59,17 @@ meta:
       King County inventory years 2007, 2008, 2015, 2017, 2019, 2020, 2022 and 2023.;
       Attachment: King County GHG Trend 2007 - 2023.xlsx; Format: .xlsx; Geographic
       Coverage: King County, WA and its 39 cities; Date Last Updated: 2025-11-04'
+    edition:
+    target: data_point
   index_columns:
   - Year
   - energy_carrier
   - vehicle_type
   - vehicle_class
-  updated_at: '1785956918'
+  updated_at: '1791916431'
   units:
+    electric_fuel_economy_assumed: VMT/kWh
     fuel_economy_implied: VMT/gal
-    electric_fuel_economy_implied: VMT/kWh
     electric_fuel_economy: VMT/kWh
     fuel_economy: VMT/gal
+    electric_fuel_economy_implied: VMT/kWh
