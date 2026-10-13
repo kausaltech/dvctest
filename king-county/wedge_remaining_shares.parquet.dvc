@@ -1,6 +1,6 @@
 outs:
-- md5: 98890a5ebb784c43de398aa70213dfa3
-  size: 10219
+- md5: 6ad6da89ce81072524b54afc9f4fdc1d
+  size: 11206
   hash: md5
   path: wedge_remaining_shares.parquet
 meta:
@@ -34,10 +34,17 @@ meta:
       Name: CETA'
     edition:
     target: data_point
+  - name: AL_Policy_09_CCA
+    authority:
+    url:
+    description: 'WA Climate Commitment Act (SB 5126); Sector: Policy; Short Name:
+      CCA'
+    edition:
+    target: data_point
   index_columns:
   - action
   - policy_level
   - Year
-  updated_at: '1791889580'
+  updated_at: '1791916418'
   units:
     remaining_share: dimensionless
