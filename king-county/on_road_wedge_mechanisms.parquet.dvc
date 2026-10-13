@@ -1,0 +1,77 @@
+outs:
+- md5: 4b81d46515e3feb7b8faac251939105e
+  size: 17308
+  hash: md5
+  path: on_road_wedge_mechanisms.parquet
+meta:
+  name:
+    en: On-road wedge mechanisms
+  identifier: king-county/on_road_wedge_mechanisms
+  metrics:
+  - id: relative_fuel_economy
+    column_id: relative_fuel_economy
+    quantity: fraction
+    unit: ''
+    label:
+      en: Relative fuel economy
+  - id: fleet_turnover_rate
+    column_id: fleet_turnover_rate
+    quantity: factor
+    unit: 1/a
+    label:
+      en: Fleet turnover rate
+  - id: fuel_emission_factor_reduction
+    column_id: fuel_emission_factor_reduction
+    quantity: fraction
+    unit: ''
+    label:
+      en: Fuel emission factor reduction
+  - id: relative_mileage
+    column_id: relative_mileage
+    quantity: fraction
+    unit: ''
+    label:
+      en: Relative mileage
+  - id: ev_sales_share_increase
+    column_id: ev_sales_share_increase
+    quantity: fraction
+    unit: ''
+    label:
+      en: EV sales share increase
+  sources:
+  - name: 2025 SCAP GHG Wedge Analysis
+    authority: Cascadia Consulting Group for King County; 
+      andream@cascadiaconsulting.com
+    url:
+    description: 'Greenhouse gas emissions forecast and scenario planning tool for
+      the 2025 Strategic Climate Action Plan. Projects activity, emission factors
+      and emissions to 2050 under a no-action scenario and quantifies 25 named policy
+      wedges.; Attachment: 2025_SCAP_GHG_Wedge_Analysis_Final.xlsx; Format: .xlsx;
+      Geographic Coverage: Selected Washington counties; King County selected; Date
+      Last Updated: 2024-09-03'
+    edition:
+    target: data_point
+  - name: AL_Policy_04_CAFE
+    authority:
+    url:
+    description: 'Federal Vehicle Regulations; Sector: Policy; Short Name: CAFE'
+    edition:
+    target: data_point
+  - name: AL_Policy_05_CleanFuelStandard
+    authority:
+    url:
+    description: 'WA Clean Fuel Standard (HB 1091); Sector: Policy; Short Name: CleanFuelStandard'
+    edition:
+    target: data_point
+  index_columns:
+  - vehicle_class
+  - action
+  - policy_level
+  - Year
+  updated_at: '1791916405'
+  units:
+    fleet_turnover_rate: 1/a
+    ev_sales_share_increase: dimensionless
+    relative_fuel_economy: dimensionless
+    fuel_emission_factor_reduction: dimensionless
+    relative_mileage: dimensionless
