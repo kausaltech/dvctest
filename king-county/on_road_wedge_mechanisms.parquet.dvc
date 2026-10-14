@@ -1,6 +1,6 @@
 outs:
-- md5: 4b81d46515e3feb7b8faac251939105e
-  size: 17308
+- md5: fc08671d41329ff66a5e02cd5e324f3e
+  size: 17644
   hash: md5
   path: on_road_wedge_mechanisms.parquet
 meta:
@@ -8,12 +8,6 @@ meta:
     en: On-road wedge mechanisms
   identifier: king-county/on_road_wedge_mechanisms
   metrics:
-  - id: relative_fuel_economy
-    column_id: relative_fuel_economy
-    quantity: fraction
-    unit: ''
-    label:
-      en: Relative fuel economy
   - id: fleet_turnover_rate
     column_id: fleet_turnover_rate
     quantity: factor
@@ -38,6 +32,12 @@ meta:
     unit: ''
     label:
       en: EV sales share increase
+  - id: relative_fuel_economy
+    column_id: relative_fuel_economy
+    quantity: fraction
+    unit: ''
+    label:
+      en: Relative fuel economy
   sources:
   - name: 2025 SCAP GHG Wedge Analysis
     authority: Cascadia Consulting Group for King County; 
@@ -68,10 +68,10 @@ meta:
   - action
   - policy_level
   - Year
-  updated_at: '1791916405'
+  updated_at: '1791965325'
   units:
-    fleet_turnover_rate: 1/a
-    ev_sales_share_increase: dimensionless
     relative_fuel_economy: dimensionless
-    fuel_emission_factor_reduction: dimensionless
     relative_mileage: dimensionless
+    ev_sales_share_increase: dimensionless
+    fleet_turnover_rate: 1/a
+    fuel_emission_factor_reduction: dimensionless
