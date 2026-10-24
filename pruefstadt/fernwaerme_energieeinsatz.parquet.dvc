@@ -1,6 +1,6 @@
 outs:
-- md5: d0c72fc9457be91c84894d1d167826ea
-  size: 11497
+- md5: ddb2b0be214268e7e664e142c406ad18
+  size: 15996
   hash: md5
   path: fernwaerme_energieeinsatz.parquet
 meta:
@@ -21,16 +21,17 @@ meta:
     label:
       de: quality
   sources:
-  - name: Kausal Demonstrationswerte BISKO-Prüfung
-    authority: Kausal Oy
+  - name: 'Agentur für kommunalen Klimaschutz / ifeu: Exergetische Allokation, Testanlage
+      (19.10.2026)'
+    authority:
     url:
-    description: 'Erfundene Anlagendaten eines Erdgas-GuD-Heizkraftwerks für die Prüfinstanz
-      pruefstadt-bisko, nur für das Jahr 2023. Sie dienen allein dazu, der Zertifizierungsstelle
-      BISKO-Möglichkeit 1 (exergetische Allokation aus eigenen Anlagendaten) mit Stromanteil
-      und Vorlauftemperatur rechnend vorzuführen. Keine Messung, keiner realen Kommune
-      zuzuordnen.; Format: .csv; Licensing: Kausal; nur Demonstration; Geographic
-      Coverage: Prüfstadt (fiktiv); Update Frequency: Einmalig; Date Last Updated:
-      2026-09-29; Updated by: Kausal'
+    description:
+    edition:
+    target: data_point
+  - name: Anlagendaten des Fernwaermeversorgers
+    authority:
+    url:
+    description:
     edition:
     target: data_point
   index_columns:
@@ -38,7 +39,7 @@ meta:
   - per_what_energy
   - upstream_included
   - Year
-  updated_at: '1790679055'
+  updated_at: '1792837136'
   units:
     quality: dimensionless
     default: MWh/a
