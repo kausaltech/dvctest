@@ -1,44 +1,42 @@
 outs:
-- md5: ec94dfd5325febc685091a149844ed7c
-  size: 6498
+- md5: 0c382323fd93fce4be34ca5d569e2ff2
+  size: 10649
   hash: md5
   path: kwk_anlagenparameter.parquet
 meta:
   name:
-    de: KWK-Anlagenparameter
-    en: CHP plant parameters
+    de: kwk_anlagenparameter
   identifier: kommune/kwk_anlagenparameter
   metrics:
-  - id: t_supply
-    column_id: t_supply
+  - id: t_return
+    column_id: t_return
     quantity: temperature
     unit: K
     label:
-      de: t_supply
+      de: t_return
+  - id: network_loss_share
+    column_id: network_loss_share
+    quantity: fraction
+    unit: ''
+    label:
+      de: network_loss_share
   - id: electricity_fraction
     column_id: electricity_fraction
     quantity: fraction
     unit: ''
     label:
       de: electricity_fraction
-  updated_at: '1787286540'
-  sources:
-  - name: KWK-Anlagenparameter des Fernwaermeversorgers
-    authority: Fernwärmeversorger der Kommune
-    url:
-    description: 'Stromanteil an der Erzeugung und Vorlauftemperatur des Fernwärmenetzes,
-      je Jahr. Zusammen mit dem Brennstoffeinsatz (kommune/fernwaerme_energieeinsatz)
-      sind das die Eingaben der exergetischen Allokation nach BISKO-Kriterium 6; die
-      Rücklauftemperatur ist mit 283 K im Code festgelegt und nicht eingebbar. Die
-      Vorlage enthält Platzhalter (0,3 und 373 K), die eine Kommune durch eigene Angaben
-      ersetzt. Beide Größen ändern sich mit der Fahrweise der Anlage von Jahr zu Jahr.;
-      Format: Eingabe im Bilanzierungswerkzeug; Licensing: Kommunale Angabe; nicht
-      öffentlich; Geographic Coverage: Die jeweilige Kommune; Update Frequency: Jährlich;
-      Date Last Updated: 2026-08-21; Updated by: Kommune'
-    edition:
-    target: dataset
+  - id: t_supply
+    column_id: t_supply
+    quantity: temperature
+    unit: K
+    label:
+      de: t_supply
   index_columns:
   - Year
+  updated_at: '1792837052'
   units:
+    network_loss_share: dimensionless
+    t_return: K
     electricity_fraction: dimensionless
     t_supply: K
