@@ -1,6 +1,6 @@
 outs:
-- md5: 201d06a6d0d6f6b48f2f57da709e12cb
-  size: 10080
+- md5: f97b32ad6397e0418c22de60a753dfa0
+  size: 11479
   hash: md5
   path: kwk_anlagenparameter.parquet
 meta:
@@ -8,35 +8,42 @@ meta:
     de: kwk_anlagenparameter
   identifier: mainz/kwk_anlagenparameter
   metrics:
-  - id: electricity_fraction
-    column_id: electricity_fraction
-    quantity: fraction
-    unit: ''
-    label:
-      de: electricity_fraction
   - id: t_supply
     column_id: t_supply
     quantity: temperature
     unit: K
     label:
       de: t_supply
+  - id: electricity_fraction
+    column_id: electricity_fraction
+    quantity: fraction
+    unit: ''
+    label:
+      de: electricity_fraction
+  - id: t_return
+    column_id: t_return
+    quantity: temperature
+    unit: K
+    label:
+      de: t_return
+  - id: network_loss_share
+    column_id: network_loss_share
+    quantity: fraction
+    unit: ''
+    label:
+      de: network_loss_share
   sources:
   - name: Mainzer Fernwaerme KWK-Anlagendaten 2021-2025
-    authority: Mainzer Fernwaerme GmbH, ueber Mainzer Stadtwerke AG
+    authority:
     url:
-    description: 'KWK-Stromerzeugung der Anlagen KW3, KW5, MHKW und TVM 2021-2025
-      (brutto, netto, vorlaeufiger und endgueltiger KWK-Strom, in kWh) mit dem Hinweis
-      zur Vorlauftemperatur (90-115 Grad C). Grundlage des Stromanteils und der Vorlauftemperatur
-      fuer die exergetische Allokation nach BISKO-Kriterium 6; die Waermeabgabe stammt
-      aus der Datenabfrage der Stadtwerke vom 22.06.2026.; Attachment: ERZEUGUNG_exergetischeAllokation_KWK-Anlagen_2021-2025_MainzerFernwärme_20260824.xlsx;
-      Format: .xlsx; Licensing: An Kausal geliefert; nicht öffentlich; Geographic
-      Coverage: Mainz; Update Frequency: Jährlich; Date Last Updated: 2026-08-24;
-      Updated by: Mainzer Fernwaerme'
+    description:
     edition:
     target: data_point
   index_columns:
   - Year
-  updated_at: '1790678989'
+  updated_at: '1792837161'
   units:
     t_supply: K
     electricity_fraction: dimensionless
+    t_return: K
+    network_loss_share: dimensionless
