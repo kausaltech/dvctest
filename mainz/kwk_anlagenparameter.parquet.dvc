@@ -1,6 +1,6 @@
 outs:
-- md5: f97b32ad6397e0418c22de60a753dfa0
-  size: 11479
+- md5: f0ea8a3cdaf94b3aaf4e5f43ae51eea1
+  size: 11449
   hash: md5
   path: kwk_anlagenparameter.parquet
 meta:
@@ -8,30 +8,30 @@ meta:
     de: kwk_anlagenparameter
   identifier: mainz/kwk_anlagenparameter
   metrics:
+  - id: network_loss_fraction
+    column_id: network_loss_fraction
+    quantity: fraction
+    unit: '%'
+    label:
+      de: network_loss_fraction
   - id: t_supply
     column_id: t_supply
     quantity: temperature
-    unit: K
+    unit: °C
     label:
       de: t_supply
   - id: electricity_fraction
     column_id: electricity_fraction
     quantity: fraction
-    unit: ''
+    unit: '%'
     label:
       de: electricity_fraction
   - id: t_return
     column_id: t_return
     quantity: temperature
-    unit: K
+    unit: °C
     label:
       de: t_return
-  - id: network_loss_share
-    column_id: network_loss_share
-    quantity: fraction
-    unit: ''
-    label:
-      de: network_loss_share
   sources:
   - name: Mainzer Fernwaerme KWK-Anlagendaten 2021-2025
     authority:
@@ -41,9 +41,9 @@ meta:
     target: data_point
   index_columns:
   - Year
-  updated_at: '1792837161'
+  updated_at: '1792841817'
   units:
-    t_supply: K
-    electricity_fraction: dimensionless
-    t_return: K
-    network_loss_share: dimensionless
+    t_return: degC
+    electricity_fraction: '%'
+    t_supply: degC
+    network_loss_fraction: '%'
