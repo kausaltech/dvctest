@@ -1,6 +1,6 @@
 outs:
-- md5: 68de1ae1da99747a43353cf14984dcaf
-  size: 10544
+- md5: 410a3d6213fbc45b4ec864d8a75ff517
+  size: 10463
   hash: md5
   path: kwk_anlagenparameter.parquet
 meta:
@@ -8,30 +8,30 @@ meta:
     de: kwk_anlagenparameter
   identifier: pruefstadt/kwk_anlagenparameter
   metrics:
-  - id: t_return
-    column_id: t_return
-    quantity: temperature
-    unit: K
-    label:
-      de: t_return
-  - id: network_loss_share
-    column_id: network_loss_share
-    quantity: fraction
-    unit: ''
-    label:
-      de: network_loss_share
-  - id: t_supply
-    column_id: t_supply
-    quantity: temperature
-    unit: K
-    label:
-      de: t_supply
   - id: electricity_fraction
     column_id: electricity_fraction
     quantity: fraction
-    unit: ''
+    unit: '%'
     label:
       de: electricity_fraction
+  - id: network_loss_fraction
+    column_id: network_loss_fraction
+    quantity: fraction
+    unit: '%'
+    label:
+      de: network_loss_fraction
+  - id: t_return
+    column_id: t_return
+    quantity: temperature
+    unit: °C
+    label:
+      de: t_return
+  - id: t_supply
+    column_id: t_supply
+    quantity: temperature
+    unit: °C
+    label:
+      de: t_supply
   sources:
   - name: 'Agentur für kommunalen Klimaschutz / ifeu: Exergetische Allokation, Testanlage
       (19.10.2026)'
@@ -42,9 +42,9 @@ meta:
     target: data_point
   index_columns:
   - Year
-  updated_at: '1792837148'
+  updated_at: '1792841805'
   units:
-    t_return: K
-    network_loss_share: dimensionless
-    t_supply: K
-    electricity_fraction: dimensionless
+    network_loss_fraction: '%'
+    t_supply: degC
+    electricity_fraction: '%'
+    t_return: degC
