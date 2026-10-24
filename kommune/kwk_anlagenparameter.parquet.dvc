@@ -1,6 +1,6 @@
 outs:
-- md5: 0c382323fd93fce4be34ca5d569e2ff2
-  size: 10649
+- md5: 75150fb2ba336a0ebe0822b4e6ead1bd
+  size: 10366
   hash: md5
   path: kwk_anlagenparameter.parquet
 meta:
@@ -8,35 +8,35 @@ meta:
     de: kwk_anlagenparameter
   identifier: kommune/kwk_anlagenparameter
   metrics:
-  - id: t_return
-    column_id: t_return
-    quantity: temperature
-    unit: K
-    label:
-      de: t_return
-  - id: network_loss_share
-    column_id: network_loss_share
-    quantity: fraction
-    unit: ''
-    label:
-      de: network_loss_share
   - id: electricity_fraction
     column_id: electricity_fraction
     quantity: fraction
-    unit: ''
+    unit: '%'
     label:
       de: electricity_fraction
+  - id: t_return
+    column_id: t_return
+    quantity: temperature
+    unit: °C
+    label:
+      de: t_return
+  - id: network_loss_fraction
+    column_id: network_loss_fraction
+    quantity: fraction
+    unit: '%'
+    label:
+      de: network_loss_fraction
   - id: t_supply
     column_id: t_supply
     quantity: temperature
-    unit: K
+    unit: °C
     label:
       de: t_supply
   index_columns:
   - Year
-  updated_at: '1792837052'
+  updated_at: '1792841791'
   units:
-    network_loss_share: dimensionless
-    t_return: K
-    electricity_fraction: dimensionless
-    t_supply: K
+    t_return: degC
+    electricity_fraction: '%'
+    network_loss_fraction: '%'
+    t_supply: degC
