@@ -1,6 +1,6 @@
 outs:
-- md5: ddb2b0be214268e7e664e142c406ad18
-  size: 15996
+- md5: 6be867e75017a891cfded3470a0c037b
+  size: 17168
   hash: md5
   path: fernwaerme_energieeinsatz.parquet
 meta:
@@ -8,18 +8,18 @@ meta:
     de: fernwaerme_energieeinsatz
   identifier: pruefstadt/fernwaerme_energieeinsatz
   metrics:
-  - id: default
-    column_id: default
-    quantity: energy
-    unit: MWh/a
-    label:
-      de: default
   - id: quality
     column_id: quality
     quantity: fraction
     unit: ''
     label:
       de: quality
+  - id: default
+    column_id: default
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: default
   sources:
   - name: 'Agentur für kommunalen Klimaschutz / ifeu: Exergetische Allokation, Testanlage
       (19.10.2026)'
@@ -39,7 +39,7 @@ meta:
   - per_what_energy
   - upstream_included
   - Year
-  updated_at: '1792837136'
+  updated_at: '1793000850'
   units:
     quality: dimensionless
     default: MWh/a
