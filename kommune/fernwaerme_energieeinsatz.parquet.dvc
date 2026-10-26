@@ -1,6 +1,6 @@
 outs:
-- md5: 4043f73e2e4bcbac75a72a8d9940f8a2
-  size: 17169
+- md5: fd353ada0ed99da3381e4ad4e0b13d40
+  size: 18335
   hash: md5
   path: fernwaerme_energieeinsatz.parquet
 meta:
@@ -8,18 +8,18 @@ meta:
     de: fernwaerme_energieeinsatz
   identifier: kommune/fernwaerme_energieeinsatz
   metrics:
-  - id: default
-    column_id: default
-    quantity: energy
-    unit: MWh/a
-    label:
-      de: default
   - id: quality
     column_id: quality
     quantity: fraction
     unit: ''
     label:
       de: quality
+  - id: default
+    column_id: default
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: default
   sources:
   - name: Anlagendaten des Fernwaermeversorgers
     authority: Fernwärmeversorger der Kommune
@@ -38,7 +38,7 @@ meta:
   - per_what_energy
   - upstream_included
   - Year
-  updated_at: '1792837574'
+  updated_at: '1792999993'
   units:
     default: MWh/a
     quality: dimensionless
