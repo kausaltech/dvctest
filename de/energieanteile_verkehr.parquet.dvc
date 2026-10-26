@@ -1,18 +1,17 @@
 outs:
-- md5: 7bc25bb4109577c1b034dbcd4bfbb38e
-  size: 24886
+- md5: b7e15cf345738af8d507873b97d9ffea
+  size: 23096
   hash: md5
   path: energieanteile_verkehr.parquet
 meta:
   name:
-    de: Energieanteile Verkehr
-    en: Transport energy shares
+    de: energieanteile_verkehr
   identifier: de/energieanteile_verkehr
   metrics:
   - id: Value
     column_id: Value
     quantity: fraction
-    unit: ''
+    unit: '%'
     label:
       de: Value
   sources:
@@ -28,6 +27,8 @@ meta:
       ist keine Schaetzung -- diese Bahnen fahren definitionsgemaess elektrisch --,
       aber er ist eine Ergaenzung von Kausal und keine ifeu-Zahl und als solche kenntlich
       zu halten. Liefert ifeu die Zeile nach, ist sie zu ersetzen.'
+    edition:
+    target: data_point
   - name: ifeu Energieanteile Verkehr 2025
     authority: ifeu -- Institut für Energie- und Umweltforschung Heidelberg
     url:
@@ -38,11 +39,13 @@ meta:
       Verbrauchsfaktoren (de/energiefaktoren_verkehr) traegt dieser Datensatz 
       den BISKO-Weg Fahrleistung x spezifischer Verbrauch. Summiert sich je 
       Fahrzeugklasse und Strassenkategorie auf 1.
-  updated_at: '1787371557'
+    edition:
+    target: data_point
   index_columns:
   - vehicle_type
   - road_type
   - energy_carrier
   - Year
+  updated_at: '1792999771'
   units:
-    Value: dimensionless
+    Value: '%'
