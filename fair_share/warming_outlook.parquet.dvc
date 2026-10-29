@@ -1,0 +1,35 @@
+outs:
+- md5: a33bddd163e251c118e2b807a0bea3f4
+  size: 7468
+  hash: md5
+  path: warming_outlook.parquet
+meta:
+  name:
+    en: Warming outlook
+  identifier: fair_share/warming_outlook
+  metrics:
+  - id: current_policies
+    column_id: current_policies
+    quantity: temperature
+    unit: K
+    label:
+      en: current_policies
+  sources:
+  - name: UNEP Emissions Gap Report
+    authority: United Nations Environment Programme (UNEP)
+    url: https://www.unep.org/resources/emissions-gap-report-2025
+    description: 'Annual Emissions Gap Report: projected global warming over the 21st
+      century (to 2100, above pre-industrial) under current policies, NDCs and net-zero
+      pledges, assessed by an international team of modelling groups. Used: the central
+      current-policies figure of the 2024 edition (3.1 °C) and the 2025 edition, Off
+      target (2.8 °C). Transcribed by modules/fair-share/scripts/create_warming_outlook_data.py.;
+      Format: PDF; Licensing: UNEP terms of use (reproduction with attribution); Geographic
+      Coverage: World; Update Frequency: Annual (October/November); Date Last Updated:
+      2025-11-04; Updated by: UNEP'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  updated_at: '1793285332'
+  units:
+    current_policies: K
