@@ -1,11 +1,11 @@
 outs:
-- md5: 1657bfa96456d4a8bf10a225515e7bcb
-  size: 8927
+- md5: a536ca91044089a4505d14a69cc3245d
+  size: 9010
   hash: md5
   path: witterungsbereinigung_eurostat.parquet
 meta:
   name:
-    en: witterungsbereinigung_eurostat
+    de: witterungsbereinigung_eurostat
   identifier: potsdam/witterungsbereinigung_eurostat
   metrics:
   - id: default
@@ -13,7 +13,7 @@ meta:
     quantity: ratio
     unit: ''
     label:
-      en: default
+      de: default
   sources:
   - name: Eurostat Heizgradtage (nrg_chddr2_a)
     authority: Eurostat
@@ -39,6 +39,6 @@ meta:
   index_columns:
   - sector
   - Year
-  updated_at: '1790961326'
+  updated_at: '1793791411'
   units:
     default: dimensionless
