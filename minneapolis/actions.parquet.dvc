@@ -1,6 +1,6 @@
 outs:
-- md5: 77e3cc75e71afa790b2de6911f99a3ea
-  size: 6173
+- md5: 93d34f539054ee840724b3e250baf165
+  size: 8349
   hash: md5
   path: actions.parquet
 meta:
@@ -14,6 +14,14 @@ meta:
   - id: emissions
     label:
       en: Emissions
+  - id: energy_electricity
+    label:
+      en: Energy (Electricity)
+  - id: energy_natural_gas
+    label:
+      en: Energy (Natural Gas)
   units:
+    energy_natural_gas: therm/a
     emission_factor: t_co2e/MWh
+    energy_electricity: MWh/a
     emissions: t_co2e/a
