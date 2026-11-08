@@ -1,6 +1,6 @@
 outs:
-- md5: babe72313c75d6e887a5d8693a03de5c
-  size: 4782
+- md5: 77e3cc75e71afa790b2de6911f99a3ea
+  size: 6173
   hash: md5
   path: actions.parquet
 meta:
@@ -11,5 +11,9 @@ meta:
   - id: emission_factor
     label:
       en: Emission Factor
+  - id: emissions
+    label:
+      en: Emissions
   units:
     emission_factor: t_co2e/MWh
+    emissions: t_co2e/a
