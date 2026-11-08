@@ -1,6 +1,6 @@
 outs:
-- md5: 93d34f539054ee840724b3e250baf165
-  size: 8349
+- md5: 1a033d812a4d2be145b22c8383569042
+  size: 8612
   hash: md5
   path: actions.parquet
 meta:
@@ -21,7 +21,7 @@ meta:
     label:
       en: Energy (Natural Gas)
   units:
-    energy_natural_gas: therm/a
-    emission_factor: t_co2e/MWh
     energy_electricity: MWh/a
     emissions: t_co2e/a
+    energy_natural_gas: therm/a
+    emission_factor: t_co2e/MWh
