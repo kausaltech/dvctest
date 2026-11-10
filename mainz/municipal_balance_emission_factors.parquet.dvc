@@ -1,6 +1,6 @@
 outs:
-- md5: 8c29882130f99bafd1ad0347d818b84d
-  size: 33433
+- md5: 1cc77c31528a5bfb0c24e8260dd585bd
+  size: 35290
   hash: md5
   path: municipal_balance_emission_factors.parquet
 meta:
@@ -8,36 +8,36 @@ meta:
     de: Municipal balance emission factors
   identifier: mainz/municipal_balance_emission_factors
   metrics:
-  - id: emission_factor_per_energy
-    column_id: emission_factor_per_energy
-    quantity: emission_factor
-    unit: kg_co2e/MWh
-    label:
-      de: emission_factor_per_energy
-  - id: emission_factor_per_volume
-    column_id: emission_factor_per_volume
-    quantity: emission_factor
-    unit: kg_co2e/l
-    label:
-      de: emission_factor_per_volume
-  - id: emission_factor_per_count
-    column_id: emission_factor_per_count
-    quantity: emission_factor
-    unit: kg_co2e/pieces
-    label:
-      de: emission_factor_per_count
   - id: emission_factor_per_mileage
     column_id: emission_factor_per_mileage
     quantity: emission_factor
     unit: kg_co2e/pkm
     label:
       de: emission_factor_per_mileage
+  - id: emission_factor_per_energy
+    column_id: emission_factor_per_energy
+    quantity: emission_factor
+    unit: kg_co2e/MWh
+    label:
+      de: emission_factor_per_energy
   - id: emission_factor_per_mass
     column_id: emission_factor_per_mass
     quantity: emission_factor
     unit: kg_co2e/kg
     label:
       de: emission_factor_per_mass
+  - id: emission_factor_per_count
+    column_id: emission_factor_per_count
+    quantity: emission_factor
+    unit: kg_co2e/pieces
+    label:
+      de: emission_factor_per_count
+  - id: emission_factor_per_volume
+    column_id: emission_factor_per_volume
+    quantity: emission_factor
+    unit: kg_co2e/l
+    label:
+      de: emission_factor_per_volume
   sources:
   - name: Arqum Emissionsfaktoren Verwaltungsbilanz Mainz
     authority: Arqum GmbH (Zusammenstellung); Primärquellen GEMIS 5.0, TREMOD 
@@ -57,6 +57,35 @@ meta:
       zu prüfen; Date Last Updated: 2022-12-22; Updated by: Arqum GmbH'
     edition:
     target: data_point
+  - name: Arqum THG-Startbilanz Stadtverwaltung Mainz 2019-2021
+    authority: Arqum GmbH im Auftrag der Landeshauptstadt Mainz
+    url:
+    description: 'Bericht "THG-Bilanz der Stadtverwaltung Mainz 2019-2022" vom 18.07.2023
+      (Startbilanz), Tabelle 1 und Abschnitt 3.1. Bewertet den Strom standortbasiert
+      mit dem Bundesstrommix und warme Mahlzeiten mit den Faktoren des KlimAktiv-Rechners
+      (1,44 kg CO2e vegetarisch, 1,95 kg CO2e Mischkost; 0,97 kg kalte Mahlzeit).
+      Seit 10.11.2026 Quelle der Verpflegungsfaktoren in mainz_verwaltung_data.csv;
+      der Faktor für Fleisch- und Fischgerichte (1,95 kg) ist aus den Summen der Startbilanz
+      erschlossen.; Attachment: Arqum THG Bilanz Bericht 2019-2022.pdf; Format: .pdf;
+      Licensing: Im Auftrag der Stadt erstellt; nicht öffentlich; Geographic Coverage:
+      Mainz (AGS 07315000), Stadtverwaltung als Organisation; Update Frequency: Einmalig;
+      Date Last Updated: 2023-07-18; Updated by: Arqum GmbH'
+    edition:
+    target: data_point
+  - name: BISKO Emissionsfaktor Bundesstrommix
+    authority: ifeu -- Institut für Energie- und Umweltforschung Heidelberg, 
+      BISKO-Emissionsfaktoren (Datensatz de/emissionsfaktoren_endenergie des 
+      Modells)
+    url:
+    description: 'Emissionsfaktor des Bundesstrommixes nach BISKO in kg CO2e/MWh,
+      einschließlich der Vorkette der Brennstoffe, wie ihn die Territorialbilanz von
+      Mainz verwendet: 478 / 429 / 472 / 505 / 453 / 420 für 2019-2024. Seit 10.11.2026
+      Grundlage des Scope-2-Stromfaktors der Verwaltungsbilanz (standortbasiert),
+      abzüglich der Vorkette von 56 kg CO2e/MWh, die in Scope 3 gebucht wird.; Licensing:
+      Öffentlich (BISKO-Faktorensatz); Geographic Coverage: Deutschland; Update Frequency:
+      Jährlich; Date Last Updated: 2026-11-10; Updated by: Kausal'
+    edition:
+    target: data_point
   index_columns:
   - Year
   - emission_source
@@ -64,10 +93,10 @@ meta:
   - ghg_category
   - scope
   - vehicle_type
-  updated_at: '1790364832'
+  updated_at: '1794288647'
   units:
-    emission_factor_per_mileage: kg_co2e/pkm
-    emission_factor_per_mass: kg_co2e/kg
-    emission_factor_per_energy: kg_co2e/MWh
     emission_factor_per_volume: kg_co2e/l
+    emission_factor_per_mileage: kg_co2e/pkm
     emission_factor_per_count: kg_co2e/pcs
+    emission_factor_per_energy: kg_co2e/MWh
+    emission_factor_per_mass: kg_co2e/kg
