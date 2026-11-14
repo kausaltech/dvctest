@@ -1,0 +1,48 @@
+outs:
+- md5: 694dd9e62ea37300c3629cbced1651a5
+  size: 10664
+  hash: md5
+  path: meal_emission_factors.parquet
+meta:
+  name:
+    en: Meal emission factors
+  identifier: vegetarian_catering/meal_emission_factors
+  metrics:
+  - id: emission_factor
+    column_id: emission_factor
+    quantity: emission_factor
+    unit: kg_co2e/pieces
+    label:
+      en: emission_factor
+  sources:
+  - name: Kausal derivation vegetarian catering
+    authority: Kausal Ltd
+    url:
+    description: 'Figures derived by modules/vegetarian-catering/scripts/create_vegetarian_catering_data.py
+      from the published sources: means of example dishes, the share of the gap a
+      default closes, and the ratio of effects at scale to effects in trials. Each
+      derived row states its arithmetic in its comment.; Date Last Updated: 2026-11-14;
+      Updated by: Kausal'
+    edition:
+    target: data_point
+  - name: ifeu 2020 Oekologische Fussabdruecke von Lebensmitteln und Gerichten
+    authority: ifeu -- Institut für Energie- und Umweltforschung Heidelberg 
+      (Reinhardt, Gärtner, Wagner)
+    url: 
+      https://www.ifeu.de/fileadmin/uploads/Reinhardt-Gaertner-Wagner-2020-Oekologische-Fu%C3%9Fabdruecke-von-Lebensmitteln-und-Gerichten-in-Deutschland-ifeu-2020.pdf
+    description: "Ökologische Fußabdrücke von Lebensmitteln und Gerichten in Deutschland
+      (Heidelberg 2020). Table 6: carbon footprints of eight ready-to-eat dishes,
+      system boundary 'prepared on the plate', kg CO2e per portion, reference year
+      2019. Kitchen processes are those of a four-person household. The dishes are
+      examples chosen to show the range for meat, vegetarian and vegan dishes, not
+      averages.; Format: PDF; Licensing: Reproduction with attribution; Geographic
+      Coverage: Germany; Date Last Updated: 2020; Updated by: ifeu"
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - emission_source
+  - meal_factor_set
+  updated_at: '1794680856'
+  units:
+    emission_factor: kg_co2e/pcs
