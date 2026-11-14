@@ -1,3 +1,4 @@
 /catering_packages.parquet
 /meal_emission_factors.parquet
 /meal_roles.parquet
+/package_effectiveness.parquet

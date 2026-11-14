@@ -1,0 +1,70 @@
+outs:
+- md5: 1b71887a2f3b15eb22c5fddbd2f3964c
+  size: 13140
+  hash: md5
+  path: package_effectiveness.parquet
+meta:
+  name:
+    en: Package effectiveness
+  identifier: vegetarian_catering/package_effectiveness
+  metrics:
+  - id: effectiveness
+    column_id: effectiveness
+    quantity: fraction
+    unit: ''
+    label:
+      en: effectiveness
+  sources:
+  - name: Boronowsky et al. 2022 plant-based default RCTs
+    authority: Boronowsky R.D., Zhang A.W., Stecher C., Presley K., Mathur M.B.,
+      Cleveland D.A., Garnett E., ... Jay J.A.
+    url: https://doi.org/10.3389/fsufs.2022.1001157
+    description: 'Plant-based default nudges effectively increase the sustainability
+      of catered meals on college campuses: Three randomized controlled trials. Frontiers
+      in Sustainable Food Systems 6:1001157 (2022). Catered events at Harvard and
+      UCLA, 280 participants, RSVP form with a meat or a plant-based default. Pooled:
+      18.4 % (26/141) chose plant-based under the meat default, 65.5 % (91/139) under
+      the plant-based default; risk ratio 3.52 (95 % CI 2.44-5.09).; Format: Journal
+      article; Licensing: CC BY 4.0; Geographic Coverage: United States; Date Last
+      Updated: 2022; Updated by: Frontiers'
+    edition:
+    target: data_point
+  - name: DellaVigna and Linos 2022 RCTs to Scale
+    authority: Stefano DellaVigna, Elizabeth Linos
+    url: https://doi.org/10.3982/ECTA18709
+    description: 'RCTs to Scale: Comprehensive Evidence From Two Nudge Units. Econometrica
+      90(1):81-116 (2022). 126 trials run by two government nudge units, 23 million
+      people. Average take-up effect 1.4 percentage points (8.1 % over control) against
+      8.7 percentage points (33.5 %) in nudge trials published in academic journals.
+      About 70 % of the gap is explained by selective publication.; Format: Journal
+      article; Licensing: Journal terms; Geographic Coverage: United States; Date
+      Last Updated: 2022; Updated by: Econometric Society'
+    edition:
+    target: data_point
+  - name: Kausal definition vegetarian catering packages
+    authority: Kausal Ltd
+    url:
+    description: 'Properties of the two packages of the vegetarian catering library
+      action, which hold by definition: package A (vegetarian-only days) removes the
+      meat dish on the days it applies, package B (vegetarian by default) keeps a
+      meat dish available. See configs/modules/vegetarian_catering/README.md in kausal-paths.;
+      Date Last Updated: 2026-11-14; Updated by: Kausal'
+    edition:
+    target: data_point
+  - name: Kausal derivation vegetarian catering
+    authority: Kausal Ltd
+    url:
+    description: 'Figures derived by modules/vegetarian-catering/scripts/create_vegetarian_catering_data.py
+      from the published sources: means of example dishes, the share of the gap a
+      default closes, and the ratio of effects at scale to effects in trials. Each
+      derived row states its arithmetic in its comment.; Date Last Updated: 2026-11-14;
+      Updated by: Kausal'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - catering_package
+  - default_effect_hypothesis
+  updated_at: '1794680873'
+  units:
+    effectiveness: dimensionless
