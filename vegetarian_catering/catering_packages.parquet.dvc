@@ -1,0 +1,33 @@
+outs:
+- md5: 16362ccf3ecba4c798cf4473206a3d1a
+  size: 6358
+  hash: md5
+  path: catering_packages.parquet
+meta:
+  name:
+    en: Catering packages
+  identifier: vegetarian_catering/catering_packages
+  metrics:
+  - id: keeps_choice
+    column_id: keeps_choice
+    quantity: fraction
+    unit: ''
+    label:
+      en: keeps_choice
+  sources:
+  - name: Kausal definition vegetarian catering packages
+    authority: Kausal Ltd
+    url:
+    description: 'Properties of the two packages of the vegetarian catering library
+      action, which hold by definition: package A (vegetarian-only days) removes the
+      meat dish on the days it applies, package B (vegetarian by default) keeps a
+      meat dish available. See configs/modules/vegetarian_catering/README.md in kausal-paths.;
+      Date Last Updated: 2026-11-14; Updated by: Kausal'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - catering_package
+  updated_at: '1794680847'
+  units:
+    keeps_choice: dimensionless
