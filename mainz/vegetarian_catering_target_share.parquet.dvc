@@ -1,6 +1,6 @@
 outs:
-- md5: 47f25b173042f255809591c2bd291448
-  size: 11210
+- md5: a62ff2b39ddc846b841245dd2b0ce481
+  size: 11191
   hash: md5
   path: vegetarian_catering_target_share.parquet
 meta:
@@ -11,7 +11,7 @@ meta:
   - id: target_share
     column_id: target_share
     quantity: fraction
-    unit: ''
+    unit: '%'
     label:
       de: target_share
   sources:
@@ -53,6 +53,6 @@ meta:
     target: data_point
   index_columns:
   - Year
-  updated_at: '1794680908'
+  updated_at: '1794729861'
   units:
-    target_share: dimensionless
+    target_share: '%'
