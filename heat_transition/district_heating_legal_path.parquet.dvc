@@ -1,0 +1,38 @@
+outs:
+- md5: 2d9b911367039b0e5ed7f2456ae6c285
+  size: 7883
+  hash: md5
+  path: district_heating_legal_path.parquet
+meta:
+  name:
+    en: District heating legal path
+  identifier: heat_transition/district_heating_legal_path
+  metrics:
+  - id: renewable_share
+    column_id: renewable_share
+    quantity: fraction
+    unit: '%'
+    label:
+      en: renewable_share
+  sources:
+  - name: Wärmeplanungsgesetz (WPG) §§ 29 and 31
+    authority: Bundesministerium der Justiz (gesetze-im-internet.de)
+    url: https://www.gesetze-im-internet.de/wpg/__29.html
+    description: "Gesetz für die Wärmeplanung und zur Dekarbonisierung der Wärmenetze,
+      in force since 1 January 2024. § 29(1): at least 30 % of a heat network's annual
+      net heat generation from renewable energy or unavoidable waste heat from 1 January
+      2030, and 80 % from 1 January 2040. § 29(2): deadline extensions to the end
+      of 2034 and of 2044 on application. § 31(1, https://www.gesetze-im-internet.de/wpg/__31.html):
+      entirely renewable or waste heat by the end of 31 December 2044. Text as published
+      on 17 November 2026; the 2026 amendment was not in force.; Attachment: source_material/WPG-para-29-gesetze-im-internet-2026-11-17.html;
+      source_material/WPG-para-31-gesetze-im-internet-2026-11-17.html; Format: HTML;
+      Licensing: Official text (not subject to copyright under § 5 UrhG); Geographic
+      Coverage: Germany; Date Last Updated: 2026-11-17; Updated by: Kausal"
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - district_heating_path
+  updated_at: '1794906781'
+  units:
+    renewable_share: '%'
