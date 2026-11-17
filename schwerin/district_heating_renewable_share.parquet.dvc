@@ -1,0 +1,33 @@
+outs:
+- md5: 4c7ffc89630f8c6ae5ee5caf8e97fc79
+  size: 6170
+  hash: md5
+  path: district_heating_renewable_share.parquet
+meta:
+  name:
+    de: District heating renewable share
+  identifier: schwerin/district_heating_renewable_share
+  metrics:
+  - id: renewable_share
+    column_id: renewable_share
+    quantity: fraction
+    unit: '%'
+    label:
+      de: renewable_share
+  sources:
+  - name: wpsn-endbericht
+    authority: Landeshauptstadt Schwerin; prepared by Elbing & Volgmann GmbH and
+      Theta Concepts GmbH
+    url:
+    description: 'Kommunaler Wärmeplan für die Landeshauptstadt Schwerin, final report
+      (158 pp., PDF dated 13 May 2026). Funded by the National Climate Initiative,
+      grant 67K28234. Added to client/ by Jouni on 2026-11-17; sender and licence
+      not yet recorded.; Attachment: client/WPSN_Endbericht.pdf; Format: .pdf; Geographic
+      Coverage: Schwerin; Update Frequency: every 5 years (§ 25 WPG)'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  updated_at: '1794906838'
+  units:
+    renewable_share: '%'
