@@ -1,0 +1,31 @@
+outs:
+- md5: 75ab379154fa05e4d6367a998485d710
+  size: 5821
+  hash: md5
+  path: district_heating_renewable_share.parquet
+meta:
+  name:
+    en: District heating renewable share
+  identifier: heat_transition/district_heating_renewable_share
+  metrics:
+  - id: renewable_share
+    column_id: renewable_share
+    quantity: fraction
+    unit: '%'
+    label:
+      en: renewable_share
+  sources:
+  - name: Kausal default heat transition library
+    authority: Kausal
+    url:
+    description: "Defaults of the heat transition library actions (kausal-paths configs/modules/heat_transition),
+      for cities that have not supplied their own figures. Each row's comment states
+      the reasoning.; Licensing: CC BY 4.0; Geographic Coverage: Germany; Date Last
+      Updated: 2026-11-17; Updated by: Kausal"
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  updated_at: '1794906801'
+  units:
+    renewable_share: '%'
