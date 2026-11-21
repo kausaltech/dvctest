@@ -1,0 +1,49 @@
+outs:
+- md5: 7a43e8ae35cddcfc40e8ee94b966ce09
+  size: 9225
+  hash: md5
+  path: fernwaerme_netze.parquet
+meta:
+  name:
+    de: fernwaerme_netze
+  identifier: kommune/fernwaerme_netze
+  metrics:
+  - id: t_supply
+    column_id: t_supply
+    quantity: temperature
+    unit: °C
+    label:
+      de: t_supply
+  - id: t_return
+    column_id: t_return
+    quantity: temperature
+    unit: °C
+    label:
+      de: t_return
+  - id: network_loss_fraction
+    column_id: network_loss_fraction
+    quantity: fraction
+    unit: '%'
+    label:
+      de: network_loss_fraction
+  sources:
+  - name: Netzdaten des Fernwaermeversorgers
+    authority: Fernwärmeversorger der Kommune
+    url:
+    description: 'Vorlauf- und Rücklauftemperatur und Netzverluste jedes Fernwärmenetzes,
+      je Jahr. Die Temperaturen bestimmen den Exergiefaktor der Wärme in der exergetischen
+      Allokation nach BISKO-Kriterium 6; die Verluste sind ein Anteil der an die Verbraucher
+      abgegebenen Wärme. Für Netz 1 sind 15 % Verluste vorbelegt (Berechnungshilfe
+      von Agentur und ifeu).; Format: Eingabe im Bilanzierungswerkzeug; Licensing:
+      Kommunale Angabe; nicht öffentlich; Geographic Coverage: Die jeweilige Kommune;
+      Update Frequency: Jährlich; Date Last Updated: 2026-11-21; Updated by: Kommune'
+    edition:
+    target: data_point
+  index_columns:
+  - district_heating_network
+  - Year
+  updated_at: '1795252024'
+  units:
+    t_return: degC
+    t_supply: degC
+    network_loss_fraction: '%'
