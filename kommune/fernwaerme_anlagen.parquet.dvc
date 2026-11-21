@@ -1,0 +1,47 @@
+outs:
+- md5: 9ae1f0392a54d11d5890a1ba30197273
+  size: 13248
+  hash: md5
+  path: fernwaerme_anlagen.parquet
+meta:
+  name:
+    de: fernwaerme_anlagen
+  identifier: kommune/fernwaerme_anlagen
+  metrics:
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: quality
+  - id: default
+    column_id: default
+    quantity: energy
+    unit: MWh/a
+    label:
+      de: default
+  sources:
+  - name: Anlagendaten des Fernwaermeversorgers
+    authority: Fernwärmeversorger der Kommune
+    url:
+    description: 'Energieeinsatz, Wärmeabgabe ins Netz und Netto-Stromerzeugung jeder
+      Fernwärmeanlage, je Wärmenetz, Energieträger und Jahr (kommune/fernwaerme_anlagen;
+      bis 2026-11-21 kommune/fernwaerme_energieeinsatz). Grundlage für BISKO-Möglichkeit
+      1: die exergetische Allokation nach Kriterium 6 rechnet daraus je Netz den Faktor.
+      Die Vorlage wird leer ausgeliefert; ein Netz und Jahr ohne vollständige Anlagendaten
+      wird nach Möglichkeit 3 oder 2 gerechnet.; Format: Eingabe im Bilanzierungswerkzeug;
+      Licensing: Kommunale Angabe; nicht öffentlich; Geographic Coverage: Die jeweilige
+      Kommune; Update Frequency: Jährlich; Date Last Updated: 2026-11-21; Updated
+      by: Kommune'
+    edition:
+    target: data_point
+  index_columns:
+  - district_heating_network
+  - district_heating_plant
+  - energy_carrier
+  - per_what_energy
+  - Year
+  updated_at: '1795251795'
+  units:
+    quality: dimensionless
+    default: MWh/a
