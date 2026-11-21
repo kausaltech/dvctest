@@ -1,6 +1,6 @@
 outs:
-- md5: 9ae1f0392a54d11d5890a1ba30197273
-  size: 13248
+- md5: 57518c8b60de939f1ad8c10f28e343eb
+  size: 13225
   hash: md5
   path: fernwaerme_anlagen.parquet
 meta:
@@ -41,7 +41,7 @@ meta:
   - energy_carrier
   - per_what_energy
   - Year
-  updated_at: '1795251795'
+  updated_at: '1795252505'
   units:
     quality: dimensionless
     default: MWh/a
