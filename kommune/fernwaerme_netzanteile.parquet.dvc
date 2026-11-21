@@ -1,0 +1,41 @@
+outs:
+- md5: cded0bc335a778c6584ccd149eaf1cb4
+  size: 9053
+  hash: md5
+  path: fernwaerme_netzanteile.parquet
+meta:
+  name:
+    de: fernwaerme_netzanteile
+  identifier: kommune/fernwaerme_netzanteile
+  metrics:
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: quality
+  - id: default
+    column_id: default
+    quantity: fraction
+    unit: '%'
+    label:
+      de: default
+  sources:
+  - name: Aufteilung des Fernwaermeverbrauchs auf Waermenetze
+    authority: Fernwärmeversorger der Kommune
+    url:
+    description: 'Anteil des Fernwärmeverbrauchs jedes Sektors, den die Netze 2-5
+      einer Kommune liefern; Netz 1 liefert den Rest. Angabe der Kommune oder ihrer
+      Versorger.; Format: Eingabe im Bilanzierungswerkzeug; Licensing: Kommunale Angabe;
+      nicht öffentlich; Geographic Coverage: Die jeweilige Kommune; Update Frequency:
+      Jährlich; Date Last Updated: 2026-11-21; Updated by: Kommune'
+    edition:
+    target: data_point
+  index_columns:
+  - district_heating_network
+  - sector
+  - Year
+  updated_at: '1795251922'
+  units:
+    quality: dimensionless
+    default: '%'
