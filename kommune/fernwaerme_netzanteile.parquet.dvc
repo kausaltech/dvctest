@@ -1,6 +1,6 @@
 outs:
-- md5: cded0bc335a778c6584ccd149eaf1cb4
-  size: 9053
+- md5: e7a218b98da0a5ce7f80521869c85405
+  size: 9533
   hash: md5
   path: fernwaerme_netzanteile.parquet
 meta:
@@ -8,18 +8,18 @@ meta:
     de: fernwaerme_netzanteile
   identifier: kommune/fernwaerme_netzanteile
   metrics:
-  - id: quality
-    column_id: quality
-    quantity: fraction
-    unit: ''
-    label:
-      de: quality
   - id: default
     column_id: default
     quantity: fraction
     unit: '%'
     label:
       de: default
+  - id: quality
+    column_id: quality
+    quantity: fraction
+    unit: ''
+    label:
+      de: quality
   sources:
   - name: Aufteilung des Fernwaermeverbrauchs auf Waermenetze
     authority: Fernwärmeversorger der Kommune
@@ -35,7 +35,7 @@ meta:
   - district_heating_network
   - sector
   - Year
-  updated_at: '1795251922'
+  updated_at: '1795252466'
   units:
-    quality: dimensionless
     default: '%'
+    quality: dimensionless
