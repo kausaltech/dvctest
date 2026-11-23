@@ -1,0 +1,44 @@
+outs:
+- md5: f1a887332cebb7da2974664ebcbbdef8
+  size: 16779
+  hash: md5
+  path: world_fossil_co2.parquet
+meta:
+  name:
+    en: World fossil CO2
+  identifier: fossil_endgame/world_fossil_co2
+  metrics:
+  - id: emissions
+    column_id: emissions
+    quantity: emissions
+    unit: Mt_CO2e/a
+    label:
+      en: emissions
+  - id: land_use_change_emissions
+    column_id: land_use_change_emissions
+    quantity: emissions
+    unit: Mt_CO2e/a
+    label:
+      en: land_use_change_emissions
+  sources:
+  - name: Our World in Data CO2 dataset (Global Carbon Budget 2025)
+    authority: Our World in Data (from Global Carbon Project)
+    url: https://github.com/owid/co2-data
+    description: "owid-co2-data.csv: territorial CO2 from fossil fuels and industry
+      by fuel (coal, oil, gas, flaring, cement, other industry), land-use change CO2
+      for the world, and population, from the Global Carbon Budget 2025 and OWID's
+      population series. Retrieved 2026-11-23 by scripts/fetch_owid_co2.py; the subset
+      used (every country and the EU 1990-2024, the world 1850-2024) is inputs/owid_co2.csv.
+      Blank fuel components where the total exists are zero: the components sum to
+      the total in every row.; Attachment: inputs/owid_co2.csv; Format: .csv; Licensing:
+      CC BY 4.0; Geographic Coverage: World and countries (present borders); Date
+      Last Updated: 2026-11-23; Updated by: Kausal"
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - co2_source
+  updated_at: '1795431445'
+  units:
+    land_use_change_emissions: Mt_co2e/a
+    emissions: Mt_co2e/a
