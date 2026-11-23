@@ -1,6 +1,6 @@
 outs:
-- md5: f1a887332cebb7da2974664ebcbbdef8
-  size: 16779
+- md5: 3f80b87f0f73b6c7ff82a80daeb18443
+  size: 19101
   hash: md5
   path: world_fossil_co2.parquet
 meta:
@@ -8,18 +8,24 @@ meta:
     en: World fossil CO2
   identifier: fossil_endgame/world_fossil_co2
   metrics:
-  - id: emissions
-    column_id: emissions
-    quantity: emissions
-    unit: Mt_CO2e/a
+  - id: population
+    column_id: population
+    quantity: population
+    unit: cap
     label:
-      en: emissions
+      en: population
   - id: land_use_change_emissions
     column_id: land_use_change_emissions
     quantity: emissions
     unit: Mt_CO2e/a
     label:
       en: land_use_change_emissions
+  - id: emissions
+    column_id: emissions
+    quantity: emissions
+    unit: Mt_CO2e/a
+    label:
+      en: emissions
   sources:
   - name: Our World in Data CO2 dataset (Global Carbon Budget 2025)
     authority: Our World in Data (from Global Carbon Project)
@@ -38,7 +44,8 @@ meta:
   index_columns:
   - Year
   - co2_source
-  updated_at: '1795431445'
+  updated_at: '1795444119'
   units:
     land_use_change_emissions: Mt_co2e/a
+    population: cap
     emissions: Mt_co2e/a
