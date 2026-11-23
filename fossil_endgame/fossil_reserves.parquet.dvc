@@ -1,0 +1,38 @@
+outs:
+- md5: c05f79fc59a06387ca42000846b6c2b3
+  size: 8932
+  hash: md5
+  path: fossil_reserves.parquet
+meta:
+  name:
+    en: Fossil reserves
+  identifier: fossil_endgame/fossil_reserves
+  metrics:
+  - id: developed_reserves
+    column_id: developed_reserves
+    quantity: emissions
+    unit: Gt_CO2e
+    label:
+      en: developed_reserves
+  sources:
+  - name: Trout et al. 2022 Existing fossil fuel extraction would warm the world
+      beyond 1.5 °C
+    authority: Kelly Trout, Greg Muttitt, Dimitri Lafleur, Thijs Van de Graaf, 
+      Roman Mendelevitch, Lan Mei, Malte Meinshausen
+    url: https://doi.org/10.1088/1748-9326/ac6228
+    description: 'Environ. Res. Lett. 17, 064010 (published version via Ghent University
+      repository; IOP blocks scripts). Abstract and Sect. 3.2 (p. 5): developed reserves
+      (existing and under-construction fields and mines) commit 936 GtCO2 (90 % CI
+      880-992): coal 47 % (446), oil 35 % (323), gas 18 %. Staying within a 1.5 °C
+      budget (50 %) means leaving almost 40 % of developed reserves unextracted.;
+      Attachment: source_material/science/fossil-supply/Trout-et-al-2022-existing-fossil-extraction-beyond-1p5C-ERL.pdf;
+      Format: Journal article; Licensing: CC BY 4.0; Geographic Coverage: Global;
+      Date Last Updated: 2022-05-17; Updated by: Environmental Research Letters (IOP)'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - co2_source
+  updated_at: '1795444101'
+  units:
+    developed_reserves: Gt_co2e
