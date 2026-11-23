@@ -1,0 +1,132 @@
+outs:
+- md5: 2b1b829e30481413b1f08271036bebde
+  size: 22559
+  hash: md5
+  path: capture_and_removal.parquet
+meta:
+  name:
+    en: Capture and removal
+  identifier: fossil_endgame/capture_and_removal
+  metrics:
+  - id: capture_target_high
+    column_id: capture_target_high
+    quantity: emissions
+    unit: Mt_CO2e/a
+    label:
+      en: capture_target_high
+  - id: geological_storage_capacity
+    column_id: geological_storage_capacity
+    quantity: emissions
+    unit: Gt_CO2e
+    label:
+      en: geological_storage_capacity
+  - id: capture_target_low
+    column_id: capture_target_low
+    quantity: emissions
+    unit: Mt_CO2e/a
+    label:
+      en: capture_target_low
+  - id: removal
+    column_id: removal
+    quantity: emissions
+    unit: Mt_CO2e/a
+    label:
+      en: removal
+  - id: capture_operating
+    column_id: capture_operating
+    quantity: emissions
+    unit: Mt_CO2e/a
+    label:
+      en: capture_operating
+  sources:
+  - name: COP31 draft cover decision, first presidency draft (16 Nov 2026)
+    authority: COP 31 Presidency (Türkiye, with Australia as President of 
+      negotiations), UNFCCC
+    url: 
+      https://unfccc.int/sites/default/files/resource/dt_cop31_cover_decision.pdf
+    description: "Unedited draft of 16/11/2026 12:40, a compilation of Party proposals.
+      Para 65 reaffirms para 28 of 1/CMA.5 (transitioning away from fossil fuels);
+      para 66 \"Calls for accelerated action to phase out fossil fuels, including
+      through the immediate transition away from fossil fuels in energy systems\"\
+      \ (the two contradictory paragraphs reported by the press). Para 16 states that
+      developed country Parties' historical cumulative net CO2 emissions account for
+      about four fifths of the 1.5 °C (50 %) budget. Para 60: CCUS to at least 500
+      Mt CO2 by 2035 and towards 1.3-2.5 Gt CO2 per year. Para 119: developed countries
+      to phase out unilateral trade-restrictive measures by end of 2027.; Attachment:
+      source_material/negotiations/cop31/UNFCCC-2026-11-16-cop31-draft-cover-decision-v1.pdf;
+      Format: Draft decision (PDF); Licensing: UNFCCC terms; Geographic Coverage:
+      World; Date Last Updated: 2026-11-16; Updated by: UNFCCC"
+    edition:
+    target: data_point
+  - name: COP31 draft cover decision, revised presidency draft (19 Nov 2026)
+    authority: COP 31 Presidency, UNFCCC
+    url: 
+      https://unfccc.int/sites/default/files/resource/Upload_dt_cop31_cover_decision.pdf
+    description: 'Unedited draft of 19/11/2026 14:10. Contains no "phase out" paragraph;
+      the fossil-fuel text of the first draft is gone. Para 15 keeps the four-fifths
+      statement but no longer attributes it to developed country Parties. Para 34
+      welcomes scaling up CCUS and CDR; the CCUS figure is bracketed: "[to at least
+      500 MtCO2 ... and to work towards 1.3 to 2.5 Gt] [working towards 2.5 Gt]" per
+      year by 2035. The final text presented on 22 Nov (not archived; not found on
+      unfccc.int) was rejected.; Attachment: source_material/negotiations/cop31/UNFCCC-2026-11-19-cop31-draft-cover-decision-v2.pdf;
+      Format: Draft decision (PDF); Licensing: UNFCCC terms; Geographic Coverage:
+      World; Date Last Updated: 2026-11-19; Updated by: UNFCCC'
+    edition:
+    target: data_point
+  - name: Global CCS Institute Global Status of CCS 2025 and 2026
+    authority: Global CCS Institute
+    url: https://www.globalccsinstitute.com/global-status-of-ccs/
+    description: 'Full report gated. 2025 executive summary (p. 1): 64 Mtpa capture
+      capacity in operation in July 2025, up 25 % year on year (77 operational projects).
+      2026 landing page: 113 commercial projects in operation, 68 Mtpa operating capture
+      capacity, 56 Mtpa under construction, >400 MtCO2 stored since 1996, as at 31
+      July 2026; notes that capacity is not actual annual capture. Compare to ~38
+      GtCO2 fossil emissions: about 0.2 %.; Attachment: source_material/science/capture-removal/GCCSI-2025-global-status-of-CCS-executive-summary.pdf;
+      source_material/science/capture-removal/GCCSI-2026-global-status-of-CCS-landing-page.html;
+      Format: Report summary (PDF) + web page; Licensing: Publisher terms; Geographic
+      Coverage: Global; Date Last Updated: 2026; Updated by: Global CCS Institute'
+    edition:
+    target: data_point
+  - name: IPCC 2022 AR6 WG3 Summary for Policymakers
+    authority: IPCC Working Group III
+    url: 
+      https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_SPM.pdf
+    description: 'C.3.2 (PDF p. 26): in pathways limiting warming to 1.5 °C (>50 %)
+      with no or limited overshoot, global coal, oil and gas use in 2050 declines
+      by median about 95 %, 60 % and 45 % vs 2019 (IQR 80-100, 40-75, 20-60 %); 2
+      °C (>67 %): 85 %, 30 %, 15 %; unabated (without CCS) use falls about 100 %,
+      60 % and 70 %. C.4 / C.4.1 (PDF p. 30): net-zero CO2 energy systems entail minimal
+      unabated fossil use, CCS in the remaining fossil system and CDR for residual
+      emissions. C.4.4: 2 °C leaves substantial fossil fuels unburned; stranded value
+      USD 1-4 trillion 2015-2050. C.4.6: geological storage capacity on the order
+      of 1000 GtCO2; current CCS deployment far below modelled pathways.; Attachment:
+      source_material/science/mitigation/IPCC-2022-AR6-WG3-SPM.pdf; Format: Report
+      (PDF); Licensing: IPCC terms (free non-commercial reproduction with citation);
+      Geographic Coverage: Global; Date Last Updated: 2022-04-04; Updated by: IPCC'
+    edition:
+    target: data_point
+  - name: State of Carbon Dioxide Removal, 2nd edition (2024) and 3rd edition 
+      (2026)
+    authority: Stephen M. Smith et al. (Smith School, Oxford, and partners)
+    url: https://www.stateofcdr.org/
+    description: "2nd edition executive summary (p. 3): 'Around 2 GtCO2 per year of
+      CDR is taking place already. Almost all of this comes from conventional CDR
+      methods' (mainly afforestation/reforestation); novel CDR 1.3 MtCO2/yr (<0.1
+      %). Full 2nd-edition report also archived. 3rd edition (June 2026) executive
+      summary: total removal 2.2 GtCO2/yr, 5 % of gross CO2 emissions; conventional
+      99.9 %; novel 0.002 GtCO2/yr, growing 40 %/yr.; Attachment: source_material/science/capture-removal/Smith-et-al-2024-state-of-CDR-2nd-edition-executive-summary.pdf;
+      source_material/science/capture-removal/Smith-et-al-2024-state-of-CDR-2nd-edition-full-report.pdf;
+      source_material/science/capture-removal/Smith-et-al-2026-state-of-CDR-3rd-edition-executive-summary.pdf;
+      Format: Report (PDF); Licensing: CC BY 4.0; Geographic Coverage: Global; Date
+      Last Updated: 2026-06; Updated by: State of CDR (University of Oxford)"
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  updated_at: '1795431427'
+  units:
+    capture_operating: Mt_co2e/a
+    capture_target_high: Mt_co2e/a
+    removal: Mt_co2e/a
+    capture_target_low: Mt_co2e/a
+    geological_storage_capacity: Gt_co2e
