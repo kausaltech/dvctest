@@ -1,5 +1,5 @@
 outs:
-- md5: fff6285a5a41254adad068fb2101722e
+- md5: 351e2d7f022de737952695e79fa07fed
   size: 179552
   hash: md5
   path: national_fossil_co2.parquet
@@ -39,7 +39,7 @@ meta:
   - Year
   - co2_source
   - nation
-  updated_at: '1795431436'
+  updated_at: '1795444110'
   units:
-    population: cap
     emissions: Mt_co2e/a
+    population: cap
