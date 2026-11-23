@@ -1,5 +1,5 @@
 outs:
-- md5: 2b1b829e30481413b1f08271036bebde
+- md5: 04975a852dba7a15231df03a62fafb4a
   size: 22559
   hash: md5
   path: capture_and_removal.parquet
@@ -8,24 +8,6 @@ meta:
     en: Capture and removal
   identifier: fossil_endgame/capture_and_removal
   metrics:
-  - id: capture_target_high
-    column_id: capture_target_high
-    quantity: emissions
-    unit: Mt_CO2e/a
-    label:
-      en: capture_target_high
-  - id: geological_storage_capacity
-    column_id: geological_storage_capacity
-    quantity: emissions
-    unit: Gt_CO2e
-    label:
-      en: geological_storage_capacity
-  - id: capture_target_low
-    column_id: capture_target_low
-    quantity: emissions
-    unit: Mt_CO2e/a
-    label:
-      en: capture_target_low
   - id: removal
     column_id: removal
     quantity: emissions
@@ -38,6 +20,24 @@ meta:
     unit: Mt_CO2e/a
     label:
       en: capture_operating
+  - id: geological_storage_capacity
+    column_id: geological_storage_capacity
+    quantity: emissions
+    unit: Gt_CO2e
+    label:
+      en: geological_storage_capacity
+  - id: capture_target_high
+    column_id: capture_target_high
+    quantity: emissions
+    unit: Mt_CO2e/a
+    label:
+      en: capture_target_high
+  - id: capture_target_low
+    column_id: capture_target_low
+    quantity: emissions
+    unit: Mt_CO2e/a
+    label:
+      en: capture_target_low
   sources:
   - name: COP31 draft cover decision, first presidency draft (16 Nov 2026)
     authority: COP 31 Presidency (Türkiye, with Australia as President of 
@@ -123,10 +123,10 @@ meta:
     target: data_point
   index_columns:
   - Year
-  updated_at: '1795431427'
+  updated_at: '1795444092'
   units:
     capture_operating: Mt_co2e/a
     capture_target_high: Mt_co2e/a
-    removal: Mt_co2e/a
-    capture_target_low: Mt_co2e/a
     geological_storage_capacity: Gt_co2e
+    capture_target_low: Mt_co2e/a
+    removal: Mt_co2e/a
