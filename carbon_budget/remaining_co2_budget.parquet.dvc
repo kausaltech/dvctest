@@ -1,0 +1,63 @@
+outs:
+- md5: d0efdab318d923404dc93ac49bd0efa5
+  size: 17075
+  hash: md5
+  path: remaining_co2_budget.parquet
+meta:
+  name:
+    en: Remaining CO2 budget
+  identifier: carbon_budget/remaining_co2_budget
+  metrics:
+  - id: budget
+    column_id: budget
+    quantity: emissions
+    unit: Gt_CO2e
+    label:
+      en: budget
+  sources:
+  - name: Forster et al. 2026 Indicators of Global Climate Change 2025
+    authority: Piers M. Forster et al.
+    url: https://doi.org/10.5194/essd-18-3889-2026
+    description: 'Earth Syst. Sci. Data 18, 3889-3933 (2026). Table 8 (PDF p. 22):
+      remaining CO2 budget from the start of 2026 for 1.5-2.0 °C in steps of 0.1 °C
+      at 10/17/33/50/67/83/90 % likelihood (TCRE uncertainty only), rounded to 10
+      Gt; 1.5 °C at 50 %: 130 Gt; 2.0 °C at 50 %: 1050 Gt. PDF p. 21: "approximately
+      250 GtCO2 have been emitted between 2020 and 2025 (Friedlingstein et al., 2026)";
+      total reduction ~370 Gt against the AR6 values from 2020. Values can be about
+      200 Gt higher or lower depending on non-CO2 reductions.; Attachment: source_material/Forster-et-al-2026-indicators-global-climate-change-2025-ESSD.pdf;
+      Format: Journal article; Licensing: CC BY 4.0; Geographic Coverage: World; Date
+      Last Updated: 2026-06-11; Updated by: Earth System Science Data (Copernicus)'
+    edition:
+    target: data_point
+  - name: IPCC AR6 WG1 SPM Table SPM.2 remaining carbon budgets
+    authority: Intergovernmental Panel on Climate Change (IPCC) -- Working Group
+      I
+    url: https://www.ipcc.ch/report/ar6/wg1/chapter/summary-for-policymakers/
+    description: 'Estimated remaining CO2 budgets from 1 January 2020 for limiting
+      global warming to 1.5, 1.7 and 2.0 °C above 1850-1900 at 17, 33, 50, 67 and
+      83 % likelihood (Table SPM.2 of the Summary for Policymakers, Climate Change
+      2021: The Physical Science Basis). Gt CO2, including land-use CO2. Approved
+      line by line by governments. The non-CO2 path alone can move the values by 220
+      Gt either way.; Attachment: source_material/IPCC-2021-AR6-WG1-SPM.pdf; Format:
+      Table in PDF; Licensing: IPCC terms of use (reproduction with attribution);
+      Geographic Coverage: World; Date Last Updated: 2021-08-09; Updated by: IPCC'
+    edition:
+    target: data_point
+  - name: Kausal interpolation of the remaining carbon budgets
+    authority: Kausal Ltd
+    url:
+    description: 'Linear interpolation between the tabulated rows of IPCC AR6 Table
+      SPM.2 and Forster et al. 2026 Table 8, made by modules/carbon-budget/scripts/create_carbon_budget.py
+      in paths-data. Approximate: budgets are not linear in likelihood.; Format: Script;
+      Geographic Coverage: World; Date Last Updated: 2026-11-23; Updated by: Kausal
+      Ltd'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - estimate
+  - likelihood
+  - temperature_limit
+  updated_at: '1795444080'
+  units:
+    budget: Gt_co2e
