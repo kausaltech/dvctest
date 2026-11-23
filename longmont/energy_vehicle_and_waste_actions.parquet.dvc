@@ -1,73 +1,137 @@
 outs:
-- md5: 9ea478bdf202bbda0c91d61dc2314cdb
-  size: 18932
+- md5: d27dfce02243aa83451f55bb7cdf7ef9
+  size: 27803
   hash: md5
   path: energy_vehicle_and_waste_actions.parquet
 meta:
   name:
     en: Energy, vehicle and waste actions
-  identifier: energy_vehicle_and_waste_actions
+  identifier: longmont/energy_vehicle_and_waste_actions
   metrics:
-  - id: reduce_transmission_distribution_losses
-    quantity: ratio
-    label:
-      en: reduce transmission distribution losses
-  - id: longmont_power_renewables_additional
-    quantity: emission_factor
-    label:
-      en: longmont power renewables additional
-  - id: replace_natural_gas_commercial
-    quantity: energy
-    label:
-      en: replace natural gas commercial
-  - id: smart_grid_improvement
-    quantity: ratio
-    label:
-      en: smart grid improvement
-  - id: participation_smart_grid
-    quantity: ratio
-    label:
-      en: participation smart grid
-  - id: efficiency_works_program
-    quantity: fraction
-    label:
-      en: efficiency works program
-  - id: replace_natural_gas_residential
-    quantity: energy
-    label:
-      en: replace natural gas residential
-  - id: longmont_power_renewables
-    quantity: emission_factor
-    label:
-      en: longmont power renewables
-  - id: increase_access_of_public_transit
-    quantity: number
-    label:
-      en: increase access of public transit
-  - id: multimodal_transportation_system
-    quantity: fraction
-    label:
-      en: multimodal transportation system
   - id: leak_detection
+    column_id: leak_detection
     quantity: emissions
+    unit: t/a
     label:
-      en: leak detection
-  updated_at: '1759048404'
+      en: Leak detection
+  - id: increase_waste_diversion
+    column_id: increase_waste_diversion
+    quantity: fraction
+    unit: '%'
+    label:
+      en: Increase waste diversion
+  - id: replace_natural_gas_residential
+    column_id: replace_natural_gas_residential
+    quantity: energy
+    unit: kthm/a
+    label:
+      en: Replace natural gas residential
+  - id: reduce_transmission_distribution_losses
+    column_id: reduce_transmission_distribution_losses
+    quantity: fraction
+    unit: '%'
+    label:
+      en: Reduce transmission distribution losses
+  - id: vehicle_incentives
+    column_id: vehicle_incentives
+    quantity: number
+    unit: v
+    label:
+      en: Vehicle incentives
+  - id: multimodal_transportation_system
+    column_id: multimodal_transportation_system
+    quantity: fraction
+    unit: '%'
+    label:
+      en: Multimodal transportation system
+  - id: longmont_power_renewables_additional
+    column_id: longmont_power_renewables_additional
+    quantity: emission_factor
+    unit: t/MWh
+    label:
+      en: Longmont power renewables additional
+  - id: increase_access_of_public_transit
+    column_id: increase_access_of_public_transit
+    quantity: number
+    unit: p/cap/a
+    label:
+      en: Increase access of public transit
+  - id: longmont_power_renewables
+    column_id: longmont_power_renewables
+    quantity: emission_factor
+    unit: t/MWh
+    label:
+      en: Longmont power renewables
+  - id: replace_natural_gas_commercial
+    column_id: replace_natural_gas_commercial
+    quantity: energy
+    unit: kthm/a
+    label:
+      en: Replace natural gas commercial
+  - id: efficiency_works_program
+    column_id: efficiency_works_program
+    quantity: fraction
+    unit: '%'
+    label:
+      en: Efficiency works program
+  sources:
+  - name: Kausal Paths Updates (Nov 2026)
+    authority: City of Longmont (Francie Kirkjaffe, last saved 2026-11-05)
+    url:
+    description: "Francie's proposed dataset values for the 2026 update, for both
+      scenarios; yellow cells are new. Its Databases sheet also repeats many of the
+      model's current values. Sent by Francie Jaffe (City of Longmont); the date is
+      when the file was last saved, which approximates when Kausal received it. Years
+      covered: 2016-2050.; Attachment: client/OneDrive_1_21-11-2026/Kausal Paths Updates.xlsx;
+      Format: .xlsx; Geographic Coverage: City of Longmont, Colorado; Date Last Updated:
+      2026-11-05; Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-21)"
+    edition:
+    target: data_point
+  - name: Longmont 2024 GHG Inventory, Paths working copy (Sep 2025)
+    authority: Kausal (working copy of the city workbook)
+    url:
+    description: "Kausal's working copy of the July 2025 version of the 2024 inventory
+      (jtt = Jouni Tuomisto). Its 'dataset' sheet holds values copied by hand from
+      the other sheets, in the Paths dataset format. It is a staging copy, never an
+      origin: cite the sheet that each value was copied from. Drive save date 2025-09-28.;
+      Attachment: client/Longmont (CO) Client/2025 Paths Update/DATA COLLECTION_Longmont_2024_GHG_Inventory_jtt.xlsx;
+      Format: .xlsx; Geographic Coverage: City of Longmont, Colorado; Date Last Updated:
+      2025-09-28; Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-21)"
+    edition:
+    target: data_point
+  - name: Longmont scenario model, Feb 2023 update
+    authority: City of Longmont (scenario workbook created by Nick Russell)
+    url:
+    description: 'The scenario model behind the first Paths model. It is the origin
+      of most action trajectories (fuel switching, vehicle incentives, waste diversion,
+      last-mile connections, renewables), the building floor areas and energy-use-intensity
+      improvements, the registered EVs, the vehicle miles per vehicle and the electricity
+      and gas use by utility. Sent by Francie Jaffe (City of Longmont); the date is
+      when the file was last saved, which approximates when Kausal received it. This
+      file is byte-identical to client/Longmont_Model_Feb 2023_Update_FINAL(2).xlsx.
+      Years covered: 2016-2050.; Attachment: client/Longmont (CO) Client/KP material/Longmont_Model_Feb
+      2023_Update_FINAL.xlsx; Format: .xlsx; Geographic Coverage: City of Longmont,
+      Colorado; Date Last Updated: 2023-09-12; Updated by: Jouni Tuomisto (register
+      row drafted by Claude, 2026-11-21)'
+    edition:
+    target: data_point
+  dataset:
+    forecast_from: 2025
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - action_scenario
+  - Year
+  updated_at: '1795449316'
   units:
-    increase_waste_diversion: '%'
-    vmt_per_vehicle_trend: mi/v/a
-    longmont_power_renewables_additional: t/MWh
-    leak_detection: t/a
-    replace_natural_gas_commercial: kthm/a
-    mpg_trend: mi/gal
-    multimodal_transportation_system: '%'
-    increase_access_of_public_transit: trip/inhabitant/a
-    electric_vehicle_efficiency_trend: kWh/mi
-    reduce_transmission_distribution_losses: '%'
-    participation_smart_grid: '%'
-    efficiency_works_program: '%'
-    longmont_power_renewables: t/MWh
-    vehicle_incentives: v
-    last_mile_connections: '%'
     replace_natural_gas_residential: kthm/a
-    smart_grid_improvement: '%'
+    increase_access_of_public_transit: p/cap/a
+    longmont_power_renewables_additional: t/MWh
+    reduce_transmission_distribution_losses: '%'
+    efficiency_works_program: '%'
+    increase_waste_diversion: '%'
+    leak_detection: t/a
+    vehicle_incentives: v
+    longmont_power_renewables: t/MWh
+    replace_natural_gas_commercial: kthm/a
+    multimodal_transportation_system: '%'
