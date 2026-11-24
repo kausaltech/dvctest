@@ -1,44 +1,42 @@
 outs:
-- md5: 79335214aa7b3965aa3f2ab19da03889
-  size: 11135
+- md5: 704e1954e380e1bfb5f6869e15adc50e
+  size: 8754
   hash: md5
   path: aviation_data.parquet
 meta:
   name:
     en: Aviation data
-  identifier: aviation_data
-  description:
-    en: "total_fuel_used - Energy carrier: Jet fuel - Scope: scope1 - Airport: Vance
-      Brand Airport - Assumption based on the parking apron data. Was unable to find
-      FAA data that distributed local and itinerant for Longmont in 2024.<br/>total_fuel_used
-      - Energy carrier: Jet fuel - Scope: scope3 - Airport: Denver International Airport
-      - Denver International Airport (DIA)  (all Scope 3): \nTotal Longmont emissions
-      = Longmont Origin / Destination Fuel Used x Emission Factor for both jet fuel
-      and aviation gasoline \nLongmont Origin /Destination Fuel Used (both jet fuel
-      and aviation gasoline) = (Total Fuel DIA fuel usage) x (1 - (Connecting Passengers
-      / Total Passengers)) x (Longmont Population / Denver Boulder Metro Area Population)
-      <br/>fuel_emission_factors - Energy carrier: Jet Fuel - Ghg: CO2 - Source: ICLEI
-      - Per guidance from ICLEI on emissions factors used in the ClearPath tool. This
-      was referencing factors from the EPA: https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf
-      (also saved in files)<br/>fuel_emission_factors - Energy carrier: Aviation gasoline
-      - Ghg: CO2 - Source: ICLEI - Per guidance from ICLEI on emissions factors used
-      in the ClearPath tool. This was referencing factors from the EPA: https://www.epa.gov/system/files/documents/2023-03/ghg_emission_factors_hub.pdf
-      (also saved in files)<br/>fuel_emission_factors - Energy carrier: Motor Gasoline
-      - Ghg: CO2 - Source: EPA - EPA Emissions Factors: https://www.epa.gov/sites/production/files/2018-03/documents/emission-factors_mar_2018_0.pdf.
-      The \"Vehicle Type\" for CH4 and N2O emissions factors was \"Other Gasoline
-      Sources.\"  <br/>fuel_emission_factors - Energy carrier: Motor Gasoline - Ghg:
-      CH4 - Source: Climate Registry - Climate Registry Emission Factors for Airport
-      Equipment (Gasoline 4 Stroke under airport equipment): https://theclimateregistry.org/wp-content/uploads/2024/03/2024-Emission-Factor-Document_FINAL.pdf"
+  identifier: longmont/aviation_data
   metrics:
-  - id: fuel_emission_factors
-    quantity: emission_factor
-    label:
-      en: fuel_emission_factors
   - id: total_fuel_used
+    column_id: total_fuel_used
     quantity: energy
+    unit: gal/a
     label:
       en: total_fuel_used
-  updated_at: '1753629178'
+  sources:
+  - name: Longmont 2024 GHG Inventory (city original, March 2025)
+    authority: City of Longmont (last saved by Francie Jaffe, 2025-03-25)
+    url:
+    description: "The 2024 community inventory as it was on the city's SharePoint,
+      without the sheets added later for Paths. It is the original for the 2024 values:
+      stationary energy, aviation, transit, railways, waste and recycling, IPPU and
+      the GWPs. Sent by Francie Jaffe (City of Longmont); the date is when the file
+      was last saved, which approximates when Kausal received it. Years covered: 2016-2024.;
+      Attachment: client/Longmont (CO) Client/2025 Paths Update/From Longmont_s Sharepoint
+      Folder 020242025/DATA COLLECTION_Longmont_2024_GHG_Inventory.xlsx; Format: .xlsx;
+      Geographic Coverage: City of Longmont, Colorado; Date Last Updated: 2025-03-25;
+      Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-21)"
+    edition:
+    target: data_point
+  dataset:
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - energy_carrier
+  - scope
+  - airport
+  - Year
+  updated_at: '1795525847'
   units:
-    fuel_emission_factors: g/gal
     total_fuel_used: gal/a
