@@ -1,0 +1,49 @@
+outs:
+- md5: 258f92bfab4628a9b9def168486d2bef
+  size: 7951
+  hash: md5
+  path: waste_parameters.parquet
+meta:
+  name:
+    en: Waste parameters
+  identifier: longmont/waste_parameters
+  metrics:
+  - id: gas_collection_rate
+    column_id: gas_collection_rate
+    quantity: fraction
+    unit: ''
+    label:
+      en: gas_collection_rate
+  - id: diversion_rate
+    column_id: diversion_rate
+    quantity: fraction
+    unit: '%'
+    label:
+      en: Diversion rate
+  - id: oxidizing_factor
+    column_id: oxidizing_factor
+    quantity: fraction
+    unit: ''
+    label:
+      en: oxidizing_factor
+  sources:
+  - name: Longmont Paths model 2023 (origin not traced)
+    authority: Kausal
+    url:
+    description: 'A placeholder citation for values carried over from the first Longmont
+      Paths model (2023) whose source document has not been traced (docs/dataset-sources.md).
+      Each row says what is known about it. To be replaced by the real source when
+      one is found.; Date Last Updated: 2026-11-24; Updated by: Jouni Tuomisto (register
+      row drafted by Claude, 2026-11-24)'
+    edition:
+    target: data_point
+  dataset:
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - Year
+  updated_at: '1795526110'
+  units:
+    gas_collection_rate: dimensionless
+    oxidizing_factor: dimensionless
+    diversion_rate: '%'

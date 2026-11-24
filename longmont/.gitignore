@@ -88,3 +88,4 @@
 /vehicle_electricity_use.parquet
 /vehicle_natural_gas_use.parquet
 /waste_landfilled.parquet
+/waste_parameters.parquet
