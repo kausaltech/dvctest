@@ -1,6 +1,6 @@
 outs:
-- md5: 06ee7bf66829d663710574a930989d3f
-  size: 12715
+- md5: d75245f5c55f4de5baf51b3341bef0a7
+  size: 19519
   hash: md5
   path: building_actions.parquet
 meta:
@@ -8,58 +8,76 @@ meta:
     en: Building actions
   identifier: longmont/building_actions
   metrics:
-  - id: develop_beyond_building_code_new_compliance
-    column_id: develop_beyond_building_code_new_compliance
-    quantity: ratio
-    unit: '%'
-    label:
-      en: Develop beyond building code new compliance
-  - id: updated_building_code_renovation_rate
-    column_id: updated_building_code_renovation_rate
-    quantity: ratio
-    unit: '%/a'
-    label:
-      en: Updated building code renovation rate
-  - id: updated_building_code_new_compliance
-    column_id: updated_building_code_new_compliance
-    quantity: ratio
-    unit: '%'
-    label:
-      en: Updated building code new compliance
-  - id: replace_natural_gas_residential
-    column_id: replace_natural_gas_residential
-    quantity: ratio
-    unit: '%'
-    label:
-      en: Replace natural gas residential
   - id: benchmark_energy_use_electricity
     column_id: benchmark_energy_use_electricity
     quantity: energy
     unit: GWh/a
     label:
-      en: Benchmark energy use - Electricity
+      en: Benchmark energy use electricity
+  - id: develop_beyond_building_code_new_compliance
+    column_id: develop_beyond_building_code_new_compliance
+    quantity: fraction
+    unit: '%'
+    label:
+      en: Develop beyond building code new compliance
   - id: benchmark_energy_use_natural_gas
     column_id: benchmark_energy_use_natural_gas
     quantity: energy
     unit: Mthm/a
     label:
-      en: Benchmark energy use - Natural gas
+      en: Benchmark energy use natural gas
+  - id: updated_building_code_renovation_rate
+    column_id: updated_building_code_renovation_rate
+    quantity: fraction
+    unit: '%/a'
+    label:
+      en: Updated building code renovation rate
+  - id: replace_natural_gas_residential
+    column_id: replace_natural_gas_residential
+    quantity: fraction
+    unit: '%'
+    label:
+      en: Replace natural gas residential
   - id: replace_natural_gas_commercial
     column_id: replace_natural_gas_commercial
-    quantity: ratio
+    quantity: fraction
     unit: '%'
     label:
       en: Replace natural gas commercial
+  - id: updated_building_code_new_compliance
+    column_id: updated_building_code_new_compliance
+    quantity: fraction
+    unit: '%'
+    label:
+      en: Updated building code new compliance
+  sources:
+  - name: Kausal Paths Updates (Nov 2026)
+    authority: City of Longmont (Francie Kirkjaffe, last saved 2026-11-05)
+    url:
+    description: "Francie's proposed dataset values for the 2026 update, for both
+      scenarios; yellow cells are new. Its Databases sheet also repeats many of the
+      model's current values. Sent by Francie Jaffe (City of Longmont); the date is
+      when the file was last saved, which approximates when Kausal received it. Years
+      covered: 2016-2050.; Attachment: client/OneDrive_1_21-11-2026/Kausal Paths Updates.xlsx;
+      Format: .xlsx; Geographic Coverage: City of Longmont, Colorado; Date Last Updated:
+      2026-11-05; Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-21)"
+    edition:
+    target: data_point
+  dataset:
+    forecast_from: 2025
+    time_resolution: yearly
+    is_editable: true
   index_columns:
+  - action_scenario
   - building_energy_class
   - emission_sectors
   - Year
-  updated_at: '1786105333'
+  updated_at: '1795515283'
   units:
-    develop_beyond_building_code_new_compliance: '%'
+    benchmark_energy_use_natural_gas: Mthm/a
     replace_natural_gas_residential: '%'
     updated_building_code_renovation_rate: '%/a'
-    updated_building_code_new_compliance: '%'
-    benchmark_energy_use_natural_gas: Mthm/a
     replace_natural_gas_commercial: '%'
+    updated_building_code_new_compliance: '%'
+    develop_beyond_building_code_new_compliance: '%'
     benchmark_energy_use_electricity: GWh/a
