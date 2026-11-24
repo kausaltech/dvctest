@@ -1,14 +1,53 @@
 outs:
-- md5: 866ef2f75e190eed2429f337f6ec2acb
-  size: 3649
+- md5: 05a4414430ee313b2efc011ee5b1e87e
+  size: 9304
+  hash: md5
   path: emission_factor_wood.parquet
 meta:
   name:
     en: Emission factor wood
-  identifier: emission_factor_wood
+  identifier: longmont/emission_factor_wood
   metrics:
   - id: emission_factor
+    column_id: emission_factor
+    quantity: emission_factor
+    unit: kg/MBtu
     label:
       en: Emission factor
+  sources:
+  - name: DATA COLLECTION_Longmont_2024_GHG_Inventory
+    authority: City of Longmont
+    url:
+    description: "A later version of the 2024 inventory (last saved 2025-07-27). It
+      has three sheets that the March 2025 SharePoint original lacks. 'On-Road Data_NEW'
+      is Francie's and authoritative: it is the origin of the 2024 VMT (Google EIE
+      trip distances) and the 2024 transport factors. 'datasets' is Kausal's (Jouni
+      Tuomisto): values copied by hand from the other sheets, not referenced, so it
+      is never an origin. 'Sheet1' is hidden; it holds VMT working (HPMS breakdown,
+      registered vehicles by type and fuel, vehicle MPG with sources), not primary
+      data. Migrated from kausal-paths/data/longmont on 2026-11-13.; Attachment: client/DATA
+      COLLECTION_Longmont_2024_GHG_Inventory.xlsx; Format: .xlsx; Date Last Updated:
+      2025-07-27"
+    edition:
+    target: data_point
+  - name: Longmont data 2023 (Kausal export)
+    authority: Kausal (export written by openpyxl)
+    url:
+    description: "An export of the 2023 model's data and parameters, in the template's
+      format. A staging copy, not an origin. Drive save date 2025-01-19. Years covered:
+      2016-2050.; Attachment: client/Longmont (CO) Client/2025 Paths Update/Archive/Longmont_data_2023.xlsx;
+      Format: .xlsx; Geographic Coverage: City of Longmont, Colorado; Date Last Updated:
+      2025-01-19; Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-21)"
+    edition:
+    target: data_point
+  dataset:
+    forecast_from: 2025
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - energy_carrier
+  - greenhouse_gases
+  - Year
+  updated_at: '1795523371'
   units:
     emission_factor: kg/MBtu
