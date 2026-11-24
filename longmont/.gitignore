@@ -87,3 +87,4 @@
 /vehicle_ch4_and_n2o_emission_factors.parquet
 /vehicle_electricity_use.parquet
 /vehicle_natural_gas_use.parquet
+/waste_landfilled.parquet

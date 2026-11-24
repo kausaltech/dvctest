@@ -1,0 +1,37 @@
+outs:
+- md5: b3e026e75da3f788e4898f4260aba0f3
+  size: 6811
+  hash: md5
+  path: waste_landfilled.parquet
+meta:
+  name:
+    en: Waste landfilled
+  identifier: longmont/waste_landfilled
+  metrics:
+  - id: waste_landfilled
+    column_id: waste_landfilled
+    quantity: mass
+    unit: ton/a
+    label:
+      en: waste_landfilled
+  sources:
+  - name: Longmont Paths model 2023 (origin not traced)
+    authority: Kausal
+    url:
+    description: 'A placeholder citation for values carried over from the first Longmont
+      Paths model (2023) whose source document has not been traced (docs/dataset-sources.md).
+      Each row says what is known about it. To be replaced by the real source when
+      one is found.; Date Last Updated: 2026-11-24; Updated by: Jouni Tuomisto (register
+      row drafted by Claude, 2026-11-24)'
+    edition:
+    target: data_point
+  dataset:
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - scope
+  - waste
+  - Year
+  updated_at: '1795526098'
+  units:
+    waste_landfilled: ton/a
