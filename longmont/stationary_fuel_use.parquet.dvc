@@ -1,14 +1,49 @@
 outs:
-- md5: 527319044dd76fd94cf0ece524394b98
-  size: 3779
+- md5: 8e0dc7f1c8092f2489db29d09a6f2ab8
+  size: 9130
+  hash: md5
   path: stationary_fuel_use.parquet
 meta:
   name:
     en: Stationary fuel use
-  identifier: stationary_fuel_use
+  identifier: longmont/stationary_fuel_use
   metrics:
   - id: energy
+    column_id: energy
+    quantity: energy
+    unit: gal/a
     label:
       en: Energy
+  sources:
+  - name: Longmont GHG modelling visualisations 2021
+    authority: City of Longmont (last saved by Francie Jaffe, 2023-01-26)
+    url:
+    description: 'An earlier visualisation workbook of the scenario model. A few values
+      match it, but none is traced to it with confidence; listed so that docs/dataset-sources.md
+      can name it. Sent by Francie Jaffe (City of Longmont); the date is when the
+      file was last saved, which approximates when Kausal received it. Years covered:
+      2016-2050.; Attachment: client/Longmont (CO) Client/KP material/GHGmodeling_Visualizations_2021.xlsx;
+      Format: .xlsx; Geographic Coverage: City of Longmont, Colorado; Date Last Updated:
+      2023-01-26; Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-21)'
+    edition:
+    target: data_point
+  - name: Longmont Paths model 2023 (origin not traced)
+    authority: Kausal
+    url:
+    description: 'A placeholder citation for values carried over from the first Longmont
+      Paths model (2023) whose source document has not been traced (docs/dataset-sources.md).
+      Each row says what is known about it. To be replaced by the real source when
+      one is found.; Date Last Updated: 2026-11-24; Updated by: Jouni Tuomisto (register
+      row drafted by Claude, 2026-11-24)'
+    edition:
+    target: data_point
+  dataset:
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - energy_carrier
+  - emission_sectors
+  - Year
+  updated_at: '1795523484'
   units:
     energy: gal/a
