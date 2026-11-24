@@ -1,26 +1,66 @@
 outs:
-- md5: 3116d2cfd586049c0d23bc78b0303491
-  size: 6632
+- md5: 0482f01e09fb5fca7a94f922db0c2a77
+  size: 13530
   hash: md5
   path: stationary_energy_consumption.parquet
 meta:
   name:
     en: Stationary energy consumption
-  identifier: stationary_energy_consumption
-  description:
-    en: 'electricity - Metric: Electricity - Energy carrier: Electricity - Emission
-      sectors: residential_energy - Site: Platte River Power Authority - Placeholder
-      data to be filled in by the city'
+  identifier: longmont/stationary_energy_consumption
   metrics:
-  - id: natural_gas
-    quantity: energy
-    label:
-      en: Natural gas
   - id: electricity
+    column_id: electricity
     quantity: energy
+    unit: kWh/a
     label:
       en: Electricity
-  updated_at: '1758964352'
+  sources:
+  - name: Longmont 2024 GHG Inventory, Paths working copy (Sep 2025)
+    authority: Kausal (working copy of the city workbook)
+    url:
+    description: "Kausal's working copy of the July 2025 version of the 2024 inventory
+      (jtt = Jouni Tuomisto). Its 'dataset' sheet holds values copied by hand from
+      the other sheets, in the Paths dataset format. It is a staging copy, never an
+      origin: cite the sheet that each value was copied from. Drive save date 2025-09-28.;
+      Attachment: client/Longmont (CO) Client/2025 Paths Update/DATA COLLECTION_Longmont_2024_GHG_Inventory_jtt.xlsx;
+      Format: .xlsx; Geographic Coverage: City of Longmont, Colorado; Date Last Updated:
+      2025-09-28; Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-21)"
+    edition:
+    target: data_point
+  - name: Longmont data 2023 (Kausal export)
+    authority: Kausal (export written by openpyxl)
+    url:
+    description: "An export of the 2023 model's data and parameters, in the template's
+      format. A staging copy, not an origin. Drive save date 2025-01-19. Years covered:
+      2016-2050.; Attachment: client/Longmont (CO) Client/2025 Paths Update/Archive/Longmont_data_2023.xlsx;
+      Format: .xlsx; Geographic Coverage: City of Longmont, Colorado; Date Last Updated:
+      2025-01-19; Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-21)"
+    edition:
+    target: data_point
+  - name: Longmont scenario model, Feb 2023 update
+    authority: City of Longmont (scenario workbook created by Nick Russell)
+    url:
+    description: 'The scenario model behind the first Paths model. It is the origin
+      of most action trajectories (fuel switching, vehicle incentives, waste diversion,
+      last-mile connections, renewables), the building floor areas and energy-use-intensity
+      improvements, the registered EVs, the vehicle miles per vehicle and the electricity
+      and gas use by utility. Sent by Francie Jaffe (City of Longmont); the date is
+      when the file was last saved, which approximates when Kausal received it. This
+      file is byte-identical to client/Longmont_Model_Feb 2023_Update_FINAL(2).xlsx.
+      Years covered: 2016-2050.; Attachment: client/Longmont (CO) Client/KP material/Longmont_Model_Feb
+      2023_Update_FINAL.xlsx; Format: .xlsx; Geographic Coverage: City of Longmont,
+      Colorado; Date Last Updated: 2023-09-12; Updated by: Jouni Tuomisto (register
+      row drafted by Claude, 2026-11-21)'
+    edition:
+    target: data_point
+  dataset:
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - energy_carrier
+  - emission_sectors
+  - site
+  - Year
+  updated_at: '1795525972'
   units:
-    natural_gas: thm/a
     electricity: kWh/a
