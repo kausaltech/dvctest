@@ -1,0 +1,44 @@
+outs:
+- md5: 0058b32d24d20908f8a4a64d73dbf252
+  size: 8180
+  hash: md5
+  path: landfill_gas_and_recycling_emission_factors.parquet
+meta:
+  name:
+    en: Landfill gas and recycling emission factors
+  identifier: longmont/landfill_gas_and_recycling_emission_factors
+  metrics:
+  - id: landfill_gas_collection
+    column_id: landfill_gas_collection
+    quantity: emission_factor
+    unit: t/ton
+    label:
+      en: landfill_gas_collection
+  - id: recycling_instead_of_virgin
+    column_id: recycling_instead_of_virgin
+    quantity: emission_factor
+    unit: t/ton
+    label:
+      en: recycling_instead_of_virgin
+  sources:
+  - name: Longmont Paths model 2023 (origin not traced)
+    authority: Kausal
+    url:
+    description: 'A placeholder citation for values carried over from the first Longmont
+      Paths model (2023) whose source document has not been traced (docs/dataset-sources.md).
+      Each row says what is known about it. To be replaced by the real source when
+      one is found.; Date Last Updated: 2026-11-24; Updated by: Jouni Tuomisto (register
+      row drafted by Claude, 2026-11-24)'
+    edition:
+    target: data_point
+  dataset:
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - ghg
+  - waste
+  - Year
+  updated_at: '1795525922'
+  units:
+    landfill_gas_collection: t/ton
+    recycling_instead_of_virgin: t/ton
