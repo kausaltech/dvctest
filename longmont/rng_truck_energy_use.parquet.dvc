@@ -1,17 +1,57 @@
 outs:
-- md5: 041783585cacd648e24e03850e36ef69
-  size: 4106
+- md5: ce4be44c2fc276f3252cf3dde0e58af7
+  size: 10414
   hash: md5
   path: rng_truck_energy_use.parquet
 meta:
   name:
     en: RNG truck energy use
-  identifier: rng_truck_energy_use
+  identifier: longmont/rng_truck_energy_use
   metrics:
-  - id: default
-    quantity: energy
+  - id: Value
+    column_id: Value
+    quantity: volume
+    unit: scf/a
     label:
       en: Value
-  updated_at: '1770807045'
+  sources:
+  - name: DATA COLLECTION_Longmont_2024_GHG_Inventory
+    authority: City of Longmont
+    url:
+    description: "A later version of the 2024 inventory (last saved 2025-07-27). It
+      has three sheets that the March 2025 SharePoint original lacks. 'On-Road Data_NEW'
+      is Francie's and authoritative: it is the origin of the 2024 VMT (Google EIE
+      trip distances) and the 2024 transport factors. 'datasets' is Kausal's (Jouni
+      Tuomisto): values copied by hand from the other sheets, not referenced, so it
+      is never an origin. 'Sheet1' is hidden; it holds VMT working (HPMS breakdown,
+      registered vehicles by type and fuel, vehicle MPG with sources), not primary
+      data. Migrated from kausal-paths/data/longmont on 2026-11-13.; Attachment: client/DATA
+      COLLECTION_Longmont_2024_GHG_Inventory.xlsx; Format: .xlsx; Date Last Updated:
+      2025-07-27"
+    edition:
+    target: data_point
+  - name: Longmont 2021 GHG Inventory (30 Jan 2023)
+    authority: City of Longmont (inventory workbook created by Julia Ferguson)
+    url:
+    description: 'The 2021 community inventory, with years back to 2016 on the Year
+      over Year sheet. Origin of the historical sector emissions (Year over Year),
+      the GWPs, the waste emission factors, the transit share and the 2021-era fuel
+      and vehicle factors. Sent by Francie Jaffe (City of Longmont); the date is when
+      the file was last saved, which approximates when Kausal received it. A second
+      copy with the same name but different bytes is at the top of the Drive folder
+      (saved 2023-02-10). Years covered: 2016-2021.; Attachment: client/Longmont (CO)
+      Client/KP material/FINAL_Longmont_2021_GHG_Inventory_01302023.xlsx; Format:
+      .xlsx; Geographic Coverage: City of Longmont, Colorado; Date Last Updated: 2023-03-16;
+      Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-21)'
+    edition:
+    target: data_point
+  dataset:
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - vehicle_type
+  - energy_carrier
+  - Year
+  updated_at: '1795523471'
   units:
     Value: scf/a
