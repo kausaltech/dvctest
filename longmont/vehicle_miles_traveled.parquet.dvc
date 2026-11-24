@@ -1,17 +1,42 @@
 outs:
-- md5: 49490e73ecfbb0bba2998d091e45bcd8
-  size: 4410
+- md5: c6189c8818f5775f87dcee641e1f40ac
+  size: 9531
   hash: md5
   path: vehicle_miles_traveled.parquet
 meta:
   name:
     en: Vehicle miles traveled
-  identifier: vehicle_miles_traveled
+  identifier: longmont/vehicle_miles_traveled
   metrics:
-  - id: default
+  - id: Value
+    column_id: Value
     quantity: mileage
+    unit: vehicle_miles_traveled/a
     label:
       en: Value
-  updated_at: '1764575668'
+  sources:
+  - name: DATA COLLECTION_Longmont_2024_GHG_Inventory
+    authority: City of Longmont
+    url:
+    description: "A later version of the 2024 inventory (last saved 2025-07-27). It
+      has three sheets that the March 2025 SharePoint original lacks. 'On-Road Data_NEW'
+      is Francie's and authoritative: it is the origin of the 2024 VMT (Google EIE
+      trip distances) and the 2024 transport factors. 'datasets' is Kausal's (Jouni
+      Tuomisto): values copied by hand from the other sheets, not referenced, so it
+      is never an origin. 'Sheet1' is hidden; it holds VMT working (HPMS breakdown,
+      registered vehicles by type and fuel, vehicle MPG with sources), not primary
+      data. Migrated from kausal-paths/data/longmont on 2026-11-13.; Attachment: client/DATA
+      COLLECTION_Longmont_2024_GHG_Inventory.xlsx; Format: .xlsx; Date Last Updated:
+      2025-07-27"
+    edition:
+    target: data_point
+  dataset:
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - vehicle_type
+  - energy_carrier
+  - Year
+  updated_at: '1795523547'
   units:
     Value: VMT/a
