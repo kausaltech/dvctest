@@ -1,6 +1,6 @@
 outs:
-- md5: d27dfce02243aa83451f55bb7cdf7ef9
-  size: 27803
+- md5: 0d58110633651bce0bc9d552babaeec8
+  size: 28249
   hash: md5
   path: energy_vehicle_and_waste_actions.parquet
 meta:
@@ -8,72 +8,72 @@ meta:
     en: Energy, vehicle and waste actions
   identifier: longmont/energy_vehicle_and_waste_actions
   metrics:
-  - id: leak_detection
-    column_id: leak_detection
-    quantity: emissions
-    unit: t/a
-    label:
-      en: Leak detection
-  - id: increase_waste_diversion
-    column_id: increase_waste_diversion
-    quantity: fraction
-    unit: '%'
-    label:
-      en: Increase waste diversion
-  - id: replace_natural_gas_residential
-    column_id: replace_natural_gas_residential
-    quantity: energy
-    unit: kthm/a
-    label:
-      en: Replace natural gas residential
-  - id: reduce_transmission_distribution_losses
-    column_id: reduce_transmission_distribution_losses
-    quantity: fraction
-    unit: '%'
-    label:
-      en: Reduce transmission distribution losses
-  - id: vehicle_incentives
-    column_id: vehicle_incentives
-    quantity: number
-    unit: v
-    label:
-      en: Vehicle incentives
-  - id: multimodal_transportation_system
-    column_id: multimodal_transportation_system
-    quantity: fraction
-    unit: '%'
-    label:
-      en: Multimodal transportation system
-  - id: longmont_power_renewables_additional
-    column_id: longmont_power_renewables_additional
-    quantity: emission_factor
-    unit: t/MWh
-    label:
-      en: Longmont power renewables additional
-  - id: increase_access_of_public_transit
-    column_id: increase_access_of_public_transit
-    quantity: number
-    unit: p/cap/a
-    label:
-      en: Increase access of public transit
-  - id: longmont_power_renewables
-    column_id: longmont_power_renewables
-    quantity: emission_factor
-    unit: t/MWh
-    label:
-      en: Longmont power renewables
   - id: replace_natural_gas_commercial
     column_id: replace_natural_gas_commercial
     quantity: energy
     unit: kthm/a
     label:
       en: Replace natural gas commercial
+  - id: leak_detection
+    column_id: leak_detection
+    quantity: emissions
+    unit: t/a
+    label:
+      en: Leak detection
+  - id: longmont_power_renewables
+    column_id: longmont_power_renewables
+    quantity: emission_factor
+    unit: t/MWh
+    label:
+      en: Longmont power renewables
+  - id: vehicle_incentives
+    column_id: vehicle_incentives
+    quantity: number
+    unit: v
+    label:
+      en: Vehicle incentives
+  - id: longmont_power_renewables_additional
+    column_id: longmont_power_renewables_additional
+    quantity: emission_factor
+    unit: t/MWh
+    label:
+      en: Longmont power renewables additional
   - id: efficiency_works_program
     column_id: efficiency_works_program
     quantity: fraction
     unit: '%'
     label:
       en: Efficiency works program
+  - id: reduce_transmission_distribution_losses
+    column_id: reduce_transmission_distribution_losses
+    quantity: fraction
+    unit: '%'
+    label:
+      en: Reduce transmission distribution losses
+  - id: replace_natural_gas_residential
+    column_id: replace_natural_gas_residential
+    quantity: energy
+    unit: kthm/a
+    label:
+      en: Replace natural gas residential
+  - id: increase_waste_diversion
+    column_id: increase_waste_diversion
+    quantity: fraction
+    unit: '%'
+    label:
+      en: Increase waste diversion
+  - id: increase_access_of_public_transit
+    column_id: increase_access_of_public_transit
+    quantity: number
+    unit: p/cap/a
+    label:
+      en: Increase access of public transit
+  - id: multimodal_transportation_system
+    column_id: multimodal_transportation_system
+    quantity: fraction
+    unit: '%'
+    label:
+      en: Multimodal transportation system
   sources:
   - name: Kausal Paths Updates (Nov 2026)
     authority: City of Longmont (Francie Kirkjaffe, last saved 2026-11-05)
@@ -122,16 +122,16 @@ meta:
   index_columns:
   - action_scenario
   - Year
-  updated_at: '1795449316'
+  updated_at: '1795515309'
   units:
-    replace_natural_gas_residential: kthm/a
-    increase_access_of_public_transit: p/cap/a
-    longmont_power_renewables_additional: t/MWh
     reduce_transmission_distribution_losses: '%'
-    efficiency_works_program: '%'
-    increase_waste_diversion: '%'
-    leak_detection: t/a
-    vehicle_incentives: v
-    longmont_power_renewables: t/MWh
     replace_natural_gas_commercial: kthm/a
+    efficiency_works_program: '%'
+    leak_detection: t/a
+    longmont_power_renewables: t/MWh
+    replace_natural_gas_residential: kthm/a
     multimodal_transportation_system: '%'
+    longmont_power_renewables_additional: t/MWh
+    increase_waste_diversion: '%'
+    vehicle_incentives: v
+    increase_access_of_public_transit: p/cap/a
