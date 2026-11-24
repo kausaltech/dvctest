@@ -1,17 +1,54 @@
 outs:
-- md5: 1576b1f80014efc82ee07ed880ec0104
-  size: 2938
+- md5: 4682b5fb608c9b518c7e49d2a3d63955
+  size: 9489
   hash: md5
   path: population.parquet
 meta:
   name:
     en: Population
-  identifier: population
+  identifier: longmont/population
   metrics:
   - id: population
+    column_id: population
     quantity: population
+    unit: cap
     label:
       en: population
-  updated_at: '1753620807'
+  sources:
+  - name: Kausal Paths Updates (Nov 2026)
+    authority: City of Longmont (Francie Kirkjaffe, last saved 2026-11-05)
+    url:
+    description: "Francie's proposed dataset values for the 2026 update, for both
+      scenarios; yellow cells are new. Its Databases sheet also repeats many of the
+      model's current values. Sent by Francie Jaffe (City of Longmont); the date is
+      when the file was last saved, which approximates when Kausal received it. Years
+      covered: 2016-2050.; Attachment: client/OneDrive_1_21-11-2026/Kausal Paths Updates.xlsx;
+      Format: .xlsx; Geographic Coverage: City of Longmont, Colorado; Date Last Updated:
+      2026-11-05; Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-21)"
+    edition:
+    target: data_point
+  - name: Longmont scenario model, Feb 2023 update
+    authority: City of Longmont (scenario workbook created by Nick Russell)
+    url:
+    description: 'The scenario model behind the first Paths model. It is the origin
+      of most action trajectories (fuel switching, vehicle incentives, waste diversion,
+      last-mile connections, renewables), the building floor areas and energy-use-intensity
+      improvements, the registered EVs, the vehicle miles per vehicle and the electricity
+      and gas use by utility. Sent by Francie Jaffe (City of Longmont); the date is
+      when the file was last saved, which approximates when Kausal received it. This
+      file is byte-identical to client/Longmont_Model_Feb 2023_Update_FINAL(2).xlsx.
+      Years covered: 2016-2050.; Attachment: client/Longmont (CO) Client/KP material/Longmont_Model_Feb
+      2023_Update_FINAL.xlsx; Format: .xlsx; Geographic Coverage: City of Longmont,
+      Colorado; Date Last Updated: 2023-09-12; Updated by: Jouni Tuomisto (register
+      row drafted by Claude, 2026-11-21)'
+    edition:
+    target: data_point
+  dataset:
+    forecast_from: 2025
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - Year
+  updated_at: '1795523446'
   units:
     population: cap
