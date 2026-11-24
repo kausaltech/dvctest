@@ -79,3 +79,4 @@
 /amount_of_refrigerant.parquet
 /aviation_fuel_emission_factors.parquet
 /composting_emission_factors.parquet
+/informational_composting_emission_factor.parquet
