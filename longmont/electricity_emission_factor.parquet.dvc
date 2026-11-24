@@ -1,17 +1,68 @@
 outs:
-- md5: 643b9d27b1ac6906a571ebf50a8ad70f
-  size: 4152
+- md5: 229244c20a671de5eca08c9de460940d
+  size: 12855
   hash: md5
   path: electricity_emission_factor.parquet
 meta:
   name:
     en: Electricity emission factor
-  identifier: electricity_emission_factor
+  identifier: longmont/electricity_emission_factor
   metrics:
-  - id: default
+  - id: emission_factor
+    column_id: emission_factor
     quantity: emission_factor
+    unit: t/MWh
     label:
-      en: Value
-  updated_at: '1768622274'
+      en: Emission factor
+  sources:
+  - name: Longmont 2024 GHG Inventory, Paths working copy (Sep 2025)
+    authority: Kausal (working copy of the city workbook)
+    url:
+    description: "Kausal's working copy of the July 2025 version of the 2024 inventory
+      (jtt = Jouni Tuomisto). Its 'dataset' sheet holds values copied by hand from
+      the other sheets, in the Paths dataset format. It is a staging copy, never an
+      origin: cite the sheet that each value was copied from. Drive save date 2025-09-28.;
+      Attachment: client/Longmont (CO) Client/2025 Paths Update/DATA COLLECTION_Longmont_2024_GHG_Inventory_jtt.xlsx;
+      Format: .xlsx; Geographic Coverage: City of Longmont, Colorado; Date Last Updated:
+      2025-09-28; Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-21)"
+    edition:
+    target: data_point
+  - name: Longmont scenario model, Feb 2023 update
+    authority: City of Longmont (scenario workbook created by Nick Russell)
+    url:
+    description: 'The scenario model behind the first Paths model. It is the origin
+      of most action trajectories (fuel switching, vehicle incentives, waste diversion,
+      last-mile connections, renewables), the building floor areas and energy-use-intensity
+      improvements, the registered EVs, the vehicle miles per vehicle and the electricity
+      and gas use by utility. Sent by Francie Jaffe (City of Longmont); the date is
+      when the file was last saved, which approximates when Kausal received it. This
+      file is byte-identical to client/Longmont_Model_Feb 2023_Update_FINAL(2).xlsx.
+      Years covered: 2016-2050.; Attachment: client/Longmont (CO) Client/KP material/Longmont_Model_Feb
+      2023_Update_FINAL.xlsx; Format: .xlsx; Geographic Coverage: City of Longmont,
+      Colorado; Date Last Updated: 2023-09-12; Updated by: Jouni Tuomisto (register
+      row drafted by Claude, 2026-11-21)'
+    edition:
+    target: data_point
+  - name: Longmont scenario model, March 2026 (S1 target based, S2 action based)
+    authority: City of Longmont / Parametrix (last saved by Francie Kirkjaffe, 
+      2026-11-05)
+    url:
+    description: 'The updated scenario model, with S1 the target-based and S2 the
+      action-based scenario. The reference for the 2026 update. Sent by Francie Jaffe
+      (City of Longmont); the date is when the file was last saved, which approximates
+      when Kausal received it. Years covered: 2016-2050.; Attachment: client/OneDrive_1_21-11-2026/Longmont_Model_March_2026_final
+      V3_copy.xlsx; Format: .xlsx; Geographic Coverage: City of Longmont, Colorado;
+      Date Last Updated: 2026-11-05; Updated by: Jouni Tuomisto (register row drafted
+      by Claude, 2026-11-21)'
+    edition:
+    target: data_point
+  dataset:
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - ghg
+  - site
+  - Year
+  updated_at: '1795523335'
   units:
-    Value: t/MWh
+    emission_factor: t/MWh
