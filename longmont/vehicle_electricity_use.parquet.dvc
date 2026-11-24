@@ -1,0 +1,42 @@
+outs:
+- md5: 321a235f2b9d8a98c41cb2c0bbf0f60a
+  size: 7983
+  hash: md5
+  path: vehicle_electricity_use.parquet
+meta:
+  name:
+    en: Vehicle electricity use
+  identifier: longmont/vehicle_electricity_use
+  metrics:
+  - id: electricity_use
+    column_id: electricity_use
+    quantity: energy_factor
+    unit: kWh/mi/v
+    label:
+      en: Electricity use
+  sources:
+  - name: DATA COLLECTION_Longmont_2024_GHG_Inventory
+    authority: City of Longmont
+    url:
+    description: "A later version of the 2024 inventory (last saved 2025-07-27). It
+      has three sheets that the March 2025 SharePoint original lacks. 'On-Road Data_NEW'
+      is Francie's and authoritative: it is the origin of the 2024 VMT (Google EIE
+      trip distances) and the 2024 transport factors. 'datasets' is Kausal's (Jouni
+      Tuomisto): values copied by hand from the other sheets, not referenced, so it
+      is never an origin. 'Sheet1' is hidden; it holds VMT working (HPMS breakdown,
+      registered vehicles by type and fuel, vehicle MPG with sources), not primary
+      data. Migrated from kausal-paths/data/longmont on 2026-11-13.; Attachment: client/DATA
+      COLLECTION_Longmont_2024_GHG_Inventory.xlsx; Format: .xlsx; Date Last Updated:
+      2025-07-27"
+    edition:
+    target: data_point
+  dataset:
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - vehicle_type
+  - energy_carrier
+  - Year
+  updated_at: '1795526036'
+  units:
+    electricity_use: kWh/mi/v
