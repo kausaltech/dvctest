@@ -81,3 +81,4 @@
 /composting_emission_factors.parquet
 /informational_composting_emission_factor.parquet
 /landfill_gas_and_recycling_emission_factors.parquet
+/natural_gas_composition.parquet
