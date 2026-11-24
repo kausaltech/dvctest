@@ -1,6 +1,6 @@
 outs:
-- md5: 7c3fae31a6fe940d9d78986c9f3662b6
-  size: 9929
+- md5: 169165eedc5bb4b2c882ce871ca2eef3
+  size: 13060
   hash: md5
   path: building_energy_use_intensity_eui.parquet
 meta:
@@ -8,22 +8,43 @@ meta:
     en: Building energy use intensity eui
   identifier: longmont/building_energy_use_intensity_eui
   metrics:
-  - id: natural_gas
-    column_id: natural_gas
-    quantity: consumption_factor
-    unit: thm/ft²/a
-    label:
-      en: Natural gas
   - id: electricity
     column_id: electricity
     quantity: consumption_factor
     unit: kWh/ft²/a
     label:
       en: Electricity
+  - id: natural_gas
+    column_id: natural_gas
+    quantity: consumption_factor
+    unit: thm/ft²/a
+    label:
+      en: Natural gas
+  sources:
+  - name: Longmont scenario model, Feb 2023 update
+    authority: City of Longmont (scenario workbook created by Nick Russell)
+    url:
+    description: 'The scenario model behind the first Paths model. It is the origin
+      of most action trajectories (fuel switching, vehicle incentives, waste diversion,
+      last-mile connections, renewables), the building floor areas and energy-use-intensity
+      improvements, the registered EVs, the vehicle miles per vehicle and the electricity
+      and gas use by utility. Sent by Francie Jaffe (City of Longmont); the date is
+      when the file was last saved, which approximates when Kausal received it. This
+      file is byte-identical to client/Longmont_Model_Feb 2023_Update_FINAL(2).xlsx.
+      Years covered: 2016-2050.; Attachment: client/Longmont (CO) Client/KP material/Longmont_Model_Feb
+      2023_Update_FINAL.xlsx; Format: .xlsx; Geographic Coverage: City of Longmont,
+      Colorado; Date Last Updated: 2023-09-12; Updated by: Jouni Tuomisto (register
+      row drafted by Claude, 2026-11-21)'
+    edition:
+    target: data_point
+  dataset:
+    forecast_from: 2025
+    time_resolution: yearly
+    is_editable: true
   index_columns:
   - emission_sectors
   - Year
-  updated_at: '1786111705'
+  updated_at: '1795523311'
   units:
-    electricity: kWh/ft**2/a
-    natural_gas: thm/ft**2/a
+    natural_gas: thm/ft²/a
+    electricity: kWh/ft²/a
