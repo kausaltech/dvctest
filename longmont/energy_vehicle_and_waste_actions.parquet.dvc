@@ -1,6 +1,6 @@
 outs:
-- md5: 0d58110633651bce0bc9d552babaeec8
-  size: 28249
+- md5: d58bf3500fcf2c447b4648d174a32c42
+  size: 29488
   hash: md5
   path: energy_vehicle_and_waste_actions.parquet
 meta:
@@ -8,30 +8,18 @@ meta:
     en: Energy, vehicle and waste actions
   identifier: longmont/energy_vehicle_and_waste_actions
   metrics:
-  - id: replace_natural_gas_commercial
-    column_id: replace_natural_gas_commercial
-    quantity: energy
-    unit: kthm/a
-    label:
-      en: Replace natural gas commercial
   - id: leak_detection
     column_id: leak_detection
     quantity: emissions
     unit: t/a
     label:
       en: Leak detection
-  - id: longmont_power_renewables
-    column_id: longmont_power_renewables
-    quantity: emission_factor
-    unit: t/MWh
+  - id: increase_waste_diversion
+    column_id: increase_waste_diversion
+    quantity: fraction
+    unit: '%'
     label:
-      en: Longmont power renewables
-  - id: vehicle_incentives
-    column_id: vehicle_incentives
-    quantity: number
-    unit: v
-    label:
-      en: Vehicle incentives
+      en: Increase waste diversion
   - id: longmont_power_renewables_additional
     column_id: longmont_power_renewables_additional
     quantity: emission_factor
@@ -44,24 +32,12 @@ meta:
     unit: '%'
     label:
       en: Efficiency works program
-  - id: reduce_transmission_distribution_losses
-    column_id: reduce_transmission_distribution_losses
-    quantity: fraction
-    unit: '%'
+  - id: vehicle_incentives
+    column_id: vehicle_incentives
+    quantity: number
+    unit: v
     label:
-      en: Reduce transmission distribution losses
-  - id: replace_natural_gas_residential
-    column_id: replace_natural_gas_residential
-    quantity: energy
-    unit: kthm/a
-    label:
-      en: Replace natural gas residential
-  - id: increase_waste_diversion
-    column_id: increase_waste_diversion
-    quantity: fraction
-    unit: '%'
-    label:
-      en: Increase waste diversion
+      en: Vehicle incentives
   - id: increase_access_of_public_transit
     column_id: increase_access_of_public_transit
     quantity: number
@@ -74,6 +50,30 @@ meta:
     unit: '%'
     label:
       en: Multimodal transportation system
+  - id: replace_natural_gas_residential
+    column_id: replace_natural_gas_residential
+    quantity: energy
+    unit: kthm/a
+    label:
+      en: Replace natural gas residential
+  - id: reduce_transmission_distribution_losses
+    column_id: reduce_transmission_distribution_losses
+    quantity: fraction
+    unit: '%'
+    label:
+      en: Reduce transmission distribution losses
+  - id: longmont_power_renewables
+    column_id: longmont_power_renewables
+    quantity: emission_factor
+    unit: t/MWh
+    label:
+      en: Longmont power renewables
+  - id: replace_natural_gas_commercial
+    column_id: replace_natural_gas_commercial
+    quantity: energy
+    unit: kthm/a
+    label:
+      en: Replace natural gas commercial
   sources:
   - name: Kausal Paths Updates (Nov 2026)
     authority: City of Longmont (Francie Kirkjaffe, last saved 2026-11-05)
@@ -99,6 +99,16 @@ meta:
       2025-09-28; Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-21)"
     edition:
     target: data_point
+  - name: Longmont Paths model 2023 (origin not traced)
+    authority: Kausal
+    url:
+    description: 'A placeholder citation for values carried over from the first Longmont
+      Paths model (2023) whose source document has not been traced (docs/dataset-sources.md).
+      Each row says what is known about it. To be replaced by the real source when
+      one is found.; Date Last Updated: 2026-11-24; Updated by: Jouni Tuomisto (register
+      row drafted by Claude, 2026-11-24)'
+    edition:
+    target: data_point
   - name: Longmont scenario model, Feb 2023 update
     authority: City of Longmont (scenario workbook created by Nick Russell)
     url:
@@ -122,16 +132,16 @@ meta:
   index_columns:
   - action_scenario
   - Year
-  updated_at: '1795515309'
+  updated_at: '1795530623'
   units:
-    reduce_transmission_distribution_losses: '%'
+    longmont_power_renewables: t/MWh
+    multimodal_transportation_system: '%'
+    leak_detection: t/a
+    longmont_power_renewables_additional: t/MWh
     replace_natural_gas_commercial: kthm/a
     efficiency_works_program: '%'
-    leak_detection: t/a
-    longmont_power_renewables: t/MWh
-    replace_natural_gas_residential: kthm/a
-    multimodal_transportation_system: '%'
-    longmont_power_renewables_additional: t/MWh
-    increase_waste_diversion: '%'
-    vehicle_incentives: v
     increase_access_of_public_transit: p/cap/a
+    replace_natural_gas_residential: kthm/a
+    vehicle_incentives: v
+    reduce_transmission_distribution_losses: '%'
+    increase_waste_diversion: '%'
