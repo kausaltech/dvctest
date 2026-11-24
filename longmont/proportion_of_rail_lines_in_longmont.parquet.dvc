@@ -1,0 +1,40 @@
+outs:
+- md5: 6d418a0da39e30a6c2a2822902935dcb
+  size: 6863
+  hash: md5
+  path: proportion_of_rail_lines_in_longmont.parquet
+meta:
+  name:
+    en: Proportion of rail lines in Longmont
+  identifier: longmont/proportion_of_rail_lines_in_longmont
+  metrics:
+  - id: proportion_of_rail_lines_in_longmont
+    column_id: proportion_of_rail_lines_in_longmont
+    quantity: fraction
+    unit: '%'
+    label:
+      en: proportion_of_rail_lines_in_longmont
+  sources:
+  - name: Longmont 2024 GHG Inventory (city original, March 2025)
+    authority: City of Longmont (last saved by Francie Jaffe, 2025-03-25)
+    url:
+    description: "The 2024 community inventory as it was on the city's SharePoint,
+      without the sheets added later for Paths. It is the original for the 2024 values:
+      stationary energy, aviation, transit, railways, waste and recycling, IPPU and
+      the GWPs. Sent by Francie Jaffe (City of Longmont); the date is when the file
+      was last saved, which approximates when Kausal received it. Years covered: 2016-2024.;
+      Attachment: client/Longmont (CO) Client/2025 Paths Update/From Longmont_s Sharepoint
+      Folder 020242025/DATA COLLECTION_Longmont_2024_GHG_Inventory.xlsx; Format: .xlsx;
+      Geographic Coverage: City of Longmont, Colorado; Date Last Updated: 2025-03-25;
+      Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-21)"
+    edition:
+    target: data_point
+  dataset:
+    forecast_from: 2025
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - Year
+  updated_at: '1795525947'
+  units:
+    proportion_of_rail_lines_in_longmont: '%'
