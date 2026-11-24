@@ -1,39 +1,58 @@
 outs:
-- md5: 1723f3feb263d202b4012179b2e9a384
-  size: 8502
+- md5: adae4ce4faf46f87e16718bcb11a6bf1
+  size: 11063
   hash: md5
   path: transportation_energy_factors.parquet
 meta:
   name:
     en: Transportation energy factors
-  identifier: transportation_energy_factors
-  description:
-    en: 'Miles per gallon - Vehicle Type: Motorcycle - Energy carrier: Diesel - Metric:
-      Miles per gallon - Have not collected this data as its always been 0.<br/>Miles
-      per gallon - Vehicle Type: Motorcycle - Energy carrier: Natural Gas - Metric:
-      Miles per gallon - Have not collected this data as its always been 0.<br/>Miles
-      per gallon - Vehicle Type: Passenger Car - Energy carrier: Plug-in hybrid EV
-      - Metric: Miles per gallon - Gas use from hybrid vehicles was not factored in
-      from 2016 through 2024, that was something I added in 2024.<br/>Miles per gallon
-      - Vehicle Type: Passenger Car - Energy carrier: Natural gas - Metric: Miles
-      per gallon - Have not collected this data as its always been 0.<br/>Miles per
-      gallon - Vehicle Type: Light Duty - Energy carrier: Natural Gas - Metric: Miles
-      per gallon - Have not collected this data as its always been 0.'
+  identifier: longmont/transportation_energy_factors
   metrics:
-  - id: natural_gas_use
-    quantity: energy_factor
-    label:
-      en: Natural gas use
   - id: miles_per_gallon
+    column_id: miles_per_gallon
     quantity: energy_factor
+    unit: miles_per_gallon
     label:
       en: Miles per gallon
-  - id: electricity_use
-    quantity: energy_factor
-    label:
-      en: Electricity use
-  updated_at: '1770725546'
+  sources:
+  - name: Longmont 2021 GHG Inventory (30 Jan 2023)
+    authority: City of Longmont (inventory workbook created by Julia Ferguson)
+    url:
+    description: 'The 2021 community inventory, with years back to 2016 on the Year
+      over Year sheet. Origin of the historical sector emissions (Year over Year),
+      the GWPs, the waste emission factors, the transit share and the 2021-era fuel
+      and vehicle factors. Sent by Francie Jaffe (City of Longmont); the date is when
+      the file was last saved, which approximates when Kausal received it. A second
+      copy with the same name but different bytes is at the top of the Drive folder
+      (saved 2023-02-10). Years covered: 2016-2021.; Attachment: client/Longmont (CO)
+      Client/KP material/FINAL_Longmont_2021_GHG_Inventory_01302023.xlsx; Format:
+      .xlsx; Geographic Coverage: City of Longmont, Colorado; Date Last Updated: 2023-03-16;
+      Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-21)'
+    edition:
+    target: data_point
+  - name: Longmont scenario model, Feb 2023 update
+    authority: City of Longmont (scenario workbook created by Nick Russell)
+    url:
+    description: 'The scenario model behind the first Paths model. It is the origin
+      of most action trajectories (fuel switching, vehicle incentives, waste diversion,
+      last-mile connections, renewables), the building floor areas and energy-use-intensity
+      improvements, the registered EVs, the vehicle miles per vehicle and the electricity
+      and gas use by utility. Sent by Francie Jaffe (City of Longmont); the date is
+      when the file was last saved, which approximates when Kausal received it. This
+      file is byte-identical to client/Longmont_Model_Feb 2023_Update_FINAL(2).xlsx.
+      Years covered: 2016-2050.; Attachment: client/Longmont (CO) Client/KP material/Longmont_Model_Feb
+      2023_Update_FINAL.xlsx; Format: .xlsx; Geographic Coverage: City of Longmont,
+      Colorado; Date Last Updated: 2023-09-12; Updated by: Jouni Tuomisto (register
+      row drafted by Claude, 2026-11-21)'
+    edition:
+    target: data_point
+  dataset:
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - vehicle_type
+  - energy_carrier
+  - Year
+  updated_at: '1795526011'
   units:
-    Natural gas use: scf/(vehicle*mile)
-    Electricity use: kWh/(vehicle*mile)
-    Miles per gallon: MPG
+    miles_per_gallon: miles_per_gallon
