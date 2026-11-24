@@ -1,17 +1,37 @@
 outs:
-- md5: 8b1565d5c02c8d89afb0c0b76706e63a
-  size: 4013
+- md5: 4974b103bf3854c3d390a43ee539a1c8
+  size: 6899
   hash: md5
   path: phev_fuel_shares.parquet
 meta:
   name:
     en: PHEV fuel shares
-  identifier: phev_fuel_shares
+  identifier: longmont/phev_fuel_shares
   metrics:
-  - id: default
+  - id: Value
+    column_id: Value
     quantity: fraction
+    unit: '%'
     label:
       en: Value
-  updated_at: '1770829106'
+  sources:
+  - name: Longmont Paths model 2023 (origin not traced)
+    authority: Kausal
+    url:
+    description: 'A placeholder citation for values carried over from the first Longmont
+      Paths model (2023) whose source document has not been traced (docs/dataset-sources.md).
+      Each row says what is known about it. To be replaced by the real source when
+      one is found.; Date Last Updated: 2026-11-24; Updated by: Jouni Tuomisto (register
+      row drafted by Claude, 2026-11-24)'
+    edition:
+    target: data_point
+  dataset:
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - vehicle_type
+  - energy_carrier
+  - Year
+  updated_at: '1795523433'
   units:
     Value: '%'
