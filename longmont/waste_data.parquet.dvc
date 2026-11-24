@@ -1,41 +1,43 @@
 outs:
-- md5: d5354c27d6adfb6483cbbce6b1726f1c
-  size: 7671
+- md5: 07fbbb08ee7fef5ba52c8ed45bce42f2
+  size: 7254
   hash: md5
   path: waste_data.parquet
 meta:
   name:
     en: Waste data
-  identifier: waste_data
-  description:
-    en: "waste_landfilled - Scope: scope1 - Waste: MSW - 2) MSW composition is based
-      on Boulder County's 2021 waste characterization study ---- Boulder County is
-      doing a new study in 2024, but it will not be ready by May or June."
+  identifier: longmont/waste_data
   metrics:
-  - id: oxidizing_factor
-    quantity: fraction
-    label:
-      en: oxidizing_factor
-  - id: waste_landfilled
-    quantity: mass
-    label:
-      en: waste_landfilled
-  - id: waste_recycled
-    quantity: mass
-    label:
-      en: waste_recycled
   - id: waste_composted
+    column_id: waste_composted
     quantity: mass
+    unit: ton/a
     label:
       en: waste_composted
-  - id: gas_collection_rate
-    quantity: fraction
+  - id: waste_recycled
+    column_id: waste_recycled
+    quantity: mass
+    unit: ton/a
     label:
-      en: gas_collection_rate
-  updated_at: '1753629224'
+      en: waste_recycled
+  sources:
+  - name: Longmont Paths model 2023 (origin not traced)
+    authority: Kausal
+    url:
+    description: 'A placeholder citation for values carried over from the first Longmont
+      Paths model (2023) whose source document has not been traced (docs/dataset-sources.md).
+      Each row says what is known about it. To be replaced by the real source when
+      one is found.; Date Last Updated: 2026-11-24; Updated by: Jouni Tuomisto (register
+      row drafted by Claude, 2026-11-24)'
+    edition:
+    target: data_point
+  dataset:
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - scope
+  - Year
+  updated_at: '1795526072'
   units:
-    waste_composted: short_ton/a
-    waste_landfilled: short_ton/a
-    oxidizing_factor: dimensionless
-    gas_collection_rate: dimensionless
-    waste_recycled: short_ton/a
+    waste_composted: ton/a
+    waste_recycled: ton/a
