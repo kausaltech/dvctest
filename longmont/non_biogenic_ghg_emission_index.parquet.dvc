@@ -1,17 +1,36 @@
 outs:
-- md5: 325ddd89ca8e4c7cece7a150d847dc7e
-  size: 3341
+- md5: 31b5c5ec09add502dc5e25d99e8ca580
+  size: 5833
   hash: md5
   path: non_biogenic_ghg_emission_index.parquet
 meta:
   name:
     en: Non-biogenic ghg emission index
-  identifier: non_biogenic_ghg_emission_index
+  identifier: longmont/non_biogenic_ghg_emission_index
   metrics:
-  - id: default
-    quantity: fraction
+  - id: Value
+    column_id: Value
+    quantity: ratio
+    unit: ''
     label:
       en: Value
-  updated_at: '1768877906'
+  sources:
+  - name: Kausal model constants
+    authority: Kausal
+    url:
+    description: 'Structural constants of the Paths model, set by Kausal when the
+      model was built: identity indices between dimensions and technical ratios. They
+      are part of the model, not data from a document.; Date Last Updated: 2026-11-24;
+      Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-24)'
+    edition:
+    target: data_point
+  dataset:
+    forecast_from: 2025
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - ghg
+  - Year
+  updated_at: '1795523421'
   units:
     Value: dimensionless
