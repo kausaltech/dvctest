@@ -1,6 +1,6 @@
 outs:
-- md5: 267a235565f96e34acbfa84814c6ef66
-  size: 8381
+- md5: e542042529b6bc8123c9f7d0a907530c
+  size: 14150
   hash: md5
   path: transmission_and_distribution_loss.parquet
 meta:
@@ -14,10 +14,43 @@ meta:
     unit: '%'
     label:
       en: Fraction
+  sources:
+  - name: Longmont 2021 GHG Inventory (30 Jan 2023)
+    authority: City of Longmont (inventory workbook created by Julia Ferguson)
+    url:
+    description: 'The 2021 community inventory, with years back to 2016 on the Year
+      over Year sheet. Origin of the historical sector emissions (Year over Year),
+      the GWPs, the waste emission factors, the transit share and the 2021-era fuel
+      and vehicle factors. Sent by Francie Jaffe (City of Longmont); the date is when
+      the file was last saved, which approximates when Kausal received it. A second
+      copy with the same name but different bytes is at the top of the Drive folder
+      (saved 2023-02-10). Years covered: 2016-2021.; Attachment: client/Longmont (CO)
+      Client/KP material/FINAL_Longmont_2021_GHG_Inventory_01302023.xlsx; Format:
+      .xlsx; Geographic Coverage: City of Longmont, Colorado; Date Last Updated: 2023-03-16;
+      Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-21)'
+    edition:
+    target: data_point
+  - name: Longmont 2024 GHG Inventory (city original, March 2025)
+    authority: City of Longmont (last saved by Francie Jaffe, 2025-03-25)
+    url:
+    description: "The 2024 community inventory as it was on the city's SharePoint,
+      without the sheets added later for Paths. It is the original for the 2024 values:
+      stationary energy, aviation, transit, railways, waste and recycling, IPPU and
+      the GWPs. Sent by Francie Jaffe (City of Longmont); the date is when the file
+      was last saved, which approximates when Kausal received it. Years covered: 2016-2024.;
+      Attachment: client/Longmont (CO) Client/2025 Paths Update/From Longmont_s Sharepoint
+      Folder 020242025/DATA COLLECTION_Longmont_2024_GHG_Inventory.xlsx; Format: .xlsx;
+      Geographic Coverage: City of Longmont, Colorado; Date Last Updated: 2025-03-25;
+      Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-21)"
+    edition:
+    target: data_point
+  dataset:
+    time_resolution: yearly
+    is_editable: true
   index_columns:
   - energy_carrier
   - site
   - Year
-  updated_at: '1786110909'
+  updated_at: '1795523534'
   units:
     fraction: '%'
