@@ -1,0 +1,36 @@
+outs:
+- md5: f1825b6ec2bbcaf54283d7fcdb31f452
+  size: 6291
+  hash: md5
+  path: amount_of_refrigerant.parquet
+meta:
+  name:
+    en: Amount of refrigerant
+  identifier: longmont/amount_of_refrigerant
+  metrics:
+  - id: amount_of_refrigerant
+    column_id: amount_of_refrigerant
+    quantity: mass
+    unit: kg/refrigeration_ton
+    label:
+      en: amount_of_refrigerant
+  sources:
+  - name: Longmont Paths model 2023 (origin not traced)
+    authority: Kausal
+    url:
+    description: 'A placeholder citation for values carried over from the first Longmont
+      Paths model (2023) whose source document has not been traced (docs/dataset-sources.md).
+      Each row says what is known about it. To be replaced by the real source when
+      one is found.; Date Last Updated: 2026-11-24; Updated by: Jouni Tuomisto (register
+      row drafted by Claude, 2026-11-24)'
+    edition:
+    target: data_point
+  dataset:
+    time_resolution: yearly
+    is_editable: true
+  index_columns:
+  - ghg
+  - Year
+  updated_at: '1795525834'
+  units:
+    amount_of_refrigerant: kg/refrigeration_ton

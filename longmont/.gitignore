@@ -76,3 +76,4 @@
 /rng_truck_energy_use.parquet
 /building_actions.parquet
 /transportation_trends.parquet
+/amount_of_refrigerant.parquet
