@@ -1,6 +1,6 @@
 outs:
-- md5: 3bc7d81c0a83fa34c13881ccb6df2f39
-  size: 13644
+- md5: 4ec0108c539b5f90682fd91b78c90800
+  size: 14661
   hash: md5
   path: energy_use_intensity_improvement.parquet
 meta:
@@ -25,6 +25,15 @@ meta:
       covered: 2016-2050.; Attachment: client/OneDrive_1_21-11-2026/Kausal Paths Updates.xlsx;
       Format: .xlsx; Geographic Coverage: City of Longmont, Colorado; Date Last Updated:
       2026-11-05; Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-21)"
+    edition:
+    target: data_point
+  - name: Kausal model constants
+    authority: Kausal
+    url:
+    description: 'Structural constants of the Paths model, set by Kausal when the
+      model was built: identity indices between dimensions and technical ratios. They
+      are part of the model, not data from a document.; Date Last Updated: 2026-11-24;
+      Updated by: Jouni Tuomisto (register row drafted by Claude, 2026-11-24)'
     edition:
     target: data_point
   - name: Longmont scenario model, Feb 2023 update
@@ -52,6 +61,6 @@ meta:
   - emission_sectors
   - action
   - Year
-  updated_at: '1795515297'
+  updated_at: '1795530606'
   units:
     energy_use_intensity_improvement: '%'
