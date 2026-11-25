@@ -1,6 +1,6 @@
 outs:
-- md5: d02996815c3977835ffbb5bac865a5e5
-  size: 13129
+- md5: 45ac9f0fbc936bb684d5961d083f1f83
+  size: 13162
   hash: md5
   path: adjusted_bau.parquet
 meta:
@@ -23,5 +23,5 @@ meta:
   units:
     emission_factor_electricity: lbs/MWh
     emission_factor_transportation: t_co2e/mile
-    fuel_consumption: therms/a
     energy: kWh/a
+    fuel_consumption: therms/a
