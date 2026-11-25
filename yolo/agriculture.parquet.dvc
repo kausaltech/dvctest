@@ -1,6 +1,6 @@
 outs:
-- md5: d285df3aa6e75106a9e1de198da9df76
-  size: 14052
+- md5: 4ebcb2c73600e85817309df227e4ade9
+  size: 14057
   hash: md5
   path: agriculture.parquet
 meta:
@@ -39,13 +39,13 @@ meta:
     label:
       en: Volume
   units:
-    emission_factor: t/t
+    emission_factor_livestock: kg/count/a
     emission_factor_rice: g/ha
-    mass: t/a
-    area: acre/a
-    volume: gal/a
+    fraction: acre/acre
     number: count
     emission_factor_pumps: g/gal
-    emission_factor_livestock: kg/count/a
+    emission_factor: t/t
+    mass: short_ton/a
     mass_per_area: g/ha
-    fraction: acre/acre
+    volume: gal/a
+    area: acre/a
