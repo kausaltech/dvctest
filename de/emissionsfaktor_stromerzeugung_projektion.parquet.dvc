@@ -1,0 +1,40 @@
+outs:
+- md5: c1507adb1f1134d0a9e329d260b1bb68
+  size: 8808
+  hash: md5
+  path: emissionsfaktor_stromerzeugung_projektion.parquet
+meta:
+  name:
+    de: emissionsfaktor_stromerzeugung_projektion
+  identifier: de/emissionsfaktor_stromerzeugung_projektion
+  metrics:
+  - id: Value
+    column_id: Value
+    quantity: emission_factor
+    unit: g_co2e/kWh
+    label:
+      de: Value
+  sources:
+  - name: UBA Treibhausgas-Projektionen 2026 (Datentabelle)
+    authority: Umweltbundesamt
+    url: 
+      https://datacube.uba.de/vis?lc=de&df[ds]=dc-release&df[id]=DF_CROSS_PROJECTION_REPORT_CORE_INDICATORS_26&df[ag]=UBA
+    description: 'Datentabelle für die Treibhausgas-Projektionen 2026 für Deutschland,
+      Version 20260314 (veröffentlicht am 14.03.2026; Öko-Institut, Fraunhofer ISI,
+      IREES, M-Five, Prognos, Thünen-Institut im Auftrag des Umweltbundesamtes). Indikator
+      "Emissionsfaktor der Stromerzeugung" im Mit-Maßnahmen-Szenario, 2026-2050: der
+      Stromerzeugung zurechenbare Emissionen aller (Heiz-)Kraftwerke je nutzbarer
+      Strommenge (Bruttostromerzeugung abzüglich Eigenverbrauch, Leitungsverlusten
+      und Pumpstrom), in kg CO2-Äquivalenten je MWh, ohne Vorketten. Das Szenario
+      beschreibt die Wirkung der bereits beschlossenen Maßnahmen, keinen Zielpfad.
+      Abgerufen über die SDMX-Schnittstelle des UBA Data Cube (make_emissionsfaktor_stromerzeugung_projektion.py).;
+      Format: SDMX-CSV; Licensing: Datenlizenz Deutschland - Namensnennung 2.0 (zu
+      prüfen); Geographic Coverage: Deutschland; Update Frequency: jährlich; Date
+      Last Updated: 2026-03-14; Updated by: Kausal'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  updated_at: '1795703436'
+  units:
+    Value: g_co2e/kWh
