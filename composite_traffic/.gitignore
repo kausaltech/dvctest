@@ -7,3 +7,4 @@
 /subsidy_per_trip.parquet
 /trips.parquet
 /unit_costs.parquet
+/vehicle_costs.parquet
