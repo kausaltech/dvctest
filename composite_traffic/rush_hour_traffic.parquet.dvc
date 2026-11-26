@@ -1,0 +1,37 @@
+outs:
+- md5: 368c05af1b73b7810c8a815afdb3de81
+  size: 10930
+  hash: md5
+  path: rush_hour_traffic.parquet
+meta:
+  name:
+    en: Rush-hour traffic
+  identifier: composite_traffic/rush_hour_traffic
+  metrics:
+  - id: link_intensity
+    column_id: link_intensity
+    quantity: traffic_volume
+    unit: v/h
+    label:
+      en: link_intensity
+  sources:
+  - name: Composite traffic model v. 1.0.1 (Analytica)
+    authority: Jouni T Tuomisto and Marko Tainio (National Public Health 
+      Institute KTL)
+    url: https://doi.org/10.1186/1471-2458-5-123
+    description: 'Additional file 1 of the article: CompositeTraffic_1_0_1.ana, Analytica
+      3.1 XML, URN:NBN:fi-fe20051439. Trip data, road network, trip aggregation code,
+      precomputed aggregation results for 85 scenarios (Scen1_0, Trips1_0), cost elements
+      and decision analysis.; Attachment: source_material/12889_2005_278_MOESM1_ESM.ana;
+      Format: Analytica model (XML); Licensing: CC BY 2.0; Geographic Coverage: Helsinki
+      metropolitan area; Date Last Updated: 2005-11-03; Updated by: BioMed Central'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - composite_fraction
+  - coverage_level
+  - travel_type
+  updated_at: '1795723896'
+  units:
+    link_intensity: vehicle/h

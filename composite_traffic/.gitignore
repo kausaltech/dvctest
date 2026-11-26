@@ -3,3 +3,4 @@
 /cost_allocation.parquet
 /parking_places.parquet
 /parking_prices.parquet
+/rush_hour_traffic.parquet
