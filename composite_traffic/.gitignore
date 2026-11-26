@@ -9,3 +9,4 @@
 /unit_costs.parquet
 /vehicle_costs.parquet
 /vehicle_km.parquet
+/waiting_times.parquet
