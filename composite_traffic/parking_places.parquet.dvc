@@ -1,0 +1,38 @@
+outs:
+- md5: 1c9a71e05e0abed43cd258e7b0ceabcf
+  size: 11363
+  hash: md5
+  path: parking_places.parquet
+meta:
+  name:
+    en: Parking places
+  identifier: composite_traffic/parking_places
+  metrics:
+  - id: parking_places
+    column_id: parking_places
+    quantity: number
+    unit: pieces
+    label:
+      en: parking_places
+  sources:
+  - name: Composite traffic model v. 1.0.1 (Analytica)
+    authority: Jouni T Tuomisto and Marko Tainio (National Public Health 
+      Institute KTL)
+    url: https://doi.org/10.1186/1471-2458-5-123
+    description: 'Additional file 1 of the article: CompositeTraffic_1_0_1.ana, Analytica
+      3.1 XML, URN:NBN:fi-fe20051439. Trip data, road network, trip aggregation code,
+      precomputed aggregation results for 85 scenarios (Scen1_0, Trips1_0), cost elements
+      and decision analysis.; Attachment: source_material/12889_2005_278_MOESM1_ESM.ana;
+      Format: Analytica model (XML); Licensing: CC BY 2.0; Geographic Coverage: Helsinki
+      metropolitan area; Date Last Updated: 2005-11-03; Updated by: BioMed Central'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - city_zone
+  - composite_fraction
+  - coverage_level
+  - travel_mode
+  updated_at: '1795723879'
+  units:
+    parking_places: pcs
