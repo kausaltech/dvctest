@@ -4,3 +4,4 @@
 /parking_places.parquet
 /parking_prices.parquet
 /rush_hour_traffic.parquet
+/subsidy_per_trip.parquet
