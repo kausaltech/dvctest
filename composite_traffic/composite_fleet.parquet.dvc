@@ -1,0 +1,37 @@
+outs:
+- md5: 767619963662ba4efb6910cc8c068ccc
+  size: 8913
+  hash: md5
+  path: composite_fleet.parquet
+meta:
+  name:
+    en: Composite fleet
+  identifier: composite_traffic/composite_fleet
+  metrics:
+  - id: vehicles
+    column_id: vehicles
+    quantity: number
+    unit: v
+    label:
+      en: vehicles
+  sources:
+  - name: Composite traffic model v. 1.0.1 (Analytica)
+    authority: Jouni T Tuomisto and Marko Tainio (National Public Health 
+      Institute KTL)
+    url: https://doi.org/10.1186/1471-2458-5-123
+    description: 'Additional file 1 of the article: CompositeTraffic_1_0_1.ana, Analytica
+      3.1 XML, URN:NBN:fi-fe20051439. Trip data, road network, trip aggregation code,
+      precomputed aggregation results for 85 scenarios (Scen1_0, Trips1_0), cost elements
+      and decision analysis.; Attachment: source_material/12889_2005_278_MOESM1_ESM.ana;
+      Format: Analytica model (XML); Licensing: CC BY 2.0; Geographic Coverage: Helsinki
+      metropolitan area; Date Last Updated: 2005-11-03; Updated by: BioMed Central'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - composite_fraction
+  - coverage_level
+  - vehicle_class
+  updated_at: '1795723862'
+  units:
+    vehicles: vehicle
