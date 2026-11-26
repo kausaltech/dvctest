@@ -1,0 +1,49 @@
+outs:
+- md5: 0129ac7caea8270b64bc95438e15f7be
+  size: 9077
+  hash: md5
+  path: accidents.parquet
+meta:
+  name:
+    en: Accidents
+  identifier: composite_traffic/accidents
+  metrics:
+  - id: accidents
+    column_id: accidents
+    quantity: incidence
+    unit: case/a
+    label:
+      en: accidents
+  sources:
+  - name: Composite traffic model v. 1.0.1 (Analytica)
+    authority: Jouni T Tuomisto and Marko Tainio (National Public Health 
+      Institute KTL)
+    url: https://doi.org/10.1186/1471-2458-5-123
+    description: 'Additional file 1 of the article: CompositeTraffic_1_0_1.ana, Analytica
+      3.1 XML, URN:NBN:fi-fe20051439. Trip data, road network, trip aggregation code,
+      precomputed aggregation results for 85 scenarios (Scen1_0, Trips1_0), cost elements
+      and decision analysis.; Attachment: source_material/12889_2005_278_MOESM1_ESM.ana;
+      Format: Analytica model (XML); Licensing: CC BY 2.0; Geographic Coverage: Helsinki
+      metropolitan area; Date Last Updated: 2005-11-03; Updated by: BioMed Central'
+    edition:
+    target: data_point
+  - name: Tuomisto & Tainio 2005 composite traffic
+    authority: Jouni T Tuomisto and Marko Tainio (National Public Health 
+      Institute KTL)
+    url: https://doi.org/10.1186/1471-2458-5-123
+    description: 'BMC Public Health 2005, 5:123. Decision analysis of composite traffic,
+      a demand-responsive public transport system pooling car trips into 8- and 4-seat
+      vehicles, in the Helsinki metropolitan area. Table 1: pressures and costs at
+      0/25/50/75/100 % composite fraction. Table 2: input distributions.; Attachment:
+      source_material/1471-2458-5-123.pdf; Format: Journal article; Licensing: CC
+      BY 2.0; Geographic Coverage: Helsinki metropolitan area; Date Last Updated:
+      2005-11-25; Updated by: BioMed Central'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - accident_type
+  - assumption_case
+  updated_at: '1795723852'
+  units:
+    accidents: case/a
