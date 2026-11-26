@@ -1,0 +1,139 @@
+outs:
+- md5: ebcaa123a2f3fa4ce20671926e2c94f1
+  size: 22399
+  hash: md5
+  path: unit_costs.parquet
+meta:
+  name:
+    en: Unit costs
+  identifier: composite_traffic/unit_costs
+  metrics:
+  - id: ticket_price
+    column_id: ticket_price
+    quantity: unit_price
+    unit: €/p
+    label:
+      en: ticket_price
+  - id: rush_hour_delay
+    column_id: rush_hour_delay
+    quantity: duration
+    unit: min/p
+    label:
+      en: rush_hour_delay
+  - id: time_value
+    column_id: time_value
+    quantity: unit_price
+    unit: €/h
+    label:
+      en: time_value
+  - id: driver_cost
+    column_id: driver_cost
+    quantity: unit_price
+    unit: €/h/v
+    label:
+      en: driver_cost
+  - id: congestion_free_reduction
+    column_id: congestion_free_reduction
+    quantity: fraction
+    unit: ''
+    label:
+      en: congestion_free_reduction
+  - id: pm_lethality
+    column_id: pm_lethality
+    quantity: exposure_response
+    unit: case/kg
+    label:
+      en: pm_lethality
+  - id: co2_price
+    column_id: co2_price
+    quantity: unit_price
+    unit: €/t
+    label:
+      en: co2_price
+  - id: accident_elasticity
+    column_id: accident_elasticity
+    quantity: elasticity
+    unit: ''
+    label:
+      en: accident_elasticity
+  - id: parking_place_cost
+    column_id: parking_place_cost
+    quantity: unit_price
+    unit: €/d/pieces
+    label:
+      en: parking_place_cost
+  - id: accident_cost
+    column_id: accident_cost
+    quantity: currency
+    unit: €/d
+    label:
+      en: accident_cost
+  - id: car_share_of_accidents
+    column_id: car_share_of_accidents
+    quantity: fraction
+    unit: ''
+    label:
+      en: car_share_of_accidents
+  - id: value_of_statistical_life
+    column_id: value_of_statistical_life
+    quantity: unit_price
+    unit: €/case
+    label:
+      en: value_of_statistical_life
+  - id: traffic_speed
+    column_id: traffic_speed
+    quantity: speed
+    unit: km/h
+    label:
+      en: traffic_speed
+  - id: trips_per_car
+    column_id: trips_per_car
+    quantity: rate
+    unit: p/d/v
+    label:
+      en: trips_per_car
+  sources:
+  - name: Composite traffic model v. 1.0.1 (Analytica)
+    authority: Jouni T Tuomisto and Marko Tainio (National Public Health 
+      Institute KTL)
+    url: https://doi.org/10.1186/1471-2458-5-123
+    description: 'Additional file 1 of the article: CompositeTraffic_1_0_1.ana, Analytica
+      3.1 XML, URN:NBN:fi-fe20051439. Trip data, road network, trip aggregation code,
+      precomputed aggregation results for 85 scenarios (Scen1_0, Trips1_0), cost elements
+      and decision analysis.; Attachment: source_material/12889_2005_278_MOESM1_ESM.ana;
+      Format: Analytica model (XML); Licensing: CC BY 2.0; Geographic Coverage: Helsinki
+      metropolitan area; Date Last Updated: 2005-11-03; Updated by: BioMed Central'
+    edition:
+    target: data_point
+  - name: Tuomisto & Tainio 2005 composite traffic
+    authority: Jouni T Tuomisto and Marko Tainio (National Public Health 
+      Institute KTL)
+    url: https://doi.org/10.1186/1471-2458-5-123
+    description: 'BMC Public Health 2005, 5:123. Decision analysis of composite traffic,
+      a demand-responsive public transport system pooling car trips into 8- and 4-seat
+      vehicles, in the Helsinki metropolitan area. Table 1: pressures and costs at
+      0/25/50/75/100 % composite fraction. Table 2: input distributions.; Attachment:
+      source_material/1471-2458-5-123.pdf; Format: Journal article; Licensing: CC
+      BY 2.0; Geographic Coverage: Helsinki metropolitan area; Date Last Updated:
+      2005-11-25; Updated by: BioMed Central'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - assumption_case
+  updated_at: '1795723922'
+  units:
+    congestion_free_reduction: dimensionless
+    rush_hour_delay: min/trip
+    accident_cost: EUR/d
+    traffic_speed: km/h
+    co2_price: EUR/t
+    accident_elasticity: dimensionless
+    parking_place_cost: EUR/pcs/d
+    value_of_statistical_life: EUR/case
+    ticket_price: EUR/trip
+    driver_cost: EUR/vehicle/h
+    trips_per_car: trip/vehicle/d
+    pm_lethality: case/kg
+    time_value: EUR/h
+    car_share_of_accidents: dimensionless
