@@ -1,6 +1,6 @@
 outs:
-- md5: 94e5dd05b329a1c7c82a70d244858508
-  size: 12312
+- md5: bb5b1331564922f323959f54900e4923
+  size: 13889
   hash: md5
   path: cost_allocation.parquet
 meta:
@@ -8,18 +8,18 @@ meta:
     en: Cost allocation
   identifier: composite_traffic/cost_allocation
   metrics:
-  - id: cost_strength
-    column_id: cost_strength
-    quantity: fraction
-    unit: ''
-    label:
-      en: cost_strength
   - id: cost_sharing
     column_id: cost_sharing
     quantity: fraction
     unit: ''
     label:
       en: cost_sharing
+  - id: cost_strength
+    column_id: cost_strength
+    quantity: fraction
+    unit: ''
+    label:
+      en: cost_strength
   sources:
   - name: Composite traffic model v. 1.0.1 (Analytica)
     authority: Jouni T Tuomisto and Marko Tainio (National Public Health 
@@ -31,6 +31,17 @@ meta:
       and decision analysis.; Attachment: source_material/12889_2005_278_MOESM1_ESM.ana;
       Format: Analytica model (XML); Licensing: CC BY 2.0; Geographic Coverage: Helsinki
       metropolitan area; Date Last Updated: 2005-11-03; Updated by: BioMed Central'
+    edition:
+    target: data_point
+  - name: Helsinki traffic development 2012
+    authority: City of Helsinki, City Planning Department
+    url: https://www.hel.fi/hel2/ksv/julkaisut/los_2013-2.pdf
+    description: 'Liikenteen kehitys Helsingissä vuonna 2012 (LOS 2013:2), section
+      10: car occupancy across the peninsula cordon, whole day, 1.31 in 2012 (driver
+      only 74 %, +1 22 %, +2 3 %, +3 or more 1 %); cordon counts of 2000.; Attachment:
+      source_material/current_2025/helsinki_liikenteen_kehitys_2012_los_2013-2.pdf;
+      Format: PDF report; Geographic Coverage: Helsinki; Date Last Updated: 2013-06-01;
+      Updated by: City of Helsinki'
     edition:
     target: data_point
   - name: Tuomisto & Tainio 2005 composite traffic
@@ -52,7 +63,7 @@ meta:
   - cost_element
   - stakeholder
   - travel_mode
-  updated_at: '1795723870'
+  updated_at: '1795764547'
   units:
-    cost_strength: dimensionless
     cost_sharing: dimensionless
+    cost_strength: dimensionless
