@@ -1,6 +1,6 @@
 outs:
-- md5: 6ad6da89ce81072524b54afc9f4fdc1d
-  size: 11206
+- md5: ea5d5b0b4ab35cdfe375e16aabb876df
+  size: 13561
   hash: md5
   path: wedge_remaining_shares.parquet
 meta:
@@ -34,6 +34,18 @@ meta:
       Name: CETA'
     edition:
     target: data_point
+  - name: AL_Policy_05_CleanFuelStandard
+    authority:
+    url:
+    description: 'WA Clean Fuel Standard (HB 1091); Sector: Policy; Short Name: CleanFuelStandard'
+    edition:
+    target: data_point
+  - name: AL_Policy_07_HFC1112 AL_Policy_08_HFC1150
+    authority:
+    url:
+    description:
+    edition:
+    target: data_point
   - name: AL_Policy_09_CCA
     authority:
     url:
@@ -45,6 +57,6 @@ meta:
   - action
   - policy_level
   - Year
-  updated_at: '1791916418'
+  updated_at: '1795773943'
   units:
     remaining_share: dimensionless
