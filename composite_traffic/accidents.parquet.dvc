@@ -1,6 +1,6 @@
 outs:
-- md5: 0129ac7caea8270b64bc95438e15f7be
-  size: 9077
+- md5: 9a5f2ebd41e5223c44f56264c5f5dcbc
+  size: 10446
   hash: md5
   path: accidents.parquet
 meta:
@@ -27,6 +27,16 @@ meta:
       metropolitan area; Date Last Updated: 2005-11-03; Updated by: BioMed Central'
     edition:
     target: data_point
+  - name: Statistics Finland road traffic accidents 12qh
+    authority: Statistics Finland
+    url: https://pxdata.stat.fi/PxWeb/api/v1/fi/StatFin/ton/12qh.px
+    description: 'Road traffic accidents by municipality: killed and injured in Helsinki,
+      Espoo, Vantaa and Kauniainen 2020-2024 (66 killed, 2 890 injured, of whom 152
+      seriously).; Format: PxWeb table; Licensing: CC BY 4.0; Geographic Coverage:
+      Helsinki metropolitan area; Date Last Updated: 2026-11-26; Updated by: Statistics
+      Finland'
+    edition:
+    target: data_point
   - name: Tuomisto & Tainio 2005 composite traffic
     authority: Jouni T Tuomisto and Marko Tainio (National Public Health 
       Institute KTL)
@@ -44,6 +54,6 @@ meta:
   - Year
   - accident_type
   - assumption_case
-  updated_at: '1795723852'
+  updated_at: '1795764522'
   units:
     accidents: case/a
