@@ -1,5 +1,5 @@
 outs:
-- md5: 5446aee8330c54b5362c5f149a7c986b
+- md5: 71048004c46385fc893cd9557885f63b
   size: 27143
   hash: md5
   path: vehicle_km.parquet
@@ -36,6 +36,6 @@ meta:
   - travel_type
   - trip_length
   - vehicle_class
-  updated_at: '1795723940'
+  updated_at: '1795764649'
   units:
     vehicle_km: vkm/d
