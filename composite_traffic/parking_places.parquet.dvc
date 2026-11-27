@@ -1,5 +1,5 @@
 outs:
-- md5: 1c9a71e05e0abed43cd258e7b0ceabcf
+- md5: 0f3060abd69e4f1d047478a4047c83a8
   size: 11363
   hash: md5
   path: parking_places.parquet
@@ -33,6 +33,6 @@ meta:
   - composite_fraction
   - coverage_level
   - travel_mode
-  updated_at: '1795723879'
+  updated_at: '1795764559'
   units:
     parking_places: pcs
