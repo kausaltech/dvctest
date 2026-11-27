@@ -1,5 +1,5 @@
 outs:
-- md5: d64ef8929a4f6cb646a6cf5f5e01bb12
+- md5: 4bcefe1ffaa53473ae96ced1dbbaf82f
   size: 17377
   hash: md5
   path: waiting_times.parquet
@@ -34,6 +34,6 @@ meta:
   - day_period
   - travel_type
   - trip_length
-  updated_at: '1795723948'
+  updated_at: '1795764661'
   units:
     waiting_time: min/trip
