@@ -1,6 +1,6 @@
 outs:
-- md5: 5c1976ef289fc048e0ab002216adf389
-  size: 9629
+- md5: fed8c0c9977bcf167d70d99cad933782
+  size: 12230
   hash: md5
   path: parking_prices.parquet
 meta:
@@ -15,6 +15,16 @@ meta:
     label:
       en: parking_price
   sources:
+  - name: City of Helsinki parking fees
+    authority: City of Helsinki
+    url: 
+      https://www.hel.fi/fi/kaupunkiymparisto-ja-liikenne/pysakointi/pysakointipaikat-hinnat-ja-maksutavat
+    description: 'Street parking 4 EUR/h in the core centre (zone 1), 2 EUR/h elsewhere
+      in the inner city (zone 2).; Attachment: source_material/current_2025/helsinki_pysakointipaikat_hinnat.html;
+      Format: Web page; Geographic Coverage: Helsinki; Date Last Updated: 2026-11-26;
+      Updated by: City of Helsinki'
+    edition:
+    target: data_point
   - name: Composite traffic model v. 1.0.1 (Analytica)
     authority: Jouni T Tuomisto and Marko Tainio (National Public Health 
       Institute KTL)
@@ -25,6 +35,15 @@ meta:
       and decision analysis.; Attachment: source_material/12889_2005_278_MOESM1_ESM.ana;
       Format: Analytica model (XML); Licensing: CC BY 2.0; Geographic Coverage: Helsinki
       metropolitan area; Date Last Updated: 2005-11-03; Updated by: BioMed Central'
+    edition:
+    target: data_point
+  - name: Statistics Finland consumer price index 11xt
+    authority: Statistics Finland
+    url: https://pxdata.stat.fi/PxWeb/api/v1/fi/StatFin/khi/11xt.px
+    description: 'Kuluttajahintaindeksin kokonaisindeksit, annual. 2005 = 100: 2025
+      146.5. 2015 = 100: 2016 100.4, 2022 113.4, 2025 122.7.; Format: PxWeb table;
+      Licensing: CC BY 4.0; Geographic Coverage: Finland; Date Last Updated: 2026-11-27;
+      Updated by: Statistics Finland'
     edition:
     target: data_point
   - name: Tuomisto & Tainio 2005 composite traffic
@@ -45,6 +64,6 @@ meta:
   - assumption_case
   - city_zone
   - day_period
-  updated_at: '1795723887'
+  updated_at: '1795764571'
   units:
     parking_price: EUR/trip
