@@ -1,6 +1,6 @@
 outs:
-- md5: 671980df1776edb0c320b4f1ed0a02f3
-  size: 15890
+- md5: 83edf99465bdca4427d29ca5ea4b7e9d
+  size: 36379
   hash: md5
   path: vehicle_costs.parquet
 meta:
@@ -14,43 +14,65 @@ meta:
     unit: a
     label:
       en: vehicle_lifetime
-  - id: fuel_consumption
-    column_id: fuel_consumption
-    quantity: consumption_factor
-    unit: l/vehicle_km
+  - id: energy_price
+    column_id: energy_price
+    quantity: unit_price
+    unit: €/kWh
     label:
-      en: fuel_consumption
-  - id: maintenance_cost
-    column_id: maintenance_cost
-    quantity: mileage_unit_price
-    unit: €/vehicle_km
+      en: energy_price
+  - id: energy_consumption
+    column_id: energy_consumption
+    quantity: energy_factor
+    unit: kWh/vehicle_km
     label:
-      en: maintenance_cost
-  - id: pm_emission_factor
-    column_id: pm_emission_factor
-    quantity: emission_factor
-    unit: g/vehicle_km
-    label:
-      en: pm_emission_factor
+      en: energy_consumption
   - id: vehicle_price
     column_id: vehicle_price
     quantity: unit_price
     unit: €/v
     label:
       en: vehicle_price
+  - id: pm_emission_factor
+    column_id: pm_emission_factor
+    quantity: emission_factor
+    unit: g/vehicle_km
+    label:
+      en: pm_emission_factor
+  - id: maintenance_cost
+    column_id: maintenance_cost
+    quantity: mileage_unit_price
+    unit: €/vehicle_km
+    label:
+      en: maintenance_cost
   - id: co2_emission_factor
     column_id: co2_emission_factor
     quantity: emission_factor
     unit: g/vehicle_km
     label:
       en: co2_emission_factor
-  - id: fuel_price
-    column_id: fuel_price
-    quantity: fuel_unit_price
-    unit: €/l
-    label:
-      en: fuel_price
   sources:
+  - name: Autoalan tiedotuskeskus car market review 2025
+    authority: Autoalan tiedotuskeskus
+    url: 
+      https://aut.fi/wp-content/uploads/2026/01/Henkiloautomarkkinan-vuosikatsaus-2025.pdf
+    description: 'Henkilöautomarkkinan vuosikatsaus 2025 (23.1.2026), from Traficom:
+      mean scrappage age 23.0 a in Finland, 21.1 a in Uusimaa (2025).; Attachment:
+      source_material/current_2025/aut_henkiloautomarkkinan_vuosikatsaus_2025.pdf;
+      Format: PDF slides; Geographic Coverage: Finland; Date Last Updated: 2026-01-23;
+      Updated by: Autoalan tiedotuskeskus'
+    edition:
+    target: data_point
+  - name: Autoalan tiedotuskeskus new car prices 2025
+    authority: Autoalan tiedotuskeskus
+    url: 
+      https://aut.fi/ensirekisteroityjen-henkiloautojen-keskihintojen-nousu-on-tasaantunut-sahkoautojen-keskihinta-laski/
+    description: 'Press release 2.2.2026 from Tax Administration data: "Uusien henkilöautojen
+      keskihinta vuonna 2025 oli noin 49 400 euroa" (taxable value, mean).; Attachment:
+      source_material/current_2025/aut_uusien_autojen_keskihinnat_2025.html; Format:
+      Web page; Geographic Coverage: Finland; Date Last Updated: 2026-02-02; Updated
+      by: Autoalan tiedotuskeskus'
+    edition:
+    target: data_point
   - name: Composite traffic model v. 1.0.1 (Analytica)
     authority: Jouni T Tuomisto and Marko Tainio (National Public Health 
       Institute KTL)
@@ -61,6 +83,118 @@ meta:
       and decision analysis.; Attachment: source_material/12889_2005_278_MOESM1_ESM.ana;
       Format: Analytica model (XML); Licensing: CC BY 2.0; Geographic Coverage: Helsinki
       metropolitan area; Date Last Updated: 2005-11-03; Updated by: BioMed Central'
+    edition:
+    target: data_point
+  - name: EMEP/EEA Guidebook 2023 tyre, brake and road wear
+    authority: European Environment Agency
+    url: 
+      https://www.eea.europa.eu/en/analysis/publications/emep-eea-guidebook-2023/part-b-sectoral-guidance-chapters/1-energy/1-a-combustion/1-a-3-b-vi/@@download/file
+    description: 'EMEP/EEA air pollutant emission inventory guidebook 2023, chapter
+      1.A.3.b.vi-vii, Tier 2 tyre, brake and road wear factors with PM2.5 mass fractions
+      and speed corrections.; Attachment: source_material/current_2025/emep_eea_guidebook_2023_1A3bvi-vii.pdf;
+      Format: PDF report; Geographic Coverage: Europe; Date Last Updated: 2023-12-01;
+      Updated by: EEA'
+    edition:
+    target: data_point
+  - name: EV Database Toyota Proace Verso L 75 kWh
+    authority: EV Database
+    url: https://ev-database.org/car/2267/Toyota-Proace-Verso-L-75-kWh
+    description: 'Energy use of the electric Proace Verso: WLTP 241-264 Wh/km incl.
+      charging losses, real-world estimate 265 Wh/km, city 179 (mild) to 246 (cold).;
+      Attachment: source_material/current_2025/ev_database_toyota_proace_verso_l_75kwh.html;
+      Format: Web page; Geographic Coverage: Europe; Date Last Updated: 2026-11-26;
+      Updated by: EV Database'
+    edition:
+    target: data_point
+  - name: European Commission real-world CO2 of new cars 2024
+    authority: European Commission, DG CLIMA
+    url: 
+      https://climate.ec.europa.eu/news-other-reads/news/publication-real-world-co2-emissions-and-fuel-consumption-cars-and-vans-collected-2022-2024-07-26_en
+    description: 'Publication of real-world CO2 emissions and fuel consumption of
+      cars and vans collected in 2022 (26.7.2024), from on-board fuel consumption
+      meters: petrol cars first registered in 2022 use 21.1 % (1.3 l/100 km) more
+      than type approval, about 7.5 l/100 km.; Format: Web page; Geographic Coverage:
+      EU; Date Last Updated: 2024-07-26; Updated by: European Commission'
+    edition:
+    target: data_point
+  - name: Fingrid climate impact of electricity
+    authority: Fingrid
+    url: 
+      https://www.fingrid.fi/en/grid/land-use-and-environment/environmental-impacts-of-transmission-lines/climate-impact/
+    description: '"In 2025, the average real-time emission factor for the electricity
+      consumed in Finland was 26 g CO2/kWh."; Attachment: source_material/current_2025/fingrid_climate_impact.html;
+      Format: Web page; Geographic Coverage: Finland; Date Last Updated: 2026-11-26;
+      Updated by: Fingrid'
+    edition:
+    target: data_point
+  - name: Finland IIR 2026 transport
+    authority: Finnish Environment Institute (Syke)
+    url: 
+      https://ckan.ymparisto.fi/fi/dataset/355e2508-5bb2-4e4e-b6cc-68c113952ffa/resource/8c0c46e1-cc19-4523-8a0d-21385da30239/download/fi-iir-2026-part-3-transport.pdf
+    description: "Finland's Informative Inventory Report 2026, Part 3 Transport: passenger
+      cars 2024 PM2.5 0.190 Gg over 38 642 Mvkm; fuel use and vehicle-km of 2023;
+      studded tyre share.; Attachment: source_material/current_2025/syke_finland_iir_2026_part3_transport.pdf;
+      Format: PDF report; Geographic Coverage: Finland; Date Last Updated: 2026-03-15;
+      Updated by: Syke"
+    edition:
+    target: data_point
+  - name: Moottori car repair costs 2023
+    authority: Moottori (Autoliitto), quoting Beely Oy
+    url: 
+      https://moottori.fi/uutinen/suomalaiset-korjaavat-autojaan-keskimaarin-1-070-eurolla-kulut-kasvaneet-10-vuodessa/
+    description: 'News 1.2.2023: Finnish car-owning households spend 1 070 EUR a year
+      on service and repairs, 2 280 MEUR in all; includes motorcycles and bicycles.
+      A secondary figure from a car-subscription company.; Format: Web page; Geographic
+      Coverage: Finland; Date Last Updated: 2023-02-01; Updated by: Moottori'
+    edition:
+    target: data_point
+  - name: Statistics Finland consumer price index 11xt
+    authority: Statistics Finland
+    url: https://pxdata.stat.fi/PxWeb/api/v1/fi/StatFin/khi/11xt.px
+    description: 'Kuluttajahintaindeksin kokonaisindeksit, annual. 2005 = 100: 2025
+      146.5. 2015 = 100: 2016 100.4, 2022 113.4, 2025 122.7.; Format: PxWeb table;
+      Licensing: CC BY 4.0; Geographic Coverage: Finland; Date Last Updated: 2026-11-27;
+      Updated by: Statistics Finland'
+    edition:
+    target: data_point
+  - name: Statistics Finland electricity prices 13rb
+    authority: Statistics Finland
+    url: https://pxdata.stat.fi/PxWeb/api/v1/fi/StatFin/ehi/13rb.px
+    description: 'Sähkön hinta kuluttajatyypeittäin, monthly, c/kWh. 2025 total price:
+      business 20-499 MWh/a (VAT 0 %) mean 9.976; household 5 000-15 000 kWh/a (incl.
+      VAT) mean 17.608.; Format: PxWeb table; Licensing: CC BY 4.0; Geographic Coverage:
+      Finland; Date Last Updated: 2026-11-27; Updated by: Statistics Finland'
+    edition:
+    target: data_point
+  - name: Statistics Finland liquid fuel prices 12ge
+    authority: Statistics Finland
+    url: https://pxdata.stat.fi/PxWeb/api/v1/fi/StatFin/ehi/12ge.px
+    description: 'Polttonesteiden kuluttajahinnat (sis. alv), monthly. 2025 means:
+      95E10 174.75 c/l, diesel 169.08 c/l.; Format: PxWeb table; Licensing: CC BY
+      4.0; Geographic Coverage: Finland; Date Last Updated: 2026-11-26; Updated by:
+      Statistics Finland'
+    edition:
+    target: data_point
+  - name: Toyota Proace Verso price list 2025
+    authority: Toyota Auto Finland
+    url: 
+      https://toyota.fi/content/dam/toyota/nmsc/finland/pdf-files/pricelists/tammikuu-2025/Proace_Verso_hinnasto_01012025.pdf
+    description: 'Autohinnasto Proace Verso 1.1.2025. L2 Shuttle 75 kWh (9 seats):
+      62 550 EUR incl. VAT 25.5 %, car tax 0.; Attachment: source_material/current_2025/toyota_proace_verso_hinnasto_2025-01-01.pdf;
+      Format: PDF price list; Geographic Coverage: Finland; Date Last Updated: 2025-01-01;
+      Updated by: Toyota Auto Finland'
+    edition:
+    target: data_point
+  - name: Traficom passenger cars in traffic by fuel
+    authority: Traficom
+    url: 
+      https://trafi2.stat.fi/PXWeb/pxweb/fi/TraFi/TraFi__Liikennekaytossa_olevat_ajoneuvot/
+    description: 'Liikennekäytössä olevat henkilöautot alueittain, merkeittäin, käyttöönottovuosittain
+      ja käyttövoimittain. Helsinki, Espoo, Vantaa, Kauniainen: petrol (incl. non-plug-in
+      hybrids) 56.1 %, diesel 15.2 %, electric 15.2 %, plug-in hybrid 12.8 %, other
+      1.1 % of 469 809 cars.; Format: PxWeb table; Licensing: CC BY 4.0; Geographic
+      Coverage: Helsinki metropolitan area; Date Last Updated: 2026-10-08; Updated
+      by: Traficom'
     edition:
     target: data_point
   - name: Tuomisto & Tainio 2005 composite traffic
@@ -80,12 +214,12 @@ meta:
   - Year
   - assumption_case
   - vehicle_class
-  updated_at: '1795723931'
+  updated_at: '1795764636'
   units:
-    maintenance_cost: EUR/vkm
-    vehicle_price: EUR/vehicle
-    fuel_consumption: l/vkm
     co2_emission_factor: g/vkm
-    pm_emission_factor: g/vkm
-    fuel_price: EUR/l
     vehicle_lifetime: a
+    pm_emission_factor: g/vkm
+    energy_consumption: kWh/vkm
+    vehicle_price: EUR/vehicle
+    energy_price: EUR/kWh
+    maintenance_cost: EUR/vkm
