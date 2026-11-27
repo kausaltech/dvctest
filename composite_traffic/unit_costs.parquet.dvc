@@ -1,6 +1,6 @@
 outs:
-- md5: ebcaa123a2f3fa4ce20671926e2c94f1
-  size: 22399
+- md5: b33fff22b59174fdd2dfbf04e9cf3cfb
+  size: 38178
   hash: md5
   path: unit_costs.parquet
 meta:
@@ -8,90 +8,96 @@ meta:
     en: Unit costs
   identifier: composite_traffic/unit_costs
   metrics:
-  - id: ticket_price
-    column_id: ticket_price
-    quantity: unit_price
-    unit: €/p
-    label:
-      en: ticket_price
-  - id: rush_hour_delay
-    column_id: rush_hour_delay
-    quantity: duration
-    unit: min/p
-    label:
-      en: rush_hour_delay
-  - id: time_value
-    column_id: time_value
-    quantity: unit_price
-    unit: €/h
-    label:
-      en: time_value
-  - id: driver_cost
-    column_id: driver_cost
-    quantity: unit_price
-    unit: €/h/v
-    label:
-      en: driver_cost
-  - id: congestion_free_reduction
-    column_id: congestion_free_reduction
-    quantity: fraction
-    unit: ''
-    label:
-      en: congestion_free_reduction
   - id: pm_lethality
     column_id: pm_lethality
     quantity: exposure_response
     unit: case/kg
     label:
       en: pm_lethality
-  - id: co2_price
-    column_id: co2_price
-    quantity: unit_price
-    unit: €/t
-    label:
-      en: co2_price
-  - id: accident_elasticity
-    column_id: accident_elasticity
-    quantity: elasticity
-    unit: ''
-    label:
-      en: accident_elasticity
   - id: parking_place_cost
     column_id: parking_place_cost
     quantity: unit_price
     unit: €/d/pieces
     label:
       en: parking_place_cost
+  - id: accident_elasticity
+    column_id: accident_elasticity
+    quantity: elasticity
+    unit: ''
+    label:
+      en: accident_elasticity
   - id: accident_cost
     column_id: accident_cost
     quantity: currency
     unit: €/d
     label:
       en: accident_cost
+  - id: co2_price
+    column_id: co2_price
+    quantity: unit_price
+    unit: €/t
+    label:
+      en: co2_price
+  - id: ticket_price
+    column_id: ticket_price
+    quantity: unit_price
+    unit: €/p
+    label:
+      en: ticket_price
+  - id: driver_cost
+    column_id: driver_cost
+    quantity: unit_price
+    unit: €/h/v
+    label:
+      en: driver_cost
   - id: car_share_of_accidents
     column_id: car_share_of_accidents
     quantity: fraction
     unit: ''
     label:
       en: car_share_of_accidents
+  - id: traffic_volume
+    column_id: traffic_volume
+    quantity: fraction
+    unit: ''
+    label:
+      en: traffic_volume
+  - id: rush_hour_delay
+    column_id: rush_hour_delay
+    quantity: duration
+    unit: min/p
+    label:
+      en: rush_hour_delay
+  - id: congestion_free_reduction
+    column_id: congestion_free_reduction
+    quantity: fraction
+    unit: ''
+    label:
+      en: congestion_free_reduction
+  - id: time_value
+    column_id: time_value
+    quantity: unit_price
+    unit: €/h
+    label:
+      en: time_value
   - id: value_of_statistical_life
     column_id: value_of_statistical_life
     quantity: unit_price
     unit: €/case
     label:
       en: value_of_statistical_life
-  - id: traffic_speed
-    column_id: traffic_speed
-    quantity: speed
-    unit: km/h
-    label:
-      en: traffic_speed
   - id: trips_per_car
     column_id: trips_per_car
     quantity: rate
     unit: p/d/v
     label:
       en: trips_per_car
+  - id: traffic_speed
+    column_id: traffic_speed
+    quantity: speed
+    unit: km/h
+    label:
+      en: traffic_speed
   sources:
   - name: Composite traffic model v. 1.0.1 (Analytica)
     authority: Jouni T Tuomisto and Marko Tainio (National Public Health 
@@ -103,6 +109,82 @@ meta:
       and decision analysis.; Attachment: source_material/12889_2005_278_MOESM1_ESM.ana;
       Format: Analytica model (XML); Licensing: CC BY 2.0; Geographic Coverage: Helsinki
       metropolitan area; Date Last Updated: 2005-11-03; Updated by: BioMed Central'
+    edition:
+    target: data_point
+  - name: ESMA carbon markets report 2026
+    authority: European Securities and Markets Authority
+    url: 
+      https://www.esma.europa.eu/sites/default/files/2026-07/ESMA50-481369926-34622_Carbon_markets_report_2026.pdf
+    description: '"The annual average price of EU emission allowances (EUAs) was EUR
+      74 per tonne of CO2-equivalent ... in 2025."; Attachment: source_material/current_2025/esma_carbon_markets_report_2026.pdf;
+      Format: PDF report; Geographic Coverage: EU; Date Last Updated: 2026-07-09;
+      Updated by: ESMA'
+    edition:
+    target: data_point
+  - name: HSL travel survey 2023
+    authority: Helsinki Region Transport (HSL)
+    url: https://www.hsl.fi/en/hsl/research-and-surveys/travelsurvey2023
+    description: 'Helsingin seudun asukkaiden arkipäivän matkat syksyllä 2023: trips
+      per person and mode shares by municipality (Figures 2, 5, 6). Copy from a mirror,
+      since hsl.fi refused automated download.; Attachment: source_material/current_2025/hsl_liikkumistutkimus_2023_kulkutapajakaumat.pdf;
+      Format: PDF report; Geographic Coverage: Helsinki region; Date Last Updated:
+      2024-06-01; Updated by: HSL'
+    edition:
+    target: data_point
+  - name: Handbook on the external costs of transport 2019
+    authority: CE Delft for the European Commission, DG MOVE
+    url: 
+      https://cedelft.eu/wp-content/uploads/sites/2/2021/03/CE_Delft_4K83_Handbook_on_the_external_costs_of_transport_Final.pdf
+    description: 'Version 2019-1.1. Value of a statistical life for the EU28 3.6 MEUR
+      (2016 prices).; Attachment: source_material/current_2025/handbook_external_costs_of_transport_2019.pdf;
+      Format: PDF report; Geographic Coverage: EU; Date Last Updated: 2020-01-01;
+      Updated by: European Commission'
+    edition:
+    target: data_point
+  - name: Statistics Finland consumer price index 11xt
+    authority: Statistics Finland
+    url: https://pxdata.stat.fi/PxWeb/api/v1/fi/StatFin/khi/11xt.px
+    description: 'Kuluttajahintaindeksin kokonaisindeksit, annual. 2005 = 100: 2025
+      146.5. 2015 = 100: 2016 100.4, 2022 113.4, 2025 122.7.; Format: PxWeb table;
+      Licensing: CC BY 4.0; Geographic Coverage: Finland; Date Last Updated: 2026-11-27;
+      Updated by: Statistics Finland'
+    edition:
+    target: data_point
+  - name: Statistics Finland earnings by occupation 15ay
+    authority: Statistics Finland
+    url: https://pxdata.stat.fi/PxWeb/api/v1/fi/StatFin/pra/15ay.px
+    description: 'Palkansaajien ansiot ammattiluokittain: occupation 8331 bus and
+      tram drivers, mean total earnings 20.74 EUR per paid hour in 2025 (preliminary).;
+      Format: PxWeb table; Licensing: CC BY 4.0; Geographic Coverage: Finland; Date
+      Last Updated: 2026-11-26; Updated by: Statistics Finland'
+    edition:
+    target: data_point
+  - name: Statistics Finland population 11re
+    authority: Statistics Finland
+    url: https://pxdata.stat.fi/PxWeb/api/v1/fi/StatFin/vaerak/11re.px
+    description: 'Population by age and area, 31 Dec: residents aged 7+ of Helsinki,
+      Espoo, Vantaa, Kauniainen in 2000 and 2023.; Format: PxWeb table; Licensing:
+      CC BY 4.0; Geographic Coverage: Helsinki metropolitan area; Date Last Updated:
+      2026-11-26; Updated by: Statistics Finland'
+    edition:
+    target: data_point
+  - name: Statistics Finland road traffic accidents 12qh
+    authority: Statistics Finland
+    url: https://pxdata.stat.fi/PxWeb/api/v1/fi/StatFin/ton/12qh.px
+    description: 'Road traffic accidents by municipality: killed and injured in Helsinki,
+      Espoo, Vantaa and Kauniainen 2020-2024 (66 killed, 2 890 injured, of whom 152
+      seriously).; Format: PxWeb table; Licensing: CC BY 4.0; Geographic Coverage:
+      Helsinki metropolitan area; Date Last Updated: 2026-11-26; Updated by: Statistics
+      Finland'
+    edition:
+    target: data_point
+  - name: Statistics Finland vehicle stock 11ic
+    authority: Statistics Finland
+    url: https://pxdata.stat.fi/PxWeb/api/v1/fi/StatFin/mkan/11ic.px
+    description: 'Passenger cars in traffic by municipality, 2023: Helsinki 219 444,
+      Espoo 128 176, Vantaa 112 374, Kauniainen 4 534.; Format: PxWeb table; Licensing:
+      CC BY 4.0; Geographic Coverage: Helsinki metropolitan area; Date Last Updated:
+      2026-11-26; Updated by: Statistics Finland'
     edition:
     target: data_point
   - name: Tuomisto & Tainio 2005 composite traffic
@@ -118,22 +200,44 @@ meta:
       2005-11-25; Updated by: BioMed Central'
     edition:
     target: data_point
+  - name: Väylävirasto 81/2024 appraisal unit values
+    authority: Finnish Transport Infrastructure Agency (Väylävirasto)
+    url: https://www.doria.fi/handle/10024/190638
+    description: 'Tie- ja rautatieliikenteen hankearvioinnin yksikköarvojen määrittäminen
+      vuodelle 2022 (Väyläviraston julkaisuja 81/2024). Values of time (Tables 24-25),
+      employer charges 21.5 %, accident unit costs (Table 36), CO2 shadow price (Table
+      1). 2022 prices.; Attachment: source_material/current_2025/vaylavirasto_81_2024_hankearvioinnin_yksikkoarvot_2022.pdf;
+      Format: PDF report; Geographic Coverage: Finland; Date Last Updated: 2024-12-01;
+      Updated by: Väylävirasto'
+    edition:
+    target: data_point
+  - name: YTV travel survey 2000
+    authority: Raimo Valtanen, YTV, in Helsingin seudun suunnat 1/2003
+    url: 
+      https://www.hel.fi/hel2/tietokeskus/suunnat/artikkelit/artikkeli103.html
+    description: 'Liikkumistottumukset pääkaupunkiseudulla: residents made 3.1 million
+      trips on an autumn weekday in 2000, 44 % by car.; Attachment: source_material/current_2025/ytv_liikkumistottumukset_2000_suunnat_1_2003.html;
+      Format: Web article; Geographic Coverage: Helsinki metropolitan area; Date Last
+      Updated: 2003-03-01; Updated by: City of Helsinki'
+    edition:
+    target: data_point
   index_columns:
   - Year
   - assumption_case
-  updated_at: '1795723922'
+  updated_at: '1795764622'
   units:
-    congestion_free_reduction: dimensionless
-    rush_hour_delay: min/trip
-    accident_cost: EUR/d
-    traffic_speed: km/h
-    co2_price: EUR/t
     accident_elasticity: dimensionless
-    parking_place_cost: EUR/pcs/d
-    value_of_statistical_life: EUR/case
+    co2_price: EUR/t
     ticket_price: EUR/trip
-    driver_cost: EUR/vehicle/h
+    accident_cost: EUR/d
     trips_per_car: trip/vehicle/d
     pm_lethality: case/kg
+    driver_cost: EUR/vehicle/h
+    parking_place_cost: EUR/pcs/d
     time_value: EUR/h
+    congestion_free_reduction: dimensionless
+    traffic_speed: km/h
+    traffic_volume: dimensionless
+    value_of_statistical_life: EUR/case
     car_share_of_accidents: dimensionless
+    rush_hour_delay: min/trip
