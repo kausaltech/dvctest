@@ -1,5 +1,5 @@
 outs:
-- md5: 767619963662ba4efb6910cc8c068ccc
+- md5: fe214726a4206cc914bca15043739df9
   size: 8913
   hash: md5
   path: composite_fleet.parquet
@@ -32,6 +32,6 @@ meta:
   - composite_fraction
   - coverage_level
   - vehicle_class
-  updated_at: '1795723862'
+  updated_at: '1795764535'
   units:
     vehicles: vehicle
