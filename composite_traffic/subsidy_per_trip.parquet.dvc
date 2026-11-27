@@ -1,6 +1,6 @@
 outs:
-- md5: 847342c07774744ea17b803da80d33e8
-  size: 14611
+- md5: 54d5a1febcb9877524ad01a03c4138fe
+  size: 24276
   hash: md5
   path: subsidy_per_trip.parquet
 meta:
@@ -27,12 +27,42 @@ meta:
       metropolitan area; Date Last Updated: 2005-11-03; Updated by: BioMed Central'
     edition:
     target: data_point
+  - name: HSL travel survey 2023
+    authority: Helsinki Region Transport (HSL)
+    url: https://www.hsl.fi/en/hsl/research-and-surveys/travelsurvey2023
+    description: 'Helsingin seudun asukkaiden arkipäivän matkat syksyllä 2023: trips
+      per person and mode shares by municipality (Figures 2, 5, 6). Copy from a mirror,
+      since hsl.fi refused automated download.; Attachment: source_material/current_2025/hsl_liikkumistutkimus_2023_kulkutapajakaumat.pdf;
+      Format: PDF report; Geographic Coverage: Helsinki region; Date Last Updated:
+      2024-06-01; Updated by: HSL'
+    edition:
+    target: data_point
+  - name: Statistics Finland population 11re
+    authority: Statistics Finland
+    url: https://pxdata.stat.fi/PxWeb/api/v1/fi/StatFin/vaerak/11re.px
+    description: 'Population by age and area, 31 Dec: residents aged 7+ of Helsinki,
+      Espoo, Vantaa, Kauniainen in 2000 and 2023.; Format: PxWeb table; Licensing:
+      CC BY 4.0; Geographic Coverage: Helsinki metropolitan area; Date Last Updated:
+      2026-11-26; Updated by: Statistics Finland'
+    edition:
+    target: data_point
+  - name: YTV travel survey 2000
+    authority: Raimo Valtanen, YTV, in Helsingin seudun suunnat 1/2003
+    url: 
+      https://www.hel.fi/hel2/tietokeskus/suunnat/artikkelit/artikkeli103.html
+    description: 'Liikkumistottumukset pääkaupunkiseudulla: residents made 3.1 million
+      trips on an autumn weekday in 2000, 44 % by car.; Attachment: source_material/current_2025/ytv_liikkumistottumukset_2000_suunnat_1_2003.html;
+      Format: Web article; Geographic Coverage: Helsinki metropolitan area; Date Last
+      Updated: 2003-03-01; Updated by: City of Helsinki'
+    edition:
+    target: data_point
   index_columns:
   - Year
+  - assumption_case
   - composite_fraction
   - coverage_level
   - day_period
   - trip_length
-  updated_at: '1795723905'
+  updated_at: '1795764596'
   units:
     subsidy_per_trip: EUR/trip
