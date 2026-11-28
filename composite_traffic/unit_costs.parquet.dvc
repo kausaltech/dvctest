@@ -1,6 +1,6 @@
 outs:
-- md5: 2bd97156300fe74ae74eed2b05183092
-  size: 46824
+- md5: cf0a440afd21686a47b716b36fd25a81
+  size: 58255
   hash: md5
   path: unit_costs.parquet
 meta:
@@ -8,103 +8,121 @@ meta:
     en: Unit costs
   identifier: composite_traffic/unit_costs
   metrics:
-  - id: time_value
-    column_id: time_value
-    quantity: unit_price
-    unit: €/h
-    label:
-      en: time_value
-  - id: ticket_price
-    column_id: ticket_price
-    quantity: unit_price
-    unit: €/p
-    label:
-      en: ticket_price
-  - id: value_of_statistical_life
-    column_id: value_of_statistical_life
-    quantity: unit_price
-    unit: €/case
-    label:
-      en: value_of_statistical_life
-  - id: rush_hour_delay
-    column_id: rush_hour_delay
-    quantity: duration
-    unit: min/p
-    label:
-      en: rush_hour_delay
-  - id: accident_cost
-    column_id: accident_cost
-    quantity: currency
-    unit: €/d
-    label:
-      en: accident_cost
-  - id: accident_elasticity
-    column_id: accident_elasticity
-    quantity: elasticity
-    unit: ''
-    label:
-      en: accident_elasticity
-  - id: remote_operation_share
-    column_id: remote_operation_share
-    quantity: fraction
-    unit: ''
-    label:
-      en: remote_operation_share
-  - id: traffic_volume
-    column_id: traffic_volume
-    quantity: fraction
-    unit: ''
-    label:
-      en: traffic_volume
-  - id: traffic_speed
-    column_id: traffic_speed
-    quantity: speed
-    unit: km/h
-    label:
-      en: traffic_speed
-  - id: trips_per_car
-    column_id: trips_per_car
-    quantity: rate
-    unit: p/d/v
-    label:
-      en: trips_per_car
-  - id: car_share_of_accidents
-    column_id: car_share_of_accidents
-    quantity: fraction
-    unit: ''
-    label:
-      en: car_share_of_accidents
-  - id: driver_cost
-    column_id: driver_cost
-    quantity: unit_price
-    unit: €/h/v
-    label:
-      en: driver_cost
-  - id: co2_price
-    column_id: co2_price
-    quantity: unit_price
-    unit: €/t
-    label:
-      en: co2_price
-  - id: congestion_free_reduction
-    column_id: congestion_free_reduction
-    quantity: fraction
-    unit: ''
-    label:
-      en: congestion_free_reduction
-  - id: pm_lethality
-    column_id: pm_lethality
-    quantity: exposure_response
-    unit: case/kg
-    label:
-      en: pm_lethality
   - id: parking_place_cost
     column_id: parking_place_cost
     quantity: unit_price
     unit: €/d/pieces
     label:
       en: parking_place_cost
+  - id: pm_lethality
+    column_id: pm_lethality
+    quantity: exposure_response
+    unit: case/kg
+    label:
+      en: pm_lethality
+  - id: accident_cost
+    column_id: accident_cost
+    quantity: currency
+    unit: €/d
+    label:
+      en: accident_cost
+  - id: traffic_volume
+    column_id: traffic_volume
+    quantity: fraction
+    unit: ''
+    label:
+      en: traffic_volume
+  - id: remote_operation_share
+    column_id: remote_operation_share
+    quantity: fraction
+    unit: ''
+    label:
+      en: remote_operation_share
+  - id: rush_hour_delay
+    column_id: rush_hour_delay
+    quantity: duration
+    unit: min/p
+    label:
+      en: rush_hour_delay
+  - id: accident_elasticity
+    column_id: accident_elasticity
+    quantity: elasticity
+    unit: ''
+    label:
+      en: accident_elasticity
+  - id: congestion_free_reduction
+    column_id: congestion_free_reduction
+    quantity: fraction
+    unit: ''
+    label:
+      en: congestion_free_reduction
+  - id: driver_cost
+    column_id: driver_cost
+    quantity: unit_price
+    unit: €/h/v
+    label:
+      en: driver_cost
+  - id: trips_per_car
+    column_id: trips_per_car
+    quantity: rate
+    unit: p/d/v
+    label:
+      en: trips_per_car
+  - id: ticket_price
+    column_id: ticket_price
+    quantity: unit_price
+    unit: €/p
+    label:
+      en: ticket_price
+  - id: car_share_of_accidents
+    column_id: car_share_of_accidents
+    quantity: fraction
+    unit: ''
+    label:
+      en: car_share_of_accidents
+  - id: traffic_speed
+    column_id: traffic_speed
+    quantity: speed
+    unit: km/h
+    label:
+      en: traffic_speed
+  - id: co2_price
+    column_id: co2_price
+    quantity: unit_price
+    unit: €/t
+    label:
+      en: co2_price
+  - id: car_shedding
+    column_id: car_shedding
+    quantity: fraction
+    unit: ''
+    label:
+      en: car_shedding
+  - id: time_value
+    column_id: time_value
+    quantity: unit_price
+    unit: €/h
+    label:
+      en: time_value
+  - id: value_of_statistical_life
+    column_id: value_of_statistical_life
+    quantity: unit_price
+    unit: €/case
+    label:
+      en: value_of_statistical_life
   sources:
+  - name: Becker et al. 2018 Basel carsharing
+    authority: Henrik Becker, Francesco Ciari, Kay W. Axhausen (ETH Zürich, IVT)
+    url: https://doi.org/10.1016/j.trd.2018.08.003
+    description: 'Measuring the car ownership impact of free-floating car-sharing
+      - A case study in Basel, Switzerland. Transportation Research Part D 65:51-62
+      (2018). Panel with a control group: -0.08 to -0.13 cars per member household
+      in the first year. Archived: the working paper (IVT Arbeitsbericht 1176).; Attachment:
+      source_material/car_ownership/becker_ciari_axhausen_ethz_ab1176_basel_ffcs_travel_behaviour.pdf;
+      Format: Journal article; Geographic Coverage: Switzerland; Date Last Updated:
+      2018-12-01; Updated by: Elsevier'
+    edition:
+    target: data_point
   - name: Bösch et al. 2018 autonomous mobility costs
     authority: Patrick M. Bösch, Felix Becker, Henrik Becker, Kay W. Axhausen 
       (ETH Zürich, IVT)
@@ -127,6 +145,17 @@ meta:
       and decision analysis.; Attachment: source_material/12889_2005_278_MOESM1_ESM.ana;
       Format: Analytica model (XML); Licensing: CC BY 2.0; Geographic Coverage: Helsinki
       metropolitan area; Date Last Updated: 2005-11-03; Updated by: BioMed Central'
+    edition:
+    target: data_point
+  - name: Composite traffic module plan
+    authority: Jouni Tuomisto, Kausal
+    url:
+    description: 'The rollout paths of composite traffic, the path of driverless composite
+      vehicles and the share of car users giving up their cars decided for the projection
+      (paths-data modules/composite-traffic/docs/plan.md, Round 4; scripts/create_datasets.py,
+      ROLLOUT_PATHS, DRIVERLESS_PATH; reference_decision_analysis.py, car_shedding).
+      Assumptions, not observations.; Format: Plan; Geographic Coverage: Helsinki
+      metropolitan area; Date Last Updated: 2026-11-28; Updated by: Kausal'
     edition:
     target: data_point
   - name: Cruise remote assistance 2023
@@ -169,6 +198,50 @@ meta:
       (2016 prices).; Attachment: source_material/current_2025/handbook_external_costs_of_transport_2019.pdf;
       Format: PDF report; Geographic Coverage: EU; Date Last Updated: 2020-01-01;
       Updated by: European Commission'
+    edition:
+    target: data_point
+  - name: ITF 2017 shared mobility Helsinki
+    authority: International Transport Forum (OECD)
+    url: 
+      https://www.itf-oecd.org/sites/default/files/docs/shared-mobility-simulations-helsinki.pdf
+    description: 'Shared Mobility Simulations for Helsinki (2017). Focus group: 3
+      of 11 car owners would sell their car, only if the services covered the whole
+      Helsinki metropolitan area.; Attachment: source_material/car_ownership/itf_2017_shared_mobility_simulations_helsinki.pdf;
+      Format: Report; Geographic Coverage: Helsinki metropolitan area; Date Last Updated:
+      2017-01-01; Updated by: ITF'
+    edition:
+    target: data_point
+  - name: Martin & Shaheen 2011 carsharing
+    authority: Elliot Martin, Susan Shaheen (UC Berkeley TSRC)
+    url: https://escholarship.org/uc/item/7w58646d
+    description: 'The Impact of Carsharing on Household Vehicle Ownership. ACCESS
+      38 (2011); data as Martin, Shaheen & Lidicker, TRR 2143 (2010). 6,281 North
+      American member households, 2008: vehicles per household 0.47 -> 0.24; carless
+      households 62 % -> 80 %.; Attachment: source_material/car_ownership/martin_shaheen_2011_access38_carsharing_vehicle_ownership.pdf;
+      Format: Journal article; Geographic Coverage: North America; Date Last Updated:
+      2011-03-01; Updated by: UC Berkeley'
+    edition:
+    target: data_point
+  - name: Martin & Shaheen 2016 car2go
+    authority: Elliot Martin, Susan Shaheen (UC Berkeley TSRC)
+    url: https://escholarship.org/uc/item/3mc5m6pn
+    description: 'Impacts of car2go on vehicle ownership, modal shift, vehicle miles
+      traveled, and greenhouse gas emissions (working paper 2016). Free-floating carsharing
+      in five cities, 2-4 years after launch: 2-5 % of active members sold a car and
+      7-10 % did not buy one.; Attachment: source_material/car_ownership/martin_shaheen_2016_car2go_impacts.pdf;
+      Format: Working paper; Geographic Coverage: North America; Date Last Updated:
+      2016-07-01; Updated by: UC Berkeley'
+    edition:
+    target: data_point
+  - name: Nijland et al. 2015 car sharing
+    authority: Hans Nijland, Jordy van Meerkerk, Anco Hoen (PBL)
+    url: https://pbl.nl/downloads/pbl-2015-note-impact-of-car-sharing-1842pdf
+    description: 'Impact of car sharing on mobility and CO2 emissions, PBL note (2015);
+      peer-reviewed as Nijland & van Meerkerk, Environ. Innov. Soc. Transit. 23:84-91
+      (2017). 363 Dutch car sharers: cars per household 0.85 -> 0.72; 1.08 -> 0.72
+      against the cars they would have bought.; Attachment: source_material/car_ownership/pbl_2015_nijland_impact_of_car_sharing.pdf;
+      Format: Report; Geographic Coverage: Netherlands; Date Last Updated: 2015-06-01;
+      Updated by: PBL Netherlands Environmental Assessment Agency'
     edition:
     target: data_point
   - name: Statistics Finland consumer price index 11xt
@@ -274,21 +347,22 @@ meta:
   index_columns:
   - Year
   - assumption_case
-  updated_at: '1795874242'
+  updated_at: '1795878131'
   units:
-    pm_lethality: case/kg
-    rush_hour_delay: min/trip
-    co2_price: EUR/t
-    driver_cost: EUR/vehicle/h
-    time_value: EUR/h
-    car_share_of_accidents: dimensionless
-    value_of_statistical_life: EUR/case
-    remote_operation_share: dimensionless
-    ticket_price: EUR/trip
-    trips_per_car: trip/vehicle/d
-    accident_elasticity: dimensionless
     traffic_volume: dimensionless
-    parking_place_cost: EUR/pcs/d
-    traffic_speed: km/h
-    congestion_free_reduction: dimensionless
+    car_shedding: dimensionless
+    driver_cost: EUR/vehicle/h
     accident_cost: EUR/d
+    pm_lethality: case/kg
+    parking_place_cost: EUR/pcs/d
+    time_value: EUR/h
+    rush_hour_delay: min/trip
+    traffic_speed: km/h
+    co2_price: EUR/t
+    remote_operation_share: dimensionless
+    congestion_free_reduction: dimensionless
+    car_share_of_accidents: dimensionless
+    ticket_price: EUR/trip
+    accident_elasticity: dimensionless
+    trips_per_car: trip/vehicle/d
+    value_of_statistical_life: EUR/case
