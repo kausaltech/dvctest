@@ -1,5 +1,5 @@
 outs:
-- md5: b03655a621bbb0acaadbde3862c6e07c
+- md5: f7c21593830856ce51de23984ae61e4f
   size: 10930
   hash: md5
   path: rush_hour_traffic.parquet
@@ -32,6 +32,6 @@ meta:
   - composite_fraction
   - coverage_level
   - travel_type
-  updated_at: '1795853876'
+  updated_at: '1795874204'
   units:
     link_intensity: vehicle/h
