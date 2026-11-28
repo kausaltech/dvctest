@@ -1,6 +1,6 @@
 outs:
-- md5: 83edf99465bdca4427d29ca5ea4b7e9d
-  size: 36379
+- md5: 05f89929871874b3883aa092cb1e5f60
+  size: 37984
   hash: md5
   path: vehicle_costs.parquet
 meta:
@@ -14,36 +14,36 @@ meta:
     unit: a
     label:
       en: vehicle_lifetime
-  - id: energy_price
-    column_id: energy_price
-    quantity: unit_price
-    unit: €/kWh
-    label:
-      en: energy_price
-  - id: energy_consumption
-    column_id: energy_consumption
-    quantity: energy_factor
-    unit: kWh/vehicle_km
-    label:
-      en: energy_consumption
-  - id: vehicle_price
-    column_id: vehicle_price
-    quantity: unit_price
-    unit: €/v
-    label:
-      en: vehicle_price
-  - id: pm_emission_factor
-    column_id: pm_emission_factor
-    quantity: emission_factor
-    unit: g/vehicle_km
-    label:
-      en: pm_emission_factor
   - id: maintenance_cost
     column_id: maintenance_cost
     quantity: mileage_unit_price
     unit: €/vehicle_km
     label:
       en: maintenance_cost
+  - id: vehicle_price
+    column_id: vehicle_price
+    quantity: unit_price
+    unit: €/v
+    label:
+      en: vehicle_price
+  - id: energy_consumption
+    column_id: energy_consumption
+    quantity: energy_factor
+    unit: kWh/vehicle_km
+    label:
+      en: energy_consumption
+  - id: energy_price
+    column_id: energy_price
+    quantity: unit_price
+    unit: €/kWh
+    label:
+      en: energy_price
+  - id: pm_emission_factor
+    column_id: pm_emission_factor
+    quantity: emission_factor
+    unit: g/vehicle_km
+    label:
+      en: pm_emission_factor
   - id: co2_emission_factor
     column_id: co2_emission_factor
     quantity: emission_factor
@@ -214,12 +214,12 @@ meta:
   - Year
   - assumption_case
   - vehicle_class
-  updated_at: '1795764636'
+  updated_at: '1795853937'
   units:
     co2_emission_factor: g/vkm
     vehicle_lifetime: a
     pm_emission_factor: g/vkm
-    energy_consumption: kWh/vkm
     vehicle_price: EUR/vehicle
     energy_price: EUR/kWh
+    energy_consumption: kWh/vkm
     maintenance_cost: EUR/vkm
