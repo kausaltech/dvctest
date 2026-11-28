@@ -1,0 +1,34 @@
+outs:
+- md5: 9d401bad1deb20501f21c6052de98381
+  size: 7639
+  hash: md5
+  path: rollout.parquet
+meta:
+  name:
+    en: Rollout
+  identifier: composite_traffic/rollout
+  metrics:
+  - id: rollout_weight
+    column_id: rollout_weight
+    quantity: fraction
+    unit: ''
+    label:
+      en: rollout_weight
+  sources:
+  - name: Composite traffic module plan
+    authority: Jouni Tuomisto, Kausal
+    url:
+    description: 'The rollout paths of composite traffic decided for the projection
+      (paths-data modules/composite-traffic/docs/plan.md, Round 4; scripts/create_datasets.py,
+      ROLLOUT_PATHS). Assumptions, not observations.; Format: Plan; Geographic Coverage:
+      Helsinki metropolitan area; Date Last Updated: 2026-11-27; Updated by: Kausal'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  - composite_fraction
+  - coverage_level
+  - rollout_path
+  updated_at: '1795853861'
+  units:
+    rollout_weight: dimensionless
