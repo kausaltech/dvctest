@@ -1,6 +1,6 @@
 outs:
-- md5: 67c2a4957c2c66478278b4e6174522a7
-  size: 40538
+- md5: 2bd97156300fe74ae74eed2b05183092
+  size: 46824
   hash: md5
   path: unit_costs.parquet
 meta:
@@ -8,97 +8,115 @@ meta:
     en: Unit costs
   identifier: composite_traffic/unit_costs
   metrics:
-  - id: pm_lethality
-    column_id: pm_lethality
-    quantity: exposure_response
-    unit: case/kg
-    label:
-      en: pm_lethality
   - id: time_value
     column_id: time_value
     quantity: unit_price
     unit: €/h
     label:
       en: time_value
-  - id: traffic_speed
-    column_id: traffic_speed
-    quantity: speed
-    unit: km/h
-    label:
-      en: traffic_speed
-  - id: parking_place_cost
-    column_id: parking_place_cost
-    quantity: unit_price
-    unit: €/d/pieces
-    label:
-      en: parking_place_cost
-  - id: rush_hour_delay
-    column_id: rush_hour_delay
-    quantity: duration
-    unit: min/p
-    label:
-      en: rush_hour_delay
   - id: ticket_price
     column_id: ticket_price
     quantity: unit_price
     unit: €/p
     label:
       en: ticket_price
-  - id: co2_price
-    column_id: co2_price
-    quantity: unit_price
-    unit: €/t
-    label:
-      en: co2_price
-  - id: accident_cost
-    column_id: accident_cost
-    quantity: currency
-    unit: €/d
-    label:
-      en: accident_cost
-  - id: car_share_of_accidents
-    column_id: car_share_of_accidents
-    quantity: fraction
-    unit: ''
-    label:
-      en: car_share_of_accidents
-  - id: traffic_volume
-    column_id: traffic_volume
-    quantity: fraction
-    unit: ''
-    label:
-      en: traffic_volume
-  - id: accident_elasticity
-    column_id: accident_elasticity
-    quantity: elasticity
-    unit: ''
-    label:
-      en: accident_elasticity
-  - id: congestion_free_reduction
-    column_id: congestion_free_reduction
-    quantity: fraction
-    unit: ''
-    label:
-      en: congestion_free_reduction
   - id: value_of_statistical_life
     column_id: value_of_statistical_life
     quantity: unit_price
     unit: €/case
     label:
       en: value_of_statistical_life
-  - id: driver_cost
-    column_id: driver_cost
-    quantity: unit_price
-    unit: €/h/v
+  - id: rush_hour_delay
+    column_id: rush_hour_delay
+    quantity: duration
+    unit: min/p
     label:
-      en: driver_cost
+      en: rush_hour_delay
+  - id: accident_cost
+    column_id: accident_cost
+    quantity: currency
+    unit: €/d
+    label:
+      en: accident_cost
+  - id: accident_elasticity
+    column_id: accident_elasticity
+    quantity: elasticity
+    unit: ''
+    label:
+      en: accident_elasticity
+  - id: remote_operation_share
+    column_id: remote_operation_share
+    quantity: fraction
+    unit: ''
+    label:
+      en: remote_operation_share
+  - id: traffic_volume
+    column_id: traffic_volume
+    quantity: fraction
+    unit: ''
+    label:
+      en: traffic_volume
+  - id: traffic_speed
+    column_id: traffic_speed
+    quantity: speed
+    unit: km/h
+    label:
+      en: traffic_speed
   - id: trips_per_car
     column_id: trips_per_car
     quantity: rate
     unit: p/d/v
     label:
       en: trips_per_car
+  - id: car_share_of_accidents
+    column_id: car_share_of_accidents
+    quantity: fraction
+    unit: ''
+    label:
+      en: car_share_of_accidents
+  - id: driver_cost
+    column_id: driver_cost
+    quantity: unit_price
+    unit: €/h/v
+    label:
+      en: driver_cost
+  - id: co2_price
+    column_id: co2_price
+    quantity: unit_price
+    unit: €/t
+    label:
+      en: co2_price
+  - id: congestion_free_reduction
+    column_id: congestion_free_reduction
+    quantity: fraction
+    unit: ''
+    label:
+      en: congestion_free_reduction
+  - id: pm_lethality
+    column_id: pm_lethality
+    quantity: exposure_response
+    unit: case/kg
+    label:
+      en: pm_lethality
+  - id: parking_place_cost
+    column_id: parking_place_cost
+    quantity: unit_price
+    unit: €/d/pieces
+    label:
+      en: parking_place_cost
   sources:
+  - name: Bösch et al. 2018 autonomous mobility costs
+    authority: Patrick M. Bösch, Felix Becker, Henrik Becker, Kay W. Axhausen 
+      (ETH Zürich, IVT)
+    url: https://doi.org/10.1016/j.tranpol.2017.09.005
+    description: 'Cost-based analysis of autonomous mobility services. Transport Policy
+      64:76-91 (2018). Archived: the 2017 working paper (IVT Arbeitsberichte 1225).
+      Automation raises the vehicle price by 20 % (IHS 2014); the driver is removed;
+      a cleaning every 40 trips at 15 CHF; insurance -50 %.; Attachment: source_material/driverless/bosch_2017_ivt_ab1225_cost_autonomous_mobility.pdf;
+      Format: Journal article; Geographic Coverage: Switzerland; Date Last Updated:
+      2018-05-01; Updated by: Elsevier'
+    edition:
+    target: data_point
   - name: Composite traffic model v. 1.0.1 (Analytica)
     authority: Jouni T Tuomisto and Marko Tainio (National Public Health 
       Institute KTL)
@@ -109,6 +127,18 @@ meta:
       and decision analysis.; Attachment: source_material/12889_2005_278_MOESM1_ESM.ana;
       Format: Analytica model (XML); Licensing: CC BY 2.0; Geographic Coverage: Helsinki
       metropolitan area; Date Last Updated: 2005-11-03; Updated by: BioMed Central'
+    edition:
+    target: data_point
+  - name: Cruise remote assistance 2023
+    authority: CNBC / NBC Bay Area
+    url: 
+      https://www.nbcbayarea.com/news/business/money-report/cruise-confirms-robotaxis-rely-on-human-assistance-every-four-to-five-miles/3363333/
+    description: "Cruise confirms robotaxis rely on human assistance every four to
+      five miles (6 Nov 2023): 'roughly 1 remote assistant agent for every 15-20 driverless
+      AVs', remote assistance in session 2-4 % of the time. A company statement.;
+      Attachment: source_material/driverless/cruise_remote_assistance_2023.html; Format:
+      News article; Geographic Coverage: United States; Date Last Updated: 2023-11-06;
+      Updated by: CNBC"
     edition:
     target: data_point
   - name: ESMA carbon markets report 2026
@@ -221,6 +251,16 @@ meta:
       Updated by: Väylävirasto'
     edition:
     target: data_point
+  - name: Waymo remote assistance 2026
+    authority: Futurism
+    url: https://futurism.com/advanced-transport/waymo-remote-operators
+    description: "Waymo's letter to Senator Markey (Feb 2026): about 70 remote assistance
+      agents on duty worldwide at any time, for a fleet of about 3,000 vehicles. A
+      company statement, as reported.; Attachment: source_material/driverless/waymo_remote_operators_2026.html;
+      Format: News article; Geographic Coverage: United States; Date Last Updated:
+      2026-02-01; Updated by: Futurism"
+    edition:
+    target: data_point
   - name: YTV travel survey 2000
     authority: Raimo Valtanen, YTV, in Helsingin seudun suunnat 1/2003
     url: 
@@ -234,20 +274,21 @@ meta:
   index_columns:
   - Year
   - assumption_case
-  updated_at: '1795853920'
+  updated_at: '1795874242'
   units:
-    value_of_statistical_life: EUR/case
-    rush_hour_delay: min/trip
-    parking_place_cost: EUR/pcs/d
-    traffic_volume: dimensionless
-    accident_elasticity: dimensionless
-    accident_cost: EUR/d
-    time_value: EUR/h
-    traffic_speed: km/h
     pm_lethality: case/kg
-    car_share_of_accidents: dimensionless
+    rush_hour_delay: min/trip
     co2_price: EUR/t
-    trips_per_car: trip/vehicle/d
-    congestion_free_reduction: dimensionless
-    ticket_price: EUR/trip
     driver_cost: EUR/vehicle/h
+    time_value: EUR/h
+    car_share_of_accidents: dimensionless
+    value_of_statistical_life: EUR/case
+    remote_operation_share: dimensionless
+    ticket_price: EUR/trip
+    trips_per_car: trip/vehicle/d
+    accident_elasticity: dimensionless
+    traffic_volume: dimensionless
+    parking_place_cost: EUR/pcs/d
+    traffic_speed: km/h
+    congestion_free_reduction: dimensionless
+    accident_cost: EUR/d
