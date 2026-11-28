@@ -1,5 +1,5 @@
 outs:
-- md5: 2a92b117030e2a5b62530fa8b7123416
+- md5: 98486ef539c2bb217ade5286347ede40
   size: 149377
   hash: md5
   path: subsidy_per_trip.parquet
@@ -63,6 +63,6 @@ meta:
   - coverage_level
   - day_period
   - trip_length
-  updated_at: '1795853892'
+  updated_at: '1795874216'
   units:
     subsidy_per_trip: EUR/trip
