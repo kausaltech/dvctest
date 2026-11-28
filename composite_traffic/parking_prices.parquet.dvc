@@ -1,5 +1,5 @@
 outs:
-- md5: e11f14a85d129e64515c75e0f4619f64
+- md5: 5d5be568d68871131b3058510ad8f403
   size: 12500
   hash: md5
   path: parking_prices.parquet
@@ -64,6 +64,6 @@ meta:
   - assumption_case
   - city_zone
   - day_period
-  updated_at: '1795874180'
+  updated_at: '1795878088'
   units:
     parking_price: EUR/trip
