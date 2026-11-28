@@ -1,0 +1,54 @@
+outs:
+- md5: 904d62dfc44e0de2ba92e86a8866b991
+  size: 10543
+  hash: md5
+  path: automation.parquet
+meta:
+  name:
+    en: Automation
+  identifier: composite_traffic/automation
+  metrics:
+  - id: driverless_share
+    column_id: driverless_share
+    quantity: fraction
+    unit: ''
+    label:
+      en: driverless_share
+  sources:
+  - name: Autohaus 2025 VW ID. Buzz AD
+    authority: Autohaus
+    url: 
+      https://www.autohaus.de/nachrichten/autohersteller/vw-zeigt-fahrerlosen-e-bulli-zulassung-ab-2027-angestrebt-3679454
+    description: "VW zeigt fahrerlosen E-Bulli (18 Jun 2025): the ID. Buzz AD would
+      cost 'einen kleinen sechsstelligen Euro-Betrag'; regular service in Hamburg
+      to start in 2027. Industry statements.; Attachment: source_material/driverless/autohaus_vw_id_buzz_ad_2025.html;
+      Format: News article; Geographic Coverage: Germany; Date Last Updated: 2025-06-18;
+      Updated by: Autohaus"
+    edition:
+    target: data_point
+  - name: Composite traffic module plan
+    authority: Jouni Tuomisto, Kausal
+    url:
+    description: 'The rollout paths of composite traffic and the path of driverless
+      composite vehicles decided for the projection (paths-data modules/composite-traffic/docs/plan.md,
+      Round 4; scripts/create_datasets.py, ROLLOUT_PATHS and DRIVERLESS_PATH). Assumptions,
+      not observations.; Format: Plan; Geographic Coverage: Helsinki metropolitan
+      area; Date Last Updated: 2026-11-28; Updated by: Kausal'
+    edition:
+    target: data_point
+  - name: Ministry of Transport and Communications automation memorandum 2024
+    authority: Ministry of Transport and Communications, Finland
+    url: 
+      https://valtioneuvosto.fi/en/-/1410829/memorandum-for-comments-automation-in-road-transport-requires-legislative-amendments
+    description: 'Memorandum for comments (28 Mar 2024): automation in road transport
+      requires legislative amendments; proposes that an automated driving system type-approved
+      in the EU may drive instead of a driver.; Attachment: source_material/driverless/lvm_automation_memorandum_2024.html;
+      Format: Web page; Geographic Coverage: Finland; Date Last Updated: 2024-03-28;
+      Updated by: Finnish Government'
+    edition:
+    target: data_point
+  index_columns:
+  - Year
+  updated_at: '1795874129'
+  units:
+    driverless_share: dimensionless
