@@ -1,6 +1,6 @@
 outs:
-- md5: bb5b1331564922f323959f54900e4923
-  size: 13889
+- md5: bc17c599f6acb12a5dff860e4ec0bc09
+  size: 14308
   hash: md5
   path: cost_allocation.parquet
 meta:
@@ -8,18 +8,18 @@ meta:
     en: Cost allocation
   identifier: composite_traffic/cost_allocation
   metrics:
-  - id: cost_sharing
-    column_id: cost_sharing
-    quantity: fraction
-    unit: ''
-    label:
-      en: cost_sharing
   - id: cost_strength
     column_id: cost_strength
     quantity: fraction
     unit: ''
     label:
       en: cost_strength
+  - id: cost_sharing
+    column_id: cost_sharing
+    quantity: fraction
+    unit: ''
+    label:
+      en: cost_sharing
   sources:
   - name: Composite traffic model v. 1.0.1 (Analytica)
     authority: Jouni T Tuomisto and Marko Tainio (National Public Health 
@@ -63,7 +63,7 @@ meta:
   - cost_element
   - stakeholder
   - travel_mode
-  updated_at: '1795764547'
+  updated_at: '1795853370'
   units:
-    cost_sharing: dimensionless
     cost_strength: dimensionless
+    cost_sharing: dimensionless
