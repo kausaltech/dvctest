@@ -1,5 +1,5 @@
 outs:
-- md5: 32b5a46eee1d94c2371736f5c6ceed3a
+- md5: e509f88ca237b400c39e417fc1fdf4c6
   size: 25704
   hash: md5
   path: trips.parquet
@@ -35,6 +35,6 @@ meta:
   - day_period
   - travel_mode
   - trip_length
-  updated_at: '1795764608'
+  updated_at: '1795853906'
   units:
     trips: trip/d
