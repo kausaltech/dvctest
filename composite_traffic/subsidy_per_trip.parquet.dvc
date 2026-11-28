@@ -1,6 +1,6 @@
 outs:
-- md5: 98486ef539c2bb217ade5286347ede40
-  size: 149377
+- md5: 658ad20d746b293d16374e43b1dc843e
+  size: 288340
   hash: md5
   path: subsidy_per_trip.parquet
 meta:
@@ -15,6 +15,18 @@ meta:
     label:
       en: subsidy_per_trip
   sources:
+  - name: Becker et al. 2018 Basel carsharing
+    authority: Henrik Becker, Francesco Ciari, Kay W. Axhausen (ETH Zürich, IVT)
+    url: https://doi.org/10.1016/j.trd.2018.08.003
+    description: 'Measuring the car ownership impact of free-floating car-sharing
+      - A case study in Basel, Switzerland. Transportation Research Part D 65:51-62
+      (2018). Panel with a control group: -0.08 to -0.13 cars per member household
+      in the first year. Archived: the working paper (IVT Arbeitsbericht 1176).; Attachment:
+      source_material/car_ownership/becker_ciari_axhausen_ethz_ab1176_basel_ffcs_travel_behaviour.pdf;
+      Format: Journal article; Geographic Coverage: Switzerland; Date Last Updated:
+      2018-12-01; Updated by: Elsevier'
+    edition:
+    target: data_point
   - name: Composite traffic model v. 1.0.1 (Analytica)
     authority: Jouni T Tuomisto and Marko Tainio (National Public Health 
       Institute KTL)
@@ -27,6 +39,17 @@ meta:
       metropolitan area; Date Last Updated: 2005-11-03; Updated by: BioMed Central'
     edition:
     target: data_point
+  - name: Composite traffic module plan
+    authority: Jouni Tuomisto, Kausal
+    url:
+    description: 'The rollout paths of composite traffic, the path of driverless composite
+      vehicles and the share of car users giving up their cars decided for the projection
+      (paths-data modules/composite-traffic/docs/plan.md, Round 4; scripts/create_datasets.py,
+      ROLLOUT_PATHS, DRIVERLESS_PATH; reference_decision_analysis.py, car_shedding).
+      Assumptions, not observations.; Format: Plan; Geographic Coverage: Helsinki
+      metropolitan area; Date Last Updated: 2026-11-28; Updated by: Kausal'
+    edition:
+    target: data_point
   - name: HSL travel survey 2023
     authority: Helsinki Region Transport (HSL)
     url: https://www.hsl.fi/en/hsl/research-and-surveys/travelsurvey2023
@@ -35,6 +58,17 @@ meta:
       since hsl.fi refused automated download.; Attachment: source_material/current_2025/hsl_liikkumistutkimus_2023_kulkutapajakaumat.pdf;
       Format: PDF report; Geographic Coverage: Helsinki region; Date Last Updated:
       2024-06-01; Updated by: HSL'
+    edition:
+    target: data_point
+  - name: Martin & Shaheen 2011 carsharing
+    authority: Elliot Martin, Susan Shaheen (UC Berkeley TSRC)
+    url: https://escholarship.org/uc/item/7w58646d
+    description: 'The Impact of Carsharing on Household Vehicle Ownership. ACCESS
+      38 (2011); data as Martin, Shaheen & Lidicker, TRR 2143 (2010). 6,281 North
+      American member households, 2008: vehicles per household 0.47 -> 0.24; carless
+      households 62 % -> 80 %.; Attachment: source_material/car_ownership/martin_shaheen_2011_access38_carsharing_vehicle_ownership.pdf;
+      Format: Journal article; Geographic Coverage: North America; Date Last Updated:
+      2011-03-01; Updated by: UC Berkeley'
     edition:
     target: data_point
   - name: Statistics Finland population 11re
@@ -59,10 +93,11 @@ meta:
   index_columns:
   - Year
   - assumption_case
+  - car_ownership
   - composite_fraction
   - coverage_level
   - day_period
   - trip_length
-  updated_at: '1795874216'
+  updated_at: '1795878114'
   units:
     subsidy_per_trip: EUR/trip
