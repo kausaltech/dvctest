@@ -1,6 +1,6 @@
 outs:
-- md5: a510b34dee551f03ef815ca159a5509c
-  size: 43826
+- md5: 1e3920cb4c4618f2c442d9920a525fb5
+  size: 44030
   hash: md5
   path: vehicle_costs.parquet
 meta:
@@ -8,54 +8,54 @@ meta:
     en: Vehicle costs
   identifier: composite_traffic/vehicle_costs
   metrics:
-  - id: energy_price
-    column_id: energy_price
-    quantity: unit_price
-    unit: €/kWh
-    label:
-      en: energy_price
-  - id: energy_consumption
-    column_id: energy_consumption
-    quantity: energy_factor
-    unit: kWh/vehicle_km
-    label:
-      en: energy_consumption
-  - id: vehicle_price
-    column_id: vehicle_price
-    quantity: unit_price
-    unit: €/v
-    label:
-      en: vehicle_price
-  - id: pm_emission_factor
-    column_id: pm_emission_factor
-    quantity: emission_factor
-    unit: g/vehicle_km
-    label:
-      en: pm_emission_factor
-  - id: automation_premium
-    column_id: automation_premium
-    quantity: unit_price
-    unit: €/v
-    label:
-      en: automation_premium
-  - id: vehicle_lifetime
-    column_id: vehicle_lifetime
-    quantity: duration
-    unit: a
-    label:
-      en: vehicle_lifetime
-  - id: co2_emission_factor
-    column_id: co2_emission_factor
-    quantity: emission_factor
-    unit: g/vehicle_km
-    label:
-      en: co2_emission_factor
   - id: maintenance_cost
     column_id: maintenance_cost
     quantity: mileage_unit_price
     unit: €/vehicle_km
     label:
       en: maintenance_cost
+  - id: vehicle_price
+    column_id: vehicle_price
+    quantity: unit_price
+    unit: €/v
+    label:
+      en: vehicle_price
+  - id: automation_premium
+    column_id: automation_premium
+    quantity: unit_price
+    unit: €/v
+    label:
+      en: automation_premium
+  - id: energy_price
+    column_id: energy_price
+    quantity: unit_price
+    unit: €/kWh
+    label:
+      en: energy_price
+  - id: pm_emission_factor
+    column_id: pm_emission_factor
+    quantity: emission_factor
+    unit: g/vehicle_km
+    label:
+      en: pm_emission_factor
+  - id: co2_emission_factor
+    column_id: co2_emission_factor
+    quantity: emission_factor
+    unit: g/vehicle_km
+    label:
+      en: co2_emission_factor
+  - id: vehicle_lifetime
+    column_id: vehicle_lifetime
+    quantity: duration
+    unit: a
+    label:
+      en: vehicle_lifetime
+  - id: energy_consumption
+    column_id: energy_consumption
+    quantity: energy_factor
+    unit: kWh/vehicle_km
+    label:
+      en: energy_consumption
   sources:
   - name: Autoalan tiedotuskeskus car market review 2025
     authority: Autoalan tiedotuskeskus
@@ -105,11 +105,12 @@ meta:
   - name: Composite traffic module plan
     authority: Jouni Tuomisto, Kausal
     url:
-    description: 'The rollout paths of composite traffic and the path of driverless
-      composite vehicles decided for the projection (paths-data modules/composite-traffic/docs/plan.md,
-      Round 4; scripts/create_datasets.py, ROLLOUT_PATHS and DRIVERLESS_PATH). Assumptions,
-      not observations.; Format: Plan; Geographic Coverage: Helsinki metropolitan
-      area; Date Last Updated: 2026-11-28; Updated by: Kausal'
+    description: 'The rollout paths of composite traffic, the path of driverless composite
+      vehicles and the share of car users giving up their cars decided for the projection
+      (paths-data modules/composite-traffic/docs/plan.md, Round 4; scripts/create_datasets.py,
+      ROLLOUT_PATHS, DRIVERLESS_PATH; reference_decision_analysis.py, car_shedding).
+      Assumptions, not observations.; Format: Plan; Geographic Coverage: Helsinki
+      metropolitan area; Date Last Updated: 2026-11-28; Updated by: Kausal'
     edition:
     target: data_point
   - name: EMEP/EEA Guidebook 2023 tyre, brake and road wear
@@ -252,13 +253,13 @@ meta:
   - Year
   - assumption_case
   - vehicle_class
-  updated_at: '1795874254'
+  updated_at: '1795878140'
   units:
-    pm_emission_factor: g/vkm
     energy_consumption: kWh/vkm
-    energy_price: EUR/kWh
+    automation_premium: EUR/vehicle
+    vehicle_price: EUR/vehicle
     vehicle_lifetime: a
     co2_emission_factor: g/vkm
-    vehicle_price: EUR/vehicle
-    automation_premium: EUR/vehicle
+    pm_emission_factor: g/vkm
+    energy_price: EUR/kWh
     maintenance_cost: EUR/vkm
