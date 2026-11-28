@@ -1,6 +1,6 @@
 outs:
-- md5: 9a5f2ebd41e5223c44f56264c5f5dcbc
-  size: 10446
+- md5: bb617b2b8fbfb7800627865d44900d14
+  size: 10624
   hash: md5
   path: accidents.parquet
 meta:
@@ -54,6 +54,6 @@ meta:
   - Year
   - accident_type
   - assumption_case
-  updated_at: '1795764522'
+  updated_at: '1795853342'
   units:
     accidents: case/a
