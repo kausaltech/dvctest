@@ -1,6 +1,6 @@
 outs:
-- md5: 05f89929871874b3883aa092cb1e5f60
-  size: 37984
+- md5: a510b34dee551f03ef815ca159a5509c
+  size: 43826
   hash: md5
   path: vehicle_costs.parquet
 meta:
@@ -8,48 +8,54 @@ meta:
     en: Vehicle costs
   identifier: composite_traffic/vehicle_costs
   metrics:
-  - id: vehicle_lifetime
-    column_id: vehicle_lifetime
-    quantity: duration
-    unit: a
-    label:
-      en: vehicle_lifetime
-  - id: maintenance_cost
-    column_id: maintenance_cost
-    quantity: mileage_unit_price
-    unit: €/vehicle_km
-    label:
-      en: maintenance_cost
-  - id: vehicle_price
-    column_id: vehicle_price
-    quantity: unit_price
-    unit: €/v
-    label:
-      en: vehicle_price
-  - id: energy_consumption
-    column_id: energy_consumption
-    quantity: energy_factor
-    unit: kWh/vehicle_km
-    label:
-      en: energy_consumption
   - id: energy_price
     column_id: energy_price
     quantity: unit_price
     unit: €/kWh
     label:
       en: energy_price
+  - id: energy_consumption
+    column_id: energy_consumption
+    quantity: energy_factor
+    unit: kWh/vehicle_km
+    label:
+      en: energy_consumption
+  - id: vehicle_price
+    column_id: vehicle_price
+    quantity: unit_price
+    unit: €/v
+    label:
+      en: vehicle_price
   - id: pm_emission_factor
     column_id: pm_emission_factor
     quantity: emission_factor
     unit: g/vehicle_km
     label:
       en: pm_emission_factor
+  - id: automation_premium
+    column_id: automation_premium
+    quantity: unit_price
+    unit: €/v
+    label:
+      en: automation_premium
+  - id: vehicle_lifetime
+    column_id: vehicle_lifetime
+    quantity: duration
+    unit: a
+    label:
+      en: vehicle_lifetime
   - id: co2_emission_factor
     column_id: co2_emission_factor
     quantity: emission_factor
     unit: g/vehicle_km
     label:
       en: co2_emission_factor
+  - id: maintenance_cost
+    column_id: maintenance_cost
+    quantity: mileage_unit_price
+    unit: €/vehicle_km
+    label:
+      en: maintenance_cost
   sources:
   - name: Autoalan tiedotuskeskus car market review 2025
     authority: Autoalan tiedotuskeskus
@@ -73,6 +79,17 @@ meta:
       by: Autoalan tiedotuskeskus'
     edition:
     target: data_point
+  - name: Autohaus 2025 VW ID. Buzz AD
+    authority: Autohaus
+    url: 
+      https://www.autohaus.de/nachrichten/autohersteller/vw-zeigt-fahrerlosen-e-bulli-zulassung-ab-2027-angestrebt-3679454
+    description: "VW zeigt fahrerlosen E-Bulli (18 Jun 2025): the ID. Buzz AD would
+      cost 'einen kleinen sechsstelligen Euro-Betrag'; regular service in Hamburg
+      to start in 2027. Industry statements.; Attachment: source_material/driverless/autohaus_vw_id_buzz_ad_2025.html;
+      Format: News article; Geographic Coverage: Germany; Date Last Updated: 2025-06-18;
+      Updated by: Autohaus"
+    edition:
+    target: data_point
   - name: Composite traffic model v. 1.0.1 (Analytica)
     authority: Jouni T Tuomisto and Marko Tainio (National Public Health 
       Institute KTL)
@@ -83,6 +100,16 @@ meta:
       and decision analysis.; Attachment: source_material/12889_2005_278_MOESM1_ESM.ana;
       Format: Analytica model (XML); Licensing: CC BY 2.0; Geographic Coverage: Helsinki
       metropolitan area; Date Last Updated: 2005-11-03; Updated by: BioMed Central'
+    edition:
+    target: data_point
+  - name: Composite traffic module plan
+    authority: Jouni Tuomisto, Kausal
+    url:
+    description: 'The rollout paths of composite traffic and the path of driverless
+      composite vehicles decided for the projection (paths-data modules/composite-traffic/docs/plan.md,
+      Round 4; scripts/create_datasets.py, ROLLOUT_PATHS and DRIVERLESS_PATH). Assumptions,
+      not observations.; Format: Plan; Geographic Coverage: Helsinki metropolitan
+      area; Date Last Updated: 2026-11-28; Updated by: Kausal'
     edition:
     target: data_point
   - name: EMEP/EEA Guidebook 2023 tyre, brake and road wear
@@ -210,16 +237,28 @@ meta:
       2005-11-25; Updated by: BioMed Central'
     edition:
     target: data_point
+  - name: Wadud 2017 automated vehicle costs
+    authority: Zia Wadud (University of Leeds)
+    url: https://doi.org/10.1016/j.tra.2017.05.005
+    description: 'Fully automated vehicles: A cost of ownership analysis to inform
+      early adoption. Transportation Research Part A 101:163-176 (2017). Automation
+      premium USD 16,600 in 2020 falling to USD 9,800 in 2025 (BCG 2015, 10 % learning
+      rate). Archived: the accepted manuscript.; Attachment: source_material/driverless/wadud_2017_tco_automated_vehicles_accepted.pdf;
+      Format: Journal article; Geographic Coverage: United Kingdom; Date Last Updated:
+      2017-07-01; Updated by: Elsevier'
+    edition:
+    target: data_point
   index_columns:
   - Year
   - assumption_case
   - vehicle_class
-  updated_at: '1795853937'
+  updated_at: '1795874254'
   units:
-    co2_emission_factor: g/vkm
-    vehicle_lifetime: a
     pm_emission_factor: g/vkm
-    vehicle_price: EUR/vehicle
-    energy_price: EUR/kWh
     energy_consumption: kWh/vkm
+    energy_price: EUR/kWh
+    vehicle_lifetime: a
+    co2_emission_factor: g/vkm
+    vehicle_price: EUR/vehicle
+    automation_premium: EUR/vehicle
     maintenance_cost: EUR/vkm
