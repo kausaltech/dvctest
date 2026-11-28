@@ -1,6 +1,6 @@
 outs:
-- md5: 9d401bad1deb20501f21c6052de98381
-  size: 7639
+- md5: a3d4d2c95341bdf978270e31826e98bd
+  size: 7793
   hash: md5
   path: rollout.parquet
 meta:
@@ -18,10 +18,11 @@ meta:
   - name: Composite traffic module plan
     authority: Jouni Tuomisto, Kausal
     url:
-    description: 'The rollout paths of composite traffic decided for the projection
-      (paths-data modules/composite-traffic/docs/plan.md, Round 4; scripts/create_datasets.py,
-      ROLLOUT_PATHS). Assumptions, not observations.; Format: Plan; Geographic Coverage:
-      Helsinki metropolitan area; Date Last Updated: 2026-11-27; Updated by: Kausal'
+    description: 'The rollout paths of composite traffic and the path of driverless
+      composite vehicles decided for the projection (paths-data modules/composite-traffic/docs/plan.md,
+      Round 4; scripts/create_datasets.py, ROLLOUT_PATHS and DRIVERLESS_PATH). Assumptions,
+      not observations.; Format: Plan; Geographic Coverage: Helsinki metropolitan
+      area; Date Last Updated: 2026-11-28; Updated by: Kausal'
     edition:
     target: data_point
   index_columns:
@@ -29,6 +30,6 @@ meta:
   - composite_fraction
   - coverage_level
   - rollout_path
-  updated_at: '1795853861'
+  updated_at: '1795874192'
   units:
     rollout_weight: dimensionless
