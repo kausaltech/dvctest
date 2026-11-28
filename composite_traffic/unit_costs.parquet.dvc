@@ -1,6 +1,6 @@
 outs:
-- md5: b33fff22b59174fdd2dfbf04e9cf3cfb
-  size: 38178
+- md5: 67c2a4957c2c66478278b4e6174522a7
+  size: 40538
   hash: md5
   path: unit_costs.parquet
 meta:
@@ -14,42 +14,48 @@ meta:
     unit: case/kg
     label:
       en: pm_lethality
+  - id: time_value
+    column_id: time_value
+    quantity: unit_price
+    unit: €/h
+    label:
+      en: time_value
+  - id: traffic_speed
+    column_id: traffic_speed
+    quantity: speed
+    unit: km/h
+    label:
+      en: traffic_speed
   - id: parking_place_cost
     column_id: parking_place_cost
     quantity: unit_price
     unit: €/d/pieces
     label:
       en: parking_place_cost
-  - id: accident_elasticity
-    column_id: accident_elasticity
-    quantity: elasticity
-    unit: ''
+  - id: rush_hour_delay
+    column_id: rush_hour_delay
+    quantity: duration
+    unit: min/p
     label:
-      en: accident_elasticity
-  - id: accident_cost
-    column_id: accident_cost
-    quantity: currency
-    unit: €/d
-    label:
-      en: accident_cost
-  - id: co2_price
-    column_id: co2_price
-    quantity: unit_price
-    unit: €/t
-    label:
-      en: co2_price
+      en: rush_hour_delay
   - id: ticket_price
     column_id: ticket_price
     quantity: unit_price
     unit: €/p
     label:
       en: ticket_price
-  - id: driver_cost
-    column_id: driver_cost
+  - id: co2_price
+    column_id: co2_price
     quantity: unit_price
-    unit: €/h/v
+    unit: €/t
     label:
-      en: driver_cost
+      en: co2_price
+  - id: accident_cost
+    column_id: accident_cost
+    quantity: currency
+    unit: €/d
+    label:
+      en: accident_cost
   - id: car_share_of_accidents
     column_id: car_share_of_accidents
     quantity: fraction
@@ -62,42 +68,36 @@ meta:
     unit: ''
     label:
       en: traffic_volume
-  - id: rush_hour_delay
-    column_id: rush_hour_delay
-    quantity: duration
-    unit: min/p
+  - id: accident_elasticity
+    column_id: accident_elasticity
+    quantity: elasticity
+    unit: ''
     label:
-      en: rush_hour_delay
+      en: accident_elasticity
   - id: congestion_free_reduction
     column_id: congestion_free_reduction
     quantity: fraction
     unit: ''
     label:
       en: congestion_free_reduction
-  - id: time_value
-    column_id: time_value
-    quantity: unit_price
-    unit: €/h
-    label:
-      en: time_value
   - id: value_of_statistical_life
     column_id: value_of_statistical_life
     quantity: unit_price
     unit: €/case
     label:
       en: value_of_statistical_life
+  - id: driver_cost
+    column_id: driver_cost
+    quantity: unit_price
+    unit: €/h/v
+    label:
+      en: driver_cost
   - id: trips_per_car
     column_id: trips_per_car
     quantity: rate
     unit: p/d/v
     label:
       en: trips_per_car
-  - id: traffic_speed
-    column_id: traffic_speed
-    quantity: speed
-    unit: km/h
-    label:
-      en: traffic_speed
   sources:
   - name: Composite traffic model v. 1.0.1 (Analytica)
     authority: Jouni T Tuomisto and Marko Tainio (National Public Health 
@@ -168,6 +168,16 @@ meta:
       2026-11-26; Updated by: Statistics Finland'
     edition:
     target: data_point
+  - name: Statistics Finland population projection 14wx
+    authority: Statistics Finland
+    url: https://pxdata.stat.fi/PxWeb/api/v1/fi/StatFin/vaenn/14wx.px
+    description: 'Väestöennuste 2024: population by age and area, 2024-2045. Residents
+      aged 7+ of Helsinki, Espoo, Vantaa and Kauniainen: 1 207 248 in 2025, 1 298
+      132 in 2030, 1 442 568 in 2040, 1 498 198 in 2045.; Format: PxWeb table; Licensing:
+      CC BY 4.0; Geographic Coverage: Helsinki metropolitan area; Date Last Updated:
+      2026-11-27; Updated by: Statistics Finland'
+    edition:
+    target: data_point
   - name: Statistics Finland road traffic accidents 12qh
     authority: Statistics Finland
     url: https://pxdata.stat.fi/PxWeb/api/v1/fi/StatFin/ton/12qh.px
@@ -224,20 +234,20 @@ meta:
   index_columns:
   - Year
   - assumption_case
-  updated_at: '1795764622'
+  updated_at: '1795853920'
   units:
-    accident_elasticity: dimensionless
-    co2_price: EUR/t
-    ticket_price: EUR/trip
-    accident_cost: EUR/d
-    trips_per_car: trip/vehicle/d
-    pm_lethality: case/kg
-    driver_cost: EUR/vehicle/h
-    parking_place_cost: EUR/pcs/d
-    time_value: EUR/h
-    congestion_free_reduction: dimensionless
-    traffic_speed: km/h
-    traffic_volume: dimensionless
     value_of_statistical_life: EUR/case
-    car_share_of_accidents: dimensionless
     rush_hour_delay: min/trip
+    parking_place_cost: EUR/pcs/d
+    traffic_volume: dimensionless
+    accident_elasticity: dimensionless
+    accident_cost: EUR/d
+    time_value: EUR/h
+    traffic_speed: km/h
+    pm_lethality: case/kg
+    car_share_of_accidents: dimensionless
+    co2_price: EUR/t
+    trips_per_car: trip/vehicle/d
+    congestion_free_reduction: dimensionless
+    ticket_price: EUR/trip
+    driver_cost: EUR/vehicle/h
