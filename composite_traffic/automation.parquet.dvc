@@ -1,6 +1,6 @@
 outs:
-- md5: 904d62dfc44e0de2ba92e86a8866b991
-  size: 10543
+- md5: 18ad0ba7995f2fa4499ac7e0ff59e450
+  size: 10747
   hash: md5
   path: automation.parquet
 meta:
@@ -29,11 +29,12 @@ meta:
   - name: Composite traffic module plan
     authority: Jouni Tuomisto, Kausal
     url:
-    description: 'The rollout paths of composite traffic and the path of driverless
-      composite vehicles decided for the projection (paths-data modules/composite-traffic/docs/plan.md,
-      Round 4; scripts/create_datasets.py, ROLLOUT_PATHS and DRIVERLESS_PATH). Assumptions,
-      not observations.; Format: Plan; Geographic Coverage: Helsinki metropolitan
-      area; Date Last Updated: 2026-11-28; Updated by: Kausal'
+    description: 'The rollout paths of composite traffic, the path of driverless composite
+      vehicles and the share of car users giving up their cars decided for the projection
+      (paths-data modules/composite-traffic/docs/plan.md, Round 4; scripts/create_datasets.py,
+      ROLLOUT_PATHS, DRIVERLESS_PATH; reference_decision_analysis.py, car_shedding).
+      Assumptions, not observations.; Format: Plan; Geographic Coverage: Helsinki
+      metropolitan area; Date Last Updated: 2026-11-28; Updated by: Kausal'
     edition:
     target: data_point
   - name: Ministry of Transport and Communications automation memorandum 2024
@@ -49,6 +50,6 @@ meta:
     target: data_point
   index_columns:
   - Year
-  updated_at: '1795874129'
+  updated_at: '1795878055'
   units:
     driverless_share: dimensionless
