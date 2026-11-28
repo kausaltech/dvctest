@@ -1,5 +1,5 @@
 outs:
-- md5: f790596b13e21568ac6fe79e0eedf308
+- md5: 83ee5822314fc80955cec45a1d952f2a
   size: 14308
   hash: md5
   path: cost_allocation.parquet
@@ -63,7 +63,7 @@ meta:
   - cost_element
   - stakeholder
   - travel_mode
-  updated_at: '1795874154'
+  updated_at: '1795878072'
   units:
-    cost_sharing: dimensionless
     cost_strength: dimensionless
+    cost_sharing: dimensionless
